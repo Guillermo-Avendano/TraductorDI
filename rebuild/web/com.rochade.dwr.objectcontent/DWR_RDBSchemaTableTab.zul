@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="DWR View" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<!-- 
+	@author  GC 10/10/2011, created
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+<div use="com.rochade.wa.ui.view.BaseObjectView" sclass="asg-tab-content-div">
+	<grid style="border: 0px; padding: 10px; background: #FFFFFF;">
+		<columns style="background: transparent">
+			<column width="100%" />
+		</columns>
+		<rows id="topGrid" style="background: transparent; " sclass="asg-tableshapes-links">
+			<row id="lSchemaTable" valign="top" align="left" style="border: 0px; background: transparent; padding-top: 10px">
+				<label value="${wtb:l('rim.attr.DWR_RDB_HAS_TABLE_OR_VIEW')}:" sclass="asg-attribute-label-bold" />
+			</row>
+			<row valign="top" align="left" style="border: 0px; background: transparent; padding-top: 10px">
+				<div use="com.rochade.wa.ui.view.TableLinkPropertyView" tableShape="DWR_RDB-Schema-Tables"
+					attributeNames="DWR_RDB_HAS_TABLE_OR_VIEW" id="SchemaTable" viewMenu="DWR_FilterViewMenu" sclass="asg-linklist"
+					relatedId="lSchemaTable" footerVisible="false"/>
+			</row>
+		</rows>
+	</grid>
+</div>

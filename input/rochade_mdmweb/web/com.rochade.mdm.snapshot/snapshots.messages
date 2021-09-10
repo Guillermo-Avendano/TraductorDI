@@ -1,0 +1,22 @@
+﻿#-------------------------------------------------------
+# metaRDM - Message file
+# This is an UTF-8 endcoded file!
+#
+#  Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#-------------------------------------------------------
+snapshot.compare.title=Snapshot Information
+snapshot.compare.snapName=Snapshot name:
+snapshot.compare.snapDescr=Snapshot description:
+snapshot.compare.compareTo=Compare to:
+snapshot.compare.xlsExport=Export to Excel
+snapshot.compare.fileName=delta
+snapshot.compare.sheetName=Delta
+snapshot.compare.currentState=Current State
+snapshot.config.openSnapshot.noPerm=There are no seed items or you don''t have permission to open them
+
+snapshot.content.snapshotType=[Snapshot]
+snapshot.content.seedItems=Seed items of 
+snapshot.content.snapshotContent=Snapshot content
+
+queries.MDM_DCTX2ReferenceData=Reference data items (without scanned data)
+dg.queries.queryRDM1=Reference data item trees without scanned data

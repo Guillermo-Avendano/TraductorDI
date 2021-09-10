@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="Main index search" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<window apply="com.rochade.rir.search.IndexSearchComposer" sclass="asg-search-main-dialog"/>

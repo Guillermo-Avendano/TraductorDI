@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="MDM View" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<!--
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+-->
+<div use="com.rochade.mdm.objectcontent.DataConcept_HierarchyObjectView" width="100%"
+	height="100%">
+	<div style="background:transparent" height="100%">
+		<grid id="gridHierarchy" style="border: 0px; padding: 0; background: #FFFFFF;"
+			apply="com.rochade.mdm.objectcontent.DataConcept_HierarchyTabGridComposer">
+			<columns style="background: transparent">
+				<column width="100%" />
+			</columns>
+			<rows id="topGrid" style="background: transparent; ">
+				<row id="headParent" valign="top" align="left"
+					style="border: 0px; background: transparent; padding: 5px">
+					<hbox>
+						<label value="${wtb:l('DC.ParentHierarchy')} "
+							sclass="asg-attribute-label-bold"/>
+					</hbox>
+				</row>
+				<row id="rowParent" valign="top" align="left" sclass="asg-tableshapes-links"
+					style="border: 0px; background: transparent; padding: 5px">
+					<div
+						use="com.rochade.wa.ui.view.ObjectContentQueryView"
+						width="99%"
+						query="mpath=MDM_ItemView-DCpt-HierarchyTab!depth=99"
+						tableShape="MDM_DCpt-HierList"
+						id="divParent"
+						readOnly="true"
+						viewMenu=""
+						viewType="ItemTree"/>
+				</row>
+				<row id="headChild" valign="top" align="left"
+					style="border: 0px; background: transparent; padding: 5px">
+					<hbox>
+						<label value="${wtb:l('DC.ChildrenHierarchy')} "
+							sclass="asg-attribute-label-bold"/>
+					</hbox>
+				</row>
+				<row id="rowChild" valign="top" align="left" sclass="asg-tableshapes-links"
+					style="border: 0px; background: transparent; padding: 5px">
+					<div
+						use="com.rochade.mdm.ui.view.RDMEmbeddedQueryView"
+						width="99%" 
+						query="mpath=MDM_ItemView-DCpt-HierarchyChild!depth=99"
+						tableShape="MDM_DCpt-HierList"
+						id="divChild"
+						readOnly="true"
+						viewMenu=""
+						viewType="ItemTree"/>
+				</row>
+				<row id="headFilter" valign="top" align="left"
+					style="border: 0px; background: transparent; ">
+					<separator bar="true" orient="horizontal"/>
+				</row>				
+				<row id="rowFilter" valign="top" align="left" sclass="asg-rochade-mdm-objectcontent-dataconcepthierarchytab-contextmenu"
+					style="border: 0px; background: transparent; padding: 5px">
+					<hbox id="hboxFilter" align="center"/>
+				</row>
+				<row id="headParentDetailed" valign="top" align="left"
+					style="border: 0px; background: transparent; padding: 5px">
+					<label
+						value="${wtb:l('DC.ParentHierarchyDetailed')}"
+						sclass="asg-attribute-label-bold" />
+				</row>
+				<row id="rowParentDetailed" valign="top" align="left" sclass="asg-tableshapes-links"
+					style="border: 0px; background: transparent; padding: 5px">
+					<div
+						use="com.rochade.mdm.ui.view.RDMEmbeddedQueryViewHierarchy"
+						width="99%"
+						query="class=com.rochade.mdm.query.Dcpt_DetailedParents"
+						tableShape="MDM_DCpt-HierListCDom"
+						id="divParentDetailed"
+						readOnly="true"
+						viewMenu=""
+						viewType="ItemTree"/>
+				</row>
+				<row id="headChildDetailed" valign="top" align="left"
+					style="border: 0px; background: transparent; padding: 5px">
+					<label
+						value="${wtb:l('DC.ChildrenHierarchyDetailed')} "
+						sclass="asg-attribute-label-bold" />
+				</row>
+				<row>
+				</row>
+				<row id="rowChildDetailed" valign="top" align="left" sclass="asg-tableshapes-links"
+					style="border: 0px; background: transparent; padding: 5px">
+					<div
+						use="com.rochade.mdm.ui.view.RDMEmbeddedQueryViewHierarchy"
+						width="99%"
+						query="class=com.rochade.mdm.query.Dcpt_DetailedChildren"
+						tableShape="MDM_DCpt-HierListCDom"
+						id="divChildrenDetailed"
+						readOnly="true"
+						viewMenu=""
+						viewType="ItemTree"/>
+				</row>
+				<row id="headRecursiveDetailed" valign="top" align="left"
+					style="border: 0px; background: transparent; padding: 5px">
+					<vlayout>
+						<label
+							value="${wtb:l('DC.RecursiveHierarchyDetailed')} "
+							sclass="asg-attribute-label-bold" />
+					</vlayout>
+				</row>
+				<row>
+				</row>
+				<row id="rowRecursiveDetailed" valign="top" align="left" sclass="asg-tableshapes-links"
+					style="border: 0px; background: transparent; padding: 5px">
+					<div
+						use="com.rochade.mdm.ui.view.RDMEmbeddedQueryViewHierarchy"
+						width="99%"
+						query="class=com.rochade.mdm.query.Dcpt_DetailedRecursiveHierarchy"
+						tableShape="MDM_DCpt-HierListCDom"
+						id="divRecursiveDetailed"
+						readOnly="true"
+						viewMenu=""
+						viewType="ItemTree"/>
+				</row>
+			</rows>
+		</grid>
+	</div>
+</div>

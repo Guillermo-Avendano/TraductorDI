@@ -1,0 +1,16 @@
+﻿# metaGlossary - Message file
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+### Icons: all images should be inside of dir /com.rochade.mg.navigator/ + img/, see plugin.xml
+### END Icons
+
+bg.navTree.lbl=Glosario de Negocios
+bg.navTree.tip=Glosario de Negocios
+
+metapp.mg.title=Glosario de Negocios
+# official product title (not to be translated)
+metapp.mg.productTitle=ASG-Enterprise Data Intelligence™ Business Glossary

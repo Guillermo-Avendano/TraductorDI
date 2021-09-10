@@ -1,0 +1,32 @@
+﻿#-------------------------------------------------------													
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.wa.ui.macros
+#
+ 
+#extra icons
+### END Icons
+ 
+TableColumns.select=Selecionar Colunas:
+TableColumns.AvailableColumns=Colunas Disponíveis
+TableColumns.SelectedColumns=Colunas Selecionadas
+TableColumns.combolabel=Ordenação da coluna quando clicar em OK:
+TableColumns.apply=Aplicar
+TableColumns.applyandsave=Aplicar e Salvar
+TableColumns.mandatoryMsg=Colunas marcadas com * não podem ser executadas a partir de uma visão
+
+
+TableColumns.organize=Organizar
+TableColumns.selectall=Selecionar Tudo
+TableColumns.deselect=Desselecionar Tudo
+TableColumns.invert=Inverter Seleção
+TableColumns.format=Formatar Colunas
+
+TableColumns.msg.title=Formato de Colunas
+TableColumns.err.listChanged=O número de colunas selecionadas foi alterado.  A formatação não pode ser continuada.

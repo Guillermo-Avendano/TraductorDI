@@ -1,0 +1,102 @@
+﻿# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#------------------------------ Report Definition (GDP) ------------------------------ 
+### Icons: all images should be inside of dir /com.rochade.gdp.report/ + img/, see plugin.xml
+
+#### ------------------- ONLY report menus and reports ---------------
+PI.lbl=Informacion personal
+PI.tip=Informes de información personal
+PIDetails.lbl=Detalles de información personal
+PIDetails.tip=Informe de detalles de información personal
+PIA.lbl=Evaluación de impacto de privacidad
+PIA.tip=Informes de evaluación de impacto de privacidad
+PIADetails.lbl=Detalles de la evaluación de impacto de privacidad
+PIADetails.tip=Informe de detalles de evaluación de impacto de privacidad
+PIASummary.lbl=Resumen de la evaluación de impacto de la privacidad
+PIASummary.tip=Informe general de evaluación de impacto de privacidad
+PIAMeasures.lbl=Lista de métricas por Evaluación de Impacto de Privacidad
+PIAMeasures.tip=Lista de métricas por el reporte de Evaluación de Impacto de Privacidad
+PIAPersonalInformation.lbl=Información personal por la Evaluación de Impacto de Privacidad
+PIAPersonalInformation.tip=Información personal - reporte de Evaluación de Impacto de Privacidad
+
+#### ------------------- displays ---------------
+gdpSelection=Seleccione información personal por
+gdpSelectionNAME=Nombre
+gdpSelectionSTRUCT=Estructura PI
+gdpSelectionCTX=Contexto
+gdpSelectionGLS=Glosario
+gdpGetDetails=Detailed information
+gdpGetTechnicalData=Implementation information
+gdpGetCascadeData=Cascade information
+
+displPIDetailsTitle=Informe de detalles de información personal
+displItemType=Tipo de ítem
+displItemName=Nombre del ítem
+displTerms=Defined by Business Terms
+displNoTerms=No terms assigned.
+displLastApproverDate=Last approval at
+displLastApproverName=by
+displPIController=Controlador PI
+displPIDataProtectionOfficer=Oficial de protección de datos de PI
+displStructures=Used in Personal Data Structures
+displNoStructures=Not used in any personal data structure.
+displTechData=Implemented Directly or Indirectly as Physical Data Element
+displGDP_PIPDE=Elementos de datos fisicos
+displNoTechData=Not implemented as any physical data element.
+displQName=Nombre Calificado.
+displQualifying=Information Source
+displCascadedData=Cascaded to
+displNoCascadedData=Not cascaded to any element.
+displLinkedTechData=Detected Technical Data
+displNoLinkedTechData=No detected technical data.
+displPIASummaryTitle=Informe general de evaluación de impacto de privacidad
+displGdprGlossary=Registry of Data Processing 
+displGdprContext=Dominio
+displGdprPIA=Nombre de Procesamiento
+displGdprSensiblePI=Usando PI sensible
+displGdprOutsideEU=Envío de datos fuera de la UE
+displGdprRiskSeverity=Severidad de Riesgo
+displGdprRiskLikelihood=Probabilidad de Riesgo
+displGdprApprover=Validado por
+displGdprApproverDate=Fecha validada
+displNoContext=Without Domain
+displPIAMeasureTitle=Lista de métricas por el reporte de Evaluación de Impacto de Privacidad
+displExistingMeasures=Existing Measures
+displPlannedMeasures=Planned Measures
+displMeasure=Medición
+displMeasureType=Tipo de Medida
+displRiskType=Tipo de Fuente de Riesgos
+displPIAPersonalInformationTitle=Información personal - reporte de Evaluación de Impacto de Privacidad
+displPIADetailsTitle=Informe de detalles de evaluación de impacto de privacidad
+displGdprPIALifeCycle=Ciclos de vida de datos y procesos.
+displGdprPIASensiblePI=¿Esta actividad de procesamiento utiliza datos personales?
+displGdprPIAOutsideEU=¿Los datos personales son enviados fuera de la Unión Europea?
+displGdprPIASupportingAssets=¿Cuáles son los activos que soportan el procesamiento de datos personales?
+displGdprPIAPurposes=¿Los propósitos de procesamiento de datos personales especificados son explícitos y legítimos?
+displGdprPIAPolicies=¿Cuáles son las bases legales (políticas) que hacen que el procesamiento de datos personales sea legal?
+displGdprPIAMinimazation=¿Son los datos personales recopilados adecuados, relevantes y limitados a lo que es necesario?
+displGdprPIAAccurate=¿Los datos personales son precisos y actualizados?
+displGdprPIARightOfInformation=¿Cómo se informa a los sujetos de los datos sobre el procesamiento de datos personales?
+displGdprPIARightOfConsent=¿Cómo se obtiene el consentimiento de los sujetos de datos?
+displGdprPIARightOfErasure=¿Cómo pueden los sujetos de datos ejercer su derecho de rectificación y borrado?
+displGdprPIARightOfRestriction=¿Cómo pueden los sujetos de datos ejercer su derecho de restringir y objetar el procesamiento?
+displGdprPIAControlObligations=Are the processor''s obligations clearly identified, and governed through a contract?
+displGdprPIARiskAccess=¿Cuáles son las fuentes de riesgo de acceso a datos no autorizados?
+displGdprPIARiskModification=¿Cuáles son las fuentes de riesgo de modificación no autorizada de datos?
+displGdprPIARiskDisappearance=¿Cuáles son las fuentes de riesgo de pérdida de datos?
+displGdprPIARiskSeverity=¿Cuál es la gravedad estimada del evento de riesgo, considerando los impactos potenciales y los controles planificados?
+displGdprPIARiskLikelihood=¿Cuál es la probabilidad del evento de riesgo, considerando las fuentes de riesgo y los controles planificados?
+displGdprPIAExistingMeasures=Medidas existentes que contribuyen a la seguridad de los datos personales.
+displGdprPIAPlannedMeasures=Medidas previstas que contribuyen a la seguridad de los datos personales.
+displGdprPIAOverview=Visión General
+displGdprPIADataSupport=Datos y activos de apoyo
+displGdprPIANecessity=Proporcionalidad y Necesidad
+displGdprPIARights=Derechos del Sujeto de Datos
+displGdprPIARisks=Fuentes y Evaluación de Riesgos
+displGdprPIAMeasures=Medidas existentes y planificadas
+displGdprPIAApproverDate=Fecha validada

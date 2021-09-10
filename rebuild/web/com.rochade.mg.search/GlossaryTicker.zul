@@ -1,0 +1,46 @@
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<zk>
+	<div id="GlossaryTicker"
+		apply="com.rochade.mg.search.TickerComposer">
+		<hbox width="100%"  align="center" pack="right" sclass="asg-navmenubar-hbox">
+		    <menubar sclass="asg-navmenubar-hor asg-mainmenubar-hor"
+		    	visible="${wtb:check('$PREF_IS_WRITABLE=true')}">
+		        <menuitem id="miConfigure" 
+		        	label="${wtb:l('GlossaryTicker.configure')}" 
+		        	image="${wtb:getImg('GlossaryTicker.img.configure')}"> 
+		        </menuitem>
+		        <menuitem id="miRefresh" 
+		        	label="${wtb:l('GlossaryTicker.refresh')}"
+		        	image="${wtb:getImg('GlossaryTicker.img.refresh')}"> 
+		        </menuitem>
+		    </menubar>
+		</hbox> 
+		<timer id="refreshTimer" forward="onTimer=GlossaryTicker.onRefresh"/>		
+		<div style="padding: 10px">
+			<grid sclass="asg-grid"  span="true" >
+				<columns >
+					<column />
+				</columns>
+				<rows>
+					<row>
+						<label value="${wtb:l('GlossaryTicker.YouHave')}" sclass="asg-label-14-blue" />
+					</row>
+					<row>
+						<button id="btTasks" sclass="asg-button" style="margin-left:20px"/>
+					</row>
+					<row>
+						<label value="${wtb:l('GlossaryTicker.recentChanges')}" sclass="asg-label-14-blue"/>
+					</row>
+			</rows>
+			</grid>
+			<grid sclass="asg-grid-odd asg-portlet-events-tikers"  span="true" >
+				<columns >
+					<column />
+				</columns>
+				<rows id="rowsTicker">
+				</rows>
+			</grid>			
+		</div>
+		
+	</div>		
+</zk>

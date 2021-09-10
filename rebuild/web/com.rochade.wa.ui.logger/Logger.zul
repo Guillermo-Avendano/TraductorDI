@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="Type List title" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<!-- 
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+<window 
+	width="800px" height="500px" border="normal" sclass="asg-log"
+	apply="com.rochade.wa.ui.logger.LoggerComposer" 
+	contentStyle="overflow:auto;position:relative">
+	<borderlayout>
+		<north>
+			<div align="center" style="padding:15px">
+				<label id="headerlabel" sclass="asg-title-label" value="${wtb:l('Logger.title')}"/>
+			</div>
+		</north>
+		<center>
+			<listbox id="loggerListbox" hflex="1" vflex="1">
+				<listhead sizable="true">
+				    <listheader id="loggericon" width="30px"/>
+					<listheader id="loggerdate" width="250px" label="${wtb:l('Logger.date')}"/>
+					<listheader id="loggermsg"  width="1300px" label="${wtb:l('Logger.msg')}"/>
+				</listhead>
+			</listbox>
+		</center>
+		<south height="35px" class="field1" >
+			<hbox width="100%" widths="90%,10%" style="padding:5px">
+			    <button id="btnDownload" width="120px" label="${wtb:l('Logger.download')}" tooltiptext="${wtb:l('Logger.download')}"/>
+			    <button id="btnClose"    width="120px" label="${wtb:l('Logger.close')}" tooltiptext="${wtb:l('Logger.enter')}"/>
+			</hbox>
+    	</south>
+	</borderlayout>
+</window>
+
+

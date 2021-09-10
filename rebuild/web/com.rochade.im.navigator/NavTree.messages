@@ -1,0 +1,38 @@
+﻿#-------------------------------------------------------
+# Issue Management messages
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+metapp.im.title=Issue Management
+# official product title (not to be translated)
+metapp.im.productTitle=ASG-Enterprise Data Intelligence™ Issue Management
+
+Querygroup.titleIM=Issue Management
+Querygroup.titleIM.tip=Issue Management
+
+IM_InWork.img=
+IM_MyIssues.img=
+IM_MyIssueNotifications.img=
+IM_TaskReports.img=
+IM_OpenIssues.img=
+IM_ResolvedIssues.img=
+IM_AdvancedIssueSearch.img=
+
+IM_InWork.lbl=In Work
+IM_InWork.tip=In Work
+IM_MyIssues.lbl=My Issues
+IM_MyIssues.tip=My Issues
+IM_MyIssueNotifications.tip=List My Issue Notifications
+IM_MyIssueNotifications.lbl=My Notifications
+IM_TaskReports.lbl=Issue Reports
+IM_TaskReports.tip=Issue Reports
+IM_OpenIssues.lbl=Open Issues
+IM_OpenIssues.tip=Open Issues
+IM_ResolvedIssues.lbl=Resolved Issues
+IM_ResolvedIssues.tip=Resolved Issues
+IM_AdvancedIssueSearch.lbl=Advanced Issue Search
+IM_AdvancedIssueSearch.tip=Advanced Issue Search
+IssueMan.pathway.img=/com.rochade.im.navigator/img/24x24_IssueManagement.png
+IssueMan.pathway.ico=/com.rochade.im.navigator/img/16x16_IssueManagement.png

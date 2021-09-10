@@ -1,0 +1,94 @@
+Manifest-Version: 1.0
+Implementation-Title: com.rochade.im.rochade_imweb
+Legal-TradeMarks: ASG-Rochade ® is a registered trademark of ASG GmbH
+  & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc.
+Implementation-Version: 9.92.001-0820
+Specification-Vendor: ASG GmbH & Co. KG, a wholly owned subsidiary of 
+ ASG Technologies Group, Inc.
+Gradle-Version: 4.10.2
+Created-By: 1.8.0_144
+Copyright: Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned s
+ ubsidiary of ASG Technologies Group, Inc. All rights reserved.
+Build-date: 20210521145524+0200
+Implementation-Vendor: ASG GmbH & Co. KG, a wholly owned subsidiary of
+  ASG Technologies Group, Inc.
+Build-number: 820
+Specification-Title: ASG-Rochade ® Issue Management
+Specification-Version: 9.92.001
+
+Name: web/com.rochade.im.objectcontent/imObjectContent.messages
+SHA-256-Digest: MPlCOBW9T/ylvoo/4ZO5So7y+0RiEDSAkLucTvJA12E=
+
+Name: web/com.rochade.im.navigator/NavTree.messages
+SHA-256-Digest: 88rykIvL7XX1MvklfxgSDqhsBe9KwHxM3s5DXNfn9QA=
+
+Name: web/com.rochade.im.editormenu/IssueCreateMenu.zul
+SHA-256-Digest: TUbkBLqjKZVo2mEwOfQmRM8y1VPStKwmogCJxIxC+Os=
+
+Name: web/com.rochade.im.objectcontent/BusinessRelevantItemIssuesTab.z
+ ul
+SHA-256-Digest: 9qTClFsW444rfkOksfO9aaQQMFt3Y0SuV6kMdKyxu6A=
+
+Name: web/com.rochade.im.editormenu/IssueEditorMenu.zul
+SHA-256-Digest: 1xVaZjEz3RAxnVV0JwKL5Dg+3xjA9oUt1hs5fhFbdxA=
+
+Name: web/com.rochade.im.navigator/img/24x24_IssueManagement.png
+SHA-256-Digest: 30BFxjflkU32Mqzy1GmI4vchScdVTKhb6i1ygLxr+J4=
+
+Name: web/com.rochade.im.navigator/IssueEntryQuery.zul
+SHA-256-Digest: Nvux+kXsyLcjurPwKwMrOYI3fRlr2jZbEg0fhHD1eTk=
+
+Name: web/com.rochade.im.objectcontent/IssueAttachmentsTab.zul
+SHA-256-Digest: KdCIWuel2v76L+1CCFeffVrD8+podEaKKvTFlMBwTrI=
+
+Name: web/com.rochade.im.ctxmenu/IM_IssuePopup.zul
+SHA-256-Digest: NEVvlV+ltSEYt7uHAKEYzljJDns0wD9sqjooEn7E5yw=
+
+Name: web/com.rochade.im.navigator/img/16x16_IssueManagement.png
+SHA-256-Digest: bWJ6HkI7zzLvwihz9y/SUdbh6HzX4pGbrpp7/cYG6zQ=
+
+Name: web/com.rochade.im.navigator/EntryTopicIM.zul
+SHA-256-Digest: 4f6sNv1xN4Nh4QPgMWCTPwPVNsaf2C2EYF1xmcqWDvo=
+
+Name: web/com.rochade.im/imWeb.messages
+SHA-256-Digest: /EZZeZy9VQ2Bo3juqoPVjLIyPElcXwXT4U1g0RG7abQ=
+
+Name: web/com.rochade.im.objectcontent/IssueGeneralTab.zul
+SHA-256-Digest: a6Q24F4z6NsS9cn6V/2NDXSqXNchxCN1kTV+eglJblo=
+
+Name: web/com.rochade.im.comp.issue/imCompIssue.messages
+SHA-256-Digest: DJagIiNmXihM14o9BiFMYxCCOzTxtg7QTMmmI/SKt4A=
+
+Name: web/com.rochade.im.domain/imDomain.messages
+SHA-256-Digest: Jhur7Kuotlmn/jUAPt3ho8Wxw1E/vWgTkxJnEam+5wI=
+
+Name: web/com.rochade.im.query/imQuery.messages
+SHA-256-Digest: kYcbnH7WO3j60LBiCPHU+KT+P/coQWwoKyKo/YYrsWw=
+
+Name: web/com.rochade.im.objectcontent/IssueCommentTab.zul
+SHA-256-Digest: F0oi57HbIlmH8eGSIeGW7eAtjmaQgNlA84SuCdQkUZg=
+
+Name: web/com.rochade.im.ctxmenu/IM_CreateIssuePopup.zul
+SHA-256-Digest: 6sasSl3JCCc9maksoXM5V9UlTOYVuJ1Exx/KR+6saIQ=
+
+Name: web/com.rochade.im.actions/imAction.messages
+SHA-256-Digest: dnAlkplbapcJf+a/RoYh9+3rhu+q0iqKlcXl4Ai0HqE=
+
+Name: web/com.rochade.im.capabilities/imCapabilities.messages
+SHA-256-Digest: YzFPVp2ojiwsHFFAxWaJFIIWuRDDer++oXNDakZ7GXY=
+
+Name: web/com.rochade.im.workflow/IssueWfDialog.zul
+SHA-256-Digest: FpAJSi8Vr1lwpMygmkQqoqmkrkU6/N2djRA4GY/5otg=
+
+Name: web/com.rochade.im.workflow/imWorkflow.messages
+SHA-256-Digest: GSoxSC58NPIMa0mxtJr28tRUomF949o/4DHMy2oomDc=
+
+Name: web/com.rochade.im.comp.issue/AdvancedIssuesFilter.zul
+SHA-256-Digest: MWUWlgKAG4dkEHnSbUEJV9VBZDn6VYZaBY5/hPdl+dc=
+
+Name: web/com.rochade.im.objectheader/ObjectHeader.zul
+SHA-256-Digest: T7slcFwHHO0saAxW/G1UFW3zIqCHLuT0qiGqWAAK8DU=
+
+Name: web/com.rochade.im.editormenu/EditorMenuExt_im.zul
+SHA-256-Digest: UT5a5I/u5oTBEmoEHHuvBa8QA2mIr89PfTrx79+iZRI=
+

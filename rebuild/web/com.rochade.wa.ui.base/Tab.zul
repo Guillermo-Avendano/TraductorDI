@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="Tabs" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<!-- 
+	@author HO 03/10/2010, created
+			SA 07/19/2010 added context menu popup
+			HG 08/26/2010, add minimize-max function
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+<window id="tabWindow" border="none" height="100%" width="100%" style="padding:0px;"
+    apply="com.rochade.wa.ui.base.TabComposer">
+	<tabbox id="tabbox" height="100%" style="background-color: ${wtb:l('background-color-borderlayout')}">
+		<tabs id="tabs" sclass="asg-maintab" />
+		<tabpanels id="tabpanels"/>
+	</tabbox>
+    <menupopup id="tabPopup">
+	    <menuitem id="popClose" label="${wtb:l('Tab.menuitem.close')}"/>
+	    <menuitem disabled="true" id="popCloseOthers" label="${wtb:l('Tab.menuitem.closeothers')}" />
+	    <menuitem id="popCloseAll" label="${wtb:l('Tab.menuitem.closeall')}"/>
+    </menupopup>
+</window>

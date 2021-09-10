@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="Item View" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="http://www.zkoss.org/dsp/web/core" prefix="c" ?>
+<!-- 
+	Dialog to enter submision comment 
+	@version 1.00.001
+	TODO: who use this? SubmissionComposer is not exist.
+-->
+<!-- Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. -->
+<zk>
+	<window id="win" border="normal" width="510px" maximizable="false"
+		minimizable="false" closable="false"
+		apply="com.rochade.wa.workflow.submission.SubmissionComposer">
+		<caption image="${wtb:l('icon.search')}"
+			label="${wtb:l('SubmissionComment.title')}" />
+		<div style="padding: 5px">	
+			<label
+				value="${wtb:l('SubmissionComment.msg')}"
+				sclass="bg-darkgrey-label" />
+			<textbox id="txtComment" rows="3"
+		             width="99%" value="@{parameters.comment}" 
+					 style="margin-top: 5px"/>
+			<div align="right" style="margin:10px">
+					<button id="btOK" disabled="true"
+							sclass="asg-button" label="OK" image=""
+							style=" margin: 0px 10px 0px 0px;"
+							forward="onClick=onOK">
+					</button>
+					<label id="busyMsg" visible="false"
+						   value="${c:l('bg_DialogAll.msg.search.busy')}" />
+					<button id="btCancel"
+							sclass="asg-button"
+							label="${wtb:l('Button.cancel')}" image=""
+							forward="onClick=onCancelClicked" />
+							
+
+							
+			</div>
+		</div>					
+	</window>
+</zk>

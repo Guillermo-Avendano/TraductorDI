@@ -1,0 +1,428 @@
+﻿# metaGlossary - Message file
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.dg.workflow
+#
+
+### Icons: all images should be inside of dir /com.rochade.dg.workflow/ + img/, see plugin.xml
+
+#extra icons
+#workflow.img.glo=/com.rochade.dg.workflow/img/16x16_glossary.png
+#workflow.img.itemList=/com.rochade.mg.workflow/img/16x16_mg_itemlist.png
+
+## WARNING: these keys also used inside cellrenderer/RwfTitleCellRenderer.java
+##          and there's no way to separate and define similar key in cellrenderer's own message file
+rwf_DG_GI_REVIEW_TASK_CREATED.img=/com.rochade.dg.workflow/img/TaskReminder16.png 
+
+rwf_WIP_TX_REVIEW_TASK_CREATED.img=/com.rochade.dg.workflow/img/TaskReminder16.png 
+### END Icons
+
+############ Notification/Task Dialog (BaseNotificationDialogComposer) ################
+#
+DG_NotificationList.IsTask.true=Tarea
+DG_NotificationList.IsTask.false=Notificación
+
+rwf_DG_GI_MODIFIED.title=Solicitud de Aprobación
+rwf_DG_GI_MODIFIED_MAIL.title=Solicitud de Aprobación
+rwf_DG_GI_CREATED.title=Solicitud de Aprobación
+rwf_DG_GI_CREATED_MAIL.title=Solicitud de Aprobación
+rwf_DG_GI_TASK_APPROVED.title=Solicitud Aprobada
+rwf_DG_GI_TASK_REJECTED.title=Solicitud Rechazada
+rwf_DG_GI_TASK_REACTIVATED.title=Continuar Solicitud
+rwf_DG_GI_TASK_REASSIGNED.title=Solicitud devuelta
+rwf_DG_GI_TASK_REMINDER.title=Recordatorio
+rwf_DG_GI_REVIEW_TASK_CREATED.title=Solicitud de revisión
+rwf_DG_GI_REVIEW_TASK_COMPLETED.title=Revisión completa
+
+rwf_WIP_TX_CREATED.title=Revisión de solicitud
+rwf_WIP_TX_CREATED_MAIL.title=Revisión de solicitud
+rwf_WIP_TX_ING_TIME_CHANGE.title=Borrador - Injestión externa
+rwf_WIP_TX_MOD_TIME_CHANGE.title=Borrador - contenido modificado.
+rwf_WIP_TX_REVIEW_TASK_CREATED.title=Solicitud de revisión
+rwf_WIP_TX_REVIEW_TASK_COMPLETED.title=Revisión completa
+rwf_WIP_TX_TASK_APPROVED.title=Borrador Aprobado
+rwf_WIP_TX_TASK_REJECTED.title=Borrador - Rechazado
+rwf_WIP_TX_TASK_DISMISSED.title=Borrador - Descartado
+
+############ Notification/Task Dialog (Task Dialog, StatusCellRenderer) ################
+#
+rwf_status_APPROVED=Aprobado
+rwf_status_REJECTED=Rechazado
+rwf_status_READY=Listo para aprobar
+rwf_status_WAITING=En espera
+rwf_status_CLOSEDBYROLLBACK=Cerrado por vuelta atrás
+rwf_status_CLOSEDBYRESET=Cerrado por reestablecer
+rwf_status_CLOSEDBYCANCEL=Cerrado por cancelar
+
+# active workflow, waiting for a User Task to be completed
+rwf_task_status_WAITING_FOR_INPUT.label=En espera por ingreso
+rwf_task_status_WAITING_FOR_INPUT.actionMessage=
+rwf_task_status_WAITING_FOR_INPUT.actionWarning=
+
+# active workflow, waiting for a Service Task to be completed 
+rwf_task_status_RUNNING.label=Ejecutando
+rwf_task_status_RUNNING.ActionMessage=There are jobs running in background. The task can be processed when they have finished.
+rwf_task_status_RUNNING.ActionWarning=
+
+# same as running, but Service Task is retried automatically because of temporary errors (e. g. BgWebServices unavailable)
+rwf_task_status_RUNNING_WITH_ERRORS.label=Ejecutando (problemas temporarios)
+rwf_task_status_RUNNING_WITH_ERRORS.ActionMessage=There are jobs running in background. The task can be processed when they have finished.
+rwf_task_status_RUNNING_WITH_ERRORS.ActionWarning=La ejecución de jobs en segundo plano falló temporariamente, y se reintantará en {0} minutos.
+
+# process instance is paused because of errors, tasks are not automatically retried (instance has incidents), manual retry of failed jobs necessary
+rwf_task_status_PAUSED.label=Pausado (problemas no temporarios)
+rwf_task_status_PAUSED.ActionMessage=Before this task can be processed background jobs have to finish successfully.
+rwf_task_status_PAUSED.ActionWarning=The jobs detected non-temporary problems and must be retried after the error has been fixed.  
+
+# no process instance && RWF task item completed (everything fine)
+rwf_task_status_COMPLETED.label=Completado
+rwf_task_status_COMPLETED.ActionMessage=
+rwf_task_status_COMPLETED.ActionWarning=Tarea cerrada. No se requiere acción adicional.
+
+# no process instance && RWF task item completed (recovery/migration necessary (see logs for additional hints) or task should be closed manually
+rwf_task_status_WAITING_FOR_RECOVERY.label=En espera por recuperación
+rwf_task_status_WAITING_FOR_RECOVERY.ActionMessage=
+rwf_task_status_WAITING_FOR_RECOVERY.ActionWarning=Esta es una tarea estancada. No pudo ser recuperada o migrada automáticamente. Por favor, verifique los archivos de Log para mas detalles. Si la recuperación no está destinado a un usuario privilegiado puede cancelar la tarea.
+
+############ RwfActionCellRenderer ################
+#
+rwf_action_DG_GI_CREATED=Creado
+rwf_action_DG_GI_CREATED_MAIL=Creado
+rwf_action_DG_GI_MODIFIED=Modificación
+rwf_action_DG_GI_MODIFIED_MAIL=Modificación
+rwf_action_DG_GI_TASK_APPROVED=Aprobado
+rwf_action_DG_GI_TASK_REACTIVATED=Reactivado
+rwf_action_DG_GI_TASK_REJECTED=Rechazado
+rwf_action_DG_GI_TASK_REASSIGNED=Devuelto
+rwf_action_DG_GI_TASK_REMINDER=Recordatorio
+rwf_action_DG_GI_REVIEW_TASK_CREATED=Solicitud de revisión
+rwf_action_DG_GI_REVIEW_TASK_COMPLETED=Revisión completa
+
+rwf_action_WIP_TX_CREATED=Requiere Ingesta de datos
+rwf_action_WIP_TX_CREATED_MAIL=Requiere Ingesta de datos
+rwf_action_WIP_TX_REVIEW_TASK_CREATED=Solicitud de revisión
+rwf_action_WIP_TX_REVIEW_TASK_COMPLETED=Revisión completa
+rwf_action_WIP_TX_TASK_APPROVED=Aprobado
+rwf_action_WIP_TX_TASK_REJECTED=Rechazado
+rwf_action_WIP_TX_TASK_DISMISSED=Descartado
+rwf_action_WIP_TX_ING_TIME_CHANGE=Restablecer (ingestión externa)
+rwf_action_WIP_TX_MOD_TIME_CHANGE=Restablecer (contenido modificado)
+
+# Workflow Resources (bpmn files)
+rwf_action_CREATE=Crear
+rwf_action_CREATE.desc=Crear la aprobación
+rwf_action_APPROVE=Aprobar
+rwf_action_APPROVE.desc=Aceptar los cambios y cerrar la tarea
+rwf_action_REJECT=Rechazar
+rwf_action_REJECT.desc=Rechazar los cambios y cerrar la tarea
+rwf_action_REASSIGN=Volver
+rwf_action_REASSIGN.desc=Devolver la tarea al solicitante
+rwf_action_REACTIVATE=Continuar
+rwf_action_REACTIVATE.desc=Continuar el proceso de aprobación
+rwf_action_DELEGATE_USER=Delegar al usuario
+rwf_action_DELEGATE_USER.desc=Delegar la tarea a otro usuario
+rwf_action_DELEGATE_ROLE=Delegate to group
+rwf_action_DELEGATE_ROLE.desc=Delegate the task to group 
+rwf_action_WIP_APPROVE=Confirmar el Borrador a Producción
+rwf_action_WIP_APPROVE.desc=Confirmar el Borrador a Producción
+rwf_action_WIP_REJECT=Rechazar Borrador como incompleto
+rwf_action_WIP_REJECT.desc=Rechazar Borrador como incompleto (mantener contenido)
+rwf_action_WIP_DISMISS=Descartar Datos del Borrador
+rwf_action_WIP_DISMISS.desc=Descartar datos del Borrador (borrar contenido)
+# these actions are only logged from workflow, so no .desc necessary
+rwf_action_WIP_RESTART_ING_TIME_CHANGE=Restablecer (ingestión externa)
+rwf_action_WIP_RESTART_MOD_TIME_CHANGE=Restablecer (modificación de contenido)
+
+############ History View ################
+#
+bt_state_READY=Listo
+bt_state_MODIFIED=Modificado
+bt_state_SUBMITTED=Enviado a Control
+bt_state_REASSIGNED=Devuelto
+bt_state_CREATED=Nuevo
+bt_state_REMOVED=Marcado para borrar
+bt_state_REJECTED=Rechazado
+bt_state_PENDING=Pendiente
+
+bt_state_MODIFIED-PENDING=Modificado (pendiente)
+bt_state_SUBMITTED-PENDING=Enviado a control (Pendiente)
+bt_state_REASSIGNED-PENDING=Devuelto (pendiente)
+bt_state_CREATED-PENDING=Nuevo (pendiente)
+bt_state_REJECTED-PENDING=Rechazado (pendiente)
+
+bt_state_APPROVE-PENDING=Aprobar (pendiente)
+bt_state_REJECT-PENDING=Rechazar (pendiente)
+
+# this is a format string combining item and workflow status
+bt_state_itemState_wfState={0} ({1})
+
+############ Task Dialog (TaskDialog.zul) ################
+#
+dg_TaskDialog.norights=La tarea está en espera de aprobación de otro usuario.
+dg_TaskDialog.noComparison=No hay informacion de comparación disponible para la tarea.
+dg_TaskDialog.description=Descripción
+dg_TaskDialog.status=Estado
+dg_TaskDialog.status:=Estado:
+dg_TaskDialog.waitingforusers=En espera por usuarios:
+dg_TaskDialog.loading=Cargando…
+dg_TaskDialog.thistaskisclosed=Tarea cerrada. No se requiere acción adicional.
+dg_TaskDialog.comment=Comentario:
+dg_TaskDialog.doyouapprovethistask=Seleccionar una Acción:
+dg_TaskDialog.button.submit=Enviar a Control
+dg_TaskDialog.comparison=Comparación
+dg_TaskDialog.author=Autor:
+dg_TaskDialog.date=Fecha:
+dg_TaskDialog.attributes=Atributos:
+dg_TaskDialog.moredetails=Mas detalles…
+dg_TaskDialog.openItemTypeParam=...click aquí para abrir {0}
+dg_TaskDialog.details=...click aquí para mostrar detalles de la modificación
+dg_TaskDialog.actionlist=Lista de acciones
+#dg_TaskDialog.synch.msg=La acción solicitada no puedo ser completada. El estado de la solicitud de aprobación ha cambiado. Puede reabrir la solicitud para mostrar el nuevo estado.
+dg_TaskDialog.jobException=La útlima ejecución del job con id {0} falló con mensaje de error {1}
+dg_TaskDialog.status.Requestedby:=Solicitado por:
+dg_TaskDialog.status.Assignee:=Asignado:
+dg_TaskDialog.status.Completedby:=Completado por:
+dg_TaskDialog.status.GovernedItem:=Ítem Gobernado
+dg_TaskDialog.status.GoverningContext:=Governing context:
+
+dg_TaskDialog.CurrentAction=Acción actual:
+dg_TaskDialog.rename=Renombrado {0} a {1} {2}
+dg_TaskDialog.multilanguage.change=Cambiar atributos del idioma {0}
+dg_TaskDialog.bpmnDiagram=Diagrama BPMN
+
+dg_TaskDialog.info.retryDone=The failed job will be retried in background. Please use the refresh button to reload the task status. 
+
+dg_WipTxTaskDialog.WorkInProgress=Trabajo en progreso
+dg_WipTxTaskDialog.startReview.lbl=Iniciar revisión
+dg_WipTxTaskDialog.startReview.tip=Iniciar revisión
+dg_WipTxTaskDialog.error.completeTask.wipLocked=La tarea no se puede completar porque el Borrador está bloqueado actualmente (revisión activa, o en ingestión).
+
+################ Notification Dialog (NotificationDialog.zul) ################
+#
+dg_NotificationDialog.button.opencorrespondingtask=Abrir Tarea
+dg_NotificationDialog.button.removenotification=Eliminar Notificación
+dg_NotificationDialog.description=Descripción
+dg_NotificationDialog.status=Estado
+dg_NotificationDialog.button.openItemTypeParam=...click aquí para abrir {0}
+dg_NotificationDialog.IsTask.true=Tarea
+dg_NotificationDialog.IsTask.false=Notificación
+dg_NotificationDialog.tooltip=Notificaciones
+dg_NotificationDialog.noLinkedItemMsg=El ítem gobernado no existe o no tiene permisos para accederlo.
+dg_NotificationDialog.status.GovernedItem:=Ítem Gobernado
+
+
+################ Search for completed tasks (CompletedTasksFilter.zul) ################
+#
+dg_CompletedTasksFilter.windowheader=Buscar Tareas Terminadas
+dg_CompletedTasksFilter.numberofdays=Número de días desde la terminación:
+dg_CompletedTasksFilter.button.cancel=Cancelar
+dg_CompletedTasksFilter.button.search=Buscar
+dg_CompletedTasksFilter.outofrange=El número de días especificado está fuera de rango. Debe especificar un número entre 0 y {0}.
+
+
+################ Advanced task search (AdvancedTasksFilter.zul) ################
+#
+dg_AdvancedTasksFilter.windowheader=Buscar Tareas
+dg_AdvancedTasksFilter.startdate=Fecha de Inicio
+dg_AdvancedTasksFilter.enddate=Fecha de Fin:
+dg_AdvancedTasksFilter.completed=Completado:
+dg_AdvancedTasksFilter.requestedby=Solicitado por usuario:
+dg_AdvancedTasksFilter.completedby=Completado por el usuario
+dg_AdvancedTasksFilter.governedItem=Ítem Gobernado
+dg_AdvancedTasksFilter.result=Resultado:
+dg_AdvancedTasksFilter.button.cancel=Cancelar
+dg_AdvancedTasksFilter.button.search=Buscar
+dg_AdvancedTasksFilter.true=Si
+dg_AdvancedTasksFilter.false=NO
+dg_AdvancedTasksFilter.approved=Aprobado
+dg_AdvancedTasksFilter.rejected=Rechazado
+
+################ Search for open tasks (PendingTasksFilter.zul) ################
+#
+dg_PendingTasksFilter.windowheader=Buscar Tareas Abiertas
+dg_PendingTasksFilter.button.cancel=Cancelar
+dg_PendingTasksFilter.button.search=Buscar
+
+dg_DialogAll.msg.search.busy=Ejecutando Búsqueda
+dg_SearchGeneral.datecheck.failed=Filtro de fecha inválido. La fecha de fin no puede estar antes que la fecha de inicio.
+dg_TasksFilter.searchIn=Buscar en:
+dg_TaskSearch.label.allGovernedContexts=Todos los contextos gobernados
+dg_Search.button.cleardates=Borrar Fechas
+dg_Search.cleardates.tooltip=Borrar Fechas
+
+################ Search for items in progress (ItemsInProcessFilter.zul) ################
+#
+dg_ItemsInProcessFilter.state=Estado:
+dg_ItemsInProcessFilter.contexts=Contexts:
+dg_ItemsInProcessFilter.windowheader=Búsqueda de ítems gobernados en proceso
+dg_ItemsInProcessFilter.button.cancel=Cancelar
+dg_ItemsInProcessFilter.button.search=Buscar
+dg_ItemsInProcessFilter.searchresult.title=Governed Items in Process
+
+dg_ItemsInProcessFilter.state.all=Todo
+dg_ItemsInProcessFilter.label.allContexts=All Contexts
+
+rbr_TaskSearch.label.allGovernedContexts=Work in Progress contexts
+
+################ Messages from RWF/TEMPLATEs ################
+#
+DgItemCreated.title=Solicitud enviada a control para la Creación de [$item.MappedType] [$item.name]
+DgItemCreated.footer=Click <a href="[$notification.link]">aqu&iacute;</a> para abrir la notificaci&oacute;n.
+DgItemCreated.body=Se ha enviado a control una solucitud de creación para [$item.MappedType] [$item.name].
+DgItemCreated.mail_body=Se envi&oacute; a control una solucitud de creaci&oacute;n para [$item.MappedType] <a href="[$item.link]">[$item.name]</a>.<br/><br/>\nSolicitado por: <a href="[$author.link]">[$author.DEFINITION]</a><br/><br/>
+
+DgItemModified.title=Solicitud enviada a control para la Modificación de [$item.MappedType] [$item.name]
+DgItemModified.footer=Click <a href="[$notification.link]">aqu&iacute;</a> para abrir la notificaci&oacute;n.
+DgItemModified.body=Se ha enviado a control una solucitud de modificación para [$item.MappedType] [$item.name].
+DgItemModified.mail_body=Se ha enviado a control una solucitud de modificaci&oacute;n para [$item.MappedType] <a href="[$item.link]">[$item.name]</a>.<br/><br/>\nSolicitado por: <a href="[$author.link]">[$author.DEFINITION]</a><br/><br/>
+
+DgTaskApproved.title=Solicitud Aprobada para [$item.MappedType] [$item.name]
+DgTaskApproved.footer=Click <a href="[$notification.link]">aqu&iacute;</a> para abrir la notificaci&oacute;n.
+DgTaskApproved.body=La solicitud de cambio de [$item.MappedType] [$item.name] fue aprobada.\n\nSolicitada por: [$author.DEFINITION]\nAprobada por: [$history.RWF/COMPLETED-BY.DEFINITION]\nComentarios: [$comment]
+DgTaskApproved.mail_body=La solicitud de cambio de [$item.MappedType] <a href="[$item.link]">[$item.name]</a> fue aprobada.<br/><br/>\nSolicitada por: <a href="[$author.link]">[$author.DEFINITION]</a><br/>\nAprobada por: <a href="[$actionBy.link]">[$actionBy.DEFINITION]</a><br/>\nComentarios: [$comment]<br/><br/>\nClick <a target="right" href="[$history.link]">aqu&iacute;</a>para abrir la tarea.<br/>
+
+DgTaskReactivated.title=Solicitud Continuada para [$item.MappedType] [$item.name]
+DgTaskReactivated.footer=Click <a href="[$notification.link]">aqu&iacute;</a> para abrir la notificaci&oacute;n.
+DgTaskReactivated.body=La solicitud de cambio de [$item.MappedType] [$item.name] fue continuada.\n\nSolicitada por: [$author.DEFINITION]\nContinuada por: [$actionBy.DEFINITION]\nComentarios: [$comment]
+DgTaskReactivated.mail_body=La solicitud de cambio de [$item.MappedType] <a href="[$item.link]">[$item.name]</a> fue continuada.<br/><br/>\nSolicitada por: <a href="[$author.link]">[$author.DEFINITION]</a><br/>\nContinuada por: <a href="[$actionBy.link]">[$actionBy.DEFINITION]</a><br/>\nComentarios: [$comment]<br/><br/>
+
+DgTaskReassigned.title=Solicitud Devuelta para [$item.MappedType] [$item.name]
+DgTaskReassigned.footer=Click <a href="[$notification.link]">aqu&iacute;</a> para abrir la notificaci&oacute;n.
+DgTaskReassigned.body=La solicitud de cambio de [$item.MappedType] [$item.name] fue devuelta. Por favor, enviar a control una versión actualizada para aprobación.\n\nSolicitada por: [$author.DEFINITION]\nDevuelta por: [$actionBy.DEFINITION]\nComentarios: [$comment]
+DgTaskReassigned.mail_body=La solicitud de cambio de [$item.MappedType] <a href="[$item.link]">[$item.name]</a> fue devuelta. Por favor, enviar a control una versi&oacute;n actualizada para aprobar .<br/><br/>\nSolicitada por: <a href="[$author.link]">[$author.DEFINITION]</a><br/>\nDevuelta por: <a href="[$actionBy.link]">[$actionBy.DEFINITION]</a><br/>\nComentarios: [$comment]<br/><br/>
+
+DgTaskRejected.title=Solicitud Rechazada para [$item.MappedType] [$item.name]
+DgTaskRejected.footer=Click <a href="[$notification.link]">aqu&iacute;</a> para abrir la notificaci&oacute;n.
+DgTaskRejected.body=La solicitud de cambio de [$item.MappedType] [$item.name] fue rechazada.\n\nSolicitada por: [$author.DEFINITION]\nRechazada por: [$history.RWF/COMPLETED-BY.DEFINITION]\nComentarios: [$history.RWF/COMMENT1]\n
+DgTaskRejected.mail_body=La solicitud de cambio de [$item.MappedType] <a target="right" href="[$item.link]">[$item.name]</a> fue rechazada.<br/><br/>\nSolicitada por: <a href="[$author.link]">[$author.DEFINITION]</a><br/>\nRechazada por: <a href="[$actionBy.link]">[$actionBy.DEFINITION]</a><br/>\nComentarios: [$comment]<br/><br/>\nClick <a target="right" href="[$history.link]">aqu&iacute;</a>para abrir la tarea.<br/>
+
+DgTaskReminder.title=Por favor, tomar acción sobre la solicitud para [$item.MappedType] [$item.name]
+DgTaskReminder.footer=Click <a href="[$notification.link]">aqu&iacute;</a> para abrir la notificaci&oacute;n.
+DgTaskReminder.body=Por favor, tomar acción sobre la solicitud de cambio de [$item.MappedType] [$item.name].\n\nComentarios: [$comment]
+DgTaskReminder.mail_body=Por favor, tomar acci&oacute;n sobre la solicitud de cambio de [$item.MappedType] <a target="right" href="[$item.link]">[$item.name]</a>.<br/><br/>\nComentarios: [$comment]<br/><br/>\nClick <a target="right" href="[$history.link]">aqu&iacute;</a>para abrir la tarea.<br/>
+
+DgReviewTaskCreated.title=Revisar Tarea Creada para [$item.MappedType] [$item.name]
+DgReviewTaskCreated.footer=Click <a href="[$notification.link]">aqu&iacute;</a> para abrir la notificaci&oacute;n.
+DgReviewTaskCreated.body=Se creó una tarea de revisión para [$item.MappedType] [$item.name].\n\nSolicitado por: [$author.DEFINITION]\n
+DgReviewTaskCreated.mail_body=Se cre&oacute; una tarea de revisi&oacute;n para [$item.MappedType] <a target="right" href="[$item.link]">[$item.name]</a>.<br/><br/>\nSolicitado por: <a href="[$author.link]">[$author.DEFINITION]</a><br/>\n\nClick <a target="right" href="[$history.link]">aqu&iacute;</a> para abrir esta tarea.<br/>
+
+DgReviewTaskCompleted.title=Revisar Tarea Completada para [$item.MappedType] [$item.name]
+DgReviewTaskCompleted.footer=Click <a href="[$notification.link]">aqu&iacute;</a> para abrir la notificaci&oacute;n.
+DgReviewTaskCompleted.body=Se completó una tarea de revisión para [$item.MappedType] [$item.name].\n\nSolicitado por: [$author.DEFINITION]\nCompletado por: [$actionBy.DEFINITION]\nComentarios: [$comment]\n
+DgReviewTaskCompleted.mail_body=Se complet&oacute; una tarea de revisi&oacute;n para el t&eacute;rmino de negocios [$item.MappedType] <a target="right" href="[$item.link]">[$item.name]</a>.<br/><br/>\nSolicitado por: <a href="[$author.link]">[$author.DEFINITION]</a><br/>\nCompletado por: <a href="[$actionBy.link]">[$actionBy.DEFINITION]</a><br/>\nComentarios: [$comment]<br/><br/>\nClick <a target="right" href="[$history.link]">aqu&iacute;</a>para abrir la tarea.<br/>
+
+WipTxCreated.title=Ingestión en Borrador
+WipTxCreated.footer=Click <a href="[$notification.link]">aqu&iacute;</a> para abrir la notificaci&oacute;n.
+WipTxCreated.body=El Borrador esta listo para revisión.
+WipTxCreated.mail_body=El Borrador esta listo para revisi&oacute;n. <br/><br/>\nSolicitado por: <a href="[$author.link]">[$author.DEFINITION]</a><br/><br/>
+
+WipTxTaskApproved.title=Borrador Aprobado
+WipTxTaskApproved.footer=Click <a href="[$notification.link]">aqu&iacute;</a> para abrir la notificaci&oacute;n.
+WipTxTaskApproved.body=Borrador aprobado (contenido confirmado).\n\nSolicitado por: [$author.DEFINITION]\nAprobado por: [$history.RWF/COMPLETED-BY.DEFINITION]\nComentarios: [$comment]
+WipTxTaskApproved.mail_body=Borrador aprobado (contenido confirmado).<br/><br/>\nSolicitado por: <a href="[$author.link]">[$author.DEFINITION]</a><br/>\nAprobado por: <a href="[$actionBy.link]">[$actionBy.DEFINITION]</a><br/>\nComentarios: [$comment]<br/><br/>\nClick <a target="right" href="[$history.link]">aqu&iacute;</a> para abrir esta tarea.<br/>
+
+WipTxTaskDismissed.title=Borrador Descartado
+WipTxTaskDismissed.footer=Click <a href="[$notification.link]">aqu&iacute;</a> para abrir la notificaci&oacute;n.
+WipTxTaskDismissed.body=El Borrador fue descartado(contenido eliminado).\n\nSolicitado por: [$author.DEFINITION]\nDescartado por: [$history.RWF/COMPLETED-BY.DEFINITION]\nComentarios: [$comment]
+WipTxTaskDismissed.mail_body=El Borrador fue descartado(contenido eliminado).<br/><br/>\nSolicitado por: <a href="[$author.link]">[$author.DEFINITION]</a><br/>\nDescartado por: <a href="[$actionBy.link]">[$actionBy.DEFINITION]</a><br/>\nComentarios: [$comment]<br/><br/>\nClick <a target="right" href="[$history.link]">aqu&iacute;</a> para abrir la tarea.<br/>
+
+WipTxTaskRejected.title=Borrador rechazado
+WipTxTaskRejected.footer=Click <a href="[$notification.link]">aqu&iacute;</a> para abrir la notificaci&oacute;n.
+WipTxTaskRejected.body=El Borrador fue rechazado (no cambió el contenido).\n\nSolicitado por: [$author.DEFINITION]\nRechazado por: [$history.RWF/COMPLETED-BY.DEFINITION]\nComentarios: [$comment]
+WipTxTaskRejected.mail_body=El Borrador fue rechazado (no cambi&oacute; el contenido).<br/><br/>\nSolicitado por: <a href="[$author.link]">[$author.DEFINITION]</a><br/>\nRechazado por: <a href="[$actionBy.link]">[$actionBy.DEFINITION]</a><br/>\nComentarios: [$comment]<br/><br/>\nClick <a target="right" href="[$history.link]">aqu&iacute;</a> para abrir la tarea.<br/>
+
+WipTxIngTimeChange.title=Borrador - Injestión externa
+WipTxIngTimeChange.footer=Click <a href="[$notification.link]">aqu&iacute;</a> para abrir la notificaci&oacute;n.
+WipTxIngTimeChange.body=El Borrador fue modificado por una injesta externa. El workflow fue reestablecido esperando una revisión.\n\nSolicitado por: [$author.DEFINITION]
+WipTxIngTimeChange.mail_body=El Borrador fue modificado por una injesta externa. El workflow fue reestablecido esperando una revisi&oacute;n.<br/><br/>\nSolicitado por: <a href="[$author.link]">[$author.DEFINITION]</a><br/>\nClick <a target="right" href="[$history.link]">aqu&iacute;</a> para abrir la tarea.<br/>
+
+WipTxModTimeChange.title=Modificación en el Borrador
+WipTxModTimeChange.footer=Click <a href="[$notification.link]">aqu&iacute;</a> para abrir la notificaci&oacute;n.
+WipTxModTimeChange.body=El Borrador fue modificado durantre un proceso de revisión. El proceso de revisión fue reestablecido.\n\nSolicitado por: [$author.DEFINITION]
+WipTxModTimeChange.mail_body=El Borrador fue modificado durantre un proceso de revisi&oacute;n. El proceso de revisi&oacute;n fue reestablecido.<br/><br/>\nSolicitado por: <a href="[$author.link]">[$author.DEFINITION]</a><br/>\nClick <a target="right" href="[$history.link]">aqu&iacute;</a> para abrir la tarea.<br/>
+
+WipTxReviewTaskCreated.title=Revisar Tarea Creada para [$item.MappedType] [$item.name]
+WipTxReviewTaskCreated.footer=Click <a href="[$notification.link]">aqu&iacute;</a> para abrir la notificaci&oacute;n.
+WipTxReviewTaskCreated.body=Se creó una tarea de revisión para [$item.MappedType] [$item.name].\n\nSolicitado por: [$author.DEFINITION]\n
+WipTxReviewTaskCreated.mail_body=Se cre&oacute; una tarea de revisi&oacute;n para [$item.MappedType] <a target="right" href="[$item.link]">[$item.name]</a>.<br/><br/>\nSolicitado por: <a href="[$author.link]">[$author.DEFINITION]</a><br/>\n\nClick <a target="right" href="[$history.link]">aqu&iacute;</a> para abrir esta tarea.<br/>
+
+WipTxReviewTaskCompleted.title=Revisar Tarea Completada para [$item.MappedType] [$item.name]
+WipTxReviewTaskCompleted.footer=Click <a href="[$notification.link]">aqu&iacute;</a> para abrir la notificaci&oacute;n.
+WipTxReviewTaskCompleted.body=Se completó una tarea de revisión para [$item.MappedType] [$item.name].\n\nSolicitado por: [$author.DEFINITION]\nCompletado por: [$actionBy.DEFINITION]\nComentarios: [$comment]\n
+WipTxReviewTaskCompleted.mail_body=Se complet&oacute; una tarea de revisi&oacute;n para el t&eacute;rmino de negocios [$item.MappedType] <a target="right" href="[$item.link]">[$item.name]</a>.<br/><br/>\nSolicitado por: <a href="[$author.link]">[$author.DEFINITION]</a><br/>\nCompletado por: <a href="[$actionBy.link]">[$actionBy.DEFINITION]</a><br/>\nComentarios: [$comment]<br/><br/>\nClick <a target="right" href="[$history.link]">aqu&iacute;</a>para abrir la tarea.<br/>
+
+WipTxTaskApprovedLOB.title=Work in Progress Approved in [$COMMENT2]
+WipTxTaskApprovedLOB.footer=Click <a href="[$notification.link]">aqu&iacute;</a> para abrir la notificaci&oacute;n.
+WipTxTaskApprovedLOB.body=Work in Progress has been approved (content committed) in LOB1.\n\nRequested by: [$author.DEFINITION]\nApproved by: [$history.RWF/COMPLETED-BY.DEFINITION]\nComments: [$comment]
+WipTxTaskApprovedLOB.mail_body=Borrador aprobado (contenido confirmado).<br/><br/>\nSolicitado por: <a href="[$author.link]">[$author.DEFINITION]</a><br/>\nAprobado por: <a href="[$actionBy.link]">[$actionBy.DEFINITION]</a><br/>\nComentarios: [$comment]<br/><br/>\nClick <a target="right" href="[$history.link]">aqu&iacute;</a> para abrir esta tarea.<br/>
+
+############ Workflow import page #############
+#WfImportDefinition.img.add=Importar Definición de Workflow
+#WfImportDefinition.img.replace.confirmation=
+WfImportDefinition.dialogHeader=Importar Definición de Workflow
+WfImportDefinition.error.readingFile=Ocurrió un error leyendo el archivo a importar: {0}
+WfImportDefinition.error.ProcessNodesCount_unsupported=Número no soportado de nodos de procesos ({0}) en archivo de importación.
+WfImportDefinition.error.processTypesEmpty=Tipos de proceso no puede ser vacio.
+WfImportDefinition.error.bpmnFileUnsupported=Archivo BPMN no soportado
+WfImportDefinition.error.removeRochadeItems=Error eliminando ítems. Podrían estar bloqueados.
+
+WfImportDefinition.changedDefault.activeItemTypes=El workflow se importó como plantilla no predeterminada, ya que, para los siguientes tipos de elementos ya se han definido otras plantillas predeterminadas personalizadas: {0}.
+
+WfImportDefinition.processId=ID de proceso
+WfImportDefinition.definition=Definición
+WfImportDefinition.label=Action label
+WfImportDefinition.description=Descripción
+WfImportDefinition.processTypes=Tipos de proceso
+WfImportDefinition.definition=Definición
+WfImportDefinition.isDefault=Es por defecto?
+# The first message is used if both workflows don't contain a version number (unversioned workflows have version number 0):
+WfImportDefinition.replace.confirmation=Ya hay un workflow implementado que tiene el mismo ID. Quiere reemplazarlo?
+WfImportDefinition.replace.confirmation.versions=Ya hay un workflow implementado que tiene el mismo ID y número de versión ({0}). Quiere reemplazarlo con la versión {1}?
+WfImportDefinition.replace.warning.olderVersion=Ya hay un workflow implementado que tiene el mismo ID pero un número de versión mas alto ({0}). Quiere realmente reemplazarlo con la versión {1}?
+WfImportDefinition.replace.warning.sameVersion=Ya hay un workflow implementado que tiene el mismo ID y número de versión ({0}). El workflow cambió sin incrementar el número de versión. Quiere reemplazarlo realmente?
+WfImportDefinition.replace.cancelled.workflowsEqual=La importación se ha omitido debido a que el workflow implementado ya está actualizado.
+WfImportDefinition.button.import=Agregar
+WfImportDefinition.button.cancel=Cancelar
+
+WfConfigDialog.Workflow=Workflow
+WfConfigDialog.mainTab.label=General
+WfConfigDialog.configTab.label=Configuración
+WfConfigDialog.processTab.label=Proceso
+
+WfProcessConfigItemView.AppliesTo=Aplica a
+WfProcessConfigItemView.Category=Categoria
+WfProcessConfigItemView.ProcessDiagram=Diagrama de Proceso
+WfProcessConfigItemView.ProcessId=ID de proceso
+WfProcessConfigItemView.IntVersionNumber=Número de Version Interna
+
+
+WfItemTypesPropertyView.error.readingAttribute=Error leyendo atributo de tipos de ítems
+WfItemTypesPropertyView.btnAddItemType=Agregar
+WfItemTypesPropertyView.btnRemoveItemType=Eliminar
+
+WfItemTypeStatus.active=activo
+WfItemTypeStatus.inactive=inactivo
+
+WfProcessConfigObjectBody.confirmCopy.title=Asignar Workflow
+WfProcessConfigObjectBody.confirmCopy.msg=La configuración mostrada del workflow fue heredada y debe ser asignada antes de ser editada. La misma fue copiada y asignada.
+WfProcessConfigObjectBody.error.alreadyExists=La configuración del workflow ya existe. Edítela directamente o elimínela antes de asginarla de nuevo.
+
+
+############ Camunda Task List ################
+
+Camunda.task.SubmitItemTask.title=Enviar a Control ítem
+Camunda.task.SubmitItemTask.description=Por favor, enviar a control el ítem para que los aprobadores puedan revisarlo
+#Camunda.task.SubmitItemTask.footer=Click <a href="[$notification.link]">aqu&iacute;</a> para abrir la notificaci&oacute;n.
+#Camunda.task.SubmitItemTask.body=Por favor, enviar a control la solicitud para el cambio de [$item.MappedType] [$item.name].\n\nComentarios: [$comment]
+#Camunda.task.SubmitItemTask.mail_body=Por favor, tomar acción sobre la solicitud de cambio de [$item.MappedType] [$item.name].\n\nComentarios: [$comment]
+
+############ Errors from Components ################
+FindSomeContextsForPermission.error.parsingContextId=Error analizando el ID de contexto del rol {0}.
+FindSomeContextsForPermission.error.LoadingOwnContexts=Error cargando contextos propios.
+
+

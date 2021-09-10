@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+
+<window	apply="com.rochade.gdp.ui.GDP_CascadedToLinkPropertyViewComposer" sclass="asg-rochade-wa-ui-editor-tablelinkpropertyview">
+
+	<zscript><![CDATA[
+		Map parg = Executions.getCurrent().getArg();
+		String tableShape = (String) parg.get("tableShape");
+		String viewMenu = (String) parg.get("viewMenu");
+		String viewType = (String) parg.get("viewType");
+		Boolean footerVisible = (Boolean) parg.get("footerVisible");
+		boolean showTree = "Tree".equals(viewType);
+		boolean showTable = !showTree;
+	]]></zscript>
+
+	<toolbar id="tb" >
+		<toolbarbutton id="add" 
+			label="${wtb:l('TableLinkPropertyView.add')}" 
+			tooltiptext="${wtb:l('TableLinkPropertyView.add')}" 
+			style="font-size:10px; color: ${wtb:l('label-color')};" />
+		<toolbarbutton id="tbDelete" 
+			actionId="GDP_CascadeDelete" labelMode="true"
+			style="font-size:10px; color: ${wtb:l('label-color')};" />
+		<toolbarbutton id="tbVerify" 
+			actionId="GDP_CascadeVerify" labelMode="true"
+			style="font-size:10px; color: ${wtb:l('label-color')};" />
+		<toolbarbutton id="tbUndoVerify" 
+			actionId="GDP_CascadeUndoVerify" labelMode="true" 
+			style="font-size:10px; color: ${wtb:l('label-color')};" />
+		<toolbarbutton id="tbIgnore" 
+			actionId="GDP_CascadeIgnore" labelMode="true"
+			style="font-size:10px; color: ${wtb:l('label-color')};" />
+		<toolbarbutton id="tbRegard" 
+			actionId="GDP_CascadeRegard" labelMode="true"
+			style="font-size:10px; color: ${wtb:l('label-color')};" />
+	</toolbar>
+	<div id="mbar" sclass="asg-menubar-right-aligned">
+		<menubar style="background:none; border:none; padding-top:2px">
+			<menu actionId="GDP_CascadeOrganize">
+				<menupopup>
+					<menuitem id="miSel" actionId="WTB_SelectAll" />
+					<menuitem id="miDesel" actionId="WTB_DeselectAll" />
+					<menuitem id="miInvert" actionId="WTB_InvertSelection" />
+				</menupopup>
+			</menu>
+		</menubar>
+	</div>
+	<listbox  emptyMessage="No items match your search" id="linkTable"
+		use="com.rochade.wa.view.table.WABaseTable"
+		viewMenu="${viewMenu}"
+		tableShape="${tableShape}"
+		footerLabel="${wtb:l('TableLinkPropertyView.footer')}"
+	    multiple="true"
+	    checkmark="true"
+		defaultActionTriggeredOnDoubleClick="true"
+		defaultActionTriggeredOnSingleClick="false"
+		defaultActionTriggeredOnEnter="true"
+		if="${showTable}"
+		footerVisible="${footerVisible}">
+	</listbox>
+
+</window>

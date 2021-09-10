@@ -1,0 +1,81 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+### tag view/edit related
+tag.emptyMsg=Type or select tag
+tag.emptyMsg.create=Type or select tag (existing or new ones)
+tag.none=None
+tag.noResultMsg=No such tag: {0}
+tag.createMsg=Press Enter key to create new tag: {0}
+tag.editor.lbl=Tags
+tag.createTag.error=Error while creating tag: {0}
+tag.createPointer.error=Error while creating tag pointer: {0}
+tag.removePointer.error=Error while deleting tag pointer: {0}
+tag.remove.notPermitted.msg=Remove tag {0} not permitted
+tag.remove.notPermitted.header=Remove tag
+
+Querygroup.tag.title=Tags
+Querygroup.tag.tip=Tags 
+Querygroup.tag.ico=/com.rochade.dwr.navigator/img/16x16_Manage_Extended_Information.png
+Querygroup.tag.img=/com.rochade.dwr.navigator/img/24x24_Manage_Extended_Information.png
+
+query.taggedItems.lbl=Tagged Items
+query.tags.lbl=Tags
+query.manageTags.lbl=Manage Tags
+query.manageRoutes.lbl=Manage Routes
+
+tag.manage.name=Name:
+tag.manage.create.lbl=Create
+tag.manage.create.tip=Create new tag
+tag.manage.new=Create New Tags:
+tag.manage.import.lbl=Import (UTF-8 encoded)
+tag.manage.import.tip=Import tags from UTF-8 encoded text file
+
+tag.manage.alreadyExists=Tag {0} already exists
+tag.manage.created=Tag {0} successfully created
+tag.manage.delete.title=Delete
+tag.manage.delete.conf=Are you sure you want to delete the tag(s)?
+tag.manage.delete.confUsed=Are you sure you want to delete the tag(s), although one or more of the tags are still used?
+tag.manage.delete.locked=The tag(s) are locked; operation cancelled.
+tag.manage.delete.failure=Unable to delete the tag(s).
+tag.manage.delete.error=Error while deleting tag: {0}
+
+tag.action.itemtype=Item Type
+tag.action.itemname=Item Name
+tag.action.add.header=Add Tags
+tag.action.add.lbl=Add
+tag.action.add.tip=Add tags to items 
+tag.action.add.colHead=Addition
+tag.action.delete.header=Remove Tags
+tag.action.delete.lbl=Remove
+tag.action.delete.tip=Remove Tags from items
+tag.action.delete.colHead=Removal
+tag.action.okNotAssinged1=Tag was not assigned 
+tag.action.okNotAssinged2=None of the tags was assigned 
+tag.action.ok=Successful
+tag.action.ok.style= color: green; 
+tag.action.failed=Failed
+tag.action.failed.style= color: red; 
+tag.action.adjustItems=Processable Items
+tag.action.ignoreItems=Ignored Items
+tag.action.typeNotSupported=Tags not supported for item type
+tag.action.itemNotSupported=Tags not supported for item
+tag.action.export.title=Export Tags
+tag.action.export.deleted=The selected tags no longer exist
+tag.action.export.failed=Tags could not be exported 
+tag.action.import.title=Import Tags
+tag.action.import.failed=Tags could not be imported
+tag.action.import.invalidFile=Import file is not a text file
+tag.action.import.emptyFile=Import file is empty
+tag.action.import.finished=Tags have been imported
+
+#icons
+tag.manage.create.img=/com.rochade.wa.action.ui/img/OA05-new.gif
+tag.manage.import.img=/com.rochade.wa.ui.propertyview/img/import.gif
+tag.action.add.img=/com.rochade.wa.action.ui/img/OA05-new.gif
+tag.action.delete.img=/com.rochade.wa.action.ui/img/OA06-delete.gif

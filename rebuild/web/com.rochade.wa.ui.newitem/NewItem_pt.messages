@@ -1,0 +1,52 @@
+﻿#-------------------------------------------------------														
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.wa.ui.item
+#
+### Icons: all images should be inside of dir /com.rochade.wa.ui.newitem/ + img/, see plugin.xml
+
+#extra icons
+### END Icons
+
+#TODO: who uses this ?
+NewItem.name=Nome
+NewItem.type=Tipo
+
+NewItem.currappl=Subject Area Atual:
+NewItem.curnamespace=Namespace Atual:
+NewItem.nsheader=Item de Namespace
+NewItem.nsdesc=Selecione o item de namespace para o novo item
+NewItem.rootns=Usar raiz como namespace
+NewItem.itemns=Usar um item como namespace
+NewItem.newns=Novo namespace:
+NewItem.backbutton=< Anterior
+NewItem.nextbutton=Próxima >
+NewItem.finishbutton=Finalizar
+NewItem.cancelbutton=Cancelar
+NewItem.changebutton=Alterar...
+NewItem.enter=<Enter>: Finalizar
+NewItem.altB=Alt-B: Anterior
+NewItem.altN=Alt-N: Próxima
+NewItem.esc=<Esc>: Cancelar
+NewItem.alreadyexists={0}Item já existe.
+NewItem.info=O nome do item não pode ser vazio.
+NewItem.seltype=Seleção do Tipo
+NewItem.selitem=Selecione o tipo de item para o novo item.
+NewItem.title=Novo Item
+NewItem.label=Novo Item:
+NewItem.created=O novo item agora está criado.
+NewItem.name=Nome do Item:
+NewItem.type=Tipo do Item:
+NewItem.create=Criar um novo item.
+NewItem.newname=Nome do novo item:
+NewItem.inititem=Inicializar conteúdo do item
+NewItem.openeditor=Abrir item criado no editor
+NewItem.unclassified=Membro de namespace não classificado
+NewItem.attribute=Atributo:
+NewItem.errCreate=Erro ao criar o item.

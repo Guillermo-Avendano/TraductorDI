@@ -1,0 +1,66 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.wa.ui.deleteitem
+#
+### Icons: all images should be inside of dir /com.rochade.wa.ui.deleteitem/ + img/, see plugin.xml
+
+#extra icons
+### END Icons
+
+DeleteItem.name=Nome
+DeleteItem.type=Tipo
+
+DeleteItem.currappl=SA Atual:
+DeleteItem.curnamespace=Namespace Atual:
+DeleteItem.backbutton=< Anterior
+DeleteItem.nextbutton=Próxima >
+DeleteItem.finishbutton=Finalizar
+DeleteItem.cancelbutton=Cancelar
+DeleteItem.changebutton=Alterar...
+DeleteItem.enter=<Enter>: Finalizar
+DeleteItem.altB=Alt-B: Anterior
+DeleteItem.altN=Alt-N: Próxima
+DeleteItem.esc=<Esc>: Cancelar
+
+DeleteItem.title=Apagar Item
+DeleteItem.list=Lista de Itens:
+DeleteItem.items=Itens:
+DeleteItem.select=Selecionar Itens
+DeleteItem.specify=Especifique os itens a ser apagados.
+DeleteItem.selecteditems=Itens selecionados para remoção:
+DeleteItem.mode=Modo de Remoção
+DeleteItem.selectmode=Selecione o modo através do qual os itens devem ser apagados.
+DeleteItem.mode_REMOVE=Modo de remoção:
+DeleteItem.mode_ERASE=Apagar conteúdo do item
+DeleteItem.mode_REMVERSION=Remover versão do item
+DeleteItem.mode_HIDE=Remover versão do item e esconder versões subjacentes
+DeleteItem.options=Opções Adicionais
+DeleteItem.effect=Efeito do modo de remoção selecionado:
+DeleteItem.erase=Apagar conteúdo do item - Apaga o conteúdo do item e reinicializa os atributos do item.
+DeleteItem.delrefswc=Apagar referências ao item dos itens da configuração de trabalho
+DeleteItem.delchildren=Apagar membros do namespace atribuídos à configuração de trabalho
+DeleteItem.remversion=Remover versão do item - Remove a versão do item da SA atual; o item continua visível se existe nas áreas de assunto subjacentes.
+DeleteItem.hide=Remover versão do item e esconder versões subjacentes - Remove a versão do item da SA atual; o item será oculto se existir em áreas de assunto subjacentes.
+DeleteItem.delrefs=Remover referências ao item
+DeleteItem.delnsmembers=Remover membros de namespace
+DeleteItem.removeitems=Remover Itens
+DeleteItem.finish=Clique Finalizar para apagar os itens.
+DeleteItem.finallist=Lista final de itens:
+DeleteItem.delfailure=Falha ao apagar um ou mais itens.
+DeleteItem.delaction=Ação de Apagar
+DeleteItem.delsuccess=Operação de deleção completada com sucesso.
+DeleteItem.idlocked=O item está bloqueado nesta Subject Area
+DeleteItem.somelocked=Alguns dos itens selecionados já estão bloqueados.
+DeleteItem.somelocked1=Deseja ignorar estes itens e continuar?
+DeleteItem.lockfailure=Falha ao bloquear um ou mais itens.
+DeleteItem.add=Adicionar
+
+DeleteAction.errLoading=Erro ao carregar o item a ser apagado.
+DeleteAction.errDeleting=Erro ao apagar o item.

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="History View - linkTemplate" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<div style="background:#ffffff; border:1px solid ${wtb:l('asg-atlantic-gray')}">
+	<grid sclass="asg-grid" fixedLayout="true" style="border:0px; padding:5px; ">
+		<columns style="border:1px">
+			<column valign="top" style="background:transparent" width="100%" />
+		</columns>
+		<rows>
+			<row style="border:0px; background:transparent; padding:3px">
+				<label value="${wtb:l('DialogHistoryRecord.differences')}" style="color:gray; background:transparent" />
+			</row>
+			<row style="border:0px; background:transparent; padding:3px">
+				<listbox id="deltaList" fixedLayout="true" mold="paging" pageSize="15">
+					<listhead>
+						<listheader label="${wtb:l('DialogHistoryRecord.mode')}" width="20%" />
+						<listheader label="${wtb:l('DialogHistoryRecord.type')}" />
+						<listheader label="${wtb:l('DialogHistoryRecord.name')}" />
+						<listheader label="${wtb:l('DialogHistoryRecord.oldQualifier')}" />
+						<listheader label="${wtb:l('DialogHistoryRecord.newQualifier')}" />
+					</listhead>
+				</listbox>
+			</row>
+		</rows>
+	</grid>
+</div>

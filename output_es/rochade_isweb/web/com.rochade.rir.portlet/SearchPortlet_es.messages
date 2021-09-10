@@ -1,0 +1,22 @@
+﻿# Rochade Platform - Message file
+# This is an UTF-8 (with BOM) encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+# Language: English
+#-------------------------------------------------------
+
+### Icons: all images should be inside of dir /com.rochade.rir.portlet/ + img/, see plugin.xml
+
+#extra icons
+### END Icons
+
+sorlSearch.tabname=Buscar
+sorlSearch.tabname.result=Resultado de la Búsqueda
+sorlSearch.title=Buscar
+sorlSearch.searchAll=Todo
+sorlSearch.button.search=Buscar
+solrSearch.msg.search.busy=Ejecutando Búsqueda
+
+solrSeaarch.defLayout.load.error=Diseño predeterminado de búsqueda de preferencia no fue definido / encontrado
+

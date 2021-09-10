@@ -1,0 +1,10 @@
+﻿# Issue Management messages
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+IM_ErrorCanNotRetrieveWorkspace=No se puede recuperar espacio de trabajo
+IM_NotFound=No encontrado
+IM_ItemWithId=Ítem con id:
+IM_Error_FailedToReloadItem=Falló al cargar ítem, área de trabajo original: {0}, área de trabajo de gestión de problemas: {1}

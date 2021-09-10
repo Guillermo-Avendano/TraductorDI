@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<!-- 
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+<window border="none" height="100%" apply="com.rochade.wa.ui.debug.TracingComposer" sclass="asg-debug-tracing">
+	<div id="header" style="padding:5px;">
+		<div id="headerTitle" width="100%"/> 
+	</div>
+	<hbox width="100%" widths="60%,40%">
+   		<div>
+	   	 	<button id="btnRefresh"   width="120px" height="30px" label="${wtb:l('Debug.refresh')}" image="${wtb:getImg('Debug.img.refresh')}"/>
+   		 	<button id="btnStartStop" width="120px" height="30px" label="${wtb:l('Debug.start')}"   image="${wtb:getImg('Debug.img.green')}"/>
+   	 		<button id="btnClear"     width="120px" height="30px" label="${wtb:l('Debug.clear')}"   image="${wtb:getImg('Debug.img.gray')}"/>
+   		</div>
+   		<hbox width="100%" pack="end">
+   		    <checkbox id="cbStat"   label="${wtb:l('Debug.cbStat')}"/>
+			<checkbox id="cbStdout" label="${wtb:l('Debug.stdout')}"/>
+		</hbox>
+	</hbox>
+	<separator width="100%" bar="true"/>
+   	<div style="padding:5px;">
+   		<label sclass="asg-subtitle-label" value="${wtb:l('Debug.trace')}"/>
+   	</div>
+   	<hbox width="100%">
+   		<checkbox id="cbComp"      label="${wtb:l('Debug.cbComp')}"      checked="true"/>
+		<checkbox id="cbQuery"     label="${wtb:l('Debug.cbQuery')}"     checked="true"/>
+		<checkbox id="cbSrapQuery" label="${wtb:l('Debug.cbSrapQuery')}" checked="true"/>
+		<checkbox id="cbBPAction"  label="${wtb:l('Debug.cbBPAction')}"  checked="true"/>
+		<checkbox id="cbWAObjMan"  label="${wtb:l('Debug.cbWAObjMan')}"  checked="true"/>
+		<checkbox id="cbShapeFill" label="${wtb:l('Debug.cbShapeFill')}" checked="true"/>
+		<checkbox id="cbDiagram"   label="${wtb:l('Debug.cbDiagram')}"   checked="true"/>
+	</hbox>
+	<separator width="100%" bar="true"/>
+   	<div width="100%" vflex="1" style="overflow:auto; position:relative;">
+   		<label id="laTrace" pre="true" style="font-family:monospace;"/>
+   		<label id="laEnd" value=" "/>
+   	</div>
+</window>

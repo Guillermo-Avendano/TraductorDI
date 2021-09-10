@@ -1,0 +1,15 @@
+﻿#-------------------------------------------------------
+# Rochade WTB - Message file
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+### Icons: all images should be inside of dir /com.rochade.mg.cellrenderer/ + img/, see plugin.xml
+### END Icons
+
+BusinessTermItemView.PropertiesTab.Compare=Comparar
+ContextCellRenderer.RBG/GLOSSARY={0} [Glossário]
+ContextCellRenderer.RBG/CONTEXT={0} [Contexto]
+ContextCellRenderer.BPK_CONTEXT={0} [Contexto de Negócio]

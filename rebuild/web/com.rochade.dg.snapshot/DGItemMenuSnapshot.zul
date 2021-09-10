@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page id="itemmenusnapshot" title="DG Snapshot Item Menu" contentType="text/html;charset=UTF-8"?>
+<!-- 
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 	
+-->
+<selviewmenu>
+	<div hflex="1">
+		<div sclass="asg-menubar-right-aligned">
+			<menubar style="background:none; border:none">
+				<menu actionId="WTB_Editor_Context" visibleCondition="$CAPABILITIES='view.isTable OR view.isTree'">
+					<menupopup>
+						<menuitem actionId="DWR_EnvRef" enableCondition="selection.single.multi" />
+						<menuitem actionId="DWR_EnvRefAndUsages" enableCondition="selection.single.multi" />
+						<menuitem actionId="DWR_EnvUsages" enableCondition="selection.single.multi" />
+					</menupopup>
+				</menu>
+				<menu actionId="DWR_Organize">
+					<menupopup>
+						<menuitem actionId="WTB_SelectAll"/>
+						<menuitem actionId="WTB_DeselectAll"/>
+						<menuseparator />
+						<menuitem actionId="WTB_OpenItem" enableCondition="selection.single" />
+					</menupopup>
+				</menu>
+				<menuitem actionId="WTB_ShowColumns" xmlns:w="client" w:onClick="getColumnWidths(this)" visibleCondition="view.isNotDiagram"/>
+				<menu actionId="WTB_Editor_Share" visibleCondition="Editor.isPublishButtonEnabled">
+					<menupopup>
+						<menuitem actionId="WTB_CommonExport" visibleCondition="view.isTable"/>							
+						<menuitem actionId="WTB_FormatPDFSummary" visibleCondition="Export.FormatPDFSummary"/>			
+						<menuitem actionId="WTB_ResultSet_Export_XLS" visibleCondition="Export.ResultSetXLS"/>
+						<menuitem actionId="WTB_ChartDynamic" visibleCondition="Export.Chart"/>
+					</menupopup>
+				</menu>
+			</menubar>
+		</div>
+		<div sclass="asg-menubar-left-aligned">
+				<special actionId="WTB_Filter"       visibleCondition="view.isTable"/>
+		</div>
+	</div>
+</selviewmenu>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="ObjectArea" contentType="text/html;charset=UTF-8"?>
+<!-- 
+	@author SB 01/07/2011, created
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+<window id="winWizard" border="normal" width="860px" height="650px"
+	maximizable="false" minimizable="false" closable="false" sizable="true"
+	apply="${arg.composer}" contentStyle="overflow:hidden"
+	sclass="asg-modal-window">
+	<div vflex="1">
+		<div id="divCenter" vflex="1" style="border: 1px solid ${wtb:l('asg-atlantic-gray')}; overflow: auto;">
+			<tabbox id="tabBox" mold="accordion" vflex="1">
+				<tabs></tabs>
+				<tabpanels></tabpanels>
+			</tabbox>
+		</div>
+		<div id="divSouth" sclass="field1" style="padding:21px 10px; border: 1px solid ${wtb:l('asg-atlantic-gray')};">
+			<div id="divOptions" style="vertical-align: middle; display:inline-block;" />
+			<div id="divButtons" style="vertical-align: middle; float:right;" >
+				<button width="150px" id="btFinish" image="" disabled="true" />
+				<button width="150px" id="btCancel" image="" />
+			</div>
+			<div sclass="clearfix" />
+		</div>
+	</div>
+</window>

@@ -1,0 +1,132 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 (with BOM) encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+
+#extra icons
+SolrSearchConf.img.SolrSearch16=/com.rochade.rir.navigator/img/SolrSearch16.png
+SolrSearchConf.img.SolrSearch24=/com.rochade.rir.navigator/img/SolrSearch24.png
+SolrSearchConf.img.configure=/com.rochade.rir.navigator/img/Configure.gif
+SolrSearchConf.img.edit=/com.rochade.rir.navigator/img/Edit.gif
+SolrSearchConf.img.add=/com.rochade.rir.navigator/img/Add.png
+SolrSearchConf.img.delete=/com.rochade.rir.navigator/img/Delete.gif
+SolrSearchConf.img.wizard=/com.rochade.rir.navigator/img/WizardDefault.gif
+SolrSearchConf.img.hideApps=/com.rochade.rir.navigator/img/Collapse_16.gif
+SolrSearchConf.img.showApps=/com.rochade.rir.navigator/img/Expand.gif
+SolrSearchConf.img.load=/com.rochade.rir.navigator/img/LoadIndexParams.gif
+### END Icons
+
+SolrSearch.title=Search
+SolrSearch.configure=Configure Search
+SolrSearchConf.enterlabel=Set search parameter name:
+SolrSearchConf.enterValue=Set search parameter value:
+SolrSearchConf.enterContext=Select metaApp to which this parameter belongs
+SolrSearchConf.context=The context information of this search entry is: 
+SolrSearchConf.addButton=Add
+SolrSearchConf.okButton=OK
+SolrSearchConf.cancelButton=Cancel
+SolrSearchConf.enter=OK/Add (<Enter>)
+SolrSearchConf.esc=Cancel (<Esc>)
+SolrSearchConf.warningctx=Warning: A search parameter with this context information already exists. 
+
+SolrSearchConf.confsubtitle=Edit, remove, and change the order of the search parameter.
+SolrSearchConf.visible=Visible
+SolrSearchConf.label=Search Parameters
+SolrSearchConf.edit=Edit
+SolrSearchConf.add=Add
+SolrSearchConf.delete=Delete
+SolrSearchConf.showApps=Show More
+SolrSearchConf.hideApps=Hide
+SolrSearchConf.load=Load Parameters
+SolrSearch.theLabelIs=The label for the search parameter is:
+
+SolrSearchConf.conftitle=Configure Search Parameters
+SolrSearchConf.confirmtitle=Confirm Delete
+SolrSearchConf.confirmmsg=Confirm deletion of search parameter: {0}
+SolrSearchConf.confirmmsg.multi=Confirm deletion of {0} search parameters.
+SolrSearchConf.confirmmsg.delete.mandatory=Search preferences {0} could not be deleted
+SolrSearchConf.load.confirm.title=Load New Search Parameters List
+
+SolrSearchConf.edittitle=Edit Search parameter
+SolrSearchConf.editsubtitle=Edit search parameter content.
+
+SolrSearchConf.addtitle=Add Search Parameter
+SolrSearchConf.addsubtitle=Add the current tab to your search list.
+SolrSearchConf.errtitle=Error: A search parameter with this label already exists. Specify another label.
+
+SolrSearchConf.addParam=Add
+SolrSearchConf.paramName=Name
+SolrSearchConf.paramValue=Value
+SolrSearchConf.paramDescr=Description
+
+#Index search parameter labels
+SolrSearchConf.param.fq=Fields list to filter query by
+SolrSearchConf.param.start=Number of leading documents to skip
+SolrSearchConf.param.rows=Number of documents to return after ''start''
+SolrSearchConf.param.list_pagesize=Documents per page
+SolrSearchConf.param.list_pagesize.toolTip=Number of documents per page for list layout
+SolrSearchConf.param.solr.query.limit.value=Index Search step limit
+SolrSearchConf.param.solr.query.limit.value.toolTip=The maximum number of items to retrieve by one execution (then the execution is repeated until: either the total limit is reached or all the matching items are retrieved or the user decides to interrupt).
+SolrSearchConf.param.solr.query.totalLimit.value=Index Search global limit
+SolrSearchConf.param.solr.query.totalLimit.value.toolTip=The maximum number of items that can be retrieved globally (the execution is stopped when that limit will be reached no matter if some matching items have not yet been retrieved).
+SolrSearchConf.param.qf=Extended DisMax query fields list
+SolrSearchConf.param.fl=Fields set to return
+SolrSearchConf.param.fl.toolTip=When returning the results to the client, only fields in this list will be included.
+SolrSearchConf.param.qt=Query handler that process the request
+SolrSearchConf.param.qt.toolTip=The default request handler to dispatch to is "/select".
+SolrSearchConf.param.facet=Use facet counts in the query response
+SolrSearchConf.param.facet.toolTip=Any blank or missing value, or "false" will disable faceting.
+SolrSearchConf.param.facet.pivot=Fields list to pivot.
+SolrSearchConf.param.facet.pivot.toolTip=Multiple values will create multiple sections in the response.
+SolrSearchConf.param.httpSolrServer=Solr server URL
+SolrSearchConf.param.core=Solr instance name
+SolrSearchConf.param.core.toolTip=A running instance name of a Solr index along with all the Solr configuration.
+SolrSearchConf.param.wt=Writer type
+SolrSearchConf.param.hl=Use highlighting
+SolrSearchConf.param.hl.toolTip=Enable highlighted snippets to be generated in the query response.\nAny blank or missing value, or "false" will disable highlighting.
+SolrSearchConf.param.hl.fl=Highlighting fields list
+SolrSearchConf.param.hl.fl.toolTip=A comma delimited list of fields for which to generate highlighted snippets.
+SolrSearchConf.param.autosuggest=Custom autocomplete request handler
+SolrSearchConf.param.autocomplete=Autocomplete request handler names
+SolrSearchConf.param.autocomplete.toolTip=Defines autocomplete requestHandler names you have in Solr configuration separated by comma.\nIf the first request handler response suites for our purpose, the next chain of handlers will not be executed.\nIf empty then autocomplete is disabled
+SolrSearchConf.param.defType=Query parser type
+SolrSearchConf.param.defType.toolTip=Default one is "edismax" 
+SolrSearchConf.param.hl.fragsize=Maximum number of items that can be returned by a query. 
+SolrSearchConf.param.hl.fragsize.toolTip=Specifying 0 removes the restriction
+SolrSearchConf.param.sort=Defines the fields list to sort by 
+SolrSearchConf.param.language=Search data language
+SolrSearchConf.param.language.toolTip=Language that will be used to do search according to this language perspective
+SolrSearchConf.param.layouts=Search layouts
+SolrSearchConf.param.layouts.toolTip=All search layouts that are used to display search result
+SolrSearchConf.param.defLayout=Search layout
+SolrSearchConf.param.defLayout.toolTip=Default search layout that is used to display search result
+SolrSearchConf.param.pureFields=Fields not to show in a search result
+SolrSearchConf.param.pureFields.toolTip=List of search fields not to show in a search result
+SolrSearchConf.param.mode=Search mode
+SolrSearchConf.param.mode.toolTip="simple" means displaying all data retrieved from search engine,\n"advanced" - searching only items identificators and displaying the rest data from Rochade
+SolrSearchConf.param.ignored_search_fields=Fields to ignore
+SolrSearchConf.param.ignored_search_fields.toolTip=The list of Solr Fields that should NOT be used by search request
+SolrSearchConf.param.Rochade_indexed_fields=Fields indexing Rochade data
+SolrSearchConf.param.Rochade_indexed_fields.toolTip=The list of Solr Fields that correspond to Rochade indexed data (i.e. the Solr Fields that map data coming from Rochade)
+SolrSearchConf.param.no_keyword_clone_fields=Fields not indexed as keyword
+SolrSearchConf.param.no_keyword_clone_fields.toolTip=The list of Solr Fields coming from Rochade and that have no equivalent indexed as a keyword (i.e. the Solr Fields with Rochade data that are not copied and re-indexed as an unbreakable ''keyword'')
+SolrSearchConf.param.=Custom parameter
+
+#Index search parameter values mapping
+SolrSearchConf.param.value.defLayout.table=Table Layout
+SolrSearchConf.param.value.defLayout.table.toolTip=Standard RoBrowser Table Layout
+SolrSearchConf.param.value.defLayout.list=HTML Layout
+SolrSearchConf.param.value.defLayout.list.toolTip=Standard Item List Layout
+SolrSearchConf.param.value.layouts.table=Table Layout
+SolrSearchConf.param.value.layouts.list=HTML Layout
+
+
+SolrSearchConf.restore=Restore Defaults
+SolrSearchConf.restore.tip=Restore Default Search Parameters
+
+SolrSearchConf.noLanguageDefined=Language not defined
+

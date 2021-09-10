@@ -1,0 +1,273 @@
+﻿# Rochade WTB - Message file
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#-------------------------------------------------------
+
+#
+# package: com.rochade.dwr.objectcontent
+#
+
+############ text used in table item view ################
+
+YES=Si
+NO=NO
+IMPLEMENTS_ENTITY=Implementa entiddad
+IMPLEMENTS_TABLE=Implementaciones de la Tabla
+FULL_QUALIFIED_NAME=Nombre Completo calificado
+NO_INFORMATION_AVAILABLE=No hay información disponible
+Name=Nombre
+FORMAT=Formato
+DataFormat=Formato del Dato
+ER_model=Modelo ERM
+PKIndicator=Indicadores de Clave Primaria
+Entity=Entidad
+RelationName=Nombre de Ralación
+FromET=Desde entidad
+ToET=A entidad
+Type=Tipo
+RelationshipName=Nombre de la Relación
+DataType=Tipo de Dato
+ProvidedByTable=Provista por Tabla
+Position=Posición
+Function=Función
+HasETL=Tiene Sub-Sistema-ETL
+BelongsToETL=Pertenece a Sistema-ETL
+BelongsToAct=Pertenece a actividad
+BelongsToTask=Pertenece a la tarea
+BelongsToTans=Pertenece a Transformación
+BelongsToTansType=Pertenece a Tipo de Transformación
+BelongsToPackage=Pertenece a Paquete
+HasPackage=Tiene paquete
+BelongsToCube=Pertenece a Cubo
+BelongsToSchema=Pertenece a Esquema
+BelongsToReport=Pertenece a Reporte
+BelongsToRepStructure=Pertenece a Reporte de Estructura
+BelongsTo.RepSchema.Structure=Pertenece a Reporte [Schema.Structure]
+MapsFrom=Mapas desde
+MapsTo=Mapas hasta
+HasPackage=Tiene paquete
+UsesStructure=Usa Estructura
+From=Desde
+To=Hasta
+############### text used in item view ###################
+label.format=Formato
+
+ValidPeriod=Período Válido:
+ValidFrom=Válido desde
+ValidTo=Hasta
+
+label.fkDetails=Detalles
+label.fkDetails-FK=Detalles
+label.fkDetails-Depends=Detalles de Dependencias
+
+label.ERMAttribute-Column=Liberada como Columna
+label.ERMEntity-Table=Liberada como Tabla
+Label.RDBColumnUsedInFK=Usado en clave foránea
+Label.ERMEntity-Relationship=Usado en relación
+Label.ERMEntity-SubjectArea=Usado en subject area
+Label.DWR_ERM_INHERITS_INTO=Herede en
+Label.RDBImplementsTable=Implementaciones de la Tabla
+Label.RDBImplementsColumn=Implementaciones de la columna
+Label.ERMImplementsIndex=Implementaciones del Índice
+label.RDBIndex-ProvidedByTable=Provista por Tabla
+Label.RDBUsedByColumn=Usado por Columna
+Label.RDBUsedByTable=Usado por tabla
+Label.TFMUsedInMap=Usado en mapa
+Label.DWR_TFM_BELONGS_TO_TFM_SYSTEM=Pertenece a Sistema
+Label.UnitHasUnit=Tiene unid. org.
+Label.OrgUnit=Unid. Org.
+
+label.SpecificFormat=Formato específico
+label.DataTypeFormat=Formato
+
+History.editLabel=Comentario del cambio:
+
+label.Name=Nombre ERM
+label.CardMin=Min. Card.
+label.CardMax=Max. Card.
+label.ERM_NAME_STANDARD=Estándar
+label.ERM_NAME_CASE=Caso
+label.ERM_NAME_ID=ID
+
+label.ANLDimensionMap=Mapa de Dimensión
+
+label.DWR_DAT_MINIMUM_LENGTH=Largo Mínimo
+label.DWR_DAT_DEFAULT_VALUE=Valor por defecto
+label.DWR_DAT_ALLOWED_VALUES=Valores permitidos
+label.Datatypes=Tipo de Dato
+label.DATDirectories=Directories
+label.DATFiles=Archivos
+
+label.CommentDefault=Changed
+Label.OrgMember=Miembro
+label.Select=Seleccionar
+label.LocalRepresentedBy=Is represented by
+#################### Tabs header #######################################
+Tab.ANLPackage=Paquete
+Tab.ANLSchema=Esquema
+Tab.ANLCube=Cubo
+Tab.ANLDimension=Dimensión
+Tab.ANLRegion=Región
+Tab.ANLHierarchy=Jerarquía
+Tab.ANLDimensionSource=Origen
+Tab.ANLDimensionMap=Mapa de Dimensión
+Tab.ANLLevel=Nivel
+Tab.ANLMember=Miembro
+Tab.ANLDimensionMapFrom=Desde
+Tab.ANLDimensionMapTo=Hasta
+Tab.ANLLevelMember=Miembro
+Tab.ANLMeasure=Medición
+Tab.ANLHierarchyLevel=Nivel
+Tab.ANLHierarchyMember=Miembro
+
+Tab.ANLReportPackage=Paquete
+Tab.ANLReportSchema=Esquema
+Tab.ANLReportStructure=Estructura
+Tab.ANLReportReport=Reporte
+Tab.ANLReportStructureField=Campo
+Tab.ANLReportStructureMap=Mapa
+Tab.ANLReportReportMap=Mapa
+Tab.ANLReportReportSource=Origen
+Tab.ANLReportReportTarget=Destino
+Tab.ANLReportReportField=Campo
+Tab.ANLReportReportMapFrom=Desde
+Tab.ANLReportReportMapTo=Hasta
+
+Tab.ANLReportFieldReportField=Campo
+
+Tab.ANLReportDashboard=Tablero
+Tab.ANLReportPage=Página
+Tab.ANLReportRenders=Renders
+Tab.ANLReportPrompt=Entrada
+Tab.ANLReportPromptsFor=Entradas para
+Tab.ANLReportControls=Controls
+Tab.ANLReportDependsOn=Depende de
+
+Tab.Database=Base de Datos
+Tab.Stewardship=Organización
+Tab.Column=Columna
+Tab.Index=Indice
+Tab.Dependency=Dependencia
+Tab.Implements=Implementaciones
+Tab.References=Referencias
+Tab.IndexColumn=Depende de columna
+Tab.ForeignKey=Clave foránea
+Tab.ForeignKeyDetails=Detalles
+Tab.Schema=Esquema
+Tab.Tables=Tabla
+Tab.SourceDetails=Origen
+Tab.FunctionFormat=Formato
+Tab.TriggerDetails=Detalles
+Tab.RoutineDetails=Detalles
+Tab.LocalRepresentation=Local Representation
+Tab.General=General
+Tab.Datatypes=Tipo de Dato
+Tab.Records=Registro
+Tab.Package=Paquete
+Tab.Domain=Dominio
+Tab.DirectoriesAndFiles=Directories & Files
+Tab.File=Archivo
+Tab.Field=Campo
+Tab.DSElement=DS Element
+Tab.Attribute=Atributo
+Tab.Identifier=Usa Identificador
+Tab.IdentifierUses=Detalles
+Tab.Inherits=Hereda
+Tab.Relationship=Relación
+Tab.RelationshipDetails=Detalles
+Tab.Entity=Entidad
+Tab.Model_SubjArea=Modelo / Subject Area
+Tab.SubjArea=Subject Area
+Tab.System=Sistema
+Tab.Activity=Actividad
+Tab.RunActivity=Ejecutar Actividad
+Tab.Task=Tarea
+Tab.ExecTask=Tarea de Ejecución
+Tab.TaskActivity=Ejecutado por Actividad
+Tab.Type=Tipo
+Tab.Parameter=Parámetro
+Tab.Transformation=Transformación
+Tab.PerformTransformation=Realiza Transformación
+Tab.TransformationSource=Origen
+Tab.TransformationTarget=Destino
+Tab.TransformationLookup=Lookup
+Tab.TransformationMap=Mapas
+Tab.TransformationMapFrom=Desde
+Tab.TransformationMapTo=Hasta
+Tab.TransformationMapLookup=Lookup
+Tab.TransformationMapType=Tipo
+Tab.OrgUnit=Unid. Org.
+Tab.BelongsOrgUnit=Pertenece a Org.Unit
+Tab.OrgHasUnit=Tiene Unid. Org.
+Tab.OrgUnitFunction=Tiene Función de Unid. Org.
+Tab.OrgMemberFunction=Función Miembro
+Tab.OrgMemberPosition=Posición del Miembro
+Tab.OrgMember=Miembro
+Tab.OOPContent=Contenido
+Tab.OOTFMContent=Transformaciones
+Tab.OOPImports=Importaciones
+Tab.OOPAnnotationGeneral=General
+Tab.OOPAnnotationElementGeneral=General
+Tab.OOPUnresolvedGeneral=General
+Tab.OOPInheritance=Herencia
+Tab.OOPHasAnnotations=Anotaciones
+Tab.OOPHasUnresolved=No resuelto
+Tab.OOPType=Tipo
+Tab.OOPUses=Usos
+Tab.OOPMethods=Métodos
+Tab.OOPVariables=Variables
+Tab.OOPMethodContent=Parámetros
+Tab.OOPHasTypes=Incluye
+Tab.OOPHasAnnoElement=Tiene elementos de anotación
+
+BusinessTermItemView.List.Usages=Referenciado por los términos
+
+BusinessTermItemView.List.DefinedBy=Definido por el Término de Negocios
+
+Tab.ERMOriginsEntityType=Entidad Origen
+Tab.RDBOriginsColumn=Columna Origen
+Tab.RDBOriginsTableOrView=Tabla o Vista Origen
+Tab.TFMOriginsActivity=Actividad Origen
+Tab.TFMOriginsTFM=Transformación Origen
+Tab.TFMOriginsTFMType=Tipo de Transformación Origen
+Tab.ANLOriginsCube=Cubo Origen
+Tab.ANLOriginsDimension=Dimensión Origen
+Tab.ANLOriginsOLAPSchema=Esquema OLAP Origen
+Tab.ANLOriginsReport=Origin Report
+Tab.ANLOriginsRPTSchema=Reporte de Esquema Origen
+Tab.ANLOriginsRPTStruct=Reporte de Estructura Origen
+
+Tab.ALLHistoryTab=Historia
+
+HistoryListHeader.date=Fecha
+HistoryListHeader.user=Usuario
+HistoryListHeader.comment=Comentario
+
+Label.EIM_Definition=Descripción Corta
+Label.EIM_Message=Mensaje
+Label.EIM_Annotated_Item=Item anotado
+
+BizApp.search.button=Buscar
+BizApp.name.label=Nombre:
+BizApp.type.label=Business Application Type:
+
+AddRelatedBusinessApplicationWizard.winCaption=Agregar Aplicaciones de Negocios relacionadas
+AddRelatedBusinessApplicationWizard.Title.Step.1=Paso 1: Buscar Aplicaciones de Negocios
+AddRelatedBusinessApplicationWizard.Title.Step.2=Paso 2: Seleccionar Aplicaciones de Negocios
+AddRelatedBusinessApplicationWizard.btFinish=Agregar
+AddRelatedBusinessApplicationWizard.btCancel=Cancelar
+
+Icon.default.name=Default Image
+Icon.error=Error: Image upload error
+Icon.warning=Warning: Image upload warning
+Icon.error.alreadyExists=Resource already exists. Please specify different key
+Icon.error.keyNotSpecified=Key not specified. Please enter key
+Icon.error.iconNotSpecified=Image not specified. Please select image
+Icon.error.sizeError=Wrong image size. Image size should be 64x64
+Icon.error.formatError=Wrong image format. Image format should be ''svg''
+Icon.error.pathError=Wrong image path {0}. Please check diagram configuration
+
+label.generatesView=Generates view
+
+PropertyView.InvalidSdcacSyntax={0} - Condition (SDCAC Syntax) definition is invalid: {1}

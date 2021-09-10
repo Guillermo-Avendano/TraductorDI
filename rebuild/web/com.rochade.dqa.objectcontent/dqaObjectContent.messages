@@ -1,0 +1,29 @@
+﻿#-------------------------------------------------------
+# Rochade WTB - Message file
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.dqa.objectcontent
+#
+
+#################### Tabs header #######################################
+Tab.SystemDQMeasures=DQ Measures
+Tab.MeasureResult=Results
+
+Tab.DQA_MeasureRelatedElementsTab=Related Data Elements
+
+Tab.DQProfile=DQ Profile
+Tab.DQMDimensions=Dimensions
+
+#################### BusinessTermItemView ObjectContent#######################################
+
+DQA.BusinessRule.dimension.label=Dimension
+
+DQMEntProfRes.dataAndVals=Data & Values
+DQMEntProfRes.measures=Measure
+DQMAttProfRes.dataType=Data Type
+DQMProfiledItem.hasProfile=Has profile

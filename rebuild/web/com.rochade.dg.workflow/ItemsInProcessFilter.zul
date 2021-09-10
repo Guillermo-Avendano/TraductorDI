@@ -1,0 +1,54 @@
+<?page title="My Business Term Filter" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="http://www.zkoss.org/dsp/web/core" prefix="c" ?>
+<?init class="org.zkoss.zkplus.databind.AnnotateDataBinderInit" arg0="win" ?>
+<!-- 
+	My Business Term Filter Dialog
+	@author GC, 20090508, created
+	@version 1.00.001
+-->
+<!-- Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. -->
+<zk>
+	<window id="win" border="normal" width="560px" sclass="asg-search-items-in-work"
+		apply="${arg.composer}">
+		<caption image="${wtb:getImg('workflow.img.search')}" id="lblCaption" />
+		<panel>
+			<panelchildren
+				style="background:transparent; padding:5px;">
+				<grid sclass="asg-grid" fixedLayout="true"
+					style="border:0px; padding:5px; background:transparent">
+					<columns>
+						<column valign="middle"
+							style="background:transparent" align="right" hflex="1" />
+						<column valign="middle" hflex="3"
+							style="background:transparent" />
+						<column style="background:transparent" />
+					</columns>
+					<rows>
+						<row style="padding-right: 19px;">
+							<label id="lblState" />
+							<combobox id="cbStateBox" width="100%" readonly="true" popupWidth="100%"/>
+						</row>
+						<row style="padding-right: 19px;">
+							<label id="lblContexts" />
+							<combobox id="cbContexts" width="100%" readonly="true" popupWidth="100%"/>
+						</row>
+						<row spans="2" align="right"
+							style="background:transparent; padding:3px;">
+							<div align="right"
+								style="margin:10px 0px">
+								<button id="btOK" style="margin: 0px 10px 0px 0px;">
+<!-- 									<attribute name="onClick"> -->
+<!-- 										Clients.showBusy(busyMsg.getValue()); -->
+<!-- 										Events.echoEvent("onOK", win, null); -->
+<!-- 									</attribute> -->
+								</button>
+								<button id="btCancel" />
+							</div>
+						</row>
+					</rows>
+				</grid>
+			</panelchildren>
+		</panel>
+
+	</window>
+</zk>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="Object Header" contentType="text/html;charset=UTF-8"?>
+<!-- 
+	@author XC 20/12/2011, created
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+<div apply="com.rochade.mg.objectinfo.BTInfoComposer"> 
+	<!-- <hbox align="center" sclass="asg-itemview-objectinfo-infoelement">
+		<div id="hierarchicalPath" use="com.rochade.wa.ui.editor.objectinfo.HierarchicalNSView" />
+	</hbox>
+	<hbox align="center" sclass="asg-itemview-objectinfo-infoelement">
+		<label value="${wtb:l('BusinessTermItemView.Info.termowner')}" />
+		<div use="com.rochade.mg.ui.view.TermOwnerTextPropertyView" attributeNames="scopeId" width="99%" readOnly="true"
+			id="MgBtViewInfoTermOwner" />
+	</hbox>
+	
+	<hbox align="center" sclass="asg-itemview-objectinfo-infoelement">
+		<label value="${c:l('BusinessTermItemView.Info.status')}" />
+		<div use="com.rochade.mg.ui.view.StatusTextPropertyView" attributeNames="RBG/STATUS" width="99%" readOnly="true"
+			id="MgBtViewInfoStatus" />
+	</hbox>
+	<hbox align="center" sclass="asg-itemview-objectinfo-infoelement">
+		<label value="${c:l('BusinessTermItemView.Info.lastapproveddate')}" />
+		<div use="com.rochade.mg.ui.view.LastApprovalDateTextPropertyView" attributeNames="" format="date" width="99%"
+			readOnly="true" id="MgBtViewInfoLastApprovalDate" />
+	</hbox>
+	<hbox id="approvalGroup" align="center" sclass="asg-itemview-objectinfo-infoelement">
+		<label value="${c:l('BusinessTermItemView.Info.ApprovalGroupField')}" />
+		<div use="com.rochade.mg.ui.view.ApprovalGroupField" attributeNames="" width="99%"
+			readOnly="true" id="MgBtViewInfoApprovalGroup" relatedId="approvalGroup" />
+	</hbox>	-->
+</div>

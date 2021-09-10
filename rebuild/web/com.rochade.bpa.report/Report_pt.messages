@@ -1,0 +1,46 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#
+#-------------------------------------------------------
+
+#------------------------------ Report Definition (BPA) ------------------------------ 
+### Icons: all images should be inside of dir /com.rochade.mg.report/ + img/, see plugin.xml
+
+#### ------------------- ONLY report menus and reports ---------------
+LineageComparison.lbl=Comparação de Linhagem
+LineageComparison.tip=Relatório de Comparação de Linhagem
+
+#### ------------------- displays ---------------
+bpaLCCompDate=Data de Comparação
+bpaLCCompType=Tipo de Comparação
+bpaLCCompTypeWP=WIP versus Produção
+bpaLCCompTypeSP=Produção contra Snapshot
+bpaLCCompTypeSS=Snapshot contra Snapshot
+bpaLCDirection=Direção
+bpaLCDirectionForward=Avançar
+bpaLCDirectionBackward=Retornar
+bpaLCDirectionAll=Todos
+bpaLCMode=Modo
+bpaLCModeHighLevel=Alto nível
+bpaLCModeDetailed=Detalhado
+bpaLCModeAll=Todos
+
+displLineageComparisonTitle=Relatório de Comparação de Linhagem
+displElements=Elementos de Dados
+displStructures=Estruturas de Dados
+displTfms=Transformações
+displUnchanged=Não Alterado
+displPrim=Desenvolvimento
+displPrimOnly=Adicionado
+displSec=Produção
+displSecOnly=Removido
+displSum=Soma
+displSumFor=Soma para
+displSumTotal=Soma total
+displSummary=Sumário
+displSummaryByDate=Resumo por Data
+displDetail=Detalhes

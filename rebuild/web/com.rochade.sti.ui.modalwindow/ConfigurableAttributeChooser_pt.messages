@@ -1,0 +1,12 @@
+﻿#-------------------------------------------------------
+# Rochade Stitching - Message file
+# This is an UTF-8 endcoded file!
+#
+#  Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+###  Configurable Attribute Column for 'Manual Stitches' tab  ###
+STI_ConfigurableAttributeChooserComposer = Selecionar coluna secundária
+sti.wizard.btn.Ok = OK
+sti.wizard.btn.Cancel = Cancelar
+STI_WizardEmptyAttributesList = Nenhum atributo disponível

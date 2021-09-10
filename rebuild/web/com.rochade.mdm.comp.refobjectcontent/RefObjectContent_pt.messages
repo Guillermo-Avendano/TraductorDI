@@ -1,0 +1,10 @@
+﻿#-------------------------------------------------------
+# Rochade metaRDM - Message file
+# This is an UTF-8 endcoded file!
+#
+#  Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+RefObjectContentComposer.errorWhileLoadingObjectContent=Erro ao carregar objeto componente de conteúdo do componente RefObjectContent
+RefObjectContentComposer.errorWhileDisplayingRelatedItems=Erro ao recuperar ou exibir itens relacionados
+RefObjectContentComposer.open_Item_Type=Abrir "{0} [{1}]"

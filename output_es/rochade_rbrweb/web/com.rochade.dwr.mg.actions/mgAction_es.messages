@@ -1,0 +1,49 @@
+﻿# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#------------------------------ Action Definition ------------------------------
+### Icons: all images should be inside of dir /com.rochade.dwr.mg.actions/ + img/, see plugin.xml
+#DWR_OpenRBGBTerm.img=BusinessTerm16.png
+#DWR_OpenSummaryRBGBTerm.img=BusinessTerm16.png
+
+#extra icons
+### END Icons
+
+#DWR_OpenRBGBTerm.lbl=Abrir Término de Negocios
+#DWR_OpenRBGBTerm.tip=Abrir Término de Negocios
+#DWR_OpenSummaryRBGBTerm.lbl=Abrir Resumen para Término de Negocios
+#DWR_OpenSummaryRBGBTerm.tip=Abrir Resumen para Término de Negocios
+#DWR_ListBTREFS.lbl=Mostrar Referencias
+#DWR_ListBTREFS.tip=Mostrar Referencias
+#DWR_ListBTfmGLQuery.lbl=Lista de Términos de Negocio
+#DWR_ListBTfmGLQuery.tip=Lista de Términos de Negocio
+DWR_ListBTfmGlossaryAndContext.lbl=Lista de Ítems de Negocios
+DWR_ListBTfmGlossaryAndContext.tip=Lista de Ítems de Negocios
+
+DWR_SingleClick_ListBTfmGlossary.lbl=Ítems de Negocios
+DWR_SingleClick_ListBTfmGlossary.tip=Ítems de Negocios
+DWR_SingleClick_ListBTfmContext.lbl=Ítems de Negocios
+DWR_SingleClick_ListBTfmContext.tip=Ítems de Negocios
+
+DWR_Listings.lbl=Listados
+DWR_Listings.tip=Listados
+DWR_GlossaryAdvancedArea.lbl=Modificaciones
+DWR_GlossaryAdvancedArea.tip=Modificaciones
+DWR_Glossaries.lbl=Glosarios
+DWR_Glossaries.tip=Glosarios
+
+######################################################
+# copied from MG
+######################################################
+bg_SearchResult.title=Ítems del Negocio de {0}: {1}
+bg_SearchResult.tab.label={0}: {1}
+bg_SearchResult.tab.tooltip=Ítems del Negocio de {0}: {1}
+bg_SearchResult.tab.title.inclSbCtx=Ítems del Negocio de {0}: {1} (incluyendo subcontextos)
+
+DWR_Info=Información
+DWR_Action.singleSelection=Esta operación puede ser aplicada solo a un objeto simple.
+

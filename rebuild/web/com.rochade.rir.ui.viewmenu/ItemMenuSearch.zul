@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page id="itemmenusearch" title="Search Item Menu" contentType="text/html;charset=UTF-8"?>
+<!-- Search table menu with customized \'Search_Filter\' special action -->
+<!-- Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. -->
+<hlayout style="margin: 3px 0px; overflow-x: auto;" use="com.rochade.rir.ui.menu.TableItemMenu">
+	<div hflex="1">
+		<div sclass="asg-menubar-right-aligned">
+			<special actionId="DWR_UpfrontMask" visibleCondition="view.isDWRDiagram" />
+			<menubar style="background:none; border:none;">
+				<menu actionId="SwitchSearchLayout">
+					<menupopup>
+						<menuitem actionId="SwitchSearchLayout_Html"/>
+					</menupopup>
+				</menu>
+<!-- 				<menu actionId="WTB_Switch2View" -->
+<!-- 					visibleCondition="$CAPABILITIES='view.isNotTable AND view.noSpecialRender'"> -->
+<!-- 					<menupopup> -->
+<!-- 						<menuitem actionId="WTB_Switch2Tree" visibleCondition="view.isNotTree" /> -->
+<!-- 						<menuitem actionId="WTB_Switch2Diagram" -->
+<!-- 							visibleCondition="$CAPABILITIES='view.isNotDiagram OR view.isDWRDiagram'" /> -->
+<!-- 						<menuitem actionId="DWR_Switch2Diagram" visibleCondition="view.isNotDWRDiagram" /> -->
+<!-- 					</menupopup> -->
+<!-- 				</menu> -->
+
+			<menu actionId="WTB_Editor_Context" visibleCondition="$CAPABILITIES='view.isTable OR view.isTree'">
+					<menupopup>
+						<menuitem actionId="DWR_EnvRef" enableCondition="selection.single.multi" />
+						<menuitem actionId="DWR_EnvRefAndUsages" enableCondition="selection.single.multi" />
+						<menuitem actionId="DWR_EnvUsages" enableCondition="selection.single.multi" />
+						<!-- <menuseparator visibleCondition="type.businessterm" />
+						<menuitem actionId="MG_BT-DIAGRAM" enableCondition="selection.single"
+							visibleCondition="type.businessterm" />
+						<menuitem actionId="MG_BT-REFERS-TO-DIAGRAM"
+							enableCondition="selection.single" visibleCondition="type.businessterm" />  -->
+					</menupopup>
+				</menu>
+
+				<menu actionId="DWR_Organize">
+					<menupopup>
+<!-- 						<menuitem actionId="WTB_TreeExpand" visibleCondition="view.isTree" /> -->
+<!-- 						<menuitem actionId="WTB_TreeCollapse" visibleCondition="view.isTree" /> -->
+						<menuitem actionId="WTB_SelectAll" />
+						<menuitem actionId="WTB_DeselectAll" />
+						<menuseparator />
+						<menuitem actionId="WTB_OpenItem" enableCondition="selection.single" />
+						<menuitem actionId="WTB_OpenSummary" enableCondition="selection.single" />
+					</menupopup>
+				</menu>
+				<menuitem actionId="WTB_ShowColumns" xmlns:w="client"
+					w:onClick="getColumnWidths(this)" visibleCondition="view.isNotDiagram" />
+				<menuitem actionId="WTB_RefreshNow" />
+				<menu actionId="WTB_Editor_Share" visibleCondition="Editor.isPublishButtonEnabled">
+					<menupopup>
+						<menuitem actionId="WTB_CommonExport" visibleCondition="view.isTable" />
+						<!-- 
+							<menuitem actionId="WTB_SendUrl" />
+							<menuitem actionId="WTB_AddFavorites" visibleCondition="WTB_AddFavorites.visible" />
+							<menuitem actionId="WTB_FormatPDF" visibleCondition="Export.FormatPDF"/> 
+							<menuitem actionId="WTB_FormatHTM" visibleCondition="Export.FormatHTM"/> 
+							<menuitem actionId="WTB_FormatXLS" visibleCondition="Export.FormatXLS"/> 
+							<menuitem actionId="WTB_ExportXLSX" visibleCondition="Export.ExportXLSX"/> -->
+						<menuitem actionId="WTB_FormatPDFSummary"
+							visibleCondition="Export.FormatPDFSummary" />
+<!-- 						<menuitem actionId="WTB_Diagram_Export" visibleCondition="Export.Diagram" /> -->
+						<menuitem actionId="WTB_ResultSet_Export_XLS"
+							visibleCondition="Export.ResultSetXLS" />
+						<menuitem actionId="WTB_ChartDynamic" visibleCondition="Export.Chart" />
+					</menupopup>
+				</menu>
+			</menubar>
+		</div>
+		<div sclass="asg-menubar-left-aligned">
+<!-- 			<special actionId="WTB_SelectByName" visibleCondition="view.isDiagram" /> -->
+			<special actionId="Search_Filter" visibleCondition="view.isTable"/>
+<!-- 			<special actionId="WTB_Zoom" visibleCondition="WTB_Zoom.visible" /> -->
+		</div>
+		<div style="clear:both;" />
+
+<!-- 		<separator height="3px" /> -->
+<!-- 		<div id="secondLine" sclass="asg-viewmenu-secondline" visible="${wtb:check('viewmenu.secondline')}"> -->
+<!-- 			<div id="secondLineEntries" sclass="asg-menubar-left-aligned"> -->
+<!-- 				<special actionId="WTB_MPathMask" /> -->
+<!-- 				<special actionId="DWR_TransformationSystemDepth" /> -->
+<!-- 				<special actionId="WTB_MPathDepth" /> -->
+<!-- <!- - 				<special actionId="DWR_TransformationLevel" visibleCondition="view.isDiagram" /> - -> -->
+<!-- 				<special actionId="DWR_ShowSelected" visibleCondition="view.isDiagram" /> -->
+<!-- 				<special actionId="DWR_SelectByQuery" visibleCondition="view.isDWRDiagram" /> -->
+<!-- 				<special actionId="WTB_SwitchContextGroup" /> -->
+<!-- 				<special actionId="DWR_Endpoint" visibleCondition="view.isDWRDiagram" /> -->
+<!-- 			</div> -->
+<!-- 		</div> -->
+	</div>
+</hlayout>

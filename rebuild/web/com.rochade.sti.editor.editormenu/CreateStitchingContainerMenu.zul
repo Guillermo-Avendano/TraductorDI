@@ -1,0 +1,5 @@
+<editormenu>
+	<menubar style="background:none; border:none;">
+		<menuitem actionId="STI_CreateStitchingContainer" sclass="asg-stitching-create-container-menuitem"/>
+	</menubar>
+</editormenu>

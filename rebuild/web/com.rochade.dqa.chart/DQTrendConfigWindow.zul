@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="DG Snapshot Create Window" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<?taglib uri="http://www.zkoss.org/dsp/web/core" prefix="c"?>
+<!-- 
+	DQ Trend Chart
+-->
+<!-- Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. -->
+<window
+	apply="com.rochade.dqa.chart.configwindow.DQTrendChartConfigView">
+	<!-- width is necessary due to usage in dashboard chart -->
+	<vlayout width="430px">
+		<window id="contentWindow" contentStyle="overflow:auto;overflow-x: hidden;" sclass="asg-dqatrend">
+			<vbox id="contentVbox" hflex="1" />
+		</window>
+		<hlayout valign="middle">
+			<label value="${wtb:l('dq.trend_chart.cfg.start_date')}"
+				hflex="1" />
+			<datebox id="periodStart" hflex="1" />
+		</hlayout>
+		<hlayout valign="middle">
+			<label value="${wtb:l('dq.trend_chart.cfg.end_date')}"
+				hflex="1" />
+			<datebox id="periodEnd" hflex="1" />
+		</hlayout>
+		<hlayout valign="middle" hflex="1">
+			<label value="${wtb:l('dq.trend_chart.cfg.scale')}"
+				hflex="1" />
+			<combobox id="scale" hflex="1" readonly="true" popupWidth="100%">
+				<comboitem label="${wtb:l('dq.trend_chart.cfg.week')}"
+					value="WEEK" />
+				<comboitem label="${wtb:l('dq.trend_chart.cfg.month')}"
+					value="MONTH" />
+				<comboitem label="${wtb:l('dq.trend_chart.cfg.quarter')}"
+					value="QUARTER" />
+				<comboitem label="${wtb:l('dq.trend_chart.cfg.year')}"
+					value="YEAR" />
+			</combobox>
+		</hlayout>
+		<hlayout valign="middle" visible="${not arg.IsChart}">
+			<label value="${wtb:l('dq.trend_chart.cfg.charttype')}"
+				hflex="1" />
+			<combobox id="chartType" hflex="1" readonly="true" popupWidth="100%">
+				<comboitem label="${wtb:l('Dashboard.placetab')}"
+					value="TAB" />
+				<comboitem label="${wtb:l('Dashboard.placetemp')}"
+					value="DASH" />
+				<comboitem label="${wtb:l('Dashboard.placepersistent')}"
+					value="PERSIST" />
+			</combobox>
+		</hlayout>
+	</vlayout>
+</window>

@@ -1,0 +1,40 @@
+﻿# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.wa.ui.EnvQuery
+#
+### Icons: all images should be inside of dir /com.rochade.wa.ui.envquery/ + img/, see plugin.xml
+
+#extra icons
+### END Icons
+
+EnvQuery.title=Seleccionar una Consulta de Ambiente
+EnvQuery.select=Seleccione una consulta para ejecutar y ajustar la configuración.
+EnvQuery.context=Contexto
+EnvQuery.references=Referencias
+EnvQuery.refuse=Referencias y Usos
+EnvQuery.usages=Usos
+EnvQuery.runSettings=Ejecutar Configuraciones:
+EnvQuery.property=Propiedad
+EnvQuery.value=Valor
+EnvQuery.preserve=Preservar ajustes
+EnvQuery.runButton=Ejecutar
+EnvQuery.cancelButton=Cancelar
+EnvQuery.envquery=Consulta del Ambiente
+
+# Tooltips
+
+EnvQuery.altX=Consulta de contexto (Alt-X)
+EnvQuery.altN=Consulta de Referencias (Alt-N)
+EnvQuery.altF=Consulta de Referencias y Usos (Alt-F)
+EnvQuery.altU=Consulta de Usos (Alt-T)
+EnvQuery.altS=Ejecutar Configuraciones (Alt-S)
+EnvQuery.altL=Limite del resultado de la consulta (Alt-L)
+EnvQuery.altP=Preservar configuraciones (Alt-P)
+EnvQuery.enter=Ejecutar consulta (Alt-R, <enter>)
+EnvQuery.esc=Cancelar (<Esc>)

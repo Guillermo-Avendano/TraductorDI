@@ -1,0 +1,52 @@
+﻿#-------------------------------------------------------
+# metaGlossary - Message file
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#
+# package: com.rochade.mg.addlinks
+#
+#-------------------------------------------------------
+
+### Icons: all images should be inside of dir /com.rochade.mg.addlinks/ + img/, see plugin.xml
+
+#extra icons
+addLinks.img.addLink=/com.rochade.mg.addlinks/img/16x16_businessterm_addLink.png
+addLinks.img.search=/com.rochade.mg.addlinks/img/16x16_search.png
+### END Icons
+
+BTAddLinksWizard.winCaption=Add Business Item Relations
+BTAddLinksWizard.winCaption.image=/com.rochade.mg.addlinks/img/16x16_businessterm_addLink.png
+BTAddLinksWizard.Title.Step.1=Step 1: Search Business Item
+BTAddLinksWizard.Title.Step.2=Step 2: Select Business Item and Relationship Type
+
+BTAddLinksWizard.btFinish=Add
+BTAddLinksWizard.btCancel=Cancel
+BTAddLinksWizard.lblSelectTerms=Business Items:
+BTAddLinksWizard.lblSelectRelType=Relationship Type:
+BTAddLinksWizard.sepSelectTerms.height=10px
+BTAddLinksWizard.divContextList.style=padding: 3px;
+BTAddLinksWizard.divContextList.width=98%
+BTAddLinksWizard.cmbAttrList.width=283px
+
+# addLinks.ErrorLoadResultlist=Error on load resultlist
+# addLinks.errortargettypes=No target item types found.
+# addLinks.info.alreadyLinked=The following items will not be added because they are already linked: {0}
+# addLinks.dialogheader=Add Reference
+
+# bg_AddRefDocument.targettype=Type:
+# bg_AddRefDocument.addinglossary=In glossary:
+# bg_AddRefDocument.errorlabel=No external item types found.
+# bg_AddRefDocument.scope=Search scope:
+# bg_AddRefDocument.root=Root
+# bg_AddRefDocument.caption1=Search for
+# bg_AddRefDocument.caption2=Select
+# bg_AddRefDocument.button.addterms=Add
+# bg_AddRefDocument.button.cancel=Cancel
+# bg_AddRefDocument.button.drilldown=Drill Down
+# bg_AddRefDocument.searchforname=Name:
+# bg_AddRefDocument.msg.search.busy=Executing search...
+# bg_AddRefDocument.button.search=Search >>
+# bg_AddRefDocument.label1=Step 1: Search Objects
+# bg_AddRefDocument.label2=Step 2: Select Objects

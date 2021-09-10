@@ -1,0 +1,83 @@
+﻿# metaGlossary - Message file
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+### Icons: all images should be inside of dir /com.rochade.wa.metanote/ + img/, see plugin.xml
+
+#extra icons
+
+#icon.glossary=/img/16x16_glossary.png
+#icon.context=/img/16x16_context.png
+#icon.search="/img/16x16_search.png
+### END Icons
+
+bg_SearchBT.tabname=Buscar
+bg_SearchBT.tabname.result=Resultado de la Búsqueda
+bg_SearchBT.title=Búscar de ítem de negocios
+bg_home.searchfor=Buscar:
+bg_SearchBT.button.search=Buscar >>
+bg_SearchBT.button.refresh=Refrescar
+bg_SearchBT.button.openadvancedsearch=Busqueda avanzada
+bg_SearchBT.titleadvanced=Buscar ítems de negocios (Búsqueda avanzada)
+bg_SearchBT.button.openstandardsearch=Búsqueda Estándar
+bg_SearchBT.contextfilter=Buscar en glosario/contexto:
+bg_SearchBT.contextRelation=Tipo de relacion del Contexto:
+bg_SearchBT.lastupdate=Buscar actualizaciones:
+bg_SearchBT.and=y:
+bg_SearchBT.keyword=Buscar:
+bg_SearchBT.searchContext=Buscar y seleccionar:
+bg_SearchBT.contextRelation=Tipo de relacion del Contexto:
+bg_SearchBT.searchin=Buscar en propiedad:
+bg_SearchBT.searchinLang=Buscar en idioma:
+bg_SearchBT.between=Entre:
+bg_SearchBT.button.cleardates=Borrar Fechas
+bg_SearchBT.cleardates.tooltip=Borrar Fechas
+bg_SearchBT.completeglossary=Todos los Glosarios
+bg_SearchBT.contextRelation.all=Todo
+bg_SearchBT.contextRelation.all.desc=All Business Items
+bg_SearchBT.contextRelation.governed=Gobernado por
+bg_SearchBT.contextRelation.governed.desc=Ítems de negocio regidos por Glosario / Contexto
+bg_SearchBT.contextRelation.owned=Colaborado por
+bg_SearchBT.contextRelation.owned.desc=Ítems de negocio aportados por contexto
+bg_SearchBT.contextRelation.ref=Visto por
+bg_SearchBT.contextRelation.ref.desc=Ítems de negocio vistos por contexto
+bg_SearchBT.button.more=Mas…
+bg_SearchBT.button.fewer=Menos…
+bg_SearchBT.name=Nombre
+bg_SearchBT.mycontext=Mis Contextos
+bg_SearchBT.atLeastOneAttr=Debe seleccionar al menos una propiedad.
+bg_SearchBT.searchinglossary=Buscar en glosario:
+bg_SearchBT.checkbox.SelectInclusiveSubContext=Seleccionar con SubContextos
+bg_SearchBT.checkbox.SelectInclusiveSubContext.tooltip=Cuando selecciona un glosario o contexto, automaticamente selecciona todos los subcontextos.
+bg_SearchBT.searchScope.Glossary=Glosario:
+#bg_SearchBT.languages.alldeselected=Ningún idioma fue seleccionado. La búsqueda será realizada en el idioma predeterminado.
+
+EXCEPTION_MSG_DATERANKING=La fecha de fin debe ser mas grande que la fecha de inicio.
+
+AbstractAutoSuggestTextField.scopeText=Glosario/Contexto {0} / {1}
+AbstractAutoSuggestTextField.scopeGlossaryText=Glosario {0}
+
+bg_DialogAll.msg.search.busy=Ejecutando Búsqueda
+
+pSearch.title=Quick Search for Business Items
+
+bg_SearchBT.type=Tipo de elemento de negocio:
+bg_SearchBT.tag=Etiqueta:
+bg_SearchBT.tagOperator=El resultado debe ajustarse a todas las etiquetas:
+
+bg_SearchBT.types.rule=Reglas de negocio
+bg_SearchBT.types.term=Término de Negocios
+bg_SearchBT.types.policy=Política
+bg_SearchBT.types.cde=Elemento Crítico de Datos
+bg_SearchBT.types.other=Otros
+bg_SearchBT.types.all=Todo
+bg_SearchBT.types.pi=Informacion personal
+bg_SearchBT.types.pistruct=Estructura PI
+bg_SearchBT.types.pia=Evaluación de impacto de privacidad
+bg_SearchBT.types.gdpPolicy=Política de privacidad
+bg_SearchBT.types.gdpControlRule=Medida de seguridad de privacidad
+bg_SearchBT.types.process=Proceso
+bg_SearchBT.types.standard=Estándar

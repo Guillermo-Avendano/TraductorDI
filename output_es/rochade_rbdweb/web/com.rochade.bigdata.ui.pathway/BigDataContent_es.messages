@@ -1,0 +1,17 @@
+﻿# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.bigdata.ui.pathway
+#
+
+#extra icons
+### END Icons
+
+BigDataContent.clusterServices=Clúster y Servicios Hadoop
+BigDataContent.lifecycleDiscovery=Descubrimiento de Dato por Ciclo de Vida
+BigDataContent.toolDiscovery=Descubrimiento de Datos por Herramienta

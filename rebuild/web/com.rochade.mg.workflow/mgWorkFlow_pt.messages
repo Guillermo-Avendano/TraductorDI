@@ -1,0 +1,212 @@
+﻿#-------------------------------------------------------
+# metaGlossary - Message file
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#
+#-------------------------------------------------------
+
+MG.version=3.0
+
+#
+# package: com.rochade.mg.workflow
+#
+
+### Icons: all images should be inside of dir /com.rochade.mg.workflow/ + img/, see plugin.xml
+
+#extra icons
+### END Icons
+
+
+############ Notification/Task Dialog (BaseNotificationDialogComposer) ################
+#
+#rwf_RDM_MODEL_MODIFIED.title=Aprovação Requisitada para o Modelo
+rwf_RBG_BT_MODIFIED.title=Solicitação de Aprovação
+rwf_RBG_BT_MODIFIED_MAIL.title=Solicitação de Aprovação
+rwf_RBG_BT_CREATED.title=Solicitação de Aprovação
+rwf_RBG_BT_CREATED_MAIL.title=Solicitação de Aprovação
+rwf_RBG_BT_TASK_APPROVED.title=Solicitação Aprovada
+rwf_RBG_BT_TASK_REJECTED.title=Solicitação Rejeitada
+rwf_RBG_BT_TASK_REACTIVATED.title=Solicitação Retomada
+rwf_RBG_BT_TASK_REASSIGNED.title=Solicitação Retornada
+#rwf_RBG_BT_OWNER_ADD_REQUESTED.title=Pedido de Controle de Acesso
+rwf_RBG_BT_OWNER_ADD_REQUESTED.title=Adicionar solicitação de contexto do Colaborador
+rwf_RBG_BT_OWNER_CHANGE_REQUESTED.title=Alterar solicitação de contexto do Colaborador
+rwf_RBG_BT_OWNER_REMOVE_REQUESTED.title=Remover solicitação de contexto do Colaborador
+rwf_RBG_BT_TASK_REMINDER.title=Lembrete
+rwf_RBG_BT_REVIEW_TASK_CREATED.title=Revisão solicitada
+rwf_RBG_BT_REVIEW_TASK_COMPLETED.title=Revisão concluída
+
+
+############ RwfActionCellRenderer ################
+#
+rwf_action_RBG_BT_CREATED=Criado
+rwf_action_RBG_BT_CREATED_MAIL=Criado
+rwf_action_RBG_BT_MODIFIED=Modificação
+rwf_action_RBG_BT_MODIFIED_MAIL=Modificação
+rwf_action_RBG_BT_TASK_APPROVED=Aprovado
+rwf_action_RBG_BT_TASK_REACTIVATED=Reativado
+rwf_action_RBG_BT_TASK_REJECTED=Rejeitado
+rwf_action_RBG_BT_TASK_REASSIGNED=Retornado
+rwf_action_RBG_BT_OWNER_CHANGE_REQUESTED=Alterar contexto do Colaborador
+rwf_action_RBG_BT_OWNER_ADD_REQUESTED=Adicionar Contexto de Colaborador
+rwf_action_RBG_BT_OWNER_REMOVE_REQUESTED=Remover contexto do Colaborador
+rwf_action_RBG_BT_TASK_REMINDER=Lembrete
+rwf_action_RBG_BT_REVIEW_TASK_CREATED=Revisão solicitada
+rwf_action_RBG_BT_REVIEW_TASK_COMPLETED=Revisão concluída
+
+
+############ History View ################
+#
+bt_state_READY=Pronto
+bt_state_MODIFIED=Modificado
+bt_state_SUBMITTED=Enviado
+bt_state_REASSIGNED=Retornado
+bt_state_CREATED=Novo
+bt_state_REMOVED=Selecionado para deletar
+bt_state_REJECTED=Rejeitado
+bt_state_PENDING=Pendente
+
+bt_state_MODIFIED-PENDING=Modificado (pendente)
+bt_state_SUBMITTED-PENDING=Enviado (pendente)
+bt_state_REASSIGNED-PENDING=Retornado (pendente)
+bt_state_CREATED-PENDING=Novo (pendente)
+bt_state_REJECTED-PENDING=Rejeitado (pendente)
+
+bt_state_APPROVE-PENDING=Aprovar (pendente)
+bt_state_REJECT-PENDING=Rejeitar (pendente)
+
+
+################ TaskDialog/History Record View (Item Comparison) ################
+#
+BgGlossary.term.created=O termo é recém criado
+BgGlossary.term.deleted=Termo é marcado para exclusão
+BgGlossary.term.modified=Termo é modificado
+
+
+############ Task Dialog (TaskDialog.zul) ################
+#
+#bg_TaskDialog.openItemTypeParam=...clique aqui para abrir o {0}
+bg_TaskDialog.context=Contexto atual:
+bg_TaskDialog.reqContext=Solicitado por contexto:
+bg_TaskDialog.ownershipApprove.failure=O termo está atualmente em uso.  Você não pode alterar controle de governança nesta fase.
+bg_TaskDialog.duplicateWarning=Nota: Pelo menos um termo de cada nome já existe.
+bg_TaskDialog.button.compare=Comparar
+bg_TaskDialog.duplicates=Termos duplicados
+
+
+################ Search for completed tasks (CompletedTasksFilter.zul) ################
+#
+#bg_CompletedTasksFilter.windowheader=Pesquisar por Tarefas Concluídas
+#bg_CompletedTasksFilter.searchinglossary=Pesquisar no glossário:
+#bg_CompletedTasksFilter.numberofdays=Número de dias desde a conclusão:
+#bg_CompletedTasksFilter.button.cancel=Cancelar
+#bg_CompletedTasksFilter.button.search=Pesquisar
+#bg_CompletedTasksFilter.outofrange=O número especificado de dias está fora do intervalo.  Você deve especificar um número entre 0 e {0}.
+
+
+################ Advanced task search (AdvancedTasksFilter.zul) ################
+#
+#bg_AdvancedTasksFilter.windowheader=Pesquisar por Tarefas
+#bg_AdvancedTasksFilter.startdate=Data de início:
+#bg_AdvancedTasksFilter.enddate=Data de fim:
+#bg_AdvancedTasksFilter.completed=Concluído:
+#bg_AdvancedTasksFilter.requestedby=Solicitado pelo usuário:
+#bg_AdvancedTasksFilter.completedby=Concluído pelo usuário:
+#bg_AdvancedTasksFilter.businessterm=Termo Comercial:
+#bg_AdvancedTasksFilter.result=Resultado:
+#bg_AdvancedTasksFilter.button.cancel=Cancelar
+#bg_AdvancedTasksFilter.button.search=Pesquisar
+#bg_AdvancedTasksFilter.true=Sim
+#bg_AdvancedTasksFilter.false=Não
+#bg_AdvancedTasksFilter.approved=Aprovado
+#bg_AdvancedTasksFilter.rejected=Rejeitado
+
+
+################ Search for Items In Process (ItemsInProcessFilter.zul) ################
+#
+mg_ItemsInProcessFilter.contexts=Pesquisar no glossário:
+mg_ItemsInProcessFilter.state=Estado:
+mg_ItemsInProcessFilter.windowheader=Pesquisa por Termos em Processo
+mg_ItemsInProcessFilter.button.cancel=Cancelar
+mg_ItemsInProcessFilter.button.search=Pesquisar
+mg_ItemsInProcessFilter.searchresult.title=Termos em Processo
+mg_ItemsInProcessFilter.label.allContexts=Todos os Glossários
+mg_ItemsInProcessFilter.state.all=Todos
+
+################ Search for open tasks (PendingTasksFilter.zul) ################
+#
+#bg_PendingTasksFilter.windowheader=Pesquisar por Tarefas Abertas
+#bg_PendingTasksFilter.button.cancel=Cancelar
+#bg_PendingTasksFilter.button.search=Pesquisar
+
+#bg_SearchGeneral.datecheck.failed=Filtro de data inválido A data de término não deve ser anterior à data de início.
+mg_TaskSearch.label.allGovernedContexts=Todos os Glossários
+
+
+
+################ Messages from RWF/TEMPLATEs ################
+#
+BgTermCreated.title=Solicitação Enviada para Criação de [$item.MappedType] [$item.name]
+BgTermCreated.footer=Clique <a href="[$notification.link]">aqui</a> para abrir a notificação.
+BgTermCreated.body=Uma solicitação foi enviada para a criação de [$item.MappedType]  [$item.name].
+BgTermCreated.mail_body=Um pedido foi submetido para a criação do [$item.MappedType] <a href="[$item.link]">[$item.name]</a>.<br/><br/>\nRequisitado por:  <a href="[$author.link]">[$author.DEFINITION]</a><br/><br/>
+
+BgTermModified.title=Solicitação Enviada para Modificação de [$item.MappedType] [$item.name]
+BgTermModified.footer=Clique <a href="[$notification.link]">aqui</a> para abrir a notificação.
+BgTermModified.body=Uma solicitação foi enviada para a modificação de [$item.MappedType] [$item.name].
+BgTermModified.mail_body=Um pedido foi submetido para a modificação do [$item.MappedType] <a href="[$item.link]">[$item.name]</a>.<br/><br/>\nRequisitado por: <a href="[$author.link]">[$author.DEFINITION]</a><br/><br/>
+
+BgTermOwnerAdd.title=Adicionar Contexto de Colaborador sobre [$item.MappedType] [$item.name]
+BgTermOwnerAdd.footer=Clique <a href="[$notification.link]">aqui</a> para abrir a notificação.
+BgTermOwnerAdd.body=Contexto [$ context.name] solicita o controle do contribuidor sobre [$item.MappedType] [$item.name].\nRequisitado por: [$ author.DEFINITION]
+BgTermOwnerAdd.mail_body=Contexto <a href="[$context.link]"> [$ context.name]</a> solicita controle do contribuidor sobre [$item.MappedType] <a href="[$item.link]">[item $ .name]</a>. <br/><br/>\nRequisitado por: <a href="[$author.link]"> [$ author.DEFINITION]</a><br/><br/>
+
+BgTermOwnerChange.title=Alterar Contexto de Colaborador sobre [$item.MappedType] [$item.name]
+BgTermOwnerChange.footer=Clique <a href="[$notification.link]">aqui</a> para abrir a notificação.
+BgTermOwnerChange.body=Contexto [$ context.name] é solicitado a substituir o controle do contribuidor por [$item.MappedType] [$item.name].\nRequisitado por: [$ author.DEFINITION]
+BgTermOwnerChange.mail_body=Contexto <a href="[$context.link]"> [$ context.name] </a> é solicitado a substituir o controle contribuinte sobre [$item.MappedType] <a href="[$item.link]">[$item.name]</a>.<br/><br/>\nRequisitado por: <a href="[$author.link]"> [$ author.DEFINITION]</a><br/><br/>
+
+BgTermOwnerRemove.title=Remover Controle de Colaborador sobre [$item.MappedType] [$item.name]
+BgTermOwnerRemove.footer=Clique <a href="[$notification.link]">aqui</a> para abrir a notificação.
+BgTermOwnerRemove.body=Contexto [$ context.name] requisitado para ser removido do controle do contribuidor sobre [$item.MappedType] [$item.name].\nRequisitado por: [$ author.DEFINITION]
+BgTermOwnerRemove.mail_body=Contexto <a href="[$context.link]"> [$ context.name] </a> é solicitado a ser removido do controle do contribuidor sobre [$item.MappedType] <a href ="[$item.link]">[$item.name]</a>.<br/> <br/> \nRequisitado por: <a href="[$author.link]">[$ author.DEFINITION]</a><br/><br/>
+
+BgTaskApproved.title=Solicitação Aprovada por [$item.MappedType] [$item.name]
+BgTaskApproved.footer=Clique <a href="[$notification.link]">aqui</a> para abrir a notificação.
+BgTaskApproved.body=O pedido de alteração do [$item.MappedType] [$item.name] foi aprovado.\n\nRequisitado por: [$ author.DEFINITION]\nAprovado por: [$ history.RWF / COMPLETED-BY.DEFINITION]\nComentários: [$ comment]
+BgTaskApproved.mail_body=O pedido de alteração de [$item.MappedType] <a href="[$item.link]">[$item.name]</a> foi aprovado.<br/><br/>\nRetomado por: <a href="[$author.link]">[$ author.DEFINITION]</a><br/>\nAprovado por: <a href="[$actionBy.link]">[$ actionBy.DEFINITION]</a><br/>\nComentários: [$ comment]<br/><br/>\nClique<a target="right" href="[$history.link]"> aqui </a> para abrir a tarefa.<br/>
+
+BgTaskReactivated.title=Solicitação Retomada para [$item.MappedType] [$item.name]
+BgTaskReactivated.footer=Clique <a href="[$notification.link]">aqui</a> para abrir a notificação.
+BgTaskReactivated.body=O pedido de alteração do [$item.MappedType] [$item.name] foi retomado.\n\nRequisitado por: [$ author.DEFINITION]\nResumido por: [$ actionBy.DEFINITION]\nComentários: [$ comment]
+BgTaskReactivated.mail_body=O pedido de alteração de [$item.MappedType] <a href="[$item.link]"> [$item.name] </a> foi retomado. <br/><br/>\nReiciado por: <a href="[$author.link]"> [$ author.DEFINITION]</a><br/>\nResumido por: <a href="[$actionBy.link]"> [$ actionBy.DEFINITION]</a><br/>\nComentários: [$ comment]<br/><br/>
+
+BgTaskReassigned.title=Solicitação Retornada por [$item.MappedType] [$item.name]
+BgTaskReassigned.footer=Clique <a href="[$notification.link]">aqui</a> para abrir a notificação.
+BgTaskReassigned.body=O pedido de alteração do [$item.MappedType] [$item.name] foi retornado. Por favor envie uma versão atualizada para aprovação.\n\nRequisitado por: [$ author.DEFINITION]\nRetornado por: [$ actionBy.DEFINITION]\nComentários: [$ comment]
+BgTaskReassigned.mail_body=O pedido de alteração de [$item.MappedType] <a href="[$item.link]"> [$item.name] </a> foi retornado. Por favor, envie uma versão atualizada para aprovação.<br/><br/>\nReiciado por: <a href="[$author.link]"> [$ author.DEFINITION]</a> <br/>\nRetornado por : <a href="[$actionBy.link]">[$ actionBy.DEFINITION]</a><br/>\nComentários: [$ comment]<br/><br/>
+
+BgTaskRejected.title=Solicitação Rejeitada por [$item.MappedType] [$item.name]
+BgTaskRejected.footer=Clique <a href="[$notification.link]">aqui</a> para abrir a notificação.
+BgTaskRejected.body=O pedido de alteração do [$item.MappedType] [$item.name] foi rejeitado.\n\nRequisitado por: [$ author.DEFINITION]\nRejeitado por: [$ history.RWF / COMPLETED-BY.DEFINITION]\nComentários: [$ history.RWF / COMMENT11]\n
+BgTaskRejected.mail_body=O pedido de alteração de [$item.MappedType] <a target="right" href="[$item.link]"> [$item.name]</a> foi rejeitado.<br/><br/>\nRequisitado por: <a href="[$author.link]"> [$ author.DEFINITION]</a><br/>\nRejeitado por: <a href="[$actionBy.link]">[ $ actionBy.DEFINITION]</a><br/>\nComentários: [$ comment]<br/><br/>\nClique <a target="right" href="[$history.link]"> aqui </a> para abrir a tarefa. <br/>
+
+BgTaskReminder.title=Por Favor, Tome Medidas Sobre o Solicitação de [$item.MappedType] [$item.name]
+BgTaskReminder.footer=Clique <a href="[$notification.link]">aqui</a> para abrir a notificação.
+BgTaskReminder.body=Execute as ações de pedido de alteração de [$item.MappedType] [$item.name].\n\nComentários: [$ comment]
+BgTaskReminder.mail_body=Por favor, faça uma ação no pedido de alteração de [$item.MappedType] <a target="right" href="[$item.link]"> [$item.name]</a>.<br/><br/> \nComentários: [$ comment]<br/><br/>\nClique<a target="right" href="[$history.link]"> aqui </a> para abrir a tarefa. <br/>
+
+#BgReviewTaskCreated.title=Tarefa de revisão criada para o termo comercial [$item.name]
+BgReviewTaskCreated.title=Revisar Tarefa Criada por [$item.MappedType] [$item.name]
+BgReviewTaskCreated.footer=Clique <a href="[$notification.link]">aqui</a> para abrir a notificação.
+#BgReviewTaskCreated.body=Uma tarefa de revisão para o Termo Comercial [$item.name] foi criada.\n\nRequisitado por: [$author.DEFINITION]\n
+BgReviewTaskCreated.body=A tarefa de revisão para [$item.MappedType] [$item.name] foi criada.\n\nRequisitado por: [$author.DEFINITION]\n
+BgReviewTaskCreated.mail_body=Uma tarefa de revisão para [$item.MappedType] <a target="right" href="[$item.link]">[$item.name]</a> foi criada.<br/><br/>\nRequisitado por: <a href="[$author.link]">[$author.DEFINITION]</a><br/>\n\nClique <a target="right" href="[$history.link]">aqui</a> para abrir a tarefa.<br/>
+
+BgReviewTaskCompleted.title=Revisar Tarefa Criada por [$item.MappedType] [$item.name]
+BgReviewTaskCompleted.footer=Clique <a href="[$notification.link]">aqui</a> para abrir a notificação.
+BgReviewTaskCompleted.body=A tarefa de revisão para [$item.MappedType] [$item.name] finalizou.\n\nRequisitado por: [$author.DEFINITION]\nConcluído por: [$actionBy.DEFINITION]\nComentários:[$comment]\n
+BgReviewTaskCompleted.mail_body=Uma tarefa de revisão para [$item.MappedType] <a target="right" href="[$item.link]">[$item.name]</a> finalizou.<br/><br/>\nRequisitado por: <a href="[$author.link]">[$author.DEFINITION]</a><br/>\nConcluído por: <a href="[$actionBy.link]">[$actionBy.DEFINITION]</a><br/>\nComentários: [$comment]<br/><br/>\nClique <a target="right" href="[$history.link]">aqui</a> para abrir a tarefa.<br/>
+

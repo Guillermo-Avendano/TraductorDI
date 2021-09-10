@@ -1,0 +1,21 @@
+﻿#-------------------------------------------------------
+# DQA actions - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+## Context reports associated with Business Process ##
+
+DQA_Diagrams.lbl=Diagram Reports
+DQA_Diagrams.tip=Diagram Reports specific to the item type acting as seed
+
+DQA_Organize.img=16x16_organize.png
+DQA_Organize.lbl=Organize
+DQA_Organize.tip=Organize
+
+OpenDQTrendChartConfig.lbl=Create DQ Chart
+OpenDQTrendChartConfig.tip=Create DQ Chart
+
+OpenAttributeProfileAction.ErrorRetrivingColumn=An error occurred while retrieving related column

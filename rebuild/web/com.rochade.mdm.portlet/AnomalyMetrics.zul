@@ -1,0 +1,26 @@
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<zk>
+	<div apply="com.rochade.mdm.portlet.AnomalyMetricsComposer" visible="true"  sclass="rochade-mdm-portlet-anomaly-metrics">
+		<div style="padding: 10px">
+			<grid sclass="asg-grid-odd" span="true">
+				<columns>
+					<column hflex="min" />
+					<column />
+				</columns>
+				<rows>
+					<row>
+						<label value="${wtb:l('mdm_anomalymetrics.selectContext')}" sclass="asg-label-14-blue" />
+						<combobox width="100%" focus="true" readonly="true" forward="onCreate=onCreateCombo"/>
+					</row>
+				</rows>
+			</grid>
+			<grid sclass="asg-grid-odd" span="true">
+				<columns>
+					<column hflex="6" />
+					<column hflex="1" align="right"/>
+				</columns>
+				<rows forward="onCreate=onCreateRows"></rows>
+			</grid>
+		</div>
+	</div>
+</zk>

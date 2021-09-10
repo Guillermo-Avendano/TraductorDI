@@ -1,0 +1,27 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.wa.ui.exportcontent
+#
+### Icons: all images should be inside of dir /com.rochade.wa.metanote/ + img/, see plugin.xml
+
+#extra icons
+																	
+### END Icons
+
+ExportContent.html=Exportar para HTML
+ExportContent.pdf=Exportar para PDF
+ExportContent.xls=Exportar para Excel
+ExportContent.png=Exportar Diagrama como png
+ExportContent.gif=Exportar Diagrama como gif
+ExportContent.jpg=Exportar Diagrama como jpg
+ExportContent.jpeg=Exportar Diagrama como jpeg
+
+ExportContent.download=Baixar
+ExportContent.restore=Restaurar a Visão

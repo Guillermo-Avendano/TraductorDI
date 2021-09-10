@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="ObjectArea" contentType="text/html;charset=UTF-8"?>
+<!-- 
+	@author SA 01/07/2011, created
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+<window apply="com.rochade.wa.ui.editor.objectarea.ObjectAreaComposer"
+	height="100%" sclass="asg-itemview-window" >
+	<!-- <borderlayout sclass="asg-itemview-borderlayout">
+		 <center vflex="1"> -->
+			<div id="divbody" vflex="1" />
+	<!-- </center>
+	</borderlayout>  -->
+</window>	

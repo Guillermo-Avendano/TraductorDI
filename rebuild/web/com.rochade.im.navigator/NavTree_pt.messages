@@ -1,0 +1,26 @@
+﻿#-------------------------------------------------------
+# Issue Management messages
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+metapp.im.title=Gerenciamento de Casos
+Querygroup.titleIM=Gerenciamento de Casos
+Querygroup.titleIM.tip=Gerenciamento de Casos
+
+
+IM_InWork.lbl=Em Progresso
+IM_InWork.tip=Em Progresso
+IM_MyIssues.lbl=Meus Casos
+IM_MyIssues.tip=Meus Casos
+IM_MyIssueNotifications.tip=Listar Notificações dos Meus Casos
+IM_MyIssueNotifications.lbl=Minhas Notificações
+IM_TaskReports.lbl=Relatórios de Casos
+IM_TaskReports.tip=Relatórios de Casos
+IM_OpenIssues.lbl=Abrir Caso
+IM_OpenIssues.tip=Abrir Casos
+IM_ResolvedIssues.lbl=Casos Resolvidos
+IM_ResolvedIssues.tip=Casos Resolvidos
+IM_AdvancedIssueSearch.lbl=Pesquisa Avançada por Casos
+IM_AdvancedIssueSearch.tip=Pesquisa Avançada por Casos

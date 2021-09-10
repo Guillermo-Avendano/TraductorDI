@@ -1,0 +1,21 @@
+﻿# Rochade metaRDM - Message file
+# This is an UTF-8 endcoded file!
+#
+#  Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+SelectValueDomainMenu.DefaultTitle=Dominio de valores
+SelectValueDomainMenu.ParentConcepts=Conceptos Padres
+EditVDMenu.ArrangeBy=Organizar por
+EditVDMenu.MergeWith=Combinar con
+EditVDMenu.DeleteVD=Borrar
+EditVDMenu.ArrangeByVM=Ordenar por Significados de Valor
+EditVDMenu.ArrangeByVD=Organizar por {0} [Valor de Dominio]
+MergeVDConfimDialog.useSource=Usar la información valida del origen
+MergeVDConfimDialog.useTarget=Usar la información valida del destino
+MergeVDConfimDialog.additionalOptions=Opciones adicionales
+MergeVDConfimDialog.OK=Aceptar
+MergeVDConfimDialog.Cancel=Cancelar
+MergeVDConfimDialog.title=Combinar Valores de Dominios
+MergeVDConfimDialog.confirm=¿Seguro quiere fusionar los Valores de Dominio?
+MergeVDConfimDialog.note=Tenga en cuenta que este valor de dominio será eliminado y todos los valores se moveran al seleccionado.

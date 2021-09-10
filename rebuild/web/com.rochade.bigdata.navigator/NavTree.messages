@@ -1,0 +1,131 @@
+﻿#-------------------------------------------------------
+# Rochade Big Data - Message file
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+metapp.rbd.title=Big Data
+# official product title (not to be translated)
+metapp.rbd.productTitle=ASG-Enterprise Data Intelligence™ Big Data
+
+Pathway.BigData.title=Big Data
+Pathway.BigData.tp=Big Data
+Pathway.BigData.icon=/com.rochade.bigdata.navigator/img/bigdata-16.png
+Pathway.BigData.image=/com.rochade.bigdata.navigator/img/bigdata-24.png
+BigData_pathway_info=/com.rochade.bigdata.navigator/img/about.png
+
+#Labels for the Dialogs
+BigData_Analytical_Method=Analytical method
+BigData_Cluster_Name=Cluster name
+BigData_Data_Kind=Data kind
+BigData_Data_Source=Data source
+BigData_Data_Type=Data type
+BigData_Database_Name=Database name
+BigData_Feed_Name=Feed name
+BigData_Hive_Tool=Hive tool
+BigData_Host_Ip_Address=Host IP address
+BigData_Host_Name=Host name
+BigData_Job_Name=Job name
+BigData_Job_Type=Job type
+BigData_Import_Tool=Import tool 
+BigData_Name=Name
+BigData_Name_Pattern=Name pattern
+BigData_Security_Level=Security level
+BigData_Tag_Name=Tag name
+BigData_Time_Pattern=Time pattern
+BigData_Tool=Tool
+BigData_Transf_Kind=Kind of transformation
+BigData_Transf_Service=Transformation service
+BigData_Type=Transform Type
+BigData_User_Name=User name
+
+#Entry Topics 
+#BigDataEntryTopic-ClassByTag=Classification by Tagging 
+#BigDataEntryTopic-Revelytix=Revelytix
+#BigDataEntryTopic-Loom=Loom
+#BigDataEntryTopic-BigDataTags=Big Data Tags
+#BigDataEntryTopic-DataOwner=Data Ownership
+#BigDataEntryTopic-DataProjectAssignment=Data Project Assignment
+#BigDataEntryTopic-DataSecurityLevel=Data Security Level
+#BigDataEntryTopic-MethodLineage=Data Lineage by Analytical Method
+#BigDataEntryTopic-ServiceLineage=Data Lineage by Service
+#BigDataEntryTopic-Hadoop=Hadoop
+#BigDataEntryTopic-MapR=MapR
+
+BigDataEntryTopic-HiveDW=Databases and Tables
+BigDataEntryTopic-ColumnsAndFields=Used Columns and Fields
+BigDataEntryTopic-TypesAndRecords=Data Types and Records
+
+BigDataEntryTopic-FileSystem=Directories and Files
+BigDataEntryTopic-HostRes=Hosts and Resources
+BigDataEntryTopic-Services=Services
+
+BigDataEntryTopic-Sqoop=Sqoop
+BigDataEntryTopic-Flume=Flume
+BigDataEntryTopic-Falcon=Falcon
+BigDataEntryTopic-HiveQL=HiveQL
+
+BigDataEntryTopic-BatchData=Batch Imports
+BigDataEntryTopic-StreamData=Stream Imports
+BigDataEntryTopic-SourceData=Origin of Imported Data
+BigDataEntryTopic-TargetData=Destination of Exported Data
+
+#Hadoop Clusters and Services
+Querygroup.hadoopClustersServices.title=Hadoop File System
+Querygroup.hadoopClustersServices.tip=Metadata about Hadoop File System and Cluster structure
+#Querygroup.hadoopClustersServices.ico=/com.rochade.bigdata.navigator/img/bigdata-16.png
+
+#Data Discovery by Lifecycle
+Querygroup.dataDiscoveryByLifecycle.title=Landing Zone Flow
+Querygroup.dataDiscoveryByLifecycle.tip=Information about origin and destination of data in Big Data Landing Zone
+#Querygroup.dataDiscoveryByLifecycle.ico=/com.rochade.bigdata.navigator/img/lifecycle-16.png
+
+#Data Discovery by Structure
+Querygroup.dataDiscoveryByStructure.title=Transformation
+Querygroup.dataDiscoveryByStructure.tip=Big Data transformations
+#Querygroup.dataDiscoveryByStructure.ico=/com.rochade.bigdata.navigator/img/structure.png
+
+#Data Discovery by Tool
+Querygroup.dataDiscoveryByContents.title=Hive Data Warehouse
+Querygroup.dataDiscoveryByContents.tip=Metadata about Hive Data Warehouse and data structures
+#Querygroup.dataDiscoveryByContents.ico=/com.rochade.bigdata.navigator/img/contents-16.png
+
+#Data Governance
+#Querygroup.dataGovernance.title=Data Governance
+#Querygroup.dataGovernance.tip=Data Governance
+#Querygroup.dataGovernance.ico=/com.rochade.bigdata.navigator/img/governance-16.png
+
+#Revelytix
+#Querygroup.revelytix.title=Revelytix
+#Querygroup.revelytix.tip=Inventory of Revelytix metadata
+#Querygroup.revelytix.ico=/com.rochade.bigdata.navigator/img/revelytix.png
+
+#Icons for Entry Topics 
+#query.plugin.icon.EntryTopic-BatchData=/com.rochade.bigdata.navigator/img/bg-icon-lifecycle.png
+#query.plugin.icon.EntryTopic-BigDataTags=/com.rochade.bigdata.navigator/img/bg-icon-elephant.png
+#query.plugin.icon.EntryTopic-DataOwner=/com.rochade.bigdata.navigator/img/bg-icon-governance.png
+#query.plugin.icon.EntryTopic-DataProjectAssignment=/com.rochade.bigdata.navigator/img/bg-icon-governance.png
+#query.plugin.icon.EntryTopic-DataSecurityLevel=/com.rochade.bigdata.navigator/img/bg-icon-governance.png
+#query.plugin.icon.EntryTopic-DataStructure=/com.rochade.bigdata.navigator/img/bg-icon-lifecycle.png
+#query.plugin.icon.EntryTopic-ClassByTag=/com.rochade.bigdata.navigator/img/bg-icon-contents.png
+#query.plugin.icon.EntryTopic-TargetData=/com.rochade.bigdata.navigator/img/bg-icon-lifecycle.png
+#query.plugin.icon.EntryTopic-HiveDB=/com.rochade.bigdata.navigator/img/hive-16.png
+#query.plugin.icon.EntryTopic-HiveDW=/com.rochade.bigdata.navigator/img/hive-16.png
+#query.plugin.icon.EntryTopic-HiveTV=/com.rochade.bigdata.navigator/img/hive-16.png
+#query.plugin.icon.EntryTopic-HostRes=/com.rochade.bigdata.navigator/img/bg-icon-elephant.png
+#query.plugin.icon.EntryTopic-MethodLineage=/com.rochade.bigdata.navigator/img/bg-icon-lifecycle.png
+#query.plugin.icon.EntryTopic-Services=/com.rochade.bigdata.navigator/img/bg-icon-elephant.png
+#query.plugin.icon.EntryTopic-ServiceLineage=/com.rochade.bigdata.navigator/img/bg-icon-lifecycle.png
+#query.plugin.icon.EntryTopic-Sqoop=/com.rochade.bigdata.navigator/img/sqoop-16.png
+#query.plugin.icon.EntryTopic-Falcon=/com.rochade.bigdata.navigator/img/falcon-16.png
+#query.plugin.icon.EntryTopic-FileSystem=/com.rochade.bigdata.navigator/img/bigdata-16.png
+#query.plugin.icon.EntryTopic-Flume=/com.rochade.bigdata.navigator/img/flume-16.png
+#query.plugin.icon.EntryTopic-SourceData=/com.rochade.bigdata.navigator/img/bg-icon-lifecycle.png
+#query.plugin.icon.EntryTopic-StreamData=/com.rochade.bigdata.navigator/img/bg-icon-lifecycle.png
+#query.plugin.icon.EntryTopic-ColumnsAndFields=/com.rochade.bigdata.navigator/img/bg-icon-structure.png
+#query.plugin.icon.EntryTopic-TypesAndRecords=/com.rochade.bigdata.navigator/img/bg-icon-structure.png
+#query.plugin.icon.EntryTopic-HiveQL=/com.rochade.bigdata.navigator/img/hive-16.png
+#query.plugin.icon.EntryTopic-Loom=/com.rochade.bigdata.navigator/img/revelytix.png
+
+#Default Values

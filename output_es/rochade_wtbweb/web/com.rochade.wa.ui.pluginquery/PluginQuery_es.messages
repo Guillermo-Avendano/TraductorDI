@@ -1,0 +1,36 @@
+﻿# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.wa.ui.pluginquery
+#
+### Icons: all images should be inside of dir /com.rochade.wa.ui.pluginquery/ + img/, see plugin.xml
+
+#extra icons
+### END Icons
+
+PluginQuery.entrytitle=Consulta de inicio
+PluginQuery.ctxtitle=Consulta de contexto
+PluginQuery.select=Seleccione una consulta para ejecutar.
+PluginQuery.list=Consultas disponibles
+PluginQuery.filter=Nombre del filtro de Consulta:
+PluginQuery.refresh=Refrescar
+PluginQuery.queries=Available queries:
+PluginQuery.name=Nombre
+PluginQuery.description=Descripción
+PluginQuery.runButton=Ejecutar
+PluginQuery.cancelButton=Cancelar
+PluginQuery.noqueries=No hay consultas disponibles
+PluginQuery.information=Información
+
+# Tooltips
+
+PluginQuery.altF=Filtrado del nombre físico de la consulta (Alt-F)
+PluginQuery.altA=Seleccionar de la lista de consultas disponibles (Alt-A)
+PluginQuery.altE=Refrescar (Alt-E)
+PluginQuery.enter=Ejecutar consulta (Alt-R, <enter>)
+PluginQuery.esc=Cancelar (<Esc>)

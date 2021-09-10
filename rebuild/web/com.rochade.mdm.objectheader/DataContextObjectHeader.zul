@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="Object Header" contentType="text/html;charset=UTF-8"?>
+<!--
+	@author SA 01/07/2011, created
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+-->
+<div apply="com.rochade.mdm.objectheader.DataContextObjectHeaderComposer"><div style="float:none">
+
+	<div id="divItemSpec" sclass="asg-objectheader-itemspec"/>
+	<div style="clear:both" />
+
+		<hbox id="createUserAdminBox" visible="false" align="center" style="padding: 5px 5px 0px 5px;">
+			<label value="${c:l('mdm_CreateGlossaryContext.initUserAdmin')}" />
+			<checkbox id="createUserAdmin" checked="false"/>
+		</hbox>
+</div></div>
+
+<!--
+<hbox apply="com.rochade.mdm.objectheader.DataContextObjectHeaderComposer" style="padding: 0px">
+	<vbox>
+		<hbox align="center" style="padding: 5px 5px 0px 5px;">
+			<div id="divname" sclass="asg-itemname-label" />
+			<separator width="3px" />
+			<label id="ltype" sclass="asg-itemtype-label" />
+		</hbox>
+	</vbox>
+</hbox>
+ -->

@@ -1,0 +1,230 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#------------------------------ Action Definition ------------------------------
+### Icons: all images should be inside of dir /com.rochade.wa.view.diagram.dwh/ + img/, see plugin.xml
+DWR_Highlight.img=
+DWR_ExpandCollapse.img=
+DWR_SelectReferences.img=SelectSubtree.png
+DWR_ResetReferences.img=ResetSubtree.png
+DWR_SelectUsages.img=SelectUsages.png
+DWR_ResetUsages.img=ResetUsages.png
+DWR_TracePath.img=
+DWR_ResetAll.img=
+DWR_SaveRoute.img=
+DWR_SelectEnvironment.img=SelectEnvironment.png
+DWR_ResetEnvironment.img=ResetEnvironment.png
+DWR_CollapseReferences.img=Collapse.png
+DWR_ExpandReferences.img=Expand.png
+DWR_CollapseUsages.img=Collapse.png
+DWR_ExpandUsages.img=Expand.png
+DWR_ShowSelected.img=
+DWR_SelectByQuery.img=
+DWR_ExpandNode.img=ExpandNode.png
+DWR_CollapseNode.img=CollapseNode.png
+DWR_AutoExpandNode.img=AutoExpandNode.png
+
+#extra icons
+DWHDiagram.img.edgePlain=/com.rochade.wa.view.diagram.dwh/img/EdgePlain.png
+DWHDiagram.img.edgeLookup=/com.rochade.wa.view.diagram.dwh/img/EdgeLookup.png
+DWHDiagram.img.edgeEmpty=/com.rochade.wa.view.diagram.dwh/img/EdgeEmpty.png
+DWHDiagram.img.edgeFilled=/com.rochade.wa.view.diagram.dwh/img/EdgeFilled.png
+DWHDiagram.img.stitchEmpty=/com.rochade.wa.view.diagram.dwh/img/StitchEmpty.png
+DWHDiagram.img.stitchFilled=/com.rochade.wa.view.diagram.dwh/img/StitchFilled.png
+DWHDiagram.img.stitchPlain=/com.rochade.wa.view.diagram.dwh/img/StitchPlain.png
+DWHDiagram.img.edgePlainL=/com.rochade.wa.view.diagram.dwh/img/EdgePlainL.png
+DWHDiagram.img.edgeLookupL=/com.rochade.wa.view.diagram.dwh/img/EdgeLookupL.png
+DWHDiagram.img.edgeEmptyL=/com.rochade.wa.view.diagram.dwh/img/EdgeEmptyL.png
+DWHDiagram.img.edgeFilledL=/com.rochade.wa.view.diagram.dwh/img/EdgeFilledL.png
+DWHDiagram.img.stitchEmptyL=/com.rochade.wa.view.diagram.dwh/img/StitchEmptyL.png
+DWHDiagram.img.stitchFilledL=/com.rochade.wa.view.diagram.dwh/img/StitchFilledL.png
+DWHDiagram.img.dqaPassed=/com.rochade.wa.view.diagram.dwh/img/DqaPassed.png
+DWHDiagram.img.dqaFailed=/com.rochade.wa.view.diagram.dwh/img/DqaFailed.png
+### END Icons
+
+DWR_Highlight.lbl=Highlight / Trace / Reset
+DWR_Highlight.tip=Highlight / Trace / Reset
+DWR_ExpandCollapse.lbl=Expand / Collapse
+DWR_ExpandCollapse.tip=Expand / Collapse
+DWR_SelectReferences.lbl=Trace Downstream
+DWR_SelectReferences.tip=Trace Downstream
+DWR_ResetReferences.lbl=Reset Trace Downstream
+DWR_ResetReferences.tip=Reset Trace Downstream
+DWR_SelectUsages.lbl=Trace Upstream
+DWR_SelectUsages.tip=Trace Upstream
+DWR_ResetUsages.lbl=Reset Upstream Trace
+DWR_ResetUsages.tip=Reset Upstream Trace
+DWR_TracePath.lbl=Trace Path
+DWR_TracePath.tip=Trace Path
+DWR_ResetAll.lbl=Reset Trace
+DWR_ResetAll.tip=Reset Trace
+DWR_LineageRoute.lbl=Lineage Route
+DWR_LineageRoute.tip=Lineage Route
+DWR_CreateRoute.lbl=Trace
+DWR_CreateRoute.tip=Trace
+DWR_CreateRoute.title=Trace Lineage Route
+DWR_CreateRoute.error.noRoute=No route could be determined between the selected nodes. 
+DWR_CreateRoute.error.incompleteRoute=The calculated route is incomplete. Not all selected nodes could be added.
+DWR_AddRouteDestination.lbl=Add Waypoint
+DWR_AddRouteDestination.tip=Add Waypoint
+DWR_AddRouteDestination.title=Add Waypoint
+DWR_AddRouteDestination.error.incompleteRoute=Not all selected nodes could be added to the route.
+DWR_RemoveRouteDestination.lbl=Remove Waypoint
+DWR_RemoveRouteDestination.tip=Remove Waypoint
+DWR_SaveRoute.lbl=Save
+DWR_SaveRoute.tip=Save
+DWR_ResetRoute.lbl=Reset
+DWR_ResetRoute.tip=Reset
+DWR_SelectEnvironment.lbl=Trace Neighbors only
+DWR_SelectEnvironment.tip=Trace Neighbors only
+DWR_ResetEnvironment.lbl=Reset Trace Neighbors
+DWR_ResetEnvironment.tip=Reset Trace Neighbors
+DWR_CollapseReferences.lbl=Collapse References
+DWR_CollapseReferences.tip=Collapse References
+DWR_ExpandReferences.lbl=Expand References
+DWR_ExpandReferences.tip=Expand References
+DWR_CollapseUsages.lbl=Collapse Usages
+DWR_CollapseUsages.tip=Collapse Usages
+DWR_ExpandUsages.lbl=Expand Usages
+DWR_ExpandUsages.tip=Expand Usages
+DWR_ShowSelected.lbl=Display all/selected
+DWR_ShowSelected.tip=Display all/selected
+DWR_ShowSelected.all=All
+DWR_ShowSelected.sel=Highlighted only
+DWR_ShowSelected.ref=Referenced only
+DWR_ShowSelected.select=Display:
+DWR_SelectByQuery.lbl=Highlight:
+DWR_SelectByQuery.tip=Highlight
+DWR_ExpandNode.lbl=Expand
+DWR_ExpandNode.tip=Expand Children/Details 
+DWR_CollapseNode.lbl=Collapse
+DWR_CollapseNode.tip=Collapse
+DWR_AutoExpandNode.lbl=Reset Expand/Collapse
+DWR_AutoExpandNode.tip=Reset Expand/Collapse
+
+#------------------------------ non Action Definition ------------------------------ 
+#DWR_TrafoLevel.overview=Overview
+#DWR_TrafoLevel.recordtable=Record/Table relations
+#DWR_TrafoLevel.fieldcolumn=Field/Column relations
+#DWR_TrafoLevel.level=Level:
+
+DWR_TrafoSystemDepth.label=ETL-System Depth:
+
+DWHDiagram.dqaThreshold=Threshold: {0}
+DWHDiagram.dqaPass=Pass: {0}
+DWHDiagram.dqaDimensions=Dimensions: {0}
+DWHDiagram.dqaNoMeasures=No active measures available
+
+DWHDiagram.nodes=Nodes
+DWHDiagram.lenscale=(length, scale)
+DWHDiagram.tabletext=A node that corresponds to one or more columns of a table. The node also includes information about the superordinate schema, database, and DB system.
+DWHDiagram.structext=A node includes information about stitching structure.
+DWHDiagram.viewtext=A node that corresponds to one or more columns of a view. The node also includes information about the superordinate schema, database, and DB system.
+DWHDiagram.mviewtext=A node that corresponds to one or more columns of a materialized view. The node also includes Information about the superordinate schema, database, and DB system.
+DWHDiagram.rdmtabletext=A node that corresponds to one or more columns of a LDM/PDM table. The node also includes Information about the superordinate schema, database, and DB system.
+DWHDiagram.sqooptabletext=A node that corresponds to one or more columns of a Sqoop table. The node also includes Information about the superordinate schema, database, and DB system.
+DWHDiagram.falcontabletext=A node that corresponds to one or more columns of a Falcon table. The node also includes Information about the superordinate schema, database, and DB system.
+DWHDiagram.hivetabletext=A node that corresponds to one or more columns of a Hive table. The node also includes Information about the superordinate schema, database, and DB system.
+DWHDiagram.tfmrdbtext=A node that corresponds to an ETL transformation scoped by a procedure, trigger or function. The node also includes Information about the superordinate schema, database, and DB system.
+DWHDiagram.tfmrdbviewtext=A node that corresponds to an ETL transformation scoped by a view. The node also includes Information about the superordinate schema, database, and DB system.
+DWHDiagram.rdbhastabletext=A node that corresponds to a table scoped by a procedure, trigger or function. The node also includes Information about the superordinate schema, database, and DB system.
+DWHDiagram.tfmooptext=A node that corresponds to an ETL transformation scoped by an OOP item type. The node also includes Information about the superordinate OOP package and class.
+DWHDiagram.ooptext=A node that corresponds to an OOP item type. The node also includes Information about the superordinate OOP package.
+DWHDiagram.oophastabletext=A node that corresponds to a table in the scope of an OOP item class or method. The node also includes Information about the superordinate OOP package.
+DWHDiagram.recordtext=A node that corresponds to one or more fields of a record. The node also includes information about the superordinate package or directory and file system.
+DWHDiagram.dimtext=A node that corresponds to one or more members of an OLAP dimension. The node also includes information about the superordinate OLAP schema.
+DWHDiagram.entitytext=A node that corresponds to one or more attributes of an ER entity. The node also includes information about the superordinate ER model.
+DWHDiagram.rstructtext=A node that corresponds to one or more fields of a report structure. The node also includes information about the superordinate schema and package.
+DWHDiagram.dashboardstructtext=A node that corresponds to one or more fields of a dashboard structure. The node also includes information about the superordinate schema and package.
+DWHDiagram.trafotext=A node that corresponds to an ETL transformation. The node also includes information about the superordinate task and system.
+DWHDiagram.tfmhastabletext=A node that corresponds to a table in the scope o an ETL task or transformation. The node also includes information about the superordinate task and system.
+DWHDiagram.cdetext=A critical data element is a data element that is of critical importance or value to an organization. The node also includes information about the superordinate glossary and context.
+DWHDiagram.bruletext=A business rule is a statement that defines what is allowed in a particular situation or what is the result of a particular action in an organization. The node also includes information about the superordinate glossary and context.
+DWHDiagram.bpolicytext=A policy is a guideline or procedure that is intended to determine or influence certain decisions and actions. The node also includes information about the superordinate glossary and context.
+DWHDiagram.bprocesstext=A process is a sequence of related activities or tasks that are required to achieve a particular goal. The node also includes information about the superordinate glossary and context.
+DWHDiagram.bstandardtext=A standard is a level of quality that is considered acceptable or desirable. The node also includes information about the superordinate glossary and context.
+DWHDiagram.btermtext=A business term provides a definition for a data element in an organization. The node also includes information about the superordinate glossary and context.
+DWHDiagram.bappltext=A business application is an application or software system that is deployed in an organization and which is used by business users to perform a specific business function.
+DWHDiagram.bglossarytext=A glossary is a container to hierarchically organize business terms according to their meaning.
+DWHDiagram.glosscntxttext=A context is a container to hierarchically organize business terms according to their meaning.
+DWHDiagram.bcontexttext=A business context is a container to hierarchically organize business items (critical data elements, policies, processes, etc.) according to their business purpose.
+DWHDiagram.datasourcetext=A node that corresponds to one or more elements of a data source. The node also includes information about the superordinate schema and package.
+DWHDiagram.pitext=A personal information provides a definition of data collected about a natural person. The node also includes information about the superordinate glossary.
+DWHDiagram.pistructuretext=A PI structure is a logical group of personal information. The node also includes information about the superordinate glossary.
+DWHDiagram.piatext=A privacy impact assessment evaluates processes and business applications from a data protection perspective. The node also includes information about the superordinate glossary and context.
+DWHDiagram.gdpPolicyText=A privacy policy is the legal basis making the processing lawful. The node also includes information about the superordinate glossary and context.
+DWHDiagram.gdpControlRuleText=A privacy security measure is a measure that contributes to data security. The node also includes information about the superordinate glossary and context.
+DWHDiagram.gdpPICategory=A PI category classifies the personal information.
+DWHDiagram.gdpEventSource=A privacy risk source specifies hazards to data security.
+
+DWHDiagram.blTfmText=A node that corresponds to the business name of a transformation. The node also includes information about the business application the transformation belongs to. 
+DWHDiagram.blReportText=A node that corresponds to a report/report structure. The node also includes information about the business application the report belongs to.
+DWHDiagram.blTermText=A node that corresponds to a business term. The node also includes information about the business application the business term belongs to.
+DWHDiagram.blCdeText=A node that corresponds to a critical data element. The node also includes information about the business application the critical data element belongs to.
+DWHDiagram.blPiText=A node that corresponds to a personal information. The node also includes information about the business application the personal information belongs to.
+DWHDiagram.blOther=Other Type
+DWHDiagram.blOtherText=A node that corresponds to the business name of an item. The node also includes information about the business application the item belongs to.
+
+DWHDiagram.blRuleB0=How are business names retrieved?
+DWHDiagram.blRuleB1=If the item in the technical diagram is a business item, e.g., Critical Data Element, the item''s name itself is taken as business name.
+DWHDiagram.blRuleB2=If the item is a technical item, e.g., Column or Field, the business name is taken from the linked business term following these rules:\n1. Take the business term that links to the technical item directly.\n2. Otherwise, take the business term that links to the nearest level in the item''s name space parentage.
+DWHDiagram.blRuleB3=If more than one term is found on the same level, the alphabetically first term is displayed, and the diagram node shows "[...]" after the business name.\nIf no business term is found, the text "[Unknown Business Name]" is displayed.
+DWHDiagram.blRuleB4=If the item is a transformation related item, e.g., Transformation Map, the business name is taken from the linked business term following these rules:\n1. Take the business term that links to the transformation related item directly.\n2. Otherwise, take the business term that links to the nearest level in the item''s name space parentage.
+DWHDiagram.blRuleB5=If more than one term is found on the same level, the alphabetically first term is displayed, and the diagram node shows "[...]" after the business name.\nIf no business term is found, the text "Transformation" is displayed.
+DWHDiagram.blRuleB6=If the item is a report field, the business name is taken from the report/report structure that represents the field following these rules:\n1. Take the report that is parent of the field.\n2. Take the report that uses the field.\n3. Otherwise take the report structure that contains the field.
+DWHDiagram.blRuleB7=If more than one report is found on the same level, the alphabetically first report is displayed, and the diagram node shows "[...]" after the report name.\nIf no report/report structure is found, the text "[Unknown Report]" is displayed.
+DWHDiagram.blRuleA0=How are application names retrieved?
+DWHDiagram.blRuleA1=If the item in the technical diagram is a business item, a technical item, or a transformation related item, the application name is determined following these rules:\n1. Take the application that links to the item directly.\n2. Else, take the application that links to the nearest level in the item''s name space parentage.\n3. Otherwise, take the application that links directly to the business term that has been determined for the item as business name.
+DWHDiagram.blRuleA2=If the item is a report field, the application name is determined following these rules:\n1. Take the application that links to the report field directly.\n2. Else, take the application that links to the nearest level in the report field''s name space parentage.\n3. Otherwise, take the application that links directly or via its name space parents to the report that uses the report field.
+DWHDiagram.blRuleA3=If more than one application is found on the same level, the alphabetically first application is displayed, and the diagram node shows "[...]" after the application name.\nIf no application is found, the text "[Unknown Application]" is displayed.
+DWHDiagram.blRuleC0=How are nodes condensed?
+DWHDiagram.blRuleC1=Business name nodes are condensed within the application they belong to. 
+DWHDiagram.blRuleC2=The business name nodes are condensed to display the incoming terms (most left, one or more) and the outgoing terms (most right, one or more).
+DWHDiagram.blRuleC3=Intermediate transformations are not displayed as long as they also belong to the same application as their source and target, or no application at all.
+DWHDiagram.blRuleC4=If the same business term is used for different items within the same application, they are condensed into one node and "[...]" is displayed after the business name. 
+DWHDiagram.blRuleC5=Missing business names - displayed as "[Unknown Business Name]" or "[Unknown Report]" - are not condensed. 
+DWHDiagram.blRuleX0=These rules are fixed and cannot be adjusted.
+
+DWHDiagram.edges=Relationships
+DWHDiagram.edgePlain=An edge that corresponds to a direct or indirect relationship between nodes.
+DWHDiagram.edgeLookup=An edge that corresponds to a Lookup (transformation area) relationship.
+DWHDiagram.edgePrompt=An edge that corresponds to a Prompt (reporting area) relationship.
+DWHDiagram.edgeEmpty=An edge that corresponds to an indirect relationship between nodes without manipulation of the transferred information.
+DWHDiagram.edgeFilled=An edge that corresponds to an indirect relationship between nodes with manipulation of the transferred information.
+DWHDiagram.edgeActRoute=An edge that is part of the traced Lineage Route.
+DWHDiagram.stitchEmpty=A stitch between nodes without manipulation of the transferred information.
+DWHDiagram.stitchFilled=A stitch between nodes with manipulation of the transferred information.
+DWHDiagram.edgePlainL=Edges that include the names of the corresponding relationship attributes.
+DWHDiagram.edgeLookupL=Edges that include the names of the corresponding attributes for Lookup (transformation area) relationships.
+DWHDiagram.edgePromptL=Edges that include the names of the corresponding attributes for Prompt (reporting area) relationships.
+DWHDiagram.edgeEmptyL=Edges representing indirect relationships with names of the corresponding relationship attributes but without transformation information.
+DWHDiagram.edgeFilledL=Edges representing indirect relationships with names of the corresponding relationship attributes and with transformation information.
+DWHDiagram.stitchEmptyL=A stitch between nodes without manipulation of the transferred information but with relationship attribute names.
+DWHDiagram.stitchFilledL=A stitch between nodes with manipulation of the transferred information and with relationship attribute names.
+DWHDiagram.stitchPlain=A stitch that corresponds to relationship between nodes of the transferred information.
+
+DWHDiagram.edgePlain.attrName.lbl=(Attribute Name)
+DWHDiagram.edgePlain.attrName.hint=(Attribute Name)
+DWHDiagram.edgeDiamond.attrName.lbl=(Attr. Name)
+DWHDiagram.edgeDiamond.attrName.hint=(Attribute Name)
+
+DWHDiagram.border=Border Colors
+DWHDiagram.borderAdd=Comparison mode: Item is added to the lineage. Item belongs to the newer lineage result only.
+DWHDiagram.borderDel=Comparison mode: Item is removed from the lineage. Item belongs to the older lineage results only.
+DWHDiagram.borderBoth=Comparison mode: Item belongs to both query results.
+DWHDiagram.borderSeed=Item is a seed item.
+DWHDiagram.borderVirt=Item has virtual links because of filtering.
+DWHDiagram.borderHigh=Item is highlighted.
+DWHDiagram.borderCri=Item is critical.
+
+DWHDiagram.node.hint.route.destination.endpoint=Endpoint of route {0}
+DWHDiagram.node.hint.route.destination.intermediate=Waypoint of route {0}
+DWHDiagram.node.hint.route.point=Belongs to route {0}
+DWHDiagram.node.hint.activeRoute.destination.endpoint=Endpoint of traced route
+DWHDiagram.node.hint.activeRoute.destination.intermediate=Waypoint of traced route
+DWHDiagram.node.hint.activeRoute.point=Belongs to traced route

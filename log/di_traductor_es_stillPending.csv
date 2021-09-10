@@ -1,0 +1,3576 @@
+Key ''{0}'' is not bundled for localization in locale {1}
+Unimplemented method: {0}
+Argument ''{0}'' cannot be null
+Argument ''{0}'' cannot be null or empty
+Unexpected error while processing
+Method not implemented for this class
+{0}: The requested URI does not represent any resource on the server. {1}.
+{0}: Unable to connect to the Rochade server.
+{0}: Problem occurred while executing Rochade query.
+{0}: The server is currently unable to receive requests. Please retry your request.
+{0}: Unsupported content type {1}.
+General Security Exception - {0}
+IO Exception - {0}
+{0} definition is needed, but not found at this location.
+{0} must be provided. - {1} are not supported. Please send the web service without these parameters - correct parameters is/are --> {2}.
+Parser Configuration Exception in {0}.
+SAX Exception
+JAXBException with cause: {0}
+SrapException: Expression {0} is wrong, maybe to find in {1}
+srapResultSet Exception in {0}
+Transformer Configuration Exception appeared in {0}. Please contact your administrator!
+Transformer Exception appeared in {0}. Please contact your administrator!
+Unsupported Encoding Exception appeared in {0}. Please contact your administrator!
+URI Syntax Exception - {0}
+XPathExpression Exception appeared in {0}. Please contact your administrator!
+Too many connection to application
+DOMException appeared in {0}. Please contact your administrator!
+unknown parameter {0} in {1}
+{0} is not available
+{0} at ordering {1} still exists
+category cannot be executed: {0}; try to set an (external) parameter of this category
+param value {0} does not exists in category {1}
+invalid expression: {0}
+You used includeSubCategories=''false'' in category {0}, but missing parentsProperties=''true'' entries. Please compile your Specification again!
+bad parameter: {0}
+Database Context is missing at category {0} of executed service. e.g.  <category ...><context id="c1" /> <br/> Please contact your administrator.
+Database Context identificator is missing in {0} execution service. <br/> Please contact your administrator.
+error in Time Domain: Wrong expression {0}
+resource {0} not found
+To much work language (data language) parameters: {0}. Only one work language is allowed.
+Language {0} is not registered at meta model.
+Role is not added to query filter.
+Resource {0} is not available
+Error occurred while {0} service execution
+This service type can't be handled: {0}
+An error occurred while disposing: {0}
+Solr collection name is not defined
+Solr core name is not defined
+An error occured while building the Query Parser: {0}
+The query parser is not specified. Check the value of {0} parameter.
+Take care. The solr field named ''{0}'' (used for the column ''{1}'') is not defined into the Solr Schema. So that attribute will NOT be indexed properly!
+Error while validating the existence of the attribute ''{0}'' in the Solr Schema.
+Take care. The data column ''{0}'' for language ''{1}'' is not defined into the Rochade database. So that attribute will be skipped (and so NOT indexed)!
+Take care. The data column ''{0}'' (used to fill up the Solr field(s) named ''{1}'') is not defined into the Rochade database. So that attribute will be skipped (and so NOT indexed)!
+Cannot validate the existence of column attributes into Rochade server.
+The mapping for Solr fields contains inconsistencies.
+The following associations do not follow the rule about suffixing with language ISO code:\n{0}
+The following associations do not rely on an existing base field to define the language variation of a field:\n{0}
+Cannot find the identifier of the MetaApp corresponding to the Solr core ''{0}''
+Indexing with support for previous releases (Legacy indexing mode): {0}
+Take care. The indexing rule <field name="{0}" column="{1}"> is in conflict with another indexing rule <field name="{2}" column="{3}"> for language {4}. It maps distinct Rochade data to the same Solr field.
+Loop #{0} for type {1}: Processing {2} items ({3} items processed until now)
+Loop #{0} for type {1} (but not of types {2}): Processing {3} items ({4} items processed until now)
+Unique loop for type {0}: Processing {1} items
+Unique loop for type {0} (but not of types {1}): Processing {2} items
+Completed processing of {1} items of type {0}
+Completed processing of {2} items of type {0} (but not of types {1})
+Error while getting canonical path for debug folder: {0}
+Error while creating debug folder: {0}
+Error while creating file for dumping Java Heap memory: {0}
+Error while dumping Java Heap memory to file {0}
+The indexing of tags has been skipped since the current types are not taggable: {0}
+The JAXP entity expansion limit has been reached what is causing failures (https://community.oracle.com/thread/2594170, https://bugs.openjdk.java.net/browse/JDK-8028111, ). Either upgrade the JVM to a more recent version that has not this limitation or apply the following setting to the startup of the JVM: -Djdk.xml.entityExpansionLimit=0.
+Error while indexing data
+''{0}'' is unsupported as output format for XSL transformations
+The Rochade attribute ''{0}'' cannot be retrieved (so it will not be indexed). It was supposed to be indexed as Solr fields: {1}. The indexing languages are: {2}. The languages assigned to the target Subject Area are: {3}.
+No available type for current action
+Deleting user search preferences for core: {0}
+The dynamic field ''{0}'' normally used to catch all the no-language variance of attributes is missing into the Solr schema.
+Cannot check in Solr schema the existence of dynamic fields dedicated for each language to index.
+Adding on-the-fly to the Solr schema, the dynamic field ''{0}'' of type ''{1}'' that is dedicated to manage indexing of attributes in the ''{2}'' language.
+Error during retrieving attribute ''{0}'' from the item
+time to prepare what clause:
+time to execute MPath query:
+time to transform XML result entry #{0} of {1}:
+time to read XML result entry #{0} of {1}:
+time to read merged ResultSet entry:
+time to map Rochade columns with Solr fields:
+total time to process slice of {0} items:
+total time spent until here to process {0} items of type {1}:
+grand total time to process all the {0} items of type {1}:
+total time to list {0} items to index:
+total time to create SolrDocuments for each of {0} result rows:
+total time to update the preferences with indexed fields:
+total time to upload a block of {0} documents (block size:{1}) into Solr server:
+total time to upload {0} documents into Solr server:
+''{0}'' does not produce Solr docs equivalent to ''{1}''
+String values differ at index {0}: {1} VS {2}
+Error while parsing array element at index {0}
+Reading json file
+Reading json file completed
+Base Solr Fields that are not multilingual: {0}
+Solr document value of type {0} not managed.
+processed
+Has not retrieved the absolute path for all the items - Expected: {0} Retrieved: {1}
+Has not retrieved the permission roles for all the items - Expected: {0} Retrieved: {1}
+Cannot add the sorting fields for the documents to index
+total time to retrieve absolute path for {0} items
+total time to retrieve roles for {0} items
+#{0} roles retrieved in average per item
+Error while getting language attribute {0} from the ResultSet:\n{1}
+Expected column with name ''{0}'' does not exist in ResultSet.
+Error while connecting to the Rochade Application
+Cannot find value for setting {0} and there is no default value specified.
+Error while executing service ''{0}''
+Starting indexing process for {0}.xml configuration file.
+Indexing process using {0}.xml configuration file ends.
+Running Indexing for those target languages: {0} (empty value means index for all languages available in the target application)
+The following SearchComponent are declared with setting ''buildOnCommit=true'' what will have a big negative impact on the indexing performance. Please change those flags to ''false'' value in ''solrconfig.xml and/or configoverlay.json'' and restart Solr server.\n{0}
+Error while running indexing process
+Error while generating URLs for remote execution
+Error while sending URLs for remote execution
+Return code of remote execution
+Indexing Utility tool encountered a total of {0} errors during its execution
+Indexing Utility tool ran successfully without any error
+Please set all mandatory properties.
+Sending request to server.
+Cannot force the preferred language to search for
+Control Area is not accessible!
+Cannot load preferences.
+Cannot exploit user preferences about fields that have no equivalent for keyword search
+Cannot create Solr client
+Error while checking Solr response:\n{0}
+Cannot build Solr request section about highlighting
+Cannot merge first document into the second document. Doc#1:\n======\n{0}\n\nDoc#2:======\n\n{1}\n
+IllegalState: no result after applying XSL transformations
+Unexpected kind of result {0} when transforming results. Only supported kinds are {1}.
+Error while converting highlighting data
+Error while initializing the Rochade Application pool
+An error occurred while disposing the QueryService instance used to pre-load the Rochade connections
+An error occurred while disposing the ServiceParams instance used to pre-load the Rochade connections
+Unexpected ConnectionSharing: {0}
+Using SSO: {0}
+Using Client Authentication: {0}
+Incremental indexing => skipping erasing of all indexed data for Solr core {0}
+Fresh indexing (NOT incremental) => so erasing of all indexed data for Solr core {0}
+Error while loading properties from DataSource
+Error while replacing advanced entity {0}
+Error while loading XSL transformation from {0}
+Error cannot find resource {0}
+Error while determining the indexing mode
+Executing MPath query with settings:\nSeed IDs: {0}\nWhat: {1}\nMpath:\n>>>\n{2}\n<<<\nmaxHits: {3}\nmaxTime: {4}
+That MPath query returned {0} result(s)
+Error while adding the virtual attribute {0}
+The maxHits limit of {0} items to retrieve has been reached so results are truncated; what implies that some items may potentially be only partially indexed.\nSeed IDs: {1}\nMpath:\n>>>\n{2}\n<<<\n
+Cannot retrieve multiple language names for link attribute {0}
+The following items have been removed from the results because the current user ({0}) has no read permissions on them:\n{1}
+<unknown>
+Cannot get the name of the application
+time to fetch MaxHits
+time to fetch Application
+time to prepare What clause
+total time to prepare execution of query
+time to retrieve languages names of LinkAttribute ''{0}'' for {1} items
+time to execute all the {0} queries
+Security filtering
+The Search application will use direct connection to Rochade for user: {0}
+The Search application will use Solr connection: {0}
+Error while executing service: {0}
+Cannot load the description file {0} for the service {1}
+Requesting with Remote User: {0}
+HTTP response sent for request: {0}\n{1}
+Cannot log the response for request: {0}
+An error occurred while sending the error in the HTTP response for the service: {0}\nInitial error is:\n{1}
+Cannot close the description file {0} for the service {1}
+Cannot start the service to stay synchronized on Stewardships (roles)
+The caches of roles were outdated so connections have been refreshed.
+Info_Retrieval
+GlobalSearch
+Indexing Tool
+The application is configured to keep the connections into the user session but the requested server name is a bare domain. For security purpose, the web client does not reply back the session cookie for bare domains. Please deploy the application using a non-bare domain name.
+The provided Accept-Language HTTP header value ''{0}'' is not compliant with W3C RFC2616
+CAUTION: the translation of the user interface will not happen as expected
+An error occurred while disposing the {0} instance
+Statistics of pool "{0}"
+IR-AVG-Time: {0}
+IR-Count: {0}
+IR-Count Success: {0}
+MPATH Time : {0}
+count: {0}
+count success: {0}
+avg Sort Time: {0}
+AVG Bind Time: {0}
+Bind Time: {0}
+Bind Count: {0}
+Found too much exception nodes for query {0}
+There is no query suggestion handlers defined for Solr core {0}
+No suggestion can be found for Solr core {0} about query pattern {1}
+Error while executing query for retrieving suggestions with extra parameters:\n{0}
+Cannot set the languages on the Rochade Application.
+Error while released a Pooled Application
+CallStack of getting a new Pooled Application
+Cannot convert Solr core name ''{0}'' to valid core identifier.
+An error occurred while working with Solr query
+Error while initializing query chain for AutoComplete mechanism
+Error while building filtering conditions on roles
+Error while building filtering conditions about visibility of items
+Cannot read setting ''{0}''
+This application(version) cannot be instantiated: {0}
+Error while getting MetaApps
+Error while initializing servlet
+Unexpected AppManagerKind: {0}
+Authentication must be provided into the configuration file about connection via the special key ''{0}''!
+Creating again the Connection Pool Map (for the current session) because a new session has been created.
+Creating again the Connection Pool Map (for the current session) because a saved session has been restored.
+Cleaning up the Connection Pool Map (for the current session) because the session will be passivated.
+Cleaning up the Connection Pool Map (for the current session) because the session will be destroyed.
+Unexpected ConnectionKind: {0}
+Unexpected ConnectionType: {0}
+Cannot obtain Control Space Application for:\n\tConnection settings: {0}\n\tAuthentication:{1}
+Cannot obtain Application for:\n\tConnection settings: {0}\n\tAuthentication:{1}
+Cannot renew applications (triggered by changes on Rochade Server)
+Bad implementation: counter of application holders is became negative!
+Warning: releasing an application instance that was no more held by this application manager
+Warning: disposing an application instance that is still held by this application manager
+Error while releasing non-pooled application
+Error while disposing the ApplicationSyncHelper
+Error while recreating connections (in order to refresh the caches for roles...)
+Error while getting creation time of connection
+Error while terminating the subscriptions to listen about changes in Responsibilities
+Unsupported kind of ApplicationManager: {0}
+ApplicationManager is missing for Pool Manager identifier: {0}
+The ''{0}'' suggester for Solr core ''{1}'' was never built. It has been built on-the-fly. Nevertheless, please verify the configuration and disable that core if it is useless.
+Error while getting Database instance for arguments:\n{0}
+Built-in function of the service document has escaping problem for expression: {0}\nin SDCAC filter: {1}
+Cannot find the name of item type with id ''{0}'' in MPath query description:\n{1}
+Impossible to output XSLT document for debugging
+Caution: the generated session document here after does not contain any SDCAC query as expected!\n{0}
+Resource not found for URI: {0}
+Error while post-processing the Solr response
+Execution failed for Solr query: {0}
+The following facet tree node is unexpected and will be skipped:\n{0}
+The following facet tree node with the category ''{0}'' is unexpected and will be skipped:\n{1}
+The following facet tree node with the category ''{0}'' was supposed to be empty (and so useless):\n{1}
+The following node contains more than one ''arr'' child node what is unexpected:\n{0}
+The ''{0}'' child node with category ''{1}'' in the following lst node cannot be merged due to bad pairing:\n{2}
+Cannot parse the count value into the following node:\n{0}
+The following child node of type ''{0}'' is not among the list of expected node kind ({1}):\n{2}
+The arr child node ''{0}'' in the following lst node cannot be merged because it cannot be paired as expected:\n{1}
+The ''{0}'' child node is unexpected as child of the arr node:\n{1}
+The wildcard match has been skipped for core {0} because the exact match already brought back more than {1} results.
+Cannot validate following tags for search pattern: {0}
+Suggestions have been aborted due to invalid query pattern: {0}\nCause is: {1}
+Cannot parse the boost specification ''{0}'' for the field ''{1}'' in the node:\n{2}
+Cannot load configuration file with Solr settings
+Cannot extend results with list of HTML attributes
+Cannot compute item compliancy to the Related Business MetaData functionality
+{0} is currently not supported as kind of capability. Declared in ''{1}'' with value: {2}
+Complex capability ''{0}'' is currently not managed. Declared in '{1}' with value: {2}
+Cannot find definition of capability ''{0}''
+Cannot find capability resource file: {0}
+Error reading capability resource file: {0}
+Cannot find RVL plugin for SearchApps
+Cannot load RVL plugin for SearchApps
+RACE CONDITION DETECTED: another thread has done the initialization while this one was waiting the lock
+Time to build SRAP workspace
+Cannot get the localized message for key ''{0}''
+RVLHelper report -
+DURING
+initialization
+instance
+default mapping
+specialization mapping
+plugin descriptor content
+resource is valid
+application ''{0}'' is defined
+model properties for ''{0}'' plugin
+instance for ''{0}''
+Cannot log debug data for RVL bridge
+Cannot load resource ''{0}'' with the mapping between types and their respective stylesheet for the detail view.
+Cannot read the content of the resource ''{0}''
+Cannot write output with type to view mapping
+Error while merging rules about the stylesheet of the detail view for type ''{0}''. The rule\n{1} conflicts with rule\n{2}
+defined on type {0}
+Error while merging rules about the stylesheet of the detail view for type ''{0}''. Got more than one rule has result: {1}
+The type ''{0}'' has no specific rule about its stylesheet for the detail view.
+Cannot read the setting about usage of indexed roles to manage visibility
+$$$$$$$$$$$$$$$$$ Possible cause of OOM $$$$$$$$$$$$$$$$
+Cannot parse the value for the setting ''{0}'': {1}
+Cannot find sampling file: {0}
+Explicitly skipping ''{0}'' by configuration
+Skipping ''{0}'' because not extracted (probably absent Solr core).
+Feeding data for ''{0}''
+Will NOT feed but only check for symmetry of roles!
+Simulating existence of {0} items
+Skipping feeding for ''{0}'' because no sampling data available!
+error while feeding data for ''{0}''
+Sample document has no value for the name field!
+{0} sampling docs to check for roles
+{0} items fed
+CAUTION: roles field not yet managed!
+The management for the following advanced field is missing: {0}
+The management for the following field-to-tweak is missing: {0}
+The management for the following reference field is missing: {0}
+Missing roles for item {0}
+Roles for all fed items with type ''{0}'' and name pattern ''{1}'' are NOT identical!
+Additional roles for item #{0}
+Missing roles for item #{0}
+Missing roles for fed items with type ''{0}'' and name pattern ''{1}''
+Error while decoding the SDCAC pattern
+time to prepare MPath query
+The following value is not supported for the parameter ''{0}'': {1}
+{0}: The requested URI does not represent any resource on the server. {1}.
+{0}: Unable to connect to the Rochade server.
+{0}: Problem occurred while executing Rochade query.
+{0}: The server is currently unable to receive requests. Please retry your request.
+{0}: Unsupported content type {1}.
+{0} {1} {2}
+$Title.template.references
+$Title.template.usages
+$Title.template.context
+$Title.template.both
+$Title.template.adv
+$Title.template.path
+$Title.template.mpath
+$Title.template.canned
+{0} {1} {2}
+Systems
+Tasks
+Incomplete
+ScopeId
+File System
+ER-Attribute
+ER-Entity
+ER-Identifier
+ER-Relationship
+Data Source Element
+Controls
+Renders
+Has datasource elements
+City
+Country
+ZIP Code
+Defined on
+Source code
+Has subroutines
+Has components
+Depends on applications
+Used by application
+Image
+External Identifier
+Unresolved elements
+Annotation elements
+Annotation type
+Caught exceptions
+Declared exceptions
+Thrown exceptions
+Method parameters
+Startline
+Content type
+Original creation group
+Original creation time
+Original creation user
+Original modification time
+Original modification user
+*
+*
+Method
+Class
+Routine
+References business items that are related to this item.
+Liked business items
+Subscribed contexts
+Detected technical data
+Detected technical data (catalog)
+Ignored from detected technical data
+Detect technical data filter
++ Physical Data
++ Business Rules
++ Policies & Processes
+Definition (value)
+Stitching Container
+Stitching Structure Link
+Stitching Element Link
+Manual stitch
+Character Replacement pattern key\:value pairs of character patterns
+String Replacement pattern key\:value pairs of substring
+All Categories
+Other Business Items
+Path of Contexts
+DQ Business Rule
+AC
+CM
+CN
+CF
+CV
+TI
+DP
+VA
+Expired
+Measured value
+Daily
+Weekly
+Monthly
+Quaterly
+Half-yearly
+Yearly
+Population count
+Target amber
+Target green
+Filter expression
+Data element
+Has measure
+Comparison Result
+Result of compare
+Compare operation
+Compare date
+Description (legacy)
+Has Business Rule
+Has Custom Business Item
+Has Policy
+Has Process
+Has Standard
+Modeled as
+Relates to business application
+Normal
+Confidential
+Internal Use
+Retain 1 year
+Obfuscate
+Yes in combination
+Catalog content search filter
+Has Privacy Impact Assessment
+Cascaded to
+Ignored from cascaded to
+Cascade filter
+Legal Measure
+Organizational Measure
+Logical Security Measure
+Other Measure
+Internal Human
+External Human
+Non-human Sources
+Life cycle description
+Supporting assets
+Followed policies
+Subjects informed
+Subjects consent obtained
+Rectification and erasure
+Restriction and object
+Existing measures
+Planned measures
+Maximum
+Important
+Limited
+Negligible
+Maximum
+Important
+Limited
+Negligible
+Normal,Confidential,Secret,Internal Use
+Normal
+None,Retain 1 year,Obfuscate,Delete
+HUMAN_INTERNAL,HUMAN_EXTERNAL,NON_HUMAN
+NON_HUMAN
+LEGAL, ORGANIZATIONAL, SECURITY_LOGICAL, SECURITY_PHYSICAL, OTHER
+MAXIMUM,IMPORTANT,LIMITED,NEGLIGIBLE,UNDEFINED
+MAXIMUM,IMPORTANT,LIMITED,NEGLIGIBLE,UNDEFINED
+Content List
+Back to results
+items found
+\u00A0Page\u00A0
+Business Information
+Open in Rochade
+Traceability Diagram
+Type or select tag...
+No such tag
+Fit all tags
+Type or select glossary
+No such glossary
+Type or select language
+No such language
+\t(default)
+Search For...
+CATEGORIES
+All Categories
+First
+out of
+matches
+Results in
+in
+Belongs to Glossary
+First
+Last
+Previous
+Next
+Key ''{0}'' is not bundled for localization in locale {1}
+Unimplemented method: {0}
+Argument ''{0}'' cannot be null
+Argument ''{0}'' cannot be null or empty
+Unexpected error while processing
+Method not implemented for this class
+{0}: The requested URI does not represent any resource on the server. {1}.
+{0}: Unable to connect to the Rochade server.
+{0}: Problem occurred while executing Rochade query.
+{0}: The server is currently unable to receive requests. Please retry your request.
+{0}: Unsupported content type {1}.
+General Security Exception - {0}
+IO Exception - {0}
+{0} definition is needed, but not found at this location.
+{0} must be provided. - {1} are not supported. Please send the web service without these parameters - correct parameters is/are --> {2}.
+Parser Configuration Exception in {0}.
+SAX Exception
+JAXBException with cause: {0}
+SrapException: Expression {0} is wrong, maybe to find in {1}
+srapResultSet Exception in {0}
+Transformer Configuration Exception appeared in {0}. Please contact your administrator!
+Transformer Exception appeared in {0}. Please contact your administrator!
+Unsupported Encoding Exception appeared in {0}. Please contact your administrator!
+URI Syntax Exception - {0}
+XPathExpression Exception appeared in {0}. Please contact your administrator!
+Too many connection to application
+DOMException appeared in {0}. Please contact your administrator!
+unknown parameter {0} in {1}
+{0} is not available
+{0} at ordering {1} still exists
+category cannot be executed: {0}; try to set an (external) parameter of this category
+param value {0} does not exists in category {1}
+invalid expression: {0}
+You used includeSubCategories=''false'' in category {0}, but missing parentsProperties=''true'' entries. Please compile your Specification again!
+bad parameter: {0}
+Database Context is missing at category {0} of executed service. e.g.  <category ...><context id="c1" /> <br/> Please contact your administrator.
+Database Context identificator is missing in {0} execution service. <br/> Please contact your administrator.
+error in Time Domain: Wrong expression {0}
+resource {0} not found
+To much work language (data language) parameters: {0}. Only one work language is allowed.
+Language {0} is not registered at meta model.
+Role is not added to query filter.
+Resource {0} is not available
+Error occurred while {0} service execution
+This service type can't be handled: {0}
+An error occurred while disposing: {0}
+Solr collection name is not defined
+Solr core name is not defined
+An error occured while building the Query Parser: {0}
+The query parser is not specified. Check the value of {0} parameter.
+Take care. The solr field named ''{0}'' (used for the column ''{1}'') is not defined into the Solr Schema. So that attribute will NOT be indexed properly!
+Error while validating the existence of the attribute ''{0}'' in the Solr Schema.
+Take care. The data column ''{0}'' for language ''{1}'' is not defined into the Rochade database. So that attribute will be skipped (and so NOT indexed)!
+Take care. The data column ''{0}'' (used to fill up the Solr field(s) named ''{1}'') is not defined into the Rochade database. So that attribute will be skipped (and so NOT indexed)!
+Cannot validate the existence of column attributes into Rochade server.
+The mapping for Solr fields contains inconsistencies.
+The following associations do not follow the rule about suffixing with language ISO code:\n{0}
+The following associations do not rely on an existing base field to define the language variation of a field:\n{0}
+Cannot find the identifier of the MetaApp corresponding to the Solr core ''{0}''
+Indexing with support for previous releases (Legacy indexing mode): {0}
+Take care. The indexing rule <field name="{0}" column="{1}"> is in conflict with another indexing rule <field name="{2}" column="{3}"> for language {4}. It maps distinct Rochade data to the same Solr field.
+Loop #{0} for type {1}: Processing {2} items ({3} items processed until now)
+Loop #{0} for type {1} (but not of types {2}): Processing {3} items ({4} items processed until now)
+Unique loop for type {0}: Processing {1} items
+Unique loop for type {0} (but not of types {1}): Processing {2} items
+Completed processing of {1} items of type {0}
+Completed processing of {2} items of type {0} (but not of types {1})
+Error while getting canonical path for debug folder: {0}
+Error while creating debug folder: {0}
+Error while creating file for dumping Java Heap memory: {0}
+Error while dumping Java Heap memory to file {0}
+The indexing of tags has been skipped since the current types are not taggable: {0}
+The JAXP entity expansion limit has been reached what is causing failures (https://community.oracle.com/thread/2594170, https://bugs.openjdk.java.net/browse/JDK-8028111, ). Either upgrade the JVM to a more recent version that has not this limitation or apply the following setting to the startup of the JVM: -Djdk.xml.entityExpansionLimit=0.
+Error while indexing data
+''{0}'' is unsupported as output format for XSL transformations
+The Rochade attribute ''{0}'' cannot be retrieved (so it will not be indexed). It was supposed to be indexed as Solr fields: {1}. The indexing languages are: {2}. The languages assigned to the target Subject Area are: {3}.
+No available type for current action
+Deleting user search preferences for core: {0}
+The dynamic field ''{0}'' normally used to catch all the no-language variance of attributes is missing into the Solr schema.
+Cannot check in Solr schema the existence of dynamic fields dedicated for each language to index.
+Adding on-the-fly to the Solr schema, the dynamic field ''{0}'' of type ''{1}'' that is dedicated to manage indexing of attributes in the ''{2}'' language.
+Error during retrieving attribute ''{0}'' from the item
+time to prepare what clause:
+time to execute MPath query:
+time to transform XML result entry #{0} of {1}:
+time to read XML result entry #{0} of {1}:
+time to read merged ResultSet entry:
+time to map Rochade columns with Solr fields:
+total time to process slice of {0} items:
+total time spent until here to process {0} items of type {1}:
+grand total time to process all the {0} items of type {1}:
+total time to list {0} items to index:
+total time to create SolrDocuments for each of {0} result rows:
+total time to update the preferences with indexed fields:
+total time to upload a block of {0} documents (block size:{1}) into Solr server:
+total time to upload {0} documents into Solr server:
+''{0}'' does not produce Solr docs equivalent to ''{1}''
+String values differ at index {0}: {1} VS {2}
+Error while parsing array element at index {0}
+Reading json file
+Reading json file completed
+Base Solr Fields that are not multilingual: {0}
+Solr document value of type {0} not managed.
+processed
+Has not retrieved the absolute path for all the items - Expected: {0} Retrieved: {1}
+Has not retrieved the permission roles for all the items - Expected: {0} Retrieved: {1}
+Cannot add the sorting fields for the documents to index
+total time to retrieve absolute path for {0} items
+total time to retrieve roles for {0} items
+#{0} roles retrieved in average per item
+Error while getting language attribute {0} from the ResultSet:\n{1}
+Expected column with name ''{0}'' does not exist in ResultSet.
+Error while connecting to the Rochade Application
+Cannot find value for setting {0} and there is no default value specified.
+Error while executing service ''{0}''
+Starting indexing process for {0}.xml configuration file.
+Indexing process using {0}.xml configuration file ends.
+Running Indexing for those target languages: {0} (empty value means index for all languages available in the target application)
+The following SearchComponent are declared with setting ''buildOnCommit=true'' what will have a big negative impact on the indexing performance. Please change those flags to ''false'' value in ''solrconfig.xml and/or configoverlay.json'' and restart Solr server.\n{0}
+Error while running indexing process
+Error while generating URLs for remote execution
+Error while sending URLs for remote execution
+Return code of remote execution
+Indexing Utility tool encountered a total of {0} errors during its execution
+Indexing Utility tool ran successfully without any error
+Please set all mandatory properties.
+Sending request to server.
+Cannot force the preferred language to search for
+Control Area is not accessible!
+Cannot load preferences.
+Cannot exploit user preferences about fields that have no equivalent for keyword search
+Cannot create Solr client
+Error while checking Solr response:\n{0}
+Cannot build Solr request section about highlighting
+Cannot merge first document into the second document. Doc#1:\n======\n{0}\n\nDoc#2:======\n\n{1}\n
+IllegalState: no result after applying XSL transformations
+Unexpected kind of result {0} when transforming results. Only supported kinds are {1}.
+Error while converting highlighting data
+Error while initializing the Rochade Application pool
+An error occurred while disposing the QueryService instance used to pre-load the Rochade connections
+An error occurred while disposing the ServiceParams instance used to pre-load the Rochade connections
+Unexpected ConnectionSharing: {0}
+Using SSO: {0}
+Using Client Authentication: {0}
+Incremental indexing => skipping erasing of all indexed data for Solr core {0}
+Fresh indexing (NOT incremental) => so erasing of all indexed data for Solr core {0}
+Error while loading properties from DataSource
+Error while replacing advanced entity {0}
+Error while loading XSL transformation from {0}
+Error cannot find resource {0}
+Error while determining the indexing mode
+Executing MPath query with settings:\nSeed IDs: {0}\nWhat: {1}\nMpath:\n>>>\n{2}\n<<<\nmaxHits: {3}\nmaxTime: {4}
+That MPath query returned {0} result(s)
+Error while adding the virtual attribute {0}
+The maxHits limit of {0} items to retrieve has been reached so results are truncated; what implies that some items may potentially be only partially indexed.\nSeed IDs: {1}\nMpath:\n>>>\n{2}\n<<<\n
+Cannot retrieve multiple language names for link attribute {0}
+The following items have been removed from the results because the current user ({0}) has no read permissions on them:\n{1}
+<unknown>
+Cannot get the name of the application
+time to fetch MaxHits
+time to fetch Application
+time to prepare What clause
+total time to prepare execution of query
+time to retrieve languages names of LinkAttribute ''{0}'' for {1} items
+time to execute all the {0} queries
+Security filtering
+The Search application will use direct connection to Rochade for user: {0}
+The Search application will use Solr connection: {0}
+Error while executing service: {0}
+Cannot load the description file {0} for the service {1}
+Requesting with Remote User: {0}
+HTTP response sent for request: {0}\n{1}
+Cannot log the response for request: {0}
+An error occurred while sending the error in the HTTP response for the service: {0}\nInitial error is:\n{1}
+Cannot close the description file {0} for the service {1}
+Cannot start the service to stay synchronized on Stewardships (roles)
+The caches of roles were outdated so connections have been refreshed.
+Info_Retrieval
+GlobalSearch
+Indexing Tool
+The application is configured to keep the connections into the user session but the requested server name is a bare domain. For security purpose, the web client does not reply back the session cookie for bare domains. Please deploy the application using a non-bare domain name.
+The provided Accept-Language HTTP header value ''{0}'' is not compliant with W3C RFC2616
+CAUTION: the translation of the user interface will not happen as expected
+An error occurred while disposing the {0} instance
+Statistics of pool "{0}"
+IR-AVG-Time: {0}
+IR-Count: {0}
+IR-Count Success: {0}
+MPATH Time : {0}
+count: {0}
+count success: {0}
+avg Sort Time: {0}
+AVG Bind Time: {0}
+Bind Time: {0}
+Bind Count: {0}
+Found too much exception nodes for query {0}
+There is no query suggestion handlers defined for Solr core {0}
+No suggestion can be found for Solr core {0} about query pattern {1}
+Error while executing query for retrieving suggestions with extra parameters:\n{0}
+Cannot set the languages on the Rochade Application.
+Error while released a Pooled Application
+CallStack of getting a new Pooled Application
+Cannot convert Solr core name ''{0}'' to valid core identifier.
+An error occurred while working with Solr query
+Error while initializing query chain for AutoComplete mechanism
+Error while building filtering conditions on roles
+Error while building filtering conditions about visibility of items
+Cannot read setting ''{0}''
+This application(version) cannot be instantiated: {0}
+Error while getting MetaApps
+Error while initializing servlet
+Unexpected AppManagerKind: {0}
+Authentication must be provided into the configuration file about connection via the special key ''{0}''!
+Creating again the Connection Pool Map (for the current session) because a new session has been created.
+Creating again the Connection Pool Map (for the current session) because a saved session has been restored.
+Cleaning up the Connection Pool Map (for the current session) because the session will be passivated.
+Cleaning up the Connection Pool Map (for the current session) because the session will be destroyed.
+Unexpected ConnectionKind: {0}
+Unexpected ConnectionType: {0}
+Cannot obtain Control Space Application for:\n\tConnection settings: {0}\n\tAuthentication:{1}
+Cannot obtain Application for:\n\tConnection settings: {0}\n\tAuthentication:{1}
+Cannot renew applications (triggered by changes on Rochade Server)
+Bad implementation: counter of application holders is became negative!
+Warning: releasing an application instance that was no more held by this application manager
+Warning: disposing an application instance that is still held by this application manager
+Error while releasing non-pooled application
+Error while disposing the ApplicationSyncHelper
+Error while recreating connections (in order to refresh the caches for roles...)
+Error while getting creation time of connection
+Error while terminating the subscriptions to listen about changes in Responsibilities
+Unsupported kind of ApplicationManager: {0}
+ApplicationManager is missing for Pool Manager identifier: {0}
+The ''{0}'' suggester for Solr core ''{1}'' was never built. It has been built on-the-fly. Nevertheless, please verify the configuration and disable that core if it is useless.
+Error while getting Database instance for arguments:\n{0}
+Built-in function of the service document has escaping problem for expression: {0}\nin SDCAC filter: {1}
+Cannot find the name of item type with id ''{0}'' in MPath query description:\n{1}
+Impossible to output XSLT document for debugging
+Caution: the generated session document here after does not contain any SDCAC query as expected!\n{0}
+Resource not found for URI: {0}
+Error while post-processing the Solr response
+Execution failed for Solr query: {0}
+The following facet tree node is unexpected and will be skipped:\n{0}
+The following facet tree node with the category ''{0}'' is unexpected and will be skipped:\n{1}
+The following facet tree node with the category ''{0}'' was supposed to be empty (and so useless):\n{1}
+The following node contains more than one ''arr'' child node what is unexpected:\n{0}
+The ''{0}'' child node with category ''{1}'' in the following lst node cannot be merged due to bad pairing:\n{2}
+Cannot parse the count value into the following node:\n{0}
+The following child node of type ''{0}'' is not among the list of expected node kind ({1}):\n{2}
+The arr child node ''{0}'' in the following lst node cannot be merged because it cannot be paired as expected:\n{1}
+The ''{0}'' child node is unexpected as child of the arr node:\n{1}
+The wildcard match has been skipped for core {0} because the exact match already brought back more than {1} results.
+Cannot validate following tags for search pattern: {0}
+Suggestions have been aborted due to invalid query pattern: {0}\nCause is: {1}
+Cannot parse the boost specification ''{0}'' for the field ''{1}'' in the node:\n{2}
+Cannot load configuration file with Solr settings
+Cannot extend results with list of HTML attributes
+Cannot compute item compliancy to the Related Business MetaData functionality
+{0} is currently not supported as kind of capability. Declared in ''{1}'' with value: {2}
+Complex capability ''{0}'' is currently not managed. Declared in '{1}' with value: {2}
+Cannot find definition of capability ''{0}''
+Cannot find capability resource file: {0}
+Error reading capability resource file: {0}
+Cannot find RVL plugin for SearchApps
+Cannot load RVL plugin for SearchApps
+RACE CONDITION DETECTED: another thread has done the initialization while this one was waiting the lock
+Time to build SRAP workspace
+Cannot get the localized message for key ''{0}''
+RVLHelper report -
+DURING
+initialization
+instance
+default mapping
+specialization mapping
+plugin descriptor content
+resource is valid
+application ''{0}'' is defined
+model properties for ''{0}'' plugin
+instance for ''{0}''
+Cannot log debug data for RVL bridge
+Cannot load resource ''{0}'' with the mapping between types and their respective stylesheet for the detail view.
+Cannot read the content of the resource ''{0}''
+Cannot write output with type to view mapping
+Error while merging rules about the stylesheet of the detail view for type ''{0}''. The rule\n{1} conflicts with rule\n{2}
+defined on type {0}
+Error while merging rules about the stylesheet of the detail view for type ''{0}''. Got more than one rule has result: {1}
+The type ''{0}'' has no specific rule about its stylesheet for the detail view.
+Cannot read the setting about usage of indexed roles to manage visibility
+$$$$$$$$$$$$$$$$$ Possible cause of OOM $$$$$$$$$$$$$$$$
+Cannot parse the value for the setting ''{0}'': {1}
+Cannot find sampling file: {0}
+Explicitly skipping ''{0}'' by configuration
+Skipping ''{0}'' because not extracted (probably absent Solr core).
+Feeding data for ''{0}''
+Will NOT feed but only check for symmetry of roles!
+Simulating existence of {0} items
+Skipping feeding for ''{0}'' because no sampling data available!
+error while feeding data for ''{0}''
+Sample document has no value for the name field!
+{0} sampling docs to check for roles
+{0} items fed
+CAUTION: roles field not yet managed!
+The management for the following advanced field is missing: {0}
+The management for the following field-to-tweak is missing: {0}
+The management for the following reference field is missing: {0}
+Missing roles for item {0}
+Roles for all fed items with type ''{0}'' and name pattern ''{1}'' are NOT identical!
+Additional roles for item #{0}
+Missing roles for item #{0}
+Missing roles for fed items with type ''{0}'' and name pattern ''{1}''
+Error while decoding the SDCAC pattern
+time to prepare MPath query
+The following value is not supported for the parameter ''{0}'': {1}
+{0}: The requested URI does not represent any resource on the server. {1}.
+{0}: Unable to connect to the Rochade server.
+{0}: Problem occurred while executing Rochade query.
+{0}: The server is currently unable to receive requests. Please retry your request.
+{0}: Unsupported content type {1}.
+{0} {1} {2}
+$Title.template.references
+$Title.template.usages
+$Title.template.context
+$Title.template.both
+$Title.template.adv
+$Title.template.path
+$Title.template.mpath
+$Title.template.canned
+{0} {1} {2}
+Systems
+Tasks
+Incomplete
+ScopeId
+File System
+ER-Attribute
+ER-Entity
+ER-Identifier
+ER-Relationship
+Data Source Element
+Controls
+Renders
+Has datasource elements
+City
+Country
+ZIP Code
+Defined on
+Source code
+Has subroutines
+Has components
+Depends on applications
+Used by application
+Image
+External Identifier
+Unresolved elements
+Annotation elements
+Annotation type
+Caught exceptions
+Declared exceptions
+Thrown exceptions
+Method parameters
+Startline
+Content type
+Original creation group
+Original creation time
+Original creation user
+Original modification time
+Original modification user
+*
+*
+Method
+Class
+Routine
+References business items that are related to this item.
+Liked business items
+Subscribed contexts
+Detected technical data
+Detected technical data (catalog)
+Ignored from detected technical data
+Detect technical data filter
++ Physical Data
++ Business Rules
++ Policies & Processes
+Definition (value)
+Stitching Container
+Stitching Structure Link
+Stitching Element Link
+Manual stitch
+Character Replacement pattern key\:value pairs of character patterns
+String Replacement pattern key\:value pairs of substring
+All Categories
+Other Business Items
+Path of Contexts
+DQ Business Rule
+AC
+CM
+CN
+CF
+CV
+TI
+DP
+VA
+Expired
+Measured value
+Daily
+Weekly
+Monthly
+Quaterly
+Half-yearly
+Yearly
+Population count
+Target amber
+Target green
+Filter expression
+Data element
+Has measure
+Comparison Result
+Result of compare
+Compare operation
+Compare date
+Description (legacy)
+Has Business Rule
+Has Custom Business Item
+Has Policy
+Has Process
+Has Standard
+Modeled as
+Relates to business application
+Normal
+Confidential
+Internal Use
+Retain 1 year
+Obfuscate
+Yes in combination
+Catalog content search filter
+Has Privacy Impact Assessment
+Cascaded to
+Ignored from cascaded to
+Cascade filter
+Legal Measure
+Organizational Measure
+Logical Security Measure
+Other Measure
+Internal Human
+External Human
+Non-human Sources
+Life cycle description
+Supporting assets
+Followed policies
+Subjects informed
+Subjects consent obtained
+Rectification and erasure
+Restriction and object
+Existing measures
+Planned measures
+Maximum
+Important
+Limited
+Negligible
+Maximum
+Important
+Limited
+Negligible
+Normal,Confidential,Secret,Internal Use
+Normal
+None,Retain 1 year,Obfuscate,Delete
+HUMAN_INTERNAL,HUMAN_EXTERNAL,NON_HUMAN
+NON_HUMAN
+LEGAL, ORGANIZATIONAL, SECURITY_LOGICAL, SECURITY_PHYSICAL, OTHER
+MAXIMUM,IMPORTANT,LIMITED,NEGLIGIBLE,UNDEFINED
+MAXIMUM,IMPORTANT,LIMITED,NEGLIGIBLE,UNDEFINED
+Content List
+Back to results
+items found
+\u00A0Page\u00A0
+Business Information
+Open in Rochade
+Traceability Diagram
+Type or select tag...
+No such tag
+Fit all tags
+Type or select glossary
+No such glossary
+Type or select language
+No such language
+\t(default)
+Search For...
+CATEGORIES
+All Categories
+First
+out of
+matches
+Results in
+in
+Belongs to Glossary
+First
+Last
+Previous
+Next
+Comparison Result
+Result of compare
+Compare operation
+Compare date
+Description (legacy)
+Has Business Rule
+Has Custom Business Item
+Has Policy
+Has Process
+Has Standard
+Modeled as
+Relates to business application
+Normal
+Confidential
+Internal Use
+Retain 1 year
+Obfuscate
+Yes in combination
+Catalog content search filter
+Has Privacy Impact Assessment
+Cascaded to
+Ignored from cascaded to
+Cascade filter
+Legal Measure
+Organizational Measure
+Logical Security Measure
+Other Measure
+Internal Human
+External Human
+Non-human Sources
+Life cycle description
+Supporting assets
+Followed policies
+Subjects informed
+Subjects consent obtained
+Rectification and erasure
+Restriction and object
+Existing measures
+Planned measures
+Maximum
+Important
+Limited
+Negligible
+Maximum
+Important
+Limited
+Negligible
+Normal,Confidential,Secret,Internal Use
+Normal
+None,Retain 1 year,Obfuscate,Delete
+HUMAN_INTERNAL,HUMAN_EXTERNAL,NON_HUMAN
+NON_HUMAN
+LEGAL, ORGANIZATIONAL, SECURITY_LOGICAL, SECURITY_PHYSICAL, OTHER
+MAXIMUM,IMPORTANT,LIMITED,NEGLIGIBLE,UNDEFINED
+MAXIMUM,IMPORTANT,LIMITED,NEGLIGIBLE,UNDEFINED
+LDM Linkage
+PDM Linkage
+Operational Linkage
+Data Length
+In Process by
+Information Source
+Country
+Business Information
+Display Business Information
+ASG-Enterprise Data Intelligence™ Business Package
+ASG-Enterprise Data Intelligence™ Business Package
+Not \nChanged
+Has profile
+ambiguous
+false
+true
+lookup
+Control item not found or empty
+Exception while reading control item
+Related Business Items
+Related Business Items
+Create or Link Related Business Items
+Define further business items or links
+Create or Link {0}
+Name [{0}]:
+Select other Glossary
+Select other Glossary/Context
+Copy {0}:
+Copy {0} [{1}]:
+Available in other glossaries or contexts
+Available in parent glossary and other glossaries or contexts
+Section {0}: {1}
+Type not permitted for selected glossary/context.
+Name{1} already entered for other {0} item to be created.
+[Language: {0}]
+Business item {0} already exists in the selected context{1}.
+Business item {0} already exists with state Rejected in the selected context{1}.
+Business item {0} already exists{1}. An alternative would be created.
+Business item {0} already exists{1}. Value will be ignored.
+Business item {0} already exists with state Rejected{1}. An alternative would be created.
+Business item {0} already exists with state Rejected{1}. Value will be ignored.
+State: {0}
+In process by: {0}
+Information: Number of items in this drop-down list is limited. Result is incomplete.
+Names for new items of the same item type within the same glossary/context must be unique.
+{0}
+Name is invalid.
+You have no permission to create business items in the selected glossary/context.
+You have no permission to modify the business item.
+Business item is already locked in this session.
+Business item lock could not be acquired.
+Business item is in process by another user or by a workflow process, or the status could not be determined. (Process engine initialized?)
+Related Business Items Warnings
+Information: The filter contains a limited list of {0} objects. You may define a more specific name pattern for: {1}
+Number of items in this view is limited. Result is incomplete.
+640px
+1000px
+Step 2: Select Business Item
+Select Business Item
+{0} name
+640px
+1000px
+Step 1: Search Glossary permitted for {0}
+Step 1: Search Glossary or Context permitted for {0}
+Step 2: Select Glossary
+Step 2: Select Glossary or Context
+Select Glossary/Context
+Related business meta data:
+Related business term:
+Implementation & Cascade
+Cascade
+Cascades the Personal Information along the metadata lineage
+Cascade Personal Information
+Cascading Personal Information...
+Cascading Personal Information finished successfully.\nPlease review the results in the Implementation & Cascade tab.
+An error occurred. Please see logs for details.
+The Cascade filter contains an invalid SDCAC expression.
+Start External PI Analyzer
+Start External PI Analyzer
+Calling External PI Analyzer
+Error ({0} {1})
+Error (see log file for more information)
+Skipped (due to previous errors)
+Ignored (due to missing configuration)
+Organize cascaded items
+Ignore
+Ignore items
+Verify
+Verify items
+Undo Verify
+Undo verification of items
+Delete item links that have been added
+Regard
+Regard items that have been ignored
+({0})
+(selected items: {0})
+Adjust Cascade to
+Are you sure to remove the selected {0} items from the link attribute?
+No items found to be deleted. Only items with status Added can be deleted.
+No items found to be ignored. Only items with status Scanned or Verified can be ignored.
+No items found to be regarded. Only items with status Scanned or Verified can be regarded.
+No items found to be verified. Only items with status Scanned can be verified.
+No items found to undo verification for. Only items with status Verified can be unverified.
+ASG-Enterprise Data Intelligence™ Personal Information
+Implementation & Cascade
+Implemented directly or indirectly as Physical data elements
+Cascaded to
+Used in personal data structures
+Related personal data
+Related personal data structures
+Related personal data by cascade
+Related personal data by detected technical data
+Available privacy impact assessments
+Does this processing activity use personal data? \nIf Yes, please provide processing information below. If No, continue to the next question.
+Please describe data and process life cycles:
+Are the processor''s obligations clearly identified, and governed through a contract?
+Identify existing measures contributing to personal data security
+Identify planned measures which may contribute to personal data security
+What are the sources for risks noted below? \nUnauthorized data access:
+Unauthorized data modification:
+Data loss:
+Attribute name, {1}=SDCAC error message
+Chart by:
+Without category
+Without classification
+Without closure rule
+Found in:
+No Source Type Filter
+No Source Filter
+Glossary {0}
+all Source Types
+all Sources of Type {0}
+{0} {1}
+{0} for {1} found in {2}
+Inventory Personal Information
+{0} Inventory for Glossary {1}
+{0} Inventory for All Glossaries
+Filter by:
+No filter
+Most Common Personal Data
+-
+Detailed information
+Implementation information
+Cascade information
+Found in
+No source type filter
+No source filter
+No further source type filter
+No further source filter
+Detailed information
+Implementation information
+Cascade information
+Defined by Business Terms
+No terms assigned.
+Last approval at
+by
+Used in Personal Data Structures
+Not used in any personal data structure.
+Implemented Directly or Indirectly as Physical Data Element
+Not implemented as any physical data element.
+Information Source
+Cascaded to
+Not cascaded to any element.
+Detected Technical Data
+No detected technical data.
+Registry of Data Processing
+Without Domain
+Existing Measures
+Planned Measures
+Are the processor''s obligations clearly identified, and governed through a contract?
+The attribute {0} is unique and already contains links to selected objects. These new links are not added.
+Verified
+Scanned
+The Privacy Impact Assessment will be created within the selected glossary or context (requires create permission).
+No glossaries or contexts to select.
+Data Pattern
+Type Pattern
+Match Full
+Match Empty
+Minimum Ratio %
+Data pattern
+Type pattern
+Match full
+Match empty
+Minimum ratio %
+Are you sure to remove the selected catalog search filter property from attribute?
+Removing property...
+Edit Catalog Search Filter Property
+Minumum ratio % must be between 0 and 100.
+Property with name {0} already exists. Enter a different name.
+Illegal value, name has to start with A-Z, a-z, or 0-9, 2nd - n-th character has to be  A-Z, a-z, or 0-9, _, -, or space.
+Invalid pattern, has to be regular expression.
+Warnings for Imported Catalog Content Search Filter
+Catalog Content Search Filter
+The imported Catalog Content Search Filter was analyzed.\nProblems were detected and corrected automatically as far as possible.\nPlease display the warnings and review the affected settings on the Implementation & Cascade tab. Then save the item.
+There is one warning for imported Catalog Content Search Filter
+There are {0} warnings for imported Catalog Content Search Filter
+Entry {0}
+Imported filter is no valid JSON: {0}
+Imported filter must not be included in ''['' and '']''. Automatically corrected.
+Superfluous empty line in imported filter. Automatically corrected.
+Superfluous trailing/leading spaces in imported filter. Automatically corrected.
+Invalid spelling of keyword ''{0}''. Keyword is ignored.
+Invalid spelling of keyword ''{0}''. Keyword {1} is assumed. Automatically corrected.
+Wrong capitalization of keyword ''{0}''. Keyword {1} assumed. Automatically corrected.
+Duplicate usage of same value ''{0}'' for keyword ''name'' in imported filter. New name {1} generated.
+Keyword ''name'' is not defined in imported filter. New name {0} generated.
+Superfluous trailing/leading spaces in value of keyword ''name'': ''{0}''. Automatically corrected.
+Invalid characters in value of keyword ''name'': ''{0}''. 1st character must be A-Z,a-z,0-9. 2nd through n-th character must be A-Z,a-z,0-9, ,-,_. Automatically corrected.
+Invalid type found for value of keyword ''{0}'', {1} is expected.
+Type {1} found for value of keyword ''{0}'', {2} is expected. Automatically corrected.
+Invalid regular expression ''{0}'' defined for value of keyword ''{1}'': {2}
+Invalid value ''{1}'' for keyword ''{0}'', must not be less than {2}.
+Invalid value ''{1}'' for keyword ''{0}'', must not be more than {2}.
+Error running query
+Implementing
+Detected
+Cascaded
+DQ Business Rule
+AC
+CM
+CN
+CF
+CV
+TI
+DP
+VA
+Expired
+Measured value
+Daily
+Weekly
+Monthly
+Quaterly
+Half-yearly
+Yearly
+Population count
+Target amber
+Target green
+Filter expression
+Data element
+Has measure
+Record Length Min.
+Record Length Max.
+Dist %
+Min
+Max
+Dominant
+Av. Passed %
+Week
+Month
+Quarter
+Year
+ASG-Enterprise Data Intelligence™ Data Quality
+Has profile
+Error during loading profiled Column
+Title is mandatory.
+ASG-Enterprise Data Intelligence™ Issue Management
+Assigned object:
+<mapping name>)
+All Categories
+Other Business Items
+Path of Contexts
+HTML Layout
+Number of documents to return after ''start''
+Index Search step limit
+The maximum number of items to retrieve by one execution (then the execution is repeated until: either the total limit is reached or all the matching items are retrieved or the user decides to interrupt).
+Index Search global limit
+The maximum number of items that can be retrieved globally (the execution is stopped when that limit will be reached no matter if some matching items have not yet been retrieved).
+Use highlighting
+Highlighting fields list
+"simple" means displaying all data retrieved from search engine,\n"advanced" - searching only items identificators and displaying the rest data from Rochade
+The list of Solr Fields coming from Rochade and that have no equivalent indexed as a keyword (i.e. the Solr Fields with Rochade data that are not copied and re-indexed as an unbreakable ''keyword'')
+Standard RoBrowser Table Layout
+HTML Layout
+HTML Layout
+ASG-Enterprise Data Intelligence™ Index Search
+Fit all tags
+Result must fit all tags if checked, otherwise it must fit only one of the tags.
+Advanced Search Options
+Pattern
+Negation
+Negate
+Clause
+Combination
+AND
+OR
+AND NOT
+OR NOT
+NOT(AND)
+NOT(OR)
+NOT
+As it is
+Update
+Add Operator
+Add Clause
+Error while parsing search pattern: {0}
+Error while parsing search clause: {0}
+The mandatory preference {0} is missing for core {1}
+Cannot add a clause as root element
+Clause definition is invalid: {0}
+Unknown value: {0}
+Number of items in this view is limited to {0}. Result is incomplete.
+Some Search preferences contain an invalid value.\nPlease verify the settings on the Search page.
+The Search preference ''{0}'' contains an invalid value.\nPlease verify the settings on the Search page.
+Integrated Search Settings
+Default index preferences are not found in file: {0}
+An error occurred while retrieving the index search field names defined for metaApp: {0}
+An error occurred while retrieving the index search field names defined for metaApps: {0}
+Index search engine was not started or not correctly configured for metaApps:
+Solr server cannot be reached: {0}
+Invalid Solr server URL: {0}
+Cannot load metadata for Integrated Search
+Default search preferences ({0}) cannot be found.
+Common search preferences are empty (what should not be!).
+Local search preferences for metaApp {0} are empty (what should not be!).
+Not one search preference found for metaApp {0}.
+Error while reading the preference or setting named ''{0}''.
+Some common search preference items cannot be found: {0}
+Some user search preference items cannot be found for user {0}: {1}
+Cannot parse all the mandatory fields for the indexed document with the following field values: {0}
+"From" details were not found for index search query: {0}
+The results coming from Solr do not have the ''name'' column:\n{0}
+Some results coming from Solr have no ''name'' (check how they are indexed in Solr): {0}
+Some results coming from Solr do not exist anymore (check how they are indexed in Solr): {0}
+Some results have been removed because they were corrupted.
+Cannot add non-indexed Rochade attributes to display on the main result page
+Error while retrieving Solr core name for query: {0}
+Error while collecting data from Solr
+Error while collecting facet data from Solr
+Error while collecting attributes to display on main result page
+building {0} queries for meta apps: {1}
+regular
+partial result coming from query:\n{0}
+intermediate execution time for range [{0},{1}]: {2}
+retrieving items in range [{0},{1}]
+total Solr execution time: {0}
+error while disposing query
+There is no query suggestion handlers defined for Solr core {0}
+No suggestion can be found for Solr core {0} about query pattern {1}
+Suggestions have been aborted due to invalid query pattern: {0}\nCause is: {1}
+Suggestions for Solr core {0} have been aborted due to invalid query pattern: {1}\nCause is: {2}
+Cannot determine which Solr component to use for suggestions
+Error while reading extra parameters for the suggester component
+Error while creating the query chain of suggestions for Solr core {0}
+Terminal suggestion query. Another chained suggestion query can not be added.
+Solr request handler preference cannot be found
+There is more than one Solr request handler defined in preferences.
+Error while converting Solr field name ''{0}'' to the corresponding Rochade item attribute name
+Error while getting the mime type of attributes
+Cannot manage properly the sorting instructions
+query for attributes: {0}\n{1}
+results found
+Query has been aborted due to invalid query pattern: {0}\nCause is: {1}
+Error running Solr query for core {0}
+Error building Solr query for core {0}
+Error building Solr queries
+Empty queries
+executing {0} queries (only to retrieve 'numFound' - each query is limited to 0 result)
+{0} docs found for query: {1}
+total time for executing {0} polling queries: {1}
+Error while opening pane for advanced search {0}
+Error while reading preference ''{0}''
+Out of range ({0}, {1})
+Must be lower than global limit value ({0})
+Must be bigger than the step limit value ({0})
+Some Solr queries have divergent state for the legacyMode flag. The legacyMode is supposed to be the same among all the current Solr queries.
+The absPath stored in Solr for item ''{0}'' is invalid. It is probably using the old format. Please index again all data.
+Cannot get the name of the current user
+Cannot build search queries
+Cannot load setting ''{0}''
+Cannot determine if using legacy mode
+Cannot get the search pattern
+Cannot get the search mode
+Cannot get the flag about how to search for tags
+Cannot get the tags to search for
+Unimplemented method
+compositing time: {0}
+facetting update time: {0}
+Error while computing suggestions for pattern: {0}
+list layout selected, so using simple search mode
+table layout selected, so using advanced search mode
+layout not defined or unknown, so using simple search mode
+Definition (value)
+DB sys
+Data Concept with such name already exists in Data Context. Please enter a new name.
+Empty Name
+Please enter name for creating data context.
+Parent''s name
+Reference Column (in Child)
+Reference Column (in Parent)
+Reference Collection (Parent)
+Open "{0} [{1}]"
+Real
+< # 1
+<= # 1
+= # 1
+<> # 1
+> # 1
+>= # 1
+> # 1 and < # 2
+>= # 1 and <= # 2
+>= # 1 and < # 2
+> # 1 and <= # 2
+< # 1 or > # 2
+<= # 1 or >= # 2
+<= # 1 or > # 2
+< # 1 or >= # 2
+295px
+Import Reference Collection
+Import Value Collection
+Import (add or merge) meanings and values from operational reference collection
+Import (add or merge) values from operational value collection
+Create Value Domain
+Value Meanings
+Add a line to the table with empty value meaning and permissible values
+Create a new empty value domain
+Remove all value meanings and value domains
+Add Reference Column to Context
+Add Reference Table to Context
+asg-rochade-configure-reference-table-with-hierarchycal-rc-wizard asg-modal-window
+asg-rochade-configure-reference-table-with-hierarchycal-multiple-rc-wizard asg-modal-window
+List of Related Reference Collections
+List of Related Value Collections
+670px;
+670px;
+Import Mode
+Auto arrange by conceptual domain
+Auto arrange by value domain:
+Merge to value domain:
+ASG-Enterprise Data Intelligence™ Reference Data
+Belongs to
+You cannot delete {0}: {1}\n Reason: {2}
+Inventory (Reference Data Management)
+Inventory for Reference Data Management
+Hide Terms
+delta
+Delta
+[Snapshot]
+Context [$context.name] is requested to replace the contributor control over data concept [$item.name].\nRequested by: [$author.DEFINITION]
+/com.rochade.mg.workflow/img/TaskReminder16.png
+/com.rochade.mg.workflow/img/TaskReminder16.png
+CD/VM name
+VD/PV name
+VDR/parentPV
+VDR.parentPV
+parentVM
+Import hierarchy decomposition
+"setDirty: {0}:{1}:{2}
+setViewMode:{0}:{1}
+setEditMode:{0}:{1}
+Error during retrieving tables
+Error during retrieving hierarchy parents
+mpath:TableTransformation
+ASG-Enterprise Data Intelligence™ Big Data
+Used Columns and Fields
+Governed directories
+Governed Hive tables
+Defective Hive tables
+Batch Imported Data:
+Hive Databases Imported by:
+Hive Tables Imported by:
+Hive Databases Exported to:
+Specify parameters for obtaining Hive tables or HDFS directories in Big Data that are exported into a particular data target
+Hive Tables Exported to:
+Hive Tables Taking Part in Transformation Workflows
+Complex data types
+Data Types of Cluster:
+Record Types of Cluster:
+Type of data
+Columns of Cluster:
+Fields of Cluster:
+Tables of Hive System:
+Databases of Hive System:
+HDFS Directories Imported by Flume Streams
+References business items that are related to this item.
+Liked business items
+Subscribed contexts
+Detected technical data
+Detected technical data (catalog)
+Ignored from detected technical data
+Detect technical data filter
+ScopeId
+File System
+ER-Attribute
+ER-Entity
+ER-Identifier
+ER-Relationship
+Data Source Element
+Controls
+Renders
+Has datasource elements
+City
+Country
+ZIP Code
+Defined on
+Source code
+Has subroutines
+Has components
+Depends on applications
+Used by application
+Image
+External Identifier
+Unresolved elements
+Annotation elements
+Annotation type
+Caught exceptions
+Declared exceptions
+Thrown exceptions
+Method parameters
+Startline
+Content type
+Original creation group
+Original creation time
+Original creation user
+Original modification time
+Original modification user
+*
+*
+Systems
+Tasks
+Method
+Class
+Routine
+Version
+Lookup Record/Table
+Lookup Field/Column
+Original Creation User
+Original Creation Group
+Original Modification Time
+Renders
+Controls
+Startline
+Qualified Source
+Source Type
+Qualified Target
+Target Type
+Remove Selected Notifications
+Remove Selected Notifications
+Remove Selected Notification
+Remove Selected Notification
+Reset This Task
+Retry Failed Jobs
+Are you sure to remove the selected notification(s)?
+Import Business Items
+Import Business Items
+Import Business Items
+Import Business Items
+Configure On-Demand Lineages
+Configure On-Demand Lineage settings
+Enable
+Enable On-Demand Lineage settings
+Disable
+Disable On-Demand Lineage settings
+10px
+98%
+283px
+10px
+98%
+283px
+Configure On-Demand Lineages for {0}
+New on-demand lineage settings will be automatically handled as:
+On-demand lineages, which are created after this configuration, are automatically regarded either as enabled or as disabled.
+On-demand lineages, which are created after this configuration, are automatically regarded as enabled.
+On-demand lineages, which are created after this configuration, are automatically regarded as disabled.
+Disabled
+Data Lineage and RaaS run:
+Stitching runs:
+Enabled settings only
+All settings
+Control item is locked
+Exception while reading control item
+Exception while creating control item
+Exception while writing control item
+Control item lock could not be acquired.
+{0}-URL{1}
+{0}-{1}
+Don''t receive notifications for this context
+My Subscriptions
+My Subscriptions
+>>
+<<
+>>
+<<
+The role {0} seems invalid. It does not fit to an existing item in the current database. Please check if you can remove it (considering all databases).
+Represents users who are responsible for a number of personal information items. This includes responsibility for editing and for approving changes.
+Represents users who are accountable for a number of personal information item.\nThey can also apply changes to personal information items and approve those.
+Context Administrator (Work In Progress)
+Facilitate (Work In Progress)
+Inform (Work In Progress)
+Add Items
+Include likes:
+Item tree in Production
+650px
+800px
+{0}
+{0} {1} ({2})
+/com.rochade.dg.workflow/img/TaskReminder16.png
+/com.rochade.dg.workflow/img/TaskReminder16.png
+There are jobs running in background. The task can be processed when they have finished.
+There are jobs running in background. The task can be processed when they have finished.
+Before this task can be processed background jobs have to finish successfully.
+The jobs detected non-temporary problems and must be retried after the error has been fixed.
+Delegate to group
+Delegate the task to group
+{0} ({1})
+Governing context:
+The failed job will be retried in background. Please use the refresh button to reload the task status.
+Contexts:
+Governed Items in Process
+All Contexts
+Work in Progress contexts
+Work in Progress Approved in [$COMMENT2]
+Work in Progress has been approved (content committed) in LOB1.\n\nRequested by: [$author.DEFINITION]\nApproved by: [$history.RWF/COMPLETED-BY.DEFINITION]\nComments: [$comment]
+Action label
+Setting loaded:
+Batch Import
+All Settings
+Item type (attribute)
+Link mode
+Link search mode
+Actual namespace
+Root namespace
+Link update mode
+The file {0} is not an .xlsx Excel file (OOXML / Office Open XML file) or it has unsupported or corrupt contents
+yyyy-MM-dd HH:mm:ss
+.log
+Setting name:
+- {0} {1}
+Incorrect setting: The setting defines columns that do not exist in the Excel file (Sheet: {0}; Missing column: {1})
+Item lock could not be acquired for all selected items.
+Prepare Batch Import
+Create Import Package
+Download Import Package
+Import using:
+Loaded file and setting
+Other file and setting
+Full path of import file:
+Setting:
+[My Setting]
+[General Setting]
+Target application:
+Import into Work in Progress:
+Target item:
+Create Package for:
+Windows
+Unix
+Prefix for generated files:
+Include libraries:
+Create Package
+Package:
+Enter Excel file name including path
+Select the setting
+Selected setting does no longer exist or is empty
+Enter user name
+Could not create account file
+Verification of connection failed
+Enter prefix for generated files
+Could not create temporary directory
+Could not create properties file for connection settings
+Could not create properties file for mapping settings
+Could not create command file
+Could not provide Excel file
+Could not copy the following libraries: {0}
+Could not create zip file
+Download failed
+Unable to get the password from {0} for {1}.\n{2}
+User {0} is not registered for the given account file!
+The given password does not match. Please check the account details!
+Error connecting to Rochade using: host={0} port={1}\n{2}
+Error accessing database: {0}\n{1}
+Copyright © 1983-{0} ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc.
+All rights reserved. This program is protected by U.S. and international copyright laws.
+Tags to be added to all imported items
+All Settings
+Initially Used for Excel File
+Initially used for Excel file
+Excel file loaded:
+Target item:
+No permission to delete any setting
+No permission to delete the selected setting(s)
+Load only available if Excel file is loaded
+Selected setting cannot be loaded for current Excel file
+Are you sure you want to delete the setting(s)?
+Not all selected settings could be deleted
+Transformation Routine Diagram
+Transformation Procedure/Function/Trigger Diagram
+Detailed Technical Forward Data Lineage
+Detailed Technical Backward Data Lineage
+Detailed Technical End-to-End Data Lineage
+Forward Business Lineage
+Backward Business Lineage
+End-to-End Business Lineage
+Forward Application Lineage
+Backward Application Lineage
+End-to-End Application Lineage
+ETL Details:
+100px
+Details:
+'{0}' of {0}
+Displaying {0} of {1} nodes.
+Items
+of this
+Forward Dependencies
+Backward Dependencies
+End-to-End Dependencies
+List items
+Tables/Views
+Views
+Tables/Views
+Views
+Tables/Views
+Views
+Directories
+Directories
+Identifiers
+Sub-Models
+Subject Areas
+Entities
+Subject Areas
+Entities
+Activities
+Tasks
+Tasks
+Activities
+OLAP Packages
+OLAP Schemas
+OLAP Schemas
+Diagram with Personal Information
+New Business Application
+New Business Application
+Add to Business Application
+Add items(s) to Business Application
+Add to Business Application
+Step 1: Search and Select Business Application
+Step 2: Select Items to Add
+Step 3: Add Items to Business Application
+Items of this type cannot be added to {0} items
+Item does not exist in Production
+Search Business Application
+Select Business Application
+Business application type
+Add Items
+Add Items to {0} {1}
+No items are selected to add to {0} {1} (step 2)
+No business application is selected to add items to (step 1)
+Item successfully added
+Item was already assigned
+Add not possible, {0} {1} is locked
+Error while adding items to {0} {1} - {2}.
+Select business application to add items to first (step 1)
+Add Items to Business Application
+800px
+735px
+785px
+There are no attributes defined to store link in. Please check configuration.
+Invalid source item type {0} in setting {1}. This setting is completely ignored.
+Invalid target item type {0} in setting {1}. Target type is ignored.
+Inventory OLAP
+Depth of Transformation system diagram
+Depth of Transformation system diagram
+Contains personal information.
+[Unknown Application]
+[Unknown Business Name]
+[Unknown Report]
+Lineage Level Information
+Display Lineage Level Information
+No lineage level information found
+Lineage Level Information for {0} {1}
+Display
+Display Options
+Routes
+Routes
+Lookups in Background
+Lookups in Background
+Lookups in Foreground
+Lookups in Foreground
+Map Details
+Map Details
+All Transformations
+All Transformations
+Tfm with Instructions only
+Transformations with Instructions only
+Stitching Details
+Stitching Details
+Inventory Query Parameter
+Specify the parameters for running the inventory.
+Inventory for
+Interrupt all Counts
+Interrupt
+Result in Report
+Counting completed
+Counting ...
+Counting interrupted
+Error when counting, function is cancelled
+No types are defined for which items should be counted
+{0} Items
+Exception while reading control item for area {0}
+Control item for area {0} not found or empty
+{0}: {1}
+Refers to Business items
+Contained business items
+Governed business items
+Changed attributes:
+Old value:
+New value:
+No groups assigned
+).
+Refers to business items
+References the business items which are related for this business item.
+All Business Items
+Quick Search for Business Items
+Image
+Upload...
+525px
+550px
++ Add
+Data Sources
+Data Source Elements
+Data Sources
+Data Source Elements
+Inventory Packages
+Inventory File Systems
+File Systems
+Directories
+Business Application Type
+Table type
+*
+materialized_view
+*
+EDI Browser
+ASG-Enterprise Data Intelligence™ Browser
+Directories
+Changed
+Is represented by
+Renders
+Controls
+Local Representation
+Directories & Files
+DS Element
+Lookup
+Lookup
+Origin Report
+Business Application Type:
+Default Image
+Error: Image upload error
+Warning: Image upload warning
+Resource already exists. Please specify different key
+Key not specified. Please enter key
+Image not specified. Please select image
+Wrong image size. Image size should be 64x64
+Wrong image format. Image format should be ''svg''
+Wrong image path {0}. Please check diagram configuration
+Generates view
+{0} - Condition (SDCAC Syntax) definition is invalid: {1}
+No entries found
+Filter by ER Model
+Filter by ER Entity
+Filter by Data Package
+Filter by Data Record
+Filter by File System
+Filter by Directory
+Filter by Data Type
+Filter by Data Source
+Filter by Transformation System
+Filter by Transformation Task
+Filter by Transformation
+Filter by Transformation Type
+Filter by Report Package
+Filter by Report Schema
+Filter by Report
+Filter by Report Structure
+Filter by Dashboard
+Filter by Dashboard Page
+Filter by Package
+Filter by Schema
+Filter by Cube
+Filter by Dimension
+Filter by Package
+Filter by Class
+Filter by Method
+Lineage Completeness Summaries
+Lineage completeness summary reports
+Lineage Completeness Summary (RDB)
+Lineage completeness summary report for Relational Databases
+Lineage Completeness Summary (Data Structure)
+Lineage completeness summary report for Data Structures
+Lineage Completeness Summary (File)
+Lineage completeness summary report for Data Files
+Lineage Completeness Summary (BI)
+Lineage completeness summary report for Business Intelligence
+Lineage Completeness Summary (OLAP)
+Lineage completeness summary report for OLAP
+Lineage Completeness Summary (Transformation)
+Lineage completeness summary report for Transformations
+Lineage Completeness Summary (Logical Model)
+Lineage completeness summary report for Logical Models
+Lineage Completeness Summary (Physical Model)
+Lineage completeness summary report for Physical Models
+Inventory (RDB)
+Inventory report for Relational Databases
+Inventory (Data Structure)
+Inventory report for Data Structures
+Inventory (File)
+Inventory report for Data Files
+Inventory (BI)
+Inventory report for Business Intelligence
+Inventory (OLAP)
+Inventory report for OLAP
+Inventory (Transformation)
+Inventory report for Transformations
+Inventory (Logical Model)
+Inventory report for Logical Models
+Inventory (Physical Model)
+Inventory report for Physical Models
+*
+Downstream Impacts for {0} {1}
+Up- and Downstream Impacts for {0} {1}
+Upstream Impacts for {0} {1}
+{0} Impacted Items in {1}
+Result in Report
+Statistics in Report
+Display Statistics
+Downstream Impacts
+Up- and Downstream Impacts
+Upstream Impacts
+Status filter:
+Name filter
+Type filter
+Attribute filter
+Restrict Compare to Item Types
+Available Attributes
+Restrict Compare to Attributes
+Types found: {0}
+Attributes found: {0}
+Compare all attributes of all item types
+Compare all attributes of {0} item types
+Compare all attributes of item type {0}
+Compare {0} attribute(s) of item type {1}
+Impacts
+Downstream
+Up- and Downstream
+Upstream
+{0}: {1}
+Do you want to roll back or delete the selected business items?
+Rollback Selected Business Items
+Rollback failed for some business items.
+You cannot rollback the selected business item. Either you do not have permission or the business item is currently being processed.
+You cannot reset the status of the selected business item. Either you do not have permission or the business item is not in Pending status.
+Do you want to reset the selected business items?
+Reset Selected Business Items
+Reset failed for some business items.
+You do not have permission to create glossaries.
+You do not have permission to move the business item.
+The business item must not be moved.
+Specify a name to create the business item.
+The business item [{0}] exists in the target context [{1}].
+{0} [{1}]
+Detect Technical Data
+Detect the technical data based on the defined filter and links them to the current item
+Detect Technical Data
+Detect Technical Data...
+Detect Technical Data finished successfully.\nPlease review the results in the Implementation & Cascade tab.
+An error occurred. Please see logs for details.
+The Detect technical data filter contains an invalid SDCAC expression.
+The Detect technical data filter is empty.
+Organize cascaded items
+Ignore
+Ignore items
+Verify
+Verify items
+Undo Verify
+Undo verification of items
+Regard
+Regard items that have been ignored
+({0})
+(selected items: {0})
+Adjust Detect Technical Data
+No items found to be ignored. Only items with status Scanned or Verified can be ignored.
+No items found to be regarded. Only items with status Scanned or Verified can be regarded.
+No items found to be verified. Only items with status Scanned can be verified.
+No items found to undo verification for. Only items with status Verified can be unverified.
+10px
+98%
+283px
+-
+Compare Alternatives of {0}:
+...click here to open the business item
+Customized display names for {0}:
+{0} (installed default language)
+Display name:
+The Business Items Administration could not be loaded.
+The model could not be locked.
+The label mappings were not saved because the resource could not be locked.
+The label mappings were not saved.
+Invalid name:\nThe name length is limited to 32 characters.\nSpaces, tabs, and new lines are not allowed.\nThe following characters are not allowed: . * ( ) ^ @ # , ; \nOnly uppercase characters are allowed.
+Display name ''{0}'' is not unique for language ''{1}''
+The business item already exists.
+The business item already exists in the context.
+The creation of the business item has previously been rejected. You can reactivate the rejected item.
+The creation of the business item has previously been rejected. You can reactivate the rejected item.
+Reactivate Business Item
+The selected context has been added to governance control of the item.
+The selected context has been removed from governance control of the item.
+Error on reactivate Business item {0}. - {1}
+Item with the name {0} already exist. Create a alternative?
+Item with the name {0} already exist.
+/com.rochade.mg.history/img/TaskAddContributorContext16.png
+Old value:
+New value:
+Move Business Item
+Move business item
+The target items are not permissible for moving the business item. You should be the Glossary/Context administrator of the items.
+ASG-Enterprise Data Intelligence™ Business Glossary
+Refers to business items
+Contained business items
+CDE
+Governed business items
+Related critical data elements
+Changed attributes:
+Old value:
+New value:
+No groups assigned
+).
+Refers to business items
+References the business items which are related for this business item.
+Catalog content search filter
+Verified
+Scanned
+Imported from catalog
+Imported from {0}
+Item name not yet defined or invalid. Initialization of filter not possible.
+{0} {1}
+Inventory (Data Governance)
+Inventory report for Data Governance
+Likes for
+Number of Business Items
+Sum of Likes
+Seed item does not exist in Production.
+User Event Ticker Configuration
+Out of range ({0}, {1})
+/img/16x16_ItemTypes_dataContext1.png
+Business Terms of Glossary {0} linked to {1}
+Not Linked Business Terms of Glossary {0}
+Glossary {0}
+Unapproved items
+New items
+Rejected items
+Most Liked Business Items
+/com.rochade.mg.search/img/TaskAddContributorContext16.png
+You have:
+Recent changes:
+{0} was liked by {1} {2}.
+{0} was unliked y {1} {2}.
+Search for Business Items (Standard Search)
+All Business Items
+There are no Glossaries or Contexts to search in. Search is unavailable
+Quick Search for Business Items
+Business items with {0} Like
+Business items with {0} Likes
+{0} ({1})
+Error getting the absolute path
+Choose Business Application Type
+Business Application type
+No business application types found to create item for
+Type for new application not selected (empty or null). New application is not created
+No business item types found to create item for
+The business item will be added to the view of the selected context (requires Administration rights on target context).
+The business item will be removed from the selected context.
+/com.rochade.mg.workflow/img/TaskReminder16.png
+/com.rochade.mg.workflow/img/TaskReminder16.png
+Sheet {0} in row {1} in column {2} ({3})
+Key ''{0}'' is not bundled for localization in locale {1}
+Argument ''{0}'' cannot be null
+Argument ''{0}'' cannot be null or empty
+Argument ''{0}'' cannot be negative
+Argument ''{0}'' must be positive
+Resource {0} not found
+Invalid system property {0} with value {1}
+Cannot unmarshall as {0} the following string: {1}
+The setting ''{0}'' for core ''{1}'' is not specified or empty what is invalid!
+The setting ''{0}'' has received the failsafe value ''{1}''
+The setting ''{0}'' for core ''{1}'' has invalid format!
+The setting ''{0}'' for core ''{1}'' cannot be negative (value is ''{2}'')!
+Object is read-only
+Error while parsing setting ''{0}''
+The class ''{0}'' cannot be found
+The field ''{1}'' is not declared on class ''{0}''
+Some user search preferences are not existing: {0} (user: {1})
+Some common search preferences are not existing: {0}
+Error while loading common search preferences: {0}
+Error while loading user search preferences: {0} (user: {1})
+The user Portfolio item ''{0}'' is not existing.
+No way to access the Control Subject Area to load the Index preferences. Check configuration file ''{0}'' for ''control.XXX'' fields.
+Error while creating the common search preferences items: {0}
+Error while creating the user search preferences items: {0} (user: {1})
+Error while creating the user portfolio item: {0}
+Error while storing user search preferences item that has been updated on-the-fly: {0} (user: {1})
+Error while storing Index Preferences.
+Error while retrieving the multi-language attributes of item type {0}
+Cannot list the common search preferences
+Cannot list the user search preferences
+Error while unmarshalling a multi-map. The entry ''{0}'' is badly formatted for the marshalled string: {1}
+Unexpected InexistentBehavior: {0}
+Error while retrieving the user preferences items: {0} (user: {1})
+Error while retrieving the common preferences items: {0}
+Cannot reset the base Search preferences because no way to access the Control Subject Area
+Cannot reset the shared Search preferences because no way to access the Control Subject Area
+The property ''{0}'' is not supported by the preference about attributes to display on main result page
+Can not read the stored mapping of Rochade Attributes to Solr Fields for Solr core: {0}
+Cannot parse the search pattern ''{0}''
+Unexpected SearchAppId: {0}
+The following term contains incorrect escaping at position ({1}): {0}
+Dual search mode is unexpected at this point!
+Search mode ''{0}'' is not supported!
+The character ''{0}'' at position ''{1}'' of the token ''{2}'' is not correctly escaped as it should. Token is part of search pattern: {3}
+Invalid search pattern: {0}\nTake care to escape (with ''{1}'') each of the following special characters: {2}
+Search pattern is refused because it does not comply with the safety rules.\nCause: {0}\nPattern: {1}
+The pattern is longer than the allowed limit of {0} characters
+The clause ''{1}'' is longer than the allowed limit of {0} characters
+The following term is longer than the allowed limit of {0} characters: {1}
+Cannot extract the base Solr field name for Rochade attribute name: {0}
+Can not read the stored mapping of Rochade Attributes to Solr Fields for Solr core: {0}
+Expression ''{0}'' does not match the wildcard pattern ''{1}'' while it should (regex: ''{2}'')
+The following wildcard pattern contains incorrect escaping at position ({1}): {0}
+The following fields were queried but they are NOT declared into the Solr schema: {0}
+The format {0} of the Solr response is not supported to extract the ''{2}'' metadata. Supported formats are {1}.
+All the available data have not been retrieved when listing items that have already been indexed - available: {0} retrieved: {1}
+Listing data already indexed for MetaApp {0}. Please wait, it could be quite long if a lot of data are already indexed.
+Data listed:
+Found {0} items already indexed for MetaApp {1}.
+Invoking Solr query: {0}
+Listing items not yet indexed among {0} candidates.\nPlease wait, it could be very long if there is a lot of items to check.
+Found {0} items already indexed among the {1} proposed ones.
+The destination field {0} for CopyField with source {1} does not match any fields declared into the Solr schema.
+Error when connecting to Solr: {0}
+Error when executing Solr query: {0}. Solr query was:\n{1}
+Error while updating SearchComponents on Solr ''{0}'' with new settings:\n{1}\nSolr response was:\n{2}
+Error while updating RequestHandlers on Solr ''{0}'' with new settings:\n{1}\nSolr response was:\n{2}
+Error while deleting Solr config element ''{3}'' (''{2}'') on Solr ''{0}'' for core ''{1}''\nSolr response was:\n{4}
+Error while forcing Solr core ''{1}'' on server ''{0}'' to synchronize with the configuration.\nSolr response was:\n{2}
+Error while reloading Solr core ''{1}'' on server ''{0}''.\nSolr response was:\n{2}
+Error while detecting items not yet indexed
+Error while executing Solr query: {0}
+Error while exporting indexed data when executing Solr query: {0}.\nSolr response was:\n{1}
+Retrieve mode: {0}
+Effective slice size: {0}
+Cannot interpret Solr server max Heap size value: {0}
+Error while computing the best slice size
+The provided URI must be URL-encoded: {0}
+Cannot add new Dynamic field to the schema - url:{0} field pattern:{1} field type:{2} - response: {3}
+Cannot add new Regular field to the schema - url:{0} field name:{1} field type:{2} - response: {3}
+Cannot add new Copy field to the schema - url:{0} field source:{1} field dest:{2} - response: {3}
+Cannot delete Copy field from the schema - url:{0} field source:{1} field dest:{2} - response: {3}
+Given URL argument does not contain the section with the core name: {0}
+Cannot create Solr core ''{0}'' with configSet ''{1}'' - Solr query: {2}.\nSolr response was:\n{3}
+Cannot delete Solr core ''{0}'' - Solr query: {1}.\nSolr response was:\n{2}
+Listing Indexed Data has terminated
+listed {0} ids
+Only following implementation classes are supported for now: {0}
+Error while parsing Solr document id: {0}
+Unexpected value for ''{0}'' Solr setting: {1}
+Cannot get the value on Solr server node for ''{0}'' Solr setting. Cause is:\n{1}
+Cannot parse as HTML the following data while trying to truncate data for Solr text field: {0}
+''{0}'' operation suffered an I/O error (connection timeout: {1}, read timeout: {2}). The operation is going to be tried again into Solr core {3}. If it succeeds, simply ignore this warning. If it fails again, an explicit error will be reported.
+Remaining attempts to retry ''{0}'' operation: {1}
+Rollbacking previous ''{0}'' operation failed (but this has no consequence since we are going to retry exactly the same operation)
+Retrying last ''{0}'' operation (attempt #{1})
+Retried {1} times the ''{0}'' operation into Solr core {2}, but still failing (connection timeout: {3} and read timeout: {4})
+the ''{0}'' operation into Solr core {1} has succeeded at attempt #{2} with connection timeout: {3} and read timeout: {4}
+Cannot build custom SolrClient with connection timeout: {1} and read timeout: {2}
+The following fields cannot be queried (and so have been skipped) because they are NOT declared into the Solr schema: {0}
+The following field cannot be converted to its keyword equivalent: {0}
+Error while checking the existence of Solr field {0} into the schema of Solr server {1}
+{0} values for field ''{1}'' are disjoint: {2}!={3}
+Field ''{0}'' is not compliant: source is {1} but target container is {2}
+Private key found at {0}
+Error while looking for resource {0}
+Using Trusted connection: {0}
+SignatureData cannot be created because not one private key file has been found at those places: {0}
+Invalid format for the licenses: {0}
+Cannot fetch password from AccountUtility for: user ''{0}'', application ''{1}'', account file ''{2}''
+No appropriate entry found for the specified user and application!
+The file {0} does not exist!
+The folder {0} does not exist!
+The parameter {0} should be a file, not a folder
+The parameter {0} should be a folder, not a file
+The string {0} represents a number that is out of range for an integer.
+{0}...
+Enclosers ''{0}'' are not paired: {1}
+The ''{0}'' escaping character is unexpected at position ''{1}'' of: {2}
+algorithm only works with leading variable, so trim if characters in front of the variable!
+Class ''{0}'' is an unknown primitive
+Class ''{0}'' cannot be read from string
+should not come here!
+No matching found!
+No variable found in ''{0}''
+Cannot read correctly the name of the variable
+Solution#{0} {1}
+Closing Source kind {0} is currently not supported!
+The column type {0} is not specifically managed. Default processing applies. Value of the cell is: {1}
+The kind of ResultSet for column {0} is not specifically managed so the ResultSet itself will be returned as feature. ResultValue is: {1}
+The provided ResultSet must have an ''id'' column
+The following types are invalid (not found into the Rochade Information Model): {0}
+Last operation failed with the following details (undecoded): {0}
+Last operation failed without details
+Unexpected item restriction: {0}
+number of columns
+number of rows
+Cannot retrieve already existing items
+Cannot create some items
+Cannot set attributes on some items
+Cannot add linked items
+{0} requested items do not exist
+The lock for the resource {0} no more exists (Thread: {1})!
+The lock for the resource {0} is not locked by the current thread (Thread: {1})!
+The lock for the resource {0} has been replaced while we were using it and we locked it (Thread: {1})!
+Lock for resource {0} has been destroyed (Thread: {1})!
+Lock for resource {0} has been created (Thread: {1})!
+Lock for resource {0} is out-dated (Thread: {1})! We need to acquire the new one again.
+Setting application notification for {0} to state: {1}
+Notification service cannot be activated while application {0} is in use.
+Error while getting the notification state of the application {0}
+Error while getting the current access information of the application {0}
+Error while changing the state of the application {0}
+Error while getting the state of the application {0}
+Please disconnect users and retry.
+For information, here are the users currently connected to the application.
+Active users
+sessionID
+No one active user cannot be listed. This may be due to insufficient operator privileges of the current (missing ''S'' operator privilege?).
+Error while re-organizing the application {0}. The application is in use by other users.
+However the current user has the ''S'' operator privilege, so it should be able to force disconnection of other users.
+The ''S'' operator privilege is required to force disconnection of other users.
+Cannot re-organize the application {0} in a gentle way (re-organization state is {1}). The application is probably in user by other users.
+Error while checking if some applications needed to be re-organized
+But the re-organization has been approved only if it could be done in gentle way (what is not the case). Manually force the re-organization or edit web.xml and change the setting ''enforceReOrganizationsIfNeeded'' to ''true''.
+The current user has not enough privilege to force the re-organization. Ask an administrator to do it.
+Re-organization of the application {0} succeeded.
+Unexpected error while re-organizing the application {0}.
+Cannot get list of users currently connected
+Cannot generate model {0} because the model is in state: {1}
+Generation of model {0} has failed because the state after generating is not {1}
+bad parameter: {0}
+Cannot send data using HTTP GET request: {0}
+Cannot re-generate the same URL without the query parameters: {0}
+Sending query parameters and data is currently not supported:\nURL: {0}\nDATA: {1}
+Error while retrieving the dynamic enumeration of web protocols
+Missing Solr core mapping for meta application ''{0}''. The setting ''{1}'' cannot be found.
+The setting ''{0}'' is missing (or empty)!
+Invalid declaration for extra Solr core identifier: {0}. The name must start with ''{1}'' prefix.
+Error while retrieving the dynamic enumeration of Solr core identifiers
+Unexpected authentication method: {0}
+Cannot access AccountUtility by reflection
+Cannot exploit AccountUtility by reflection
+Cannot find the Account file named ''{0}''
+Cannot delete the temporary file ''{0}''
+Accessing the Account Data file ''{0}'' with Login User ''{1}'' and Machine ID ''{2}''
+AccountUtility version: {0}
+unspecified (so probably {0})
+There is currently no marker about changes in stewardship (item ''{0}'' of type ''{1}''). So it means that roles have never been modified.
+Unexpected token kind: {0}
+parenthesis are not paired: {0}
+Unexpected parenthesis pattern: {0}
+Missing field name in search term: {0}
+Tags to search for are refused because they do not comply with the safety rules.\nCause: {0}\nTags: {1}
+The following tags do not exist: {0}
+Time to retrieve from Rochade the tags of {0} items
+Time to retrieve the URL of the MPath query to execute
+Time to parse Rochade results about tags and structure them for {0} items
+Time to retrieve data about tags from Rochade for {0} items
+All tag pointers were not in cache
+All tag pointers were in cache but following attributes were missing: {0}
+All tag pointers were in cache
+Time to retrieve from Rochade {0} tag pointers owned by {1} items
+Time to retrieve from Rochade all the {0} tag pointers
+Error while executing the ''{0}'' MPath query to retrieve tag pointers
+There exist more than one source with the identifier ''{0}''
+Error while loading template ''{0}''
+Caused by
+Status Report
+Stacktrace
+HTTP Status
+Back
+A faulty request was detected and hereby rejected. If this happens during normal use of our application, please contact your Web Administrator.
+User ''{0}'' querying for search pattern ''{1}'' with ''{2}'' tags in ''{3}'' among cores ''{4}''
+User ''{0}'' searching for\nPattern: {1}\nFitAllTags: {2}\nTags: {3}\nCores: {4}
+some
+Trying to release an Application not obtained through this handle
+Unexpected AppManagerKind: {0}
+Error while creating an application pool that manages licenses because the license itself is missing.
+Error while releasing the pooled application
+Environment selector source is: {0}
+Environment selector value is: {0}
+Key ''{0}'' cannot be found among original properties
+Key ''{0}'' or ''{1}'' cannot be found among original properties
+The type ''{0}'' for a setting is currently not supported
+Rebuilding suggesters on core: {0}
+Rebuilding the suggester ''{0}''
+Starting to rebuild the suggester ''{0}'' at {1}
+Ended to rebuild the suggester ''{0}'' at {1}
+Total time to rebuild ''{0}'' = {1}
+Failed to rebuild suggester ''{0}''.\nExecution failed for query: {1}
+SearchComponent ''{0}'' is declared in multiple cores with distinct values for the setting ''{1}''
+Query time reported by Solr for rebuilding ''{0}'' = {1}
+\t{0}: the url of the Solr server (example: http://localhost:8181/solr)
+Configuration conflict: the type ''{0}'' which is explicitly configured has to be ignored but the following rules have been found for it:\n{1}
+BAD DESIGN: merged rules for sub-type ''{0}'' of type ''{1}'' have not yet been computed
+BAD DESIGN: merged rules for super-type ''{0}'' of type ''{1}'' have not yet been computed
+Rule ''{0}'' (coming from type ''{1}'')
+conflicts with
+The rules on type ''{0}'' cannot be computed due to conflicts:\n{1}\nTo solve the conflict, redefine explicitly the following attributes on the type ''{0}'': {2}
+BAD DESIGN: type ''{0}'' with deduced rules:\n{1}\nhas already been computed with rules:\n{2}
+BAD DESIGN: merged rules for parent type ''{0}'' of type ''{1}'' have not yet been computed
+\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n
+Merged rules:\n======================\n{0}
+\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Rules for explicitly declared types:\n------------------------------------\n{0}
+Induced rules for interleaved super types:\n-------------------------------\n{0}
+Inherited rules for sub types:\n-----------------------------\n{0}
+BAD DESIGN: type ''{0}'' with rules:\n{1}\nhas already been stored with rules:\n{2}
+<<< TYPE TO BE IGNORED >>>
+This rule is initially defined on type: {0}
+Provided character ''{0}'' is not valid as restrained character for a properties file. Valid characters are: {1}
+Unexpected Log4J Level: {0}
+Time to execute MPath query on {0} items
+Time to execute MPath query only on existing items ({0} out of {1})
+Time to load the MPath query from the resource file
+Error while extracting the context identifier from roles
+Error while getting an application instance
+Cannot validate if given PrintStream is linked to a TTY!
+No separator nor fixed length set
+Error while parsing cell at line #{0} column #{1}
+Argument columnFixedLengths does not contain enough information: no specification for column #{0} and followings
+Fixed-length for column #{0} is incompatible: data is longer ({1}) than the specified fixed-length value ({2})
+Column #{0} does not exist
+Several columns have the same names
+rowIndex is negative
+columnIndex is negative
+rowIndex ({0}) is greater than maxRowIndex value ({1})
+columnIndex ({0}) is greater than maxColumnIndex ({1})
+This supervisor thread has been interrupted while waiting the worker threads
+This worker thread has not ended after a grace period of ''{0}'' ms
+Error while releasing resources of worker threads
+MapDB logged this message: {0}
+DB file ''{0}'' was corrupted => throwing it and generate a new one
+Cannot delete DB file ''{0}''
+Stitching Container
+Stitching Structure Link
+Stitching Element Link
+Manual stitch
+Opens Stitching Container
+Stitching Containers
+Stitching Containers
+Deletes Stitching Container
+Submits Stitching Container for processing
+Submits Stitching Container for processing
+New Container
+Create New Stitching Container in Root
+Create New Container
+Edit Stitching Container
+Refresh Stitching Container
+Save Stitching Container
+Export Container Data to Excel
+Export Container Data to Excel
+Export Template Data to Excel
+Export Template Data to Excel
+ASG-Enterprise Data Intelligence™ Stitching
+type.glossary
+mpath=_dwr_navi_glossary!depth=1
+type.rgb_context
+mpath=_dwr_navi_glossary!depth=1
+Stitching Container:
+Stored Stitches
+cannot be extracted
+Stitching container
+Source context
+Target context
+Last execution
+Number of stitches with redundancies
+Stitch number
+Source structure
+Source element
+Target structure
+Target element
+Manual stitch
+No manual stitch
+Is only partial redundant
+Is completely redundant
+Redundancies
+From {0} to {1}
+via {0}
+and {0}
+directly connected
+Old Redundant Stitches
+Old redundant stitches report
+Stitching Container Details
+Stitching Container:
+Stitch Container
+Unable to create report for stitching container {0}
+Please select single stitching container to get report for
+Stitching container {0} contains no redundant stitches
+Stitching container {0} was modified after the last execution. Please re-execute it to make sure the report is valid
+Select existing stitching container to add current item to
+Step1: Search Stitching Container
+Step2: Select Stitching Container
+390px
+600px
+Please specify non-empty name for container search.
+Empty container name
+Empty container list
+There are no containers with defined conditions.
+Select Existing Stitching Rule to Apply to Container
+390px
+800px
+There are no contexts of type {0} for current element. Please select other type.
+Stitch already exists. To change it, remove existing stitch first.
+Paths cannot be found
+Sequences cannot be found
+Container name can''t be empty
+Please select Stitch Source
+Please select Stitch Target
+Stitching container with such name already exists! Please specify another container name.
+Stitching Container name is empty!
+Stitching Container was modified. Save?
+Name contains unsupported symbols. Please specify another container name.
+Error while retrieving stitching containers by name.
+Error retrieving text attributes for item type
+Container {0} update failed
+Container {0} load failed
+Container {0} create failed
+Source or target of container {0} is invalid. Please delete container.
+Source or target of container {0} are invalid or missing. Defined stitches are invalid.  Please delete container.
+Source or target of container {0} is missing. Please delete container.
+Error executing Stitching Container {0}
+Stitching Container {0} executed
+Delete Stitching Container?
+You are about to delete stitching container {0}. Proceed?
+Can''t delete Stitching Container!
+New Container: Stitching Container
+Stitching container:
+Modifier:
+Modification time:
+Executor:
+Execution time:
+C
+Source Structure
+Source Element
+Target Structure
+Target Element
+Add Stitching Template
+Stored stitches
+Manual Stitch
+Adjust Parameters of Stitching Rule to Apply to Container
+Error generating stitches preview for container {0}
+Error getting text attributes for source/target of the container {0}
+Error getting stitching containers list
+The number of items shown in combo is configured by preferences "Query limit" setting, which is currently equal to {0}
+Item no longer exists
+in
+navigate to
+Move Up
+Move Down
+Move to Bottom
+/img/svg/BusAppl.svg
+66px
+<div><label sclass="asg-title-label">{3} of {1}: </label><label sclass="asg-itemname-label">{2}</label></div>
+<div><label sclass="asg-title-label">{3}</label></div>
+#ADCAB8
+#ADCAB8
+#ADCAB8
+#DDE5ED
+#ECF2F8
+#6FA287
+#DDE5ED
+#577288
+#ADCAB8
+#FFFFFF
+#DDE5ED
+#ADCAB8
+#28334A
+#E50000
+125px
+50px
+#3CA7B1
+#fff
+ASG-Enterprise Data Intelligence™
+url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABdCAYAAABTl8MxAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA+tpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQ4IDc5LjE2NDAzNiwgMjAxOS8wOC8xMy0wMTowNjo1NyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ1dWlkOjY1RTYzOTA2ODZDRjExREJBNkUyRDg4N0NFQUNCNDA3IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjc0RTEzNDhDQTYzNzExRUE5NzVDQUNCMERCM0U1RUE4IiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjc0RTEzNDhCQTYzNzExRUE5NzVDQUNCMERCM0U1RUE4IiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIElsbHVzdHJhdG9yIENDIDIwMTcgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6OTJGRjI4ODZDODlFMTFFODk0Q0I5NDE2Qzg5QTZEMEIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6OTJGRjI4ODdDODlFMTFFODk0Q0I5NDE2Qzg5QTZEMEIiLz4gPGRjOnRpdGxlPiA8cmRmOkFsdD4gPHJkZjpsaSB4bWw6bGFuZz0ieC1kZWZhdWx0Ij5XZWI8L3JkZjpsaT4gPC9yZGY6QWx0PiA8L2RjOnRpdGxlPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PiFBiogAAA6fSURBVHja7F0JtBTFFa0PH8EPUVAM4gaSYDTu/hBDooagMSBkXCI6rgfciNFo4q5RRE0EIbiLGIwhInEQcRlFXFCJGOPCFxBFhOACiKwiiCibeO/0bWma6e6Z+T0Lod45r3umu6q6um7Ve69eLV1lslD72q4/wakX+EfgavBSYykOagFeC54I/sfMurGv+gNU+YDYCae/gVeD7wS/hEhrbTnGRyhjVvDDwOeDtwKfgzKetwkgCLgvTveDL0aAF2zRlQSczjgNAp+OMp/6LSBqGWPAPXDjf7aoSgrK93EaBe7GltJA14eoZVgwSkwq84uFgWkAhA7GeZ0VU2UFhWW/jlg0kDV1hy2WshMx6EVAasETbHmUnYhBLQFphCazxpZH2cUWMWhEQD6zxVEx9FkDWwaVRRYQC4glC4gFxJIFxAJiyQKyBVB1UVJNpNrh2BG8D3h3cHNwE/AqMAdj3gI/Z9LJtwtMvyGOHcRtwdvrDnu7c8HTwS8j/Y/zTLcZjj8G0+G6G3g7cGPwCuWb+X0R6c6pfEASKY6pnA1OgvfMMc7rOF6LF3w6x/A7GsdVfTr4uzmEfwPHe8HD8YwvQ8JxqPoS8NGqOFHpvobjCPDnoeHSyWGlBySRYu3sAz4X3CjP2KyNY5EGM94bL7A65DkEgR7RbfJI321FVyH+BUg/7UuzKY63gc/MM98Hi6Mob0Aa1BOMbji+A76gADC81NNwxDKR2irgOZfh+M88wfBSG/DjSGcAuEppUoxOKACMClXqidTvcHwS3CqmvBwB7h8A+k0xPeMQw2HrRIrvPRp84P+TlTWrCPn5AwrrAJ/yvi2mtCkOz4LY+to4g3Kdi1y2k0sLSDr5jHEmRoQRlR7nHv0bPC2HVClOrvDV6O9FxHlWIrOHjIp7wIuyhOuHPLt5uCQiTeb5V7Letgb/ANxXVlwYzVfL+z34F+Wwsi4EH5pFto8D354BzKmRbo3n6OTDMlWD6JiM+ZlO0tTsGqk008levmv3Ij4LJCFDY9+MqWrMXzwm+Z4RLf9wpLvSc20G+DrE/VTvFUSXI9795TN708lZyGSnTGaN2Vn2/x24/mpA+DqEPwW//hOSKu3+n4GfiQDOSIdle84a1dTRWe7uFZHm331geGko+K/GmeCWjfYpfz8knZyk2phr+FcAyqwIUbS3AGkakdpRAYUeRlFpfhCS96+Q909ktWWjbTdX18m7Efdb6/xpRLgzUECPbWQIRNOKiPstQyxLlleLkLjLNldAosbx3T5NLq4V9q4nobCmgK8ARxkBUyPun/BtX2VTOjKiLzS1vgVTXdRid8zWNtIFrVT7aqRocyHqiAE5ht1P3A/PrTPOpPEREDNf+MTOHNynSRrUqmik3IIwV27kbkmk9pcbJoiot56uLEAcADizu7sU8wFS0oXqp3eR5kOZWpsf1cr8vQnxb8Z5YEb+byB2QFMR1mNP+dpWqkLtH/HMe/GMRZUhshKpVmCalfSuclrkRfL1NI4hdXoEPiowLt0j12esukRqFw/QI3MwBqigfymRGAXG++Ary91TNxlZm0hdpAxdFaMbxdtKlqi1TaxHKgdlrDbHmejS6eov1ZdmZzqR6eSy8gLiOAIfMc76hpqi6iJnXIOrus4DFzoW8cONvABOX6OLWtDqAtPk+3dAWrGtGqhPCxma6VXnRq4oGyYApxQAyjrwYPxqp+eONFHjEZvSmT4LqpGspqo80vhS+ucQ5Oc34IVx1r3qAlvHIWryYTQTfCuLEpme64s/LAe5HAQMl9g9bhx3emP5nE4G/zqHltpaCvoDjQ6OM9nHNQh2ndkw0sn+0GJdm6w8FIUKtbLOzsFc7eGzbIohylZlACcnUjsYZ11klEXWSr3xOwPAWJIB2OuDKyEVKrKiPJlXFB2MTcGhycnh43ciQq4BeG1CWrgzAppI7SEzvqRUaAvZOeL+/BBx11L9hHxEJAev9gC/Gei4dEBZj7Bz5AsLormqUGF641rxaqS3TC6R5TovkwjjpIdZGS8BPQrUcWUE5PMIRxpdDA9mKViKiOHg9nmAcQOOV3v+j83U4HRyYpaw1EudQlL7EPEWIFyuOoCW5A7iMFqsDuxNSH92OQD5MEIpD0UG95M1tVotqpuAqsoDjFr1b7zUNcOJ1CtSyp/IWqJX4CQTPmvkAZ1nxCxpWqoDS2dn7/qMiRQKyHMRgDQ1G4/8FWLJVcu0DtJzPxXnShQ1t0m0vYX0x0e0pkKoSca050BWOvlkKZX6feD6ysyonu1vTbyTEFhzF3v+n5TRSfETJcBdhRoEhQFCp58xNxaY4RUyTf8UEe7hmFwbawXGyCwtrLEpDu2WZ+utt8hyLRG+0GV5xJmQ6cOkk++hBm0rt8V2AaDPR5gjjTN5oU+E5RREbAHnIq3XPaKwoURhr4A4o9QBbCFurjPzydmSu+b47H1NAaubCweEJiYH9RMp1uSL1FPONjzKztvz4MGIM8YTfxniUmxck+UlP/U846EMJ1Id1bII0l4hxsEC4wz/Ds8810nDS9eHgMHpoadliePVbQToOOPMFWsZoU/yl3fta7uOn1k3tv7Kzal5+6gnXCMdwz7B9Ng7iYnUNjKdW6tScRDqs4zPLJ2cFxKP+VoU4mJpn7OjMJE6xzhjLkF0DtIams9rEYv4BqicjtEUUwpKJ5dLrORL+0X4u1bmkVaU/plUSitrc6WoQrxO5nZU66DX4NKQEO8XWGGKPKZeeRTVITwro6MSKTosOWFhobwSNdKPnEBBTzdHEsPM2n6hesgC8q2o+wSF/aIJd47SZD2/Hk95Qf20gmhLXNJGi/DLIqX9dsYSrIfrfssDJJ3kFKBjTf6jjVH0hHFGEZfUJ5Etc9GnM3OfvrjHY0iNM2JONZydEsNEh2qzpVI6yVFDzrTn5Ad2UI83ua6NdMzjcep8PhbnkO6WC8gGYKbJW3ANwGmtlsOJFBxz/454lTqe7HRyRPKt0PWQFpAYrTBnfKVsZDcOqDCygFQW1VhAKosaW0AqhNrXduXC0tkWkMoh9mVGWSurMlpHa+PMV661LaT8YHDuF7cN+ePMurGrLSDlBYOdTw5RpwHGONsxLB8QbAgnGs5JMKYfwBjp7anviAA9bTEVnTi7kvMNOBeAW0ZxgWgXgLHRPGgC0t+WVUmIq3Q5n40zGqcCiHW2SCxZsmTJkiVLlixZslQJVFXMxOUi4EzA2egIlWTdN57JNRxf4XnLNwcAkF9ussk8z2VnsVoXucq0KS58GPPzuGyA02244KVUHx/jPlnjjbOLRJwFx4VJ3C+yI8ppZUxp0uXObc65HqYp/j/penu5nq+nFRihxOmnXI73dUxgsJK2lZRyPyJwrOvt5c3ltsyDCa2C+87H+UVUOhk5J4wTvw83zqrlHauB1M5CaiF+H6CHT/YgybV9CYmf/4KfwP31PrS5Wpbr0Dlln18OSPt0BldqcZe5jhJd/8L9jz3xuRyOz+RgzXGqIM8jzPNZahb3zjpCYbmrw5go/YQ4zNeJKgSKh0f9H2JGGC5B4wxGLpdj3h5VJV2DsF/gPmc4HojfI3zxuDSB2wLSWfgU7r/hu99BZUNpNN7zzeH3jLPvPCfhDVbZNGEgjlZxW74ukru3ehLjjtEvqKC5pJgrZ1O47v0OO3dS4+BKc70Ad40e5iuTx4yzsJ5Lz7g6dbI+Ge4SM8b9DLlLAxeDsuU+gjC9fS/HDWO4Q0QjiRCuBH4G1xuHgLG7auLxAoNGRh2un+wDgxsRnCDRsad0H+NdrmD8ksOlXoMFzLzcovfidNLRKjM3zKl6p4Yq+Ntx7QxV+mUChZWbaxW5COiRatw4AoFYYJPxu68nMQbgtn0dcH26rrHJcqkWd1N4Si2qj2rOdEXtp5EwLz2sJu+m/bJAuMEThlM2D0K4FQrD9Jife/S/u2r53gizUNcGqEWyEAYGYMLa9zTi9PY8nxuPjcH5OVznmsOjVQmOcls/7n2t1tEnIF1uXnOQ3n2l4rD1TMKZEoAVmHs3Xui2Kly/0WvZ4jrzwK3S+V2UFFt62BAuRQe/hNOEBa/CZ7OtMxsWvJwokTHdJ2/9e+MO9/0nIP7tXJ/1xWOYXTXmTOLy6BEuGHoO59ferXxkax0Us9xPa5Avf1y0w/28jtIlLnme5xPFH5jwj8bwmSzMPTzl01zizl2jzrwer0kMfO56v3jlN3DBc9zrYUO4Owm5vlnuubKdumd6AQotl1W57mTmGv1uI53hpxkmeKdpiqcqvOyMgHi76zdFbn8U3OHUWxJzXN7255D8tRaQ/iXd1E3u/GC2SorZj5Am16wPQfqjwl66OsLMoxIK++DJSlPs/RY3BqhZlutbhwC8ytUReA9/mBr3Pu7NRBhWshE4Uz9Rvt+F6w9EvPvdCDM8xDKjPjpGnVW2qLvxezdcHxQUJ0xk0aLqjATCQKM++XmJAJko48NPh5ngFa9cDbvUn0cZAVTSb+g/lXgn8C4orO3B7cIKTfSaif56gwvMQulQSpvQ75a4gCyVeGLmOsvlMUbWwx34X+O6JcADZXqSRkjO9wU3VJhDwYOKAMgQFizSPlv547No/nKn0psDCmKdrKBbELadx1Vxl3E2NXBN0PlqLTNwn8bKgzQYKMJC8sMC7o4wZ3nyszf4PvD2ssKuBrf1VIKuJuJDLy4gbJqnINICvVwLfXC9i/TEItybJ7nbTC2DL7xUYWilLEYYWixDpezi7pjNloI+T89iIXK1ay/ceykkKi1Fyu03EWe2FC0rXzePgmX/4yPpjcGqjGtkevcIyM/76l/QklqCcEyXS+WmyLxeL6aJPU3Knmn2y8m5qM7TdtT4WayVZuoYsumtDbBoWkqBLiq27GINVF9kgb+TGhKnWkAsZUfPd48V7Uxcn+C7PlROv+si0ua7N0S4BVnuMZ/sfC/H/aivPRTX27u5EApttGozp3POkXjpIWnRCdemlSovdirpBk/BQomXL6RTT5NYm1bKjHwjwAD648c4oB/3BQAAAABJRU5ErkJggg==')
+#28334A
+#57728B
+#28334A
+#004EA8
+#6FA287
+#ADCAB8
+#35906c
+#59C4C6
+#F1972B
+#6861c4
+#F9C20A
+#D24491
+#C6CED5
+#DDE5ED
+#F2F2F2
+#28334A
+#28334A
+#57728B
+#28334A
+#57728B
+#6FA287
+#FFFFFF
+#57728B
+#DDE5ED
+#DDE5ED
+#28334A
+#6FA287
+#FFFFFF
+Year at College
+{0} {1} {2}
+$Title.template.references
+$Title.template.usages
+$Title.template.context
+$Title.template.both
+$Title.template.adv
+$Title.template.path
+$Title.template.mpath
+$Title.template.canned
+{0} {1} {2}
+Systems
+Tasks
+Incomplete
+OA17-itemVer.gif | Language: Spanish - Updated: 2021/09/10 09:41:21
+OA19-compItemVer.gif | Language: Spanish - Updated: 2021/09/10 09:41:21
+Item Environment References & Usages
+Item Versions | Language: Spanish - Updated: 2021/09/10 09:41:21
+Item Versions | Language: Spanish - Updated: 2021/09/10 09:41:21
+Compare Item Versions... | Language: Spanish - Updated: 2021/09/10 09:41:21
+Compare Item Versions... | Language: Spanish - Updated: 2021/09/10 09:41:21
+Reset Traces
+Reset All Traces
+Reset Expand/Collapse
+Reset Expand/Collapse
+DWH Diagram with Personal Information
+-Summary
+-Tab
+- Lvl
+Export Tags
+Delete routes
+Open route
+Rename route
+Regenerate
+Regenerate route(s)
+You have selected {0} items, due to the query limit this query can be processed with a maximum of {1} start items only.
+You have selected {0} items, however for the current web browser, this query can be processed with a maximum of {1} start items only.
+Add a Metanote
+#FDFECF
+#FFE7C6
+#C6E7DE
+grey
+Data Source Parameter
+Create a SDCAC Data Source for Report
+Attributes for columns (id,scopeId,type,name are always added automatically)
+Name filter
+Technical type''s name
+Data source name
+Alphanumeric
+Test Query
+Test Query (Alt-T, <enter>)
+Close (<esc>)
+Result is empty.
+Result has {0} rows.
+Data Source already exist. Please use another Data Source Name.
+Saving Data Source ''{0}'' failed.
+Invalid attribute ''{0}''.\nPlease use valid attributes of the Rochade information model.
+Invalid type ''{0}''.\nPlease use valid type of the Rochade information model.
+Related Reports
+Delete Data Source
+Are you sure you want to delete this Data Source?
+Deleting resource ''{0}'' failed.
+The amount of Data Source''s attributes is bigger than the amount Report''s columns
+Inventory reports
+All Custom Reports
+All Custom Reports
+Manage Custom Reports
+Manage Custom Reports
+Manage Data Sources
+Manage Data Sources
+PMDB
+No parameters
+Generate Report
+Generating the report may take a few minutes to complete.
+Interrupt current step and continue with next step. Report will show incomplete result.
+Interrupt complete report
+Interrupt
+Step {0} of {1}: {2}
+Report is not displayed because report was interrupted.
+Retrieve report settings
+Retrieve report seed items
+Execute query
+Transform query result
+Adjust result
+Finalize report generation
+Execute forward query
+Execute backward query
+Transform forward query result
+Transform backward query result
+Retrieve templates and assign data
+Render report output
+Show report
+Edit Report Parameter
+Test Query
+Design Report
+Design Report
+Data source name
+Alphanumeric
+Menu entry
+lbl=<Menu Entry>\nlbl[de]=<Menu Entry in German>
+Label mapping
+<varKey>=<Value>\n<varKey>[de]=<Value in German>
+Visibility
+Test Query (Alt-T, <enter>)
+Close (<esc>)
+Please re-login. If failure still happens, please contact your administrator.
+Please save the Custom Report''s Definition first.
+Key cannot be empty.
+Value cannot be empty.
+This field contains invalid key(s).
+Visible to All
+Delete Report
+Are you sure you want to delete this report?
+Show
+ASG-Enterprise Data Intelligence™ 9.92
+Copyright © 1983-$year ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc.\nAll rights reserved. This program is protected by U.S. and international copyright laws.
+Build Date
+ASG-Enterprise Data Intelligence™ WEB Platform
+ASG-Rochade® Java API Library
+ASG-Rochade® Visualization Library Core
+ASG-Rochade® Visualization Library SRAP Adapter
+ASG-Rochade® Visualization Library Utilities
+ASG-Rochade® Visualization Library ZK Adapter
+ASG-Rochade® Server
+ASG-Enterprise Data Intelligence™ Access Controller
+ASG-Rochade® CAE Federation
+ASG-Rochade® Generic Federation
+ASG-Rochade® UMA Federation
+ASG-Rochade® Index Search API
+ASG-Rochade® Data Import/Export for Excel
+Javascript Rhino Library
+ZK Framework Library
+ZK XUL Components
+ZK XHTML Components
+ZK Plus Utilities
+ZK Versatile Plugins
+ZK Extensions Library
+ZK EL Library
+ZK Bind Library
+ZK XML Component Set
+ZK Web Library
+ZK Common Library
+Apache Commons-codec Library
+Apache Commons-io Library
+Apache Commons-fileupload Library
+Apache Commons-collections Library
+Apache Commons-discovery Library
+Apache Commons-lang Library
+Apache Commons-logging Library
+Apache Commons-dbcp Library
+Apache Commons-pool Library
+JavaBeans Activation Framework
+ALF Admin
+ALF Core
+Apache Avalon Library
+Apache Axis Library
+Apache Batik Library
+Google Gson Library
+H2 Database Engine
+Camunda BPM
+CK Editor
+Exp 4j
+JH Labs Filters
+Apache FOP Library
+Apache Groovy Language
+Apache mybatis Library
+Java Assist Library
+Jackson Libraries
+Java API for XML-based RPC
+Dom4J
+Lowagie Text Library
+Jersey Libraries
+Oracle HK2 Library
+Oracle OSGI Resource Locater Library
+JFree Freechart Library
+JFree Common Library
+Joda Time Library
+JDom
+Apache Log4j Library
+Apache Lucene Library
+Apache Serializer Library
+Spring Framework
+Stimulsoft Reports
+ZK Timeline Library
+Apache Xalan Library
+Apache XML Graphics Library
+Apache XML Beans Library
+D3 Data-Driven Documents JS Library
+Graphviz
+Download About
+About.txt
+Available queries:
+Item
+Workflow Engine
+Deployment Details
+Online Help
+Online Help
+Number of items in this view is limited to {0}. Result is incomplete.
+Multi color
+Mono color
+Refreshing...
+JapiLow calls
+JapiLow total time (ms)
+JapiLow avg time (ms)
+JapiHigh calls
+JapiHigh total time (ms)
+JapiHigh avg time (ms)
+Labels and Layouts
+Show dimension labels in x-axis
+Show dimension labels in y-axis
+Show value labels in chart
+Show labels at zoom factor
+Set minimum zoom factor at which the labels have to appear
+Hide dimension values in chart
+px
+min
+°
+This section is specific for inventory chart. For each item type an optional plugin query can be configured, which is executed on mouse click in the chart.
+Plugin Query Name
+{0}
+Inventory of {0} Items within Root {1} [{2}]
+Inventory Grouped by Root Item (deprecated)
+Query result is truncated.
+There are more than {0} root items.
+In at least 1 root item there are more than {0} items.
+Chart result is incomplete.
+Exception while reading control item ChartByRootConfiguration
+Control item ChartByRootConfiguration not found or empty
+[Root]
+Cannot retrieve stitches details
+(manual)
+No Chart Provider defined or found for portlet: {0}
+Do you want to restore the default values for this chart?
+Workflow Engine
+ZUL File
+Plugin Query Id
+metaApp
+[startup]
+Workspace {0} {1}
+Metamodel
+Plugin.xml
+TableShape.xml
+TableShape.properties
+No process engine available.
+Jobs
+Incidents
+Tasks
+Variables of Process Instance
+Variables of Task
+Instances
+Paused Jobs
+Incidents
+Version
+Jobs
+Activity Id
+Retries
+Exception Message
+Time Stamp
+Definition Key
+Number of Process Definitions:
+Number of Process Instances:
+Number of Paused Jobs:
+Web Services URL:
+JDBC URL:
+Job Executor configured:
+Workflow Engine:
+Restart Process Engine
+Do you really want to restart the Process Engine?
+The Process Engine has been restarted.
+Retry all Paused Jobs
+Do you really want to retry all paused jobs?
+Retried {0} jobs.
+Update all Instances
+Do you really want to update the Web Services URL of all process instances?
+{0} variables with name {1} updated to value {2}.
+Deployment Details
+Java Version
+Java Vendor
+Java VM Version
+Java VM Vendor
+Java Tempdir
+ZKoss Context Root URL
+{0} KBytes
+Download Details
+DeploymentDetails.txt
+Start type:
+[ROOT]
+ItemActions.zul
+{0} Information Is Incomplete
+This item cannot be edited. The item is in process by another user or by a workflow process, or the status could not be determined. (Process engine initialized?)
+Error removing stalled set from production version.
+Error while retrieving related business items
+Not all related business items can be submitted
+is in process by another user
+is locked
+is locked in this session
+You have no permission to submit
+is already in approval process
+has no content
+has not all mandatory attributes filled
+is current item
+Select related business items to submit
+The length exceeds the configured limit of {0} characters.
+The length of the {0} attribute exceeds the configured limit of {1} characters.\nThis needs to be corrected for a successful completion of the save process.
+{0} {1}
+- Object has no content.
+Jump to attribute
+- (Default)
+Displays the warnings that have been issued for the current business item.
+Displays the warnings that have been issued for the current data concept.
+The number of items to export exceeds the defined threshold of {0}.
+Please select the option to continue:
+Cancel export and revise selection
+Export only the first {0} items
+Export all {0} selected items
+Export all {0} items
+Export as:
+PDF (.pdf)
+HTML (.html)
+Excel (.xlsx)
+You have no favorites configured
+User Favorites Entries
+Toggle Legend
+Save Route
+Save the selected route.
+Enter the label for the route:
+Error during saving route {0}.
+There is already a route with this name owned by {0}.\nPlease use a different name.
+There is already a route with this name, connecting {0} {1} and {2} {3}.\nDo you want to overwrite it?
+Do you really want to delete the selected routes?
+You have no permission to delete your own routes.
+You have no permission to delete routes of other users.
+Error during deletion of selected routes.
+You have no permission to rename your own routes.
+You have no permission to rename routes of other users.
+Filter by Routes
+Select the Route Filters to apply.
+Multiple Lineage Routes have been found for the Lineage Diagram. You can apply none, one or multiple:
+/com.rochade.wa.ui.landingpage/img/close_button.jpg
+The portlet "{0}" is not shown, because the model does not contain required item types or attributes.
+Audit Reporting is not enabled or has not been run.
+Your Dashboard can house multiple portlets, each serving a specific purpose.\nYou can list your favorites, add a quick search function for business terms, and display a multitude of configurable live views of your data stock.\n\nClick Configure to add the first portlet to your Dashboard.
+Note: The following checkboxes control the visibility of the charts.\nClicking on the X icon will delete the chart permanently.
+OR\n ||
+NOT\n -
+*
+?
+\
+"term"
+[INFO]
+[WARN]
+[ERROR]
+Logger.txt
+The user account is locked.\nPlease contact your administrator.
+Limit of concurrent sessions is exceeded.
+Limit of concurrent application usages is exceeded.
+Trusted Connection is rejected.
+Signing error when using Trusted Connection.
+Ldap is currently not accessible.
+Columns marked with * cannot be excluded from view
+Available queries:
+Pathway
+Diagrams
+aliceblue
+antiquewhite
+aquamarine
+azure
+beige
+bisque
+black
+blanchedalmond
+blue
+blueviolet
+brown
+burlywood
+cadetblue
+chartreuse
+coral
+cornflowerblue
+cornsilk
+crimson
+cyan
+darkgoldenrod
+darkgreen
+darkkhaki
+darkolivegreen
+darkorange
+darkorchid
+darksalmon
+darkseagreen
+darkslateblue
+darkslategray
+darkturquoise
+darkviolet
+deeppink
+deepskyblue
+dodgerblue
+firebrick
+floralwhite
+forestgreen
+gainsboro
+ghostwhite
+gold
+goldenrod
+gray
+greenyellow
+honeydew
+hotpink
+indianred
+indigo
+ivory
+khaki
+lavender
+lavenderblush
+lawngreen
+lemonchiffon
+lightblue
+lightcoral
+lightcyan
+lightgoldenrod
+lightgoldenrodyellow
+lightgray
+lightpink
+lightsalmon
+lightseagreen
+lightskyblue
+lightslateblue
+lightslategrey
+lightsteelblue
+lightyellow
+limegreen
+linen
+magenta
+maroon
+mediumorchid
+mediumpurple
+mediumseagreen
+mediumslateblue
+mediumspringgreen
+mediumturquoise
+mediumvioletred
+midnightblue
+mintcream
+mistyrose
+moccasin
+navajowhite
+oldlace
+olivedrab
+orange
+orangered
+orchid
+palegoldenrod
+palegreen
+paleturquoise
+palevioletred
+papayawhip
+peachpuff
+pink
+plum
+powderblue
+purple
+rosybrown
+royalblue
+salmon
+sandybrown
+seagreen
+seashell
+sienna
+skyblue
+slateblue
+slategray
+snow
+springgreen
+steelblue
+tan
+thistle
+tomato
+turquoise
+violet
+violetred
+wheat
+white
+yellow
+box
+diamond
+doublecircle
+doubleoctagon
+egg
+ellipse
+invhouse
+invtrapezium
+invtriangle
+octagon
+parallelogram
+pentagon
+point
+polygon
+septagon
+tripleoctagon
+dotted
+solid
+bold
+Arial
+Times New Roman
+Courier New
+Arial Unicode MS
+Image Size
+Lineage Settings
+Limit for displayed detail nodes:
+Maximum number of displayed detail nodes as upper limit for the detail slider.
+Limit for grouping child nodes:
+Define the limit for grouping of child nodes.
+Sort nodes alphabetically
+Sort nodes alphabetically.
+Sort case-insensitive
+Ignore case for sorting.
+Separate shapes by Business Applications
+Use separate shapes for objects belonging to different Business Applications.
+Expand traces
+Expand traced paths.
+Show Lookups:
+Define the default display option for Lookups.
+Disabled
+In Background
+In Foreground
+Map Details
+Map Details
+Map Details
+Show Transformations:
+Define the visible Transformations.
+Disabled
+All Transformations
+Tfm with Instructions only
+Stitching Details
+Stitching Details
+Lineage Routes
+Lineage Route Filter:
+Define how available routes will apply to lineage diagrams.
+Always apply all Routes
+Never apply Routes
+Show Route Selection
+Display available routes in lineage diagrams
+Specify whether the available routes should initially be displayed in lineage diagrams.
+Online Help
+Open online help in viewer tab
+Open online help embedded in a DI Browser viewer tab? Otherwise it opens as a new Internet browser window or tab, depending on your settings.
+Online help URL
+PDF
+Maximum word length:
+Item threshold:
+Threshold of items to be exported.
+The threshold of items to be exported must be between {0} and {1}.
+Click on the formatting labels to format:
+User Interface Language
+Note: It will be effective at next login.
+Note: It will be effective for new windows.
+Pathways
+Auto-hide the toolbars
+Item Views
+Layout Settings
+REST Point
+Exit Without Saving  (<Esc>)
+Restore all Settings to Their Defaults
+10
+EEE MM/dd/yyyy hh:mm:ss a zzz
+EEE MMM dd yyyy hh:mm:ss a zzz
+MM/dd/yyyy hh:mm:ss a
+MM/dd/yyyy HH:mm:ss
+EEE dd.MM.yyyy HH:mm:ss zzz
+EEE dd MMM yyyy HH:mm:ss zzz
+dd.MM.yyyy HH:mm:ss
+yyyy.MM.dd HH:mm:ss
+yyyy/MM/dd HH:mm:ss
+yyyy-MM-dd HH:mm:ss
+EEE MM/dd/yyyy
+EEE MMM dd yyyy
+MM/dd/yyyy
+MM/dd/yyyy
+EEE dd.MM.yyyy
+EEE dd MMM yyyy
+dd.MM.yyyy
+yyyy.MM.dd
+yyyy/MM/dd
+yyyy-MM-dd
+(0 or disabled: no limit active)
+Hops - Low:
+Hops - Medium:
+Hops - High:
+Font:
+Font size:
+The font size must be between {0} and {1}.
+Max Custom Report's menu entries:
+The max menu entries must be between {0} and {1}.
+REST Endpoints
+Multi-Language Settings
+Pathways
+Pathway Settings
+metaEIM
+pixel
+There are no selected columns. Select the columns to be displayed.
+Manage Routes
+Import (UTF-8 encoded)
+Import tags from UTF-8 encoded text file
+Addition
+Removal
+Tag was not assigned
+None of the tags was assigned
+Processable Items
+Ignored Items
+Export Tags
+The selected tags no longer exist
+Tags could not be exported
+Import Tags
+Tags could not be imported
+Import file is not a text file
+Import file is empty
+Tags have been imported
+Ignored error creating filter {0}.
++
+Expand Children
+*
+Expand Details
+-
+Collapse
+Map Level
+Packages/Tasks
+Subsystems/Schemas
+Systems
+Technical - Element
+Technical - Structure
+Technical - Schema
+Technical - Package/System
+Business Lineage
+Application Lineage
+Highlight / Trace / Reset
+Highlight / Trace / Reset
+Trace Path
+Trace Path
+Lineage Route
+Lineage Route
+Trace
+Trace
+Trace Lineage Route
+No route could be determined between the selected nodes.
+The calculated route is incomplete. Not all selected nodes could be added.
+Add Waypoint
+Add Waypoint
+Add Waypoint
+Not all selected nodes could be added to the route.
+Remove Waypoint
+Remove Waypoint
+Expand
+Expand Children/Details
+Collapse
+Collapse
+Reset Expand/Collapse
+Reset Expand/Collapse
+ETL-System Depth:
+(length, scale)
+A node that corresponds to an ETL transformation scoped by a procedure, trigger or function. The node also includes Information about the superordinate schema, database, and DB system.
+A node that corresponds to an ETL transformation scoped by a view. The node also includes Information about the superordinate schema, database, and DB system.
+A node that corresponds to a table scoped by a procedure, trigger or function. The node also includes Information about the superordinate schema, database, and DB system.
+A node that corresponds to a table in the scope of an OOP item class or method. The node also includes Information about the superordinate OOP package.
+A node that corresponds to a table in the scope o an ETL task or transformation. The node also includes information about the superordinate task and system.
+If the item in the technical diagram is a business item, e.g., Critical Data Element, the item''s name itself is taken as business name.
+If the item is a technical item, e.g., Column or Field, the business name is taken from the linked business term following these rules:\n1. Take the business term that links to the technical item directly.\n2. Otherwise, take the business term that links to the nearest level in the item''s name space parentage.
+If more than one term is found on the same level, the alphabetically first term is displayed, and the diagram node shows "[...]" after the business name.\nIf no business term is found, the text "[Unknown Business Name]" is displayed.
+If the item is a transformation related item, e.g., Transformation Map, the business name is taken from the linked business term following these rules:\n1. Take the business term that links to the transformation related item directly.\n2. Otherwise, take the business term that links to the nearest level in the item''s name space parentage.
+If more than one term is found on the same level, the alphabetically first term is displayed, and the diagram node shows "[...]" after the business name.\nIf no business term is found, the text "Transformation" is displayed.
+If the item is a report field, the business name is taken from the report/report structure that represents the field following these rules:\n1. Take the report that is parent of the field.\n2. Take the report that uses the field.\n3. Otherwise take the report structure that contains the field.
+If more than one report is found on the same level, the alphabetically first report is displayed, and the diagram node shows "[...]" after the report name.\nIf no report/report structure is found, the text "[Unknown Report]" is displayed.
+If the item in the technical diagram is a business item, a technical item, or a transformation related item, the application name is determined following these rules:\n1. Take the application that links to the item directly.\n2. Else, take the application that links to the nearest level in the item''s name space parentage.\n3. Otherwise, take the application that links directly to the business term that has been determined for the item as business name.
+If the item is a report field, the application name is determined following these rules:\n1. Take the application that links to the report field directly.\n2. Else, take the application that links to the nearest level in the report field''s name space parentage.\n3. Otherwise, take the application that links directly or via its name space parents to the report that uses the report field.
+If more than one application is found on the same level, the alphabetically first application is displayed, and the diagram node shows "[...]" after the application name.\nIf no application is found, the text "[Unknown Application]" is displayed.
+The business name nodes are condensed to display the incoming terms (most left, one or more) and the outgoing terms (most right, one or more).
+Intermediate transformations are not displayed as long as they also belong to the same application as their source and target, or no application at all.
+If the same business term is used for different items within the same application, they are condensed into one node and "[...]" is displayed after the business name.
+Missing business names - displayed as "[Unknown Business Name]" or "[Unknown Report]" - are not condensed.
+These rules are fixed and cannot be adjusted.
+An edge that corresponds to a direct or indirect relationship between nodes.\n(with relationship attribute names)
+An edge that corresponds to a Lookup (transformation area) relationship.\n(with relationship attribute names)
+An edge that corresponds to a Prompt (reporting area) relationship.\n(with relationship attribute names)
+An edge that corresponds to a Transformation relationship between nodes without manipulation of the transferred information.\n(with relationship attribute names)
+An edge that corresponds to a Dimension relationship between nodes without manipulation of the transferred information.\n(with relationship attribute names)
+An edge that corresponds to a Report relationship between nodes without manipulation of the transferred information.\n(with relationship attribute names)
+An edge that corresponds to a Prompt (reporting area) relationship between nodes without manipulation of the transferred information.\n(with relationship attribute names)
+An edge that corresponds to a Transformation (Big Data area) relationship between nodes without manipulation of the transferred information.\n(with relationship attribute names)
+An edge that corresponds to a Transformation relationship between nodes with manipulation of the transferred information.\n(with relationship attribute names)
+An edge that corresponds to a Dimension relationship between nodes with manipulation of the transferred information.\n(with relationship attribute names)
+An edge that corresponds to a Report relationship between nodes with manipulation of the transferred information.\n(with relationship attribute names)
+An edge that corresponds to a Prompt (reporting area) relationship between nodes with manipulation of the transferred information.\n(with relationship attribute names)
+An edge that corresponds to a Transformation (Big Data area) relationship between nodes with manipulation of the transferred information.\n(with relationship attribute names)
+A stitch between nodes without manipulation of the transferred information.\n(with relationship attribute names)
+A stitch between nodes with manipulation of the transferred information.\n(with relationship attribute names)
+An edge that corresponds to a stitched relationship between nodes.\n(with relationship attribute names)
+Edges that include the names of the corresponding attributes for Lookup (transformation area) relationships.
+Edges that include the names of the corresponding attributes for Prompt (reporting area) relationships.
+A stitch between nodes without manipulation of the transferred information\n(with relationship attribute names).
+A stitch between nodes with manipulation of the transferred information\n(with relationship attribute names).
+A stitch that corresponds to relationship between nodes of the transferred information\n(with relationship attribute names).
+(Attribute Name)
+(Attribute Name)
+(Attr. Name)
+(Attribute Name)
+Special States
+Comparison mode: Item or edge is added to the lineage. It belongs to the newer lineage result only.
+Comparison mode: Item or edge is removed from the lineage. It belongs to the older lineage result only.
+Comparison mode: Item or edge belongs to both query results.
+Item or edge is highlighted.
+An edge with a waypoint belonging to the traced Lineage Route.
+An edge with a point belonging to the traced Lineage Route.
+An edge with a point belonging to the traced Lineage Route.
+Lineage Route(s): {0}
+Endpoint of route {0}
+Waypoint of route {0}
+Belongs to route {0}
+Endpoint of traced route
+Waypoint of traced route
+Belongs to traced route
+-
+The task has been modified by other user or workflow.
+Error appending script for field {0}: missing parameter component.
+Exclude Author from Approval:
+Notification settings:
+Workflow Step
+Stakeholder Notifications
+Reminders
+Author of Business Item
+Stakeholders in Context
+Facilitators in Context
+Number of Approvers
+The approval process ends in these cases (whatever occurs first):<ul><li>The outcome of the approval is known (based on the votes that already have been submitted)</li><li>The timeout for default action has been reached</li></ul>
+Total number of approvers: {0}
+Detect Technical Data Command:
+Cascade PI Command:
+Execute EPL:
+EPL Command:
+Wait for external EPL run:
+Execute Stitching:
+Stitching Command:
+Execute Data Lineage Comparison:
+Data Lineage Comparison Command:
+Take Snapshot:
+Default Snapshot Name Template:
+Default Snapshot Description:
+Delegate to user:
+Delegate to group:
+External PI analyzer web services:
+Optionally select configured external web services to call as the last step before completing this approval workflow, that is, at the time when the business item has just been set in production.
+Optional service URL:
+Optional service parameters:
+Optionally enter an URL to call an external service as the last step before completing this approval workflow, that is, at the time when the business item has just been set in production.
+Ignore errors:
+Parameters are not initialized.
+Parameters are set.
+Set Optional Service Parameters
+Update Optional Service Parameters
+for Approval (PI)
+for Approval (PIA)
+GDPR Workflow
+Authorization token
+Please specify the authorization token:
+Service Parameters
+Method:
+Headers (one per line):
+Content type:
+Content for POST requests:
+Calling External Web Service
+Web Service
+Call Attempt
+EditorTabManager is not initialized.
+rwfProcessConfig is null
+ERROR: {0}
+: *
+:
+The value {0} is not a valid integer value
+The value {0} is not a valid real number (double float)
+<span style="color:blue"> | </span>
+View filter
+Not initialized
+Contains advanced filter
+The specified account file resource [{0}] does not exist or cannot be opened. Check the accountUtility.accountFile parameter in the startup.properties.
+Logger: Debug Information
+Logger: Information
+Logger: Warning
+Logger: Error
+Information: The drill-down filter contains a limited list of {0} objects. You may define a more specific name pattern for: {1}
+(Unfiltered Size: {0})
+Error parsing WAExecutorService.awaitTimeout={0}, using default of {1} seconds.
+Failed looking up DefaultManagedExecutorService from InitialContext (JavaEE feature): {0} - Creating own executor service.
+Shutting down executor service.
+Killing running and skipping waiting tasks.
+Failed looking up DefaultManagedThreadFactory from InitialContext (JavaEE feature): {0} - Creating own thread factory.
+Shutting down thread factory.
+Thread statistics: {0}
+Attempting to interrupt thread {0} (state={1}, isDaemon={2}).
+Error interrupting thread {0} (state={1}).
+Attempting to stop thread {0} (state={1}, isDaemon={2}).
+Error stopping thread {0} (state={1}).
+Graphviz configured per RPC
+Error executing MPath query {0} with seed item {1}.
+Error parsing integer value {0} for setting {1}. The default value {2} is used instead.
+Error parsing long value {0} for setting {1}. The default value {2} is used instead.
+Error parsing value {0} for setting {1}. The setting is ignored.
+Error loading Display Names.
+Error applying Color Schema Filter {0}.
+Something wrong with the workflow-related configuration, please check the host and port settings in the wf.properties file.\nPlease check the logs for more details.
+Error refreshing item.
+Error generating access tokens for BgWebServices.
+Error validating access tokens for BgWebServices.
+The access token has expired. Please check time difference between Rochade and BgWebServices application servers (if different) or increase the validity period in BgWebServices:rwf.properties.
+Report of class {0} failed on creation/execution. Check class name, constructor(IVisWorkspace,Map), and following stack trace.
+No relevant data for the report available. Report is not displayed.
+Could not identify any relevant data for the report when searching within the current limit setting of {0} items. Report is not displayed.
+Could not identify any relevant data for the report until report was interrupted. Report is not displayed.
+The report was interrupted. Result is incomplete.
+Information: The drill-down filter contains a limited list of {0} objects. You may define a more specific name pattern for: {1}
+Report engine of class {0} failed on creation/execution. Check class name, constructor(IReport), and following stack trace.
+'{user.LDAP-properties.UserEmail}'
+'{user.LDAP-properties.UserDisplayName}'@company.com
+'{uid}'@company.com
+ASG-Rochade notification: {0}
+EEE MM/dd/yyyy hh:mm:ss a zzz
+EEE MM/dd/yyyy
+аҧсуа бызшәа (Abkhaz)
+Afaraf (Afar)
+Afrikaans (Afrikaans)
+Akan (Akan)
+gjuha shqipe (Albanian)
+አማርኛ (Amharic)
+العربية (Afro-Asiatic Arabic)
+aragonés (Aragonese)
+Հայերեն (Armenian)
+অসমীয়া (Assamese)
+авар мацӀ (Avaric)
+avesta (Avestan)
+Aymara (aymar aru)
+azərbaycan dili (Azerbaijani)
+bamanankan (Bambara)
+башҡорт теле (Bashkir)
+euskara (Basque)
+беларуская мова (Belarusian)
+বাংলা (Bengali)
+भोजपुरी (Bihari)
+Bislama (Bislama)
+bosanski jezik (Bosnian)
+brezhoneg (Breton)
+български език (Bulgarian)
+ဗမာစာ (Burmese)
+català (Catalan)
+Chamoru (Chamorro)
+нохчийн мотт (Chechen)
+chiCheŵa (Chichewa)
+中文, 汉语, 漢語 (Chinese)
+简体中文 (Simplified Chinese)
+чӑваш чӗлхи (Chuvash)
+Kernewek (Cornish)
+corsu (Corsican)
+ᓀᐦᐃᔭᐍᐏᐣ (Cree)
+hrvatski jezik (Croatian)
+čeština (Czech)
+dansk (Danish)
+ދިވެހި (Divehi)
+Nederlands (Dutch)
+རྫོང་ཁ  (Dzongkha)
+English
+Esperanto (Esperanto)
+eesti (Estonian)
+Eʋegbe (Ewe)
+føroyskt (Faroese)
+vosa Vakaviti (Fijian)
+suomi (Finnish)
+française (French)
+Fulfulde (Fula)
+galego (Galician)
+Luganda (Ganda)
+ქართული (Georgian)
+Deutsch (German)
+ελληνικά (Greek)
+Avañe''ẽ (Guaraní)
+ગુજરાતી (Gujarati)
+Kreyòl ayisyen (Haitian)
+هَوُسَ  (Hausa)
+עברית (Hebrew)
+Otjiherero (Herero)
+हिन्दी, हिंदी (Hindi)
+Hiri Motu (Hiri Motu)
+magyar (Hungarian)
+Íslenska (Icelandic)
+Ido (Ido)
+Asụsụ Igbo (Igbo)
+Bahasa Indonesia (Indonesian)
+Occidental (Interlingue)
+ᐃᓄᒃᑎᑐᑦ (Inuktitut)
+Iñupiaq (Inupiaq)
+old Indonesian (Indonesian)
+old Hebrew (Hebrew)
+old Yiddish (Yiddish)
+Gaeilge (Irish)
+italiano (Italian)
+日本語 (Japanese)
+basa Jawa (Javanese)
+kalaallisut (Kalaallisut)
+ಕನ್ನಡ (Kannada)
+Kanuri (Kanuri)
+कश्मीरी, كشميري‎ (Kashmiri)
+қазақ тілі (Kazakh)
+ខ្មែរ, ខេមរភាសា, ភាសាខ្មែរ (Khmer)
+Gĩkũyũ (Kikuyu)
+Ikinyarwanda (Kinyarwanda)
+Ikirundi (Kirundi)
+коми кыв (Komi)
+KiKongo (Kongo)
+한국어 (Korean)
+Kurdî (Kurdish)
+Kuanyama (Kwanyama)
+Кыргызча (Kyrgyz)
+ພາສາລາວ (Lao)
+latine (Latin)
+latviešu valoda (Latvian)
+Limburgs (Limburgish)
+Lingála (Lingala)
+lietuvių kalba (Lithuanian)
+Tshiluba (Luba-Katanga)
+Lëtzebuergesch (Luxembourgish)
+македонски јазик (Macedonian)
+fiteny malagasy (Malagasy)
+old Moldavian (Moldavian)
+bahasa Melayu (Malay)
+മലയാളം (Malayalam)
+Malti (Maltese)
+Gaelg (Manx)
+मराठी (Marathi)
+Kajin M̧ajeļ (Marshallese)
+монгол (Mongolian)
+te reo Māori (Māori)
+Ekakairũ Naoero (Nauru)
+Diné bizaad (Navajo)
+Owambo (Ndonga)
+नेपाली (Nepali)
+isiNdebele (North Ndebele)
+Davvisámegiella (Northern Sami)
+Norsk (Norwegian)
+Norsk bokmål (Norwegian Bokmål)
+Norsk nynorsk (Norwegian Nynorsk)
+ꆈꌠ꒿ (Nuosu)
+occitan (Occitan)
+Ojibwa (Ojibwe)
+cѩзыкъ словѣньскъ (Old Church Slavoni)
+ଓଡ଼ିଆ (Oriya)
+Afaan Oromoo (Oromo)
+ирон æвзаг (Ossetian)
+ਪੰਜਾਬੀ (Panjabi)
+پښتو (Pashto)
+فارسی (Persian)
+język polski (Polish)
+Português (Portuguese)
+Português Brasileiro (Portuguese Brazilian)
+पाऴि (Pāli)
+Runa Simi (Quechua)
+limba română (Romanian)
+rumantsch grischun (Romansh)
+русский язык (Russian)
+gagana fa''a Samoa (Samoan)
+yângâ tî sängö (Sango)
+संस्कृतम् (Sanskrit)
+sardu (Sardinian)
+Gàidhlig (Scottish Gaelic)
+српски језик (Serbian)
+chiShona (Shona)
+सिन्धी (Sindhi‎)
+සිංහල (Sinhala)
+slovenčina (Slovak)
+slovenski jezik (Slovene)
+Soomaaliga (Somali)
+isiNdebele (South Ndebele)
+Sesotho (Southern Sotho)
+Basa Sunda (Sundanese)
+Kiswahili (Swahili)
+SiSwati (Swati)
+Svenska (Swedish)
+Wikang Tagalog (Tagalog)
+Reo Tahiti (Tahitian)
+тоҷикӣ (Tajik)
+தமிழ் (Tamil)
+татар теле (Tatar)
+తెలుగు (Telugu)
+ไทย  (Thai)
+བོད་ཡིག (Tibetan Standard)
+ትግርኛ (Tigrinya)
+faka Tonga (Tonga)
+Xitsonga (Tsonga)
+Setswana (Tswana)
+Türkçe (Turkish)
+Türkmen (Turkmen)
+Twi (Twi)
+Uyƣurqə (Uighur)
+українська мова (Ukrainian)
+اردو (Urdu)
+O''zbek (Uzbek)
+Tshivenḓa (Venda)
+Tiếng Việt (Vietnamese)
+Volapük (Volapük)
+walon (Walloon)
+Cymraeg (Welsh)
+Frysk (Western Frisian)
+Wollof (Wolof)
+isiXhosa (Xhosa)
+ייִדיש (Yiddish)
+Yorùbá (Yoruba)
+Saɯ cueŋƅ (Zhuang)
+isiZulu (Zulu)
+English US (English US)
+English UK (English UK)

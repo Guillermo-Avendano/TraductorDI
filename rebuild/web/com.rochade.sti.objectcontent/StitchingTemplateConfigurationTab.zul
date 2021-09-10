@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="MG View" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<div use="com.rochade.wa.ui.view.BaseObjectView"
+	id="TemplateConfigurationObj">
+	<div use="com.rochade.sti.ui.view.propviews.ConfigurationTemplatePropertyView"
+		id="ConfigTemplateTab">
+		<window title="" border="none" id="StitchingTemplateConfigurationTab"
+			viewModel="@id('vm') @init('com.rochade.sti.ui.view.model.StitchingTemplatesViewModel')"
+			apply="org.zkoss.bind.BindComposer">
+			<div style="padding-top: 5px; padding-bottom: 5px; font-weight: bold;">${wtb:l('stitchingTemplate.Configuration.Tab')}</div>
+			<listbox model="@bind(vm.parameters)" disabled="@load(not vm.editMode)" name="asg-stitching-template-configuration-list"
+				itemRenderer="com.rochade.sti.ui.view.renderer.templates.TemplateParametersRenderer" />
+		</window>
+	</div>
+</div>

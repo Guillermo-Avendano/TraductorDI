@@ -1,0 +1,13 @@
+﻿# Rochade Business Package - Message file
+# This is an UTF-8 endcoded file!
+#
+#  Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+mg_SelectBAType.windowheader=Choose Business Application Type
+mg_SelectBAType.itemType=Business Application type
+mg_SelectBAType.button.ok=Aceptar
+mg_SelectBAType.button.cancel=Cancelar
+mg_SelectBAType.noType.msg=No business application types found to create item for
+mg_SelectBAType.itemNotCreated=Type for new application not selected (empty or null). New application is not created
+

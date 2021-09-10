@@ -1,0 +1,84 @@
+<?page title="Advanced Search" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="http://www.zkoss.org/dsp/web/core" prefix="c" ?>
+<?init class="org.zkoss.zkplus.databind.AnnotateDataBinderInit" arg0="win" ?>
+<!-- 
+	Filter Dialog for Advanced Task Search
+	@author YO, 20090508, created
+	@version 1.00.001
+-->
+<!-- Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. -->
+<zk>
+	<window id="win" border="normal" width="510px" maximizable="false" minimizable="false" closable="false" sclass="asg-advanced-search-issues"
+		 apply="com.rochade.im.comp.issue.FilterComposer">
+		 <caption image="${wtb:getImg('workflow.img.search')}" label="${wtb:l('im_AdvancedIssueFilter.windowheader')}"/>
+		<panel width="100%">
+			<panelchildren style="background:transparent">
+				<grid sclass="asg-grid" fixedLayout="true"
+					style="border:0px; padding:5px; background:transparent">
+					<columns style="border:1px">
+						<column valign="middle"
+							style="background:transparent" align="right" hflex="1" />
+						<column valign="middle"
+							style="background:transparent" hflex="2" />
+					</columns>
+					<rows>
+						<row>
+							<label
+								value="${wtb:l('im_AdvancedIssueFilter.startdate')}"
+								 onClick="startDate.setValue(null)" />
+							<div>
+								<datebox id="startDate" readonly="true"  width="105px" value="@{parameters.START_DATE}"/>
+							</div>
+						</row>
+						<row>
+							<label
+								value="${wtb:l('im_AdvancedIssueFilter.enddate')}"
+								 onClick="endDate.setValue(null)" />
+							<div>
+								<datebox id="endDate" readonly="true" width="105px" value="@{parameters.END_DATE}"/>
+								<button label="${wtb:l('im_AdvancedIssueFilter.button.cleardate')}" image="${wtb:getImg('workflow.img.cleardates')}" tooltiptext="${wtb:l('im_AdvancedIssueFilter.cleardate.tooltip')}" sclass="asg-button-standard-blue-10px" forward="onClick=onClearDates" style="margin-left:15px"/>
+							</div>
+						</row>
+						<row align="right">
+							<div/>
+						</row>
+						<row>
+							<label
+								value="${wtb:l('im_AdvancedIssueFilter.priority')}" />
+							<combobox width="300px" id="cmbPriority" readonly="true" popupWidth="100%" 
+								value="@{parameters.PRIORITY}">
+								<comboitem label="*" value="*"/>
+							</combobox>
+						</row>
+						<row>
+							<label value="${wtb:l('im_AdvancedIssueFilter.status')}" />
+							<combobox width="300px" id="cmbStatus" readonly="true" popupWidth="100%"
+								value="@{parameters.STATUS}">
+								<comboitem label="${wtb:l('issue.action.SUBMITTED')}" value="SUBMITTED"/>
+								<comboitem label="${wtb:l('issue.action.ACCEPTED')}" value="ACCEPTED"/>
+								<comboitem label="${wtb:l('issue.action.RESOLVED')}" value="RESOLVED"/>
+								<comboitem label="${wtb:l('issue.action.INVALIDATED')}" value="INVALIDATED"/>
+							</combobox>
+						</row>
+						<row spans="2" align="right"
+							style="background:transparent; padding:3px;">
+							<div align="right" style="margin:10px 17px 10px 10px">
+							<button id="btOK"
+								label="${wtb:l('im_AdvancedIssueFilter.button.search')}" image=""
+								style=" margin: 0px 10px 0px 0px;">
+								<attribute name="onClick">
+										Clients.showBusy(busyMsg.getValue());
+										Events.echoEvent("onOK", win, null);
+								</attribute>
+								</button>
+									<label id="busyMsg" visible="false" value="${wtb:l('im_AdvancedIssueFilter.msg.search.busy')}"/>
+								<button id="btCancel"
+									label="${wtb:l('im_AdvancedIssueFilter.button.cancel')}" image=""/>
+							</div>
+						</row>
+					</rows>
+				</grid>
+			 </panelchildren>
+		</panel>
+	</window>
+</zk>

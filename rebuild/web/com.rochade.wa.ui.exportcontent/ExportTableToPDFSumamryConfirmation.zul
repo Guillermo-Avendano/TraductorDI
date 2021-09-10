@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="Confirm Export Summaries to PDF" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<!-- 
+	ExportTableToPDFSumamryConfirmation.zul
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+<zk>
+	<window id="win" border="normal" width="600px" height="250px" sclass="asg-export-table" title="${wtb:l('WTB_FormatPDFSummary.lbl')}"
+	apply="com.rochade.wa.ui.exportcontent.ExportTableToPDFSummaryConfirmation">
+	  		<div>               
+  				<vlayout style="padding: 10px;">
+					<label id="lblThreshold" />
+					<label value="${wtb:l('Export2PdfConfirm.thresholdC')}" />
+					<radiogroup>
+						<vlayout>
+							<radio id="rCancel" />		
+							<radio id="rOkLimited" />
+							<radio id="rOkAll" />		
+						</vlayout>	
+					</radiogroup>	
+ 				</vlayout>  			 
+  			</div> 
+  			<div align="right" style="padding:5px"> 
+    	 		<separator height="10px" /> 	
+    	 		<button id="btnOk"  label="${wtb:l('Export2PdfConfirm.ok')}" style="margin: 5px 10px 0px 0px" />
+		 	</div>
+	</window>
+</zk>

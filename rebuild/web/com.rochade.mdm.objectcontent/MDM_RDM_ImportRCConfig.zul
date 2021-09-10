@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page id="start" title="WTB" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<?taglib uri="http://www.zkoss.org/dsp/web/core" prefix="c"?>
+<!--
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+-->
+<zk>
+	<zscript><![CDATA[
+		import com.rochade.ref.core.domain.ValidityUpdateStrategy;
+		ValidityUpdateStrategy sourceValidity = ValidityUpdateStrategy.USE_SOURCE_VALIDITY;
+		ValidityUpdateStrategy targetValidity = ValidityUpdateStrategy.USE_TARGET_VALIDITY;
+		ValidityUpdateStrategy mergeValidity = ValidityUpdateStrategy.MERGE_VALIDITY;
+	]]></zscript>
+	<div id="configDiv" apply="com.rochade.mdm.objectcontent.ImportRCConfigurationComposer" hflex="1" vflex="1" sclass="asg-listbox-nohover-noborder">
+		<hlayout style="vertical-align: middle;">
+			<groupbox closable="false" hflex="4">
+				<caption>
+					<label value="${wtb:l('SearchReferenceDataWizard.mergeOptions')}" style="color:gray; background:transparent" />
+				</caption>
+				<listbox id="mergeOptions" rows="11" hflex="1" forward="onSelect=configDiv.onSelectMergeOption" checkmark="true"
+						style="white-space:nowrap;"/>
+			</groupbox>
+
+			<groupbox closable="false" hflex="3" vflex="1">
+				<caption>
+					<label value="${wtb:l('SearchReferenceDataWizard.validityOptions')}" style="color:gray; background:transparent" />
+				</caption>
+				<radiogroup forward="onCheck=configDiv.onChangeValidityOptions">
+					<vlayout style="vertical-align: middle;">
+						<radio id="sourceValidityRadio" label="${wtb:l('SearchReferenceDataWizard.useSource')}"
+								value="${sourceValidity}" checked="true" disabled="true"/>
+						<radio id="targetValidityRadio" label="${wtb:l('SearchReferenceDataWizard.useTarget')}"
+								value="${targetValidity}" disabled="true"/>
+						<radio id="mergeValidityRadio" label="${wtb:l('SearchReferenceDataWizard.mergeValidity')}"
+								value="${mergeValidity}" disabled="true"/>
+					</vlayout>
+				</radiogroup>
+			</groupbox>
+
+			<groupbox closable="false" hflex="3">
+				<caption>
+					<label value="${wtb:l('SearchReferenceDataWizard.levelOptions')}" style="color:gray; background:transparent" />
+				</caption>
+				<listbox id="hierarchyLevel" rows="11" hflex="1" forward="onSelect=configDiv.onSelectHierarchyLevel" checkmark="true"
+						style="white-space:nowrap;"/>
+			</groupbox>
+		</hlayout>
+	</div>
+</zk>

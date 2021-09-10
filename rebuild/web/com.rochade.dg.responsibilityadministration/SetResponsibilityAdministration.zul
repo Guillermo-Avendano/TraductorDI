@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="MG User Administration View" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<!-- 
+	Responsibility Administration.zul
+	@author GC
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+<idspace width="100%" height="100%"
+	apply="com.rochade.dg.responsibilityadministration.SetResponsibilityAdministrationComposer"
+	style="padding: 0px; border: 0px solid green" sclass="asg-responsibility">
+	<div width="100%">
+		<hbox align="bottom">
+			<label id="lblHeader"
+				style="color:${wtb:l('asg-atlantic-second-color')}; font-size:20px; font-style:italic" />
+			<label id="lblName" width="100%"
+				style="color:${wtb:l('label-color')}; font-size:20px" />
+		</hbox>
+		<separator height="10px"
+			style="border-top:1px solid ${wtb:l('asg-atlantic-gray')}; margin-top: 5px;" />
+		<div id="grouplist" visible="true">
+			<tabbox id="tb" width="100%"  mold="accordion">  <!-- height="380px" -->
+  				<tabs>
+     				<tab id="step1" label="${wtb:l('dg.respon.tab1.title')}" />
+     				<tab id="step2" label="${wtb:l('dg.respon.tab2.title')}" />
+     				<tab id="step3" label="${wtb:l('dg.respon.tab3.title')}" />
+     				<tab id="step4" label="${wtb:l('dg.respon.tab4.title')}" />
+  				</tabs>
+  				<tabpanels>
+      			<tabpanel>
+      				<div>
+      					<radiogroup id="rdgrpRole"/>
+      					<columnlayout>
+	      					<columnchildren width="5%"/>
+      						<columnchildren width="45%">
+	      						<vbox id="radiobuttons1"/>
+      						</columnchildren>
+      						<columnchildren width="5%" />
+      						<columnchildren width="45%">
+		      				   <vbox id="radiobuttons2"/>
+   	   					</columnchildren>
+      					</columnlayout>
+      				</div> 
+        			</tabpanel>
+        			<tabpanel>
+						<groupbox style="margin: 5px 5px 10px 5px;">
+							<caption label="${wtb:l('dg.respon.onSearchItem.searchforitem')}" />
+							<grid style="margin: 5px 5px 10px 5px; border: 0px; background: transparent;">
+							    <columns>
+           						<column hflex="1"></column>
+            					<column hflex="3"></column>
+            					<column hflex="3"></column>
+        						</columns>
+        						<rows>
+        							<row style="border: 0px; background: transparent;">
+        								<label width="100%" 
+											value="${wtb:l('dg.respon.onSearchItem.selectType')}"
+											style="color:${wtb:l('asg-atlantic-first-color')}" />
+										<combobox width="100%" popupWidth="100%" 
+										focus="true" readonly="true" id="seltype" forward="onOK=onSearchItem" />	
+        							</row>
+        							<row  style="border: 0px; background: transparent;">
+        								<label width="100%" 
+											value="${wtb:l('dg.respon.onSearchItem.searchfor')}"
+											style="color:${wtb:l('asg-atlantic-first-color')}" />
+										<textbox  value="*" width="100%" 
+											id="searchItemNameFilter" forward="onOK=onSearchItem" />
+										<button id="searchItem"
+											image="${wtb:getImg('dg.respon.img.search')}"
+											label="${wtb:l('dg.respon.onSearchItem.button.search')}"
+											sclass="asg-button" style="margin-left: 50px" />
+        							</row>        							
+        						</rows>
+							</grid>
+						</groupbox>
+						<groupbox style="margin: 5px 5px 10px 5px;">
+							<caption label="${wtb:l('dg.respon.onSearchItem.selectitemgroup')}" />
+									<hbox width="100%">		
+										<listbox id="searchItemResultList" mold="paging" hflex="1" multiple="true" 
+											rows="5" pageSize="9999" style="margin: 5px 10px;" >
+											<listhead sizable="true">
+												<listheader sort="auto" label="${wtb:l('dg.respon.availableItems')}" />
+											</listhead>
+										</listbox>
+										<vbox pack="center" align="center" vflex="true">
+											<button label="${wtb:l('dg.respon.tab2.buttonadd')}" id="addItem" disabled="true"/>
+											<button label="${wtb:l('dg.respon.tab2.buttonrem')}" id="remItem" disabled="true"/>
+										</vbox>
+										<listbox id="selectedItem" mold="paging" hflex="1" multiple="true" 
+											rows="10" pageSize="9999" style="margin: 5px 10px;" > 
+											<listhead sizable="true">
+												<listheader sort="auto" label="${wtb:l('dg.respon.selectedItems')}" />
+											</listhead>
+										</listbox>
+									</hbox>
+						</groupbox>            			
+        			</tabpanel>
+        			<tabpanel>
+            		<groupbox style="margin: 5px 5px 10px 5px;">
+							<caption label="${wtb:l('dg.respon.searchforuserusergroup')}" />
+							<hbox pack="left" align="center" width="100%" style="margin-left: 10px">
+								<label
+									value="${wtb:l('dg.respon.searchfor')}"
+									style="color:${wtb:l('asg-atlantic-first-color')}" />
+								<textbox style="margin-left: 10px" value="*" width="200px"
+									focus="true" id="searchNameFilter" forward="onOK=onSearch" />
+								<button id="search"
+									image="${wtb:getImg('dg.respon.img.search')}"
+									label="${wtb:l('dg.respon.button.search')}"
+									sclass="asg-button" style="margin-left: 50px" />
+							</hbox>
+							<hbox align="center"
+								style="margin-left: 10px; margin-bottom: 5px">
+								<radiogroup id="changeview" style="padding-right: 10px">
+									<radio
+										label="${wtb:l('dg.respon.searchusers')}"
+										checked="true"
+										style="color:${wtb:l('asg-atlantic-second-color')}; font-size:11px; margin-right: 10px"
+										forward="onOK=onSearch" />
+									<radio
+										label="${wtb:l('dg.respon.searchgroups')}"
+										style="color:${wtb:l('asg-atlantic-second-color')}; font-size:11px;" forward="onOK=onSearch" />
+								</radiogroup>
+							</hbox>
+						</groupbox>
+						<groupbox style="margin: 5px 5px 10px 5px;">
+							<caption label="${wtb:l('dg.respon.selectuserusergroup')}" />
+									<hbox width="100%">		
+										<listbox id="searchResultList" mold="paging" hflex="1" multiple="true" 
+											rows="5" pageSize="9999" style="margin: 5px 10px;" >
+											<listhead sizable="true">
+												<listheader sort="auto" label="${wtb:l('dg.respon.availableUsers')}" />
+											</listhead>
+										</listbox>
+										<vbox pack="center" align="center" vflex="true">
+											<button label="${wtb:l('dg.respon.tab3.buttonadd')}" id="add" disabled="true"/>
+											<button label="${wtb:l('dg.respon.tab3.buttonrem')}" id="rem" disabled="true"/>
+										</vbox>
+										<listbox id="selectedUser" mold="paging" hflex="1" multiple="true" 
+											rows="5" pageSize="9999" style="margin: 5px 10px;" > 
+											<listhead sizable="true">
+												<listheader sort="auto" label="${wtb:l('dg.respon.selectedUsers')}" />
+											</listhead>
+										</listbox>
+									</hbox>
+						</groupbox>
+					</tabpanel>						
+					<tabpanel>	
+						<groupbox style="margin: 5px 5px 10px 5px;">
+							
+									<hbox width="100%">		
+										<listbox id="overview" mold="paging" hflex="1" multiple="true" nonselectableTags="*" 
+											rows="5" pageSize="9999" style="margin: 5px 10px;" >  
+											<listhead sizable="true">
+												<listheader label="${wtb:l('dg.respon.overview.set.roletype')}" sort="auto" />
+												<listheader label="${wtb:l('dg.respon.overview.foritem')}"  />
+												<listheader label="${wtb:l('dg.respon.overview.foruserorgroup')}"/>
+												<listheader id="done" label="${wtb:l('dg.respon.overview.set')}" />
+											</listhead>
+										</listbox>
+									</hbox>
+						</groupbox>
+						<separator height="10px" />			
+							<hbox pack="end" width="100%" >
+			 					<button style="margin: 5px 10px;" label="${wtb:l('dg.respon.buttonsave')}" id="addResp" disabled="true"/>
+							</hbox>
+						<separator height="10px" />
+        			</tabpanel>
+    			</tabpanels>
+			</tabbox>
+			<separator height="10px" />			
+			<hbox pack="end" width="100%">
+			 	<button label="${wtb:l('dg.respon.buttonreset')}" id="reset" />
+			 	<button label="${wtb:l('dg.respon.buttoncancel')}" id="cancel"/>
+			</hbox>
+		</div>
+	</div>
+</idspace>

@@ -1,0 +1,59 @@
+﻿#-------------------------------------------------------
+# Rochade Business Package - Message file
+# This is an UTF-8 endcoded file!
+#
+#  Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+#
+# package: com.rochade.gdp.objectcontent
+#
+# names of custom tabs
+Tab.GDP.Details=Details
+Tab.GDP.PI.Implementation=Implementation & Cascade
+Tab.GDP.Personal_Information=Personal Data
+Tab.PIA.Overview=Overview
+Tab.PIA.DataAndSupportingAssets=Data and Supporting Assets
+Tab.PIA.ProportionalityAndNecessity=Proportionality and Necessity
+Tab.PIA.RightsOfDataSubjects=Rights of Data Subjects
+Tab.PIA.ExistingAndPlannedMeasures=Existing and Planned Measures
+Tab.PIA.RiskSources=Risk Sources
+Tab.PIA.RiskEvaluation=Risk Evaluation
+Tab.GDP.PIAs=Privacy Assessments
+
+# localization for different tabs
+label.GDP_PIImplementation=Implemented directly or indirectly as Physical data elements
+label.GDP_PICascade=Cascaded to
+label.GDP_PISensitiveWithBL=Sensitive combined
+label.GDP_PIUsedInStructure=Used in personal data structures
+label.GDP_LinkedPIs=Related personal data
+label.GDP_LinkedPIStructures=Related personal data structures
+label.GDP_CascadedPIs=Related personal data by cascade
+label.GDP_PIRelated=Personal data
+label.GDP_LinkedTechDataPIs=Related personal data by detected technical data
+label.GDP_PIPDE=Physical data elements
+label.GDP_LinkedPIAs=Available privacy impact assessments
+# Labels of PIA tabs
+label.GDP_UsingSensiblePI=Does this processing activity use personal data? \nIf Yes, please provide processing information below. If No, continue to the next question.
+label.GDP_SendingDataOutsideEU=Is personal data sent outside of the European Union?
+label.GDP_LifeCycleDescription=Please describe data and process life cycles:
+label.GDP_UsesPersonalInformation=Select personal data definitions
+label.GDP_SupportingAssets=What are the assets supporting personal data processing?
+label.GDP_ProcessingPurposes=Are the specified personal data processing purposes explicit, and legitimate?
+label.GDP_FollowedPolicies=What are the legal bases (policies) making personal data processing lawful?
+label.GDP_MinimizedData=Are the collected personal data adequate, relevant and limited to what is necessary?
+label.GDP_AccurateData=Are the personal data accurate, and kept up to date?
+label.GDP_SubjectsInformed=How are the data subjects informed of personal data processing?
+label.GDP_SubjectsConsentObtained=How is the consent of data subjects obtained?
+label.GDP_RectificationAndErasure=How can data subjects exercise their right to rectification, and erasure?
+label.GDP_RestrictionAndObject=How can data subjects exercise their right to restrict, and object to processing?
+label.GDP_ObligationsIdentifiedAndContracted=Are the processor''s obligations clearly identified, and governed through a contract?
+label.GDP_ExistingMeasures=Identify existing measures contributing to personal data security
+label.GDP_PlannedMeasures=Identify planned measures which may contribute to personal data security
+label.GDP_RiskSourcesIllegitimateAccess=What are the sources for risks noted below? \nUnauthorized data access:
+label.GDP_RiskSourcesUnwantedModification=Unauthorized data modification:
+label.GDP_RiskSourcesDataDisappearance=Data loss:
+label.GDP_RiskSeverity=What is the estimated severity of the risk event, considering potential impacts and planned controls?
+label.GDP_RiskLikelihood=What is the likelihood of the risk event, considering risk sources and planned controls?
+
+#{0}=Attribute name, {1}=SDCAC error message

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="Display Metadata Header" contentType="text/html;charset=UTF-8"?>
+<!-- 
+	@author ST 2018-03-27, created
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+
+<div>
+	<div style="float:none">
+		<div id="divItemSpec" sclass="asg-objectheader-itemspec" apply="com.rochade.bpa.ui.metadata.BusinessMetaDataObjectHeaderComposer" />
+		<div style="clear:both" />
+		<div id="tag" use="com.rochade.bpa.ui.metadata.BusinessMetaDataTagView" />
+<!-- 		
+		<div sclass="asg-itemview-objectinfo-infoelement" style="margin-top:5px;">
+			<span id="hierarchicalPath" sclass="asg-path-hierarchicalPath" use="com.rochade.bpa.ui.metadata.BusinessMetaDataHierarchicalNSView" />
+		</div>
+ -->		
+	</div>
+</div>

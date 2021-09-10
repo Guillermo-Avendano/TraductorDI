@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page id="itemmenudwr" title="DWR Item Menu" contentType="text/html;charset=UTF-8"?>
+<!-- 
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 	
+-->
+<selviewmenu>
+	<div hflex="1">
+		<div sclass="asg-menubar-right-aligned">
+			<menubar style="background:none; border:none;">
+				<menu actionId="DWR_Organize">
+					<menupopup>
+						<menuitem actionId="WTB_SelectAll"/>
+						<menuitem actionId="WTB_DeselectAll"/>
+						<menuseparator />
+						<menuitem actionId="WTB_OpenItem" enableCondition="selection.single" />
+					</menupopup>
+				</menu>
+				<menuitem actionId="WTB_ShowColumns" xmlns:w="client" w:onClick="getColumnWidths(this)" visibleCondition="view.isNotDiagram"/>
+				<menuitem actionId="WTB_RefreshNow"/>
+				<menu actionId="WTB_Editor_Share" visibleCondition="Editor.isPublishButtonEnabled">
+					<menupopup>
+						<menuitem actionId="WTB_SendUrl"/>
+						<menuitem actionId="WTB_AddFavorites" visibleCondition="WTB_AddFavorites.visible"/>
+					<!-- 	<menuitem actionId="WTB_CommonExport" visibleCondition="view.isTable"/>  -->							
+					<!-- 	<menuitem actionId="WTB_FormatPDF" visibleCondition="Export.FormatPDF"/>	-->		
+					<!--	<menuitem actionId="WTB_FormatHTM" visibleCondition="Export.FormatHTM"/>
+						<menuitem actionId="WTB_FormatXLS" visibleCondition="Export.FormatXLS"/>
+						<menuitem actionId="WTB_ExportXLSX" visibleCondition="Export.ExportXLSX"/> -->
+					<!--	<menuitem actionId="WTB_FormatPDFSummary" visibleCondition="Export.FormatPDFSummary"/>			
+						<menuitem actionId="WTB_Diagram_Export" visibleCondition="Export.Diagram"/>
+						<menuitem actionId="WTB_ResultSet_Export_XLS" visibleCondition="Export.ResultSetXLS"/>  -->
+					</menupopup>
+				</menu>
+			</menubar>
+		</div>
+		
+		<div sclass="asg-menubar-left-aligned">
+			<special actionId="WTB_Filter"       visibleCondition="view.isTable"/>
+		</div>
+		<div style="clear:both;" />
+	</div>
+</selviewmenu>

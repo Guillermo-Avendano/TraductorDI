@@ -1,0 +1,39 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#------------------------------ Action Definition ------------------------------ 
+### Icons: all images should be inside of dir /com.rochade.wa.metanote/ + img/, see plugin.xml
+#extra icons
+### END Icons
+
+WTB_OpenMetaNoteRefItem.lbl=Abrir
+WTB_OpenMetaNoteRefItem.tip=Abrir Item
+WTB_OpenMetaNoteRefSummary.lbl=Abrir Resumo
+WTB_OpenMetaNoteRefSummary.tip=Abrir Resumo
+WTB_Default_OpenMetaNoteRefItem.lbl=Abrir
+WTB_Default_OpenMetaNoteRefItem.tip=Abrir Item
+WTB_Default_OpenMetaNoteRefItemSummary.lbl=Abrir Resumo
+WTB_Default_OpenMetaNoteRefItemSummary.tip=Abrir Resumo
+
+#------------------------------ non Action Definition ------------------------------
+addMetanote.textReadMore=Ler Mais
+addMetanote.textClose=Fechar
+
+Tab.WTB_MetaNote_Tab=Metanotes
+
+addMetanote.title=Adicionar uma metanote
+addMetanote.subject=Assunto:
+addMetanote.save=Salvar
+addMetanote.cancel=Cancelar
+
+Remove.title=Removendo Metanote...
+Remove.question.msg=Você tem certeza de que deseja remover a Metanote selecionada?
+Remove.no.permission.msg=Você não tem permissão para remover a Metanote selecionada.
+Remove.failed.msg=Falha ao remover a Metanote selecionada.
+Remove.lock.failed=Falha ao obter o bloqueio
+

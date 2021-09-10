@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="Compare Version Statistic" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<!-- 
+	CompareVersionStatistic.zul
+	@author ST
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+<window id="CompareVersionStatisticWin" title="" border="normal" width="800px;"
+			apply="com.rochade.dwr.version.compare.CompareVersionStatisticComposer" 
+       		sizable="true"  maximizable="true" minimizable="false" closable="true">
+	<caption image="" id="lbCaption" style="color: ${wtb:l('asg-atlantic-second-color')}; font-weight: 700" />
+
+	<listbox id="lbList" rows="10" sclass="asg-listbox1">
+		<listhead sizable="true">
+			<listheader width="40%"	label="${wtb:l('rbr.version.compare.head.type')}" sort="none"/>
+			<listheader width="15%" label="${wtb:l('rbr.version.compare.status.StatusOnlyIn2')}" sort="none" align="right" />
+			<listheader width="15%" label="${wtb:l('rbr.version.compare.status.StatusDifferent')}" sort="none" align="right" />
+			<listheader width="15%" label="${wtb:l('rbr.version.compare.status.StatusOnlyIn1')}" sort="none" align="right" />
+			<listheader width="15%" label="${wtb:l('displTotal')}" sort="none" align="right" />
+		</listhead>
+	</listbox>
+
+	<!-- buttons -->
+	<div align="right" style="background:transparent; padding:3px; margin:10px 0px 10px 10px">
+		<button id="btOK" label="${wtb:l('rbr.version.compare.filter.button.close')}" image=""  focus="true" />
+	</div>
+</window>

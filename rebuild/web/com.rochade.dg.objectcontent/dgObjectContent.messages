@@ -1,0 +1,71 @@
+﻿#-------------------------------------------------------
+# metaGlossary - Message file
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.dg.objectcontent
+#
+
+Tab.UserResponsibility=Responsibilities
+Tab.Responsibility=Stewardship
+
+Attributes.DEFINITION=Definition
+Attributes.RBG/E-Mail=eMail
+
+dg.respon.img.delete=/com.rochade.dg.objectcontent/img/Delete16.png
+dg.respon.img.deleteIna=/com.rochade.dg.objectcontent/img/Delete16-ina.png
+
+dg.respon.button.initialize=Add Responsibilities
+dg.respon.notinitialized=
+dg.respon.creationFailed=Initialize of User Administration failed
+
+dg.respon.label.subscription=Subscription
+dg.respon.label.unsubscribed=Notifications are not received.
+dg.respon.label.unsubscribedNoReader=Notifications are not received (missing Read role).
+dg.respon.label.subscribed=Notifications are received.
+dg.respon.label.subscribedInherited=Notifications are received (property inherited from {0} {1}).
+dg.respon.label.notifiedRole=Notifications are received (effective by Informed role).
+dg.respon.button.subscribe=Subscribe
+dg.respon.button.subscribe.hint=Receive notifications for this context
+dg.respon.button.unsubscribe=Unsubscribe
+dg.respon.button.unsubscribe.hint=Don''t receive notifications for this context
+dg.respon.button.listSubscriptions=My Subscriptions
+dg.respon.button.listSubscriptions.hint=Lists subscribed contexts
+dg.respon.title.listMySubscriptions=My Subscriptions
+
+WfItemTypesPropertyView.noMoreItemTypes=All available types are already assigned.
+WfItemTypesPropertyView.duplicateActiveItemTypes=The following types are already active in other directly assigned configurations: {0}
+WfItemTypesPropertyView.duplicateActiveItemTypes.templates.custom=The following types are already active in other custom default workflow templates: {0}
+WfItemTypesPropertyView.duplicateActiveItemTypes.templates.non-custom=The following types are already active in other non-custom default workflow templates: {0}
+
+WipTxContextView.label.actions=Actions
+WipTxContextView.status.label=Status
+WipTxContextView.status.INIT=Initial state. WIP is empty.
+WipTxContextView.status.UPDATE_LOCKED=Update is in progress. WIP is in use. No review or other update allowed.
+WipTxContextView.status.UPDATE_UNLOCKED=Intermediate state caused by an update session which ends before resetting the state. Transaction contents is undefined.
+WipTxContextView.status.REVIEW_LOCKED=WIP content is in review. No update or other review allowed.
+WipTxContextView.status.REVIEW_UNLOCKED=WIP content is ready for review.
+WipTxContextView.status.REJECTED=WIP content has been rejected.
+WipTxContextView.button.openTask=Open task
+WipTxContextView.button.openTask.hint=Open existing workflow task.
+WipTxContextView.button.openLastTask=Open last task
+WipTxContextView.button.openLastTask.hint=Open last workflow task.
+WipTxContextView.button.startIngestion=Start ingestion workflow
+WipTxContextView.button.startIngestion.hint=Starts ingestion workflow to take over data from LOB subject areas.
+WipTxContextView.button.restartIngestion=Restart ingestion workflow
+WipTxContextView.button.restartIngestion.hint=Restarts ingestion workflow to take over data from LOB subject areas.
+
+#################### Tabs header #######################################
+Tab.WfProcessConfigItemView.General=General
+Tab.WfProcessConfigItemView.Configuration=Configuration
+Tab.WfProcessConfigItemView.Process=Process
+Tab.WfAssignment=Workflow
+Tab.WipTxContextView.General=General
+
+#################### WfAssignmentTab ObjectContent#######################################
+WfAssignmentTab.Applied=Applied
+

@@ -1,0 +1,76 @@
+﻿#-------------------------------------------------------
+# metaRDM - Message file
+#
+#  Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#-------------------------------------------------------
+
+#
+# package: com.rochade.mdm.xlsimport
+#
+
+# Messages for the exporter
+ExportDataConcept.cdheader.1=CD/VM name
+ExportDataConcept.cdheader.2=DC parents/VM validity
+ExportDataConcept.vdheader.1=VD/PV name
+ExportDataConcept.vdheader.2=RC name/PV validity
+ExportDataConcept.vdheader.3=VDR/parentPV
+ExportDataConcept.vmheader.1=VM name
+ExportDataConcept.vmheader.2=DC/VM validity
+ExportDataConcept.cdrheader.1=Parent DC/VM
+ExportDataConcept.cdrheader.2=Decomposition/validity
+ExportDataConcept.sheetAll=Complete Data Concept
+ExportDataConcept.sheetMeanings=Meanings
+ExportDataConcept.sheetParents=Parents
+ExportDataConcept.sheetValues=Values
+
+ExportDataConcept.subvdheader=VDR.parentPV
+ExportDataConcept.subcdheader=parentVM
+
+# Importer
+ImportDataConcept.title=Upload an Excel file and select a worksheet to be imported.
+ImportDataConcept.header=Import Conceptual Domains with Value Domains
+ImportDataConcept.excelImport=Excel Import
+
+ImportDataConcept.runSettings=Run settings:
+ImportDataConcept.property=Parameter
+ImportDataConcept.value=Value
+ImportDataConcept.limit=Maximum number of items
+ImportDataConcept.uploadButton=Upload Excel File
+ImportDataConcept.viewButton=View Excel File
+ImportDataConcept.runButton=Run
+ImportDataConcept.cancelButton=Cancel
+ImportDataConcept.resetButton=Reset
+ImportDataConcept.queryparam=Query Parameter
+ImportDataConcept.noxlsx=This is not an .xlsx Excel file.
+
+ImportDataConcept.worksheet=Select worksheet:
+ImportDataConcept.pleaseUpload=<Upload Excel file>
+ImportDataConcept.view.title=View Excel
+ImportDataConcept.maxcount=Only the first 500 lines are shown.
+ImportDataConcept.impHierarchy=Import hierarchy decomposition
+ImportDataConcept.impHierarchy0=Import decomposition from Excel file
+ImportDataConcept.impHierarchy1=Do not import decomposition
+ImportDataConcept.impHierarchy2=Do not import, but recompute it from reference data
+ImportDataConcept.impSameCtx=Identifying parent concepts
+ImportDataConcept.impSameCtx0=Search for parents in all contexts
+ImportDataConcept.impSameCtx1=Search for parents in current context
+
+
+# Warnings / Success
+ImportDataConcept.success=Excel import finished successfully.
+ImportDataConcept.errRC=Reference collection not identified, line number:
+ImportDataConcept.missingHierarchyParents=Following specified hierarchy parents were not found:
+ImportDataConcept.errVDR=VD relationship name missing, line number:
+ImportDataConcept.errVDT=Value domain for sub value domain not found, line number:
+ImportDataConcept.errCD=No <parentVM> for these <VDR>.<parentPV> found: 
+ImportDataConcept.rcconflict=RC name conflict - same RC name but different context:
+
+# Tooltips
+ImportDataConcept.view=View Excel
+ImportDataConcept.enter=Run query
+ImportDataConcept.esc=Cancel (<esc>)
+ImportDataConcept.reset=Reset
+
+# icons
+ImportDataConcept.img.wizard=/com.rochade.mdm.xlsimport/img/WizardDefault.gif
+

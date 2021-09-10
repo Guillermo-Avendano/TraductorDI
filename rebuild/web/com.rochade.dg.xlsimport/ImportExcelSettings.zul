@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="Import Settings" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<!-- 
+	ImportExcelSetting.zul
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+<window apply="com.rochade.dg.xlsimport.ImportExcelSettingComposer" width="900px"
+	title="${wtb:l('dg.xlsimport.setting.title')}" border="normal" sclass="asg-import" >
+	<grid style="margin: 5px 5px 5px 5px; border: 0px; background: transparent;">
+		<columns>
+			<column hflex="1"></column>
+			<column hflex="4"></column>
+		</columns>
+		<rows>
+	    	<row style="border: 0px; background: transparent; padding-left: 0px;" >
+			    <label width="100%" value="${wtb:l('dg.xlsimport.setting.fileLoaded')}" />
+				<label width="100%" id="lFile" style="padding-left: 2px;" />
+			</row>
+	    	<row style="border: 0px; background: transparent; padding-left: 0px;">
+			    <label width="100%" value="${wtb:l('dg.xlsimport.setting.tgtitem')}" />
+				<label width="100%" id="lItem" style="padding-left: 2px;" />
+			</row>
+		</rows> 
+	</grid>
+	<div width="100%" sclass="asg-tabpanel" style="background: transparent;">
+		<hbox sclass="asg-menubar-right-aligned" align="center">
+			<menubar id="mbOptions" sclass="asg-menubar-right-aligned" style="background-color: transparent; white-space: nowrap; ">
+				<menuitem id="miDelete"  label="${wtb:l('dg.xlsimport.menu.label.load.delete')}"  image="${wtb:getImg('dg.xlsimport.img.delete')}" />
+				<menuitem id="miRefresh" label="${wtb:l('dg.xlsimport.menu.label.load.refresh')}" image="${wtb:getImg('dg.xlsimport.img.refresh')}" />
+			</menubar>
+		</hbox>
+		<hbox sclass="asg-menubar-left-aligned" align="center" >
+			<label value="${wtb:l('WTB_FilterByListQuery.lbl')}" />
+			<textbox id="filtervalue" value="*" style="padding-left: 2px;" />
+			<combobox id="filtertype" sclass="asg-filter-combobox" readonly="true" popupWidth="100%" style="margin-bottom: 0px; display: unset; line-height: 22px;">
+				<comboitem label="${wtb:l('dg.xlsimport.setting.name')}" value="name" />
+				<comboitem label="${wtb:l('dg.xlsimport.setting.type')}" value="type" />
+				<comboitem label="${wtb:l('dg.xlsimport.setting.file')}" value="file" />
+			</combobox>
+			<button id="filterdo" sclass="asg-button" image="${wtb:getImg('dg.xlsimport.img.filter')}" />
+			<label width="2px" />
+		</hbox>
+	</div>
+	<listbox id="lbSettings" width="100%" mold="paging" pageSize="15" multiple="true" checkmark="true" 
+			 sclass="asg-listbox1" style="margin: 0px; background: ${wtb:l('asg-atlantic-light-gray')}">
+		<listhead sizable="true">
+			<listheader width="36px"/>
+            <listheader id="lhName" label="${wtb:l('dg.xlsimport.setting.name')}" width="40%" />
+            <listheader id="lhType" label="${wtb:l('dg.xlsimport.setting.type')}" width="20%" />
+            <listheader id="lhFile" label="${wtb:l('dg.xlsimport.setting.file')}" width="40%" />
+		</listhead>
+		<listfoot width="99%">
+			<listfooter span="4" width="100%">
+				<label id="lFoot" width="100%" />
+			</listfooter>	
+		</listfoot>
+	</listbox>
+	<div align="right" style="padding: 10px 0px 10px 5px;" >
+		<button id="btnLoad"  label="${wtb:l('dg.xlsimport.menu.label.load')}" />
+		<button id="btnClose" label="${wtb:l('dg.xlsimport.setting.close')}" />
+	</div>
+</window>

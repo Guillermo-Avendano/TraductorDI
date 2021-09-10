@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="Grid View" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<!-- 
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+<zk>
+	<zscript><![CDATA[
+		import com.rochade.ref.core.domain.ValidityUpdateStrategy;
+		ValidityUpdateStrategy sourceValidity = ValidityUpdateStrategy.USE_SOURCE_VALIDITY;
+		ValidityUpdateStrategy targetValidity = ValidityUpdateStrategy.USE_TARGET_VALIDITY;
+		ValidityUpdateStrategy mergeValidity = ValidityUpdateStrategy.MERGE_VALIDITY;
+	]]></zscript>
+	<window title="${wtb:l('MergeVDConfimDialog.title')}" border="normal" closable="true"
+		width="550px" id="win" vflex="min"
+		apply="com.rochade.mdm.comp.tablegrid.menu.MergeValueDomiansConfirmationWindow">
+		<vlayout>
+			<hlayout>
+				<image src="${wtb:getImg('MergeVDConfimDialog.warn_img')}" width="32px" />
+				<vlayout>
+					<label value="${wtb:l('MergeVDConfimDialog.confirm')}" />
+					<label value="${wtb:l('MergeVDConfimDialog.note')}" />
+				</vlayout>
+			</hlayout>
+			<groupbox closable="true" hflex="1">
+				<caption>
+					<label value="${wtb:l('MergeVDConfimDialog.additionalOptions')}" style="color:gray; background:transparent" />
+				</caption>
+				<radiogroup forward="onCheck=onSelectStrategy()">
+					<vlayout style="vertical-align: middle;">
+						<vlayout style="vertical-align: middle;">
+							<radio id="mergeValidityRadio"
+								label="${wtb:l('SearchReferenceDataWizard.mergeValidity')}"
+								value="${mergeValidity}" checked="true" />
+							<radio id="sourceValidityRadio"
+								label="${wtb:l('MergeVDConfimDialog.useSource')}"
+								value="${sourceValidity}" />
+							<radio id="targetValidityRadio"
+								label="${wtb:l('MergeVDConfimDialog.useTarget')}"
+								value="${targetValidity}" />
+						</vlayout>
+					</vlayout>
+				</radiogroup>
+			</groupbox>
+			<separator bar="true" />
+			<hbox pack="center" hflex="1">
+				<button label="${wtb:l('MergeVDConfimDialog.OK')}" forward="onClick=onDoMerge()" />
+				<button label="${wtb:l('MergeVDConfimDialog.Cancel')}" forward="onClick=onCancelMerge()" focus="true"/>
+			</hbox>
+		</vlayout>
+	</window>
+</zk>

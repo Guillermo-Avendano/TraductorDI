@@ -1,0 +1,30 @@
+<div id="divSearchForType">
+	<grid sclass="asg-grid" width="100%" span="true">
+		<columns>
+            <column align="left" width="10%" />
+            <column align="left" width="78%" />
+            <column align="left" width="12%" />
+		</columns>
+		<rows>
+			<row>
+				<label
+					value="${c:l('dg.addroot.searchforname')}"
+					style="color:${wtb:l('asg-atlantic-first-color')}" />
+				<textbox id="tbSearchName"
+					value="*" width="99%" height="24px" focus="true" />
+				<label/>	
+			</row>
+			<row>
+				<label
+					value="${c:l('dg.addroot.targettype')}"
+					style="color:${wtb:l('asg-atlantic-first-color')}" />
+				<combobox readonly="true" popupWidth="100%" 
+					width="100%" id="cmbTypeList" />
+				<button id="buttonSearch"
+					label="${c:l('dg.addroot.button.search')}"
+					forward="onClick=onExecuteSearch"  
+					/>
+			</row>
+		</rows>
+	</grid>
+</div>

@@ -1,0 +1,116 @@
+﻿# Rochade Business Package - Message file
+# This is an UTF-8 endcoded file!
+#
+#  Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+#
+################### copied keys for RDM Workflow (business items)
+
+## WARNING: these keys also used inside cellrenderer/RwfTitleCellRenderer.java
+##          and there's no way to separate and define similar key in cellrenderer's own message file
+### END Icons
+
+############ Notification/Task List ################
+rwf_BPA_BI_MODIFIED.title=Solicitud de Aprobación
+rwf_BPA_BI_CREATED.title=Solicitud de Aprobación
+rwf_BPA_BI_TASK_APPROVED.title=Solicitud Aprobada
+rwf_BPA_BI_TASK_REJECTED.title=Solicitud Rechazada
+rwf_BPA_BI_TASK_REACTIVATED.title=Continuar Solicitud
+rwf_BPA_BI_TASK_REASSIGNED.title=Solicitud devuelta
+rwf_BPA_BI_TASK_REMINDER.title=Recordatorio
+rwf_BPA_CDE_LINEAGE_COMPARISON_COMPLETED.title=Comparación del Linaje finalizado
+
+rwf_action_BPA_BI_CREATED=Creado
+rwf_action_BPA_BI_MODIFIED=Modificación
+rwf_action_BPA_BI_TASK_APPROVED=Aprobado
+rwf_action_BPA_BI_TASK_REACTIVATED=Reactivado
+rwf_action_BPA_BI_TASK_REJECTED=Rechazado
+rwf_action_BPA_BI_TASK_REASSIGNED=Devuelto
+rwf_action_BPA_BI_TASK_REMINDER=Recordatorio
+rwf_action_BPA_CDE_LINEAGE_COMPARISON_COMPLETED=Comparación del Linaje finalizado
+
+BP.business_item.created=Ítem de Negocios es creado nuevamente
+BP.business_item.deleted=Ítem de Negocios marcado para borrado
+BP.business_item.modified=Ítem de Negocios es modificado
+
+BpTermCreated.title=Solicitud enviada a control para Creación del Ítem de Negocios [$item.name]
+BpTermCreated.footer=Click <a href="[$notification.link]">aqu&iacute;</a> para abrir la notificaci&oacute;n.
+BpTermCreated.body=Se ha enviado a control una solicitud para la creación del Ítem de Negocios [$item.name].
+BpTermCreated.mail_body=Se envi&oacute; a control una solicitud por la creaci&oacute;n del &iacute;tem de Negocios<a href="[$item.link]">[$item.name]</a>.<br/><br/>\nSolicitado por: <a href="[$author.link]">[$author.DEFINITION]</a><br/><br/>
+
+BpTermModified.title=Solicitud enviada a control para Modificación del Ítem de Negocios [$item.name]
+BpTermModified.footer=Click <a href="[$notification.link]">aqu&iacute;</a> para abrir la notificaci&oacute;n.
+BpTermModified.body=Se ha enviado a control una solicitud para la modificación del Ítem de Negocios[$item.name].
+BpTermModified.mail_body=Se ha enviado a control una solicitud para la modificaci&oacute;n del &iacute;tem de Negocios<a href="[$item.link]">[$item.name]</a>.<br/><br/>\nSolicitado por: <a href="[$author.link]">[$author.DEFINITION]</a><br/><br/>
+
+BpTaskApproved.title=Solicitud Aprobada para el Ítem de Negocios [$item.name]
+BpTaskApproved.footer=Click <a href="[$notification.link]">aqu&iacute;</a> para abrir la notificaci&oacute;n.
+BpTaskApproved.body=La solicitud de cambio para el &iacute;tem de Negocios [$item.name] fue aprobada.\n\nSolicitada por: [$author.DEFINITION]\nAprobada por: [$history.RWF/COMPLETED-BY.DEFINITION]\nComentarios: [$comment]
+BpTaskApproved.mail_body=La solicitud de cambio para el &iacute;tem de Negocios <a href="[$item.link]">[$item.name]</a> fue aprobada.<br/><br/>\nSolicitada por: <a href="[$author.link]">[$author.DEFINITION]</a><br/>\nAprobado por: <a href="[$actionBy.link]">[$actionBy.DEFINITION]</a><br/>\nComentarios: [$comment]<br/><br/>\nClick <a target="right" href="[$history.link]">aqu&iacute;</a> para abrir la tarea.<br/>
+
+BpTaskReactivated.title=Continuar Solicitud para el Ítem de Negocios [$item.name]
+BpTaskReactivated.footer=Click <a href="[$notification.link]">aqu&iacute;</a> para abrir la notificaci&oacute;n.
+BpTaskReactivated.body=La solicitud de cambio para el &iacute;tem de Negocios [$item.name] se ha reanudado.\n\nSolicitada por: [$author.DEFINITION]\nRenudada por: [$actionBy.DEFINITION]\nComentarios: [$comment]
+BpTaskReactivated.mail_body=La solicitud de cambio para el &iacute;tem de Negocio <a href="[$item.link]">[$item.name]</a>se ha reanudado.<br/><br/>\nSolicitado por: <a href="[$author.link]">[$author.DEFINITION]</a><br/>\nReanudado por: <a href="[$actionBy.link]">[$actionBy.DEFINITION]</a><br/>\nComentarios: [$comment]<br/><br/>
+
+BpTaskReassigned.title=Solicitud devuelta para el Ítem de Negocios [$item.name]
+BpTaskReassigned.footer=Click <a href="[$notification.link]">aqu&iacute;</a> para abrir la notificaci&oacute;n.
+BpTaskReassigned.body=La solicitud de cambio para el &iacute;tem de Negocios [$item.name] ha sido devuelta. Por favor, enviar a control el &iacute;tem actualizado para aprobaci&oacute;n.\n\nSolicitado por: [$author.DEFINITION]\nDevuelto por: [$actionBy.DEFINITION]\nComentarios: [$comment]
+BpTaskReassigned.mail_body=La solicitud de cambio para el &iacute;tem del  Negocio <a href="[$item.link]">[$item.name]</a> ha sido devuelta. Por favor, enviar a control el &iacute;tem actualizado para aprobaci&oacute;n.<br/><br/>\nSolicitado por: <a href="[$author.link]">[$author.DEFINITION]</a><br/>\nDevuelto por: <a href="[$actionBy.link]">[$actionBy.DEFINITION]</a><br/>\nComentarios: [$comment]<br/><br/>
+
+BpTaskRejected.title=Solicitud Rechazada para el Ítem de Negocios [$item.name]
+BpTaskRejected.footer=Click <a href="[$notification.link]">aqu&iacute;</a> para abrir la notificaci&oacute;n.
+BpTaskRejected.body=La solicitud de cambio para el &iacute;tem de Negocios [$item.name] fue rechazada.\n\nSolicitada por: [$author.DEFINITION]\nRechazada por: [$history.RWF/COMPLETED-BY.DEFINITION]\nComentarios: [$history.RWF/COMMENT1]\n
+BpTaskRejected.mail_body=La solicitud de cambio para el &iacute;tem de Negocios <a target="right" href="[$item.link]">[$item.name]</a> fue rechazada.<br/><br/>\nSolicitado por: <a href="[$author.link]">[$author.DEFINITION]</a><br/>\nRechazado por: <a href="[$actionBy.link]">[$actionBy.DEFINITION]</a><br/>\nComentarios: [$comment]<br/><br/>\nClick <a target="right" href="[$history.link]">aqu&iacute;</a> para abrir la tarea.<br/>
+
+BpTaskReminder.title=Por favor, tomar acción sobre la solicitud para el ítem de Negocios [$item.name]
+BpTaskReminder.footer=Click <a href="[$notification.link]">aqu&iacute;</a> para abrir la notificaci&oacute;n.
+BpTaskReminder.body=Por favor, tomar acción sobre la solicitud de cambio para el &iacute;tem de Negocios [$item.name].\n\nComments: [$comment]
+BpTaskReminder.mail_body=Por favor, tomar acci&oacute;n sobre la solicitud de cambio para el &iacute;tem de Negocios <a target="right" href="[$item.link]">[$item.name]</a>.<br/><br/>\nComentarios: [$comment]<br/><br/>\nClick <a target="right" href="[$history.link]">aqu&iacute;</a> para abrir la tarea.<br/>
+
+rwf_BPA_BI_REVIEW_TASK_CREATED.title=Solicitud de revisión
+rwf_BPA_BI_REVIEW_TASK_COMPLETED.title=Revisión completa
+
+
+rwf_action_BPA_BI_REVIEW_TASK_CREATED=Solicitud de revisión
+rwf_action_BPA_BI_REVIEW_TASK_COMPLETED=Revisión completa
+
+BpReviewTaskCreated.title=Revisar tarea creada para el item de Negocios [$item.name]
+BpReviewTaskCreated.footer=Click <a href="[$notification.link]">aqu&iacute;</a> para abrir la notificaci&oacute;n.
+BpReviewTaskCreated.body=Se completó una tarea de revisión para el Ítem de Negocios[$item.name].\n\nSolicitado por: [$author.DEFINITION]\n
+BpReviewTaskCreated.mail_body=Se cre&oacute; una tarea de revisi&oacute;n para el &iacute;tem de Negocios<a target="right" href="[$item.link]">[$item.name]</a>.<br/><br/>\nSolicitado por: <a href="[$author.link]">[$author.DEFINITION]</a><br/>\n\nClick <a target="right" href="[$history.link]">aqu&iacute;</a> para abrir la tarea.<br/>
+
+BpReviewTaskCompleted.title=Revisar tarea finalizada para el item de Negocios [$item.name]
+BpReviewTaskCompleted.footer=Click <a href="[$notification.link]">aqu&iacute;</a> para abrir la notificaci&oacute;n.
+BpReviewTaskCompleted.body=Se completó una tarea de revisión para el Ítem de Negocios[$item.name].\n\nSolicitado por: [$author.DEFINITION]\nCompletado por: [$actionBy.DEFINITION]\nComentarios: [$comment]\n
+BpReviewTaskCompleted.mail_body=Se complet&oacute; una tarea de revisi&oacute;n para el &iacute;tem de Negocios<a target="right" href="[$item.link]">[$item.name]</a>.<br/><br/>\nSolicitado por: <a href="[$author.link]">[$author.DEFINITION]</a><br/>\nCompletado por: <a href="[$actionBy.link]">[$actionBy.DEFINITION]</a><br/>\nComentarios: [$comment]<br/><br/>\nClick <a target="right" href="[$history.link]">aqu&iacute;</a> para abrir la tarea.<br/>
+
+BpLineageComparisonCompleted.title=Comparación del Linaje finalizado para [$item.MappedType] [$item.name]
+BpLineageComparisonCompleted.footer=Click <a href="[$notification.link]">aqu&iacute;</a> para abrir la notificaci&oacute;n.
+BpLineageComparisonCompleted.body=La comparaci&oacute;n del linaje para [$item.MappedType] [$item.name] se complet&oacute; y se detectaron diferencias. Los detalles se encuentran en el Reporte de Comparaci&oacute;n del Linaje.
+BpLineageComparisonCompleted.mail_body=La comparaci&oacute;n del linaje para [$item.MappedType] <a target="right" href="[$item.link]">[$item.name]</a>  se complet&oacute; y se detectaron diferencias.<br/><br/>\nLos detalles se encuentran en el Reporte de Comparaci&oacute;n del Linaje, disponible en la pagina de notificación.<br/><br/>
+
+############ BPA_LineageComparisonNotificationView ################
+bpa_LineageComparison.ReportUrl=URL Reporte:
+bpa_LineageComparison.executionDate=Fecha de Ejecución
+bpa_LineageComparison.lblReport=Reporte:
+bpa_LineageComparison.btnReport=Click aquí para abrir el Reporte de Comparación de Linaje
+
+################ Search for Items In Process (ItemsInProcessFilter.zul) ################
+#
+bpa_ItemsInProcessFilter.contexts=Buscar en glosario:
+bpa_ItemsInProcessFilter.state=Estado:
+bpa_ItemsInProcessFilter.windowheader=Buscar ítems de Negocio en Proceso
+bpa_ItemsInProcessFilter.button.cancel=Cancelar
+bpa_ItemsInProcessFilter.button.search=Buscar
+bpa_ItemsInProcessFilter.searchresult.title=Ítems de Negocios en Proceso
+bpa_ItemsInProcessFilter.label.allContexts=Todos los Glosarios
+bpa_ItemsInProcessFilter.state.all=Todo
+
+BPA_BusinessItemsInProgress.lbl=Ítems de Negocios no aprobados
+#bpa_TaskSearch.label.allGovernedContexts=Todos los Contextos de Negocios
+bpa_TaskSearch.label.allGovernedContexts=Todos los Glosarios
+
+# Option for Info Management - Task-Search-Dialog
+#bpa_Filter.OPT_BUSINESS_ITEMS=Ítems de Negocios

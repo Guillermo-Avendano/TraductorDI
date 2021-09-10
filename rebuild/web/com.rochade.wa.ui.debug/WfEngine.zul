@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page id="start" title="BgWebServices Test Page" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="http://www.zkoss.org/dsp/web/core" prefix="c" ?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<?link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"?>
+<?link rel="icon" type="image/x-icon" href="/favicon.ico"?>
+
+<!-- Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. -->
+<window border="none" apply="com.rochade.wa.ui.debug.WfEngineComposer" sclass="asg-debug-workspaces asg-debug-wfengine" >
+
+	<style>
+	div.asg-debug-wfEngine-content {
+		clear:both;
+		overflow-y: scroll; <!-- to prevent resize issues -->
+	}
+	div.asg-debug-wfEngine-content > div.z-listbox { 
+		margin-top:15px;
+	}
+	.asg-listbox1 div.z-auxheader-content {
+		line-height:22px;
+	}
+	.asg-listbox1 th.z-auxheader {
+		background: ${wtb:l('asg-atlantic-third-color')};
+	}
+	.asg-debug-wfEngine-content .asg-itemview-window td {
+		border:0px;
+	}
+	.asg-debug-wfEngine-content .asg-itemview-window tr {
+		background:transparent;
+		padding: 3px 4px;
+		line-height: 26px;
+	}
+	.asg-debug-wfEngine-content .asg-itemview-window tr:hover,
+	.asg-debug-wfEngine-content .asg-itemview-window td:hover,
+	.asg-debug-wfEngine-content .asg-itemview-window .z-row:hover > .z-row-inner, 
+	.asg-debug-wfEngine-content .asg-itemview-window .z-row:hover > .z-cell {
+		background: white;
+	}
+	.asg-debug-wfEngine-content .asg-listbox1 .z-listitem:hover .z-listcell-content, 
+	.asg-debug-wfEngine-content .asg-listbox1 .z-listitem:hover .z-listcell-content span, 
+	.asg-debug-wfEngine-content .asg-listbox1 .z-listitem:hover .z-listcell-content .z-label, 
+	.asg-debug-wfEngine-content .asg-listbox1 .z-listitem:hover .z-listcell-content a {
+		color: ${wtb:l('asg-atlantic-listitem-hover-color')};
+	}
+	.asg-debug-wfEngine-content .asg-listbox1.z-listbox .z-listitem:hover > td {
+		background: ${wtb:l('asg-atlantic-listitem-hover-background')};
+	    
+	}
+	</style>
+
+	<div id="header" style="padding:5px;">
+		<div id="headerTitle" style="float:left;"/>
+		<div id="editorMenu" sclass="asg-menubar-right-aligned" style="padding-right:0px; padding-left: 20px">
+			<menubar style="background:none; border:none;">
+				<menuitem id="miRefresh" actionId="WTB_Editor_Refresh" />
+			</menubar>
+		</div>
+		<div sclass="clearfix" />
+	</div>
+	<div vflex="1" sclass="asg-debug-wfEngine-content">
+
+		<grid id="gridPEStats" sclass="asg-itemview-window asg-tab-content-grid">
+			<columns>
+				<column hflex="min" />
+				<column hflex="1" />
+				<column hflex="min" align="right" />
+			</columns>
+			<rows>
+				<row>
+					<label sclass="asg-attribute-label-bold" value="${wtb:l('Debug.wfEngine.peName')}"	/>
+					<cell colspan="2"><label id="lblPeName" value="${wtb:l('Debug.wfEngine.noProcessEngine')}" /></cell>
+				</row>
+				<row>
+					<label sclass="asg-attribute-label-bold" value="${wtb:l('Debug.wfEngine.jdbcUrl')}"	/>
+					<cell colspan="2"><textbox id="tbJdbcUrl" value="" readonly="true" width="100%" /></cell>
+				</row>
+				<row>
+					<label sclass="asg-attribute-label-bold" value="${wtb:l('Debug.wfEngine.globalPDCount')}" />
+					<label id="lblGlobalPDCount" value="0" />
+					<div />
+				</row>
+				<row>
+					<label sclass="asg-attribute-label-bold" value="${wtb:l('Debug.wfEngine.globalPICount')}" />
+					<label id="lblGlobalPICount" value="0" />
+					<div />
+				</row>
+				<row>
+					<label sclass="asg-attribute-label-bold" value="${wtb:l('Debug.wfEngine.globalFailedJobCount')}" />
+					<label id="lblGlobalFailedJobCount" value="0" />
+					<button id="btnGlobalRetry" label="${wtb:l('Debug.wfEngine.btnGlobalRetry.label')}" />
+				</row>
+				<row>
+					<label sclass="asg-attribute-label-bold" value="${wtb:l('Debug.wfEngine.wsUrl')}" />
+					<textbox id="tbWsUrl" value="" width="100%" />
+					<button id="btnReplaceWsUrl" label="${wtb:l('Debug.wfEngine.btnReplaceWsUrl.label')}" />
+				</row>
+				<row>
+					<label sclass="asg-attribute-label-bold" value="${wtb:l('Debug.wfEngine.jobExecutorConfigured')}" />
+					<label id="lblJobExecutorConfigured" value="" />
+					<button id="btnRestartProcessEngine" label="${wtb:l('Debug.wfEngine.btnRestartProcessEngine.label')}" />
+				</row>
+			</rows>
+		</grid>	
+		<listbox id="lbProcDefs" sclass="asg-listbox1" mold="paging" pageSize="5">
+			<auxhead>
+				<auxheader label="${wtb:l('Debug.wfEngine.pdCaption')}" colspan="6" />
+			</auxhead>
+			<listhead sizable="true">
+				<listheader hflex="min" label="${wtb:l('Debug.wfEngine.piCount')}" 			sort="auto(piCount)" />
+				<listheader hflex="min" label="${wtb:l('Debug.wfEngine.failedJobCount')}" 	sort="auto(failedJobCount)" />
+				<listheader hflex="min" label="${wtb:l('Debug.wfEngine.incidentCount')}" 	sort="auto(incidentCount)" />
+				<listheader hflex="1" 	label="${wtb:l('Debug.wfEngine.pdName')}" 			sort="auto(name)" />
+				<listheader hflex="min"	label="${wtb:l('Debug.wfEngine.pdCustomVersion')}" 	sort="auto(customVersion)" />
+				<listheader hflex="1" 	label="${wtb:l('Debug.wfEngine.pdId')}" 			sort="auto(id)" />
+			</listhead>
+		</listbox>
+		<listbox id="lbProcInstances" sclass="asg-listbox1" mold="paging" pageSize="5">
+			<auxhead>
+				<auxheader label="${wtb:l('Debug.wfEngine.piCaption')}" colspan="5" />
+			</auxhead>
+			<listhead sizable="true">
+				<listheader hflex="min" label="${wtb:l('Debug.wfEngine.jobCount')}" 		sort="auto(jobCount)" />
+				<listheader hflex="min" label="${wtb:l('Debug.wfEngine.failedJobCount')}" 	sort="auto(failedJobCount)" />
+				<listheader hflex="min" label="${wtb:l('Debug.wfEngine.incidentCount')}" 	sort="auto(incidentCount)" />
+				<listheader hflex="1" 	label="${wtb:l('Debug.wfEngine.activityId')}"		sort="auto(activityId)" />
+				<listheader hflex="1" 	label="${wtb:l('Debug.wfEngine.pdId')}" 			sort="auto(processDefinitionId)" />
+			</listhead>
+		</listbox>
+		<listbox id="lbJobs" sclass="asg-listbox1">
+			<auxhead>
+				<auxheader label="${wtb:l('Debug.wfEngine.jobsCaption')}" colspan="3" />
+			</auxhead>
+			<listhead sizable="true">
+				<listheader hflex="1" label="${wtb:l('Debug.wfEngine.simpleClassName')}" />
+				<listheader hflex="min" label="${wtb:l('Debug.wfEngine.jobRetryCount')}" />
+				<listheader hflex="5" 	label="${wtb:l('Debug.wfEngine.jobExceptionMessage')}" />
+			</listhead>
+		</listbox>
+		<listbox id="lbIncidents" sclass="asg-listbox1" >
+			<auxhead>
+				<auxheader label="${wtb:l('Debug.wfEngine.incidentsCaption')}" colspan="4" />
+			</auxhead>
+			<listhead sizable="true">
+				<listheader hflex="2"	label="${wtb:l('Debug.wfEngine.activityId')}" />
+				<listheader hflex="2"	label="${wtb:l('Debug.wfEngine.incidentTimeStamp')}" />
+				<listheader hflex="1"	label="${wtb:l('Debug.wfEngine.incidentType')}" />
+				<listheader hflex="6" 	label="${wtb:l('Debug.wfEngine.incidentMessage')}" />
+			</listhead>
+		</listbox>
+		<listbox id="lbTasks" sclass="asg-listbox1" >
+			<auxhead>
+				<auxheader label="${wtb:l('Debug.wfEngine.tasksCaption')}" colspan="5" />
+			</auxhead>
+			<listhead sizable="true">
+				<listheader hflex="1"	label="${wtb:l('Debug.wfEngine.taskName')}" 		sort="auto(name)"/>
+				<listheader hflex="2"	label="${wtb:l('Debug.wfEngine.taskDefKey')}" 		sort="auto(taskDefinitionKey)"/>
+				<listheader hflex="1"	label="${wtb:l('Debug.wfEngine.taskAssignee')}" />
+				<listheader hflex="2"	label="${wtb:l('Debug.wfEngine.taskCandidateUsers')}" />
+				<listheader hflex="3"	label="${wtb:l('Debug.wfEngine.taskCandidateGroups')}" />
+			</listhead>
+		</listbox>
+		<listbox id="lbVariables" sclass="asg-listbox1" mold="paging" pageSize="5">
+			<auxhead>
+				<auxheader id="headerVars" label="${wtb:l('Debug.wfEngine.varsCaption')}" colspan="3" />
+			</auxhead>
+			<listhead sizable="true">
+				<listheader hflex="1" label="${wtb:l('Debug.wfEngine.varType')}" 	sort="auto(value.class.simpleName)" />
+				<listheader hflex="2" 	label="${wtb:l('Debug.wfEngine.varName')}" 	sort="auto(LOWER(key))" id="lhVarName"/>
+				<listheader hflex="3" 	label="${wtb:l('Debug.wfEngine.varValue')}" />
+			</listhead>
+		</listbox>
+	</div>
+</window>

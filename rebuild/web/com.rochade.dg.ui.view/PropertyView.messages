@@ -1,0 +1,18 @@
+﻿#-------------------------------------------------------
+# Rochade WTB - Message file
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+### Icons: all images should be inside of dir /com.rochade.mg.ui.view/ + img/, see plugin.xml
+### END Icons
+
+WfItemTypesPropertyView.itemTypes=Item Types
+WfItemTypesPropertyView.status=Status
+
+WfItemTypesAddDialog.caption=Select Item Type
+WfItemTypesAddDialog.btFinish=Select
+WfItemTypesAddDialog.btCancel=Cancel
+

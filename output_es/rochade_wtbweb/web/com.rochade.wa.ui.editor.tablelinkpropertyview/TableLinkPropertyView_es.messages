@@ -1,0 +1,31 @@
+﻿# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+### Icons: all images should be inside of dir /com.rochade.wa.ui.editor.tablelinkpropertyview/ + img/, see plugin.xml
+
+#extra icons
+### END Icons
+
+TableLinkPropertyView.add=Agregar
+
+TableLinkPropertyView.footer=Ítems encontrados: {0}
+TableLinkPropertyView.visexpload=Ocurrió la excepción: VisInstantiationException recuperando las relaciones
+TableLinkPropertyView.rvlexpload=RVLException recuperando las relaciones
+TableLinkPropertyView.visexpdel=Ocurrió la excepción: VisInstantiationException durante la eliminación de las relaciones
+TableLinkPropertyView.rvlexpdel=RVLException eliminando las relaciones
+TableLinkPropertyView.srapexpdel=SrapException eliminando las relaciones
+
+TableLinkPropertyView.replaceOrIgnoreUniqueLinks=El atributo {0} es único y ya contiene vínculos a los objetos seleccionados. Deberían estos nuevos vínculos reemplazar a los viejos?
+
+RemoveLinkActionCellRenderer.MSG=¿Seguro quiere eliminar el ítem seleccionado del atributo Link?
+RemoveLinkActionCellRenderer.title=Eliminando ítem…
+RemoveDocumentLinkActionCellRenderer.MSG=Quiere eliminar el documento externo seleccionado?
+RemoveDocumentLinkActionCellRenderer.title=Eliminando documento externo…
+
+TableLinkPropertyViewUtils.SrapItemType=Atributo debe tener un tipo SrapItem
+TableLinkPropertyViewUtils.UnsupportedLinkType=TableLinkPropertyView no soporta atributos ordenados de vinculos ({0})
+TableLinkPropertyViewUtils.UnsupportedDomainType=Atributo ''{2}'' del tipo de dominio ''{0}'' debe ser Link o NameSpace (tipo de atributo:{1})

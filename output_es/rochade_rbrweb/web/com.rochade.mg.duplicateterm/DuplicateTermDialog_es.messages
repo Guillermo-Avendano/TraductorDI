@@ -1,0 +1,55 @@
+﻿# metaGlossary - Message file
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+# package: com.rochade.mg.createitem.DuplicateTermCreate
+#
+#-------------------------------------------------------
+
+### Icons: all images should be inside of dir /com.rochade.mg.duplicateterm/ + img/, see plugin.xml
+
+#extra icons
+### END Icons
+
+DuplicateTermCreateDialog.title=El ítem de negocio ya existe
+DuplicateTermCreateDialog.button.ok=Aceptar
+DuplicateTermCreateDialog.button.cancel=Cancelar
+
+# Case B
+DuplicateTermCreateDialogComposer.termExists.createAlternative=The business item already exists.
+# Case C
+DuplicateTermCreateDialogComposer.termAlreadyExistsInContext=The business item already exists in the context.
+# Case D
+DuplicateTermCreateDialogComposer.termExistsInContext.rejected=The creation of the business item has previously been rejected. You can reactivate the rejected item.
+# Case E
+DuplicateTermCreateDialogComposer.termExists.rejected=The creation of the business item has previously been rejected. You can reactivate the rejected item.
+
+DuplicateTermCreateDialog.createAlternative=Crear Alternativa de {0}
+DuplicateTermCreateDialog.openTerm=Abrir
+DuplicateTermCreateDialog.addContributor=Agregar contexto colaborador
+DuplicateTermCreateDialog.addViewer=Agregar veedor de contexto
+DuplicateTermCreateDialog.reactivate=Reactivate Business Item
+
+DuplButtonsCellRenderer.selectAction=Seleccionar:
+DuplButtonsCellRenderer.warning.title=Alerta
+DuplButtonsCellRenderer.warning=Esta operación descartará los cambios que Ud. hizo en la ventana Crear. Quiere proceder?
+
+ContextActionGroup.req.submitted=Su solicitud fue enviada a control.
+ContextActionGroup.req.alreadsubmitted=Ya hay una solicitud pendiente para el Contexto. Esta solicitud esta siendo revisada.
+
+AutoSuggestNameAttrView.addRef.completed=El elemento de negocio ahora está asociado por el contexto seleccionado.
+AutoSuggestNameAttrView.addOwnership.completed=The selected context has been added to governance control of the item.
+AutoSuggestNameAttrView.remOwnership.completed=The selected context has been removed from governance control of the item.
+AutoSuggestNameAttrView.createTerm.completed=Se ha creado el elemento de negocio {0}.
+AutoSuggestNameAttrView.emptyFailure=Nombre no puede ser vacio
+AutoSuggestNameAttrView.whiteSpaceFailure=Nombre no puede tener espacios en blanco en prefijos o sufijos.
+AutoSuggestNameAttrView.wildcardFailure=Nombre no puede tener asteriscos (*).
+AutoSuggestNameAttrView.semicolon=Los nombres no pueden iniciar con (;).
+AutoSuggestNameAttrView.reactivate.completed=El ítem comercial {0} se ha reactivado.
+AutoSuggestNameAttrView.reactivate.error=Error on reactivate Business item {0}. - {1}
+AutoSuggestNameAttrView.duplicateMsg=Item with the name {0} already exist. Create a alternative?
+AutoSuggestNameAttrView.newName=Por favor, ingrese un nombre nuevo.
+AutoSuggestNameAttrView.alreadyExists=Item with the name {0} already exist.
+
+HistoryView.taskLink=Click aqui para ver las tareas relacionadas

@@ -1,0 +1,57 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+metapp.is.title=Pesquisar
+
+#extra icons
+### END Icons
+
+SolrSearch.title=Pesquisar
+SolrSearch.configure=Configurar Pesquisa
+SolrSearch.addtitle=Adicionar o parâmetro de pesquisa
+SolrSearch.addsubtitle=Adicione a guia atual à sua lista de pesquisa.
+SolrSearch.edittitle=Editar parâmetro de pesquisa
+SolrSearch.editsubtitle=Editar o rótulo do parâmetro de pesquisa.
+SolrSearch.showDetailsTitle=Detalhes de Pesquisa 
+SolrSearch.showDetailsSubtitle=Exibir detalhes da entrada de pesquisa.
+SolrSearch.enterlabel=Digite um rótulo para a entrada de pesquisa:
+SolrSearch.context=A informação de contexto para esta pesquisa é:
+SolrSearch.addButton=Adicionar
+SolrSearch.okButton=OK
+SolrSearch.cancelButton=Cancelar
+SolrSearch.enter=OK/Adicionar (<Enter>)
+SolrSearch.esc=Cancelar (<Esc>)
+SolrSearch.warningctx=Alerta: O parâmetro de pesquisa com este contexto de informação já existe
+SolrSearch.errtitle=Erro: O parâmetro de pesquisa com este rótulo já existe. Especifique outro rótulo.
+SolrSearch.conftitle=Configurar Parâmetros de Pesquisa
+SolrSearch.confsubtitle=Editar, excluir, e trocar a ordem do parâmetro de pesquisa.
+SolrSearch.visible=Visível
+SolrSearch.label=Parâmetros de Pesquisa
+SolrSearch.up=Para Cima
+SolrSearch.down=Para Baixo
+SolrSearch.top=Início
+SolrSearch.bottom=Fim
+SolrSearch.edit=Editar
+SolrSearch.add=Adicionar
+SolrSearch.delete=Exclusão
+SolrSearch.confirmtitle=Confirma Exclusão
+SolrSearch.confirmmsg=Confirma a exclusão de parâmetro de pesquisa: {0}
+SolrSearch.confirmmsg.multi=Confirma a exclusão de {0} parâmetro(s) de pesquisa.
+SolrSearch.theLabelIs=O rótulo para o parâmetro de pesquisa é:
+
+
+SolrSearchConf.addParam=Adicionar
+SolrSearchConf.paramName=Nome
+SolrSearchConf.paramValue=Valor
+
+SolrSearch.load=Carga de Parâmetros de Pesquisa para Novas Aplicações
+SolrSearch.load.tip=Carga de Parâmetros de Pesquisa para Novas Aplicações
+
+SolrSearch.load.confirm.title=Carga da lista de Novos Parâmetros de Pesquisa
+
+SolrSearch.facetName=Nome
+SolrSearch.facetCount=Contagem

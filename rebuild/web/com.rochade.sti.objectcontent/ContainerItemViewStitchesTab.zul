@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="MG View" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<div use="com.rochade.wa.ui.view.BaseObjectView" sclass="asg-stitch-tab-stitches">
+	<div
+		use="com.rochade.sti.ui.view.propviews.StitchesContainerPropertyView"
+		id="StitchesTab">
+		<window title="" border="none" id="StitchesTabWindow"
+			onCreate="@command('onWindowCreate')"
+			apply="org.zkoss.bind.BindComposer"
+			viewModel="@id('vm') @init('com.rochade.sti.ui.view.model.ContainerStitchesViewModel')">
+			<grid span="true" visible="@bind(vm.editMode)">
+				<columns>
+					<column />
+					<column />
+				</columns>
+				<rows>
+					<row>
+						<cell colspan="2" valign="top">
+							<label
+								value="@bind(vm.srcQualifiedName) @converter('com.rochade.sti.ui.view.convert.TextConverter', prefix='STI_Source')"
+								tooltiptext="@bind(vm.srcQualifiedName) @converter('com.rochade.sti.ui.view.convert.TextConverter', prefix='STI_Source')"
+								multiline="true" sclass="asg-attribute-label-bold"/>
+						</cell>
+						<cell colspan="2" valign="top">
+							<label
+								value="@bind(vm.tgtQualifiedName) @converter('com.rochade.sti.ui.view.convert.TextConverter', prefix='STI_Target')"
+								tooltiptext="@bind(vm.tgtQualifiedName) @converter('com.rochade.sti.ui.view.convert.TextConverter', prefix='STI_Target')"
+								multiline="true" sclass="asg-attribute-label-bold"/>
+						</cell>
+					</row>
+					<row valign="top" align="left"
+						visible="@load(vm.srcLabelsAndValues.combo[21].visible or vm.tgtLabelsAndValues.combo[21].visible)">
+						<cell colspan="2">
+						<include height="100%" id="srcTables"
+								p="@ref(vm.srcLabelsAndValues.combo[21])"
+								src="${wtb:getInclude('/com.rochade.sti.objectcontent/combo.zul')}" />
+						</cell>
+						<cell colspan="2">		
+						<include height="100%" id="tgtTables"
+								p="@ref(vm.tgtLabelsAndValues.combo[21])"
+								src="${wtb:getInclude('/com.rochade.sti.objectcontent/combo.zul')}"/>
+						</cell>
+					</row>
+					<row valign="top" align="left">
+						<cell colspan="2">
+							<hbox vflex="1" hflex="1">
+								<label hflex="1"
+									visible="@load(vm.srcLabelsAndValues.combo[22].visible)"
+									value="@load(vm.srcLabelsAndValues.combo[22].label)" />
+								<textbox hflex="3" rows="1" id="srcColumn"
+									instant="true" name="asg-stitching-stitches-source-column-filter"
+									visible="@load(vm.srcLabelsAndValues.combo[22].visible)"
+									value="@bind(vm.srcLabelsAndValues.combo[22].filterValue)">
+								</textbox>
+							</hbox>
+						</cell>
+						<cell colspan="2">
+							<hbox vflex="1" hflex="1">
+								<label hflex="1"
+									visible="@load(vm.tgtLabelsAndValues.combo[22].visible)"
+									value="@load(vm.tgtLabelsAndValues.combo[22].label)" />
+								<textbox hflex="3" rows="1" id="tgtColumn"
+									instant="true" name="asg-stitching-stitches-target-column-filter"
+									visible="@load(vm.tgtLabelsAndValues.combo[22].visible)"
+									value="@bind(vm.tgtLabelsAndValues.combo[22].filterValue)">
+								</textbox>
+							</hbox>
+						</cell>
+					</row>
+					<row valign="top" align="left">
+						<button sclass="asg-button"
+							image="${wtb:getImg('search.img.search')}" style="float:right"
+							id="srcSearchButton" onClick="@command('srcSearch')"
+							label="${wtb:l('bg_SearchBT.button.search')}"
+							forward="onClick=searchContainer.onSearch" hflex="1"
+							disabled="@load(not vm.srcLabelsAndValues.combo[21].visible)" />
+						<label />
+						<button sclass="asg-button"
+							image="${wtb:getImg('search.img.search')}" style="float:right"
+							id="tgtSearchButton" onClick="@command('tgtSearch')"
+							label="${wtb:l('bg_SearchBT.button.search')}"
+							forward="onClick=searchContainer.onSearch" hflex="1"
+							disabled="@load(not vm.tgtLabelsAndValues.combo[21].visible)" />
+						<label />
+					</row>
+
+					<row>
+						<cell colspan="2" valign="top">
+							<listbox model="@bind(vm.srcStiCandidates)"
+								itemRenderer="com.rochade.sti.ui.view.renderer.SourceStiCandidateRenderer"
+								name="asg-stitching-source-candidates"
+								sclass="asg-stitching-source-candidates"
+								emptyMessage="${wtb:l('stitchTab.NoData')}" multiple="true"
+								checkmark="@load(not empty vm.srcStiCandidates)" mold="paging"
+								pageSize="5" selectedItems="@bind(vm.source)" >
+								<attribute name="onCheckSelectAll"><![CDATA[	vm.selectAllSrc();]]></attribute>
+								<listhead sizable="true">
+									<listheader label="" width="30px" 
+										visible="@bind(vm.editMode)" />
+									<listheader
+										label="${wtb:l('stitchTab.SourceElement')}" />
+									<listheader
+										label="@load(vm.srcLabelsAndValues.combo[20].value.name)">
+										<label
+											sclass="asg-stitching-text-attr-button asg-sti-source"
+											onClick="@command('selectSrcAttribute')"
+											tooltiptext="${wtb:l('STI_ConfigurableAttributeChooserComposer')}" />
+									</listheader>
+								</listhead>
+								<listfoot visible="@bind(vm.srcLabelsAndValues.combo[22].limited)">
+									<listfooter span="3" align="right" >
+										<label style="color: red; font-size: 12px;" value="@load(vm.srcLabelsAndValues.combo[22].limitedmsg)"/>
+									</listfooter>
+								</listfoot>
+							</listbox>
+						</cell>
+						<cell colspan="2" valign="top">
+							<listbox model="@bind(vm.tgtStiCandidates)"
+								itemRenderer="com.rochade.sti.ui.view.renderer.TargetStiCandidateRenderer"
+								name="asg-stitching-target-candidates"
+								sclass="asg-stitching-target-candidates"
+								emptyMessage="${wtb:l('stitchTab.NoData')}" multiple="true"
+								checkmark="@load(not empty vm.tgtStiCandidates)" mold="paging"
+								pageSize="5" selectedItems="@bind(vm.target)">
+								<attribute name="onCheckSelectAll"><![CDATA[	vm.selectAllTgt();]]></attribute>
+								<listhead sizable="true">
+									<listheader label="" width="30px"
+										visible="@bind(vm.editMode)" />
+									<listheader
+										label="${wtb:l('stitchTab.TargetElement')}" />
+									<listheader
+										label="@load(vm.tgtLabelsAndValues.combo[20].value.name)">
+										<label
+											sclass="asg-stitching-text-attr-button asg-sti-target"
+											onClick="@command('selectTgtAttribute')"
+											tooltiptext="${wtb:l('STI_ConfigurableAttributeChooserComposer')}" />
+									</listheader>
+								</listhead>
+								<listfoot visible="@bind(vm.tgtLabelsAndValues.combo[22].limited)">
+									<listfooter span="3" align="right">
+										<label style="color: red; font-size: 12px;" value="@load(vm.tgtLabelsAndValues.combo[22].limitedmsg)"/>
+									</listfooter>
+								</listfoot>
+							</listbox>
+						</cell>
+					</row>
+					<row>
+						<cell colspan="4">
+							<label value="${wtb:l('stitchTab.Rule')}" />
+							<textbox width="100%" rows="5" style="padding-left: 2px;"
+								name="asg-stitching-instruction-textbox"
+								value="@save(vm.instruction)" />
+						</cell>
+					</row>
+					<row>
+						<label />
+						<label />
+						<button style="float:right" id="addBtn" sclass="asg-button"
+							label="${wtb:l('stitchTab.Add')}" hflex="1"
+							onClick="@command('addStitches')" />
+						<button style="float:right" id="removeBtn" sclass="asg-button"
+							label="${wtb:l('stitchTab.Remove')}" hflex="1"
+							onClick="@command('removeStitches')" />
+					</row>
+				</rows>
+			</grid>
+			<include id="stitchesListGrid"
+				p="@ref(vm.container.stitches)"
+				src="${wtb:getInclude('/com.rochade.sti.objectcontent/stitchesList.zul')}" />
+		</window>
+	</div>
+</div>

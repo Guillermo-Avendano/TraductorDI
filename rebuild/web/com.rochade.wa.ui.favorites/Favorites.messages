@@ -1,0 +1,62 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.wa.ui.favorites
+#
+
+### Icons: all images should be inside of dir /com.rochade.wa.ui.favorites/ + img/, see plugin.xml
+
+#extra icons
+Favorites.img.favorites16=/com.rochade.wa.ui.favorites/img/Favorites16.gif
+Favorites.img.favorites24=/com.rochade.wa.ui.favorites/img/Favorites24.gif
+Favorites.img.configure=/com.rochade.wa.ui.favorites/img/Configure.gif
+Favorites.img.edit=/com.rochade.wa.ui.favorites/img/Edit.gif
+Favorites.img.delete=/com.rochade.wa.ui.favorites/img/Delete.gif
+Favorites.img.wizard=/com.rochade.wa.ui.favorites/img/WizardDefault.gif
+### END Icons
+
+Favorites.title=Favorites
+Favorites.configure=Configure
+Favorites.noneConfigured=You have no favorites configured
+Favorites.addtitle=Add to Favorites
+Favorites.addsubtitle=Add the current tab to your favorites list.
+Favorites.edittitle=Edit Favorite
+Favorites.editsubtitle=Edit the label of the favorites entry.
+Favorites.showDetailsTitle=Details of Favorite
+Favorites.showDetailsSubtitle=Display details of the favorites entry.
+Favorites.enterlabel=Enter a label for the favorites entry:
+Favorites.context=The context information of this favorites entry is: 
+Favorites.addButton=Add
+Favorites.okButton=OK
+Favorites.cancelButton=Cancel
+Favorites.enter=OK/Add (<Enter>)
+Favorites.esc=Cancel (<Esc>)
+Favorites.warningctx=Warning: A favorite entry with this context information already exists. 
+Favorites.errtitle=Error: A favorites entry with this label already exists. Please choose another label.
+Favorites.conftitle=Configure Favorites Entries
+Favorites.header=User Favorites Entries
+Favorites.confsubtitle=Edit, remove, and change the order of the favorites entries.
+Favorites.visible=Visible
+Favorites.label=Favorites Entry
+Favorites.up=Up
+Favorites.down=Down
+Favorites.top=Top
+Favorites.bottom=Bottom
+Favorites.edit=Edit
+Favorites.delete=Delete
+Favorites.details=Details
+Favorites.confirmtitle=Confirm Delete
+Favorites.confirmmsg=Confirm deletion of favorites entry: {0}
+Favorites.confirmmsg.multi=Confirm deletion of {0} favorites entries.
+Favorites.theLabelIs=The label for the favorites entry is:
+Favorites.restore.confirm.msg=Do you want to clear your favorites list?
+Favorites.restore.confirm.title=Clear Favorites List
+Favorites.restore=Clear Favorites
+Favorites.restore.tip=Clear Favorites
+

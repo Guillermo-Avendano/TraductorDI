@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="Glossary Listings" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<!-- 
+	@author ST 2018-01-15, created
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+<div>
+	<wtbGroupbox>
+		<wtbCaption actionId="DWR_Listings"/>
+		<wtbInclude componentName="entryTopicBA" implementsName="PathwaySubCategories"/>
+	</wtbGroupbox>
+	<wtbGroupbox visibleCondition="pathway.dwr.glossary.modification">
+		<wtbCaption actionId="DWR_GlossaryAdvancedArea"/>
+		<listbox nonselectableTags="*">
+			<wtbListitem actionId="DWR_CreateBusinessApplication" visibleCondition="RBR.pathway.entryTopicBA"/>
+		</listbox>
+	</wtbGroupbox>	
+</div>

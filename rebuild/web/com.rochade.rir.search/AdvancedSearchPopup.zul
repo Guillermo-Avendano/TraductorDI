@@ -1,0 +1,5 @@
+<popup sclass="asg-is-advancedSearchPopup" apply="com.rochade.rir.search.advancedPane.AdvancedSearchPopupComposer">
+	<!-- TRICK: The content will be loaded dynamically by the composer so the Params arguments could be forwarded to the AdvancedSearchPane content
+	<wtbInclude componentName="AdvancedIndexSearchPane" implementsName="AdvancedIndexSearch"/>
+	-->
+</popup>

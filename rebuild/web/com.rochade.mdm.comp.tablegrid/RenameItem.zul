@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="Grid View" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<!-- 
+	@author YA, July 3, 2014, created
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+<window id="editWindow"
+	apply="com.rochade.mdm.comp.tablegrid.modalwindows.RenameAbstractItem"
+	closable="true" border="normal" width="500px" sclass="asg-rename-reference-data-dialog">
+	<caption label="${wtb:l('TableGrid.renameWindow.title')}"
+		image="${wtb:getImg('rename.img')}" />
+	<div sclass="field1"
+		style="border-style: solid; border-width: 1px; border-color: ${wtb:l('asg-atlantic-second-color')};">
+		<hlayout valign="middle" >
+			<image id="warnImage" visible="false"
+				src="${wtb:getImg('warn.img')}" />
+			<label id="warnLabel" visible="false" style="padding:5px"/>
+		</hlayout>
+		<div style="padding:15px; background: white; " height="60px">
+			<vbox hflex="true">
+				<label
+					value="${wtb:l('TableGrid.renameWindow.newName')}"
+					sclass="asg-attribute-label-bold" />
+				<!-- 
+				<textbox id="nameTextbox" width="440px" />
+				 -->
+ 				<!-- EDI-9021 interims fix with maxlength -->
+				<textbox id="nameTextbox" width="440px" maxlength="512"/>
+			</vbox>
+		</div>
+		<hbox width="100%" widths="80%,10%,10%" style="padding:5px">
+			<label value=" "></label>
+			<button width="100px" id="saveButton"
+				label="${wtb:l('TableGrid.renameWindow.saveButton')}"
+				tooltiptext="${wtb:l('TableGrid.renameWindow.saveTooltip')}" />
+			<button width="100px" id="cancelButton"
+				label="${wtb:l('TableGrid.renameWindow.cancleButton')}"
+				tooltiptext="${wtb:l('TableGrid.renameWindow.cancleTolltip')}" />
+		</hbox>
+	</div>
+</window>

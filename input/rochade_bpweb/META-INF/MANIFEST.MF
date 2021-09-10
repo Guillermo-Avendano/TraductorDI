@@ -1,0 +1,320 @@
+Manifest-Version: 1.0
+Implementation-Title: com.rochade.bpa.rochade_bpweb
+Legal-TradeMarks: ASG-Rochade ® is a registered trademark of ASG GmbH
+  & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc.
+Implementation-Version: 9.92.001-0927
+Specification-Vendor: ASG GmbH & Co. KG, a wholly owned subsidiary of 
+ ASG Technologies Group, Inc.
+Gradle-Version: 4.10.2
+Created-By: 1.8.0_144
+Copyright: Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned s
+ ubsidiary of ASG Technologies Group, Inc. All rights reserved.
+Build-date: 20210521151811+0200
+Implementation-Vendor: ASG GmbH & Co. KG, a wholly owned subsidiary of
+  ASG Technologies Group, Inc.
+Build-number: 927
+Specification-Title: ASG-Rochade ® Business Package (_BP)
+Specification-Version: 9.92.001
+
+Name: web/com.rochade.bpa.navigator/BPNavMenu.zul
+SHA-256-Digest: 5AsZTMEgLPMnXR4sY4MdQaV1+VOExmP5fngIVQ9UneI=
+
+Name: web/com.rochade.bpa.capabilities/bpaCapabilities.messages
+SHA-256-Digest: P6HriwszrOe2Cqh1QJDTDJNgUGVacv5Hhg+veJR3jdA=
+
+Name: web/com.rochade.gdp.objectcontent/GDP_PIA_RightsOfDataSubjectsTa
+ b.zul
+SHA-256-Digest: 2fW0gmyIh0HzJP/0zRghlJhJBuS2Mbhm8nv6GJIQm88=
+
+Name: web/com.rochade.bpa.ui/BP_CombinedCreationSearchItemMask.zul
+SHA-256-Digest: H1BWXN2e+QkM4wQTrBAV53mfVxpydjyL9Z0UkWilO50=
+
+Name: web/com.rochade.bpa.action/img/data-quality-mng-v2.png
+SHA-256-Digest: rktFf1vPG7lE9qq9mu9bXR+q10aKSLg07/W+ctZOKt8=
+
+Name: web/com.rochade.gdp.ui/GDP_CreatePIAforAppl_SelectMenu.zul
+SHA-256-Digest: PHTZNX8FFDi8hE0YJc81/dcLdJaR3RKCCqZ1jjxJoQw=
+
+Name: web/com.rochade.bpa.editormenu/BICreateMenu.zul
+SHA-256-Digest: jgW5dJrctGHX2PBL7xf2TbyPPSrtYyn3m+lGYpDKWZI=
+
+Name: web/img/16x16_dqa.png
+SHA-256-Digest: /akS5/McRDyVIqrPYPPgCLZITdBJrb33xpmBYgJ1aDg=
+
+Name: web/com.rochade.gdp.objectcontent/GDP_Personal_Information_Tab_C
+ ascaded.zul
+SHA-256-Digest: Y4pL7MZo/uKHFJZ8Rrq+74pE/d1EzDov6EcmcacKYFc=
+
+Name: web/com.rochade.bpa.objectcontent/BP_Process_GeneralTab.zul
+SHA-256-Digest: bDOQDpw4La6pcBW91NMj6KF2mQaPinxc/Y9dyxhQDSI=
+
+Name: web/com.rochade.bpa.ctxmenu/MyBusinessItemPopup.zul
+SHA-256-Digest: xKuXqKz2GMVY02lttyRkv3Ruf0FDe6wA1q0NaWAJoMM=
+
+Name: web/com.rochade.bpa.ui.metadata/BusinessMetaData.messages
+SHA-256-Digest: 11at5Uvcu03mpdg93cYD7GsScr66DVsilLpcVq5Hh4E=
+
+Name: web/gdp.messages
+SHA-256-Digest: qe+mLkHqubFHDqWwEqV9ty1Q2RS8WnF0aByWweNHu44=
+
+Name: web/com.rochade.bpa.navigator/NavTree.messages
+SHA-256-Digest: PUgP4E1Ke64kTH0cK6GovU6VAVAjvbPJmVm89X7Awds=
+
+Name: web/com.rochade.bpa.objectcontent/BP_Policy_CombinedCreation_Tab
+ .zul
+SHA-256-Digest: 6EI4qmjuud72O97tay+EaLol1vMPpR4w0P76elRRfaE=
+
+Name: web/com.rochade.bpa.editormenu/BIEditorMenu.zul
+SHA-256-Digest: JzdMbqas6/d2zJJJ/wcdjBc1/zJriJn144+IEjGedm8=
+
+Name: web/com.rochade.gdp.navigator/Listing.zul
+SHA-256-Digest: /MVargLTbtdo9x0F+XkRTyVjAFAtJHk0590ikFhLNR4=
+
+Name: web/img/business_package.png
+SHA-256-Digest: rktFf1vPG7lE9qq9mu9bXR+q10aKSLg07/W+ctZOKt8=
+
+Name: web/com.rochade.bpa.ui.metadata/BusinessMetaDataDetails.zul
+SHA-256-Digest: E7vfTmRyER0CtHagY7+7jpg9NV1on1fkep4jsyP7cJQ=
+
+Name: web/com.rochade.gdp.objectcontent/GDP_PIA_ProportionalityAndNece
+ ssityTab.zul
+SHA-256-Digest: hEVZNrvIVk1Sy2SJu0Dr5H1coxpCaxIU/l0HI5hQ+d8=
+
+Name: web/com.rochade.bpa.objectcontent/BP_BusinessItem_DetailsTab.zul
+SHA-256-Digest: kUEYw0M0AtpZ8b0g/jNRmABaLhpIilq/zEPMvCidLxc=
+
+Name: web/com.rochade.bpa.objectcontent/BP_Standard_CombinedCreation_T
+ ab.zul
+SHA-256-Digest: PtvOjAg0hEZVI4OL9znoFvnxGshSOeC47muEG6fIR8Y=
+
+Name: web/com.rochade.gdp.ui/GDP_CascadedToLinkPropertyView.zul
+SHA-256-Digest: oeAOZ3yvFfrfm/hQCNqcnYClJPQ4TDO6MusS9I3GSrU=
+
+Name: web/com.rochade.gdp.objectcontent/GDP_Application_PIA.zul
+SHA-256-Digest: xwgXZFWCAyuarbJJShI8c8k2SxXAidaCqKVbJG6v/CU=
+
+Name: web/com.rochade.bpa.ctxmenu/BusinessMetaDataContext.zul
+SHA-256-Digest: u/Z9lvNwAHEUCgaBIAB/3bxNyiWmAByJgQ7oYETVwKo=
+
+Name: web/com.rochade.gdp.objectcontent/GDP_PIStructure_DetailsTab.zul
+SHA-256-Digest: Wo8dkJKc/H2BjPPplmZM3TI6LMv5BhIwLE8oXfb4ZOs=
+
+Name: web/com.rochade.gdp.ctxmenu/ContextCtx.zul
+SHA-256-Digest: lwfC0Cw7x40ZUqpEoFJX7+MpklJLfulWlPggbVxykPA=
+
+Name: web/com.rochade.gdp.ctxmenu/PIStructureCtx.zul
+SHA-256-Digest: b4XnfnADWde7TVTby0Rr89w7oLvkoA3UEEtcp4SYHaA=
+
+Name: web/com.rochade.gdp.objectcontent/gdpObjectContent.messages
+SHA-256-Digest: wozAyw4rVANsoZlodbXZJaaYJJRTBUIfYSTmojvu9v4=
+
+Name: web/com.rochade.gdp.ui/GDP_Application_MenuExtension.zul
+SHA-256-Digest: scFilrGfo79pDHZPsHkGSS5mQDvI0W6qeBBcRIQksYc=
+
+Name: web/com.rochade.gdp.ctxmenu/PICtx.zul
+SHA-256-Digest: nXE31GC4KyvCcjVRGclIEqPPmJJ/LZ3rQHgk0b/FHf4=
+
+Name: web/com.rochade.gdp.ui/gdpUI.messages
+SHA-256-Digest: gqu/pVxCSEXPsmP1V1GxvRhObmLzU4Bi7te6uYSSE1U=
+
+Name: web/com.rochade.bpa.action/action.messages
+SHA-256-Digest: uRFgbN2O3/s2SnCEsiZNhmtlNcQbqZP63SNg7ILj978=
+
+Name: web/com.rochade.gdp.report/Report.messages
+SHA-256-Digest: 0PJ6sjAiN5cXsEHqgivt+jiJbk1aeJuuw2i04JRBbW4=
+
+Name: web/com.rochade.gdp.objectcontent/GDP_Personal_Information_Tab_P
+ DE.zul
+SHA-256-Digest: hrRJnSbwyjuOL4bWG50QPaLr/la8p2Bo02OvQ/+DX1E=
+
+Name: web/com.rochade.bpa.businessitem.selecttype/SelectTypeModalWindo
+ w.messages
+SHA-256-Digest: opPHp4RVcQzgm9Hkj9wLQYr0qesPJA6GFt3NeJOZldc=
+
+Name: web/com.rochade.bpa.objectcontent/BP_BusinessRule_GeneralTab.zul
+SHA-256-Digest: 8IQj6yGyf1tcuOeK0M6hin9ZtaG37pIeZbZpdonZm7M=
+
+Name: web/com.rochade.bpa.objectcontent/BP_CustomItem_CombinedCreation
+ _Tab.zul
+SHA-256-Digest: 35NKBBVaiAuQskd1BMpSeFq2P/KYTVhMXUuwqLURnV4=
+
+Name: web/com.rochade.gdp.report/img/Configure.gif
+SHA-256-Digest: 4//+MWN+Sqxh0wzq4QZVv2Ru++pzcVj29SUci+Y4KDQ=
+
+Name: web/com.rochade.gdp.ctxmenu/GlossaryCtx.zul
+SHA-256-Digest: YpC0ej32oOfefl7lXmShSti8vhbi/H+eC1k13cAnmXY=
+
+Name: web/com.rochade.bpa.report/Param.messages
+SHA-256-Digest: cfC/o4ZNVbtwxEJ3p9Iaqr5zu67KYRUsP/5liS8aRy0=
+
+Name: web/com.rochade.gdp.actions/gdpAction.messages
+SHA-256-Digest: aF9v5iuvxOziQrWVMeRWs5gj5pd/i4SJnrjWk2A6Vhg=
+
+Name: web/com.rochade.bpa.objectcontent/BP_Policy_GeneralTab.zul
+SHA-256-Digest: i7Hq9IXwTk+Cg901KUaHXoFPaXY6IVhLIBNm18SpXY4=
+
+Name: web/com.rochade.bpa.businessitem.selecttype/SelectTypeModalWindo
+ w.zul
+SHA-256-Digest: xk7ItJ9bj/lCegYG+jUgqsRj7MIJLLIshCMP/qvnvN4=
+
+Name: web/com.rochade.bpa.ui.view/bpaView.messages
+SHA-256-Digest: z3lXvWTWIwxu/HlKEvzUulLWIBPISLulp92V60/j05Q=
+
+Name: web/com.rochade.bpa.report/Report.messages
+SHA-256-Digest: DEmx3thFLcL0b/Plns1T3dLWsx7fPuIDELZSi7qkr4I=
+
+Name: web/com.rochade.bpa.ui/BP_CombinedCreationSearchGlsCtxMask.zul
+SHA-256-Digest: xzOLzSXv3bRzPlVn++aCooFwH1vS7YCwNP4fQPQUsHE=
+
+Name: web/com.rochade.bpa.objectcontent/bpaObjectContent.messages
+SHA-256-Digest: OzJfc6eE5XMWgFz0O/Gx7VzbW3HFEZZ7TblrdNfWr2M=
+
+Name: web/com.rochade.gdp.objectcontent/GDP_PIA_OverviewTab.zul
+SHA-256-Digest: 3HQ8qUC90YfLOUoo9RSI6hKAdVbYQuzGpeiuR2TkNFY=
+
+Name: web/com.rochade.bpa.objectcontent/BP_Standard_GeneralTab.zul
+SHA-256-Digest: B7mG1rfGxLB9dqX89/LI4QcrRavl6Ku4NZp5Nb/1ZTk=
+
+Name: web/com.rochade.gdp.objectcontent/GDP_ControlRule_GeneralTab.zul
+SHA-256-Digest: N6NVeqBpkobkwxGZTqvCSyCNsRvDrJq71JV8eBg7rvw=
+
+Name: web/com.rochade.gdp.objectcontent/GDP_PI_ImplementationTab.zul
+SHA-256-Digest: IsoyOM0mEbEDQsd8G1OFMTU3E6Rj0JFEx3Ha+KzJ7zs=
+
+Name: web/com.rochade.bpa.objectcontent/BP_CriticalDataElement_Profile
+ Tab.zul
+SHA-256-Digest: io8jAHBz31o+HS6QU5CKOcartultIUzcY60fpGT0IBI=
+
+Name: web/com.rochade.gdp.objectcontent/GDP_PIA_RiskEvaluationTab.zul
+SHA-256-Digest: bohc2slc4EraeSt2oiKHHpqGdizZQwpwWpBP0wF0CV4=
+
+Name: web/bpa.messages
+SHA-256-Digest: wpL1EQVR3Rnt9JCCeN/lx9iN4lpueldL4vL3UCRvqOU=
+
+Name: web/com.rochade.gdp.ui/GDP_CreatePIAforAppl_Select.zul
+SHA-256-Digest: nU43AF/oN05n6CbAcRyGh2Br8LhjY5LD5A2zEpALpao=
+
+Name: web/com.rochade.bpa.report/LineageComparisonParam.zul
+SHA-256-Digest: KgI2J7Jmw+N5oAAzd1vmpnc8naQTxrzvjW7k4ARgrr4=
+
+Name: web/com.rochade.gdp.objectcontent/GDP_PersonalInformation_Combin
+ edCreation_Tab.zul
+SHA-256-Digest: OKrbAlT8rzHymsrWkzwznuudoltAltQC6UeScCUpsVs=
+
+Name: web/com.rochade.gdp.objectcontent/GDP_PI_GeneralTab.zul
+SHA-256-Digest: qYP5wHJUoncvvNhEgkgAy1sqQChqRfmHMUsz0JQlpVw=
+
+Name: web/com.rochade.bpa.objectcontent/BP_CriticalDataElement_Combine
+ dCreation_Tab.zul
+SHA-256-Digest: dyZ1ruiB4C0sn7KtVptnF4M16NAMe1eGafYQ9cUM52U=
+
+Name: web/com.rochade.gdp.objectcontent/GDP_PIStructure_GeneralTab.zul
+SHA-256-Digest: pRObDhanhJ0+4mJfxaTqo4L0e+qrYvCX40E7LPdUKGQ=
+
+Name: web/com.rochade.bpa.objectcontent/BP_Term_CombinedCreation_Tab.z
+ ul
+SHA-256-Digest: s7CtmcBakI9/DMK6tELmoKTmEnfLUYMyRCZif6+Q+RY=
+
+Name: web/com.rochade.gdp.objectcontent/GDP_PIA_DataAndSupportingAsset
+ sTab.zul
+SHA-256-Digest: Uaj4M/BFpDwOBSAVe+LNQK3kzh4C8lCDDhfUYZ8eOP0=
+
+Name: web/com.rochade.bpa.wizard/bpaWizard.messages
+SHA-256-Digest: d8/hQNhWXCV63wlN0SXKdfW6Lkl6oHDkItg4K6Gtkjc=
+
+Name: web/com.rochade.gdp.report/PIDetailsParams.zul
+SHA-256-Digest: 2rEW2eH/hz4q4rbF5NnaUHv/pdewndBcISVmm9XxDl4=
+
+Name: web/com.rochade.bpa.ctxmenu/BP_Context.zul
+SHA-256-Digest: UYnGkeS37BBzOP83t8BMxUSQ5feJd+7HOH3oTgu8TMI=
+
+Name: web/com.rochade.bpa.navigator/BusinessPackage.zul
+SHA-256-Digest: M+KP1dXPAa9jhRtwvhFmGD4/ebKypDZ4X/4lm227h7I=
+
+Name: web/com.rochade.bpa.objectcontent/BP_CombinedCreationTemplate.zu
+ l
+SHA-256-Digest: obQilLI5GAOLScec5iraw+oLdaWXX3XvEgE89CQiEcQ=
+
+Name: web/com.rochade.bpa.workflow/bpaWorkFlow.messages
+SHA-256-Digest: ZkpVInUqjM2Y5qFslMg9gFasFb5V7Va6ETM9ns8/vTE=
+
+Name: web/com.rochade.bpa.objectcontent/BP_CustomTimedItem_GeneralTab.
+ zul
+SHA-256-Digest: U+LNnvfZSfsMecJVneRCpHh7TVqUf1GeFFDVcoFg9A4=
+
+Name: web/com.rochade.bpa.ui/bpaUI.messages
+SHA-256-Digest: bRUWtG6mcKqXavACeNUhfvYkxxoZxx8rfPpmJlkACWY=
+
+Name: web/com.rochade.gdp.objectcontent/GDP_PI_DetailsTab.zul
+SHA-256-Digest: T7woUC6qZk3eITAZRX8FdUuuIm6X7mY+Nr/3JJnQRso=
+
+Name: web/com.rochade.gdp.ctxmenu/EventSourceOrPICategoryCtx.zul
+SHA-256-Digest: LRAzvGlix0mMW5jKzx1ZNCa1dnlO+brLvWBaMziK38s=
+
+Name: web/com.rochade.gdp.portlet/Portlet.messages
+SHA-256-Digest: EDYhN0yiz7H4KgnL7XrpfxIcQDwoT3iRZ6qOBW5LZqg=
+
+Name: web/com.rochade.bpa.ui.metadata/BusinessMetaData.zul
+SHA-256-Digest: 3ugAhpeNJo0sIvwlbuwQ9JVvSFznb9uDRtMiz3O1U08=
+
+Name: web/com.rochade.bpa.ui.metadata/BusinessMetaDataHeader.zul
+SHA-256-Digest: IDAGJtrgGYL3LeVaY0I1OwGUQRlXOBPesvjmg6neWTc=
+
+Name: web/com.rochade.bpa.objectcontent/BP_CriticalDataElement_General
+ Tab.zul
+SHA-256-Digest: 4dedXVwQe/k0fjmpHyOqSvRAkDRIUj+cg7f+bG8yJ78=
+
+Name: web/com.rochade.bpa.objectcontent/BP_BusinessRule_CombinedCreati
+ on_Tab.zul
+SHA-256-Digest: Gj3AhFXRaBwvgNqb/Z5w3M3A+51zRZdFdf/UNJd4R+0=
+
+Name: web/com.rochade.bpa.objectcontent/BP_BusinessContext_GeneralTab.
+ zul
+SHA-256-Digest: P0IpdPbL8e5tb8ffuopFApSINdONu/GjIFyd5ZC+BNY=
+
+Name: web/com.rochade.bpa.editormenu/BCCreateMenu.zul
+SHA-256-Digest: sNuTH4ANNNP9c5QvvKuQF5Sy8lXJxeqXqja3orVHR+s=
+
+Name: web/com.rochade.gdp.navigator/NavTree.messages
+SHA-256-Digest: SjgLpUcG2dm+eMlPCscZmpgQy5bzv0DiLO7w6iHwSW0=
+
+Name: web/com.rochade.bpa.objectcontent/BP_CriticalDataElement_Lineage
+ ComparisonTab.zul
+SHA-256-Digest: t1wEXkmHks0vGVoc6qMdU0K0urpgfI0yGpcFhxBKLHU=
+
+Name: web/com.rochade.bpa.portlet/CDEProfilesMetrics.messages
+SHA-256-Digest: 8EwTb/D8CIv2hPv42r3ImTnLDLNin2k+X2/ulN0WF1I=
+
+Name: web/com.rochade.bpa.objectcontent/BP_Process_CombinedCreation_Ta
+ b.zul
+SHA-256-Digest: 0AFKZzcBkGdkE+nWGr86EcJWZkuVj7bN2tRVV50tIc0=
+
+Name: web/com.rochade.bpa.action/img/OA05-new.gif
+SHA-256-Digest: yO9nDoQwZnhMwN2R6Hd+8JkVnhGza0Wfi76673f+C5Q=
+
+Name: web/com.rochade.bpa.editormenu/BCEditorMenu.zul
+SHA-256-Digest: 6EPknK2SleN274BYKKo2ziBltayPXtLo0djyuJQRnVo=
+
+Name: web/com.rochade.gdp.ui/GDP_PICatalogFilterPropertyDetails.zul
+SHA-256-Digest: CHkALMacHXknIB9mTdBPdHK4BXB7sGXJlLxgGX3byYA=
+
+Name: web/com.rochade.gdp.objectcontent/GDP_PIStructure_Implementation
+ Tab.zul
+SHA-256-Digest: ZrtNpFXL4YrLOWUZqDXkmRRfzmAOOy4ML8XE8BPzEzc=
+
+Name: web/com.rochade.gdp.objectcontent/GDP_PIA_RiskSourcesTab.zul
+SHA-256-Digest: yynQWBs9RXh4le14o4M6r76F/5pPqf6HSz4/TDHy3VA=
+
+Name: web/com.rochade.gdp.report/Param.messages
+SHA-256-Digest: GFeLaaXIkJOcsAfxUmFylmlDtbocGcJhNqHTgspazSQ=
+
+Name: web/com.rochade.gdp.objectcontent/GDP_PIA_ExistingAndPlannedMeas
+ uresTab.zul
+SHA-256-Digest: 8Y1ITm3T6esSBSuDdJne4pyxRuytbcId1gRgNCBUV/8=
+
+Name: web/com.rochade.bpa.objectcontent/BP_CustomItem_GeneralTab.zul
+SHA-256-Digest: K852tYnv4ue0xAgGl4yqETjtvDDTzhA1Sd0TD1K7TcU=
+
+Name: web/com.rochade.gdp.objectcontent/GDP_LinkedWithMG_Tab.zul
+SHA-256-Digest: 81B36us9PmHI0V78JICEQpnnbJCMcBg8/R7MJ2A+u0Y=
+

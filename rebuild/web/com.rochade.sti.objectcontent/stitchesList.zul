@@ -1,0 +1,30 @@
+<grid sclass="asg-stitches-grid">
+	<rows sclass="asg-stitches-grid-rows">
+		<row>
+			<label value="${wtb:l('rulesTab.previewStitches')}" sclass="asg-attribute-label-bold"/>
+		</row>
+		<row sclass="asg-stitches-grid-listbox-row">
+			<listbox model="@bind(p)" name="asg-stitching-stitches-list"
+				sclass="asg-stitches-list"
+				emptyMessage="${wtb:l('rulesTab.NoStitches')}" multiple="true"
+				mold="paging" pageSize="10" sizedByContent="false" span="false"
+				selectedItems="@bind(vm.container.stitchesSelected)"
+				checkmark="@bind(vm.editMode and not empty p)"
+				itemRenderer="com.rochade.sti.ui.view.renderer.StitchesListItemRenderer">
+				<listhead sizable="true" sclass="asg-stitches-head">
+					<listheader label="" width="30px"
+						visible="@bind(vm.editMode and not empty p)" />
+					<listheader
+						label="${wtb:l('stitchTab.SourceElement')}" />
+					<listheader
+						label="${wtb:l('stitchTab.SourceStruct')} " />
+					<listheader label="${wtb:l('stitchTab.Rule')}" />
+					<listheader
+						label="${wtb:l('stitchTab.TargetElement')}" />
+					<listheader
+						label="${wtb:l('stitchTab.TargetStruct')}" />
+				</listhead>
+			</listbox>
+		</row>
+	</rows>
+</grid>

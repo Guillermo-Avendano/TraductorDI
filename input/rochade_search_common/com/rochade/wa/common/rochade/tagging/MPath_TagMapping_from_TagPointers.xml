@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report
+	name="TagMapping_from_TagPointers"
+	version=""
+	timestamp="2016/12/20 09:10:01"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://www.rochade.com/queries/mpath.xsd">
+	<type id="_0" name="RO_TAG_POINTER" isstart="true" includeSubTypes="true">
+		<segment dir="to" type="_1" name="DWR_TAG">
+			<attribute include="RO_TAGGED"/>
+		</segment>
+		<segment dir="from" type="_2" name="RO_TAGGABLE_ITEM">
+			<attribute include="_UNCLASSIFIED_"/>
+		</segment>
+	</type>
+	<type id="_1" name="DWR_TAG" includeSubTypes="true">
+	</type>
+	<type id="_2" name="RO_TAGGABLE_ITEM" includeSubTypes="true">
+	</type>
+</report>

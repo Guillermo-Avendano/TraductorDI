@@ -1,0 +1,79 @@
+﻿# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+### Icons: all images should be inside of dir /com.rochade.wa.metanote/ + img/, see plugin.xml
+
+#extra icons
+Landingpage.img.closePortal=/com.rochade.wa.ui.landingpage/img/close_button.jpg
+### END Icons
+
+Landingpage.title=Tablero
+Landingpage.edit=Configurar
+Landingpage.edittitle=Configurar Portal
+Landingpage.subtitle=Seleccionar los portlets que se desea mostrar en el Tablero.
+Landingpage.portlets=Portlets disponibles para todas las aplicaciones
+Landingpage.error=Los siguientes portlets no se pueden cargar: \n {0} \n Por favor ver detalles en el registro (Log). Puede desactivarlo con el botón Configurar.
+Landingpage.missing=No se ha encontrado el portlet "{0}". Verifique la configuración.
+Landingpage.disabled=El portlet "{0}" no se muestra, ya que está deshabilitado de capacidades.
+Landingpage.invalidModel=The portlet "{0}" is not shown, because the model does not contain required item types or attributes. 
+Landingpage.openPortal=Abrir Portal
+Landingpage.closePortal=Cerrar Portal
+Landingpage.openHelp=Buscar Ayuda
+Landingpage.closeHelp=Cerrar Ayuda
+Landingpage.portal=Portal
+Landingpage.edit.commontab.title=Común
+Landingpage.edit.metrics.title=Métricas
+Landingpage.edit.metrics.noAuditReporting=Audit Reporting is not enabled or has not been run.
+Landingpage.restore.confirm.msg=¿Quiere restaurar los valores predeterminados de los portlets?
+Landingpage.restore.confirm.title=Rest.Predeterminados
+Landingpage.startedHead=Comenzar con su tablero de información.
+Landingpage.startedText=Your Dashboard can house multiple portlets, each serving a specific purpose.\nYou can list your favorites, add a quick search function for business terms, and display a multitude of configurable live views of your data stock.\n\nClick Configure to add the first portlet to your Dashboard.
+Landingpage.mycharts=Mis Gráficas
+Landingpage.mycharts.hint=Note: The following checkboxes control the visibility of the charts.\nClicking on the X icon will delete the chart permanently. 
+Landingpage.mycharts.empty=La lista de "Mis Gráficos" está vacía.
+Landingpage.delete=¿Quiere eliminar este gráfico de forma permanente?
+Landingpage.delete.header=Eliminando gráfico
+Landingpage.delete.tooltip=Eliminar este gráfico de forma permanente
+Landingpage.portletsloaded=Todos los portlets fueron cargados.
+
+# buttons
+Landingpage.ok=Aceptar
+Landingpage.cancel=Cancelar
+Landingpage.restore=Rest.Predeterminados
+
+# tooltips
+Landingpage.enter=Aplicar (<Enter>)
+Landingpage.esc=Cancelar (<Esc>)
+Landingpage.altC=Configurar (Alt-C)
+Landingpage.altP=Portlets disponibles (Alt-P)
+Landingpage.restore.tip=Rest.Predeterminados
+
+### --- TODO --- Don't have Search.XXX=aquí en LandingPage ---
+# search help text
+SearchHelp.SearchOperators.Header=Operadores de búsqueda:
+SearchHelp.SearchOperators.And=Y \n mas
+SearchHelp.SearchOperators.And.Text=Buscar las entidades que contienen todos los términos especificados. Este operador se agregar implícitamente entre los términos que aún no tienen un operador de búsqueda y no están entre comillas. \nEjemplo: Meta AND Datos AND tipo
+SearchHelp.SearchOperators.Or=OR\n ||
+SearchHelp.SearchOperators.Or.Text=Buscar las entidades que contienen al menos uno de los términos de búsqueda: \nEjemplo. (Metadatos o datos) y el tipo
+SearchHelp.SearchOperators.Not=NOT\n -
+SearchHelp.SearchOperators.Not.Text=Buscar las entidades que no contienen el término de búsqueda que sigue a este operador. \nEjemplo: datos AND tipo AND NOT metadatos
+SearchHelp.Wildcards.Header=Comodines:
+SearchHelp.Wildcards.star=*
+SearchHelp.Wildcards.star.Text=Representa cero o más caracteres. se añade de forma implícita este comodín al principio y al final de los términos de búsqueda que aún no tienen comodines (es decir, el término "*ab*" dará lugar a los mismos resultados que "ab" sin los asteriscos).
+SearchHelp.Wildcards.questionmark=?
+SearchHelp.Wildcards.questionmark.Text=Representa exactamente un carácter.
+SearchHelp.Wildcards.backslash=\
+SearchHelp.Wildcards.backslash.Text=Utilice caracteres de escape para asteriscos, signos de interrogación, barra inversa para buscar entidades que contienen estos caracteres.\nEjemplos:\n Rochade \?\n, C:\\Archivos de Programa\\Rochade
+SearchHelp.Quotes.Header=Citas:
+SearchHelp.Quotes.term="term"
+SearchHelp.Quotes.term.Text=Busca las entidades que coincidan exactamente con los términos de búsqueda entre comillas. Puede utilizar comodines dentro de las comillas para completar los blancos. \n Ejemplos:\n "tasa * anual", encuentra los términos que tienen "tasa de interés anual" o "tasa porcentual anual", etc.
+ 
+SearchMain.Search=Buscar
+SearchMain.SearchMainTitle=Buscar en Rochade
+SearchMain.SearchMainFor=Buscar:
+SearchMain.SearchMainCategory=Categoría:
+    

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="Type Tree" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<!--
+	@author SB 05/05/2014, created
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+-->
+<hbox width="100%"  align="center" pack="right" sclass="asg-navmenubar-hbox">
+	<menubar sclass="asg-navmenubar-hor asg-mainmenubar-hor">
+		<menuitem actionId="STI_NewStitchingContainerSidebar" visibleCondition="canCreateStiSystem" sclass="asg-stitching-new-container-button-sidebar"/>
+		<!-- menuitem actionId="WTB_NavRefresh" visibleCondition="Navigation.refresh" sclass="asg-stitching-refresh-button-sidebar"/ -->
+	</menubar>
+</hbox>

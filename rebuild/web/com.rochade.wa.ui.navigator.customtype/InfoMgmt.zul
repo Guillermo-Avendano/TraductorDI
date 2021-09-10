@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="Type Tree" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<!-- 
+	@author HG 30/07/2012, created
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+
+<div apply="com.rochade.wa.ui.navigator.customtype.InfoMgmtComposer">
+	<wtbGroupbox id="gbListing" visibleCondition="pathway.customType.subEntry.Listing">
+		<caption label="${wtb:l('IM-Listing.lbl')}" tooltiptext="${wtb:l('IM-Listing.lbl')}"/>
+		<listbox id="lbListing" nonselectableTags="*"/>
+	</wtbGroupbox>
+	<wtbGroupbox id="gbManage" visibleCondition="pathway.customType.subEntry.Create">
+		<caption label="${wtb:l('IM-Manage.lbl')}" tooltiptext="${wtb:l('IM-Manage.lbl')}"/>
+		<listbox id="lbManage" nonselectableTags="*"/>
+	</wtbGroupbox>
+</div>

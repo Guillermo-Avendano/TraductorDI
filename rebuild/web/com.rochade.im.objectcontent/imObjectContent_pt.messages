@@ -1,0 +1,40 @@
+﻿#-------------------------------------------------------
+# Issue Management messages
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+IssueGeneralTab.Status=Estado:
+IssueGeneralTab.ManagedBy=Gerenciado por:
+IssueGeneralTab.RequestedBy=Solicitado por:
+IssueGeneralTab.Title=Título:
+IssueGeneralTab.Description=Descrição:
+IssueGeneralTab.Priority=Prioridade:
+IssueGeneralTab.AssignedObject=Objeto Atribuído:
+BusinessRelevantItemIssuesTab.ISM_HAS_ISSUES=Casos Relacionados
+
+#------Issue priorities-----
+IssueGeneralTab.Critical=Crítico
+IssueGeneralTab.Enhancement=Aprimoramento
+IssueGeneralTab.High=Alto
+IssueGeneralTab.Medium=Médio
+IssueGeneralTab.Minor=Menor
+
+issue.addComment=Adicionar Comentário
+issue.commentNumber=Comentário #
+issue.commentFrom=De:
+issue.commentSave=Salvar
+issue.commentCancel=Cancelar
+issue.emptyComment.msg=Por favor, digite um comentário
+issue.emptyComment.title=Aviso
+
+Tab.Comment=Atividade
+Tab.Attachments=Anexos
+Tab.Issues=Casos
+
+IM_ErrorDuringCreatingComment=Erro ao criar comentário
+IM_ErrorDuringReadingIssueComments=Erro ao ler comentários do caso
+
+IssueCommentTab.AddedAttachment=Anexo adicionado:
+IssueCommentTab.RemovedAttachment=Anexo removido:

@@ -1,0 +1,21 @@
+<div use="com.rochade.wa.ui.view.BaseObjectView"
+	sclass="asg-tab-content-div asg-reference-data-hierarchy-management-tab" >
+	<grid style="border: 0px; padding: 10px; background: #FFFFFF;">
+		<columns style="background: transparent">
+			<column width="100%" />
+		</columns>
+		<rows style="background: transparent; ">
+			<row valign="top"
+				style="border: 0px; background: transparent; padding-top: 10px">
+				<label value="${wtb:l('DC.ParentHierarchy')}:"
+					sclass="asg-attribute-label-bold" />
+			</row>
+			<row valign="top" align="left"
+				style="border: 0px; background: transparent; padding: 10px 5px">
+				<!-- id starts from x - it's a trick to force loading this property view after ReferenceData grid where model is being loaded -->
+				<div id="xHierarchyManagement"
+					use="com.rochade.mdm.comp.tablegrid.hierarchymanagement.HierarchyManagementGrid" />
+			</row>
+		</rows>
+	</grid>
+</div>

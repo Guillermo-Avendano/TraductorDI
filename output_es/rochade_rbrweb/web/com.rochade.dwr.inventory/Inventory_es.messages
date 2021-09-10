@@ -1,0 +1,33 @@
+﻿# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+inventory.parameter.title=Inventory Query Parameter
+inventory.parameter.subtitle=Specify the parameters for running the inventory.
+inventory.parameter.property=Parámetro
+inventory.parameter.value=Valor
+inventory.parameter.runButton=Ejecutar
+inventory.parameter.cancelButton=Cancelar
+inventory.parameter.resetButton=Reestablecer
+
+inventory.result.title=Inventario
+inventory.result.header=Inventory for
+inventory.result.interruptAll=Interrupt all Counts
+inventory.result.interrupt=Interrupt
+inventory.result.refresh=Refrescar
+inventory.result.publishAsReport=Result in Report
+inventory.result.type=Tipo
+inventory.result.number=Número de ítems
+inventory.result.status=Estado
+inventory.result.count.complete=Counting completed
+inventory.result.count.running=Counting ...	
+inventory.result.count.interrupted=Counting interrupted
+inventory.result.count.error=Error when counting, function is cancelled
+inventory.result.noCountTypes=No types are defined for which items should be counted
+inventory.result.drilldownTitle={0} Items
+
+inventory.config.exception=Exception while reading control item for area {0}
+inventory.config.notFound=Control item for area {0} not found or empty

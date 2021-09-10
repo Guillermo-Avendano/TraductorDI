@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="Technical Data" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+
+<window	apply="com.rochade.mg.ui.view.TechnicalDataLinkPropertyViewComposer" sclass="asg-rochade-wa-ui-editor-tablelinkpropertyview">
+
+	<zscript><![CDATA[
+		Map parg = Executions.getCurrent().getArg();
+		String tableShape = (String) parg.get("tableShape");
+		String viewMenu = (String) parg.get("viewMenu");
+		String viewType = (String) parg.get("viewType");
+		Boolean footerVisible = (Boolean) parg.get("footerVisible");
+		boolean showTree = "Tree".equals(viewType);
+		boolean showTable = !showTree;
+	]]></zscript>
+
+	<toolbar id="tb" >
+		<toolbarbutton id="tbVerify" 
+			actionId="MG_DetectTechVerify" labelMode="true"
+			style="font-size:10px; color: ${wtb:l('label-color')};" />
+		<toolbarbutton id="tbUndoVerify" 
+			actionId="MG_DetectTechUndoVerify" labelMode="true" 
+			style="font-size:10px; color: ${wtb:l('label-color')};" />
+		<toolbarbutton id="tbIgnore" 
+			actionId="MG_DetectTechIgnore" labelMode="true"
+			style="font-size:10px; color: ${wtb:l('label-color')};" />
+		<toolbarbutton id="tbRegard" 
+			actionId="MG_DetectTechRegard" labelMode="true"
+			style="font-size:10px; color: ${wtb:l('label-color')};" />
+	</toolbar>
+	<div id="mbar" sclass="asg-menubar-right-aligned">
+		<menubar style="background:none; border:none; padding-top:2px">
+			<menu actionId="MG_DetectTechOrganize">
+				<menupopup>
+					<menuitem id="miSel" actionId="WTB_SelectAll" />
+					<menuitem id="miDesel" actionId="WTB_DeselectAll" />
+					<menuitem id="miInvert" actionId="WTB_InvertSelection" />
+				</menupopup>
+			</menu>
+		</menubar>
+	</div>
+	<listbox  emptyMessage="No items match your search" id="linkTable"
+		use="com.rochade.wa.view.table.WABaseTable"
+		viewMenu="${viewMenu}"
+		tableShape="${tableShape}"
+		footerLabel="${wtb:l('TableLinkPropertyView.footer')}"
+	    multiple="true"
+	    checkmark="true"
+	    defaultActionTriggeredOnDoubleClick="true"
+		defaultActionTriggeredOnSingleClick="false"
+		defaultActionTriggeredOnEnter="true"
+		if="${showTable}"
+		footerVisible="${footerVisible}">
+	</listbox>
+</window>

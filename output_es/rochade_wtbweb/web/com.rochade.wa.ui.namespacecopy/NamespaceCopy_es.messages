@@ -1,0 +1,57 @@
+﻿# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.wa.ui.namespacecopy
+#
+### Icons: all images should be inside of dir /com.rochade.wa.metanote/ + img/, see plugin.xml
+
+#extra icons
+### END Icons
+
+#TODO: who uses this ?
+#NamespaceCopy.icon_item=Item.gif
+NamespaceCopy.name=Nombre
+NamespaceCopy.type=Tipo
+
+NamespaceCopy.currappl=Subject Area actual:
+NamespaceCopy.curnamespace=Espacio de nombres actual:
+NamespaceCopy.backbutton=< Volver
+NamespaceCopy.nextbutton=Siguiente>
+NamespaceCopy.finishbutton=Finalizar
+NamespaceCopy.cancelbutton=Cancelar
+NamespaceCopy.changebutton=Cambiar...
+NamespaceCopy.nonstargets=No hay espacios de nombres destino disponibles
+NamespaceCopy.alreadyexists=El Item {0} ya existe.
+NamespaceCopy.enter=<Enter>: Finalizar
+NamespaceCopy.altB=Alt-B: Negro
+NamespaceCopy.altN=Alt-N: Siguiente
+NamespaceCopy.esc=<Esc>: Cancelar
+NamespaceCopy.idlocked=ítem está bloqueado en esta Subject Area.
+NamespaceCopy.somelocked=Algunos de los ítems seleccionados ya están bloqueados.
+NamespaceCopy.somelocked1=¿Le gustaría omitir estos ítems y continuar?
+NamespaceCopy.allexists=Todos los ítems seleccionados ya existen.
+NamespaceCopy.nscopyerr=Error al copiar el ítem {0} para el espacio de nombres {1}
+NamespaceCopy.errcopying=Error al copiar el ítem {0}
+
+NamespaceCopy.title=Copiar ítems al Espacio de nombres
+NamespaceCopy.desc=Seleccione un espacio de nombres para la copia
+NamespaceCopy.header=Item de Namespace
+NamespaceCopy.summary=Página de Resumen
+NamespaceCopy.summarydesc=Seleccione un atributo de espacio de nombres, a continuación, haga clic en Finalizar para copiar los ítems.
+NamespaceCopy.rootns=Utilizar como espacio de nombres raíz
+NamespaceCopy.itemns=Utilice un ítem como espacio de nombres
+NamespaceCopy.newns=Nuevo espacio de nombres:
+NamespaceCopy.excludeitems=Excluyendo la lista de ítems ya existentes.
+NamespaceCopy.items=Los siguientes ítems
+NamespaceCopy.copied=Se copian en el espacio de nombres
+NamespaceCopy.unclassified=Como un miembro de un espacio de nombres no clasificado
+NamespaceCopy.nsattr=En el atributo
+NamespaceCopy.nslockfailure=Los ítems no pudieron ser bloqueados.
+NamespaceCopy.err=Error al copiar el ítem al espacio de nombres {0}.
+NamespaceCopy.info=Información
+NamespaceCopy.errAction=Error al realizar la acción espacio de nombres {0}.

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page id="start" title="appl extension men" contentType="text/html;charset=UTF-8"?>
+<!-- 
+	@author ST 2018-05-03, created
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 	
+-->
+<editormenu>
+	<menubar style="background:none; border:none; ">
+		<menuitem actionId="GDP_CreatePIAforAppl" visibleCondition="GDP_CreatePIAforAppl.visible" />
+	</menubar>
+</editormenu>

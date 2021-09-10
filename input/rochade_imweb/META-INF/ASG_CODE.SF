@@ -1,0 +1,82 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: qNnvx6aK+42e2PUF5TRA4Tx7oyr8T
+ 65nBega0kl38+0=
+SHA-256-Digest-Manifest: afP0He1bYgMXTPItzPkoSNfiFzx+GyMaX6SVPiI2zLM=
+Created-By: 1.7.0_65 (Oracle Corporation)
+
+Name: web/com.rochade.im.objectcontent/imObjectContent.messages
+SHA-256-Digest: BlpHWCgStdsQMqT4grSW5gGe9+QAgGNos1T7sVEalwE=
+
+Name: web/com.rochade.im.navigator/NavTree.messages
+SHA-256-Digest: VVYwgYP/etJDpMbcGn4nJtZ1BNif9aYG6NFwr69i4tg=
+
+Name: web/com.rochade.im.editormenu/IssueCreateMenu.zul
+SHA-256-Digest: QdejtPORsj2Xz823w+pOqVYWD0ZbPU2LmL333A9z1Dw=
+
+Name: web/com.rochade.im.objectcontent/BusinessRelevantItemIssuesTab.z
+ ul
+SHA-256-Digest: mCvIyq4Jv2TvSKgU66I8p57hJ7mJFjDKCCfjGWjuJAk=
+
+Name: web/com.rochade.im.navigator/img/24x24_IssueManagement.png
+SHA-256-Digest: DDHSXDMk6XXUbecpFReSTSIvgTBEXn3gzWyYROHik9Q=
+
+Name: web/com.rochade.im.editormenu/IssueEditorMenu.zul
+SHA-256-Digest: GCzkTuGwtlvY6tTk0u9t73A6hU/1xCRbKi46JiptZcc=
+
+Name: web/com.rochade.im.navigator/IssueEntryQuery.zul
+SHA-256-Digest: LtwZqtKhehgfk8gBO3fNjyTwZTvNqKrS5CUj32EoXP0=
+
+Name: web/com.rochade.im.objectcontent/IssueAttachmentsTab.zul
+SHA-256-Digest: a501bVq1lv1MRZMERc7s54C5AI1CgTMh9tyfW0nDwVg=
+
+Name: web/com.rochade.im.ctxmenu/IM_IssuePopup.zul
+SHA-256-Digest: EHSng3A5b7j5vMP75GJAB3WRptVEkyvgaGm3bEdb6Cw=
+
+Name: web/com.rochade.im.navigator/EntryTopicIM.zul
+SHA-256-Digest: 2j304MgHr31PuO6v8x6vdWKh+O57Xsym4JUahdvkavY=
+
+Name: web/com.rochade.im.navigator/img/16x16_IssueManagement.png
+SHA-256-Digest: Zxq53XB+Y9SYQfQa2g+08ZOAhe4umMAsoDQzlQtFG9I=
+
+Name: web/com.rochade.im/imWeb.messages
+SHA-256-Digest: gDDI0rddr+2XBxJxN1H3ilNPddgizwZejVHC2gO7EmQ=
+
+Name: web/com.rochade.im.objectcontent/IssueGeneralTab.zul
+SHA-256-Digest: qvrEmGbpnuZ5y5JhJMN3TCnJP40M/8Xd/LcohuwvrVI=
+
+Name: web/com.rochade.im.comp.issue/imCompIssue.messages
+SHA-256-Digest: Vu7eAUvwM2IOmjEROWWoRchSV1fuffdZCs+Jc49Wxrc=
+
+Name: web/com.rochade.im.domain/imDomain.messages
+SHA-256-Digest: YasxtfdO/WmKG3QOSIdKb3UM9d5ZMasJtvuC/KqbMVQ=
+
+Name: web/com.rochade.im.query/imQuery.messages
+SHA-256-Digest: QkOjY2VYfm/YeyS/M2u8uoy7kMzVQ/UZYGZHE5lpAeQ=
+
+Name: web/com.rochade.im.objectcontent/IssueCommentTab.zul
+SHA-256-Digest: R4xAC8OHCegOJ4KTaJmJh96Dqg43EBYA2RZxgB8P99c=
+
+Name: web/com.rochade.im.ctxmenu/IM_CreateIssuePopup.zul
+SHA-256-Digest: KfR2lC/HWliBS4SYlZ9/mjk91MAfezYHGYd8VxnYza8=
+
+Name: web/com.rochade.im.actions/imAction.messages
+SHA-256-Digest: B/Td4jc8fQFfNvkco17B3gwhGlrlqqzC/UeLLAm+LXU=
+
+Name: web/com.rochade.im.capabilities/imCapabilities.messages
+SHA-256-Digest: fGWISskaR8sZwlYIRsx0QS86t/YAvJ3wvAE1iDJVhOY=
+
+Name: web/com.rochade.im.workflow/IssueWfDialog.zul
+SHA-256-Digest: 1SYW12agBHXTmmp+Ttb82upEns46F/EFIi6raXLA224=
+
+Name: web/com.rochade.im.workflow/imWorkflow.messages
+SHA-256-Digest: sglsLV2j4hIsMjWYHjnZ4NZbUncvnTWUWumPF6LWE64=
+
+Name: web/com.rochade.im.comp.issue/AdvancedIssuesFilter.zul
+SHA-256-Digest: fQ1T2kblFzmuPuPxwSyb8oqEFCf8KBfp5Uu3IEQAgGo=
+
+Name: web/com.rochade.im.editormenu/EditorMenuExt_im.zul
+SHA-256-Digest: 9ML7R++W1B5SCb0QM/F7pXS28yVdi0R8AXx1iu2jJHQ=
+
+Name: web/com.rochade.im.objectheader/ObjectHeader.zul
+SHA-256-Digest: a2LdOx6DNqAp0sV9PyqHR6Woma2YB3mTIiyKsh/xLaI=
+

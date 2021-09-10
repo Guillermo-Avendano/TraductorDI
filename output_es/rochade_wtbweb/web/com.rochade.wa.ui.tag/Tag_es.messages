@@ -1,0 +1,74 @@
+﻿# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+### tag view/edit related
+tag.emptyMsg=Tipo o etiqueta seleccionada
+tag.emptyMsg.create=Tipo o etiqueta seleccionada (existentes o nuevos)
+tag.none=Ninguna
+tag.noResultMsg=Ninguna etiqueta de este tipo: {0}
+tag.createMsg=Presiona la tecla Enter para crear una nueva etiqueta: {0}
+tag.editor.lbl=Tags
+tag.createTag.error=Error creando la etiqueta: {0}
+tag.createPointer.error=Error creando puntero a la etiqueta: {0}
+tag.removePointer.error=Error eliminando puntero a la etiqueta: {0}
+tag.remove.notPermitted.msg=No está permitida eliminar la etiqueta {0}
+tag.remove.notPermitted.header=Eliminar etiqueta
+
+Querygroup.tag.title=Tags
+Querygroup.tag.tip=Tags
+
+query.taggedItems.lbl=Ítems etiquetados
+query.tags.lbl=Tags
+query.manageTags.lbl=Gestionar etiquetas
+query.manageRoutes.lbl=Manage Routes
+
+tag.manage.name=Nombre:
+tag.manage.create.lbl=Crear
+tag.manage.create.tip=Crear nueva etiqueta
+tag.manage.new=Crear nuevas etiquetas:
+tag.manage.import.lbl=Import (UTF-8 encoded)
+tag.manage.import.tip=Import tags from UTF-8 encoded text file
+
+tag.manage.alreadyExists=Etiqueta {0} ya existe
+tag.manage.created=Etiqueta {0} creado con éxito
+tag.manage.delete.title=Borrar
+tag.manage.delete.conf=¿Está seguro de que desea eliminar la(s) etiqueta(s)?
+tag.manage.delete.confUsed=¿Está seguro de que desea eliminar la(s) etiqueta(s), aunque todavía una o más de ellas están en uso?
+tag.manage.delete.locked=La(s) etiqueta(s) están bloqueadas; Operación cancelada.
+tag.manage.delete.failure=No puede eliminar la(s) etiqueta(s)
+tag.manage.delete.error=Error eliminando la etiqueta: {0}
+
+tag.action.itemtype=Tipo de ítem
+tag.action.itemname=Nombre del ítem
+tag.action.add.header=Agregar etiquetas
+tag.action.add.lbl=Agregar
+tag.action.add.tip=Agregar etiquetas ítems
+tag.action.add.colHead=Addition
+tag.action.delete.header=Eliminar etiquetas
+tag.action.delete.lbl=Eliminar
+tag.action.delete.tip=Eliminar etiquetas de los elementos
+tag.action.delete.colHead=Removal
+tag.action.okNotAssinged1=Tag was not assigned 
+tag.action.okNotAssinged2=None of the tags was assigned 
+tag.action.ok=Exitoso
+tag.action.ok.style=color: green;
+tag.action.failed=Falló
+tag.action.failed.style=color: red;
+tag.action.adjustItems=Processable Items
+tag.action.ignoreItems=Ignored Items
+tag.action.typeNotSupported=Etiquetas no soportadas para el tipo de ítem
+tag.action.itemNotSupported=Etiquetas no soportadas para el ítem
+tag.action.export.title=Export Tags
+tag.action.export.deleted=The selected tags no longer exist
+tag.action.export.failed=Tags could not be exported 
+tag.action.import.title=Import Tags
+tag.action.import.failed=Tags could not be imported
+tag.action.import.invalidFile=Import file is not a text file
+tag.action.import.emptyFile=Import file is empty
+tag.action.import.finished=Tags have been imported
+
+#icons

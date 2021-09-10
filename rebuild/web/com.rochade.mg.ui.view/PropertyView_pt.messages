@@ -1,0 +1,25 @@
+﻿#-------------------------------------------------------
+# Rochade WTB - Message file
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#
+#-------------------------------------------------------
+
+### Icons: all images should be inside of dir /com.rochade.mg.ui.view/ + img/, see plugin.xml
+### END Icons
+
+mg_DialogBT.info.SendEmailToApprovers=Enviar e-mail para aprovadores
+BusinessTermItemView.Info.noApprover=Nenhum aprovador disponível.
+
+#Like feature related messages
+MG.Label.Like.CannotLike=Suas atuais permissões não são suficientes para habilitar o recurso Curtir
+MG.Label.Like.NoOneLiked=Você pode ser o primeiro a Curtir esse conteúdo
+MG.Label.Like.OneOtherLikes=Um usuário curtiu este conteúdo
+MG.Label.Like.ManyOthersLike={0} usuários gostam deste conteúdo
+MG.Label.Like.OnlyYouLike=Você gosta deste (e nenhum outro usuário gosta deste conteúdo).
+MG.Label.Like.YouAndOneOtherLike=Você gosta deste (e outro usuário gosta deste conteúdo).
+MG.Label.Like.YouAndManyOthersLike=Você gosta deste (e {0} outros usuários gostam deste conteúdo).
+MG.Label.Like=Curtir
+MG.Label.Unlike=Descurtir

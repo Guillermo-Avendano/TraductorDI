@@ -1,0 +1,10 @@
+<svg width="64" height="64" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <g class="layer">
+  <rect height="28" width="46.5" y="13.975" x="9" stroke-width="5" stroke="#999999" fill="#503C61"/>
+  <ellipse ry="0.28125" rx="29.625" cy="50.84375" cx="32.00002" stroke-width="5" stroke="#999999"/>
+  <ellipse ry="0" rx="0" cy="51.3125" cx="23.37502" stroke-width="5" stroke="#666666"/>
+  <ellipse ry="0" rx="0" cy="51.3125" cx="26.18752" stroke-width="5" stroke="#666666"/>
+  <ellipse ry="2.0625" rx="15.75" cy="46.0625" cx="32.37501" stroke-width="5" stroke="#999999"/>
+ </g>
+</svg>

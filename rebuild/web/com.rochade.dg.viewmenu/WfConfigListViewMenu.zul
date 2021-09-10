@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page id="start" title="MG" contentType="text/html;charset=UTF-8"?>
+<!-- 
+	@author XC 19/07/2012, created
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 	
+-->
+<selviewmenu>
+	<div hflex="1">
+		<div sclass="asg-menubar-right-aligned">
+			<menubar style="background:none; border:none">
+				<menuitem actionId="DG_WF_ImportDefinition" visibleCondition="WF.CanImportDefinition" />
+				<menuitem actionId="DG_WF_OpenConfig" enableCondition="selection.single"/>
+<!-- 				<menuitem actionId="DG_WF_RemoveWfAssignment" enableCondition="selection.single.multi" /> -->
+				<menuitem actionId="WTB_RefreshNow"/>
+			</menubar>
+		</div>
+		
+		<div sclass="asg-menubar-left-aligned">
+			<special actionId="WTB_Filter" />
+		</div>
+		<div sclass="clearfix" />
+	</div>
+</selviewmenu>

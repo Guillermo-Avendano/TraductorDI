@@ -1,0 +1,32 @@
+﻿# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.bigdata.ui.pathway
+#
+
+#extra icons
+### END Icons
+
+BigDataContent.clusterServices=Clúster y Servicios Hadoop
+BigDataContent.lifecycleDiscovery=Descubrimiento de Dato por Ciclo de Vida
+BigDataContent.toolDiscovery=Descubrimiento de Datos por Herramienta
+
+#images
+
+#Header
+rbd_toolset.title=Toolset soportado de Apache Hadoop para Clúster
+#Roles
+rbd_toolset.securityAdminRole=Administrador de Seguridad
+rbd_toolset.dataScientistRole=Científico de Datos
+rbd_toolset.bigDataAdminRole=Administrador Big Data
+rbd_toolset.dataStewardRole=Administrador del Dato
+#Role texts
+rbd_toolset.securityAdminText=Revisar estructuras Big Data de un usuario o grupo particular
+rbd_toolset.dataScientistText=Examinar estructuras de datos y revisar campos de datos comunes
+rbd_toolset.bigDataAdminText=Detectar estructuras de datos defectuosas en clúster Big Data
+rbd_toolset.dataStewardText=Autorizar y certificar resultados Big Data para uso de negocios

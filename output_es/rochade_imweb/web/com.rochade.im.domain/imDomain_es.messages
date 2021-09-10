@@ -1,0 +1,18 @@
+﻿# Issue Management messages
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+IM_ErrorDuringParsingDate=Error analizando la fecha
+﻿IM_ErrorDuringIssueCreation=Error creando un problema
+IM_ErrorCannotRetrieveUser=No se puede recuperar de usuario
+IM_ErrorScopeItemWasNotSpecified=No se ha especificado el alcance del ítem
+IM_ExceptionIssueHasAlreadyBeenAccepted=Problema ya ha sido aceptada
+IM_ExceptionInvalidUser=Usuario no valido
+IM_ErrorRetrievingCurrentUser=Error al recuperar el usuario actual
+IM_ExceptionRelatedItemForIssueIsNotSpecified=No se ha especificado el ítem para el problema relacionado
+IM_WarnCanNotConvertDateFromRochade=No se puede convertir la fecha de Rochade
+IM_WarnCanNotGetPropertyToConvert=No se puede obtener propiedad para convertir
+IM_WarnCanNotRetriveItemFromDB=No se puede recuperar el ítem de DB
+IM_ErrorDuringRetrievingManagedUser=Error recuperando usuario gestionado

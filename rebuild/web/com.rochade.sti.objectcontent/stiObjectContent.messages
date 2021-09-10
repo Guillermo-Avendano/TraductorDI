@@ -1,0 +1,31 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+STISitchingContainerItemView.DetailsTab.StitchingContainer=Stitching Container: 
+STISitchingContainerItemView.DetailsTab.Status=Status: 
+STISitchingContainerItemView.DetailsTab.LastChangedBy=Last Changed By:  
+STISitchingContainerItemView.DetailsTab.LastChangedAt=Last Changed At:  
+STISitchingContainerItemView.DetailsTab.LastSubmittedBy=Last Submitted By:  
+STISitchingContainerItemView.DetailsTab.LastSubmittedAt=Last Submitted At:  
+#
+# Labels for Stitching tabs
+Tab.Stitches=Manual Stitches
+Tab.RealStitches=Stored Stitches
+Tab.Details=Details
+Tab.General=General
+Tab.Rules=Advanced Stitches
+Tab.Configuration=Configuration
+Tab.Advanced=Advanced
+#Container Status
+Created=Created
+Modified=Modified
+Executed=Executed
+
+stitchingTemplate.Configuration.Tab = Stitching Template Configuration
+stitchingTemplate.Advanced.Tab = Stitching Template Advanced
+
+stitchingRealStitchesUnknown=cannot be extracted

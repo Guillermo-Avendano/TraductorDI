@@ -1,0 +1,21 @@
+﻿#-------------------------------------------------------
+# Rochade DQA - Message file
+# This is an UTF-8 endcoded file!
+#
+#  Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#-------------------------------------------------------
+metapp.dqa.title=Data Quality Management
+# official product title (not to be translated)
+metapp.dqa.productTitle=ASG-Enterprise Data Intelligence™ Data Quality
+
+Querygroup.titleDQA=Data Quality Management
+EntryTopic.dqa.tip=Data Quality Management
+DQM.AllGlossaries=Search in all Glossaries
+ProfileType=Profile type
+
+#List Entries for TDQ
+DQA_TDQ.measure=Data Quality Measures
+DQA_TDQ.MeasureName=Name
+DQM.ProfilesList=Data Quality Profiles
+
+navTree.2.icon24.dqa=/img/data-quality-mng-v2.png

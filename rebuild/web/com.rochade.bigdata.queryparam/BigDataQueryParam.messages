@@ -1,0 +1,105 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+### Icons: all images should be inside of dir /com.rochade.bigdata.queryparam/ see plugin.xml
+
+#Labels for ''Hosts and Resources'' entry
+HostsQueryParam.cluster=Cluster name
+HostsQueryParam.filter=Filter by
+HostsQueryParam.host=Host name
+HostsQueryParam.hostsListEmpty=Hosts list is empty under current cluster!
+HostsQueryParam.ipaddress=IP address
+HostsQueryParam.select=Specify parameters for obtaining hosts and their characteristics
+HostsQueryParam.title=Host and Resources of BigData Cluster: 
+
+#Labels for ''Services'' entry
+HealthQueryParam.hostListEmpty=Hosts list is empty under current cluster!
+HealthQueryParam.title=Health and Resources of BigData Cluster:
+ServiceQueryParam.img=/com.rochade.bigdata.navigator/img/bg-icon-elephant.png
+ServiceQueryParam.select=Specify parameters for obtaining services and their characteristics 
+ServiceQueryParam.serviceListEmpty=Services list is empty under current cluster!
+ServiceQueryParam.title=Services of BigData Cluster: 
+ServiceQueryParam.cluster=Cluster name
+ServiceQueryParam.service=Service name
+
+#Labels for ''Source of Imported Data'' entry
+SourceImportQueryParam.databaseName=Database name
+SourceImportQueryParam.dataSource=Data origin
+SourceImportQueryParam.dataType=Data type
+SourceImportQueryParam.dbTitle=Hive Databases Imported by:
+SourceImportQueryParam.select=Specify parameters for obtaining Hive tables or HDFS directories  of a particular data source
+SourceImportQueryParam.selectHiveLabel=Select Hive data resulting from selected SQL databases:
+SourceImportQueryParam.sourceDbName=SQL database name
+SourceImportQueryParam.sqlSystemName=SQL system
+SourceImportQueryParam.tableName=Table name
+SourceImportQueryParam.tableTitle=Hive Tables Imported by:
+SourceImportQueryParam.table=Table
+SourceImportQueryParam.database=Database
+
+#Labels for ''Target of Exported Data'' entry
+TargetExportQueryParam.databaseName=Database name
+TargetExportQueryParam.dataSource=Data destination
+TargetExportQueryParam.dataType=Data type
+TargetExportQueryParam.dbTitle=Hive Databases Exported to:
+TargetExportQueryParam.hiveDbListEmpty=Hive database list is empty!
+TargetExportQueryParam.hiveTablesListEmpty= Hive tables list is empty under current database!
+TargetExportQueryParam.select=Specify parameters for obtaining Hive tables or HDFS directories in Big Data that are exported into a particular data target
+TargetExportQueryParam.selectHiveLabel=Select Hive data with data export to selected SQL databases:
+TargetExportQueryParam.sqlSystemName=SQL system
+TargetExportQueryParam.sourceDbName=SQL database name
+TargetExportQueryParam.tableName=Table name
+TargetExportQueryParam.tableTitle=Hive Tables Exported to:
+TargetExportQueryParam.table=Table
+TargetExportQueryParam.database=Database
+
+#Labels for ''Falcon'' entry
+FalconQueryParam.falconSystem=Falcon system
+FalconQueryParam.select=Specify parameters for obtaining Falcon workflows on Hive tables
+FalconQueryParam.transListEmpty=There are no transformations under current Falcon system!
+FalconQueryParam.title=Falcon Transformations
+
+#Labels for ''Data Lineage by Service'' entry
+ServiceLineageQueryParam.hiveQL=HiveQL Script 
+ServiceLineageQueryParam.hiveTableIsEmpty=Hive tables are absent under current transformation service!
+ServiceLineageQueryParam.select=Specify parameters for obtaining Hive tables taking part in Transformation workflows
+ServiceLineageQueryParam.title=Hive Tables Taking Part in Transformation Workflows
+ServiceLineageQueryParam.transKind=Kind of transformation
+ServiceLineageQueryParam.transService=Transformation service
+ServiceLineageQueryParam.tableName=Table name
+
+#Labels for ''Data Types and Records'' entry
+TypesRecordsQueryParam.clusterName=Cluster name
+TypesRecordsQueryParam.complexDataTypes=Complex data types
+TypesRecordsQueryParam.dataTypesTitle=Data Types of Cluster: 
+TypesRecordsQueryParam.img=/com.rochade.bigdata.navigator/img/bg-icon-structure.png
+TypesRecordsQueryParam.noItems=There are no items with such data types under current cluster!
+TypesRecordsQueryParam.recordTypesTitle=Record Types of Cluster: 
+TypesRecordsQueryParam.select=Specify parameters for obtaining details about structure of imported data types
+TypesRecordsQueryParam.title=Data Types and Records
+TypesRecordsQueryParam.typeOfData=Type of data
+TypesRecordsQueryParam.typeOfData.dataTypes=Data types
+TypesRecordsQueryParam.typeOfData.recordTypes=Record types
+
+#Labels for ''Data Columns and Fields'' entry
+ColumnsFieldsQueryParam.clusterName=Cluster name
+ColumnsFieldsQueryParam.columnName=Column name 
+ColumnsFieldsQueryParam.columnsTitle=Columns of Cluster: 
+ColumnsFieldsQueryParam.fieldName=Field name
+ColumnsFieldsQueryParam.fieldsOrColumns=Fields or Columns
+ColumnsFieldsQueryParam.fieldsTitle=Fields of Cluster: 
+ColumnsFieldsQueryParam.noItems=There are no items under current cluster!
+ColumnsFieldsQueryParam.select=Specify parameters for obtaining details about data fields and columns
+ColumnsFieldsQueryParam.title=Data Columns and Fields
+ColumnsFieldsQueryParam.column=Columns
+ColumnsFieldsQueryParam.field=Data fields
+
+#Labels for ''HiveQL'' entry
+HiveQLQueryParam.queriesSystem=Queries system
+HiveQLQueryParam.select=Specify parameters for obtaining HiveQL transformations 
+HiveQLQueryParam.transListEmpty=There are no transformations under current queries system!
+HiveQLQueryParam.title=HiveQL Transformations

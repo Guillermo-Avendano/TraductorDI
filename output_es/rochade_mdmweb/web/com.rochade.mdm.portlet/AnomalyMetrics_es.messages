@@ -1,0 +1,36 @@
+﻿# metaRDM - Message file
+# This is an UTF-8 endcoded file!
+#
+#  Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#-------------------------------------------------------
+
+#extra icons
+### END Icons
+
+mdm_anomalymetrics.title=Métricas de Anomalías
+mdm_anomalymetrics.title.dev=Métricas de Anomalías (Desarrollo)
+mdm_anomalymetrics.title.prod=Métricas de Anomalías (Producción)
+mdm_anomalymetrics.title.chart.dev=Gráfico de Métricas de Anomalías (Desarrollo)
+mdm_anomalymetrics.title.chart.prod=Gráfico de Métricas de Anomalías (Producción)
+mdm_anomalymetrics.selectContext=Seleccione un Contexto de Datos:
+
+mdm_anomalymetrics.anomaly.text.MDuplicate=Significado Duplicado
+mdm_anomalymetrics.anomaly.text.PVDuplicate=Duplicar valor
+mdm_anomalymetrics.anomaly.text.UnmappedMeaning=Uno o más valores faltantes para el significado
+mdm_anomalymetrics.anomaly.text.UnmappedPV=Sin significado asignado
+mdm_anomalymetrics.anomaly.text.InvalidMeaning=Significado (referenciado por al menos un dominio) no pertenece al concepto de datos actual.
+mdm_anomalymetrics.anomaly.text.AmbiguousMMap=Significado referenciado por más de un valor
+mdm_anomalymetrics.anomaly.text.AmbiguousPVMap=Referencias a valores con más de un significado
+mdm_anomalymetrics.anomaly.text.MappingGap=Significado no referenciado continuamente por valores.
+mdm_anomalymetrics.anomaly.text.InvalidUV=Valor no válido en la columna de referencia asociada
+mdm_anomalymetrics.anomaly.text.InvalidDV=Par valor-significado inválido en la tabla de referencia asociada.
+mdm_anomalymetrics.anomaly.text.MissingDV=Faltan pares valor-significado para el valor
+mdm_anomalymetrics.anomaly.text.InvalidRefDV=Par valor-significado se refiere a una tabla de referencia incorrecta.
+mdm_anomalymetrics.anomaly.text.AmbiguousVD=La columna de referencia es referenciada por más de un dominio de valores
+mdm_anomalymetrics.anomaly.text.default=Otra anomalía - %kind%
+mdm_anomalymetrics.anomaly.text.=Anomalía vacía
+mdm_anomalymetrics.anomaly.text.null=Anomalía inactiva
+
+mdm_anomalymetrics.anomaly.all.text=Todo
+mdm_anomalymetrics.anomalysummary.text=Resumen
+

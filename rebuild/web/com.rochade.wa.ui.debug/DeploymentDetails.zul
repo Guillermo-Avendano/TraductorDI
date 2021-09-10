@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page contentType="text/html;charset=UTF-8"?>
+<?taglib uri="http://www.zkoss.org/dsp/web/core" prefix="c" ?>
+<!-- 
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+<window border="none" apply="com.rochade.wa.ui.debug.DeploymentDetailsComposer">
+	<hbox id="header" style="padding:5px;" width="100%" widths="80%,20%">
+		<div id="headerTitle" width="100%"/>
+		<hbox width="100%" pack="end">
+   			<button id="btnDownload" width="120px" label="${wtb:l('Debug.deployment.download')}" tooltiptext="${wtb:l('Debug.deployment.download')}"/>
+		</hbox>
+	</hbox>
+    <div width="100%" vflex="1">
+	    <listbox id="lbinfo" vflex="1" hflex="1">
+			<listhead sizable="true">
+	        	<listheader width="30%" label="${wtb:l('Debug.deployment.environmentinfo')}"/>
+	        	<listheader width="70%" label="${wtb:l('Debug.deployment.value')}"/>
+	        </listhead>
+	        <listitem>
+	        	<listcell>
+	    			<label value="${wtb:l('Debug.deployment.javaversion')}"/>
+	        	</listcell>
+	        	<listcell>
+	    			<label id="javaversion"/>
+	        	</listcell>
+	        </listitem>
+	        <listitem>
+	        	<listcell>
+	    			<label value="${wtb:l('Debug.deployment.javavendor')}"/>
+	        	</listcell>
+	        	<listcell>
+	    			<label id="javavendor"/>
+	        	</listcell>
+	        </listitem>
+	        <listitem>
+	        	<listcell>
+	    			<label value="${wtb:l('Debug.deployment.javavmversion')}"/>
+	        	</listcell>
+	        	<listcell>
+	    			<label id="javavmversion"/>
+	        	</listcell>
+	        </listitem>
+	        <listitem>
+	        	<listcell>
+	    			<label value="${wtb:l('Debug.deployment.javavmvendor')}"/>
+	        	</listcell>
+	        	<listcell>
+	    			<label id="javavmvendor"/>
+	        	</listcell>
+	        </listitem>
+	        <listitem>
+	        	<listcell>
+	    			<label value="${wtb:l('Debug.deployment.javaiotmpdir')}"/>
+	        	</listcell>
+	        	<listcell>
+	    			<label id="javaiotmpdir"/>
+	        	</listcell>
+	        </listitem>
+	        <listitem>
+	        	<listcell>
+	    			<label value="${wtb:l('Debug.deployment.osname')}"/>
+	        	</listcell>
+	        	<listcell>
+	    			<label id="osname"/>
+	        	</listcell>
+	        </listitem>
+	        <listitem>
+	        	<listcell>
+	    			<label value="${wtb:l('Debug.deployment.osversion')}"/>
+	        	</listcell>
+	        	<listcell>
+	    			<label id="osversion"/>
+	        	</listcell>
+	        </listitem>
+	        <listitem>
+	        	<listcell>
+	    			<label value="${wtb:l('Debug.deployment.osarch')}"/>
+	        	</listcell>
+	        	<listcell>
+	    			<label id="osarch"/>
+	        	</listcell>
+	        </listitem>
+	        <listitem>
+	        	<listcell>
+	    			<label value="${wtb:l('Debug.deployment.zkosspath')}"/>
+	        	</listcell>
+	        	<listcell>
+	    			<label id="zkosspath"/>
+	        	</listcell>
+	        </listitem>
+	        <listitem>
+	        	<listcell>
+	    			<label value="${wtb:l('Debug.deployment.realpath')}"/>
+	        	</listcell>
+	        	<listcell>
+	    			<label id="realpath"/>
+	        	</listcell>
+	        </listitem>
+	        <listitem>
+	        	<listcell>
+	    			<label value="${wtb:l('Debug.deployment.freemem')}"/>
+	        	</listcell>
+	        	<listcell>
+	    			<label id="freemem"/>
+	        	</listcell>
+	        </listitem>
+	        <listitem>
+	        	<listcell>
+	    			<label value="${wtb:l('Debug.deployment.totalmem')}"/>
+	        	</listcell>
+	        	<listcell>
+	    			<label id="totalmem"/>
+	        	</listcell>
+	        </listitem>
+	        <listitem>
+	        	<listcell>
+	    			<label value="${wtb:l('Debug.deployment.maxmem')}"/>
+	        	</listcell>
+	        	<listcell>
+	    			<label id="maxmem"/>
+	        	</listcell>
+	        </listitem>
+	        <listitem>
+	        	<listcell>
+	    			<label value="${wtb:l('Debug.deployment.sessionid')}"/>
+	        	</listcell>
+	        	<listcell>
+	    			<label id="sessionid"/>
+	        	</listcell>
+	        </listitem>
+	        <listitem>
+	        	<listcell>
+	    			<label value="${wtb:l('Debug.deployment.browser')}"/>
+	        	</listcell>
+	        	<listcell>
+	    			<label id="browser"/>
+	        	</listcell>
+	        </listitem>
+	    </listbox>
+    </div>
+</window>

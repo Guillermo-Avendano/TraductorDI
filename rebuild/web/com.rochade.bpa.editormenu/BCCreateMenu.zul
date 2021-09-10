@@ -1,0 +1,5 @@
+<editormenu>
+	<menubar style="background:none; border:none;">
+		<menuitem actionId="BP_Editor_CreateBC" enableCondition="Editor.isEmpty" />
+	</menubar>
+</editormenu>

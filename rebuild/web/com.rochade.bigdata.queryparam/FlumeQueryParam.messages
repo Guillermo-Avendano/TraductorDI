@@ -1,0 +1,50 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.wa.ui.QueryParam
+#
+
+FlumeQuery.select=Specify parameters for obtaining flume transformations representing data streams
+FlumeQuery.label = Flume Transformations
+
+FlumeQuery.runSettings=Run Settings:
+FlumeQuery.property=Parameter
+FlumeQuery.value=Value
+FlumeQuery.limit=Maximum number of items
+FlumeQuery.runButton=Run
+FlumeQuery.cancelButton=Cancel
+FlumeQuery.resetButton=Reset
+FlumeQuery.queryparam=Query Parameter
+
+FlumeQuery.filterby.DWR_RDB_DATABASE=Database name
+
+
+StreamImportedQuery.flumeListEmpty = Query result is empty!
+
+# Tooltips
+
+FlumeQuery.altS=Run Settings (Alt-S)
+FlumeQuery.altP=Preserve settings (Alt-P)
+FlumeQuery.altL=Limit the query result (Alt-L)
+FlumeQuery.enter=Run query (Alt-R, <enter>)
+FlumeQuery.esc=Cancel (<esc>)
+FlumeQuery.reset=Reset
+
+# icons
+FlumeQuery.img.wizard=/com.rochade.dwr.queryparam/img/WizardDefault.gif
+
+
+# Message
+FlumeQuery.alert.warning = You need to choose Database!
+
+FlumeQuery.flumeSystem = Flume system
+#FlumeQuery.importToolSelect = Select Hive import data:
+#FlumeQuery.dataType = Data type
+#FlumeQuery.databaseName = Database name
+#FlumeQuery.tableName = Table name

@@ -1,0 +1,40 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.wa.ui.QueryParam
+#
+
+EmbQueryParamDrilldown.select=Especifique os parâmetros de execução da consulta.
+EmbQueryParamDrilldown.runSettings=Configurações de Execução:
+EmbQueryParamDrilldown.property=Parâmetros
+EmbQueryParamDrilldown.value=Valor
+EmbQueryParamDrilldown.limit=Número máximo de itens
+EmbQueryParamDrilldown.runButton=Pesquisar >>
+EmbQueryParamDrilldown.cancelButton=Cancelar
+EmbQueryParamDrilldown.resetButton=Reiniciar
+EmbQueryParamDrilldown.queryparam=Parâmetros de Consulta
+
+EmbQueryParamDrilldown.filterby.DWR_RDB_DB_SYSTEM=Filtrar por Sistema BD
+EmbQueryParamDrilldown.filterby.DWR_RDB_DATABASE=Filtrar por Banco de Dados
+EmbQueryParamDrilldown.filterby.DWR_RDB_SCHEMA=Filtrar por Esquema DB
+EmbQueryParamDrilldown.filterby.DWR_RDB_TABLE_OR_VIEW=Filtrar por Tabela ou Visualização
+EmbQueryParamDrilldown.filterby.DWR_TFM_SYSTEM=Filtrar por Pasta
+
+
+# Tooltips
+
+EmbQueryParamDrilldown.altS=Configurações de Execução (Alt-S)
+EmbQueryParamDrilldown.altP=Preservar Configurações (Alt-P)
+EmbQueryParamDrilldown.altL=Limitar os resultados da consulta (Alt-L)
+EmbQueryParamDrilldown.enter=Executar consulta (Alt-R, <enter>)
+EmbQueryParamDrilldown.esc=Cancelar (<esc>)
+EmbQueryParamDrilldown.reset=Reiniciar
+
+# icons
+

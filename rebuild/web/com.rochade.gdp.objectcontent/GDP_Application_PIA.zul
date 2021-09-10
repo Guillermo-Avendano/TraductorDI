@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="PIAs for Applicaiton" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<?component name="propViewLabel" inline="true" macroURI="/WEB-INF/macros/PropertyViewLabel.zul" ?>
+<!--
+	@author ST 2018-05-03, created
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+-->
+<div use="com.rochade.wa.ui.view.BaseObjectView" sclass="asg-tab-content-div" hideIfEmpty="always">
+	<grid style="border: 0px; padding: 10px; background: #FFFFFF;">
+		<rows id="topGrid" style="background: transparent; ">
+			<row id="lLinkedPIAs" valign="top" align="left" style="border: 0px; background: transparent; padding-top: 10px">
+				<label value="${wtb:l('label.GDP_LinkedPIAs')}:" sclass="asg-attribute-label-bold" />
+			</row>
+			<row valign="top" align="left" style="border: 0px; background: transparent;"> 
+				<!-- CAUTION specifying 'depth' of the MPath query is mandatory because the default depth value is not enough to bring all the results we need -->
+				<div id="linkedPIAs" relatedId="lLinkedPIAs" sclass="asg-linklist"
+						use="com.rochade.wa.ui.view.ObjectContentQueryView"
+						query="topic=GDP_PIAsOfApplication" 
+						tableShape="GDP_AssessingPIAs"
+						readOnly="true"
+						hideForCreate="true"
+						viewMenu="DWR_FilterViewMenu"
+						footerVisible="false" 
+						hideIfEmpty="always"/>
+			</row>
+		</rows>
+	</grid>
+</div>

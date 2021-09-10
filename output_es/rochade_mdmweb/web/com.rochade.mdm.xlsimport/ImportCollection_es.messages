@@ -1,0 +1,83 @@
+﻿# metaRDM - Message file
+#
+#  Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#-------------------------------------------------------
+
+#
+# package: com.rochade.mdm.xlsimport
+#
+
+ImportCollection.title=Especificar la lista de {0} colecciones en el siguiente formato.
+ImportCollection.header=Importación de definciones {0} desde Excel
+ImportCollection.excelImport=Importar Excel
+
+ImportCollection.runSettings=Ejecutar Configuraciones:
+ImportCollection.property=Parámetro
+ImportCollection.value=Valor
+ImportCollection.limit=Numero máximo de ítems
+ImportCollection.uploadButton=Cargar un archivo Excel
+ImportCollection.viewButton=Ver de archivos Excel
+ImportCollection.runButton=Ejecutar
+ImportCollection.cancelButton=Cancelar
+ImportCollection.resetButton=Reestablecer
+ImportCollection.queryparam=Parámetros de la consulta
+ImportCollection.noxlsx=No es un archivo Excel .xlsx.
+
+ImportCollection.reference=Referencia
+ImportCollection.value=Valor
+
+ImportCollection.worksheet=Seleccione la hoja de cálculo:
+ImportCollection.skip=Saltar filas de encabezado:
+
+ImportCollection.Table=Nombre de la Tabla de Referencia:
+ImportCollection.Column=Nombre de la columna de referencia:
+ImportCollection.DctxName=Contexto de datos:
+ImportCollection.importAllRDB=Importar todo, no considerar el campo Excel para la tabla/campo
+ImportCollection.importAllCtx=Importar todo, no considerar el campo de Excel para el contexto
+ImportCollection.generateName=Generar nuevo nombre para la colección {0}
+ImportCollection.doNotImport=No importar desde Excel
+
+ImportCollection.Description=Descripción:
+ImportCollection.RcName=Nombre de la Colección de Referencia:
+ImportCollection.ValueColumn=columna de valores:
+ImportCollection.DefinitionColumn=Columna de Definición:
+ImportCollection.RelatedColumn=Columna de referencia relacionada:
+ImportCollection.RelatedRc=Colección relacionada:
+ImportCollection.QueryType=Tipo de consulta:
+ImportCollection.Query=Expresión de la Consulta:
+ImportCollection.BeginDate=Inicio de Columna Fecha:
+ImportCollection.EndDate=Columna de fecha de finalización:
+ImportCollection.OutDateInd=Indicador de columna obsoleto
+ImportCollection.OutDateFlag=Indicador marcado obsoleto
+ImportCollection.VcName=Nombre de la colección de valores:
+ImportCollection.ParentRc=Colección de referencia padre:
+ImportCollection.ParentColumn=Columna Padre:
+ImportCollection.ChildColumn=Columna hijo:
+
+ImportCollection.pleaseUpload=<Cargar archivo Excel>
+ImportCollection.header0=La hoja de cálculo no contiene líneas de cabecera
+ImportCollection.header1=Saltar primera línea de cabecera
+ImportCollection.header2=Saltar dos líneas de cabecera
+ImportCollection.header3=Saltar tres líneas de cabecera
+ImportCollection.fromExcel=Desde la columna de Excel
+ImportCollection.view.title=Ver Excel
+ImportCollection.maxcount=Sólo se muestran las primeras 500 líneas.
+
+# Warnings / Success
+ImportCollection.errSkipped=Líneas omitidas (que no coinciden), omitiendo el número de línea:
+ImportCollection.errCtx=No se encuentra el contexto de datos especificado, omitiendo número de línea:
+ImportCollection.errRdb=No se encuentra la tabla/columna especificada, omitiendo número de línea:
+ImportCollection.errCol=La colección no tiene nombre, saltando el número de línea:
+ImportCollection.errInc=Advertencia: No se pudieron identificar todos los vínculos de destino, número de línea:
+ImportCollection.errUpd=Error de escritura al escribir ítem, número de línea:
+ImportCollection.success=La importación de Excel ha finalizado correctamente.
+ImportCollection.refresh=Pulse [Refrescar] para obtener una lista de ítems actualizados.
+
+# Tooltips
+ImportCollection.view=Ver Excel
+ImportCollection.enter=Ejecutar consulta
+ImportCollection.esc=Cancelar (<Esc>)
+ImportCollection.reset=Reestablecer
+
+# icons
+

@@ -1,0 +1,34 @@
+﻿#-------------------------------------------------------													
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.wa.ui.itemlist
+#
+
+### Icons: all images should be inside of dir /com.rochade.wa.ui.itemlist/ + img/, see plugin.xml
+
+### END Icons
+
+ItemList.title=Lista de Objetos
+ItemList.scope=em {0}
+ItemList.footer=Itens encontrados: {0}
+ItemList.noModelQuery=O resultado não pode ser exibido, porque nenhuma consulta ou modelo está disponível.
+
+# messages related to error/info
+
+ItemList.removeaction=Remover Ação
+ItemList.idlocked=O item já está bloqueado em outra SA.
+ItemList.locked=Todos os itens selecionados já estão bloqueados.
+ItemList.dellocked=A operação remover será cancelada.
+ItemList.nsmovelocked=O(s) item(ns) não pode(m) ser movido(s) para outro namespace.
+ItemList.somelocked=Alguns dos itens selecionados já estão bloqueados.
+ItemList.somelocked1=Deseja ignorar estes itens e continuar?
+ItemList.nscopyerr=Erro ao copiar o item para o namespace {0}
+ItemList.nsmoveerr=Erro ao mover o item para o namespace {0}
+ItemList.nonstargets=O(s) item(ns) selecionado(s) não podem ser movidos ou copiados para um namespace diferente.
+# ItemList.background=Pesquisa sendo executada em segundo plano.\nPor favor espere.

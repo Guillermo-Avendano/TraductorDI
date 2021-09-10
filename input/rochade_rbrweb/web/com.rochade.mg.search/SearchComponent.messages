@@ -1,0 +1,93 @@
+﻿#-------------------------------------------------------
+# metaGlossary - Message file
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+### Icons: all images should be inside of dir /com.rochade.wa.metanote/ + img/, see plugin.xml
+
+#extra icons
+search.img.search=/com.rochade.mg.search/img/16x16_search.png
+search.img.refresh=/com.rochade.mg.search/img/refresh_16.png
+search.img.cleardates=/com.rochade.mg.search/img/cleardates.gif
+search.img.searchResult=/com.rochade.mg.search/img/16x16_searchresult.png
+
+#icon.glossary=/img/16x16_glossary.png
+#icon.context=/img/16x16_context.png
+#icon.search="/img/16x16_search.png
+### END Icons
+
+bg_SearchBT.tabname=Search
+bg_SearchBT.tabname.result=Search Result
+bg_SearchBT.title=Search for Business Items
+bg_home.searchfor=Search for:
+bg_SearchBT.button.search=Search >>
+bg_SearchBT.button.refresh=Refresh
+bg_SearchBT.button.openadvancedsearch=Advanced Search
+bg_SearchBT.titleadvanced=Search for Business Items (Advanced Search)
+bg_SearchBT.titlestandard=Search for Business Items (Standard Search)
+bg_SearchBT.button.openstandardsearch=Standard Search
+bg_SearchBT.contextfilter=Search in glossary/context:
+bg_SearchBT.contextRelation=Context relationship type:
+bg_SearchBT.lastupdate=Search for updates:
+bg_SearchBT.and=and:
+bg_SearchBT.keyword=Search for:
+bg_SearchBT.searchContext=Find and select:
+bg_SearchBT.contextRelation=Context relationship type:
+bg_SearchBT.searchin=Search in property:
+bg_SearchBT.searchinLang=Search in language:
+bg_SearchBT.between=Between:
+bg_SearchBT.button.cleardates=Clear Dates
+bg_SearchBT.cleardates.tooltip=Clear Dates
+bg_SearchBT.complete=All Glossaries and Business Contexts
+bg_SearchBT.completeBusinessPackage=All Business Contexts
+bg_SearchBT.completeglossary=All Glossaries
+bg_SearchBT.contextRelation.all=All
+bg_SearchBT.contextRelation.all.desc=All Business Items
+bg_SearchBT.contextRelation.governed=Governed by
+bg_SearchBT.contextRelation.governed.desc=Business Items governed by Glossary/Context
+bg_SearchBT.contextRelation.owned=Contributed by
+bg_SearchBT.contextRelation.owned.desc=Business Items contributed by Context
+bg_SearchBT.contextRelation.ref=Viewed by
+bg_SearchBT.contextRelation.ref.desc=Business Items viewed by Context
+bg_SearchBT.button.more=More...
+bg_SearchBT.button.fewer=Less...
+bg_SearchBT.name=Name
+bg_SearchBT.mycontext=My Contexts
+bg_SearchBT.atLeastOneAttr=You must select at least one property.
+bg_SearchBT.searchinglossary=Search in glossary:
+bg_SearchBT.checkbox.SelectInclusiveSubContext=Select with subcontexts
+bg_SearchBT.checkbox.SelectInclusiveSubContext.tooltip=When selecting a glossary or context, automatically select all subcontexts.
+bg_SearchBT.searchScope.Glossary=Glossary:
+#bg_SearchBT.languages.alldeselected=No language has been selected. Search will be performed in default language.
+bg_SearchBT.error.cantLoadContext=There are no Glossaries or Contexts to search in. Search is unavailable
+bg_SearchBT.error.noItemSelected=No item selected in glossary filter
+
+EXCEPTION_MSG_DATERANKING=The end date must be greater than the start date.
+
+AbstractAutoSuggestTextField.scopeText=Glossary/Context  {0} / {1}
+AbstractAutoSuggestTextField.scopeGlossaryText=Glossary  {0}
+
+bg_DialogAll.msg.search.busy=Executing search...
+
+pSearch.title=Quick Search for Business Items
+
+warn.extAttrSupportOnly=Setting search.extAttributes supports only Text and Link attributes. Attribute {0} is ignored.
+
+bg_SearchBT.tag=Tag:
+bg_SearchBT.tagOperator=Result must fit all tags:
+
+bg_LikeBT.allGlossaries=All glossaries
+bg_LikeBT.likeLabel.Single=Business items with {0} Like
+bg_LikeBT.likeLabel.Plural=Business items with {0} Likes
+bg_LikeBT.likeLabel.Range=Business items with {0} .. {1} Likes
+bg_LikeBT.labelGlossaries={0} ({1})
+bg_LikeBT.labelOneGlossary={0} (Glossary: {1})
+bg_LikeBT.errorGettingAbsolutepath=Error getting the absolute path
+bg_LikeBT.cantRetriveItems=Can''t retrieve item from workspace.
+bg_LikeBT.errorLoadingItem=Error during loading item
+
+SearchTypeComboboxWrapper.AllTypes=All Types
+SearchTypeComboboxWrapper.ErrorCantRetriveSubtypes=Problem getting subtypes of {0}

@@ -1,0 +1,19 @@
+﻿#-------------------------------------------------------
+# metaGlossary - Message file
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+### Icons: all images should be inside of dir /com.rochade.mg.navigator/ + img/, see plugin.xml
+
+#extra icons
+bg.mgmt.ico=/com.rochade.dg.navigator/img/16x16_glossary_management.png
+bg.mgmt.img=/com.rochade.dg.navigator/img/24x24_glossary_management.png
+### END Icons
+
+bg.mgmt.lbl=Task Management
+bg.mgmt.tip=Task Management
+
+bg.mgmt.inProcess=In Process

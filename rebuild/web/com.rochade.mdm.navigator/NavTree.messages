@@ -1,0 +1,41 @@
+﻿#-------------------------------------------------------
+# Rochade WTB - Message file
+# This is an UTF-8 endcoded file!
+#
+#  Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#-------------------------------------------------------
+metapp.ref.title=Reference Data
+# official product title (not to be translated)
+metapp.ref.productTitle=ASG-Enterprise Data Intelligence™ Reference Data
+
+navTree.lbl.bg=Glossary
+navTree.tip.bg=Glossary
+navTree.icon24.bg=/com.rochade.mdm.navigator/img/24x24_glossary.png
+navTree.icon16.bg=/com.rochade.mdm.navigator/img/16x16_glossary.png
+
+navTree.mdm1= Quick Entry
+navTree.mdm2= Reference Data
+navTree.mdm3= Relational Databases
+
+
+navTree.2.lbl.bg=Reference Data
+navTree.2.tip.bg=Reference Data
+navTree.2.icon24.bg=/com.rochade.mdm.navigator/img/24x24_reference_data.png
+navTree.2.icon16.bg=/com.rochade.mdm.navigator/img/16x16_reference_data.png
+ 
+navTree.3.lbl.bg=Relational DB
+navTree.3.tip.bg=Show Relational DB
+
+navTree.dataStructures.lbl.bg=Data Structures
+navTree.dataStructures.tip.bg=Show Data Structures
+
+ref.snapnav.img=/com.rochade.mdm.navigator/img/24x24_camera.png
+ref.snapnav.ico=/com.rochade.mdm.navigator/img/16x16_camera.png
+
+ref.snapnav.new_config.msg=New Snapshot Configuration
+ref.snapnav.new_config.img=/com.rochade.wa.action.ui/img/OA05-new.gif
+
+ref.snapnav.lbl=Snapshot Management
+
+
+

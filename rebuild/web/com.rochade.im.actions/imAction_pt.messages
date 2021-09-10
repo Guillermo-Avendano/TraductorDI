@@ -1,0 +1,24 @@
+﻿#-------------------------------------------------------
+# Issue Management messages
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+IM_CreateIssue.lbl=Criar
+IM_CreateIssue.tip=Criar
+IM_CreateNewIssueItemviewAction.lbl=Novo Caso
+IM_CreateNewIssueItemviewAction.tip=Novo Caso
+IM_CreateNewIssueContextmenuAction.lbl=Novo Caso
+IM_CreateNewIssueContextmenuAction.tip=Novo Caso
+
+IM_BecomeResponsibleForIssue.lbl=Tornar-se responsável pelo Caso
+IM_BecomeResponsibleForIssue.tip=Tornar-se responsável pelo Caso
+
+IsssueWfStartProcessAction.createActionInvoiced=Criar ação faturada
+IsssueWfStartProcessAction.cantCreateIssueItem=Não é possível criar item de caso
+
+IM_ErrorDuringReassigningIssue=Erro ao redistribuir o caso
+IM_ErrorDuringCreatingIssueComment=Erro ao criar comentário no caso
+IM_ErrorDuringIssueSubmit=Erro ao enviar o caso
+IM_ErrorProcessConfigWasNotSpecified=A configuração do processo não foi especificada

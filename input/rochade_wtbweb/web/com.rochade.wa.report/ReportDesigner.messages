@@ -1,0 +1,63 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.wa.report
+#
+### Icons: all images should be inside of dir /com.rochade.wa.report/ + img/, see plugin.xml
+
+#extra icons
+ReportDesigner.img.wizard=/com.rochade.wa.report/img/WizardDefault.gif
+### END Icons
+
+ReportDesigner.select=Edit Report Parameter
+
+ReportDesigner.runButton=Test Query
+ReportDesigner.newButton=Design Report
+ReportDesigner.editButton=Design Report
+ReportDesigner.cancelButton=Close 
+ReportDesigner.saveButton=Save
+#ReportDesigner.propDs=Data Source
+#ReportDesigner.propDs.sdcac=SDCAC Query
+#ReportDesigner.propDs.path=Path Query
+ReportDesigner.propQuery=Data source name
+ReportDesigner.propId=Report name
+ReportDesigner.propId.desc=Alphanumeric
+ReportDesigner.propName=Menu entry
+ReportDesigner.propName.desc=lbl=<Menu Entry>\nlbl[de]=<Menu Entry in German> 
+ReportDesigner.propMessages=Label mapping
+ReportDesigner.propMessages.desc=<varKey>=<Value>\n<varKey>[de]=<Value in German>
+ReportDesigner.propVisible=Visibility
+ReportDesigner.propVisible.desc=Show to all users
+
+# Tooltips
+#ReportDesigner.altS=Run Settings (Alt-S)
+ReportDesigner.enter=Test Query (Alt-T, <enter>)
+ReportDesigner.esc=Close (<esc>)
+
+ReportDesigner.msg.title=Report Result
+ReportDesigner.info.saveOk=Custom Report''s Definition has been saved.
+ReportDesigner.err.duplicate=Custom Report already exist. Please use another Report Name.
+ReportDesigner.err.noDatasource=Custom Report {0} has no Data Source.
+ReportDesigner.err.contactAdmin=Please re-login. If failure still happens, please contact your administrator.
+ReportDesigner.err.missedReport=Report Design is not yet created or Report has been removed.
+ReportDesigner.warn.saveFirst=Please save the Custom Report''s Definition first.
+ReportDesigner.warn.duplicateMenu=Report ''{0}'' has been declared more than once.
+
+ReportDesigner.invalid.emptyKey=Key cannot be empty.
+ReportDesigner.invalid.emptyValue=Value cannot be empty.
+ReportDesigner.invalid.key=This field contains invalid key(s).
+
+ManageReport.name=Name
+ManageReport.visibility=Visible to All
+ManageReport.ds=Data Source
+ManageReport.deleteButton=Delete
+ManageReport.confirm.title=Delete Report
+ManageReport.confirm.text=Are you sure you want to delete this report?
+
+ViewAllReport.showButton=Show

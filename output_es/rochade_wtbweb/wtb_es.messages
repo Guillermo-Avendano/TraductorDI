@@ -1,0 +1,808 @@
+﻿# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+#
+# These are the messages from the non-ui components.
+# This message file contains messages, which are not part 
+# of a individual com.rochade.wa.ui.* package.
+#
+# This file must be in the class path, because it is also
+# used in startup/shutdown, before the LabelLocator
+# can determine current session or desktop.  
+# Therefore it is not in the file system hierarchy (where
+# the zul files are located).
+# 
+#------------------------------------------------------- 
+wtb.title=Plataforma Rochade
+#
+# from package: com.rochade.wa.session
+#
+WAImages.invalidkey=Imagen/icono no se encontró para la clave: {0}.
+WAImages.empty.value=Imagen/icono no está definida para la clave: {0}.
+WAImages.unchecked=Imagen / Icono {0} no se encuentra en / web o. ~. Utilizando el URL de la imagen como es.
+WAMessages.invalidkey=Mensaje no encontrado para la clave: {0}.
+
+WAInstanceProvider.contextNull=El contexto no debe ser nulo.
+WAInstanceProvider.instanceCreated=Instancia creada por la clase {0} en el contexto {1}.
+WAInstanceProvider.instanceDisposed=Instancia liberada por la clase {0} en el contexto {1}.
+
+WAObjectManager.workspaceerror=Error interno: área de trabajo ya eliminada.
+WAObjectManager.createworkspaceStarted=Creaando área de trabajo.
+WAObjectManager.createworkspaceFinished=Se completó la creación del área de trabajo {0}. Tiempo {1} ms.
+WAObjectManager.connectionnotdef=Conexión no definida: {0}.
+WAObjectManager.createSnapshotWorkspace=Formato de nombre de aplicación incorrecto para el Snapshot: {0}
+
+WATimer.title=Plataforma Rochade
+WATimer.warning=Su sesión está inactiva. Pulse [Aceptar] para continuar, o se le cierra la sesión en {0} minutos (en {1}).
+
+WAVersion.pkgnotfound=[No se encuentra el Paquete {0}]
+WAVersion.classnotfound=[Clase {0} no se encuentra]
+WAVersion.versionnotfound=[No puede obtener el numero de version]
+
+WASessionHandler.dtInvalid=Esta sesión es inválida, probablemente se cerró la conexión. Por favor, cierre esta pestaña del navegador.
+WorkspaceUtil.assoc=No soportado. IVisDataAssocs no tiene un espacio de nombres para el ítem padre.
+
+#
+# from package: com.rochade.wa.ui
+#
+TabManager.notinit=TabManager no se ha inicializado.
+TabMananger.portaltab=No se puede crear el componente contenedor de portlets.
+TabMananger.notabid=No se puede determinar tabid obligatoria. Clave "tabid" falta en el mapa arg.
+TabMananger.maxopen=Hay {0} pestañas abiertas. Por favor, cierre pestañas innecesarias.
+
+AppTabManager.init=Inicializando AppTabManager.
+AppTabManager.dispose=Eliminación AppTabManager.
+AppTabManager.notinit=AppTabManager no se ha inicializado.
+
+ArgConstants.noteven=El argumento key_val no tiene una longitud uniforme.
+
+EventManager.init=Inicializando Administrador de Eventos.
+EventManager.dispose=Eliminación Event Manager.
+EventManager.notinit=Event Manager no se ha inicializado.
+
+Constraint.intreq=El número entero positivo es requerido (entrada ilegal: {0}).
+Constraint.realreq=Número real requerido (entrada ilegal: {0}).
+
+EditorTabManager.notinit=EditorTabManager is not initialized.
+EditorTabManager.dispose=Eliminación EditorTabManager.
+
+Editor.rwfProcessConfigNull=rwfProcessConfig is null
+Editor.objectViewNull=objectView es nulo
+Editor.attribsForItemsNull=Los atributos de los ítems son nulos (ObjectView, ítems, ítem)
+Editor.deleteContent=¿Está seguro de que quiere borrar los contenidos de este atributo?
+Editor.binContent=El tamaño del contenido es:
+Editor.import=Importar
+Editor.export=Exportar
+Editor.delete=Borrar
+Editor.loadfailed=Error al cargar el objeto
+Editor.propinitfailed=Error al mostrar propiedades
+Editor.savefailed=Objeto no se pudo guardar
+Editor.errunlocking=Error al desbloquear el objeto
+Editor.rvlexload=RVLException recuperando los permisos de RBAC
+Editor.cnfexload=Error recuperando la vista de clases de referencia
+Editor.exrefload=Excepción cargando la vista de referencia
+Editor.reloadfailed=Error al cargar el objeto
+Editor.instexload=Error instanciando vistas de referencia
+Editor.iaccessexload=IllegalAccessException para Vista de Referencia
+Editor.rvlexrefload=RVLException al crear la instancia del Reference Wrapper
+Editor.srapexrefload=SrapException creando la instancia del Reference Wrapper
+Editor.visexrefload=Ocurrió la excepción: VisException al crear la instancia del Reference Wrapper
+Editor.disperr=Falla en la pantalla del Editor
+Editor.binuploaderr=Error al cargar el archivo
+Editor.binloaderr=Error recuperando los datos binarios
+Editor.binsaveerr=Error al escribir los datos binarios
+Editor.allAttributeEmpty=Todos los atributos de esta ficha están vacías
+
+Editor.hasContent=*** tiene contenidos ***
+Editor.noRelationships=Número de relaciones: {0}
+Editor.unclassifiedVisTranslation=VisTranslationException: Error recuperando los miembros de espacio de nombres clasificación.
+Editor.unclassifiedSrap=SrapException: Error recuperando los miembros no clasificados del espacio de nombres.
+Editor.errBinAttr=Error recuperando el valor del atributo binario
+Editor.errorLabel=ERROR: {0}
+Editor.mandatoryLabel=: *
+Editor.defaultLabel=:
+Editor.errRename=Error cambiar el nombre del objeto {0}
+Editor.errSave=Error guardando el objeto {0}
+TextPropertyView.wrongdate=La fecha {0} no coincide con el formato de fecha de Rochade {1}
+TextPropertyView.wrongint=The value {0} is not a valid integer value
+TextPropertyView.wrongdouble=The value {0} is not a valid real number (double float)
+TextPropertyView.errSequence=Error recuperando el valor de secuencia.
+Editor.limit.maxLines.islimited={0} lineas estan disponibles:
+Editor.limit.maxLines.button.showAll=Mostrar todo
+Editor.limit.maxLines.button.exportExcel=Exportar a Excel
+Editor.limit.maxLines.button.separator=<span style="color:blue"> | </span>
+
+FilterTextPropertyView.btnViewFilter.label=View filter
+FilterTextPropertyView.notInitialized=Not initialized
+FilterTextPropertyView.filterHidden=Contains advanced filter
+
+StubVisDataObjectFactory.NewItem_TabName=Nuevo ítem
+StubVisDataObjectFactory.NewItemType_TabName=Nuevo ítem: {0}
+
+ObjectEditFacilitator.rowOutOfRange=Número de fila del ResultSet fuera de rango.
+ObjectEditFacilitator.unsupportedDir=Dirección no soportada.
+ObjectEditFacilitator.visTransException=Ocurrió la excepción: VisTranslationException: {0}
+
+DecoratorFactory.FGBiggerBG=La imagen en primer plano es más grande que la imagen de fondo.
+
+WAMessagebox.err=Error mostrando mensaje: {0}.
+
+# 
+# from package: com.rochade.wa.comp
+#
+ComponentManager.opening=Leyendo {0}.
+ComponentManager.rochade=Leyendo desde Rochade {0}.
+ComponentManager.msgfile=Archivo de mensajes registrados {0}.
+ComponentManager.notfound=No se ha encontrado el recurso {0} .
+ComponentManager.loading=Cargando el componente {0} [{1}].
+ComponentManager.parseerr=Error al analizar {0}.
+ComponentManager.missing=No se encuentra {0}.
+ComponentManager.samelogname=Los componentes del plugin [{0}] y [{1}] tienen el mismo nombre lógico y no pueden ser distinguidos por condiciones.
+ComponentManager.nologname=El componente de plugin [{0}] no tiene un nombre lógico.
+ComponentManager.noplugin=No encontró plug-in para el componente lógico [{0}].
+ComponentManager.noplugincomp=No encontró plug-in para el componente [{0}].
+ComponentManager.noitem=El ítem no existe o no tiene permiso para accederlo.
+ComponentManager.nozul=El componente de plugin [{0}] no especifica un archivo zul.
+ComponentManager.nocomponent=No se puede crear el componente desde archivo zul [{0}].
+ComponentManager.nooutput=El componente de plugin [{0}] no se ha definido en la salida [{1}].
+ComponentManager.noload=El componente de plugin [{0}] no se ha definido en la carga [{1}].
+ComponentManager.compnotreg=El componente [{0}] no tiene un componente plug-in, al verificar el evento [{1}].
+ComponentManager.notypelisten=El componente de plugin [{0}] no especifica un tipo para escuchar [{1}], o los datos del evento actual son nulos.
+ComponentManager.notypeexec=El componente de plugin no especifica un tipo para exec [{0}].
+ComponentManager.notypeinput=El componente de plugin [{0}] no especifica un tipo de entrada [{1}].
+ComponentManager.notypeoutput=El componente de plugin [{0}] no especifica un tipo para la salida [{1}].
+ComponentManager.notcompatevent=Los datos de eventos no son compatibles con la asignación: el componente de complemento [{0}] para escuchar [{1}] declara [{2}], pero los datos del evento son [{3}].
+ComponentManager.notcompatinput=Los datos de entrada no son compatibles con la asignación : el componente de complemento [{0}] para la entrada [{1}] declara [{2}], pero los datos son de [{3}].
+ComponentManager.notcompatoutput=Los datos de salida no son compatibles con la asignación: el componente de complemento [{0}] para la entrada [{1}] declara [{2}], pero los datos son de [{3}].
+ComponentManager.nooptionalinput=El componente de plugin [{0}] requiere de entrada [{1}], pero no se encuentra o es nula.
+ComponentManager.nooptionaloutput=El componente plugin [{0}] requiere de la salida [{1}], pero no se encuentra o es nula.
+ComponentManager.eventnotreg=El componente [{0}] se ha suscripto para el evento [{1}], pero no declare un <listen> para él.
+ComponentManager.nokey=No se encuentra la clave solicitada [{0}], en el mapa de datos de entrada.
+ComponentManager.exechandler=Error al llamar a la clase controlador exec [{0}].
+ComponentManager.extendsnotthere=El componente de plugin [{0}] se extiende [{1}], pero no se encontró el componente base.
+ComponentManager.errresolve=El componente de plugin [{0}] se extiende [{1}], pero no se puede resolver.
+ComponentManager.notfound=No encontrado
+ComponentManager.initializer=No se puede llamar el constructor de la clase de inicialización [{0}].
+ComponentManager.multiimpl=Hay más de un componente plugin disponible para la carga [{0}].
+ComponentManager.merging=Combinar/Sustituir un componente plug-in ya definido [{0}].
+ComponentManager.errorload=Durante la carga [{0}] por loadall (), el componente plugin [{1}] produce una excepción.
+ComponentManager.eventnotarget=El evento [{0}] declara un parámetro componente de destino, pero el parámetro [{1}] no tiene ningún valor.
+ComponentManager.converterr=Se produjo un error al evaluar [{0}].\nCompruebe el Log de la sesión para ver más detalles.\n\nEl mensaje original es: {1}.
+ComponentManager.errloadshape=Error cargando los archivos de TableShapes {1} o {0}. Ver Logs para obtener mas detalles.
+ComponentManager.warnReportIdNotUnique=Ya existe un reporte con id [{0}].
+
+ExtensionUtil.pathwayParam=Extensiones - Falta parámetro Pathway: {0}
+ExtensionUtil.pluginParam=Extensiones - Falta parámetro pluginquery: {0}
+ExtensionUtil.actionParam=Extensiones - parámetro de acción faltante: {0}
+ExtensionUtil.menuid=Extensiones - Falta el ID de la acción menuitem: {0}
+ExtensionUtil.special=Extensiones - acción <special> no permitida en los menús de contexto: {0}
+ExtensionUtil.context=Extensiones - acción <contextmenu> no permitida en ver los menús: {0}
+ExtensionUtil.editorTab=Extensiones - definición editortab.XXX faltante, pero referenciados por {0}
+ExtensionUtil.editorUse=Extensiones - falta definir componente de pestaña, pero está referenciado por {0}
+ExtensionUtil.unusedKeys=Extensiones -  las siguientes claves no se utilizan: {0}
+
+#
+# from package: com.rochade.wa.widget
+#
+WidgetUtil.IllegalComp=Componente ilegal, no se puede desactivar: {0}.
+
+#
+# from package: com.rochade.wa.preferences
+#
+WAPreferences.defaultsLoaded=Leyendo preference.properties.
+WAPreferences.globalLoaded=Se cargaron las preferencias para todos los usuarios.
+WAPreferences.userLoaded=Preferencias cargadas para el usuario [{0}].
+WAPreferences.userSaved=Preferencias guardadas para el usuario [{0}].
+WAPreferences.userSaveIgnored=Las preferencias no se guardaron para el usuario [{0}] debido a la falta de permisos de escritura o al modo de aplicación [{1}].
+WAPreferences.opening=Leyendo {0}.
+WAPreferences.notfound=No se ha encontrado el recurso {0} .
+WAPreferences.ioerr=Error al leer {0}.
+WAPreferenceStore.notfound=No se encontraron las preferencias para el usuario [{0}].
+WAPreferenceStore.ioexload=Excepción de E/S cargando las preferencias.
+WAPreferenceStore.srapexload=Ocurrió una excepción SRAP cargando las preferencias.
+WAPreferenceStore.ioexsave=Excepción de E/S guardando las preferencias.
+WAPreferenceStore.srapexsave=Ocurrió una excepción SRAP guardando las preferencias.
+WAPreferenceStore.exportfolio=Excepción al leer ítem del inventario. Tal vez se accede al mismo por primera vez y se creará automáticamente por RVL.
+WAPreferenceStore.noctrlarea=No se pueden cargar las preferencias desde Rochade porque la Subject Area de control no está disponible.
+
+#
+# from package: com.rochade.wa.resources
+#
+WAResourceRoot.noctrlarea=No se pueden cargar los recursos desde Rochade porque la Subkect Area de control no está disponible
+WAResourceRoot.norootitem=El recurso raíz ítem de Rochade [{0}] no se encuentra en la Subject Area de control.
+WAResourceRoot.rootitem=El recurso raíz ítem de Rochade es [{0}]
+WAResourceRoot.notfound=Recurso Rochade no encontrado: [{0}]
+WAResourceRoot.ioexread=Excepción de E/S cargando recursos de Rochade.
+WAResourceRoot.srapexload=Ocurrió una excepción SRAP cargando recursos de Rochade.
+
+#
+# from package: com.rochade.wa.srap
+#
+WAConnection.serverExp=La licencia de servidor para la conexión a Rochade {0} expirará en {1} días.
+WAConnection.passwdExp=Su contraseña para la conexión {0} expirará en {1} días.
+WAConnection.warningExp=Advertencia de caducidad
+
+WAUIController.noctrlarea=No se pueden evaluar los permisos de la interfaz de usuario debido a que la Subject Area de control no está disponible.
+
+WADataspace.autologin=Conectando automáticamente con la conexión {0} con el ID de usuario: {1} (sin contraseña)
+WADataspace.warninig=Mensaje de advertencia: {0}
+
+WAResultSet.unknowntype=Tipo desconocido en WAResultSet: {0}.
+
+WAContextProvider.connection=ContextProvider: La conexión no definida: {0}.
+WAContextProvider.unknownctrlarea=ContextProvider: La base de datos predeterminado no se puede determinar debido a que el control de la Subject Area no está configurado.
+WAContextProvider.unknownctrlconn=ContextProvider: La conexión por defecto no se puede determinar debido a que el de control de conexión no está configurado.
+WAContextProvider.workspacemissing=ContextProvider: El área de trabajo no se puede determinar. Compruebe que el parámetro de área de trabajo se ha especificado.
+WAContextProvider.workspaceformat=ContextProvider: área de trabajo Parámetro = tiene un formato incorrecto: {0}.
+WAContextProvider.objnotfound=ContextProvider: No se encontró objeto: type = {0} name = {1} scope = {2}.
+WAContextProvider.notInst=ContextProvider: Consulta de la clase {0} no se puede cargar. Compruebe el nombre de la clase y el constructor (IVisWorkspace, String).
+WAContextProvider.nocontext=El glosario o contexto no existe o no tiene permiso para accederlo.
+WAContextProvider.wrongcard=La consulta no se puede volver a ejecutar de nuevo, ya que depende de muchos ítems de semillas que no son parte de la URL. \n[La cardinalidad esperada es {0}.]
+
+WAAuthSupport.missingRemote=loginType es "remoto", pero la falta de información RemoteUser. Verifique la configuración de SSO.
+WAAuthSupport.illegalLoginType=loginType no se conoce: {0}.
+WAAuthSupport.illegalSecondLoginType=enableSecondLoginType [{0}] no es válido para el loginType actual [{1}].
+WAAuthSupport.switchClassic=No está permitido el cambio de (authType="classic") a (authType="trusted") en la ventana de inicio de sesión.
+WAAuthSupport.illegalAuthType=authType no se conoce: {0}.
+WAAuthSupport.authInfo=Autenticación: loginType=[{0}] authType=[{1}] user=[{2}] pwd.available=[{3}] gss.available=[{4}] enableSecondLoginType=[{5}]
+WAAuthSupport.noPrivateKey=Clave para la conexión de confianza no se pudo encontrar. La clave debe especificarse como un recurso de Java. Verifique el parámetro del archivo de claves en  startup.properties.
+WAAuthSupport.errorAuthentication=Error recuperando objeto de autenticación.
+WAAuthSupport.noAccountFile=The specified account file resource [{0}] does not exist or cannot be opened. Check the accountUtility.accountFile parameter in the startup.properties.
+
+#
+# from package: com.rochade.wa.logging
+#
+WALogger.debug=Logger: Debug Information 
+WALogger.info=Logger: Information 
+WALogger.warn=Logger: Warning
+WALogger.error=Logger: Error
+
+#
+# from package: com.rochade.wa.capabilities
+#
+Capabilities.opening=Leyendo {0}.
+Capabilities.incomplete=Línea incompleta: {0}.
+Capabilities.syntaxerr=Error de sintaxis en línea: {0}.
+Capabilities.novalue=Debido a argumentos insuficientes , el valor de la clave [{0}] no se puede determinar para la capacidad de [{1}]. Devolviendo "false".
+Capabilities.notdefined=Capacidad {0} no está definido.
+Capabilities.recursion=Recursión directa en la capacidad de [{0}]. Ignorado.
+Capabilities.missingArguments=Argumentos insuficientes para evaluar tecla [{0}]: {1}
+Capabilities.srapError=Excepción SRAP
+Capabilities.targetapplReq=targetappl no se ha especificado.
+Capabilities.workspaceReq=No se ha especificado el área de trabajo.
+Capabilities.itemsOrTypeReq=El ítem o tipo no fue especificado.
+Capabilities.noappid=rvlappId no se puede determinar. Utilizando el valor predeterminado de rvlappId en su lugar.
+Capabilities.nosysattr=No se puede obtener el valor para el atributo de sistema [{0}] para la capacidad de [{1}]. Devolviendo "falsa".
+
+#
+# from package: com.rochade.wa.ui.export
+#
+BulkExporter.title=Progreso de la exportación
+BulkExporter.processing={0} de {1} artículos se preparan para la exportación.
+BulkExporter.preparemsg=Preparando datos para exportar.
+Renderer.PathGlossary={0} [Glossary]
+Renderer.PathContext={0} [Context]
+SummaryExporter.title=Progreso de la exportación
+SummaryExporter.processing={0} de {1} ítems estén preparados para la exportación.
+SummaryExporter.preparemsg=Preparando datos para exportar.
+SummaryExporter.cancel=Saltar ítems remanentes
+SummaryExporter.transformation=Generando de archivo PDF. Este proceso no se puede interrumpir.
+
+#
+# from package: com.rochade.wa.query
+#
+Query.wrongworkspace=Al menos un objeto en "desde" no pertenece al área de trabajo actual.
+Query.notInst=No se puede cargar consulta de la clase {0}. Verifique el nombre de la clase y el constructor (IVisWorkspace, String).
+Query.taskNotInst=No se puede cargar el parámetro de la tarea de consulta de la clase {0} . Verifique el nombre de la clase y el constructor (consulta).
+Query.unknowndef=Instancia de QueryDef desconocida o no soportada: {0}.
+Query.nomasks=Máscaras no establecidas para la consulta MPath {0}.
+Query.islimited=Límite de {0} objetos alcanzados durante la ejecución de la consulta. El resultado es incompleto.
+Query.filter.isLimited=Information: The drill-down filter contains a limited list of {0} objects. You may define a more specific name pattern for: {1}
+Query.limitExceededHeader=Aviso: La ejecución de la Consulta puede tomar tiempo
+Query.limitExceeded=\nContinuar la ejecucion de esta consulta larga puede tomar unos pocos minutos mas para terminar.
+Query.cancelHint=Presionando "Detener consulta" devolverá un resultado limitado.
+Query.isRunning=Procesando consulta de ejecución prolongada ...
+Query.noninterruptable=Continuando con la consulta, no puede ser interrumpido.
+Query.startQuery=Continuar Consulta
+Query.stopQuery=Detener consulta
+Query.cancelQuery=Mostrar resultado limitado
+Query.updatingView=Actualizando la vista... Por favor, espere.
+Query.foreground=Continuar
+Query.background=Ejecutar en segundo plano
+Query.cancelDiagram=Cancelar
+Query.largeDiagramHeader=Acción ejecutando por largo tiempo
+Query.largeDiagram=\nGenerar el diagrama puede tomar un tiempo largo.
+Query.hintDiagram=Pulse "Continuar" para continuar o seleccione "Ejecutar en segundo plano", \n o Cancelar todo.
+Query.noBackgConnection=La conexión de fondo no está disponible. \n Verificar la configuración en startup.properties.
+Query.noBackgConfigured=La conexión de fondo no está configurado correctamente.\n Verificar la configuración en startup.properties.
+Query.backgProcessing=Otra consulta ya se ejecuta en segundo plano. \nEsta consulta no se puede ejecutar.
+
+#
+# from package: com.rochade.wa.metaapp
+#
+MetaApplicationAdmin.missing=El archivo {0} no se encuentra. La metaApp se desactivará.
+MetaApplicationAdmin.missingimplicit=El archivo {0} no se encuentra. Esta metaApp se define implícitamente debido a las dependencias. La metaApp se desactivará.
+MetaApplicationAdmin.init=metaApp {0} inicializado.
+MetaApplicationAdmin.initerr=Error al inicializar metaApp {0}. La metaApp se desactivará.
+MetaApplicationAdmin.initerrimplicit=Error al inicializar el metaApp {0}. Este metaApp se define implícitamente debido a las dependencias. El metaApp se desactivará.
+MetaApplicationAdmin.initerrhint=\n Verifar que las capacidades fueron configuradas correctamente.
+MetaApplicationAdmin.reading=Leyendo {0}.
+MetaApplicationAdmin.noapp=Sin metaApp definida en applications.properties.
+MetaApplicationAdmin.duplicate=Duplicar definición de tecla {0} en la aplicacióon {1}. Ya está definida en la aplicatión {2}.
+MetaApplicationAdmin.errorreading=Error al leer {0}. El metaApp se desactivará.
+MetaApplicationAdmin.errorreadingimplicit=Error al leer {0}. Este metaApp se define implícitamente debido a las dependencias. El metaApp se desactivará.
+MetaApplicationAdmin.duplicateCtrl=Duplicar definición de server.XXX.controlspace en startup.properties
+MetaApplicationAdmin.missingCtrl=Falta server.XXX.controlspace en startup.properties
+MetaApplicationAdmin.servernull=Servidor [{0}] no está configurado en startup.properties.
+MetaApplicationAdmin.serversyntax=Error de sintaxis para el servidor [{0}]: línea de [{1}]
+MetaApplicationAdmin.ldapnull=Falta LDAP-Property [{0}] en startup.properties.
+MetaApplicationAdmin.ldapsyntax=Error de sintaxis en Propiedad-LDAP: [{0}]: el valor no en formato STRING,LONG [{1}]
+MetaApplicationAdmin.noperspectives=No hay una lista de perspectivas definida. No se permite establecer la perspectiva de [{0}].
+MetaApplicationAdmin.wrongperspective=La perspectiva [{0}] no está en la lista de las perspectivas permitidos.
+MetaApplicationAdmin.nometaapps1=Acceso a Rochade completado con éxito, pero a partir de la metaApps instalada, fracasó debido a que ninguno de las áreas de trabajo configuradas se pudo abrir para el usuario actual.
+MetaApplicationAdmin.nometaapps2=Contacte al administrador para comprobar que las áreas de trabajo se han configurado correctamente y que tiene acceso a ellos.
+MetaApplicationAdmin.loopdetected=Error de configuración: Se ha detectado un bucle mientras se lee la propiedad {0} [{1}].
+MetaApplicationAdmin.switchToAppModeFailed=Falló en cambio de AppMode [{0}], debido a que falta un ajuste en application.properties.
+
+MetaApplicationAdmin.ldapnull=Error de sintaxis para el servidor [{0}]: línea de [{1}]
+MetaApplicationAdmin.ldapsyntax=Error de sintaxis para el servidor [{0}]: línea de [{1}]
+MetaApplicationAdmin.ldapSecondValueNotLong=Error de sintaxis para el servidor [{0}]: línea de [{1}]
+
+
+MetaApplication.accessMGProdFailed=Acceso al área de trabajo de producción MetaGlossary falló. MetaGlossary se desactivará.
+MetaApplication.accessMGDevFailed=Acceso al área de trabajo de desarrollo MetaGlossary falló. MetaGlossary se desactivará.
+MetaApplication.accessWfProdFailed=Acceso al área de trabajo de producción del workflow ha fallado. Rochade Browser se desactivará.
+MetaApplication.accessWfDevFailed=Acceso al área de trabajo de desarrollo del workflow ha fallado. Rochade Browser se desactivará.
+MetaApplication.accessRBRWSFailed=Acceso al área de trabajo del navegador falló. Rochade Browser se desactivará.
+MetaApplication.accessConnDbFailed=Falló la conexión a la base de datos. Por favor, vea el Log para obtener más detalles.
+# messages for mdm have to be here, because application specific message files are read after MetaApplication.init()
+MetaApplication.accessMdmProdFailed=Acceso al área de trabajo de producción metaRDM falló. metaRDM se desactivará.
+MetaApplication.accessMdmDevFailed=Acceso al área de trabajo de desarrollo metaRDM falló. metaRDM se desactivará.
+MetaApplication.mdmWsProdDifferentToMG=Error de configuración: el área de trabajo de producción de metaRDM no debe ser diferente del área de trabajo de producción de MetaGlossary. metaRDM se desactivará.
+MetaApplication.mdmWsDevDifferentToMG=Error de configuración: el área de trabajo de desarrollo de metaRDM no debe ser diferente del área de trabajo de desarrollo de MetaGlossary. metaRDM se desactivará.
+MetaApplication.requestsUpdateLicense=metaApp {0} solicita licencia de actualización. Motivo: [{1}] {2}.
+MetaApplication.error.workspacesDifferent=Error de configuración: El área de trabajo {0} no debe ser diferente del área de trabajo {1}.
+MetaApplication.error.workspacesEqual=Error de configuración: El área de trabajo {0} no debe ser igual al área de trabajo {1}.
+
+Workflow.info.processEngine=motor de proceso: nombre: {0}, JDBCURL: {1}
+Workflow.info.shuttingDown=Apagando motor de procesos: {0}.
+Workflow.info.unregisteringJdbcDriver=Eliminación del registro de controlador JDBC: {0}.
+Workflow.error.startingUp=Se ha producido un error durante el proceso de arranque del motor.
+Workflow.error.unregisteringJdbcDriver=Se ha producido un error al dar de baja el controlador JDBC: {0}.
+Workflow.initProcessEngineFailed=La inicialización del motor de workflow ha fallado. workflow y gestión de tareas no funcionarán.
+Workflow.error.creatingProcessEngine=Se ha producido un error al crear el motor de workflow con el nombre {0} y JdbcUrl {1} .
+Workflow.error.h2StartDisabled=El inicio automático del servidor H2 se ha desactivado. Por favor, verificar la configuración en wf.properties.
+Workflow.error.h2StartFailed=No se pudo iniciar el servidor H2 . Por favor, ver los registros(Logs) de BgWebServices para más detalles.
+Workflow.error.h2StartedButNotReachable=El servidor H2 se inició, pero no se puede acceder desde el servidor de aplicaciones.
+Workflow.error.checkDatabaseFailed=Falló la conexión a la base de datos de workflow.
+	
+LDAPPropertyHolder.ldapPropCantBeLoaded=No se pueden cargar las propiedades LDAP para el usuario [{0}]
+
+#
+# in ZKRVLTableView/WABaseTable/ZKRVLGridView
+#
+maxHitsInfo=Lista truncada:
+maxHitsAll.label=Cargar todas las entradas
+maxHitsAll.tooltip=Cargar todas las entradas
+maxHitsAll.sclass=
+maxHitsNext.label=Cargar Entradas Siguientes
+maxHitsNext.tooltip=Cargar Entradas Siguientes
+maxHitsNext.sclass=
+watable.unfiltered=(Unfiltered Size: {0})
+watable.errinit=No se puede inicializar la vista \n
+watable.missingShape=Faltan table shapes. Verificar el archivo.
+watable.sortlimitHeader=Ordenar puede llevar mucho tiempo
+watable.sortlimit=Debido a la gran cantidad de artículos, ordenar los contenidos de la columna puede llevar mucho tiempo cuando se aplica por primera vez en esta vista. \n ¿Desea habilitar este orden?
+watable.sortlimitEstimation=\nEl ordenamiento requerira aproximadamente {0} segundos.
+
+
+IZKWidgetView.noshape=No se puede crear la Vista, forma desconocida:
+IZKWidgetView.unsupported=Operación no soportada:
+IZKWidgetView.renderingerr=Error de representación.
+
+
+WAGridRowRenderer.rowRenderer=Columna: {0} clase renderizadora: {1}
+WAGridRowRenderer.rowRendererNull=Columna: {0} renderizador nulo
+WAGridRowRenderer.initializationRowRenderer=Error inicializando RowRenderer
+
+#WAExecutorService.error.parseTimeout=Error parsing WAExecutorService.awaitTimeout={0}, using default of {1} seconds. 
+WAExecutorService.error.lookupManagedService=Failed looking up DefaultManagedExecutorService from InitialContext (JavaEE feature): {0} - Creating own executor service.
+WAExecutorService.shutdown=Shutting down executor service.
+WAExecutorService.shutdownNow=Killing running and skipping waiting tasks.
+
+WAThreadFactory.error.lookupManagedFactory=Failed looking up DefaultManagedThreadFactory from InitialContext (JavaEE feature): {0} - Creating own thread factory.
+WAThreadFactory.shutdown=Shutting down thread factory.
+WAThreadFactory.statistics=Thread statistics: {0}
+WAThreadFactory.before.interrupt=Attempting to interrupt thread {0} (state={1}, isDaemon={2}).
+WAThreadFactory.error.interrupt=Error interrupting thread {0} (state={1}).
+WAThreadFactory.before.stop=Attempting to stop thread {0} (state={1}, isDaemon={2}).
+WAThreadFactory.error.stop=Error stopping thread {0} (state={1}).
+
+# from package: com.rochade.wa.view.diagram
+#
+Diagram.renderernotcreate=No se puede crear instancia del procesador de diagramas de clase {0}. Verifique el parametro "diagram.renderer"  en el archivo startup.properties.
+Diagram.generatornotcreate=No se puede crear instancia generador de diagramas de clase: {0}.
+Diagram.generatornotcreate=No se puede crear una instancia del proveedor de diagramas de clase: {0}.
+Diagram.noimage=Error al generar la imagen. Ver salida de la consola para obtener más detalles.
+Diagram.noimgrend=No hay imagen de procesador configurado. No se puede crear el diagrama. Verifique " diagram.graphviz " en startup.properties.
+Diagram.rendererr=Un error inesperado durante la representación. Ver salida de la consola para obtener más detalles.
+Diagram.graphvizerror=Graphviz - Error: {0}
+Diagram.graphviznotconf=Graphviz no está configurado. Verificar "diagram.graphviz" en startup.properties.
+Diagram.graphvizlimited=Demasiados nodos y aristas. Por razones de rendimiento, el resultado es truncado y el diagrama quedará incompleto.
+Diagram.graphviznoctrlarea=No se puede crear el diagrama por RPC debido a que el subject area no está disponible.
+Diagram.graphvizVersionRpc=Graphviz configured per RPC
+Diagram.noseeds=Debe haber exactamente un ítem de raíz en el modelo.
+Diagram.isempty=Diagrama está vacía, no se muestran ítems.
+Diagram.notconfigured=Graphviz no está configurado.
+Diagram.loading=Cargando imagen ...
+Diagram.bgfinished=El diagrama del linaje generado en segundo plano está listo.
+Diagram.generating=Diagrama se genera en segundo plano. \nNo se cargará automáticamente cuando esté listo.
+Diagram.duplicateBackg=Ya se está ejecutando un proceso en segundo plano para este diagrama. No se puede generar otro diagrama mientras que este proceso no está terminado.
+Diagram.virtualtimeout=Computar bordes virtuales toma demasiado tiempo. El resultado es incompleto.
+Diagram.errorMPath=Error executing MPath query {0} with seed item {1}.
+Diagram.error.parseSetting.int=Error parsing integer value {0} for setting {1}. The default value {2} is used instead.  
+Diagram.error.parseSetting.long=Error parsing long value {0} for setting {1}. The default value {2} is used instead.
+Diagram.error.parseSetting.ignored=Error parsing value {0} for setting {1}. The setting is ignored.  
+Diagram.error.loadDisplayNames=Error loading Display Names.  
+Diagram.error.applyColorSchemaFilter=Error applying Color Schema Filter {0}.
+
+
+#
+# from package: com.rochade.wa.index.lucene
+#
+Lucene.srapException=SrapException mientras se construye el índice Lucene. {0}
+Lucene.rvlException=RVLException mientras se construye el índice Lucene. {0}
+
+#
+# from package: com.rochade.wa.workspace
+#
+Workspace.itemDisposed=El ítem ya no existe o ha sido eliminado en este momento.
+Workspace.itemsDisposed=Uno o más ítems ya no existen o se han eliminado en este momento.
+
+#
+# error messages for action
+#
+err.app.unknown=La Aplicación con ID [{0}] es desconocida.
+err.action.unknown=Acción con id = {0}, e Id de aplicación {1} es desconocida.
+err.action.params.missing=Faltan los parámetros de acción {0}
+err.action.impl.unknown=implementación de acciones con id = {0}, e Id de aplicación {1} es desconocida.
+err.items.empty=Los ítems seleccionados están vacíos.
+#err.no.create.right=Tipo {0} no tiene el derecho de crear el ítem.
+err.no.create.right=Usted no tiene permiso para crear un objeto del tipo seleccionado.
+err.no.rename.right=Usted no tiene permiso para cambiar el nombre del objeto seleccionado.
+err.no.delete.right=Usted no tiene permiso para eliminar el objeto seleccionado.
+err.no.such.right=Los ítems que no tienen {0}.
+err.diff.container=Diferentes tipos de contenedores o clase.
+err.append.action.unknown=Anexar la posición específica falló debido a que actionId [{0}] es desconocido.
+err.append.syntax.unknown=La sintaxis de los datos anexados es desconocida [lugar = "{0}"].
+err.defaultaction.none=No hay resultados para arg (s) DefaultAction {0}.
+err.contextaction.none=No entontrada ContextAction para arg(s) {0}.
+#err.defaultaction.multiimpl=Hay más de una DefaultAction disponible para la carga [{0}].
+err.action.exist=ID de Acción {0} en la aplicación {1} ya existe. Compruebe el archivo plugin.xml.
+err.action.unknown.tag=Elemendo de acción desconocido: {0} en ActionID [{1}]. Ignorando este ítem.
+err.comp.name=Sin nombre componente especificado
+err.editor2pdf.transform=Exportando a PDF ha fallado. Por favor, contacte al administrador.
+err.list2files.transform=Exportando a {0} ha fallado. Por favor, contacte al administrador.
+err.table.autorender=Falló la representación automática del ítem en la tabla.
+err.invalid.item.type=Operación fallida. Por favor, contactar al administrador. Tipo de ítem inválido {0}.
+err.invalid.scope=Se requiere un ítem padre para crear ítems de este tipo: {0}.
+err.set.operation=Agregar/Eliminar para establecer la operación que falló para el conjunto con id: {0}. Por favor, póngase en contacto con el administrador.
+err.unabletoObtainAutoAppr=No se puede obtener configuración de aprobación automática.
+err.invalid.language=Configuración de idioma no válida {0}.
+err.missingwfstatefile=No se encuentra el archivo de acciones de workflow: {0}
+err.wfwrongstate=Estado incorrecto para el ítem de workflow. Estado actual {0}, la acción {1}
+err.init.workspace=Error al inicializar el área de trabajo
+err.no.view.ref=No hay referencia a ninguna Vista, usar destino para recuperar el DataObject.
+err.no.dataobj.ref=No hay referencia a ningún IVisDataObject.
+err.multisel.error=Selección múltiple, sólo para los nodos del mismo tipo.
+err.singleSel.only=Esta operación puede ser aplicada solo a un objeto simple.
+err.rename.right=Error recuperando los derechos de acceso: {0}.
+err.cannedquerypopup.onclick=Error al procesar onClickItem.
+err.wf.setting=Something wrong with the workflow-related configuration, please check the host and port settings in the wf.properties file.\nPlease check the logs for more details. 
+err.itemVersions.not.dev=Algunos ítems no tienen una instancia en el área de trabajo de desarrollo.
+err.refreshItem=Error refreshing item.
+
+err.wf.tokenGeneration=Error generating access tokens for BgWebServices.
+err.wf.tokenValidation=Error validating access tokens for BgWebServices.
+err.wf.tokenExpired=The access token has expired. Please check time difference between Rochade and BgWebServices application servers (if different) or increase the validity period in BgWebServices:rwf.properties. 
+
+#
+# info/error messages for WIP logs
+#
+info.dismissTransaction=Comenzando a deshacer la transacción: {0}
+info.cancelTransDismiss=Cancela descartar la transacción: {0}
+info.commitTransaction=Comenzando la confirmacion de la transacción: {0}
+info.cancelTransCommit=Cancelar confirmación de la transacción: {0}
+info.creatingTransaction=Comenzando la creación de la transacción: {0}
+info.disableCreateAction=Desactivando la acción de crear para modo Borrador.
+info.disableCreateActionAfterCreate=Desactivando la acción de crear después que se agregó la transacción.
+info.disableWIPActions=Desactivando confirmar, descartar, rechazar y prever acciones de revisión en el modo producción.
+info.switchToWIP=Cambiando a modo Borrador..
+info.provideWIPToReview=Proporcionar Borrador {0} para revisar.
+info.rejectWIP=Rechazando Borrador {0} como incompleto.
+err.cantCommitTransaction=Error confirmando la transacción: {0}
+
+#
+# info messages for WIP actions
+#
+trx.dismissWindowTitle=Descartar Borrador
+trx.dismissMessage=¿Seguro que quiere descartar los datos del Borrador?
+trx.commitWindowTitle=Confirmar Borrador
+trx.commitMessage=¿Seguro de confirmar el Borrador en producción?
+
+
+#error/info messages for navigator
+err.context=Error recuperando información de contexto:
+err.contextmultiple=Los siguientes tópicos de entrada (s) no se pudieron cargar
+err.contextAccess=Error al abrir el contexto {0}.
+info.remctxfail=Eliminando pathway con el problema de contexto:
+info.remcapabilityfail=Eliminando pathway con capacidad fallida:
+info.loadingpathway=Pathway está siendo cargado: {0}
+
+#
+# error/info messages for composers
+#
+info.enableWIPMenuItem=Habilitando la revision del modo Borrador.
+info.checkIfWIPIsReady=Verificando si la transacción: {0} está lista para su revisión.
+info.snapshotReview.lbl=Snapshot: {0} (Configuración {1})
+err.cantStartTransaction=No se puede iniciar una revisión de la transacción: {0}
+err.cantStartTransactionBrowseMode=No se puede iniciar la exploración para la transacción: {0}
+err.errorWhileFinishingTransaction=Error durante la operación de finalización: {0} en la transacción: {1}
+err.cantGetTransactionStatus=No se puede recuperar el estado de la transacción: {0}
+
+#
+# error messages for reports
+#
+err.report.unknown.tag=Elemento de reporte desconocido: {0} en ReportID [{1}]. Ignorando este ítem.
+Report.notInst=Report of class {0} failed on creation/execution. Check class name, constructor(IVisWorkspace,Map), and following stack trace.
+Report.notImpl=No se ha implementado aún el reporte {0}.
+Report.noSeeds=No hay datos de semillas podrían ser recuperados. No se crea ningún reporte.
+Report.empty=No relevant data for the report available. Report is not displayed.
+Report.emptylimited=Could not identify any relevant data for the report when searching within the current limit setting of {0} items. Report is not displayed.
+Report.emptycancelled=Could not identify any relevant data for the report until report was interrupted. Report is not displayed.
+Report.isLimited=Límite de {0} objetos alcanzados durante la ejecución del reporte. El resultado es incompleto.
+Report.isLimitedCancelled=The report was interrupted. Result is incomplete.
+Report.filter.isLimited=Information: The drill-down filter contains a limited list of {0} objects. You may define a more specific name pattern for: {1}
+Engine.notInst=Report engine of class {0} failed on creation/execution. Check class name, constructor(IReport), and following stack trace.
+Engine.notImpl=No se ha implementado aún el motor de reportes {0}.
+Engine.exception=Excepción en el motor de reportes {0}.
+
+#
+# error messages for workflow configuration
+#
+wfConfig.err.load=Error cargando la configuración del workflow: {0}.
+wfConfig.err.save=Error guardando la configuración del workflow: {0}.
+wfConfig.err.remove=Error al eliminar los ítems seleccionados. Uno o más ítems podrían estar bloqueados.
+wfConfig.removeDlg.title=Eliminar Workflow
+wfConfig.removeDlg.text=¿Realmente desea eliminar el Workflow seleccionado?
+wfConfig.removeDlg.defaultAndInUse=No se puede eliminar el workflow seleccionado porque está actualmente en uso. Por favor, completar todas las tareas y vuelva a intentarlo.
+
+#
+# error messages for WIP
+#
+WIP.err.lockNoDetails=Error bloqueando el ítem {0} para la transacción del Borrador {1} en el modo {2}.
+WIP.err.lockDetails=Error bloqueando el ítem {0} para la transacción del Borrador {1} en el modo {2}. Ya está en uso por {3} para {4}.
+
+# These are defaults for preferences, which must be i18n
+
+#sendUrl.to - As values the following place holders are supported:
+#    {uid}            	- the user login name
+#    {<MAPPEDPROPERTY>} - any LDAP property <MAPPEDPROPERTY> defined in startup.properties. (i. e. {user.LDAP-properties.UserEmail})
+# !!! Escaping the placeholder with single quotation marks (') is necessary !!!
+#sendUrl.to=correoA@empresa.com
+#sendUrl.to='{user.LDAP-properties.UserEmail}'
+#sendUrl.to='{user.LDAP-properties.UserDisplayName}'@company.com
+sendUrl.to='{uid}'@company.com
+
+sendUrl.subject=ASG-Rochade notification: {0}
+sendUrl.body=La siguiente referencia a {0} ha sido enviado a Ud. \n {1}
+dateFormat=EEE MM/dd/yyyy hh:mm:ss a zzz
+dateFormatShort=EEE MM/dd/yyyy
+
+# Messages for BooleanCellRenderer
+BooleanCellRenderer.null=Indefinido
+BooleanCellRenderer.true=Si
+BooleanCellRenderer.false=NO
+
+# see ISO 639-1:
+lang.ab=аҧсуа бызшәа (Abkhaz)
+lang.aa=Afaraf (Afar)
+lang.af=Afrikaans (Afrikaans)
+lang.ak=Akan (Akan)
+lang.sq=gjuha shqipe (Albanian)
+lang.am=አማርኛ (Amharic)
+lang.ar=العربية (Afro-Asiatic Arabic)
+lang.an=aragonés (Aragonese)
+lang.hy=Հայերեն (Armenian)
+lang.as=অসমীয়া (Assamese)
+lang.av=авар мацӀ (Avaric)
+lang.ae=avesta (Avestan)
+lang.ay=Aymara (aymar aru)
+lang.az=azərbaycan dili (Azerbaijani)
+lang.bm=bamanankan (Bambara)
+lang.ba=башҡорт теле (Bashkir)
+lang.eu=euskara (Basque)
+lang.be=беларуская мова (Belarusian)
+lang.bn=বাংলা (Bengali)
+lang.bh=भोजपुरी (Bihari)
+lang.bi=Bislama (Bislama)
+lang.bs=bosanski jezik (Bosnian)
+lang.br=brezhoneg (Breton)
+lang.bg=български език (Bulgarian)
+lang.my=ဗမာစာ (Burmese)
+lang.ca=català (Catalan)
+lang.ch=Chamoru (Chamorro)
+lang.ce=нохчийн мотт (Chechen)
+lang.ny=chiCheŵa (Chichewa)
+lang.zh=中文, 汉语, 漢語 (Chinese)
+lang.zh_CN=简体中文 (Simplified Chinese)
+lang.cv=чӑваш чӗлхи (Chuvash)
+lang.kw=Kernewek (Cornish)
+lang.co=corsu (Corsican)
+lang.cr=ᓀᐦᐃᔭᐍᐏᐣ (Cree)
+lang.hr=hrvatski jezik (Croatian)
+lang.cs=čeština (Czech)
+lang.da=dansk (Danish)
+lang.dv=ދިވެހި (Divehi)
+lang.nl=Nederlands (Dutch)
+lang.dz=རྫོང་ཁ  (Dzongkha)
+lang.en=English
+lang.eo=Esperanto (Esperanto)
+lang.et=eesti (Estonian)
+lang.ee=Eʋegbe (Ewe)
+lang.fo=føroyskt (Faroese)
+lang.fj=vosa Vakaviti (Fijian)
+lang.fi=suomi (Finnish)
+lang.fr=française (French)
+lang.ff=Fulfulde (Fula)
+lang.gl=galego (Galician)
+lang.lg=Luganda (Ganda)
+lang.ka=ქართული (Georgian)
+lang.de=Deutsch (German)
+lang.el=ελληνικά (Greek)
+lang.gn=Avañe''ẽ (Guaraní)
+lang.gu=ગુજરાતી (Gujarati)
+lang.ht=Kreyòl ayisyen (Haitian)
+lang.ha=هَوُسَ  (Hausa)
+lang.he=עברית (Hebrew)
+lang.hz=Otjiherero (Herero)
+lang.hi=हिन्दी, हिंदी (Hindi)
+lang.ho=Hiri Motu (Hiri Motu)
+lang.hu=magyar (Hungarian)
+lang.is=Íslenska (Icelandic)
+lang.io=Ido (Ido)
+lang.ig=Asụsụ Igbo (Igbo)
+lang.id=Bahasa Indonesia (Indonesian)
+lang.ia=Interlengua (Interlengua)
+lang.ie=Occidental (Interlingue)
+lang.iu=ᐃᓄᒃᑎᑐᑦ (Inuktitut)
+lang.ik=Iñupiaq (Inupiaq)
+lang.in=old Indonesian (Indonesian)
+lang.iw=old Hebrew (Hebrew)
+lang.ji=old Yiddish (Yiddish)
+lang.ga=Gaeilge (Irish)
+lang.it=italiano (Italian)
+lang.ja=日本語 (Japanese)
+lang.jv=basa Jawa (Javanese)
+lang.kl=kalaallisut (Kalaallisut)
+lang.kn=ಕನ್ನಡ (Kannada)
+lang.kr=Kanuri (Kanuri)
+lang.ks=कश्मीरी, كشميري‎ (Kashmiri)
+lang.kk=қазақ тілі (Kazakh)
+lang.km=ខ្មែរ, ខេមរភាសា, ភាសាខ្មែរ (Khmer) 
+lang.ki=Gĩkũyũ (Kikuyu)
+lang.rw=Ikinyarwanda (Kinyarwanda)
+lang.rn=Ikirundi (Kirundi)
+lang.kv=коми кыв (Komi)
+lang.kg=KiKongo (Kongo)
+lang.ko=한국어 (Korean)
+lang.ku=Kurdî (Kurdish)
+lang.kj=Kuanyama (Kwanyama)
+lang.ky=Кыргызча (Kyrgyz)
+lang.lo=ພາສາລາວ (Lao)
+lang.la=latine (Latin)
+lang.lv=latviešu valoda (Latvian)
+lang.li=Limburgs (Limburgish)
+lang.ln=Lingála (Lingala)
+lang.lt=lietuvių kalba (Lithuanian)
+lang.lu=Tshiluba (Luba-Katanga)
+lang.lb=Lëtzebuergesch (Luxembourgish)
+lang.mk=македонски јазик (Macedonian)
+lang.mg=fiteny malagasy (Malagasy)
+lang.mo=old Moldavian (Moldavian)
+lang.ms=bahasa Melayu (Malay)
+lang.ml=മലയാളം (Malayalam)
+lang.mt=Malti (Maltese)
+lang.gv=Gaelg (Manx)
+lang.mr=मराठी (Marathi)
+lang.mh=Kajin M̧ajeļ (Marshallese)
+lang.mn=монгол (Mongolian)
+lang.mi=te reo Māori (Māori)
+lang.na=Ekakairũ Naoero (Nauru)
+lang.nv=Diné bizaad (Navajo)
+lang.ng=Owambo (Ndonga)
+lang.ne=नेपाली (Nepali)
+lang.nd=isiNdebele (North Ndebele)
+lang.se=Davvisámegiella (Northern Sami)
+lang.no=Norsk (Norwegian)
+lang.nb=Norsk bokmål (Norwegian Bokmål)
+lang.nn=Norsk nynorsk (Norwegian Nynorsk)
+lang.ii=ꆈꌠ꒿ (Nuosu)
+lang.oc=occitan (Occitan)
+lang.oj=Ojibwa (Ojibwe)
+lang.cu=cѩзыкъ словѣньскъ (Old Church Slavoni)
+lang.or=ଓଡ଼ିଆ (Oriya)
+lang.om=Afaan Oromoo (Oromo)
+lang.os=ирон æвзаг (Ossetian)
+lang.pa=ਪੰਜਾਬੀ (Panjabi)
+lang.ps=پښتو (Pashto)
+lang.fa=فارسی (Persian)
+lang.pl=język polski (Polish)
+lang.pt=Português (Portuguese)
+lang.pt_BR=Português Brasileiro (Portuguese Brazilian)
+lang.pi=पाऴि (Pāli)
+lang.qu=Runa Simi (Quechua)
+lang.ro=limba română (Romanian)
+lang.rm=rumantsch grischun (Romansh)
+lang.ru=русский язык (Russian)
+lang.sm=gagana fa''a Samoa (Samoan)
+lang.sg=yângâ tî sängö (Sango)
+lang.sa=संस्कृतम् (Sanskrit)
+lang.sc=sardu (Sardinian)
+lang.gd=Gàidhlig (Scottish Gaelic)
+lang.sr=српски језик (Serbian)
+lang.sn=chiShona (Shona)
+lang.sd=सिन्धी (Sindhi‎)
+lang.si=සිංහල (Sinhala)
+lang.sk=slovenčina (Slovak)
+lang.sl=slovenski jezik (Slovene)
+lang.so=Soomaaliga (Somali)
+lang.nr=isiNdebele (South Ndebele)
+lang.st=Sesotho (Southern Sotho)
+lang.es=Español (Spanish)
+lang.su=Basa Sunda (Sundanese)
+lang.sw=Kiswahili (Swahili)
+lang.ss=SiSwati (Swati)
+lang.sv=Svenska (Swedish)
+lang.tl=Wikang Tagalog (Tagalog)
+lang.ty=Reo Tahiti (Tahitian)
+lang.tg=тоҷикӣ (Tajik)
+lang.ta=தமிழ் (Tamil)
+lang.tt=татар теле (Tatar)
+lang.te=తెలుగు (Telugu)
+lang.th=ไทย  (Thai)
+lang.bo=བོད་ཡིག (Tibetan Standard)
+lang.ti=ትግርኛ (Tigrinya)
+lang.to=faka Tonga (Tonga)
+lang.ts=Xitsonga (Tsonga)
+lang.tn=Setswana (Tswana)
+lang.tr=Türkçe (Turkish)
+lang.tk=Türkmen (Turkmen)
+lang.tw=Twi (Twi)
+lang.ug=Uyƣurqə (Uighur)
+lang.uk=українська мова (Ukrainian)
+lang.ur=اردو (Urdu)
+lang.uz=O''zbek (Uzbek)
+lang.ve=Tshivenḓa (Venda)
+lang.vi=Tiếng Việt (Vietnamese)
+lang.vo=Volapük (Volapük)
+lang.wa=walon (Walloon)
+lang.cy=Cymraeg (Welsh)
+lang.fy=Frysk (Western Frisian)
+lang.wo=Wollof (Wolof)
+lang.xh=isiXhosa (Xhosa)
+lang.yi=ייִדיש (Yiddish)
+lang.yo=Yorùbá (Yoruba)
+lang.za=Saɯ cueŋƅ (Zhuang)
+lang.zu=isiZulu (Zulu)
+
+lang.en_US=English US (English US)
+lang.en_UK=English UK (English UK)
+
+Perspective.LOB1=Línea de Negocios 1
+Perspective.LOB2=Línea de Negocios 2
+Perspective.LOB3=Línea de Negocios 3
+Perspective.ENTERPRISE=Organización

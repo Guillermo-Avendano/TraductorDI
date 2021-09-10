@@ -1,0 +1,5 @@
+<row valign="top" align="left" style="border: 0px; background: transparent; padding-top: 10px">
+	<cell colspan="2">	
+		<div use="com.rochade.wa.ui.view.ItemNamePropertyView" id="name" attributeNames="" sclass="asg-itemname-label" />
+	</cell>
+</row>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="Grid View" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<!-- 
+	@author YA, July 2, 2014, created
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+<div id="filterQuery"
+	apply="com.rochade.mdm.comp.tablegrid.validityperiodfilter.ValidityPeriodFilterQuery"
+	hflex="1">
+	<hlayout hflex="1" valign="middle">
+		<label value="${wtb:l('TableGrid.filter.FilterForDetailedDC')}" sclass="asg-rochade-mdm-comp-tablegrid-validityperiodfilter-filtericon" />
+		<menubar style="background: none; border: none;" hflex="1">
+			<menu id="validityFilterQuery"
+				label="${wtb:l('TableGrid.filter.CurrentValues')}">
+				<menupopup>
+					<menuitem id="currValQuery"
+						label="${wtb:l('TableGrid.filter.CurrentValues')}" />
+					<menuitem id="filterValQuery"
+						label="${wtb:l('TableGrid.filter.FilterByValidPeriod')}" />
+					<menuitem id="allValQuery"
+						label="${wtb:l('TableGrid.filter.AllValues')}" />
+				</menupopup>
+			</menu>
+		</menubar>
+	</hlayout>
+</div>

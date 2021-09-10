@@ -1,0 +1,34 @@
+﻿#-------------------------------------------------------
+# Rochade Business Package - Message file
+# This is an UTF-8 endcoded file!
+#
+#  Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+#
+# package: com.rochade.bpa.ui
+#
+CombinedCreationSearch.btnExecute=Search >>
+CombinedCreationSearch.isLimited=Information: The filter contains a limited list of {0} objects. You may define a more specific name pattern for: {1}
+CombinedCreationSearch.resultIsLimited=Number of items in this view is limited. Result is incomplete.
+
+CombinedCreationSearchItem.winWizard.height=640px
+CombinedCreationSearchItem.winWizard.width=1000px
+CombinedCreationSearchItem.Title.Step.1=Step 1: Search Business Item
+CombinedCreationSearchItem.Title.Step.2=Step 2: Select Business Item
+CombinedCreationSearchItem.winCaption=Select Business Item
+CombinedCreationSearchItem.btFinish=Select
+CombinedCreationSearchItem.btCancel=Cancel
+CombinedCreationSearchItem.typeNameRow={0} name
+
+CombinedCreationSearchGlsCtx.winWizard.height=640px
+CombinedCreationSearchGlsCtx.winWizard.width=1000px
+CombinedCreationSearchGlsCtx.Title.Step.1a=Step 1: Search Glossary permitted for {0}
+CombinedCreationSearchGlsCtx.Title.Step.1b=Step 1: Search Glossary or Context permitted for {0}
+CombinedCreationSearchGlsCtx.Title.Step.2a=Step 2: Select Glossary
+CombinedCreationSearchGlsCtx.Title.Step.2b=Step 2: Select Glossary or Context
+CombinedCreationSearchGlsCtx.winCaption=Select Glossary/Context
+CombinedCreationSearchGlsCtx.btFinish=Select
+CombinedCreationSearchGlsCtx.btCancel=Cancel
+CombinedCreationSearchGlsCtx.search=Search
+CombinedCreationSearchGlsCtx.name=Name

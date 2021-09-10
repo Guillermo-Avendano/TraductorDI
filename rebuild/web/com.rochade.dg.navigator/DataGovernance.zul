@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="Type Tree" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<!-- 
+	@author GC 08/06/2015, created
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+<div>
+	<wtbGroupbox visibleCondition="pathway.datagovernance">
+		<listbox nonselectableTags="*">
+			<wtbListitem actionId="DG_RoleType" visibleCondition="canManageRoleTemplates"/>
+			<wtbListitem actionId="DG_SetResponsibilityAdministration" />
+			<wtbListitem actionId="DG_RemResponsibilityAdministration" />
+			<wtbListitem actionId="DG_WF_ListConfigs"/>
+		</listbox>
+	</wtbGroupbox>
+	<wtbGroupbox>
+		<wtbCaption actionId="DG_Listings"/>
+		<listbox nonselectableTags="*">
+			<wtbListitem actionId="DG_ListResponsibilities"/>
+		</listbox>
+	</wtbGroupbox>
+</div>

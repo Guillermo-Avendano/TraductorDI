@@ -1,0 +1,110 @@
+﻿# metaGlossary - Message file
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.mg.useradministration
+#
+
+### Icons: all images should be inside of dir /com.rochade.dg.responsibilityadministration/ + img/, see plugin.xml
+#extra icons
+
+### END Icons
+
+dg.respon.tab.set.title=Establecer Responsabilidades
+dg.respon.tab.set.title.forUser=Establecer Responsabilidades para el Usuario:
+dg.respon.tab.rem.title=Eliminar Responsabilidades
+
+
+dg.respon.tab1.title=Paso 1: Seleccionar Plantilla de Rol
+dg.respon.tab2.title=Paso 2: Buscar y Seleccionar Items del Gobierno
+dg.respon.tab3.title=Paso 3: Buscar y Seleccionar Usuarios
+dg.respon.tab4.title=Paso 4: Establecer Responsabilidades
+dg.respon.tab4.title.forUser=Paso 3: Establecer Responsabilidades
+
+dg.respon.rtab11.title.forUser=Paso 1: Buscar y Seleccionar Usuario
+dg.respon.rtab12.title.forUser=Paso 2: Seleccionar Plantilla de Rol
+dg.respon.rtab2.title.forUser=Paso 3: Eliminar Responsabilidades
+
+dg.respon.rtab12.title.forRole=Paso 1: Seleccionar Plantilla de Rol
+dg.respon.rtab2.title.forRole=Paso 2: Eliminar Responsabilidades
+
+
+dg.respon.entryUser.title=Buscar con usuario / grupo
+dg.respon.entryRole.title=Búsqueda por rol
+
+dg.respon.tab3.buttonadd=>>
+dg.respon.tab3.buttonrem=<<
+
+dg.respon.buttonsave=Establecer Responsabilidades
+dg.respon.buttonrem=Eliminar Responsabilidades
+dg.respon.buttoncancel=Cerrar
+dg.respon.buttonreset=Reinicar Selección
+
+dg.respon.onSearchItem.searchforitem=Buscar ítem
+dg.respon.onSearchItem.selectType=Tipo
+dg.respon.onSearchItem.searchfor=Nombre
+dg.respon.onSearchItem.button.search=Buscar
+
+dg.respon.onSearchItem.selectitemgroup=Seleccionar ítem
+dg.respon.tab2.buttonadd=>>
+dg.respon.tab2.buttonrem=<<
+
+dg.respon.set.failed=Falló
+dg.respon.set.failed.style=color: red;
+dg.respon.set.ok=Exitoso
+dg.respon.set.ok.style=color: green;
+
+dg.respon.overview.roletype=Rol
+dg.respon.overview.set.roletype=Plantilla de Rol
+dg.respon.overview.foritem=Por ítem
+dg.respon.overview.foruserorgroup=Usuario/Grupo
+dg.respon.overview.set=Establecer
+dg.respon.overview.remove=Removido
+
+dg.respon.error.addRoles.msg=Ocurrió un error agregando un usuario al rol: {0}
+dg.respon.error.addRoles.identLocked.msg=La Responsibilidad no puede ser configurada porque la cuenta {0} esta abierta en otra aplicación (ej: Metability)
+
+dg.respon.inheritfrom=Hereda desde
+
+dg.respon.removeUser.title=Borrar usuario
+#0 user name
+#1 role name
+dg.respon.removeUser.msg=Seguro de borrar el usuario {0} del rol {1}?
+
+dg.respon.removeRole.title=Eliminar Rol
+#0 user group name
+#1 role name
+dg.respon.removeRole.msg=Seguro de borrar el grupo de usuarios {0} del rol {1}?
+
+
+dg.respon.searchfor=Buscar:
+dg.respon.searchforuserusergroup=Buscar Usuario o Grupo de Usuarios
+dg.respon.searchusers=Buscar usuarios
+dg.respon.searchgroups=Buscar grupos
+dg.respon.selectuserusergroup=Seleccionar Usuario o Grupo de Usuarios
+dg.respon.selectrole=Seleccionar Rol
+dg.respon.caption.label=Agregar Usuario / Grupo de Usuarios para Tipo de Rol
+dg.respon.button.search=Buscar >>
+dg.respon.button.addterms=Agregar
+dg.respon.button.cancel=Cancelar
+dg.respon.id=ID
+dg.respon.desc=Descripción
+dg.respon.availableItems=Items disponibles
+dg.respon.selectedItems=Ítems seleccionados
+dg.respon.availableUsers=Usuarios/Grupos Disponibles
+dg.respon.selectedUsers=Usuarios/Grupos seleccionados
+
+dg.respon.notActiveRole=(inactivo)
+
+
+dg.respon.grid.tooltip.delete=Eliminar
+dg.respon.grid.err.no.delete.right=No tiene permisos para remover responsabilidad
+dg.respon.grid.delete.resp=Eliminar Responsabilidad {0} para {1} {2}
+
+dg.respon.error.useradmin.init=No se pueden actualizar roles para este ítem: permisos insuficientes para acceder a la subject area {0} {1}, donde esta ubicada la version del ítem.
+
+dg.respon.warn.invalidrole=The role {0} seems invalid. It does not fit to an existing item in the current database. Please check if you can remove it (considering all databases).

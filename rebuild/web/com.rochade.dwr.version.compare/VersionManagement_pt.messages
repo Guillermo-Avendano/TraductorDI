@@ -1,0 +1,84 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#
+#-------------------------------------------------------
+
+#------------------------------ Report Definition (RoBrowser) ------------------------------ 
+### Icons: all images should be inside of dir /com.rochade.dwr.version.compare/ + img/, see plugin.xml
+
+rbr.version.compare.head.type=Tipo de Item
+rbr.version.compare.head.name=Nome
+rbr.version.compare.head.status=Estado
+rbr.version.compare.head.compare=Comparar:
+rbr.version.compare.head.qualname=Nome Qualificado
+rbr.version.compare.head.impactedD=Impactos a frente for {0} {1}
+rbr.version.compare.head.impactedB=Impactos a frente e atras para {0} {1}
+rbr.version.compare.head.impactedU=Impactos atrás para {0} {1}
+rbr.version.compare.head.impactedIn={0} Itens Impactados em {1}
+
+rbr.version.label.select=Selecione Versão para Comparação
+rbr.version.label.newer=Snapshot mais novo
+rbr.version.label.older=Snapshot mais antigo
+rbr.version.label.result=Resultado da comparação entre e{0}{1}
+rbr.version.label.publish=Publicar
+rbr.version.label.publish.report=Resultado no Relatório
+rbr.version.label.publish.reportStatistics=Estatísticas no Relatório
+rbr.version.label.publish.displayStatistics=Apresenta Estatísticas
+
+rbr.version.compare.list.tablabel=Comparar Versão
+rbr.version.compare.item.tablabel=Comparar Versão
+rbr.version.compare.impact.tablabelD=Impactos a Frente
+rbr.version.compare.impact.tablabelB=Impactos a frente e atras 
+rbr.version.compare.impact.tablabelU=Impactos atrás
+
+rbr.version.compare.filterStatus=Status filter:
+rbr.version.compare.filter.label=Comparar Filtro da Versão
+rbr.version.compare.filter.namefilter=Filtro de Nome
+rbr.version.compare.filter.typefilter=Filtro de Tipo
+rbr.version.compare.filter.attrfilter=Filtro de Atributo
+rbr.version.compare.filter.button.run=Executar
+rbr.version.compare.filter.button.cancel=Cancelar
+rbr.version.compare.filter.button.close=Fechar
+
+rbr.version.compare.filter.availableTypes=Tipos de itens disponíveis
+rbr.version.compare.filter.selectedTypes=Tipos de itens para Comparar
+rbr.version.compare.filter.availableAttributes=Atributos Disponíveis
+rbr.version.compare.filter.selectedAttributes=Atributos de Comparação
+rbr.version.compare.filter.organize=Organizar
+rbr.version.compare.filter.selectall=selecionar tudo
+rbr.version.compare.filter.deselectall=Desselecionar Tudo
+rbr.version.compare.filter.invert=Inverter Seleção
+
+rbr.version.compare.menu.open=Abrir
+rbr.version.compare.menu.compare=Comparar
+rbr.version.compare.menu.impact=Impactos
+rbr.version.compare.menu.impactDown=A Frente
+rbr.version.compare.menu.impactUpDown=Atrás e a Frente
+rbr.version.compare.filter.availableAttributes=Atributo Disponíveis
+
+rbr.version.compare.status.StatusUnchanged=Inalterado
+rbr.version.compare.status.rev.StatusUnchanged=Inalterado
+
+rbr.version.compare.status.StatusOnlyIn1=Novo
+rbr.version.compare.status.rev.StatusOnlyIn1=Apagado
+
+rbr.version.compare.status.StatusOnlyIn2=Apagado
+rbr.version.compare.status.rev.StatusOnlyIn2=Novo
+
+rbr.version.compare.status.StatusDifferent=Diferente
+rbr.version.compare.status.rev.StatusDifferent=Diferente
+
+rbr.version.compare.status.StatusDifferent_1_is_Dummy=Excluído
+rbr.version.compare.status.rev.StatusDifferent_1_is_Dummy=Novo
+
+rbr.version.compare.status.StatusDifferent_2_is_Dummy=Novo
+rbr.version.compare.status.rev.StatusDifferent_2_is_Dummy=Excluído
+
+rbr.version.compare.result.StatusAll=Todos
+
+rbr.version.compare.result=Diferenças encontradas: Novo {0], Diferente {1}, Excluído {2}
+rbr.version.compare.noResult=Nenhuma diferença encontrada

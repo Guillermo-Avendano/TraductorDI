@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>${title_placeholder}</title>
+		<style type="text/css">
+			h1 {
+				font-family:Tahoma,Arial,sans-serif;
+				color:white;
+				background-color:#525D76;
+				font-size:1.8em;
+			}
+			h2 {
+				font-family:Tahoma,Arial,sans-serif;
+				color:white;
+				background-color:#525D76;
+				font-size:1.4em;
+			}
+			h3 {
+				font-family:Tahoma,Arial,sans-serif;
+				color:white;
+				background-color:#525D76;
+				font-size:1.2em;
+			}
+			body {
+				font-family:Tahoma,Arial,sans-serif;
+				color:black;
+				background-color:white;
+				font-size:12px;
+			}
+			.header {
+				font-family:Tahoma,Arial,sans-serif;
+				color:white;
+				background-color:#525D76;
+				padding: 0.2em;
+				font-weight: bold;
+				user-select: none;
+			}
+			.bar {
+				margin-bottom:0.5em;
+			}
+			p {
+				font-family:Tahoma,Arial,sans-serif;
+				background:white;
+				color:black;
+				font-size:12px;
+			}
+			a {
+				color:black;
+			}
+			a.name {
+				color:black;
+			}
+			.line {
+				height:1px;
+				background-color:#525D76;
+				border:none;
+			}
+		</style>
+	</head>
+	<body>
+		<a href="${back_link_href_placeholder}">${back_link_label_placeholder}</a>
+		<h1>${main_header_placeholder}</h1>
+		<hr class="line"/>
+		<p>
+			<span class="header">${report_type_label}</span>
+			${report_type_placeholder}
+		</p>
+		<p>
+			<span class="header">${message_label}</span>
+			${message_placeholder}
+		</p>
+		<hr class="line" />
+		<h3>${product_version_placeholder}</h3>
+	</body>
+</html>

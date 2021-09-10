@@ -1,0 +1,50 @@
+﻿#-------------------------------------------------------
+# Rochade WTB - Message file
+# This is an UTF-8 endcoded file!
+#
+#  Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#-------------------------------------------------------
+
+#Menu.search=Search & Reporting
+
+MDM_Maintain.lbl=Maintaining
+MDM_Maintain.tip=Maintaining something
+
+MDM_M_Create.lbl=Create
+MDM_M_Create.tip=Create
+
+MDM_M_Edit.lbl=Edit
+MDM_M_Edit.tip=Edit
+
+MDM_M_Delete.lbl=Delete
+MDM_M_Delete.tip=Delete
+
+MDM_M_C_DContext.lbl=Data Context
+MDM_M_C_DContext.tip=Data Context
+
+MDM_M_C_DConcept.lbl=Data Concept
+MDM_M_C_DConcept.tip=Data Concept
+
+MDM_M_C_CDomain.lbl=Conceptual Domain
+MDM_M_C_CDomain.tip=Conceptual Domain
+
+MDM_M_C_VDomain.lbl=Value Domain
+MDM_M_C_VDomain.tip=Value Domain
+
+MDM_M_E_VCollection.lbl=Value Collection
+MDM_M_E_VCollection.tip=Value Collection
+
+MDM_M_E_RCollection.lbl=Reference Collection
+MDM_M_E_RCollection.tip=Reference Collection
+
+MDM_Search.lbl=Search & Reporting
+MDM_Search.tip=Search & Reporting something
+
+MDM_S_DConcepts.lbl=Search for Data Concepts
+MDM_S_DConcepts.tip=Search for Data Concepts
+
+MDM_S_DDown.lbl=Search for ...
+MDM_S_DDown.tip=Search for ...
+
+MDM_S_DContexts.lbl=List Data Contexts
+MDM_S_DContexts.tip=List Data Contexts

@@ -1,0 +1,60 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+gdpChartPI.title=Informação Pessoal
+gdpChartPI.glossary=Glossário:
+gdpChartPI.chart=Gráfico por:
+gdpChartPI.chartCategory=Categoria
+gdpChartPI.chartClassification=Classificação
+gdpChartPI.chartClosureRule=Regra de Encerramento
+gdpChartPI.NoCategeory=Sem categoria
+gdpChartPI.NoClassification=Sem classificação
+gdpChartPI.NoClosureRule=Sem regra de fechamento
+gdpChartPI.PIbyCategeory=Informação Pessoal com Categoria {0}
+gdpChartPI.PIbyCategeoryNo=Informação Pessoal sem Categoria
+gdpChartPI.PIbyClassification=Informação Pessoal com Classificação {0}
+gdpChartPI.PIbyClassificationNo=Informação Pessoal sem Classificação
+gdpChartPI.PIbyClosureRule=Informação Pessoal com a Regra de Fechamento {0}
+gdpChartPI.PIbyClosureRuleNo=Informação Pessoal sem Regra de Fechamento
+gdpChartPI.foundIn=Encontrado em:
+gdpChartPI.allSourceTypes=Nenhum Filtro do Tipo de Fonte
+gdpChartPI.allSources=Nenhum de Filtro de Fonte
+gdpChartPI.allGlossaries=Todos os Glossários
+gdpChartPI.locationLabelAllGlossaries=Todos Glossários
+gdpChartPI.locationLabelGlossary=Glossário {0}
+gdpChartPI.locationLabelAllSourceTypes=Todos os Tipos de Fonte
+gdpChartPI.locationLabelAllSourcesOfType=Todos os Tipos de Fonte {0}
+gdpChartPI.locationLabelSourceTypeName={0} {1}
+gdpChartPI.drillDownLabel={0} para {1} encontrado em {2}
+
+gdpChartInventory.title=Informação do Inventário Pessoal
+gdpChartInventory.glossary=Glossário:
+gdpChartInventory.allGlossaries=Todos os Glossários
+gdpChartInventory.InventoryByGlossary={0} Inventário para o Glossário {1}
+gdpChartInventory.InventoryAllGlossary={0} Inventário para Todos Glossários
+
+#gdpChartAppStatus.title=Estado da Aplicação
+#gdpChartAppStatus.filterBy=Filtro de:
+#gdpChartAppStatus.filter=Filtro:
+#gdpChartAppStatus.NoFilter=Sem filtro
+
+gdpChartPIA.groupedBy.-NIL-=[Vazio]
+gdpChartPIA.groupedBy.SendingDataOutsideEU.title=Avaliação de Impacto na Privacidade por enviar dados para fora da União Européia
+gdpChartPIA.groupedBy.SendingDataOutsideEU.scoped=Avaliação de Impacto na Privacidade por enviar dados para fora da União Européia para Glossário {0}
+gdpChartPIA.groupedBy.SendingDataOutsideEU.unscoped=Avaliação de Impacto na Privacidade por enviar dados para fora da União Européia para todos os Glossários
+gdpChartPIA.groupedBy.UsingSensiblePI.title=Avaliação de Impacto na Provacidade no uso de PI sensíveis
+gdpChartPIA.groupedBy.UsingSensiblePI.scoped=Avaliação de Impacto na Provacidade no uso de PI sensíveis para Glossário {0}
+gdpChartPIA.groupedBy.UsingSensiblePI.unscoped=Avaliação de Impacto na Provacidade no uso de PI sensíveis para todos os Glossários
+gdpChartPIA.groupedBy.RiskSeverity.title=Avaliação de Impacto na Provacidade pela Severidade do Risco
+gdpChartPIA.groupedBy.RiskSeverity.scoped=Avaliação de Impacto na Provacidade pela Severidade do Risco para o Glossário {0}
+gdpChartPIA.groupedBy.RiskSeverity.unscoped=Avaliação de Impacto na Provacidade pela Severidade do Risco para todos os Glossários
+gdpChartPIA.WithIssue.title=Avaliação de Impacto na Provacidade com Casos
+gdpChartPIA.WithIssue.scoped=Avaliação de Impacto na Provacidade com Casos para Glossário {0}
+gdpChartPIA.WithIssue.unscoped=Avaliação de Impacto na Provacidade com Casos para todos os GLossários
+
+gdpChartMostCommonPI.title=Dados Pessoais mais comuns
+gdpChartMostCommonPI.noContentLabel=-

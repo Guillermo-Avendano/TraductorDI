@@ -1,0 +1,76 @@
+﻿#-------------------------------------------------------													
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+### Icons: all images should be inside of dir /com.rochade.wa.metanote/ + img/, see plugin.xml
+
+#extra icons
+### END Icons
+
+Landingpage.title=Painel de Controle
+Landingpage.edit=Configurar
+Landingpage.edittitle=Configurar o Portal
+Landingpage.subtitle=Selecionar os portlets que você deseja exibir no Painel de Controle
+Landingpage.portlets=Portlets disponíveis para todas as aplicações
+Landingpage.error=Os seguintes portlets não puderam ser carregados:\n {0}.\nVeja detalhes no log. Você pode desativá-los usando o botão Configurar.
+Landingpage.missing=O portlet "{0}" não foi encontrado.  Verifique a configuração.
+Landingpage.disabled=O portlet "{0}" não é exibido, pois está desabilitado por funcionalidades.
+Landingpage.openPortal=Abrir Portal
+Landingpage.closePortal=Fechar Portal
+Landingpage.openHelp=Pesquisar Ajuda
+Landingpage.closeHelp=Fechar Ajuda
+Landingpage.portal=Portal
+Landingpage.edit.commontab.title=Comum
+Landingpage.edit.metrics.title=Métricas
+Landingpage.restore.confirm.msg=Você deseja restaurar os valores padrão dos portlets?
+Landingpage.restore.confirm.title=Restaurar Padrões
+Landingpage.startedHead=Comece a usar o Painel de Controle.
+Landingpage.startedText=O seu Painel de Controle pode alojar vários Portlets, e cada um com um propósito específico. Você pode listar seus Favoritos, Adicionar uma função de Pesquisa rápida para Termos Comercial e exibir uma infinidade de visualizações ao vivo configuráveis ​​do seu estoque de dados.\n \nClique em Configurar para adicionar o primeiro Portlet ao Painel de Controle.
+Landingpage.mycharts=Meus Gráficos
+Landingpage.mycharts.hint=Nota: As seguintes caixas de seleção controlam a visibilidade dos gráficos.  Ao clicar no ícone X, o gráfico será excluído permanentemente.
+Landingpage.mycharts.empty=A lista de "Meus gráficos" está vazia.
+Landingpage.delete=Deseja excluir este gráfico permanentemente?
+Landingpage.delete.header=Deletar Gráfico
+Landingpage.delete.tooltip=Deletar este gráfico permanentemente
+Landingpage.portletsloaded=Todos os portlets estão carregados.
+
+# buttons
+Landingpage.ok=OK
+Landingpage.cancel=Cancelar
+Landingpage.restore=Restaurar Padrões
+
+# tooltips
+Landingpage.enter=Aplicar (<Enter>)
+Landingpage.esc=Cancelar (<esc>)
+Landingpage.altC=Configurar (Alt-C)
+Landingpage.altP=Portlets disponíveis (Alt-P)
+Landingpage.restore.tip=Restaurar Padrões
+
+### --- TODO --- Don't have Search.XXX=aqui em LandingPage ---
+# search help text
+SearchHelp.SearchOperators.Header=Pesquisar Operadores:
+SearchHelp.SearchOperators.And=E\n +
+SearchHelp.SearchOperators.And.Text=Localiza entidades que contêm todos os termos de pesquisa especificados. Este operador é adicionado implicitamente entre termos que ainda não possuem um operador de pesquisa e não estão incluídos por aspas.\nExemplo: tipo meta E data
+SearchHelp.SearchOperators.Or=OU\n||
+SearchHelp.SearchOperators.Or.Text=Localiza entidades que contêm pelo menos um dos termos de pesquisa.\nExemplo: (metadados OU dados) E digite
+SearchHelp.SearchOperators.Not=NÃO\n -
+SearchHelp.SearchOperators.Not.Text=Localiza entidades que não contêm o termo de pesquisa seguido do operador.\nExemplo: dados E tipo E NÃO metadados
+SearchHelp.Wildcards.Header=Caracteres coringa:
+SearchHelp.Wildcards.star=*
+SearchHelp.Wildcards.star.Text=Representa zero ou mais caracteres.  Este caractere coringa é adicionado implicitamente ao início e fim dos itens de pesquisa que ainda não contém caracteres coringa (por exemplo, o item *ab* irá trazer o mesmo resultado que ab sem asteriscos).
+SearchHelp.Wildcards.questionmark=?
+SearchHelp.Wildcards.questionmark.Text=Representa exatamente um caractere.
+SearchHelp.Wildcards.backslash=\
+SearchHelp.Wildcards.backslash.Text=Evite Asteriscos, pontos de interrogação e barras invertidas para encontrar entidades que contenham esses caracteres. \ NExemplos: \ n • O que é Rochade \? \ N • C: \\ Arquivos de Programas \\ Rochade
+SearchHelp.Quotes.Header=Citações:
+SearchHelp.Quotes.term="termo"
+ 
+SearchMain.Search=Pesquisar
+SearchMain.SearchMainTitle=Pesquisa Rochade
+SearchMain.SearchMainFor=Pesquisar por:
+SearchMain.SearchMainCategory=Categoria:
+    

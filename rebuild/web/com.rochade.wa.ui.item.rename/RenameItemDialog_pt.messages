@@ -1,0 +1,32 @@
+﻿#-------------------------------------------------------
+# metaGlossary - Message file
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+### Icons: all images should be inside of dir /com.rochade.mg.renamedialog/ + img/, see plugin.xml
+
+#extra icons
+### END Icons
+
+RenameItemDialog.ok=Renomear
+RenameItemDialog.cancel=Cancelar
+#mg_renameItem.okSubmit=Renomear & Submeter
+#mg_renameItem.noSubmit=Conteúdo do termo e/ou nome do termo já foi modificado.  Você pode renomear o termo.  O envio para aprovação é possível apenas na caixa de diálogo do Termo.
+
+RenameItemDialog.msg=Insira um novo nome:
+RenameItemDialog.title=Renomear
+
+RenameItemDialog.alreadyexists=Item já existe.
+RenameItemDialog.language.exception=Aplicando este nome para linguagem {0} não é possível: . {1}
+RenameItemDialog.emptyName=Nome não pode ser vazio.
+RenameItemDialog.longName=Nome não pode conter mais que {0} caracteres.
+RenameItemDialog.alreadyExist={0}com o nome já existe. {1}
+
+RenameItemDialog.Info=Informações
+#RenameItemDialog.noPerm=Você não possui permissão para renomear.
+RenameItemDialog.errLock=Não é possível renomear.  Item já está bloqueado nesta sessão.
+RenameItemDialog.errPerm=Erro ao obter a permissão
+RenameItemDialog.errWs=Não é possível renomear.  O item está em um espaço de trabalho superior do espaço de trabalho destino.

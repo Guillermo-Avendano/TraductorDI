@@ -1,0 +1,66 @@
+<!-- 
+	BP_CombinedCreation_Template.zul
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+
+	This is the template used by CombinedCreationPropertyView
+-->
+	<grid id="tmplGrid" visible="false">
+		<columns id="tmplColumns">
+			<column width="20%" />
+			<column width="75%" />
+			<column hflex="min" />
+		</columns>
+		<rows>
+			<row id="tmplAdditional" valign="top" align="left" sclass="asg-itemview-gridline-value">
+				<hlayout style="padding-top: 5px">
+					<label value="${wtb:l('CombinedCreationAdditional.lbl')}" />
+				</hlayout>
+				<combobox id="tmplcbAdditional" readonly="true" popupWidth="100%" hflex="1" />
+				<button id="tmplbtAdditional" label="${wtb:l('CombinedCreationAdditional.btn')}" />
+			</row>
+			<row spans="3" id="tmplRowHeader" valign="top" align="left" sclass="asg-itemview-gridline-value">
+				<checkbox width="100%" checked="true" />
+			</row>
+			<row spans="1,2" id="tmplRowDetailNameMsg" sclass="asg-itemview-gridline-value" visible="false"> 
+ 				<label />
+				<label value="${wtb:l('CombinedCreation.isLimited')}" style="color:${wtb:l('asg-atlantic-evolve-blue')}"/>
+			</row>
+			<row id="tmplRowDetailName" sclass="asg-itemview-gridline-value"> 
+				<hlayout>
+	 				<label />
+					<span visible="false" style="margin-left:3px; padding-bottom: 3px;" />
+				</hlayout>
+				<combobox width="100%" readonly="false" autocomplete="false"/>
+				<button label="${wtb:l('CombinedCreation.selectNameBtn')}" />
+			</row>
+			<row id="tmplRowDetailNameML" sclass="asg-itemview-gridline-value"> 
+				<hlayout>
+	 				<label />
+					<span visible="false" style="margin-left:3px; padding-bottom: 3px;" />
+				</hlayout>
+				<textbox width="100%" style="padding-left: 3px;"/>
+			</row>
+			<row id="tmplRowDetailGlsCtx" sclass="asg-itemview-gridline-value">
+				<hlayout>
+					<label />
+					<span visible="false" style="margin-left:3px; padding-bottom: 3px;" />
+				</hlayout>
+				<label width="100%" />
+			</row>
+			<row id="tmplRowDetailGlsCtxSel" sclass="asg-itemview-gridline-value">
+				<label />
+				<button />
+			</row>
+			<row id="tmplRowDetailCopy" sclass="asg-itemview-gridline-value">
+				<label />
+				<checkbox checked="true" />
+				<label />
+			</row>
+			<row spans="3" id="tmplRowSeparator" sclass="asg-itemview-gridline-value">
+				<separator width="100%" height="10px" style="border-top: ${wtb:l('asg-atlantic-gray')} 1px solid; margin-top: 7px;"/>
+			</row>
+			<row spans="3" id="tmplRowSeparatorNoBorder" sclass="asg-itemview-gridline-value">
+				<separator width="100%" height="10px" />
+			</row>
+		</rows>
+	</grid>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page id="start" title="WTB" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<!-- 
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+<window apply="com.rochade.bigdata.queryparam.transformation.ServiceLineageQueryParamComposer" border="normal" width="600px" height="390px" sclass="asg-big-data-dialogs">
+
+<borderlayout>
+	<north>	
+		<hbox width="100%" widths="80%,20%" sclass="field0" >
+			<vbox style="padding:5px">
+				<div   id="headerTitle" width="100%"/>
+				<label value="${wtb:l('ServiceLineageQueryParam.select')}"/>
+			</vbox>
+			<vbox width="100%" align="end">
+				<image id="imgWizard" src="${wtb:getImg('QueryParamDrilldown.img.wizard')}"  height="${wtb:l('img.height.wizard')}"/>
+			</vbox>
+		</hbox>
+	</north>
+    <center sclass="field1" autoscroll="true">
+        <div>
+			<div style="padding:5px">
+		       	<listbox id="lbRunsettings" seltype="single" rows="6"> 
+					<listhead sizable="true">
+						<listheader width="40%" label="${wtb:l('QueryParamDrilldown.property')}" />
+						<listheader width="60%"	label="${wtb:l('QueryParamDrilldown.value')}" />
+					</listhead>
+					<listitem id="services">
+						<listcell label="${wtb:l('ServiceLineageQueryParam.transService')}"></listcell>
+						<listcell>
+							<combobox id="transServiceList" readonly="true" width="100%" popupWidth="100%"/>
+						</listcell>
+					</listitem>
+					<listitem id="kinds">
+						<listcell label="${wtb:l('ServiceLineageQueryParam.transKind')}"></listcell>
+						<listcell>
+							<textbox id="transKindList" readonly="true" value="${wtb:l('ServiceLineageQueryParam.hiveQL')}" width="100%"/>
+						</listcell>
+					</listitem>
+					<listitem id="tables">
+						<listcell label="${wtb:l('ServiceLineageQueryParam.tableName')}"></listcell>
+						<listcell>
+							<combobox id="tableNameList" readonly="true" width="100%" popupWidth="100%"/>
+						</listcell>
+					</listitem>
+				</listbox>
+			</div>
+			<hbox width="100%" widths="80%,10%,10%" style="padding:5px">
+		        <button width="100px" id="resetButton" label="${wtb:l('QueryParamDrilldown.resetButton')}" tooltiptext="${wtb:l('QueryParamDrilldown.reset')}"/>
+		        <button width="100px" id="runButton" label="${wtb:l('QueryParamDrilldown.runButton')}" tooltiptext="${wtb:l('QueryParamDrilldown.enter')}"/>
+				<button width="100px" id="cancelButton" label="${wtb:l('QueryParamDrilldown.cancelButton')}" tooltiptext="${wtb:l('QueryParamDrilldown.esc')}"/>
+			</hbox>	
+ 		</div>
+	</center>
+</borderlayout>
+</window>

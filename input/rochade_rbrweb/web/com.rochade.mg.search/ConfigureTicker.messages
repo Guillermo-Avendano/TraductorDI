@@ -1,0 +1,22 @@
+﻿#-------------------------------------------------------
+# metaGlossary - Message file
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+Ticker.img.wizard=/com.rochade.mg.search/img/WizardDefault.gif
+
+#Ticker.conf.title=Configure Glossary Ticker
+Ticker.conf.title=Configure Event Ticker
+Ticker.conf.header=User Event Ticker Configuration
+Ticker.conf.subtitle=Specify the maximum number of entries, the time frame, and the refresh interval.
+Ticker.conf.errorsave=Error while storing configuration. See the log for details.
+bgTicker.autoRefresh.label=Automatically refresh ticker
+bgTicker.refreshInterval.label=Ticker refresh interval (in seconds):
+bgTicker.days.label=Shows updates in last n hours:
+bgTicker.maxEntries.label=Maximum number of entries:
+
+#Validation error message
+validation.outOfRange=Out of range ({0}, {1})

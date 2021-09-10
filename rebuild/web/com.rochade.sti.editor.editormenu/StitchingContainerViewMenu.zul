@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page id="start" title="WebAccess" contentType="text/html;charset=UTF-8"?>
+<editormenu>
+	<menubar style="background:none; border:none;">
+		<menuitem actionId="STI_EditContainer"
+			visibleCondition="Editor.can_edit.sti"
+			sclass="asg-stitching-edit-container-menuitem" />
+		<!-- enableCondition="Editor.isDirty" -->
+		<menuitem actionId="STI_SaveContainer"
+			visibleCondition="Editor.state_edit"
+			sclass="asg-stitching-save-container-menuitem" />
+		<menuitem actionId="STI_EditContainer_Exit"
+			visibleCondition="Editor.state_edit"
+			sclass="asg-stitching-exit-container-menuitem" />
+		<menuitem actionId="STI_SubmitContainerMenu"
+			visibleCondition="Editor.can_edit.sti"
+			sclass="asg-stitching-execute-container-menuitem" />
+		<menuitem actionId="STI_Refresh"
+			visibleCondition="Editor.state_view"
+			sclass="asg-stitching-refresh-container-menuitem" />
+		<menu actionId="WTB_Editor_Share" visibleCondition="$CAPABILITIES='Editor.state_view AND Editor.isPublishButtonEnabled'">
+			<menupopup sclass="asg-stitching-share-menu">
+				<menuitem actionId="WTB_SendUrl"
+					sclass="asg-stitching-send-url-menuitem" />
+				<menuitem actionId="WTB_AddFavorites" 
+					visibleCondition="WTB_AddFavorites.visible"
+					sclass="asg-stitching-add-favorites-menuitem" />
+				<menuitem actionId="STI_ExportJSON"
+					visibleCondition="$PREF_IS_WRITABLE=true"
+					sclass="asg-stitching-export-json-menuitem" />
+				<menuitem actionId="STI_ImportJSON"
+					visibleCondition="false"
+					sclass="asg-stitching-import-json-menuitem" />
+				<menuitem actionId="STI_GetRedundantStitchesReport"
+					visibleCondition="STI.RedundantStitchesMenu"
+					sclass="asg-stitching-redundant-stitches-report-menuitem" />
+			</menupopup>
+		</menu>
+	</menubar>
+</editormenu>

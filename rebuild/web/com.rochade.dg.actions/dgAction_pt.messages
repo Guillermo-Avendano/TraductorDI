@@ -1,0 +1,129 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#
+#-------------------------------------------------------
+
+#------------------------------ Action Definition ------------------------------ 
+
+DG_RoleType.lbl=Modelos de Função
+DG_RoleType.tip=Modelos de Função
+RoleCreate.lbl=Criar Função
+RoleCreate.tip=Criar Função
+DG_RoleAdd.lbl=Adicionar
+DG_RoleAdd.tip=Adicionar
+DG_AddRespForUser.lbl=Adicionar
+DG_AddRespForUser.tip=Adicionar
+DG_RoleAdminRoleActive.lbl=Ativar Função
+DG_RoleAdminRoleActive.tip=Ativar Função
+DG_RoleAdminRoleDeactive.lbl=Desativar Função
+DG_RoleAdminRoleDeactive.tip=Desativar Função
+DG_RoleAdminRoleDeactive.value.true=inativo
+DG_RoleAdminRoleDeactive.value.false=ativo
+DG_RoleAdminRoleDeactive.value.null=ativo
+DG_RoleAdminRoleDeactive.value.=ativo
+
+DG_SetResponsibilityAdministration.lbl=Definir Responsabilidades
+DG_SetResponsibilityAdministration.tip=Definir Responsabilidades
+DG_RemResponsibilityAdministration.lbl=Remover Responsabilidades
+DG_RemResponsibilityAdministration.tip=Remover Responsabilidades
+
+DG_Listings.lbl=Listagens
+DG_Listings.tip=Listagens
+DG_ListResponsibilities.lbl=Listar Responsabilidades
+DG_ListResponsibilities.tip=Listar Responsabilidades
+
+New.RoleTemplate=Novo Modelo de Função
+new.type.RBG/ROLE=Modelo de Função
+
+DG_InitUserAdmin.lbl=Inicializar
+DG_InitUserAdmin.tip=Inicializar Gestão
+DG_InitUserAdmin.error.permission=Permissão não concedida para inicializar a administração do usuário.
+
+DG_WF_ListConfigs.lbl=Modelos de Fluxo de Trabalho
+DG_WF_ListConfigs.tip=Modelos de Fluxo de Trabalho
+#DG_WF_ConfigAdmin.lbl=Fluxo de Trabalho Administrativo
+#DG_WF_ConfigAdmin.tip=Fluxo de Trabalho Administrativo
+DG_WF_ImportDefinition.lbl=Adicionar
+DG_WF_ImportDefinition.tip=Importar Fluxo de Trabalho
+DG_WF_OpenConfig.lbl=Abrir
+DG_WF_OpenConfig.tip=Abrir
+DG_WF_AddWfAssignment.lbl=Adicionar
+DG_WF_AddWfAssignment.tip=Adicionar Atribuição ao Fluxo de Trabalho
+DG_WF_RemoveWfAssignment.lbl=Remover
+DG_WF_RemoveWfAssignment.tip=Remover Atribuição de Fluxo de Trabalho
+DG_WF_UploadDialog.title=Importar Fluxo de Trabalho
+DG_WF_UploadDialog.text=Por favor, carregue o arquivo BPMN.
+
+DG_DoubleClick_ShowNotificationTaskView.lbl=Visualização de Notificação de Tarefas
+DG_DoubleClick_ShowNotificationTaskView.tip=Visualização de Notificação de Tarefas
+
+DG_OpenNotificationListItem.lbl=Abrir
+DG_OpenNotificationListItem.tip=Abrir
+DG_OpenCamundaTaskListItem.lbl=Abrir
+DG_OpenCamundaTaskListItem.tip=Abrir
+DG_RemoveNotificationItem_ViewMenu.lbl=Remover Notificações selecionadas
+DG_RemoveNotificationItem_ViewMenu.tip=Remover Notificações selecionadas
+DG_RemoveNotificationItem_Popup.lbl=Remover Notificações selecionadas
+DG_RemoveNotificationItem_Popup.tip=Remover Notificações selecionadas
+DG_WF_ResetTask.lbl=Reiniciar
+DG_WF_ResetTask.tip=Reiniciar esta tarefa
+DG_WF_ResetTask.error=Ocorreu um erro ao reiniciar as tarefas selecionadas.
+DG_WF_ResetTask.error.noPermission=Você não tem permissão para reiniciar as tarefas selecionadas.
+DG_WF_ResetTask.msgboxTitle=Reiniciar Tarefas
+DG_WF_ResetTask.confirm=Deseja redefinir as tarefas e itens selecionados para o estado inicial?
+DG_WF_ResetTask.success=As tarefas foram redefinidas com êxito.
+DG_WF_RetryTask.lbl=Repetir
+DG_WF_RetryTask.tip=Repetir trabalhos com falha
+DG_WF_RetryTask.error=Ocorreu um erro ao definir o contador de repetição para as tarefas selecionadas.
+DG_WF_RetryTask.msgboxTitle=Repetir Tarefas
+DG_WF_RetryTask.confirm=Deseja repetir as tarefas pausadas selecionadas?
+DG_WF_RetryTask.success=Os trabalhos com falha foram reativados e serão executados em segundo plano.
+
+dg_remove_notification.error=Esta notificação ({0}) não pôde ser deletada.
+dg_remove_notifications.error=As notificações selecionadas não puderam ser deletadas.
+
+DG_MyNotifications.tip=Listar Minhas Notificações
+DG_MyNotifications.lbl=Minhas Notificações
+DG_MyNotifications.incomplete.limited=Limite para as notificações alcançadas.  Apenas são exibidas as últimas informações. {0}{1}
+DG_MyTasks.tip=Listar Minhas Tarefas
+DG_MyTasks.lbl=Minhas Tarefas
+DG_MyTasks_CamundaList.tip=Listar Minhas Tarefas
+DG_MyTasks_CamundaList.lbl=Minhas Tarefas
+
+DG_S_TaskReports.lbl=Relatórios de Tarefas
+DG_S_TaskReports.tip=Relatórios de Tarefas
+DG_S_T_CompTasks.lbl=Tarefas Concluídas
+DG_S_T_CompTasks.tip=Tarefas Concluídas
+DG_S_T_OpenTasks.lbl=Abrir Tarefas
+DG_S_T_OpenTasks.tip=Abrir Tarefas
+DG_S_T_AdTaskSearch.lbl=Pesquisa Avançada de Tarefas
+DG_S_T_AdTaskSearch.tip=Pesquisa Avançada de Tarefas
+
+WfAddAssignment.noCompatibleWorkflows=Nenhuma categoria de fluxo de trabalho adicional disponível para itens no contexto atual.  A atribuição de fluxo de trabalho atual já cobre todos os casos possíveis.
+WfAddAssignment.modifiedItemTypes=Alguns tipos de item foram desativados porque eles já estão ativos em outra configuração ou não são suportados neste contexto.
+
+DG_InWork.lbl=Em Progresso
+DG_InWork.tip=Em Progresso
+
+# Icons
+
+DG_ImportExcelAll.lbl=Importar Excel
+DG_ImportExcelAll.tip=Importar Excel
+DG_ImportExcelRefGlossary.lbl=Importar Itens Comerciais
+DG_ImportExcelRefGlossary.tip=Importar Itens Comerciais
+DG_ImportExcelRefContext.lbl=Importar Itens Comerciais
+DG_ImportExcelRefContext.tip=Importar Itens Comerciais
+
+############ Self Subscription Service ################
+DG_Unsubscribe.tooltip=Cancelar Subscrição
+DG_Unsubscribe.tooltip=Cancelar subscrição
+
+DG_Unsubscribe.title=Cancelar Subscrição
+DG_Unsubscribe.confirmation=Você deseja realmente se desinscrever de {0} {1}?
+DG_Unsubscribe.error=Erro ao cancelar a inscrição do contexto.
+DG_Unsubscribe.error.locked=Erro ao cancelar a inscrição do contexto. Usuário {0} está bloqueado.
+DG_Unsubscribe.error.noRight=Erro ao cancelar a inscrição do contexto. Falta da permissão de escrita para o item usuário.

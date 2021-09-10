@@ -1,0 +1,35 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.bigdata.ui.pathway
+#
+
+#extra icons
+### END Icons
+
+BigDataContent.clusterServices=Clusters e Serviços Hadoop
+BigDataContent.lifecycleDiscovery=Descoberta de Dados por Ciclo de Vida
+BigDataContent.toolDiscovery=Descoberta de Dados por Ferramenta
+
+#images
+InfoPages.img.css=/com.rochade.bigdata.ui.pathway/img/infoPages.css
+
+#Header
+rbd_lifecycle.title=Fluxo de dados dentro do Cluster Big Data Hadoop:
+#Roles
+rbd_lifecycle.securityAdminRole=Administrador de Segurança
+rbd_lifecycle.dataScientistRole=Cientista de Dados
+rbd_lifecycle.bigDataAdminRole=Administrador de Análise de Dados
+rbd_lifecycle.dataStewardRole=Gestor de Dados
+#Role texts
+rbd_lifecycle.securityAdminText=Ajuste os direitos de acesso aos dados na zona de aterragem do Big Data
+rbd_lifecycle.dataScientistText=Identificar dados referenciados por termos ou vinculados a casos de utilização
+rbd_lifecycle.bigDataAdminText=Configurar a zona de aterragem do Big Data
+rbd_lifecycle.dataStewardText=Descubra os fluxos de linhagens de dados dentro e fora do cluster Big Data

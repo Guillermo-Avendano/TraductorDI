@@ -1,0 +1,52 @@
+﻿#-------------------------------------------------------
+# Rochade WTB - Message file
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#
+#-------------------------------------------------------
+
+#Menu.search=Pesquisa & Relatórios
+
+MDM_Maintain.lbl=Manutenção
+MDM_Maintain.tip=Manutenção de algo
+
+MDM_M_Create.lbl=Criar
+MDM_M_Create.tip=Criar
+
+MDM_M_Edit.lbl=Editar
+MDM_M_Edit.tip=Editar
+
+MDM_M_Delete.lbl=Deletar
+MDM_M_Delete.tip=Deletar
+
+MDM_M_C_DContext.lbl=Contexto de Dados
+MDM_M_C_DContext.tip=Contexto de Dados
+
+MDM_M_C_DConcept.lbl=Contexto de Dados
+MDM_M_C_DConcept.tip=Contexto de Dados
+
+MDM_M_C_CDomain.lbl=Domínio Conceitual
+MDM_M_C_CDomain.tip=Domínio Conceitual
+
+MDM_M_C_VDomain.lbl=Valor do Domínio
+MDM_M_C_VDomain.tip=Valor do Domínio
+
+MDM_M_E_VCollection.lbl=Valor da Coleção
+MDM_M_E_VCollection.tip=Valor da Coleção
+
+MDM_M_E_RCollection.lbl=Coleção de Referência
+MDM_M_E_RCollection.tip=Coleção de Referência
+
+MDM_Search.lbl=Pesquisa & Relatórios
+MDM_Search.tip=Pesquisa & Relatórios de algo
+
+MDM_S_DConcepts.lbl=Pesquisar por Conceitos de Dados
+MDM_S_DConcepts.tip=Pesquisar por Conceitos de Dados
+
+MDM_S_DDown.lbl=Procurar por ...
+MDM_S_DDown.tip=Procurar por ...
+
+MDM_S_DContexts.lbl=Listar Contextos de Dados
+MDM_S_DContexts.tip=Listar Contextos de Dados

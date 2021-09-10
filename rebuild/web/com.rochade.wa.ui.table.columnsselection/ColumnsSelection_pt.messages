@@ -1,0 +1,32 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.wa.ui.table.columnselection
+#
+### Icons: all images should be inside of dir /com.rochade.wa.ui.table.columnselection/ + img/, see plugin.xml
+
+ 
+### END Icons
+ 
+ColumnsSelection.ok=OK
+
+ColumnsSelection.cancel=Cancelar
+ColumnsSelection.restore=Restaurar Padrões
+ColumnsSelection.title=Seleção de Colunas
+ColumnsSelection.restore.hint=A seleção da coluna atual resulta de uma configuração de coluna armazenada anteriormente.
+ColumnsSelection.restore.tooltip=Restaurar a configuração padrão de coluna
+ColumnsSelection.confirm.title=Restaurar Padrões
+ColumnsSelection.confirm.msg=Você deseja restaurar a configuração padrão de coluna?
+ColumnsSelection.warnmsg=Não existem colunas selecionadas. Selecione a coluna a ser exibida.
+
+ColumnsSelection.applyChange.title=Aplicar Alteração
+ColumnsSelection.applyChange.msg=Você deseja aplicar a alteração atual?
+
+ColumnsSelection.esc=Sair (<Esc>)
+ColumnsSelection.enter=OK (<Enter>)

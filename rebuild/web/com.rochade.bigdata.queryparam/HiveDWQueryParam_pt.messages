@@ -1,0 +1,49 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.wa.ui.QueryParam
+#
+
+HiveDWQueryParam.select =Especifique parâmetros para obter dados do armazém do Hive (bancos de dados ou tabelas)
+
+#HiveDWQueryParam.title =Hive Data Warehouse:
+HiveDWQueryParamTable.title=Tabelas do Sistema Hive:
+HiveDWQueryParamDb.title=Banco de Dados do Sistema Hive:
+
+HiveDWQueryParam.runSettings=Configurações de Execução:
+HiveDWQueryParam.property=Parâmetros
+HiveDWQueryParam.value=Valor
+HiveDWQueryParam.limit=Número máximo de itens
+HiveDWQueryParam.runButton=Executar
+HiveDWQueryParam.cancelButton=Cancelar
+HiveDWQueryParam.resetButton=Reiniciar
+HiveDWQueryParam.queryparam=Parâmetros de Consulta
+HiveDWQueryParam.table=Tabela
+HiveDWQueryParam.database=Banco de Dados
+HiveDWQueryParam.filterby.DWR_RDB_DATABASE=Nome do Banco de Dados
+
+HiveDWQueryParam.hiveListEmpty =A lista Hive está vazia!
+HiveDWQueryParam.hiveTableListEmpty =A lista de tabela Hive está vazia!
+
+
+# Tooltips
+
+HiveDWQueryParam.altS=Configurações de Execução (Alt-S)
+HiveDWQueryParam.altP=Preservar Configurações (Alt-P)
+HiveDWQueryParam.altL=Limitar os resultados da consulta (Alt-L)
+HiveDWQueryParam.enter=Executar consulta (Alt-R, <enter>)
+HiveDWQueryParam.esc=Cancelar (<esc>)
+HiveDWQueryParam.reset=Reiniciar
+
+# icons
+
+HiveDWQueryParam.importTool =Sistema Hive
+HiveDWQueryParam.dataType =Tipos de Dados
+HiveDWQueryParam.databaseName =Nome do Banco de Dados
+HiveDWQueryParam.tableName =Nome da Tabela

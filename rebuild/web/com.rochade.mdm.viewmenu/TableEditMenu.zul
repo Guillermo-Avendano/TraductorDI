@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page id="start" title="MDM" contentType="text/html;charset=UTF-8"?>
+<!-- 
+	@author SA 19/09/2011, created with edit options at table level for db tables
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 	
+-->
+<viewmenu>
+	<special actionId="WTB_Filter"/>
+	<space bar="true"/>
+	<menubar style="background:none; border:none">
+		<menu actionId="MDM_Organize">
+			<menupopup>
+				<menuitem actionId="WTB_SelectAll"/>
+				<menuitem actionId="WTB_DeselectAll"/>
+				<menuitem actionId="WTB_FormatHTM"/>
+				<menuitem actionId="WTB_FormatXLS"/>
+			</menupopup>
+		</menu>
+		<menuseparator/>
+		<menuitem actionId="WTB_ShowColumns" xmlns:w="client" w:onClick="getColumnWidths(this)" visibleCondition="true"/>
+		<menuseparator/>
+		<menuitem actionId="WTB_Refresh"/>
+		<menuseparator/>
+		<menuitem actionId="WTB_ChangeMode" visibleCondition="true"/>
+		<menuitem actionId="WTB_TableSave" visibleCondition="false"/>
+		<menuitem actionId="WTB_TableCancel" visibleCondition="false"/>
+	</menubar>
+</viewmenu>

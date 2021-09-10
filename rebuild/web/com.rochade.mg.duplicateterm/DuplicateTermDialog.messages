@@ -1,0 +1,59 @@
+﻿#-------------------------------------------------------
+# metaGlossary - Message file
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+# package: com.rochade.mg.createitem.DuplicateTermCreate
+#
+#-------------------------------------------------------
+
+### Icons: all images should be inside of dir /com.rochade.mg.duplicateterm/ + img/, see plugin.xml
+
+#extra icons
+duplicateterm.img.info=/com.rochade.mg.duplicateterm/img/info16x16.png
+duplicateterm.img.btwarning=/com.rochade.mg.duplicateterm/img/businessterm_warn16x16.png
+duplicateterm.img.arrowDown=/com.rochade.mg.duplicateterm/img/btn-arrow-down10x16.png
+### END Icons
+
+DuplicateTermCreateDialog.title=Business Item Already Exists
+DuplicateTermCreateDialog.button.ok=OK
+DuplicateTermCreateDialog.button.cancel=Cancel
+
+# Case B
+DuplicateTermCreateDialogComposer.termExists.createAlternative=The business item already exists.
+# Case C
+DuplicateTermCreateDialogComposer.termAlreadyExistsInContext=The business item already exists in the context.
+# Case D
+DuplicateTermCreateDialogComposer.termExistsInContext.rejected=The creation of the business item has previously been rejected. You can reactivate the rejected item.
+# Case E
+DuplicateTermCreateDialogComposer.termExists.rejected=The creation of the business item has previously been rejected. You can reactivate the rejected item.
+
+DuplicateTermCreateDialog.createAlternative=Create Alternative of {0}
+DuplicateTermCreateDialog.openTerm=Open
+DuplicateTermCreateDialog.addContributor=Add Contributor Context
+DuplicateTermCreateDialog.addViewer=Add Viewer Context
+DuplicateTermCreateDialog.reactivate=Reactivate Business Item
+
+DuplButtonsCellRenderer.selectAction=Select:
+DuplButtonsCellRenderer.warning.title=Warning
+DuplButtonsCellRenderer.warning=This operation will discard the changes which you have done in the Create dialog. Do you proceed?
+
+ContextActionGroup.req.submitted=Your request has been submitted.
+ContextActionGroup.req.alreadsubmitted=There is already a pending request for the given Context. This request is currently being reviewed. 
+
+AutoSuggestNameAttrView.addRef.completed=Business item is now associated by the selected Context.
+AutoSuggestNameAttrView.addOwnership.completed=The selected context has been added to governance control of the item.
+AutoSuggestNameAttrView.remOwnership.completed=The selected context has been removed from governance control of the item.
+AutoSuggestNameAttrView.createTerm.completed=Business item {0} has been created.
+AutoSuggestNameAttrView.emptyFailure=Name cannot be empty
+AutoSuggestNameAttrView.whiteSpaceFailure=Name cannot contain white spaces in prefix or suffix
+AutoSuggestNameAttrView.wildcardFailure=Name cannot contain asterisk (*).
+AutoSuggestNameAttrView.semicolon=Name cannot start with semicolon (;).
+AutoSuggestNameAttrView.reactivate.completed=Business item {0} has been reactivated.
+AutoSuggestNameAttrView.reactivate.error=Error on reactivate Business item {0}. - {1}
+AutoSuggestNameAttrView.duplicateMsg=Item with the name {0} already exist. Create a alternative?
+AutoSuggestNameAttrView.newName=Please enter a new name.
+AutoSuggestNameAttrView.alreadyExists=Item with the name {0} already exist.
+
+HistoryView.taskLink=Click here to see  the related task

@@ -1,0 +1,25 @@
+﻿#-------------------------------------------------------
+# metaGlossary - Message file
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+# package: com.rochade.mg.compareterms
+#
+#-------------------------------------------------------
+
+### Icons: all images should be inside of dir /com.rochade.mg.compareterms/ + img/, see plugin.xml
+
+#extra icons
+compareterms.img.notEqual=/com.rochade.mg.compareterms/img/notequal32x32.png
+compareterms.img.equal=/com.rochade.mg.compareterms/img/equal32x32.png
+compareterms.img.compareItem=/com.rochade.mg.compareterms/img/16x16_compareItem.png
+### END Icons
+
+CompareTerms.title=Compare Alternatives of {0}:
+CompareTerms.context=Context:
+CompareTerms.glossary=Glossary:
+CompareTermsComposer.busy.msg=Executing Query
+CompareTermsComposer.noAttr=Attribute does not exist.
+bg_TaskDialog.loading=Loading...
+bg_NotificationDialog.button.open=...click here to open the business item

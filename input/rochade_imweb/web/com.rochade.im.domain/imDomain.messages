@@ -1,0 +1,19 @@
+﻿#-------------------------------------------------------
+# Issue Management messages
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+IM_ErrorDuringParsingDate=Error during parsing date
+﻿IM_ErrorDuringIssueCreation=Error during issue creation
+IM_ErrorCannotRetrieveUser=Cannot retrieve user
+IM_ErrorScopeItemWasNotSpecified=Scope item was not specified
+IM_ExceptionIssueHasAlreadyBeenAccepted=Issue has already been accepted
+IM_ExceptionInvalidUser=Invalid user
+IM_ErrorRetrievingCurrentUser=Error retrieving current user
+IM_ExceptionRelatedItemForIssueIsNotSpecified=Related item for issue is not specified
+IM_WarnCanNotConvertDateFromRochade=Can''t convert date from Rochade
+IM_WarnCanNotGetPropertyToConvert=Can''t get property to convert
+IM_WarnCanNotRetriveItemFromDB=Can''t retrieve item from DB
+IM_ErrorDuringRetrievingManagedUser=Error during retrieving managed user

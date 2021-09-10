@@ -1,0 +1,40 @@
+﻿# metaGlossary - Message file
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#------------------------------------------------------
+# Dialog for History records (HistoryRecord.zul)
+#------------------------------------------------------
+
+### Icons: all images should be inside of dir /com.rochade.mg.history/ + img/, see plugin.xml
+
+#extra icons
+history.img.taskAddContributorContext=/com.rochade.mg.history/img/TaskAddContributorContext16.png 
+### END Icons
+
+bg_DialogHistoryRecord.overview=Visión General
+bg_DialogHistoryRecord.comment=Comentario:
+bg_DialogHistoryRecord.author=Autor:
+bg_DialogHistoryRecord.date=Fecha:
+bg_DialogHistoryRecord.attributedetails=Detalle del Atributo
+bg_DialogHistoryRecord.attributes=Atributos:
+bg_DialogHistoryRecord.changes=Cambios:
+bg_DialogHistoryRecord.oldvalue=Old value:
+bg_DialogHistoryRecord.newvalue=New value:
+bg_DialogHistoryRecord.differences=Diferencias:
+bg_DialogHistoryRecord.tooltip.history=Registros históricos para
+bg_DialogHistoryRecord.tooltip.Comparison=Comparación para
+
+HistoryRecord.mode=Modo
+HistoryRecord.type=Tipo
+HistoryRecord.name=Nombre
+
+Types.BUSINESS-TERM=Término de Negocios
+Types.RBG/BUSINESS-TERM=Término de Negocios
+Types.RBG/GLOSSARY=Glosario
+Types.RBG/CONTEXT=Contexto
+Types.RBG/LINE-OF-BUSINESS=Lineas de Negocios
+Types.RBG/DESIGNATION=Acrónimo
+Types.RBG/REFERENCE-DOCUMENT=Documento Externo
+Types.RBG/USER=Usuario

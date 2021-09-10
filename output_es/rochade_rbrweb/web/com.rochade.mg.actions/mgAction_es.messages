@@ -1,0 +1,327 @@
+﻿# metaGlossary - Message file
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#------------------------------ Action Definition ------------------------------
+### Icons: all images should be inside of dir /com.rochade.mg.actions/ + img/, see plugin.xml
+#MG_MyNotifications.img=16x16_mg_itemlist.png
+#MG_MyTasks.img=16x16_mg_itemlist.png
+#MG_S_T_CompTasks.img=16x16_mg_itemlist.png
+#MG_S_T_OpenTasks.img=16x16_mg_itemlist.png
+#MG_S_T_AdTaskSearch.img=16x16_mg_itemlist.png
+
+#extra icons
+### END Icons
+
+# Actions
+Report_DG_RBG_TermSummaryDetail.lbl=Detalle del Resumen de Términos
+Report_DG_RBG_TermSummaryDetail.tip=Detalle del Resumen de Términos
+Report_DG_RBG_TermAudit.lbl=Auditar Término
+Report_DG_RBG_TermAudit.tip=Auditar Término
+
+MG_Listings.lbl=Listados
+MG_Listings.tip=Listados
+MG_Glossaries.lbl=Glosarios
+MG_Glossaries.tip=Glosarios
+MG_MyBusinessTerms.tip=Mostrar Mis Términos de Negocio
+MG_MyBusinessTerms.lbl=Mis Términos de Negocio
+MG_M_C_Glossary.lbl=Glosario
+MG_M_C_Glossary.tip=Glosario
+MG_M_AdvancedSearch.tip=Busqueda avanzada
+MG_M_AdvancedSearch.lbl=Busqueda avanzada
+MG_S_BTinProcess.lbl=Términos de Negocio en proceso
+MG_S_BTinProcess.tip=Términos de Negocio en proceso
+#MG_S_TaskReports.lbl=Reporte de Tareas
+#MG_S_TaskReports.tip=Reporte de Tareas
+MG_ListGlossary.lbl=Glosarios
+MG_ListGlossary.tip=Glosarios
+MG_ListContexts.lbl=Contextos
+MG_ListContexts.tip=Contextos
+MG_ListBT.lbl=Términos de Negocio
+MG_ListBT.tip=Términos de Negocio
+MG_ListBA.lbl=Aplicaciones de Negocios
+MG_ListBA.tip=Aplicaciones de Negocios
+MG_ListAcronyms.lbl=Acrónimos
+MG_ListAcronyms.tip=Acrónimos
+#MG_S_T_CompTasks.lbl=Tareas completadas
+#MG_S_T_CompTasks.tip=Tareas completadas
+#MG_S_T_OpenTasks.lbl=Abrir Tareas
+#MG_S_T_OpenTasks.tip=Abrir Tareas
+#MG_S_T_AdTaskSearch.lbl=Tarea de busqueda avanzada
+#MG_S_T_AdTaskSearch.tip=Tarea de busqueda avanzada
+MG_DemoOrganize.lbl=Organizar
+MG_DemoOrganize.tip=Organizar
+MG_Edit.lbl=Editar
+MG_Edit.tip=Editar
+MG_ListBTfmGlossary.lbl=Lista de Ítems de Negocios
+MG_ListBTfmGlossary.tip=Lista de Ítems de Negocios
+MG_NavRefresh.lbl=Refrescar
+MG_NavRefresh.tip=Refrescar
+MG_Create_Glossary.tip=Nuevo Glosario
+MG_Create_Glossary.lbl=Nuevo Glosario
+MG_InsertNewContext.lbl=Insertar nuevo Contexto
+MG_InsertNewContext.tip=Insertar nuevo Contexto
+MG_CreateNewBT.lbl=Crear nuevo ítem de negocio
+MG_CreateNewBT.tip=Crear nuevo ítem de negocio
+MG_CreateNewBTWithCtxSelection.lbl=Crear un nuevo Término de Negocios
+MG_CreateNewBTWithCtxSelection.tip=Crear un nuevo Término de Negocios
+MG_BT_Editor_Create.lbl=Crear
+MG_BT_Editor_Create.tip=Crear
+MG_GlossaryContext_Editor_Create.lbl=Crear
+MG_GlossaryContext_Editor_Create.tip=Crear
+MG_UserAdmin.lbl=Administración de Usuario (MG3)
+MG_UserAdmin.tip=Administración de Usuario (MG3)
+MG_Rename_BT.lbl=Renombrar
+MG_Rename_BT.tip=Renombrar
+MG_Rename.lbl=Renombrar
+MG_Rename.tip=Renombrar
+MG_Delete.lbl=Borrar
+MG_Delete.tip=Borrar
+MG_Delete_BT.lbl=Borrar
+MG_Delete_BT.tip=Borrar
+MG_Rollback.lbl=Deshacer o Borrar
+MG_Rollback.tip=Deshacer o Borrar
+MG_Reset.lbl=Reestablecer Estado
+MG_Reset.tip=Reestablecer Estado
+MG_Move_BT.lbl=Mover
+MG_Move_BT.tip=Mover
+MG_BT_EDITOR_CONTEXTS.lbl=Contextos
+MG_BT_EDITOR_CONTEXTS.tip=Contextos
+MG_BT_EDITOR_CONTEXTS_ADD_CONTRIBUTOR.lbl=Agregar Colaborador
+MG_BT_EDITOR_CONTEXTS_ADD_CONTRIBUTOR.tip=Agregar Colaborador
+MG_BT_EDITOR_CONTEXTS_REM_CONTRIBUTOR.lbl=Eliminar Colaborador
+MG_BT_EDITOR_CONTEXTS_REM_CONTRIBUTOR.tip=Eliminar Colaborador
+MG_BT_EDITOR_CONTEXTS_ADD_VIEWER.lbl=Agregar Veedor
+MG_BT_EDITOR_CONTEXTS_ADD_VIEWER.tip=Agregar Veedor
+MG_BT_EDITOR_CONTEXTS_REM_VIEWER.lbl=Eliminar Veedor
+MG_BT_EDITOR_CONTEXTS_REM_VIEWER.tip=Eliminar Veedor
+MG_Glossary_Filter.lbl=Glosario
+MG_Glossary_Filter.tip=Glosario
+MG_Glossary_Filter.All.lbl=Todo
+#MG_Glossary_Filter.All.tip=Todo
+#RBG_Diagram.lbl=Diagrama
+#RBG_Diagram.tip=Diagrama
+
+
+# Default Actions
+MG_SingleClick_ListBTfmGlossary_InNavigator.lbl=Términos de Negocio
+MG_SingleClick_ListBTfmGlossary_InNavigator.tip=Términos de Negocio
+MG_DoubleClick_OpenGlossary.lbl=Glosario
+MG_DoubleClick_OpenGlossary.tip=Glosario
+MG_DoubleClick_OpenContext.lbl=Contexto
+MG_DoubleClick_OpenContext.tip=Contexto
+MG_DoubleClick_OpenDocument.lbl=Documento
+MG_DoubleClick_OpenDocument.tip=Documento
+
+# Context Actions
+MG_BT-DIAGRAM.lbl=Relación entre Términos
+MG_BT-DIAGRAM.tip=Relación entre Términos
+MG_BT-REFERS-TO-DIAGRAM.lbl=Provee definición para
+MG_BT-REFERS-TO-DIAGRAM.tip=Provee definición para
+MG_BT-TRACEABILITY.lbl=Trazabilidad
+MG_BT-TRACEABILITY.tip=Trazabilidad
+
+###### Not defined Actions ###########
+#MG_Process.lbl=En Proceso
+#MG_List.lbl=Lista
+#MG_List.tip=Lista
+#MG_MetaGlossary.lbl=MetaGlossary
+#MG_MetaGlossary.tip=MetaGlossary
+#MG_M_List.lbl=Lista
+#MG_M_List.tip=Lista
+#MG_M_Create.lbl=Crear
+#MG_M_Create.tip=Crear
+#MG_M_Edit.lbl=Editar
+#MG_M_Edit.tip=Editar
+#MG_M_Delete.lbl=Borrar
+#MG_M_Delete.tip=Borrar
+#MG_M_C_Context.lbl=Contexto
+#MG_M_C_Context.tip=Contexto
+#MG_M_C_BT.lbl=Término de Negocios
+#MG_M_C_BT.tip=Término de Negocios
+#MG_M_D_Glossary.lbl=Glosario
+#MG_M_D_Glossary.tip=Glosario
+#MG_M_D_Context.lbl=Contexto
+#MG_M_D_Context.tip=Contexto
+#MG_M_UserAdmin.lbl=Administración de Usuario
+#MG_M_UserAdmin.tip=Administración de Usuario
+#MG_S_Search.lbl=Buscar & Elaborar Reportes
+#MG_S_Search.tip=Buscar & Elaborar Reportes
+#MG_S_BT.lbl=Buscar Términos de Negocio
+#MG_S_BT.tip=Buscar Términos de Negocio
+#MgNavCollapseAll.lbl=Colapsar todo
+#MgNavCollapseAll.tip=Colapsar todo
+#MgNavRefresh.lbl=Refrescar
+#MgNavRefresh.tip=Refrescar todas las raices
+#OA_DeleteItem.lbl=Eliminar…
+#OA_DeleteItem.tip=Eliminar ítems
+#MG_ListBTfmContext.lbl=Lista de Términos de Negocio
+#MG_ListBTfmContext.tip=Lista de Términos de Negocio
+#MG_ListBTfmGlossaryContextInclude.lbl=Lista de Términos de Negocio (incluye SubContextos)
+#MG_ListBTfmGlossaryContextInclude.tip=Lista de Términos de Negocio (incluye SubContextos)
+#MG_AddTo_MyContexts.lbl=Agregar Mis Contextos
+#MG_AddTo_MyContexts.tip=Agregar Mis Contextos
+#MG_S_ListContexts2.lbl=Contextos
+#MG_SingleClick_ListBTfmContext_InNavigator.lbl=Términos de Negocio
+#BTofContext=Términos de Negocio de un Contexto
+#BTofGlossary=Términos de Negocio de un Glosario
+#MG_BTerm_AddRefereneceContext.lbl=Agregar
+#MG_BTerm_AddRefereneceContext.tip=Agregar contexto de referencia
+#MG_BTerm_AddContributorContext.lbl=Agregar contexto colaborador
+#MG_BTerm_AddContributorContext.tip=Agregar contexto colaborador
+#MG_BTerm_AddViewerContext.lbl=Agregar veedor de contexto
+#MG_BTerm_AddViewerContext.tip=Agregar veedor de contexto
+######## END Not defined Actions ###########
+
+#------------------------------ non Action Definition ------------------------------
+bg_SearchResult.title=Ítems del Negocio de {0}: {1}
+bg_SearchResult.tab.label={0}: {1}
+bg_SearchResult.tab.tooltip=Ítems del Negocio de {0}: {1}
+bg_SearchResult.tab.title.inclSbCtx=Ítems del Negocio de {0}: {1} (incluyendo subcontextos)
+
+MG_Error=Error
+MG_Info=Información
+MG_Action.errPerm=Error recuperando permisos
+MG_Action.errLock=No es posible renombrar. El ítem ya esta bloqueado en esta sesión.
+MG_Rename.noPerm=No tiene permisos para renombrar.
+MG_Rename.Submit=No es posible renombrar. El Término de Negocios está en proceso de aprobación.
+MG_Delete_BT.noPerm=No tiene permisos para borrar.
+MG_Delete_BT.wip=El término de Negocios seleccionado {0} aún está en proceso de aprobación y no puede ser borrado.
+MG_Delete_BT.errdel=Ocurrió un error borrando el término
+DeleteGlossaryContextAction.roles.noPerm.msg=El glosario seleccionado no pudo ser borrado porque contiene roles. Ud. no tiene permisos para borrar los roles.
+DeleteGlossaryContextAction.gloss.title=Borrar Glosario
+DeleteGlossaryContextAction.gloss.msg=Seleccionar el glosario a borrar. Esta operación borra el glosario seleccionado incluyendo todos sus términos, tareas, conjuntos y roles. Esto puede tomar varios minutos.
+DeleteGlossaryContextAction.ctx.title=Borrar Contexto
+DeleteGlossaryContextAction.ctx.msg=Seleccionar el contexto a borrar. Esta operación borra el contexto seleccionado incluyendo todas sus tareas y roles. Esto puede tomar varios minutos.
+DeleteGlossaryContextAction.containsContexts.gloss.msg=El glosario seleccionado no pudo ser borrado porque contiene subcontextos. Debe borrar los subcontextos antes de borrar el glosario.
+DeleteGlossaryContextAction.containsContexts.ctx.msg=El contexto seleccionado no puede ser borrado porque contiene subcontextos. Debe borrar los subcontextos antes de borrar el contexto.
+DeleteGlossaryContextAction.containsDupl.inDev.msg=El contexto seleccionado no puede ser borrado porque contiene términos actualmente en borrador.
+DeleteGlossaryContextAction.containsDupl.inProd.msg=El contexto seleccionado tiene términos duplicados. Estos términos serán borrados. Quiere proceder?
+DeleteGlossaryContextAction.itemsInDev.msg={0} términos no aprobados
+DeleteGlossaryContextAction.sets.msg={0} conjuntos
+DeleteGlossaryContextAction.openTasks.msg={0} tareas pendientes
+DeleteGlossaryContextAction.roles.msg=- roles asociados
+DeleteGlossaryContextAction.conflict.msg=Se encontraron ítems adicionales que deben incluirse en el borrado para evitar inconsistencias. Quiere borrar estos ítems?
+DeleteGlossaryContextAction.msg=Seguro de borrar {0}
+DeleteGlossaryContextAction.deleteFailedLocked={0} falló borrado. {1} esta aún bloquedo por otras aplicaciones. Por favor, contacte al administrador.
+MG_Delete_BT.alreadyLocked=Falló la operación. El ítem ya esta bloqueado en esta sesión.
+
+##########################################
+MG_Rollback.msg=Do you want to roll back or delete the selected business items?
+MG_Rollback.title=Rollback Selected Business Items
+MG_Rollback.succeed=Deshacer completado exitosamente.
+MG_Rollback.failed=Rollback failed for some business items.
+MG_Rollback.err=You cannot rollback the selected business item. Either you do not have permission or the business item is currently being processed.
+MG_Reset.err=You cannot reset the status of the selected business item. Either you do not have permission or the business item is not in Pending status.
+MG_Reset.msg=Do you want to reset the selected business items?
+MG_Reset.title=Reset Selected Business Items
+MG_Reset.succeed=Reestablecer terminado exitosamente.
+MG_Reset.failed=Reset failed for some business items.
+
+MG_Delete.warn.RemovingOrphanedReferenceDocumentsFailed=Error eliminando referencias a documentos huérfanos con IDs: {0}.
+##########################################
+
+bg_DialogBT.messagebox.remove.text=Seguro de borrar el término de negocios del glosario?
+bg_DialogBT.messagebox.remove.multipleOwner=Existe al menos un contexto asignado.
+bg_DialogBT.messagebox.remove.title=Borrar Término de Negocios
+
+bg_ReportFilter.noRightCreateBusinessTerm.text=No tiene permisos para crear términos de Negocio.
+bg_ReportFilter.noRightCreateContext.text=No tiene permisos para crear contextos.
+bg_ReportFilter.noRightCreateGlossary.text=You do not have permission to create glossaries.
+MG_Action.singleSelection=Esta operación puede ser aplicada solo a un objeto simple.
+MG_Action.noSelection=Debe seleccionar un objeto para realizar esta acción
+MG_Move_BT.noStatus=You do not have permission to move the business item.
+MG_Move_BT.piDataNotMovable=The business item must not be moved.
+MG_Create_BT.noName=Specify a name to create the business item.
+MoveDialog.existence=The business item [{0}] exists in the target context [{1}].
+
+##########################################
+MG_RenameTerm.messagebox.title=Renombrar Término
+MG_RenameTerm.messagebox.resultok.text=El término será renombrado después que el cambio sea aprobado.
+
+## Would you like to submit the change immediately?
+MG_RenameTerm.messagebox.resultokSubmit.text=El término será renombrado después que el cambio sea aprobado.\n Quiere enviar a control los cambios inmediatamente?
+MG_RenameTerm.messagebox.resultokSubmit.alreadyDevVersionBefore.text=El término será renombrado después que el cambio sea aprobado.\nYa hay cambios no aprobados. Quiere enviar a control los cambios inmediatamente?
+
+mg_rename.error=Error renombrando: {0}
+mg_rename.alreadyExist=Otro item con el mismo nombre ya existe
+mg_rename.language.exception=Aplicar este nombre al idioma {0} no posible: {1}
+
+MG_Move.noPerm=No tiene permisos para mover.
+
+Render.error=Error
+
+VersionExistsInDev.true=Borrador
+VersionExistsInDev.false=Aprobado
+VersionExistsInDev.error=Error
+VersionExistsInDev.true.tip=El ítem de negocio está en proceso
+VersionExistsInDev.false.tip=Se aprueba el elemento de negocio
+VersionExistsInDev.error.tip=Ocurrió un error recuperando información
+
+OwnedByCellRenderer.PathGlossary={0} [Glossary]
+OwnedByCellRenderer.PathContext={0} [Context]
+OwnedByCellRenderer.PathScopeNameScopeType={0} [{1}]
+
+New.Context=Nuevo Contexto
+New.Glossary=Nuevo Glosario
+New.Term=Nuevo Término de Negocios
+
+MG_GlossaryAdvancedArea.lbl=Modificaciones
+MG_GlossaryAdvancedArea.tip=Modificaciones
+MG_CustomizeBusinessTerm.lbl=Crear Tipo de Ítem de Negocios
+MG_CustomizeBusinessTerm.tip=Crear Tipo de Ítem de Negocios
+MG_ImportExcelAll.lbl=Importar Datos del Glosario
+MG_ImportExcelAll.tip=Importar Datos del Glosario
+MG_ImportExcelRefGlossary.lbl=Importar Términos de Negocio
+MG_ImportExcelRefGlossary.tip=Importar Términos de Negocio
+MG_ImportExcelRefContext.lbl=Importar Términos de Negocio
+MG_ImportExcelRefContext.tip=Importar Términos de Negocio
+
+MG_EnvRef.lbl=Referencias
+MG_EnvRef.tip=Referencias del Ítem
+MG_EnvRefAndUsages.lbl=Referencias & usos
+MG_EnvRefAndUsages.tip=Referencias & Usos del Ítem
+MG_EnvUsages.lbl=Usos
+MG_EnvUsages.tip=Usos del Ítem
+
+MG_Delete_BI.lbl=Borrar
+MG_Delete_BI.tip=Borrar
+
+
+MG_Delete_BI.messagebox.remove.text=Seguro quiere eliminar el Término?
+MG_Delete_BI.messagebox.remove.title=Borrar Ítem de Negocios
+MG_Delete_BI.errdel=Error borrando Ítem de Negocios
+
+MG_Error_DuringDeletionOfRelatedTasks=Error borrando tareas relacionadas
+
+MG_DetectTechData.lbl=Detect Technical Data
+MG_DetectTechData.tip=Detect the technical data based on the defined filter and links them to the current item 
+MG_DetectTechData.title=Detect Technical Data
+MG_DetectTechData.inProgress=Detect Technical Data... 
+MG_DetectTechData.finished=Detect Technical Data finished successfully.\nPlease review the results in the Implementation & Cascade tab.
+MG_DetectTechData.error.exception=An error occurred. Please see logs for details.
+MG_DetectTechData.error.invalidFilter=The Detect technical data filter contains an invalid SDCAC expression.
+MG_DetectTechData.error.emptyFilter=The Detect technical data filter is empty.
+
+MG_DetectTechOrganize.lbl=Organizar
+MG_DetectTechOrganize.tip=Organize cascaded items
+MG_DetectTechIgnore.lbl=Ignore
+MG_DetectTechIgnore.tip=Ignore items
+MG_DetectTechVerify.lbl=Verify
+MG_DetectTechVerify.tip=Verify items
+MG_DetectTechUndoVerify.lbl=Undo Verify
+MG_DetectTechUndoVerify.tip=Undo verification of items 
+MG_DetectTechRegard.lbl=Regard
+MG_DetectTechRegard.tip=Regard items that have been ignored
+
+MG_DetectTechCounter.lbl=({0})
+MG_DetectTechCounter.tip=(selected items: {0})
+
+DetectTechActionRenderer.title=Adjust Detect Technical Data
+DetectTechActionRenderer.noItemsToIgnore=No items found to be ignored. Only items with status Scanned or Verified can be ignored.
+DetectTechActionRenderer.noItemsToRegard=No items found to be regarded. Only items with status Scanned or Verified can be regarded.
+DetectTechActionRenderer.noItemsToVerify=No items found to be verified. Only items with status Scanned can be verified.
+DetectTechActionRenderer.noItemsToUnverify=No items found to undo verification for. Only items with status Verified can be unverified.

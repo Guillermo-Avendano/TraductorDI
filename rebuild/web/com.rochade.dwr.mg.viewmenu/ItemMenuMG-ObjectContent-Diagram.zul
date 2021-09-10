@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page id="start" title="DWR" contentType="text/html;charset=UTF-8"?>
+<!-- 
+	@author HC 17/07/2011, created
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 	
+-->
+<viewmenu>
+	<div sclass="asg-menubar-left-aligned">
+	    <special actionId="WTB_SelectByName" visibleCondition="view.isDiagram"/>
+	    <special actionId="DWR_ShowSelected" visibleCondition="DWR_ShowSelected.visible"/>
+		<special actionId="WTB_Filter" visibleCondition="view.isTable"/>
+		<special actionId="WTB_Zoom"   visibleCondition="WTB_Zoom.visible"/>
+	</div>
+	<div sclass="clearfix" />
+	<!--
+		<special actionId="WTB_MPathMask"  />
+		<special actionId="WTB_MPathDepth" />
+	<menubar style="background:none; border:none">
+		<menu actionId="WTB_Switch2View" visibleCondition="$CAPABILITIES='view.isNotTable AND view.noSpecialRender'">
+			<menupopup>
+				<menuitem actionId="WTB_Switch2Tree" visibleCondition="view.isNotTree"/>
+				<menuitem actionId="WTB_Switch2Diagram" visibleCondition="$CAPABILITIES='view.isNotDiagram OR view.isDWRDiagram'"/>
+				<menuitem actionId="DWR_Switch2Diagram" visibleCondition="view.isNotDWRDiagram"/>
+			</menupopup>
+		</menu>
+	</menubar>
+-->
+</viewmenu>

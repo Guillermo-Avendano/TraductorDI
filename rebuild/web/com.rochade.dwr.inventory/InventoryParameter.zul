@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page id="start" title="WTB" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<!-- 
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+<window apply="com.rochade.dwr.inventory.InventoryParameterComposer" border="normal" width="855px" height="460px" sclass="ags-query-param">
+<borderlayout>
+	<north>	
+		<hbox width="100%" widths="80%,20%" sclass="field0" >
+			<vbox style="padding:5px">
+				<div   id="headerTitle" width="100%"/> 
+				<label value="${wtb:l('inventory.parameter.subtitle')}"/>
+			</vbox>
+			<vbox width="100%" align="end">
+				<image id="imgWizard" src="${wtb:getImg('inventory.parameter.img.wizard')}"  height="${wtb:l('img.height.wizard')}"/>
+			</vbox>
+		</hbox>
+	</north>
+    <center sclass="field1" autoscroll="true">
+        <div>
+			<div style="padding:5px">
+		       	<listbox id="lbRunsettings" seltype="single" height="100%"> 
+					<listhead sizable="true">
+						<listheader width="20%" label="${wtb:l('inventory.parameter.type')}" />
+						<listheader width="20%" label="${wtb:l('inventory.parameter.filter')}" />
+						<listheader width="60%" label="${wtb:l('inventory.parameter.value')}" />
+					</listhead>
+				</listbox>
+			</div>
+			<hbox width="100%" widths="80%,10%,10%" style="padding:5px">
+		        <button width="120px" id="resetButton" label="${wtb:l('inventory.parameter.resetButton')}" tooltiptext="${wtb:l('inventory.parameter.reset')}"/>
+		        <button width="120px" id="runButton" label="${wtb:l('inventory.parameter.runButton')}" tooltiptext="${wtb:l('inventory.parameter.enter')}"/>
+				<button width="120px" id="cancelButton" label="${wtb:l('inventory.parameter.cancelButton')}" tooltiptext="${wtb:l('inventory.parameter.esc')}"/>
+			</hbox>	
+ 		</div>
+	</center>
+</borderlayout>
+</window>

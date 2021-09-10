@@ -1,0 +1,32 @@
+﻿# metaGlossary - Message file
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+
+#
+# package: com.rochade.mg.xlsimport
+#
+
+### Icons: all images should be inside of dir /com.rochade.mg.xlsimport/ + img/, see plugin.xml
+
+#extra icons
+
+### END Icons
+
+mg.xlsimport.caption.label=Importar archivo Excel
+mg.xlsimport.button.upload=Seleccionar Archivo Excel
+mg.xlsimport.button.import=Importar
+mg.xlsimport.button.cancel=Cancelar
+
+mg.xlsimport.noxlsx=No es un archivo Excel .xlsx.
+
+mg.xlsimport.error.analyze=Error analizando el archivo Excel:\n
+mg.xlsimport.import.okmsg=Importación finalizada sin errores.
+mg.xlsimport.error.missingsheet=Planilla {0} no exite
+mg.xlsimport.error.missingsheetdata=Sin datos en la hoja {0}
+mg.xlsimport.error.missingmandatorycolumnvalue=Planilla {0} - Columna {1} obligatoria no tiene valor ( Fila: {2}/Col:{3})
+mg.xlsimport.error.missingmandatorycolumn=Planilla {0} - Columna {1} obligatoria no existe
+mg.xlsimport.error.cellevaluator=Sheet {0} in row {1} in column {2} ({3})

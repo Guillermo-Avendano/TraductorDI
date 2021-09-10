@@ -1,0 +1,139 @@
+﻿# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#------------------------------ Action Definition ------------------------------ 
+
+DG_RoleType.lbl=Plantillas de Roles
+DG_RoleType.tip=Plantillas de Roles
+RoleCreate.lbl=Crear un Rol
+RoleCreate.tip=Crear un Rol
+DG_RoleAdd.lbl=Agregar
+DG_RoleAdd.tip=Agregar
+DG_AddRespForUser.lbl=Agregar
+DG_AddRespForUser.tip=Agregar
+DG_RoleAdminRoleActive.lbl=Activar Role
+DG_RoleAdminRoleActive.tip=Activar Role
+DG_RoleAdminRoleDeactive.lbl=Desactivar Rol
+DG_RoleAdminRoleDeactive.tip=Desactivar Rol
+DG_RoleAdminRoleDeactive.value.true=inactivo
+DG_RoleAdminRoleDeactive.value.false=activo
+DG_RoleAdminRoleDeactive.value.null=activo
+DG_RoleAdminRoleDeactive.value.=activo
+
+DG_SetResponsibilityAdministration.lbl=Establecer Responsabilidades
+DG_SetResponsibilityAdministration.tip=Establecer Responsabilidades
+DG_RemResponsibilityAdministration.lbl=Eliminar Responsabilidades
+DG_RemResponsibilityAdministration.tip=Eliminar Responsabilidades
+
+DG_Listings.lbl=Listados
+DG_Listings.tip=Listados
+DG_ListResponsibilities.lbl=Lista de Responsabilidades
+DG_ListResponsibilities.tip=Lista de Responsabilidades
+
+New.RoleTemplate=Nueva Plantilla de Rol
+new.type.RBG/ROLE=Plantilla de Rol
+
+DG_InitUserAdmin.lbl=Inicializa
+DG_InitUserAdmin.tip=Inicializa Administración
+DG_InitUserAdmin.error.permission=Permiso no otorgado para inicializar la administración del usuario
+
+DG_WF_ListConfigs.lbl=Plantillas de Workflows
+DG_WF_ListConfigs.tip=Plantillas de Workflows
+#DG_WF_ConfigAdmin.lbl=Administrar Workflow
+#DG_WF_ConfigAdmin.tip=Administrar Workflow
+DG_WF_ImportDefinition.lbl=Agregar
+DG_WF_ImportDefinition.tip=Importar Workflow
+DG_WF_OpenConfig.lbl=Abrir
+DG_WF_OpenConfig.tip=Abrir
+DG_WF_AddWfAssignment.lbl=Agregar
+DG_WF_AddWfAssignment.tip=Agregar asignación a Workflow
+DG_WF_RemoveWfAssignment.lbl=Eliminar
+DG_WF_RemoveWfAssignment.tip=Eliminar asignación de Workflow
+DG_WF_UploadDialog.title=Importar Workflow
+DG_WF_UploadDialog.text=Por favor, cargar un archivo BPMN.
+
+DG_DoubleClick_ShowNotificationTaskView.lbl=Notificación de tarea a ver
+DG_DoubleClick_ShowNotificationTaskView.tip=Notificación de tarea a ver
+
+DG_OpenNotificationListItem.lbl=Abrir
+DG_OpenNotificationListItem.tip=Abrir
+DG_OpenCamundaTaskListItem.lbl=Abrir
+DG_OpenCamundaTaskListItem.tip=Abrir
+DG_RemoveNotificationItem_ViewMenu.lbl=Remove Selected Notifications
+DG_RemoveNotificationItem_ViewMenu.tip=Remove Selected Notifications
+DG_RemoveNotificationItem_Popup.lbl=Remove Selected Notification
+DG_RemoveNotificationItem_Popup.tip=Remove Selected Notification
+DG_WF_ResetTask.lbl=Reestablecer
+DG_WF_ResetTask.tip=Reset This Task
+DG_WF_ResetTask.error=Hubo un error reestableciendo las tareas seleccionadas.
+DG_WF_ResetTask.error.noPermission=No tiene permitido reestablecer las tareas seleccionadas.
+DG_WF_ResetTask.msgboxTitle=Reestablecer Tareas
+DG_WF_ResetTask.confirm=Quiere reestablecer las tareas e ítems seleccionados al estado inicial?
+DG_WF_ResetTask.success=Las tareas fueron reestablecidas exitosamente.
+DG_WF_RetryTask.lbl=Reintentar
+DG_WF_RetryTask.tip=Retry Failed Jobs
+DG_WF_RetryTask.error=Hubo un de configuración en el contador de intentos para las tareas seleccionadas.
+DG_WF_RetryTask.msgboxTitle=Reintentar Tareas
+DG_WF_RetryTask.confirm=Quiere reintentar las tareas seleccionadas que estan pausadas?
+DG_WF_RetryTask.success=Jobs con fallas han sido reactivados y serán ejecutados en segundo plano.
+
+dg_remove_notification.error=Esta notificación ({0}) no pudo ser borrada.
+dg_remove_notifications.error=Las notificaciones seleccionadas no pudieron ser borradas.
+
+dg_remove_notifications.title=Eliminar Notificación
+dg_remove_notifications.msg=Are you sure to remove the selected notification(s)? 
+
+DG_MyNotifications.tip=Lista de mis Notificaciones
+DG_MyNotifications.lbl=Mis Notificaciones
+DG_MyNotifications.incomplete.limited=Se alcanzó el límite de notificaciones. Sólo el último {0} de {1} se muestra.
+DG_MyTasks.tip=Lista de Mis Tareas
+DG_MyTasks.lbl=Mis Tareas
+DG_MyTasks_CamundaList.tip=Lista de Mis Tareas
+DG_MyTasks_CamundaList.lbl=Mis Tareas
+
+DG_S_TaskReports.lbl=Reporte de Tareas
+DG_S_TaskReports.tip=Reporte de Tareas
+DG_S_T_CompTasks.lbl=Tareas completadas
+DG_S_T_CompTasks.tip=Tareas completadas
+DG_S_T_OpenTasks.lbl=Abrir Tareas
+DG_S_T_OpenTasks.tip=Abrir Tareas
+DG_S_T_AdTaskSearch.lbl=Tarea de busqueda avanzada
+DG_S_T_AdTaskSearch.tip=Tarea de busqueda avanzada
+
+WfAddAssignment.noCompatibleWorkflows=No hay una categoría adicional de workflow para los ítems en el contecto actual. La asignación del actual workflow ya cubre todos los casos posibles.
+WfAddAssignment.modifiedItemTypes=Algunos tipos de ítems se han desactivado porque ya están activos en otra configuración asignada o no se admiten en este contexto.
+
+DG_InWork.lbl=Borrador
+DG_InWork.tip=Borrador
+
+# Icons
+
+
+
+
+DG_ImportExcelAll.lbl=Importar Excel
+DG_ImportExcelAll.tip=Importar Excel
+DG_ImportExcelRefGlossary.lbl=Import Business Items
+DG_ImportExcelRefGlossary.tip=Import Business Items
+DG_ImportExcelRefContext.lbl=Import Business Items
+DG_ImportExcelRefContext.tip=Import Business Items
+
+DG_ConfigureODL.lbl=Configure On-Demand Lineages
+DG_ConfigureODL.tip=Configure On-Demand Lineage settings 
+DG_EnableODL.lbl=Enable
+DG_EnableODL.tip=Enable On-Demand Lineage settings
+DG_DisableODL.lbl=Disable
+DG_DisableODL.tip=Disable On-Demand Lineage settings
+
+############ Self Subscription Service ################
+DG_Unsubscribe.tooltip=Anular la suscripción
+
+DG_Unsubscribe.title=Anular la suscripción
+DG_Unsubscribe.confirmation=¿Realmente quiere cancelar la suscripción de {0} {1}?
+DG_Unsubscribe.error=Error cancelando la suscripción del contexto.
+DG_Unsubscribe.error.locked=Error cancelando la suscripción del contexto. El usuario {0} está bloqueado.
+DG_Unsubscribe.error.noRight=Error cancelando la suscripción del contexto. Falta permiso de escritura para el ítem de usuario.

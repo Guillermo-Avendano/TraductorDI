@@ -1,0 +1,87 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#------------------------------ Report Definition (MG) ------------------------------
+### Icons: all images should be inside of dir /com.rochade.mg.report/ + img/, see plugin.xml
+
+#### ------------------- ONLY report menus and reports ---------------
+InventoryBG.subtitle=Data Governance
+InventoryBG.lbl=Inventory (Data Governance)
+InventoryBG.tip=Inventory report for Data Governance
+InventoryBG.img=
+
+DG_RBG.lbl=Glossary
+DG_RBG.tip=Glossary reports
+DG_RBG.img=
+
+DG_RBG_RoleSum.lbl=Role Summary
+DG_RBG_RoleSum.tip=Role Summary report
+DG_RBG_RoleSum.img=
+
+DG_RBG_TermPhysicSum.lbl=Term Physical Usage Summary
+DG_RBG_TermPhysicSum.tip=Term Physical Usage Summary report
+DG_RBG_TermPhysicSum.img=
+
+DG_RBG_TermSummary.lbl=Term Summary
+DG_RBG_TermSummary.tip=Term Summary report
+DG_RBG_TermSummary.img=
+
+DG_RBG_TermDuplComp.lbl=Term Duplicate Comparison
+DG_RBG_TermDuplComp.tip=Term Duplicate Comparison report
+DG_RBG_TermDuplComp.img=
+
+DG_RBG_TermSummaryDetail.lbl=Term Summary Detail
+DG_RBG_TermSummaryDetail.tip=Term Summary Detail report
+DG_RBG_TermSummaryDetail.img=
+
+DG_RBG_TermAudit.lbl=Term Audit
+DG_RBG_TermAudit.tip=Term Audit report
+DG_RBG_TermAudit.img=
+
+mgTUS.lbl=Glossary Governance Team Utilization
+mgTUS.tip=Glossary governance team utilization summary report
+mgTUS.img=
+
+ImpactAnalysisOverviewBG.lbl=Impact Analysis Overview (Glossary)
+ImpactAnalysisOverviewBG.tip=Impact Analysis Overview Report for Business Glossary
+ImpactAnalysisOverviewBG.img=
+
+mgDG_Utilization.lbl=Glossary Utilization
+mgDG_Utilization.tip=Glossary utilization report
+mgDG_Utilization.img=
+
+mgDG_TermsWithLikes.lbl=Glossary Like Summary
+mgDG_TermsWithLikes.tip=Glossary Like Summary report
+mgDG_TermsWithLikes.img=
+
+mgDG_TermsWithLikes.lblTitle=Glossary Like Summary
+mgDG_TermsWithLikes.lblGlossary=Glossary
+mgDG_TermsWithLikes.lblContext=Governed By
+mgDG_TermsWithLikes.lblType=Likes for
+mgDG_TermsWithLikes.lblName=Name
+mgDG_TermsWithLikes.lblCount=Number of Likes
+mgDG_TermsWithLikes.lblTotalLikes=Number of Likes
+mgDG_TermsWithLikes.lblTotalItems=Number of Business Items
+mgDG_TermsWithLikes.lblSum=Sum of Likes
+
+Report.noSeedInWs=Seed item does not exist in Production.
+
+#### ------------------- displays ---------------
+displmgDG_RoleSum_Title=Role Summary
+displmgDG_TermPhysicSum_Title=Term Physical Usage Summary
+displmgDG_TermSum_Glo_Title=Term Summary by Glossary
+displmgDG_TermAudit_Title=Term Audit
+displmgDG_TermSummaryDetail_Title=Term Summary Detail
+displmgDGUtilizationTitle=Glossary Utilization Summary
+displModifier=Modifier
+displModificationCount=Number of Modifications
+displModificationCountTotal=Total number of modifications
+displModificationComment=Modification Reasons
+
+mgDG_role.Author=Author
+mgDG_role.Approver=Approver

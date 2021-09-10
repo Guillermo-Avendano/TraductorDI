@@ -1,0 +1,25 @@
+﻿#-------------------------------------------------------
+# Issue Management messages
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+IM_CreateIssue.lbl=Create
+IM_CreateIssue.tip=Create
+IM_CreateNewIssueItemviewAction.lbl=Log Issue
+IM_CreateNewIssueItemviewAction.tip=Log Issue
+IM_CreateNewIssueContextmenuAction.lbl=Log Issue
+IM_CreateNewIssueContextmenuAction.tip=Log Issue
+
+IM_BecomeResponsibleForIssue.lbl=Become responsible for the Issue
+IM_BecomeResponsibleForIssue.tip=Become responsible for the Issue
+
+IsssueWfStartProcessAction.createActionInvoiced=Create action invoiced
+IsssueWfStartProcessAction.cantCreateIssueItem=Can''t create Issue item
+IsssueWfStartProcessAction.titleMandatory = Title is mandatory.
+
+IM_ErrorDuringReassigningIssue=Error during reassigning issue
+IM_ErrorDuringCreatingIssueComment=Error during creating issue comment
+IM_ErrorDuringIssueSubmit=Error during issue submit
+IM_ErrorProcessConfigWasNotSpecified=Process configuration was not specified

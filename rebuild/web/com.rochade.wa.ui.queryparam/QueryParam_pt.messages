@@ -1,0 +1,32 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.wa.ui.QueryParam
+#
+### Icons: all images should be inside of dir /com.rochade.wa.ui.queryparam/ + img/, see plugin.xml
+
+#extra icons
+### END Icons
+
+QueryParam.select=Especifique os parâmetros de execução da consulta.
+QueryParam.runSettings=Configurações de Execução:
+QueryParam.property=Parâmetros
+QueryParam.value=Valor
+QueryParam.limit=Número máximo de itens
+QueryParam.runButton=Executar
+QueryParam.cancelButton=Cancelar
+QueryParam.queryparam=Parâmetros de Consulta
+
+# Tooltips
+
+QueryParam.altS=Configurações de Execução (Alt-S)
+QueryParam.altP=Preservar Configurações (Alt-P)
+QueryParam.altL=Limitar os resultados da consulta (Alt-L)
+QueryParam.enter=Executar consulta (Alt-R, <enter>)
+QueryParam.esc=Cancelar (<esc>)

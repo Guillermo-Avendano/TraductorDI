@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+
+<window	apply="com.rochade.wa.ui.editor.link.TableLinkPropertyViewComposer" sclass="asg-rochade-wa-ui-editor-tablelinkpropertyview">
+
+	<zscript><![CDATA[
+		Map parg = Executions.getCurrent().getArg();
+		String tableShape = (String) parg.get("tableShape");
+		String viewMenu = (String) parg.get("viewMenu");
+		String viewType = (String) parg.get("viewType");
+		Boolean footerVisible = (Boolean) parg.get("footerVisible");
+		boolean showTree = "Tree".equals(viewType);
+		boolean showTable = !showTree;
+	]]></zscript>
+
+	<toolbar height="22px" id="tb" >
+		<toolbarbutton id="add" height="22px"
+			label="${wtb:l('TableLinkPropertyView.add')}" 
+			style="font-size:10px; color: ${wtb:l('label-color')};" />
+	</toolbar>
+ 	<tree 
+		sclass="asg-navtree"
+		use="com.rochade.wa.view.tree.WABaseTree" 
+		headerVisible="true"
+		dir="L_BOTH"
+		tableShape="${tableShape}"
+		rvlSort="true"
+		multiple="false"
+		useDecorator="true"
+		defaultActionTriggeredOnDoubleClick="true"
+		defaultActionTriggeredOnSingleClick="false"
+		defaultActionTriggeredOnEnter="true"
+		id="linkTree"
+		if="${showTree}"
+		height="300px">
+	</tree>		
+	<listbox  emptyMessage="No items match your search" id="linkTable"
+		use="com.rochade.wa.view.table.WABaseTable"
+		viewMenu="${viewMenu}"
+		tableShape="${tableShape}"
+		footerLabel="${wtb:l('TableLinkPropertyView.footer')}"
+	    multiple="false"
+		defaultActionTriggeredOnDoubleClick="true"
+		defaultActionTriggeredOnSingleClick="false"
+		defaultActionTriggeredOnEnter="true"
+		if="${showTable}"
+		footerVisible="${footerVisible}">
+	</listbox>
+
+</window>

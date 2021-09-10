@@ -1,0 +1,225 @@
+﻿#-------------------------------------------------------
+# metaGlossary - Message file
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#
+#-------------------------------------------------------
+
+MG.version=3.0
+
+#
+# package: com.rochade.mg.objectcontent
+#
+
+### Icons: all images should be inside of dir /com.rochade.mg.objectcontent/ + img/, see plugin.xml
+
+#extra icons
+### END Icons
+
+############ text used in table item view ################
+
+YES=Sim
+NO=Não
+IMPLEMENTS_ENTITY=Implementa Entidade
+IMPLEMENTS_TABLE=Implementa Tabela
+FULL_QUALIFIED_NAME=Nome totalmente qualificado
+NO_INFORMATION_AVAILABLE=sem informação adicional
+FORMAT=Formato
+
+############### text used in item view ###################
+Acronym=Abreviatura
+Refers2Terms=Refere-se a itens de negócio
+ReferenceTable=Tabela de Referência
+AdministrativeInformation=Informação Administrativa
+
+ForKey=Chave Estrangeira
+ImplBTerm=Implementa Termos de Negócio
+
+BTTypePropertyView.EmptyTypeLabel=Use o Tipo de termo do Glossário ou Contexto
+BTTypePropertyView.changeInvalidatesWfAssignment=Alterar este tipo invalida o fluxo de trabalho atribuído.  Por favor atualize também o tipo do item na aba de fluxo de trabalho.
+
+#################### Tabs header #######################################
+Tab.VC=Valor da Coleção
+Tab.BT=Termo de Negócio
+Tab.DomValue=Domínio de Valores
+Tab.ValueDom=Valor do Domínio
+Tab.ImpDetails=Detalhes da Implementação
+Tab.RelConcept=Conceito Relacionado
+Tab.RefCol=Coleção de Referência
+Tab.RelCon=Conceitos Relacionados
+Tab.Hierarchy=Hierarquia
+Tab.ValidityPeriod=Período de Validade
+Tab.Column=Coluna
+Tab.Index=Índice
+Tab.ForeignKey=Chave Estrangeira
+Tab.Schema=Esquema
+Tab.Tables=Tabelas
+Tab.General=Geral
+Tab.Datatypes=Tipos de Dados
+Tab.Records=Registros
+Tab.CtualDomain=Domínio Conceitual
+Tab.Records=Registros
+Tab.File=Arquivo
+Tab.Field=Campo
+Tab.BusinessTermItemView.General=Geral
+Tab.BusinessTermItemView.Properties=Detalhes
+Tab.BusinessTermItemView.History=Histórico
+
+#################### GlossaryItemView ObjectContent#######################################
+GlossaryItemView.BusinessTermType=Tipo de Termo de Negócio
+GlossaryItemView.List.ContainedTerms=Termos Contidos
+GlossaryItemView.PolicyType=Tipo Política
+GlossaryItemView.StandardType=Tipo Padrão
+GlossaryItemView.ProcessType=Tipo Processo
+GlossaryItemView.CDEType=Tipo CDE
+GlossaryItemView.BusinessRuleType=tipo Regra de Negócio
+GlossaryItemView.OtherType=Outro tipo
+GlossaryItemView.PIType=Tipo Informação Pessoal
+GlossaryItemView.PIStructureType=Tipo de Estrutura PI (Informações Pessoais)
+GlossaryItemView.PIAType=Tipo Avaliação de Impacto de Privacidade
+#GlossaryContext.alreadyExist={0}com o nome já existe. {1}
+#GlossaryContext.emptyName=Nome não pode ser vazio.
+#GlossaryContext.longName=Nome não pode conter mais de 430 caracteres.
+Attribute.RBG/BUSINESS-TERM-TYPE=Termo de Negócio
+Attribute.BPK_POLICY_TYPE=Política
+Attribute.BPK_BUSINESS_RULE_TYPE=Regra de Negócio
+Attribute.BPK_CDE_TYPE=CDE
+Attribute.BPK_PROCESS_TYPE=Processo
+Attribute.BPK_STANDARD_TYPE=Padrão
+Attribute.BPK_OTHER_TYPE=Outro
+Attribute.GDP_PI_TYPE=Informação Pessoal
+Attribute.GDP_PI_STRUCTURE_TYPE=Estrutura PI (Informações Pessoais)
+Attribute.GDP_PIA_TYPE=Avaliação de Impacto de Privacidade
+BTTypePropertyView.EmptyTypeLabelOfGlAndCntxView=Use o {0} tipo de glossário ou contexto pai
+BTTypePropertyView.NotAssigned=Não atribuído
+
+#################### ContextItemView ObjectContent#######################################
+ContextItemView.BusinessTermType=Tipo de Termo
+ContextItemView.List.ReferencedAsViewer=Referenciado como Visualizador
+ContextItemView.List.ReferencedAsContributor=Referenciado como Contribuidor
+ContextItemView.List.GovernedTerms=Termos de Negócio Governados
+ContextItemView.info.text.subcontextpopup=Não existem subcontextos.
+
+#################### BusinessTermItemView ObjectContent#######################################
+BusinessTermItemView.List.GoverningAssociatedContexts=Usado por outros contextos
+BusinessTermItemView.List.Alternatives=Alternativos
+BusinessTermItemView.List.RelatedCriticalDataElements=Elementos de Dados Críticos Relacionados
+BusinessTermItemView.PropertiesTab.Glossary=Glossário:
+BusinessTermItemView.PropertiesTab.InProcessBy=Em Processo por:
+BusinessTermItemView.PropertiesTab.LastApprover=Último Aprovador:
+BusinessTermItemView.CompareTermsTab.CompareTerms=Comparar Duplicidades dos termos:
+BusinessTermItemView.CompareTermsTab.Loading=Carregando...
+BusinessTermItemView.CompareTermsTab.Context=Contexto:
+BusinessTermItemView.CompareTermsTab.OpenTerm=...clicar aqui para abrir o termo
+BusinessTermItemView.acronym.duplicatelinksnotallowed=Não são permitidas abreviaturas duplicadas.
+BusinessTermItemView.acronym.alreadyinset=Não é possível - abreviatura já está em uso em outro processo de aprovação (Termo {0}).
+
+BusinessTermItemView.acronym.error.rename=Erro ao renomear a abreviatura: {0}
+BusinessTermItemView.acronym.rename.Language.Exception=Conjunto do nome no idioma {0} não é possível: {1}
+BusinessTermItemView.acronym.Warning.Icon.Tooltip=Idioma padrão ({0}) não deve estar vazio. Prosseguir sem um idioma padrão irá descartar as outras abreviaturas.
+
+
+####
+label.hasContexts=Possui Contextos:
+
+label.translatedNames=Nome Traduzido:
+
+#----------------------------------------------------------------------
+#History Record
+#----------------------------------------------------------------------
+DialogHistoryRecord.overview=Resumo
+DialogHistoryRecord.comment=Comentário:
+DialogHistoryRecord.author=Autor:
+DialogHistoryRecord.date=Data:
+DialogHistoryRecord.attributedetails=Detalhes do Atributo
+DialogHistoryRecord.attributes=Atributos Modificados:
+DialogHistoryRecord.changes=Mudanças:
+DialogHistoryRecord.oldvalue=Valor Anterior:
+DialogHistoryRecord.newvalue=Novo Valor:
+DialogHistoryRecord.differences=Diferenças:
+DialogHistoryRecord.title.history=Registro histórico para
+DialogHistoryRecord.tooltip.history=Registro histórico para
+DialogHistoryRecord.tooltip.Comparison=Comparação para
+DialogHistoryRecord.openitem.failure=Não é possível abrir o item especificado no editor ( {0}{1} )
+DialogHistoryRecord.mode=Modo
+DialogHistoryRecord.type=Tipo
+DialogHistoryRecord.name=Nome
+
+
+mg_Dialog.context.approvergroup=Grupo aprovador:
+
+#----------------------------------------------------------------------
+#Dialog User (UserDialog.zul)
+#----------------------------------------------------------------------
+bg_DialogUser.msg.quest.emailfailed1=O e-mail não está bem formado (
+bg_DialogUser.msg.quest.emailfailed2=).
+bg_DialogUser.msg.title.emailfailed=Informações
+
+#----------------------------------------------------------------------
+#Attributes
+#----------------------------------------------------------------------
+Attributes.DEFINITION=Definição
+Attributes.RBG/ASSIGNED-GROUPS=Grupos Assinalados
+Attributes.RBG/ATT-CHANGES=Atributos modificados:
+Attributes.RBG/ATTRIBUTE-NAME=Nome do Atributo
+Attributes.RBG/BUSINESS-TERM-TYPE=Tipo de Termo
+Attributes.RBG/CALCULATED-FROM=Calculado de
+Attributes.RBG/CALCULATED-FROM.desc=Calculado a partir de Itens
+Attributes.RBG/CHANGE-COMMENT=Comentário modificado
+Attributes.RBG/DESCRIPTION=Descrição
+Attributes.RBG/DESIGNATED-AS=Abreviatura
+Attributes.RBG/DESIGNATION=Abreviatura
+Attributes.RBG/DOCUMENT-TITLE=Título do Documento
+Attributes.RBG/E-MAIL=e-mail
+Attributes.RBG/FILE-COPY=Cópia do Arquivo
+Attributes.RBG/FILE-TYPE=Tipo de Arquivo
+Attributes.RBG/HAS-CONTEXT=Possui Contexto
+Attributes.RBG/HAS-BUSINESS-TERM=Refere-se a itens de comerciais
+Attributes.RBG/HAS-DESIGNATION=Abreviatura
+Attributes.RBG/HAS-DOCUMENTATION=Possui Documentação
+Attributes.RBG/HAS-GLOSSARIES=Possui Glossários
+Attributes.RBG/HISTORY=Histórico
+Attributes.RBG/MODIFICATION-DATE=Data de Modificação
+Attributes.RBG/MODIFIER=Modificadores
+Attributes.RBG/NAME=Nome
+Attributes.RBG/NEW-CONTENT=Novo Conteúdo
+Attributes.RBG/OLD-CONTENT=Conteúdo Antigo
+Attributes.RBG/PRIVILEGES=Privilégios
+Attributes.RBG/REFERENCES=Fornece definição para
+Attributes.RBG/CTX-REFERENCE=Referências
+Attributes.RBG/BELONGS-TO-CONTEXT=Pertence ao Contexto
+Attributes.RBG/REFERS-TO=Documentos externos
+Attributes.RBG/RELATES-TO=Refere-se a
+Attributes.RBG/RELATES-TO.desc=Referências dos Itens de Negócio que estão relacionados a este Item de Negócio.
+Attributes.RBG/SPECIALIZES=Especializar
+Attributes.RBG/SPECIALIZES.desc=Usado para a relação
+Attributes.RBG/SYNONYM-FOR=Sinônimo de
+Attributes.RBG/SYNONYM-FOR.desc=Referências aos termos que são usados como sinônimo para este termo de negócio.
+Attributes.RBG/HOMONYM-FOR=Homônimo para
+Attributes.RBG/HOMONYM-FOR.desc=Referências aos termos que são usados como homônimo por este termo de negócio.
+Attributes.RBG/URL=Url
+Attributes.RBG/USERS=Usuários
+Attributes.DESCRIPTION=Descrição
+Attributes.RBG/STATE-CONF=Configuração
+Attributes.RBG/CALCULATED-FROM.reverse=Usado no cálculo de
+Attributes.RBG/SYNONYM-FOR.reverse=Sinônimo de
+Attributes.RBG/HOMONYM-FOR.reverse=Homônimo de
+Attributes.RBG/RELATES-TO.reverse=Está relacionada com a
+Attributes.RBG/SPECIALIZES.reverse=Especializada por
+
+#-------------------------------------------------------
+# Linked technical data 
+#-------------------------------------------------------
+labelCatalogContentSearchFilter=Filtro de pesquisa do conteúdo do Catálogo
+labelButtonInitFilter=Initializa
+labelQualVERIFIED=Verificado
+labelQualSCANNED=Examinado
+labelQualIMPORTED=Importado do catálogo
+labelQualIMPORTED_FROM=Importado de {0}
+
+btnLabelIgnore=Ignorar
+btnLabelRegard=Em Respeito a
+btnLabelVerify=Verificação
+btnLabelUnverify=Desfaz Verificação

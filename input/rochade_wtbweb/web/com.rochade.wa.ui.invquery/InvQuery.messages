@@ -1,0 +1,35 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.wa.ui.InvQuery
+#
+### Icons: all images should be inside of dir /com.rochade.wa.ui.invquery/ + img/, see plugin.xml
+
+#extra icons
+InvQuery.img.wizard=/com.rochade.wa.ui.invquery/img/WizardDefault.gif
+### END Icons
+
+InvQuery.title=Inventory
+InvQuery.select=Adjust the settings for the inventory query.
+InvQuery.list=Available Queries
+InvQuery.runSettings=Run settings:
+InvQuery.property=Property
+InvQuery.value=Value
+InvQuery.preserve=Preserve settings
+InvQuery.runButton=Run
+InvQuery.cancelButton=Cancel 
+InvQuery.invquery=Inventory
+
+# Tooltips
+
+InvQuery.altS=Run Settings (Alt-S)
+InvQuery.altP=Preserve settings (Alt-P)
+InvQuery.altL=Limit the query result (Alt-L)
+InvQuery.enter=Run query (Alt-R, <enter>)
+InvQuery.esc=Cancel (<esc>)

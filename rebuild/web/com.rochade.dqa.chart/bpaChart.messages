@@ -1,0 +1,29 @@
+﻿#-------------------------------------------------------
+# Rochade Data Quality - Message file
+# This is an UTF-8 endcoded file!
+#
+#  Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+dq.trend_chart.cfg.biz_app=Select Component:
+dq.trend_chart.cfg.cde=Select Critical Data Element:
+dq.trend_chart.cfg.pde=Select Physical Data Element:
+dq.trend_chart.cfg.db=Select Database:
+dq.trend_chart.cfg.schema=Select Schema:
+dq.trend_chart.cfg.measure=Select DQ measure:
+dq.trend_chart.cfg.start_date=Period from:
+dq.trend_chart.cfg.end_date=to:
+dq.trend_chart.cfg.scale=Select scale:
+dq.trend_chart.cfg.charttype=Place chart on:
+dq.trend_chart.cfg.week=Week
+dq.trend_chart.cfg.month=Month
+dq.trend_chart.cfg.quarter=Quarter
+dq.trend_chart.cfg.year=Year
+dq.trend_chart.cfg.ok=OK
+dq.trend_chart.cfg.cancel=Cancel
+dq.trend_chart.cfg.title=DQ Trend Chart
+dq.trend_chart.cfg.title_chart=DQ Trend Chart for {1} {0}
+dq.trend_chart.cfg.select_all=Select all
+dq.trend_chart.x_axis=Time
+dq.trend_chart.y_axis=Passed %
+dq.trend_chart.no_results=No results available

@@ -1,0 +1,56 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#
+#-------------------------------------------------------
+
+#------------------------------ Report Definition (RoBrowser) ------------------------------ 
+### Icons: all images should be inside of dir /com.rochade.sti.report/ + img/, see plugin.xml
+
+#### ------------------- ONLY report menus and reports ---------------
+STI.lbl=Conexão Manual
+STI.tip=Relatórios de Conexão Manual
+
+STI_rs.lbl=Conexões Manuais Redundantes
+STI_rs.tip=Relatório de Conexões Manuais Redundantes
+
+RedundantStitches.lbl=Conexões Manuais Redundantes
+RedundantStitches.tip=Relatório de Conexões Manuais Redundantes
+
+#### ------------------- displays ---------------
+displRedundantStitchesTitle=Conexões Manuais Redundantes
+displNumberOfStitches=Número de Conexões Manuais
+sourceOfStitch=Origem da Conexão Manual
+targetOfStitch=Destino da Conexão Manual
+
+#### ------------------- in-report strings -------
+STI_report.StitchingContainerDetails=Detalhes do Sistema de Conexão Manual
+STI_report.StitchingContainer=Sistema de Conexão Manual:
+STI_report.SourceContext=Contexto de Origem:
+STI_report.TargetContext=Contexto de Destino:
+STI_report.LastExecutedOn=Última execução em:
+STI_report.NumberOfStitches=Número de Conexões Manuais:
+STI_report.NumberOfRedundantStitches=Número de conexões manuais redundantes:
+STI_report.RedundantStitchesList=Lista de Conexões Manuais Redundantes
+STI_report.CorrespondingTransformationsList=Mapas de Dados Correspondentes
+STI_report.RedundantStitchesDetails=Detalhes de Conexões Manuais Redundantes
+#### ------------ Table Headers -------------
+STI_report.Number=Nr
+STI_report.Source=Origem {0}
+STI_report.Target=Destino {0}
+STI_report.Instruction=Instrução
+STI_report.lblQualifiedPathName=Nome de Caminho Qualificado
+STI_report.lblMapName=Nome do Mapa
+STI_report.lblMapType=Tipo do Mapa
+STI_report.Container=Sistema de Conexão Manual
+STI_report.Structure=Estrutura de Conexão Manual
+STI_report.Field=Elemento de Conexão Manual
+#### ------------- Exceptions -------------
+STI_CantGetReportForContainer=Não é possível criar relatório para a Conexão Manual {0}
+STI_SElectSingleReport=Por favor, selecione uma Conexão Manual para obter o relatório
+STI_ContainerHasNoRedundantStitches.title=Relatório de Conexões Manuais Redundantes
+STI_ContainerHasNoRedundantStitches.message=Sistema de Conexão Manual {0} não contém conexões manuais redundantes
+STI_ContainerWasModifiedAfterExecution=Conexão Manual {0} foi modificada após a última execução. Por favor, execute-a novamente para ter certeza que o relatório é válido. 

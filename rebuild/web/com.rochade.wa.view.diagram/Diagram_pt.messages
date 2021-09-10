@@ -1,0 +1,24 @@
+﻿#-------------------------------------------------------
+# Rochade WTB - Message file
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+### Icons: all images should be inside of dir /com.rochade.dwr.cellrenderer/ + img/, see plugin.xml
+### END Icons
+
+Diagram.renderernotcreate=Não é possível criar uma instância de renderização de diagrama de classe {0}. Verifique 'diagram.renderer' no arquivo startup.properties.
+Diagram.generatornotcreate=Não é possível criar a instância do gerador de diagrama de classe {0}.
+Diagram.noimage=Erro ao gerar a imagem.  Veja o console de saída para detalhes.
+Diagram.noimgrend=Nenhum processador de imagem configurado.  Não foi possível criar o diagrama.  Confira 'diagram.graphviz' no arquivo startup.properties.
+Diagram.rendererr=Um erro inesperado ocorreu durante o processamento.  Veja o console de saída para detalhes.
+Diagram.graphvizexcept=Graphviz não pôde ser iniciado em virtude do seguinte motivo: \n{0}.\nPor favor, peça ao administrador para verificar a configuração.\nNota: Em caso de problemas de segurança, considere acessar o Graphviz via RPC.
+Diagram.graphvizerror=Erro Graphviz:{0}
+Diagram.graphviznotconf=Graphviz não configurado.  Confira "diagram.graphviz" em startup.properties.
+Diagram.graphvizlimited=Muitos nós e bordas.  Por motivos de desempenho, o resultado foi reduzido e o diagrama é incompleto.
+Diagram.graphviznoctrlarea=Não é possível criar diagrama por RPC pois a Subject Area de controle não está disponível.
+Diagram.noseeds=Deve existir exatamente um item de raiz no modelo.
+Diagram.isempty=Diagrama está vazio, nenhum item é exibido.
+Diagram.notconfigured=Graphviz não está configurado.

@@ -1,0 +1,28 @@
+﻿# Issue Management messages
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+metapp.im.title=Gestión de Problemas
+# official product title (not to be translated)
+metapp.im.productTitle=ASG-Enterprise Data Intelligence™ Issue Management
+
+Querygroup.titleIM=Gestión de Problemas
+Querygroup.titleIM.tip=Gestión de Problemas
+
+
+IM_InWork.lbl=Borrador
+IM_InWork.tip=Borrador
+IM_MyIssues.lbl=Mis Problemas
+IM_MyIssues.tip=Mis Problemas
+IM_MyIssueNotifications.tip=Mi lista de Notificaciones de Problemas
+IM_MyIssueNotifications.lbl=Mis Notificaciones
+IM_TaskReports.lbl=Reportes de Problemas
+IM_TaskReports.tip=Reportes de Problemas
+IM_OpenIssues.lbl=Problemas abiertos
+IM_OpenIssues.tip=Problemas abiertos
+IM_ResolvedIssues.lbl=Problemas resueltos
+IM_ResolvedIssues.tip=Problemas resueltos
+IM_AdvancedIssueSearch.lbl=Búsqueda avanzada de problemas
+IM_AdvancedIssueSearch.tip=Búsqueda avanzada de problemas

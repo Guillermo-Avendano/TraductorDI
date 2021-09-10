@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="Item Diagram" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<!--
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+-->
+<!--  please no height= here, embedding diagram problem -->
+<!--  sclass below is changed in code, when diagram is switched to fullscreen mode. see com.rochade.wa.action.WindowMinimizeMaximizeAction -->
+<window sclass="asg-diagram-window" apply="com.rochade.wa.ui.itemdiagram.ItemDiagramComposer"
+	contentStyle="" >
+
+	<script type="text/javascript"><![CDATA[
+       		zk.afterLoad("zul.menu", function () {
+       			var _Mppwgt = {};
+       			zk.override(zul.menu.Menupopup.prototype, _Mppwgt, {
+       				open: function (ref, offset, position, opts) {
+       					if (!this._alreadyOpenOnce) {
+       						storeOpenInfo(this, ref, offset, position, opts);
+       					}
+       					_Mppwgt.open.apply(this, arguments);
+       					fixPopupOffset(this);
+       				},
+       				close: function () {
+       					_Mppwgt.close.apply(this, arguments); //call the original method
+       					// clear the 'startToLeft' flag
+       					clearFixPopupOffset(this);
+       				},
+       				onChildAdded_: function (child) {
+       					_Mppwgt.onChildAdded_.apply(this, arguments);
+       					fixOpenPosition(this);
+       				}
+       			});
+       			function fixPopupOffset (wgt) {
+       				// find the closest parent menupopup
+       				var p = findParentPopup(wgt);
+       				if (p) {
+       					// check whether overlapped or is start to extends to left side
+       					if (isOverlap(wgt, p) || p.startToLeft) {
+       						var n = wgt.$n();
+       						wgt.startToLeft = true;
+       						// fix the offset position
+       						n.style.left = (jq(p.$n()).offset().left - jq(n).outerWidth(true) + 3) + 'px';
+       					}
+       				}
+       			}
+       			function clearFixPopupOffset (wgt) {
+       				wgt.startToLeft = null;
+       			}
+       			function storeOpenInfo (wgt, ref, offset, position, opts) {
+       				// store the arguments while first open
+       				var oldOpenArgs = [];
+       				oldOpenArgs.push(ref);
+       				oldOpenArgs.push(offset);
+       				oldOpenArgs.push(position);
+       				oldOpenArgs.push(opts);
+       				wgt._oldOpenArgs = oldOpenArgs;
+       				wgt._needReopenOnce = true;
+       				wgt._alreadyOpenOnce = true;
+       			}
+       			function fixOpenPosition (wgt) {
+       				var timer,
+       					args;
+       				// reopen as need
+       				if (wgt.isOpen()
+       					&& wgt._needReopenOnce
+       					&& (args = wgt._oldOpenArgs)) {
+       					timer = wgt._reopenTimer;
+       					if (timer)  // clear old timer if add more than one child
+       						clearTimeout(timer);
+       					wgt._reopenTimer = timer = setTimeout(function () {
+       						wgt.close();
+       						wgt.open.apply(wgt, args);
+       						clearTimeout(timer);
+       						// clear all parameters
+       						wgt._needReopenOnce = wgt._oldOpenArgs = wgt._reopenTimer = null;
+       					}, 100);
+       				}
+       			}
+       			function findParentPopup(pp) {
+       				var p = pp.parent;
+       				while(p && !p.$instanceof(zul.menu.Menupopup))
+       					p = p.parent;
+       				return p;
+       			}
+       			function isOverlap (child, parent) {
+       				var $nc = jq(child.$n()),
+       					$np = jq(parent.$n());
+       				return ($nc.offset().left - $np.offset().left - $np.outerWidth(true)) < -10;
+       			}
+       		});
+	    ]]>
+	</script>
+
+	<borderlayout id="layoutContainer" sclass="asg-borderlayout-diagram">
+	<north id="headerContainer" border="none">
+   	<div id="header" >
+		<div   id="headerTitle" width="100%"/>
+	   	<label id="headerInfo"  width="100%"/>
+   	</div>
+   	</north>
+
+	<center id="diagramContainer" border="none">
+	<div vflex="1">
+	    <div id="itemDiagram" vflex="1" sclass="asg-diagram"
+		       	use="com.rochade.wa.view.diagram.WABaseDiagram"
+		      	viewMenu="${wtb:getArg('viewMenu')}"
+				tableShape="${wtb:getArg('tableShape')}"
+		      	contextMenu="${wtb:getArg('contextMenu')}"
+		      	popupMenu="${wtb:getArg('popupMenu')}"
+		      	multiple="true"
+		      	generator="${wtb:getArg('generator')}"
+		      	renderingparam="${wtb:getArg('renderingparam')}"
+		      	selectionQuery="${wtb:getArg('selectionQuery')}"
+		      	componentname="${wtb:getArg('componentname')}"
+				defaultActionTriggeredOnDoubleClick="true"
+				defaultActionTriggeredOnSingleClick="false"
+				defaultActionTriggeredOnEnter="false">
+	    </div>
+	    <hbox width="100%" pack="end" style="background-color: ${wtb:l('asg-atlantic-light-gray')};">
+	  		<label id="lblFooter" style="color:red"/>
+	    </hbox>
+    </div>
+    </center>
+	
+	<south id="legendContainer" height="30px" border="none" splittable="true" collapsible="true" slidable="false">
+		<div vflex="1">
+			<div style="background-color: ${wtb:l('asg-atlantic-light-gray')};" sclass="asg-diagram-legend-head" height="30px">
+				<button id="btnToggleLegend" label="${wtb:l('ItemDiagram.toggleLegend')}" />
+				<label id="lblLegend" sclass="asg-label-section" value="${wtb:l('ItemDiagram.legend')}" />
+			</div>
+	    	<div id="legend" sclass="asg-diagram" vflex="1" style="overflow:auto">
+	<!-- 			<hbox width="100%" pack="end"> -->
+	<!-- 				<button id="btnOpenLegend" -->
+	<!-- 					label="${wtb:l('ItemDiagram.openLegend')}" -->
+	<!-- 					image="${wtb:getImg('ItemDiagram.img.openLegend')}" /> -->
+	<!-- 				<button id="btnCloseLegend" -->
+	<!-- 					label="${wtb:l('ItemDiagram.closeLegend')}" -->
+	<!-- 					image="${wtb:getImg('ItemDiagram.img.closeLegend')}" -->
+	<!-- 					visible="false"/> -->
+	<!-- 			</hbox> -->
+	    	</div>
+	    </div>
+    </south>
+    </borderlayout>
+</window>
+

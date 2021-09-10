@@ -1,0 +1,34 @@
+﻿#-------------------------------------------------------
+# metaGlossary - Message file
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+ContextActionGroup.addContributorCtx=Add Contributor Context
+ContextActionGroup.addContributorCtx.permission.failed=Add Contributor Context not possible - Permission failed
+ContextActionGroup.addContributorCtx.dialog.title=Add Contributor Context
+ContextActionGroup.addContributorCtx.dialog.msg.noAppr=Add contributor context. This operation does not require approval but requires Administration rights on target context.
+ContextActionGroup.addContributorCtx.dialog.msg.appr=Add contributor context. This operation requires approval.
+ContextActionGroup.removeContributorCtx=Remove Contributor Context
+ContextActionGroup.removeContributorCtx.permission.failed=Remove Contributor Context not possible - Permission failed
+ContextActionGroup.removeContributorCtx.dialog.title=Remove Contributor Context
+ContextActionGroup.removeContributorCtx.dialog.msg.noAppr=Remove contributor context. This operation does not require approval.
+ContextActionGroup.removeContributorCtx.dialog.msg.appr=Remove contributor context. This operation requires approval.
+ContextActionGroup.contributorAction.disabled.forDevItem=Changing contributor contexts is not possible for terms in process.
+ContextActionGroup.contributorAction.disabled.itemInDevExists=Changing contributor contexts is not possible because this term has a version in process.
+ContextActionGroup.addViewerCtx=Add Viewer Context
+ContextActionGroup.addViewerCtx.permission.failed=Add Viewer Context not possible - Permission failed
+ContextActionGroup.addViewerCtx.dialog.title=Add Viewer Context
+ContextActionGroup.addViewerCtx.dialog.msg=The business item will be added to the view of the selected context (requires Administration rights on target context).
+ContextActionGroup.removeViewerCtx=Remove Viewer Context
+ContextActionGroup.removeViewerCtx.permission.failed=Remove Viewer Context not possible - Permission failed
+ContextActionGroup.removeViewerCtx.dialog.title=Remove Viewer Context
+ContextActionGroup.removeViewerCtx.dialog.msg=The business item will be removed from the selected context.
+
+ContextActionGroup.req.submitted=Your request has been submitted.
+ContextActionGroup.addgovernedTerms=Add Contributed Terms
+ContextActionGroup.removegovernedTerms=Remove Contributed Terms
+
+ContextActionGroup.noContext=There are no contexts to select.

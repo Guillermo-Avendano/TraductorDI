@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page id="start" title="WebAccess" contentType="text/html;charset=UTF-8"?>
+<!-- 
+ @author SB 26/01/2016, created
+ Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.  
+-->
+<editormenu sclass="rochade-mdm-editor-editormenu-mdm-column">
+	<menubar style="background:none; border:none; ">
+		<menuitem actionId="MDM_CreateDCFromBTMenu" visibleCondition="RefCreateDCFromBT" />
+	</menubar>
+</editormenu>

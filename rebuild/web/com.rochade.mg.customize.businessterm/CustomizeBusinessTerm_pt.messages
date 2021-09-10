@@ -1,0 +1,125 @@
+﻿#-------------------------------------------------------
+# metaGlossary - Message file
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#
+#-------------------------------------------------------
+
+MG.version=3.0
+
+#
+# package: com.rochade.mg.useradministration
+#
+
+### Icons: all images should be inside of dir /com.rochade.mg.useradministration/ + img/, see plugin.xml
+
+#extra icons
+### END Icons
+
+mg.customize.model.tabtitle=Administração de Itens de Negócio
+
+mg.customize.model.caption.label=Tipo de Informação
+mg.customize.model.caption.label.create.type=Criar Subtipo de Tipo
+mg.customize.model.caption.label.edit.type=Editar Tipo
+mg.customize.model.caption.label.create.attribute=Criar Atributo para Tipo:
+mg.customize.model.caption.label.edit.attribute=Informação do Atributo
+mg.customize.model.caption.create.type=Tipo de Informação
+mg.customize.model.caption.label.addexist.attribute=Adicionar Tipo de Atributo
+
+mg.customize.addtype.alreadyexist.msg=Tipo {0} já existe. Você deseja adicionar o tipo existente?
+mg.customize.addtype.alreadyexistandassigned.msg=Tipo {0} já existe e é atribuído.
+mg.customize.addtype.alreadyexist.title=Tipo {0} já existe.
+mg.customize.addtype.notpossible.supertype=Tipo {0} já existe. Não é possível continuar porque o supertipo selecionado não está atribuído ao tipo.
+
+mg.customize.addattribute.alreadyexist.msg=Atributo {0} já existe. Você deseja adicionar o atributo existente?
+mg.customize.addattribute.alreadyexistandassigned.msg=Atributo {0} já existe e é atribuído ao tipo {1}.
+mg.customize.addattribute.alreadyexist.title=Atributo {0} já existe.
+
+mg.customize.attribute.businessname.title=Editar a Exibição de Nomes de Atributos:
+mg.customize.type.businessname.title=Editar a Exibição de Nomes de Tipos:
+
+
+mg.customize.model.label.businessname=Exibição de Nome
+mg.customize.model.label.businessname.defaultLanguage=Idioma Padrão ({0}):
+
+mg.customize.model.caption.create.attribute=Criar Atributo
+mg.customize.model.type.name=Nome:
+mg.customize.model.type.shortDesc=Definição:
+mg.customize.model.attribute.name=Nome:
+mg.customize.model.attribute.shortDesc=Definição:
+mg.customize.model.attribute.ml=Multi Idioma:
+mg.customize.model.button.add=Adicionar
+mg.customize.model.button.save=Salvar
+mg.customize.model.button.cancel=Cancelar
+
+mg.customize.model.caption.addexist.attribute=Adicionar Atributo Existente
+mg.customize.model.attribute.searchfor=Pesquisar por atributo:
+mg.customize.model.attribute.button.search=Pesquisar
+
+
+mg.customize.label.menuitem.action=Ações
+mg.customize.label.menuitem.edit=Editar
+mg.customize.label.menuitem.edit.businessname=Editar Exibição de Nomes
+mg.customize.label.menuitem.detach=Desanexar
+mg.customize.label.menuitem.addattribute=Criar Atributo
+mg.customize.label.menuitem.addExistattribute=Adicionar Atributo Existente
+mg.customize.label.menuitem.addnewterm=Criar Tipo
+#Add New Term Type that Inherits From
+mg.customize.label.menuitem.addnewterm.menulabel=Herdado de:
+mg.customize.label.menuitem.mainAddExisting=Adicionar Tipo Existente
+mg.customize.label.menuitem.mainRefresh=Atualizar
+mg.customize.label.menuitem.mainGen=Gerar
+
+mg.customize.label.grid.head.itemtype=Tipo
+mg.customize.label.grid.head.type=Tipo
+mg.customize.label.grid.head.name=Nome
+mg.customize.label.grid.head.definition=Definição
+mg.customize.label.grid.head.multilanguage=ML
+mg.customize.label.grid.head.multilanguage.value.true=Sim
+mg.customize.label.grid.head.multilanguage.value.false=Não
+mg.customize.label.grid.head.supertype=Supertipo
+
+mg.customize.label.detachnotpossibleinuse1=Não é possível desanexar. O tipo em uso.
+mg.customize.label.detachnotpossibleinuse2=Não é possível desanexar. O tipo em uso.  Número de itens: {0}
+mg.customize.label.detachnotpossiblesubtypeassigned=Não é possível desanexar. O tipo tem subtipos: {0}
+
+mg.customize.info.generate.success=Geração finalizada com sucesso.\nNota: As mudanças terão efeito no próximo login.
+
+mg.customize.error.msg.loadadminnotpossible=A administração dos Itens não pode ser carregada.
+mg.customize.error.msg.assignnotpossiblesupertype=Não é possível atribuir. O supertipo não é atribuído ({0}).
+mg.customize.error.lockrim=O modelo não pode ser bloqueado para geração.
+mg.customize.error.addexistingterm=O tipo existente não pode ser adicionado.
+mg.customize.error.reorg.sa=A Subject Area não pode ser reorganizada.
+mg.customize.error.gen.rim=O modelo não pode ser gerado.
+mg.customize.error.detach.type=O tipo não pode ser desanexado do modelo.
+mg.customize.error.detach.attribute=O atributo não pode ser desanexado do tipo.
+
+mg.customize.error.addexistattr.noselection=Nenhum atributo selecionado.
+mg.customize.error.createtype=Tipo não pode ser criado.
+mg.customize.error.addtype=Tipo não pode ser adicionado.
+mg.customize.error.changetype=Alterações do tipo não podem ser salvas.
+mg.customize.error.createattribute=Atributo não pode ser criado.
+mg.customize.error.addattribute=Atributo não pode ser adicionado.
+mg.customize.error.changeattribute=Alterações de atributo não puderam ser salvas.
+
+mg.customize.model.caption.businessnames=Exibir Nomes
+
+#mg.customice.generate.question.before.text=A geração pode levar algum tempo. Uma vez concluído, você será questionado se deseja refazer o processo de conexão para que as alterações entrem em vigor.\n\nVocê deseja prosseguir?
+mg.customice.generate.question.before.text=Esta geração pode levar algum tempo. Por favor, feche todas as janelas abertas. Depois, as mudanças entrarão em vigor imediatamente.\n\nVocê deseja prosseguir?
+mg.customice.generate.question.before.title=Gerar
+
+mg.customice.generate.question.enforce.text=Esta operação requer acesso exclusivo aos dados metaGlossary. Todas as outras sessões atualmente acessando os dados serão fechadas.\nAntes de continuar, informe outros usuários para fazerem logoff forçada ou clique em Cancelar para adiar a operação.
+mg.customice.generate.question.enforce.title=Acesso Exclusivo Obrigatório
+
+mg.customice.generate.message.after.text=A geração foi concluída com sucesso.\nVocê deve se logar novamente para que as mudanças entrem em vigor.\n\nVocê deseja sair agora?
+mg.customice.generate.message.after.title=Geração Bem Sucedida
+
+mg.customize.detachattr.confirmation.title=Desanexando atributo ...
+# you may use {0} placeholder for attribute and {1} for type
+mg.customize.detachattr.confirmation.message=Você tem certeza de desanexar o atributo selecionado?
+
+mg.customize.detachtype.confirmation.title=Desanexando tipo de item ...
+# you may use {0} for type
+mg.customize.detachtype.confirmation.message=Você ter certeza de desanexar o tipo de item selecionado?

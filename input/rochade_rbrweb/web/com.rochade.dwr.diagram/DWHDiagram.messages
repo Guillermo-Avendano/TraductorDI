@@ -1,0 +1,85 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#------------------------------ Action Definition ------------------------------ 
+### Icons: all images should be inside of dir /com.rochade.dwr.diagram/ + img/, see plugin.xml
+DWR_TransformationSystemDepth.img=
+#DWR_TransformationLevel.img=
+DWR_Diagram_Options.img=OA13M-showIn.gif
+DWR_ShowHighlightedOption.img=
+DWR_ShowRoutesOption.img=
+DWR_ShowLookupsBGOption.img=
+DWR_ShowLookupsFGOption.img=
+DWR_ShowMapDetailsMapsOption.img=
+DWR_ShowMapDetailsTfmOption.img=
+DWR_ShowMapDetailsTfmiOption.img=
+DWR_ShowMapDetailsStiOption.img=
+
+#extra icons
+### END Icons
+
+DWR_TransformationSystemDepth.lbl=Depth of Transformation system diagram
+DWR_TransformationSystemDepth.tip=Depth of Transformation system diagram
+#DWR_TransformationLevel.lbl=Levels of Transformation diagram
+#DWR_TransformationLevel.tip=Levels of Transformation diagram
+
+#------------------------------ non Action Definition ------------------------------ 
+DWHDiagram.isLeaf=Automated lineage paused here. Use drill down to continue.
+
+Diagram_Direction.lbl=Top to Bottom
+Diagram_Direction.tip=Graph Direction
+Diagram_Direction.img=
+Diagram_Direction_TB.lbl=Top to Bottom
+Diagram_Direction_TB.tip=Top to Bottom
+Diagram_Direction_TB.img=
+Diagram_Direction_LR.lbl=Left to Right
+Diagram_Direction_LR.tip=Left to Right
+Diagram_Direction_LR.img=
+Diagram_Direction_BT.lbl=Bottom to Top
+Diagram_Direction_BT.tip=Bottom to Top
+Diagram_Direction_BT.img=
+Diagram_Direction_RL.lbl=Right to Left
+Diagram_Direction_RL.tip=Right to Left
+Diagram_Direction_RL.img=
+
+gdpPIShort_PERSONAL=PI
+gdpPIShort_PERSONAL.tip=Contains personal information.
+
+BL_Unknown_Application=[Unknown Application]
+BL_Unknown_BusinessName=[Unknown Business Name]
+BL_Unknown_TfmName=Transformation
+BL_Unknown_ReportName=[Unknown Report]
+
+DWR_DisplayBLBasis.lbl=Lineage Level Information
+DWR_DisplayBLBasis.tip=Display Lineage Level Information
+DWR_DisplayBLBasis.noInfoFound=No lineage level information found
+
+DWR_DisplayBLBasis.header=Lineage Level Information for {0} {1}
+DWR_DisplayBLBasis.column1=Technical Level
+DWR_DisplayBLBasis.column2=Business Level
+DWR_DisplayBLBasis.column3=Application Level
+
+DWR_Diagram_Options.lbl=Display
+DWR_Diagram_Options.tip=Display Options
+DWR_ShowHighlightedOption.lbl=Highlighted only
+DWR_ShowHighlightedOption.tip=Highlighted only
+DWR_ShowRoutesOption.lbl=Routes
+DWR_ShowRoutesOption.tip=Routes
+DWR_ShowLookupsBGOption.lbl=Lookups in Background
+DWR_ShowLookupsBGOption.tip=Lookups in Background
+DWR_ShowLookupsFGOption.lbl=Lookups in Foreground
+DWR_ShowLookupsFGOption.tip=Lookups in Foreground
+DWR_ShowMapDetailsMapsOption.lbl=Map Details
+DWR_ShowMapDetailsMapsOption.tip=Map Details
+DWR_ShowMapDetailsTfmOption.lbl=All Transformations
+DWR_ShowMapDetailsTfmOption.tip=All Transformations
+DWR_ShowMapDetailsTfmiOption.lbl=Tfm with Instructions only
+DWR_ShowMapDetailsTfmiOption.tip=Transformations with Instructions only
+DWR_ShowMapDetailsStiOption.lbl=Stitching Details
+DWR_ShowMapDetailsStiOption.tip=Stitching Details
+

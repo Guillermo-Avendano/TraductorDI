@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="DWR View" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<!-- 
+	@author  GC 10/10/2011, created
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+<div use="com.rochade.wa.ui.view.BaseObjectView" sclass="asg-tab-content-div">
+	<grid style="border: 0px; padding: 10px; background: #FFFFFF;">
+		<rows id="topGrid" style="background: transparent; ">
+			<row id="lDefinition" valign="top" align="left" style="border: 0px; background: transparent; padding-top: 10px">
+				<label value="${wtb:l('rim.attr.DEFINITION')}:" sclass="asg-attribute-label-bold" />
+			</row>
+			<row valign="top" align="left"
+				style="border: 0px; background: transparent">
+				<div use="com.rochade.wa.ui.view.TextPropertyView" attributeNames="DEFINITION" id="definition" 
+				relatedId="lDefinition" warningIconId="defWarning" />
+			</row>
+			<row id="lDescription" valign="top" align="left" style="border: 0px; background: transparent; padding-top: 10px">
+				<label value="${wtb:l('rim.attr.DESCRIPTION')}:" sclass="asg-attribute-label-bold" />
+			</row>
+			<row valign="top" align="left" style="border: 0px; background: transparent">
+				<div use="com.rochade.wa.ui.view.TextPropertyView" attributeNames="DESCRIPTION" id="description"
+					relatedId="lDescription" warningIconId="defWarning" />
+			</row>
+			<row id="lMimeType" valign="top" align="left" style="border: 0px; background: transparent; padding-top: 10px">
+				<label value="${wtb:l('rim.attr.RBD_MIME-TYPE')}:" sclass="asg-attribute-label-bold" />
+			</row>
+			<row valign="top" align="left" style="border: 0px; background: transparent">
+				<div use="com.rochade.wa.ui.view.TextPropertyView" attributeNames="RBD_MIME-TYPE" id="mimeType"
+					relatedId="lMimeType"/>
+			</row>
+			<row id="lFileSize" valign="top" align="left" style="border: 0px; background: transparent; padding-top: 10px">
+				<label value="${wtb:l('rim.attr.RBD_FILES-SIZE')}:" sclass="asg-attribute-label-bold" />
+			</row>
+			<row valign="top" align="left" style="border: 0px; background: transparent">
+				<div use="com.rochade.bigdata.ui.view.SizeView" attributeNames="RBD_FILES-SIZE" id="fileSize"
+					relatedId="lFileSize"/>
+			</row>
+			<row id="lPermission" valign="top" align="left" style="border: 0px; background: transparent; padding-top: 10px">
+				<label value="${wtb:l('rim.attr.RBD_PERMISSION')}:" sclass="asg-attribute-label-bold" />
+			</row>
+			<row valign="top" align="left" style="border: 0px; background: transparent">
+				<div use="com.rochade.wa.ui.view.TextPropertyView" attributeNames="RBD_PERMISSION" id="permission"
+					relatedId="lPermission"/>
+			</row>
+				<row id="lModifiedAt" valign="top" align="left" style="border: 0px; background: transparent; padding-top: 10px">
+				<label value="${wtb:l('rim.attr.RBD_MODIFIED-AT')}:" sclass="asg-attribute-label-bold" />
+			</row>
+			<row valign="top" align="left" style="border: 0px; background: transparent">
+				<div use="com.rochade.bigdata.ui.view.DateView" attributeNames="RBD_MODIFIED-AT" id="modifiedAt"
+					relatedId="lModifiedAt"/>
+			</row>
+			<row id="lCreatedBy" valign="top" align="left" style="border: 0px; background: transparent; padding-top: 10px">
+				<label value="${wtb:l('rim.attr.RBD_CREATED-BY')}:" sclass="asg-attribute-label-bold" />
+			</row>
+			<row valign="top" align="left" style="border: 0px; background: transparent">
+				<div use="com.rochade.wa.ui.view.TextPropertyView" attributeNames="RBD_CREATED-BY" id="createdBy"
+					relatedId="lCreatedBy"/>
+			</row>
+			<row id="lGroup" valign="top" align="left" style="border: 0px; background: transparent; padding-top: 10px">
+				<label value="${wtb:l('rim.attr.RBD_GROUP')}:" sclass="asg-attribute-label-bold" />
+			</row>
+			<row valign="top" align="left" style="border: 0px; background: transparent">
+				<div use="com.rochade.wa.ui.view.TextPropertyView" attributeNames="RBD_GROUP" id="group"
+					relatedId="lGroup"/>
+			</row>
+		</rows>
+	</grid>
+</div>

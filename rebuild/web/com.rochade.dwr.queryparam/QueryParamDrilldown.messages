@@ -1,0 +1,67 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.wa.ui.QueryParam
+#
+
+QueryParamDrilldown.select=Specify the parameters for running the query.
+QueryParamDrilldown.runSettings=Run Settings:
+QueryParamDrilldown.property=Parameter
+QueryParamDrilldown.value=Value
+QueryParamDrilldown.limit=Maximum number of items
+QueryParamDrilldown.runButton=Run
+QueryParamDrilldown.cancelButton=Cancel
+QueryParamDrilldown.resetButton=Reset
+QueryParamDrilldown.queryparam=Query Parameter
+QueryParamDrilldown.noRoot=No entries found
+
+QueryParamDrilldown.filterby.DWR_RDB_DB_SYSTEM=Filter by DB System
+QueryParamDrilldown.filterby.DWR_RDB_DATABASE=Filter by Database
+QueryParamDrilldown.filterby.DWR_RDB_SCHEMA=Filter by DB Schema
+QueryParamDrilldown.filterby.DWR_RDB_TABLE_OR_VIEW=Filter by Table or View
+QueryParamDrilldown.filterby.DWR_RDB_COLUMN=Filter by Column
+QueryParamDrilldown.filterby.DWR_TFM_SYSTEM=Filter by Folder
+QueryParamDrilldown.filterby.DWR_ERM_MODEL=Filter by ER Model
+QueryParamDrilldown.filterby.DWR_ERM_ENTITY=Filter by ER Entity
+QueryParamDrilldown.filterby.DWR_DAT_PACKAGE=Filter by Data Package
+QueryParamDrilldown.filterby.DWR_DAT_RECORD_TYPE=Filter by Data Record
+QueryParamDrilldown.filterby.DWR_DAT_FILE_SYSTEM=Filter by File System
+QueryParamDrilldown.filterby.DWR_DAT_DIRECTORY=Filter by Directory
+QueryParamDrilldown.filterby.DWR_DAT_DATA_TYPE=Filter by Data Type
+QueryParamDrilldown.filterby.DWR_DAT_DATA_SOURCE=Filter by Data Source
+QueryParamDrilldown.filterby.DWR_TFM_SYSTEM=Filter by Transformation System
+QueryParamDrilldown.filterby.DWR_TFM_TASK=Filter by Transformation Task
+QueryParamDrilldown.filterby.DWR_TFM_TRANSFORMATION=Filter by Transformation
+QueryParamDrilldown.filterby.DWR_TFM_TRANSFORMATION_TYPE=Filter by Transformation Type
+QueryParamDrilldown.filterby.DWR_ANL_RPT_PACKAGE=Filter by Report Package
+QueryParamDrilldown.filterby.DWR_ANL_RPT_SCHEMA=Filter by Report Schema
+QueryParamDrilldown.filterby.DWR_ANL_REPORT=Filter by Report
+QueryParamDrilldown.filterby.DWR_ANL_RPT_STRUCTURE=Filter by Report Structure
+QueryParamDrilldown.filterby.DWR_ANL_RPT_DASHBOARD=Filter by Dashboard
+QueryParamDrilldown.filterby.DWR_ANL_RPT_DASHBRD_PAGE=Filter by Dashboard Page
+QueryParamDrilldown.filterby.DWR_ANL_OLAP_PACKAGE=Filter by Package 
+QueryParamDrilldown.filterby.DWR_ANL_OLAP_SCHEMA=Filter by Schema
+QueryParamDrilldown.filterby.DWR_ANL_CUBE=Filter by Cube
+QueryParamDrilldown.filterby.DWR_ANL_DIMENSION=Filter by Dimension
+QueryParamDrilldown.filterby.DWR_OOP_PACKAGE=Filter by Package 
+QueryParamDrilldown.filterby.DWR_OOP_CLASS=Filter by Class
+QueryParamDrilldown.filterby.DWR_OOP_METHOD=Filter by Method
+
+# Tooltips
+
+QueryParamDrilldown.altS=Run Settings (Alt-S)
+QueryParamDrilldown.altP=Preserve settings (Alt-P)
+QueryParamDrilldown.altL=Limit the query result (Alt-L)
+QueryParamDrilldown.enter=Run query (Alt-R, <enter>)
+QueryParamDrilldown.esc=Cancel (<esc>)
+QueryParamDrilldown.reset=Reset
+
+# icons
+QueryParamDrilldown.img.wizard=/com.rochade.dwr.queryparam/img/WizardDefault.gif
+

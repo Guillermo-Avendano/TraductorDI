@@ -1,0 +1,85 @@
+﻿#-------------------------------------------------------
+# metaRDM - Message file
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.mdm.xlsimport
+#
+
+ImportCollection.title=Especifique a lista de {0} coleções no seguinte formato.
+ImportCollection.header=Importar {0} definições de coleção do Excel
+ImportCollection.excelImport=Importar Excel
+
+ImportCollection.runSettings=Configurações de Execução:
+ImportCollection.property=Parâmetros
+ImportCollection.value=Valor
+ImportCollection.limit=Número máximo de itens
+ImportCollection.uploadButton=Carregar Arquivo do Excel
+ImportCollection.viewButton=Exibir Arquivo do Excel
+ImportCollection.runButton=Executar
+ImportCollection.cancelButton=Cancelar
+ImportCollection.resetButton=Reiniciar
+ImportCollection.queryparam=Parâmetros de Consulta
+ImportCollection.noxlsx=Este não é um arquivo.xlsx Excel.
+
+ImportCollection.reference=Referências
+ImportCollection.value=Valor
+
+ImportCollection.worksheet=Selecionar planilha:
+ImportCollection.skip=Ignorar linhas de cabeçalho:
+
+ImportCollection.Table=Nome da tabela de referência:
+ImportCollection.Column=Nome da coluna de referência
+ImportCollection.DctxName=Contexto de dados:
+ImportCollection.importAllRDB=Importe tudo, não considere o campo Excel para tabela/coluna
+ImportCollection.importAllCtx=Importe tudo, não considere o campo Excel para contexto
+ImportCollection.generateName=Gerar novo nome para {0} coleção
+ImportCollection.doNotImport=Não importar do Excel
+
+ImportCollection.Description=Descrição:
+ImportCollection.RcName=Nome da coleção de referência
+ImportCollection.ValueColumn=Coluna de valor:
+ImportCollection.DefinitionColumn=Coluna de definição:
+ImportCollection.RelatedColumn=Coluna de referência relacionada:
+ImportCollection.RelatedRc=Coleta de referência relacionada:
+ImportCollection.QueryType=Tipo de consulta:
+ImportCollection.Query=Expressão de consulta:
+ImportCollection.BeginDate=Coluna da data de início:
+ImportCollection.EndDate=Coluna da data de término:
+ImportCollection.OutDateInd=Coluna de indicador desatualizado:
+ImportCollection.OutDateFlag=Sinalização de indicador desatualizado:
+ImportCollection.VcName=Nome da coleção de valor:
+ImportCollection.ParentRc=Coleção de referência pai:
+ImportCollection.ParentColumn=Coluna pai:
+ImportCollection.ChildColumn=Coluna filho:
+
+ImportCollection.pleaseUpload=<Upload Excel file>
+ImportCollection.header0=A planilha não contém linhas de cabeçalho
+ImportCollection.header1=Ignorar a primeira linha de cabeçalho
+ImportCollection.header2=Ignorar duas linhas de cabeçalho
+ImportCollection.header3=Ignorar três linhas de cabeçalho
+ImportCollection.fromExcel=da coluna Excel
+ImportCollection.view.title=Visualizar Excel
+ImportCollection.maxcount=Apenas as primeiras 500 linhas são mostradas.
+
+# Warnings / Success
+ImportCollection.errSkipped=Linhas ignoradas (não coincidentes), ignorando o número da linha:
+ImportCollection.errCtx=Dados especificados não encontrados, ignorando o número da linha:
+ImportCollection.errRdb=Tabela/coluna especificada não encontrada, ignorando o número da linha:
+ImportCollection.errCol=Nenhum nome de coleção dado, ignorando o número da linha:
+ImportCollection.errInc=Aviso: Nem todos os alvos de link poderiam ser identificados, número da linha:
+ImportCollection.errUpd=Erro de gravação ao escrever item, número da linha:
+ImportCollection.success=A importação do Excel foi concluída com sucesso.
+ImportCollection.refresh=Pressione [Atualizar] para obter uma lista de itens atualizada.
+
+# Tooltips
+ImportCollection.view=Visualizar Excel
+ImportCollection.enter=Executar consulta
+ImportCollection.esc=Cancelar (<esc>)
+ImportCollection.reset=Reiniciar
+
+# icons
+

@@ -1,0 +1,46 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#------------------------------ Action Definition ------------------------------ 
+### Icons: all images should be inside of dir /com.rochade.wa.metanote/ + img/, see plugin.xml
+WTB_OpenMetaNoteRefItem.img=OA01-open.gif
+WTB_OpenMetaNoteRefSummary.img=OA01-open.gif
+WTB_Default_OpenMetaNoteRefItem.img=
+WTB_Default_OpenMetaNoteRefItemSummary.img=
+
+#extra icons
+renderer.img.sizeup=/com.rochade.wa.metanote/img/i_sizeup.gif
+renderer.img.sizedown=/com.rochade.wa.metanote/img/i_sizedown.gif
+### END Icons
+
+WTB_OpenMetaNoteRefItem.lbl=Open
+WTB_OpenMetaNoteRefItem.tip=Open Item
+WTB_OpenMetaNoteRefSummary.lbl=Open Summary
+WTB_OpenMetaNoteRefSummary.tip=Open Summary
+WTB_Default_OpenMetaNoteRefItem.lbl=Open
+WTB_Default_OpenMetaNoteRefItem.tip=Open Item
+WTB_Default_OpenMetaNoteRefItemSummary.lbl=Open Summary
+WTB_Default_OpenMetaNoteRefItemSummary.tip=Open Summary
+
+#------------------------------ non Action Definition ------------------------------
+addMetanote.textReadMore=Read More
+addMetanote.textClose=Close
+
+Tab.WTB_MetaNote_Tab=Metanotes
+
+addMetanote.title=Add a Metanote
+addMetanote.subject=Subject:
+addMetanote.save=Save
+addMetanote.cancel=Cancel
+
+Remove.title=Removing Metanote...
+Remove.question.msg=Are you sure you want to remove the selected Metanote?
+Remove.no.permission.msg=You do not have permission to remove the selected Metanote.
+Remove.failed.msg=Unable to remove the selected Metanote.
+Remove.lock.failed=Unable to get the lock
+

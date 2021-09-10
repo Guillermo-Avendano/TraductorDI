@@ -1,0 +1,99 @@
+﻿# Issue Management messages
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+### Icons: all images should be inside of dir /com.rochade.im.workflow/ + img/, see plugin.xml
+rwf_ISM_ISSUE_CREATED.img= 
+rwf_ISM_ISSUE_REVIEW_TASK_ACCEPTED.img= 
+rwf_ISM_ISSUE_TASK_REASSIGNED.img= 
+### END Icons
+
+rwf_im_action_RESOLVE=Resolver
+rwf_im_action_INVALIDATE=Invalidar
+rwf_im_action_REASSIGN=Reasignar
+rwf_im_action_ACCEPT=Aceptar
+rwf_im_action_ACTION=Acción
+
+issue.reassignTo=Reasignar a:
+issue.action_OK=Aceptar
+issue.action_Cancel=Cancelar
+
+issue.action.emptyComment.title=El Comentario es Obligatorio
+issue.action.emptyComment.msg=Por favor, introduzca un comentario no vacío
+issue.action.emptyUser.title=El usuario no se ha seleccionado
+issue.action.emptyUser.msg=Por favor, seleccione el usuario que desea reasignar el problema
+
+issue.action.SUBMIT=Enviado a Control
+issue.action.SUBMITTED=Enviado a Control
+issue.action.ACCEPT=Aceptado
+issue.action.ACCEPTED=Aceptado
+issue.action.RESOLVE=Resuelto
+issue.action.RESOLVED=Resuelto
+issue.action.INVALIDATE=Invalidado
+issue.action.INVALIDATED=Invalidado
+issue.action.REASSIGN=Reasignado
+
+issue.action.SUBMITTED-PENDING=Enviado a control (Pendiente)
+issue.action.ACCEPTED-PENDING=Aceptado (Pendiente)
+issue.action.RESOLVED-PENDING=Resuelto (Pendiente)
+issue.action.INVALIDATED-PENDING=Invalidado (Pendiente)
+issue.action.READY=Listo
+
+#Ticker comments
+Comment.Commented=Comentado
+Comment.Accepted=Aceptado
+Comment.Invalidated=Invalidado
+Comment.Resolved=Resuelto
+
+################ Notifications ################
+
+rwf_ISM_ISSUE_CREATED.title=Problema Creado
+rwf_ISM_ISSUE_REVIEW_TASK_ACCEPTED.title=Tarea de revisión aceptada
+rwf_ISM_ISSUE_TASK_INVALIDATED.title=Problema invalidado
+rwf_ISM_ISSUE_TASK_REASSIGNED.title=Problema Reasignado
+rwf_ISM_ISSUE_TASK_RESOLVED.title=Problema resuelto
+rwf_ISM_ISSUE_TASK_SUBMITED.title=Problema Enviado a Control
+
+rwf_action_ISM_ISSUE_CREATED=Creado
+rwf_action_ISM_ISSUE_REVIEW_TASK_ACCEPTED=Aceptado
+rwf_action_ISM_ISSUE_TASK_INVALIDATED=Invalidado
+rwf_action_ISM_ISSUE_TASK_REASSIGNED=Reasignado
+rwf_action_ISM_ISSUE_TASK_RESOLVED=Resuelto
+rwf_action_ISM_ISSUE_TASK_SUBMITED=Enviado a Control
+
+IsmIssueSubmited.title=Problema [$item.name] Enviado a Control
+IsmIssueSubmited.footer=Click <a href="[$notification.link]">aqu&iacute;</a> para abrir la notificaci&oacute;n.
+IsmIssueSubmited.mail_body=Se ha enviado a control un problema con <a href="[$item.link]"> [$item.name] </a> . <br/> \nEnviado a Control por:. <A href = "[$autor.link] "> [$author.DEFINITION] </a> <br/>
+IsmIssueSubmited.body=Se ha enviado a control un problema con [$item.name]\nEnviado a Control por:[$author.DEFINITION]
+
+IsmIssueAccepted.title=Problema [$item.name] Aceptado
+IsmIssueAccepted.footer=Click <a href="[$notification.link]">aqu&iacute;</a> para abrir la notificaci&oacute;n.
+IsmIssueAccepted.mail_body=El Problema <a href="[$item.link]"> [$item.name] </a> ha sido aceptado <br/> \nEnviado a Control por:. <A href ="[$autor.link]"> [$author.DEFINITION]</a> <br/>
+IsmIssueAccepted.body=El Problema [$item.name] ha sido aceptado \nEnviado a Control por:. [$author.DEFINITION]
+
+IsmIssueResolved.title=Problema [$item.name] Resuelto
+IsmIssueResolved.footer=Click <a href="[$notification.link]">aqu&iacute;</a> para abrir la notificaci&oacute;n.
+IsmIssueResolved.body=El Problema [$item.name] ha sido resuelto \n \nEnviado a Control por:. [$author.DEFINITION] \nResuelto por: [$history.RWF/COMPLETED-BY.DEFINITION] \nComentarios: [$comment]
+IsmIssueResolved.mail_body=El Problema <a href="[$item.link]"> [$item.name] </a> ha sido resuelto <br/> \nEnviado a Control por:. <A href = "[$autor.link] "> [$author.DEFINITION] </a> <br/> \nResuelto por: <a href="[$history.RWF/COMPLETED-BY.link]"> [$history.RWF/COMPLETED-BY.DEFINITION] </a> <br/> \nComentarios: [$history.RWF/comment1] <br/> \nClick <a target="right" href="[$history.link]"> aqu&iacute; </a> para abrir la tarea. <br/>
+
+IsmIssueInvalidated.title=Problema [$item.name] invalidado
+IsmIssueInvalidated.footer=Click <a href="[$notification.link]">aqu&iacute;</a> para abrir la notificaci&oacute;n.
+IsmIssueInvalidated.body=El Problema [$item.name], ha sido invalidado \n\nEnviado a Control por:. [$author.DEFINITION] \nInvalidado por: [$history.RWF/COMPLETED-BY.DEFINITION] \nComentarios: [$comment]
+IsmIssueInvalidated.mail_body=El Problema <a href="[$item.link]"> [$item.name] </a> ha sido invalidado <br/> \nEnviado a Control por:. <A href = "[$autor.link] "> [$author.DEFINITION] </a> <br/> \nInvalidado por: <a href="[$history.RWF/COMPLETED-BY.link]"> [$history.RWF/COMPLETED-BY.DEFINITION] </a> <br/> \nComentarios: [$history.RWF/comment1] <br/> \nClick <a target="right" href="[$history.link]"> aqu&iacute; </a> para abrir la tarea. <br/>
+
+IsmIssueTaskCreated.title=Tarea de Revisión Creada para el Problema [$item.name]
+IsmIssueTaskCreated.footer=Click <a href="[$notification.link]">aqu&iacute;</a> para abrir la notificaci&oacute;n.
+IsmIssueTaskCreated.body=Se creó una tarea de revisión de problema para el concepto de datos [$item.name]\n\nEnviado a Control por: [$author.DEFINITION]\n
+IsmIssueTaskCreated.mail_body=Se cre&oacute; una tarea de revisi&oacute;n de problema para el concepto de datos <a target="right" href="[$item.link]"> [$item.name] </a> .<br/>\nEnviado a Control por: < a href = "[$author.link]"> [$author.DEFINITION] </a> <br/>\n\nClick<a target="right" href="[$notification.link]">aqu&iacute;</a> para abrir la tarea <br/>.
+
+IsmIssueReassigned.title=Problema [$item.name] Reasignado
+IsmIssueReassigned.footer=Click <a href="[$notification.link]">aqu&iacute;</a> para abrir la notificaci&oacute;n.
+IsmIssueReassigned.body=El Problema [$item.name] ha sido reasignado. Por favor, revisarlo \n \nEnviado a Control por:. [$author.DEFINITION] \nComentarios: [$comment]
+IsmIssueReassigned.mail_body=El Problema <a href="[$item.link]"> [$item.name] </a> ha sido reasignado. Por favor, revisarlo <br/> \nEnviado a Control por:. <a Href="[$author.link]">[author.DEFINITION $]</a><br/> \nComentarios: [$comment] <br/>
+
+IM_Error_DuringCalculatingReviewerLevel=Se ha producido un error al calcular el nivel crítico
+IM_Error_DuringRetrievingUsers=Se ha producido un error al recuperar los usuarios
+IM_Error_DuringRetrievingReviewers=Se ha producido un error al recuperar los colaboradores

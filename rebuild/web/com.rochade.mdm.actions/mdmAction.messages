@@ -1,0 +1,432 @@
+﻿#-------------------------------------------------------
+# Rochade metaRDM - Message file
+# This is an UTF-8 endcoded file!
+#
+#  Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+MWTB_ShowColumns.lbl=Columns
+MWTB_ShowColumns.tip=Show Columns
+MWTB_ShowColumns.img=16x16_column.png
+
+MDM_MyDataConcepts.img=16x16_mg_itemlist.png
+MDM_S_DCinProcess.img=16x16_mg_itemlist.png
+
+VD_ShowColumns.lbl=Select Value Domains
+VD_ShowColumns.tip=Select Value Domains
+
+MDM_MyDataConcepts.tip=Show My Data Concepts
+MDM_MyDataConcepts.lbl=My Data Concepts
+
+MDM_S_DCinProcess.lbl=Data Concepts in Process
+MDM_S_DCinProcess.tip=Data Concepts in Process
+
+MDM_List.lbl=List
+MDM_List.tip=List
+
+MDM_New.lbl=New
+MDM_New.tip=New
+
+MDM_Add.lbl=Add
+MDM_Add.tip=Add
+
+MDM_ListDataContexts.lbl=List Data Contexts
+MDM_ListDataContexts.tip=List Data Contexts
+MDM_ListDataContexts.img=16x16_ItemTypes_dataContext1.png
+
+MDM_ListDataConcepts.lbl=List Data Concepts
+MDM_ListDataConcepts.tip=List Data Concepts
+MDM_ListDataConcepts.img=16x16_ItemTypes_dataConcept.png
+
+MDM_ListConceptualDomains.lbl=List Conceptual Domain
+MDM_ListConceptualDomains.tip=List Conceptual Domain
+
+MDM_ListValueDomains.lbl=List Value Domain
+MDM_ListValueDomains.tip=List Value Domain
+
+MDM_ListReferenceCollections.lbl=List Reference Collections
+MDM_ListReferenceCollections.tip=List Reference Collections
+
+MDM_ListValueCollections.lbl=List Value Collections
+MDM_ListValueCollections.tip=List Value Collections
+
+MDM_ListReferenceTables.lbl=List Reference Tables
+MDM_ListReferenceTables.tip=List Reference Tables
+MDM_ListReferenceTables.img=16x16_reference_table.png
+
+MDM_ListValueDrivenColumns.lbl=List Reference Columns
+MDM_ListValueDrivenColumns.tip=List Reference Columns
+MDM_ListValueDrivenColumns.img=16x16_vd_column.png
+
+MDM_AddReferenceTable.lbl=Add Reference Table
+MDM_AddReferenceTable.tip=Add Reference Table
+MDM_AddReferenceTable.img=16x16_mark-lut-vdc.png
+
+MDM_RemoveDataContext.lbl=Delete
+MDM_RemoveDataContext.tip=Delete Data Context
+MDM_RemoveDataContext.img=16x16_delete.png
+MDM_RemoveDataContext.DeleteMessage=Are you sure you want to delete {0}?
+MDM_RemoveDataContext.DeleteTitle=Delete Data Context
+
+MDM_RemoveDataContext.itemsInDev=- {0} non-approved items
+MDM_RemoveDataContext.workflowSet=- {0} sets
+MDM_RemoveDataContext.workflowSet.errorCheckingSets=Error during checking sets
+MDM_RemoveDataContext.workflowSet.errorDeletingSets=Error during deleting sets
+MDM_RemoveDataContext.assignedRoles=- associated roles
+MDM_RemoveDataContext.assignedRoles.noPerm=The selected Data Context could not be deleted because it contains roles. You do not have permissions to delete roles.
+MDM_RemoveDataContext.assignedRoles.errorCheckingRole=Error during checking assigned roles
+MDM_RemoveDataContext.assignedRoles.errorDeletingRole=Error during deleting assigned roles
+MDM_RemoveDataContext.subContext=The selected Data Context could not be deleted because it contains subcontexts. You must delete the subcontexts before you can delete the Data Context.
+MDM_RemoveDataContext.openTask=- {0} pending tasks
+MDM_RemoveDataContext.prepareChain.errorChecking=Error during checking unapproved items
+MDM_RemoveDataContext.performDelete.errorDeleting=Error in data context delete chain
+MDM_RemoveDataContext.error.tittle=Error occurred while deleting the Data Context
+MDM_RemoveDataContext.subItems.msg=Additional items have been found that must be included in the deletion to avoid inconsistency. Do you want to delete these items:
+MDM_RemoveDataContext.deleteDevItem.dataContextNotDev=Delete data context: There is no development version for this item.
+MDM_RemoveDataContext.prepareChain.errorCheckingSubContext=Error during checking sub contexts
+
+MDM_RemoveDataConcept.lbl=Delete
+MDM_RemoveDataConcept.tip=Delete Data Concept
+MDM_RemoveDataConcept.img=16x16_delete.png
+MDM_RemoveDataConcept.DeleteMessage=Are you sure you want to delete current Data Concept?
+MDM_RemoveDataConcept.DeleteTitle=Delete Data Concept
+
+MDM_RenameDataConcept.lbl=Rename
+MDM_RenameDataConcept.tip=Rename Data Concept
+MDM_RenameDataConcept.img=rename16.png
+
+MDM_AddReferenceColumn.lbl=Add Reference Column
+MDM_AddReferenceColumn.tip=Add Reference Column
+MDM_AddReferenceColumn.img=16x16_mark-lut-vdc.png
+
+MDM_CreateNew.lbl=Create New
+MDM_CreateNew.tip=Create New
+
+MDM_CreateDataContext.lbl=New Data Context
+MDM_CreateDataContext.tip=Create New Data Context
+MDM_CreateDataContext.img=16x16_new_dataContext.png
+
+MDM_CreateDataContextInRoot.lbl=New Data Context
+MDM_CreateDataContextInRoot.tip=Create New Data Context
+MDM_CreateDataContextInRoot.img=16x16_new_dataContext.png
+
+MDM_DataContext_Editor_Create.lbl=Create
+MDM_DataContext_Editor_Create.tip=Create New Data Context
+MDM_DataContext_Editor_Create.img=OA05-new.gif
+
+MDM_CreateDataConcept.lbl=New Data Concept
+MDM_CreateDataConcept.tip=Create New Data Concept
+MDM_CreateDataConcept.nameDuplication.message=Data Concept with such name already exists in Data Context. Please enter a new name.
+MDM_CreateDataConcept.nameDuplication.title=Name duplication
+
+MDM_CreateDCFromBTMenu.lbl=Add Reference Data
+MDM_CreateDCFromBTMenu.tip=Add Reference Data
+MDM_CreateDCFromBTMenu.img=16x16_new_dataConcept.png
+
+MDM_Editor_CreateDC.lbl=Create
+MDM_Editor_CreateDC.tip=Create New Data Concept
+MDM_Editor_CreateDC.img=OA05-new.gif
+
+MDM_CreateConceptualDomain.lbl=Conceptual Domain
+MDM_CreateConceptualDomain.tip=Conceptual Domain
+
+MDM_CreateValueDomain.lbl=Value Domain
+MDM_CreateValueDomain.tip=Value Domain
+
+MDM_SingleClick_ListDatabases.lbl=List Database Details
+
+MDM_ListReferenceTablefrDBSys.lbl=List Reference Table
+MDM_ListReferenceTablefrDBSys.tip=List Reference Table
+
+MDM_ListSchemasfrDB.lbl=List Schema Details
+MDM_ListSchemasfrDB.tip=List Schema Details
+
+MDM_ListTableOrViewfrDB.lbl=List Tables/Views
+MDM_ListTableOrViewfrDB.tip=List Tables/Views
+
+MDM_ListTablesfrDB.lbl=List Tables
+MDM_ListTablesfrDB.tip=List Tables
+
+MDM_ListViewsfrDB.lbl=List Views
+MDM_ListViewsfrDB.tip=List Views
+
+MDM_ListReferenceTablefrDB.lbl=List Reference Tables
+MDM_ListReferenceTablefrDB.tip=List Reference Tables
+
+MDM_ListTableOrViewfrSchema.lbl=List Tables/Views
+MDM_ListTableOrViewfrSchema.tip=List Tables/Views
+
+MDM_ListTablesfrSchema.lbl=List Tables
+MDM_ListTablesfrSchema.tip=List Tables
+
+MDM_ListViewsfrSchema.lbl=List Views
+MDM_ListViewsfrSchema.tip=List Views
+
+MDM_ListReferenceTablefrSchema.lbl=List Reference Table
+MDM_ListReferenceTablefrSchema.tip=List Reference Table
+
+MDM_ListColumnsfrSchema.lbl=List Columns
+MDM_ListColumnsfrSchema.tip=List Columns
+
+MDM_ListVDCfrSchema.lbl=List Value Driven Columns
+MDM_ListVDCfrSchema.tip=List Value Driven Columns
+
+MDM_ListColumnsfrTable.lbl=List Columns
+MDM_ListColumnsfrTable.tip=List Columns
+
+MDM_ListVDCfrTable.lbl=List Value Driven Columns
+MDM_ListVDCfrTable.tip=List Value Driven Columns
+
+WTB_FormatHTM.lbl.mdm=Export to HTML
+WTB_FormatHTM.tip.mdm=Export to HTML
+
+WTB_FormatXLS.lbl.mdm=Export to Excel
+WTB_FormatXLS.tip.mdm=Export to Excel
+
+MDM_mds_Properties.lbl.mdm=Export to Properties
+MDM_mds_Properties.tip.mdm=Export to Properties
+
+MDM_Generate.lbl.mdm=Export
+MDM_Generate.tip.mdm=Export
+
+MDM_GenerateVC.lbl.mdm=Value Collections
+MDM_GenerateVC.tip.mdm=Value Collections
+
+MDM_GenerateRC.lbl.mdm=Reference Collections
+MDM_GenerateRC.tip.mdm=Reference Collections
+
+MDM_GenerateVCRC.lbl.mdm=Value and Reference Collections
+MDM_GenerateVCRC.tip.mdm=Value and Reference Collections
+
+MDM_ListBusinessTerms.lbl=List Business Terms
+MDM_ListBusinessTerms.tip=List Business Terms
+
+MDM_ListDataConceptsfrGlossary.lbl=List Data Concepts
+MDM_ListDataConceptsfrGlossary.tip=List Data Concepts
+
+MDM_ListRecords.lbl=List Records
+MDM_ListRecords.tip=List Records
+
+MDM_ListDatatypes.lbl=List Datatypes
+MDM_ListDatatypes.tip=List Datatypes
+
+MDM_ListFiles.lbl=List Files
+MDM_ListFiles.tip=List Files
+
+MDM_ListFields.lbl=List Fields
+MDM_ListFields.tip=List Fields
+
+MDM_RecordListDatatypes.lbl=List Datatypes
+MDM_RecordListDatatypes.tip=List Datatypes
+
+MDM_RecordListFiles.lbl=List Files
+MDM_RecordListFiles.tip=List Files
+
+MDM_RecordListFields.lbl=List Fields
+MDM_RecordListFields.tip=List Fields
+
+MDM_Organize.img=16x16_organize.png
+MDM_Organize.lbl=Organize
+MDM_Organize.tip=Organize
+
+MDM_Share.lbl=Publish
+MDM_Share.tip=Publish
+
+WTB_RenameItem.lbl.mdm=Rename
+WTB_RenameItem.tip.mdm=Rename
+
+WTB_DeleteItem.lbl.mdm=Delete
+WTB_DeleteItem.tip.mdm=Delete
+
+MDM_DataConcept_SelectBusinessTerm.tip=Click to Add Business Term
+MDM_DataConcept_SelectBusinessTerm.lbl=Add Business Term
+
+MDM_DataConcept_RemoveBusinessTerm.tip=Click to Remove Business Term
+MDM_DataConcept_RemoveBusinessTerm.lbl=Remove Business Term
+
+MDM_ValueCollection_SelectDataContext.lbl=Select Data Context
+MDM_ValueCollection_SelectDataContext.tip=Click to Select Data Context
+
+MDM_ValueCollection_SelectValueDomain.lbl=Select Value Domain
+MDM_ValueCollection_SelectValueDomain.tip=Click to Select Value Domain
+
+MDM_ValueCollection_CleanUsedValues.lbl=Clean
+MDM_ValueCollection_CleanUsedValues.tip=Click to clean used values
+
+MDM_ReferenceCollection_SelectRelatedReferenceCollection.lbl=Select
+MDM_ReferenceCollection_SelectRelatedReferenceCollection.tip=Select related reference collection
+
+MDM_ReferenceCollection_RemoveRelatedReferenceCollection.lbl=Remove
+MDM_ReferenceCollection_RemoveRelatedReferenceCollection.tip=Remove related reference collection
+
+MDM_MarkLUT.lbl.mdm=Mark as Reference Table
+MDM_MarkLUT.tip.mdm=Mark as Reference Table
+MDM_MarkLUT.img.mdm=16x16_mark-lut-vdc.png
+
+MDM_ToggleLUT.lbl.mdm=Add to Reference Table
+MDM_ToggleLUT.tip.mdm=Add to Reference Table
+MDM_ToggleLUT.img.mdm=16x16_mark-lut-vdc.png
+
+MDM_ToggleVDC.tip.mdm=Add to Reference Column
+MDM_ToggleVDC.lbl.mdm=Add to Reference Column
+MDM_ToggleVDC.img.mdm=16x16_mark-lut-vdc.png
+
+MDM_UntoggleVDC.lbl.mdm=Remove from Reference Column
+MDM_UntoggleVDC.tip.mdm=Remove from Reference Column
+MDM_UntoggleVDC.img.mdm=16x16_mark-lut-vdc.png
+
+MDM_EditRefData.lbl=Reference Data
+MDM_EditRefData.tip=Reference Data
+MDM_EditRefData.img=16x16_mark-lut-vdc.png
+
+MDM_UntoggleLUT.lbl=Remove from Reference Tables
+MDM_UntoggleLUT.tip=Remove from Reference Tables
+
+MDM_EditCollectionInformation.lbl=Edit Collection Information
+MDM_EditCollectionInformation.tip=Edit Collection Information
+MDM_EditCollectionInformation.errorGetItemInProd=Error while getting item version in Prod
+
+MDM_AddCollection.lbl=Add Collection
+MDM_AddCollection.tip=Add Collection
+
+MDM_DeleteCollection.lbl=Delete Collection
+MDM_DeleteCollection.tip=Delete Collection
+
+MDM_ExportCollection.lbl=Export Collection Information
+MDM_ExportCollection.tip=Export Collection Information
+MDM_ExportCollection.img=16x16_export_excel.png
+MDM_ExportCollection.nodata=There are no data available for export.
+
+MDM_ImportCollection.lbl=Import Collection Information
+MDM_ImportCollection.tip=Import Collection Information
+MDM_ImportCollection.img=16x16_import_excel.png
+
+MDM_ExportDataConcept.lbl=Export data concept grid
+MDM_ExportDataConcept.tip=Export data concept grid
+MDM_ExportDataConcept.img=16x16_export_excel.png
+
+MDM_ImportDataConcept.lbl=Import data concept grid
+MDM_ImportDataConcept.tip=Import data concept grid
+MDM_ImportDataConcept.img=16x16_import_excel.png
+
+Actions-go-next-icon.img=Actions-go-next-icon.png
+
+MDM_StartAnomalyScanner.tip=Start Anomaly Checker
+MDM_StartAnomalyScanner.lbl=Start Anomaly Checker
+MDM_StartAnomalyScanner.img=16x16_Anomaly.png
+
+BTermToDC.lbl=Open reference data concept
+BTermToDC.tip=Open reference data concept
+
+DCToBTerm.lbl=Open referenced business term
+DCToBTerm.tip=Open referenced business term
+
+MDM_UserAdministration.lbl=User Administration
+MDM_UserAdministration.tip=User Administration
+MDM_UserAdministration.img=16x16_user.png
+
+####### reporting
+MDM_DataConceptExport.tip=Show Content
+MDM_DataConceptExport.lbl=Show Content
+
+MDM_Diagram.tip=Diagram of Data Concept
+MDM_Diagram.lbl=Diagram of Data Concept
+
+DC_Comparison.tip=Open Comparison View
+DC_Comparison.lbl=Open Comparison View
+
+DCTX_Comparison.tip=Open Comparison View
+DCTX_Comparison.lbl=Open Comparison View
+
+REF-Reporting.lbl=Reporting
+REF-Reporting.tip=Reporting
+
+MDM_OpenTableInsteadOfReferenceCollection.lbl=Open
+MDM_OpenTableInsteadOfReferenceCollection.tip=Open Item
+MDM_OpenTableInsteadOfReferenceCollection.img=16x16_item.png
+
+MDM_OpenColumnInsteadOfValueCollection.lbl=Open
+MDM_OpenColumnInsteadOfValueCollection.tip=Open Item
+MDM_OpenColumnInsteadOfValueCollection.img=16x16_item.png
+
+
+MDM_OpenScopeDCInsteadOfpermValue.lbl=Open
+MDM_OpenScopeDCInsteadOfpermValue.tip=Open Item
+MDM_OpenScopeDCInsteadOfpermValue.img=16x16_item.png
+
+MDM_MarkAsLUT_SearchDCtxWizard.Title=Flag Table as Reference Table and assign to Data Context
+MDM_MarkAsVDC_SearchDCtxWizard.Title=Flag Column as Value Driven Column and assign to Data Context
+
+
+MDM_DuplicateDataConcept.lbl=Copy
+MDM_DuplicateDataConcept.tip=Copy Data Concept
+MDM_DuplicateDataConcept.img=OA07-copy.gif
+
+MDM_DuplicateDataContext.lbl=Duplicate Data Context
+MDM_DuplicateDataContext.tip=Duplicate Data Context
+MDM_DuplicateDataContext.img=
+
+MDM_SaveRCsParents.IncorrectDataMessage=Hierarchies configuration contains incorrect names. Please set correct names. Data was not saved.
+MDM_MDM_SaveRCsParents.IncorrectDataTitle=Can not save incorrect data
+
+MDM_ConfigForReferenceData.lbl=Configure for reference data
+MDM_ConfigForReferenceData.tip=
+MDM_ConfigForReferenceData.img=16x16_mark-lut-vdc.png
+
+MDM_SpecifySQLDialect.lbl=Specify SQL Dialect
+MDM_SpecifySQLDialect.tip=
+MDM_SpecifySQLDialect.img=
+
+MDM_ListRelatedRefTablesAndColumns.lbl=List Related Reference Tables And Columns
+MDM_ListRelatedRefTablesAndColumns.tip=
+MDM_ListRelatedRefTablesAndColumns.img=
+
+MDM_LoadPluginHelper.warnLoadPlugin=Cannot load plugin action for actionId: {0}
+MDM_LoadPluginHelper.errorExecutingAction=Error while invoking action (actionId: {0} appId: {1})
+MDM_ActionHelper.itemLocked=Unable to obtain lock. Operational item already locked.
+
+MDM_CleanUsedValuesAction.usedValuesCleaned=Used values have been cleaned.
+MDM_CleanUsedValuesAction.itemNotCreated=Item was not created.
+
+MDM_GenerateValueDomain.generated=Value Domain generated.
+
+MDM_SelectDataContext.notAssigned=New data context not assigned
+
+MDM_NoProdItemVersion=Error while getting item version in Production
+MDM_NoDevItemVersion=Error while getting item version in Development
+MDM_UserAdmininistration.InitializationError=Error during data context user administration initialization
+MDM_FailedToDeleteDC=Failed to delete data concept
+MDM_DataContextDeletionError=Error during data context deletion
+MDM_ErrorWhileCreatingDC=Error while creating new Data Concept
+MDM_ErrorRetrievingDCntxId=Error during retrieving data context ID
+MDM_ErrorAddingAnomaliesToWorkflow=Error during adding anomalies to workflow
+MDM_ErrorAddingBusinessTermToVc=Error during adding business term to value collection
+MDM_NewBusinessTermNotAssigned=New business term is not assigned
+
+MDM_ErrorMessageboxTitle=Error
+
+MDM_AnomalyCheckerRunSuccess=Anomaly checker has run successfully
+MDM_AnomalyCheckerRunError=Unable to launch anomaly checker due to internal error
+MDM_ConceptualDomainIsNull=Conceptual domain is null
+
+MDM_InfoMessageboxTitle=Information
+MDM_MessageboxNoSelectedItem=You must select an object to perform this action.
+
+MDM_ItemsList.tab.title={0} of {1}: {2}
+
+MDM_WF_SubmitItem_via-camunda.lbl=Submit(Camunda)
+MDM_WF_SubmitItem_via-camunda.tip=Submit(Camunda)
+
+MDM_WF_AddWfAssignment.lbl=Add
+MDM_WF_AddWfAssignment.tip=Add Workflow Assignment
+
+MDM_RefOwnedByCellRenderer.PathDataContext={0} [Data Context]
+
+MDM_CreateDataContext.nameDuplication.title=Duplicate Name
+MDM_CreateDataContext.nameDuplication.message=A data context with this name already exists. Please enter a new name.
+
+MDM_CreateDataContext.emptyname.title=Empty Name
+MDM_CreateDataContext.emptyname.message=Please enter name for creating data context.
+
+MDM_UserAdministration.creationFailed.message=User administration initialization failed.
+MDM_UserAdministration.creationFailed.title=User Administration Initialization

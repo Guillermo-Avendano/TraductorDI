@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page id="start" title="select glossary or context" contentType="text/html;charset=UTF-8"?>
+<!-- 
+	@author ST 2018-05-04, created
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 	
+-->
+<viewmenu>
+	<div sclass="asg-menubar-left-aligned">
+		<special actionId="WTB_Filter"/>
+		<special actionId="GDP_CreatePIAforApplGlossaryFilter"/>
+	</div>
+	<div sclass="clearfix" />
+</viewmenu>

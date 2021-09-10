@@ -1,0 +1,54 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.wa.report
+#
+### Icons: all images should be inside of dir /com.rochade.wa.report/ + img/, see plugin.xml
+
+#extra icons
+### END Icons
+
+DsDesigner.reportparam=Parâmetros da Origem dos Dados
+DsDesigner.select=Crie uma fonte de dados SDCAC para relatório
+
+DsDesigner.propAttr=Atributos
+DsDesigner.propAttr.desc=Atributos para colunas (id,scopeId,type,name) sempre são adicionados automaticamente
+DsDesigner.propName=Nome
+DsDesigner.propName.desc=Filtro de Nome
+DsDesigner.propType=Tipo
+DsDesigner.propType.desc=Nome do tipo técnico
+DsDesigner.propId=Nome da Origem dos Dados
+DsDesigner.propId.desc=Alfanumérico
+
+DsDesigner.runButton=Pesquisa Teste
+DsDesigner.saveButton=OK
+DsDesigner.cancelButton=Fechar
+# Tooltips
+DsDesigner.enter=Pesquisa Teste (Alt-T, <enter>)
+DsDesigner.save=Salvar Origem dos Dados (Alt-S)
+DsDesigner.esc=Fechar (<esc>)
+
+DsDesigner.msg.title=Resultado da Consulta
+DsDesigner.msg.empty=Resultado está vazio
+DsDesigner.msg.result=Resultado tem {0} linhas.
+
+DsDesigner.err.duplicate=Origem dos Dados já existe. Por favor, use uma outra Fonte de Dados
+DsDesigner.err.querydef.notfound=Definição da pesquisa de relatório {0} não encontrada.
+DsDesigner.err.save=Salvar origem dos dados "{0}" falhou.
+DsDesigner.err.invalidAttr=Atributo inválido "{0}".\nPor favor use atributos válidos do modelo de informações Rochade.
+DsDesigner.err.invalidType=Tipo inválido "{0}".\nPor favor, use o tipo válido do modelo de informações Rochade.
+
+ManageDs.name=Nome
+ManageDs.type=Tipo
+ManageDs.reports=Relatórios relacionados
+ManageDs.deleteButton=Deletar
+ManageDs.confirm.title=Exclui a Fonte de Dados
+ManageDs.confirm.text=Tem certeza de que deseja excluir esta Fonte de Dados?
+ManageDs.err.deleteFailed=Exclusão do recurso "{0}" falhou.
+ManageDs.err.columnNotMatch=A quantidade de atributos da Fonte de Dados é maior que a quantidade de colunas do Relatório

@@ -1,0 +1,9 @@
+﻿#-------------------------------------------------------
+# Rochade metaRDM - Message file
+# This is an UTF-8 endcoded file!
+#
+#  Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+objectcontent.error.no_object_wrapper=Error opening details view. Issue during setting object wrapper
+objectcontent.error.cant_load_component=Error opening details view. Cannot load component

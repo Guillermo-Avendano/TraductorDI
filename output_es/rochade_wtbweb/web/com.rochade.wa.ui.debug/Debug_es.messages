@@ -1,0 +1,185 @@
+﻿# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+### Icons: all images should be inside of dir /com.rochade.wa.ui.debug/ + img/, see plugin.xml
+#extra icons
+### END Icons
+
+Debug.start=Iniciar
+Debug.stop=Detener
+Debug.clear=Limpio
+Debug.refresh=Refrescar
+Debug.gc=Realizar la recolección de basura (Garbage Collection)
+
+Debug.Statistics.title=Estadísticas de Rochade Server y Java API
+Debug.UIPermissions.title=Permisos de la interfaz de usuario y Roles
+Debug.Memory.title=Uso de memoria
+Debug.Tracing.title=Rastreo de los grupos de las funciones seleccionadas
+Debug.Preferences.title=Preferencias y sus valores
+Debug.Actions.title=Lista de todas las acciones
+Debug.Capabilities.title=Lista de todas las capacidades
+Debug.Components.title=Lista de todos los componentes
+Debug.Queries.title=Lista de todas las Consultas
+Debug.TableShape.title=Lista de todas los "Table Shapes"
+Debug.Settings.title=Lista de configuraciones de todas las metaApps
+Debug.Workspaces.title=Información sobre Áreas de Trabajo
+Debug.Extensions.title=Extensiones
+Debug.Conflicts.title=Verifica si hay conflictos de recursos
+Debug.WfEngine.title=Workflow Engine
+
+Debug.stdout=Generar tmabien Log en la salida estándar
+Debug.actions=Acciones
+Debug.components=Componentes
+Debug.capabilities=Capacidades
+Debug.queries=Consultas
+Debug.preferences=Preferencias
+Debug.uiroles=Roles
+Debug.uipermissions=Permisos de la interfaz de usuario
+Debug.settings=Configuraciones
+
+Debug.time=Hora
+Debug.freemem=Memoria libre
+Debug.totalmem=Memoria total
+Debug.maxmem=Memoria máxima
+
+Debug.defaultrole=[Rol predeterminado]
+Debug.roles=El usuario actual tiene los roles
+Debug.uipermname=Nombre del permiso de la interfaz de usuario
+Debug.value=Valor
+
+Debug.trace=Rastrear las llamadas de estos grupos de funciones:
+Debug.cbStat=Incluir estadísticas
+Debug.cbComp=Cargando componentes
+Debug.cbQuery=Ejecutar consultas
+Debug.cbSrapQuery=Consultas SRAP
+Debug.cbBPAction=Base Param Actions
+Debug.cbWAObjMan=Abrir Áreas de Trabajo
+Debug.cbShapeFill=Columna Shapefiller
+Debug.cbDiagram=Diagrama
+
+Debug.prefname=Nombre de preferencia
+Debug.prefvalue=Valor de preferencia
+Debug.capaname=Nombre de Capacidad
+Debug.capadef=Definición de Capacidad
+Debug.compname=Nombre del componente
+Debug.compimplements=Implementaciones
+Debug.compreplaces=Reemplaza
+Debug.compzul=ZUL File
+Debug.compmessages=Archivo de mensajes
+Debug.queryid=Plugin Query Id
+Debug.querylabel=Etiqueta
+Debug.querydef=Implementación de la consulta
+Debug.tableshapes=Definiciones Table Shape
+Debug.tableshape=ID de Table Shape
+Debug.tablecolumn=Columnas de la tabla Ids
+Debug.actionname=ID de acción
+Debug.actionlabel=Etiqueta
+Debug.actionkind=Función
+Debug.actionimpl=Implementación
+Debug.settingname=Clave
+Debug.settingvalue=Valor
+Debug.settingmetaapp=metaApp
+Debug.settingsstartup=[startup]
+Debug.settingsapplications=[aplicaciones]
+
+Debug.workspaces=Áreas de trabajo
+Debug.ws=Workspace {0} {1}
+Debug.property=Propiedad
+Debug.uilang=Idioma de la interfaz de usuario actual
+Debug.datalang=Idioma actual de Datos
+Debug.supplang=Idiomas soportados
+Debug.waid=Identificación del área de trabajo
+Debug.descr=Descripción Corta
+Debug.feat=Características
+Debug.metamodel=Metamodel
+Debug.actroles=Roles Activos
+Debug.cfgpath=Directorio de configuración
+Debug.addinfo=Información Adicional
+Debug.ngroup=Grupo de nomenclatura = {0}
+Debug.packreq=Paquete Requerido = {0}
+Debug.linkapp=Está vinculado a Subject Area={0}
+
+Debug.exten=Extensión:
+Debug.input=Extensión de entrada
+Debug.pluginXML=Plugin.xml
+Debug.tableXML=TableShape.xml
+Debug.tablePROP=TableShape.properties
+Debug.messages=Mensajes y etiquetas
+Debug.mappings=Mapeos y Stringresources
+
+Debug.wfEngine.peName=Nombre
+Debug.wfEngine.noProcessEngine=No process engine available.
+Debug.wfEngine.pdCaption=Definiciones de proceso
+Debug.wfEngine.piCaption=Instancias de proceso
+Debug.wfEngine.jobsCaption=Jobs
+Debug.wfEngine.incidentsCaption=Incidents
+Debug.wfEngine.tasksCaption=Tasks
+Debug.wfEngine.varsCaption=Variables
+Debug.wfEngine.varsCaption.pi=Variables of Process Instance
+Debug.wfEngine.varsCaption.task=Variables of Task
+
+Debug.wfEngine.piCount=Instances
+Debug.wfEngine.failedJobCount=Paused Jobs
+Debug.wfEngine.incidentCount=Incidents
+Debug.wfEngine.pdName=Nombre
+Debug.wfEngine.pdCustomVersion=Version
+Debug.wfEngine.pdId=ID de definición de proceso
+Debug.wfEngine.jobCount=Jobs
+Debug.wfEngine.activityId=Activity Id
+Debug.wfEngine.simpleClassName=Tipo
+Debug.wfEngine.jobRetryCount=Retries
+Debug.wfEngine.jobExceptionMessage=Exception Message
+Debug.wfEngine.incidentTimeStamp=Time Stamp
+Debug.wfEngine.incidentType=Tipo
+Debug.wfEngine.incidentMessage=Mensaje
+Debug.wfEngine.taskName=Nombre
+Debug.wfEngine.taskDefKey=Definition Key
+Debug.wfEngine.taskAssignee=Asignado
+Debug.wfEngine.taskCandidateUsers=Usuarios Candidatos
+Debug.wfEngine.taskCandidateGroups=Grupos Candidatos
+Debug.wfEngine.varType=Tipo
+Debug.wfEngine.varName=Nombre
+Debug.wfEngine.varValue=Valor
+Debug.wfEngine.globalPDCount=Number of Process Definitions:
+Debug.wfEngine.globalPICount=Number of Process Instances:
+Debug.wfEngine.globalFailedJobCount=Number of Paused Jobs:
+Debug.wfEngine.wsUrl=Web Services URL:
+Debug.wfEngine.jdbcUrl=JDBC URL:
+Debug.wfEngine.jobExecutorConfigured=Job Executor configured:
+
+#Debug.wfEngine.selectWfEngine=Workflow Engine:
+Debug.wfEngine.btnRestartProcessEngine.label=Restart Process Engine
+Debug.wfEngine.btnRestartProcessEngine.confirm=Do you really want to restart the Process Engine?
+Debug.wfEngine.btnRestartProcessEngine.done=The Process Engine has been restarted. 
+Debug.wfEngine.btnGlobalRetry.label=Retry all Paused Jobs
+Debug.wfEngine.btnGlobalRetry.confirm=Do you really want to retry all paused jobs?
+Debug.wfEngine.btnGlobalRetry.done=Retried {0} jobs.
+Debug.wfEngine.btnReplaceWsUrl.label=Update all Instances
+Debug.wfEngine.btnReplaceWsUrl.confirm=Do you really want to update the Web Services URL of all process instances?
+Debug.wfEngine.btnReplaceWsUrl.done={0} variables with name {1} updated to value {2}.
+
+Debug.deployment.title=Deployment Details
+Debug.deployment.environmentinfo=Información del Ambiente
+Debug.deployment.value=Valor
+Debug.deployment.javaversion=Java Version
+Debug.deployment.javavendor=Java Vendor
+Debug.deployment.javavmversion=Java VM Version
+Debug.deployment.javavmvendor=Java VM Vendor
+Debug.deployment.javaiotmpdir=Java Tempdir
+Debug.deployment.osname=Nombre del Sistema Operativo
+Debug.deployment.osversion=Versión del Sistema Operativo
+Debug.deployment.osarch=Arquitectura del Sistema Operativo
+Debug.deployment.zkosspath=ZKoss Context Root URL
+Debug.deployment.realpath=Ruta real
+Debug.deployment.freemem=Memoria libre
+Debug.deployment.totalmem=Memoria total
+Debug.deployment.maxmem=Memoria máxima
+Debug.deployment.sessionid=ID de sesión
+Debug.deployment.browser=Versión del Navegador
+Debug.deployment.kbytes={0} KBytes
+Debug.deployment.download=Download Details
+Debug.deployment.filename=DeploymentDetails.txt

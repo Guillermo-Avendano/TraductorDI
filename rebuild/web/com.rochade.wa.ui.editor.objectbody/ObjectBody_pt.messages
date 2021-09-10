@@ -1,0 +1,74 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+##-------------------------------------------------------
+
+#
+# package: com.rochade.wa.ui.editor.objectbody
+#
+### Icons: all images should be inside of dir /com.rochade.wa.ui.editor.objectbody/ + img/, see plugin.xml
+
+#extra icons
+### END Icons
+
+ObjectBody.actions=ItemActions.zul
+#TODO: who uses this ?
+ObjectBody.title=Editor de Objeto
+ObjectBody.attribute=Atributo
+ObjectBody.content=Conteúdo
+ObjectBody.TA=Atributo de Texto
+ObjectBody.LA=Atributo de Vínculo
+ObjectBody.NameSpace=Atributo de Namespace
+ObjectBody.HT=Atributo de Link não formatado
+ObjectBody.VA=Atributo de Valor
+ObjectBody.BA=Atributo Binário
+ObjectBody.OPTIONAL=Opcional
+ObjectBody.MANDATORY=Obrigatório
+ObjectBody.INFO=Informação
+ObjectBody.objinfo=Informação do Objeto
+ObjectBody.properties=Propriedades
+ObjectBody.select=Selecionar propriedades a ser editadas ou navegadas
+ObjectBody.edit=Editar
+ObjectBody.refresh=Atualizar
+ObjectBody.exit=Sair
+ObjectBody.save=Salvar
+ObjectBody.save_exit=Salvar&Sair
+ObjectBody.delete=Deletar
+ObjectBody.readonlymode=Editor no modo somente leitura
+ObjectBody.locked=O objeto está bloqueado
+ObjectBody.lockfailed=O bloqueio do objeto não pôde ser adquirido
+ObjectBody.modified={0}foi modificado.  Salvar as alterações?
+ObjectBody.nameempty={0} foi modificado. \ nPode ser salvo somente quando o Nome estiver preenchido
+ObjectBody.lockerr=Falha ao obter o bloqueio
+ObjectBody.lockexp=Exceção ao obter o bloqueio
+ObjectBody.notApproved=Em Progresso
+ObjectBody.savetitle=Gravar Recurso
+ObjectBody.duplicatedAttrsInPropView=A visualização de item contém atributos duplicados ou sobrepostos: {0}
+ObjectBody.MandatoryAttributes={0} Informação está Incompleta
+ObjectBody.MandatoryAttributesInfo=Algumas informações exigidas estão faltando Preencha as seguintes entradas antes de continuar: {0}
+ObjectBody.MandatoryAttributesQuestion=As seguintes propriedades do termo estão vazias: {0}. Clique em Cancelar para adicionar as propriedades ou clique em OK para enviar o termo sem fornecer qualquer informação adicional.
+WfObjectBody.autoApproval.notEnabled=Sua solicitação foi submetida para aprovação.  Suas alterações serão revisadas pelos aprovadores envolvidos antes de serem promovidas para produção.
+WfObjectBody.autoApproval.enabled=Sua solicitação foi submetida para aprovação.  Ela será automaticamente aprovada e irá aparecer em produção em alguns minutos.  Nenhuma ação é necessária.
+WfObjectBody.errorContext=Erro ao obter informações do contexto.
+WfObjectBody.wrongSubjectArea=Erro: área do assunto especificada incorreta
+WfObjectBody.currVersion=A versão atual do item é {0}.
+WfObjectBody.saveError=Erro ao gravar.
+WfObjectBody.visExcept=VisException ao submeter.
+WfObjectBody.newValue=O novo valor é{0}
+
+WfObjectBody.err.noDevVersion=Não foi possível ler item em Desenvolvimento
+WfObjectBody.err.noPermission=Você não tem permissões para visualizar este item
+WfObjectBody.err.noOpened=Você não pode abrir este item porque ele ainda não foi aprovado.  Os itens novos e modificados podem ser abertos somente por seus autores ou, durante o processo de aprovação, pelos responsáveis pelos dados responsáveis e pelas partes interessadas.
+Editor.wf.noperm=Você não possui direitos para editar
+Editor.wf.devVers=Você deve trocar para a versão não aprovada para editar
+Editor.wf.status=Este termo não pode ser editado. Termo em uso por outro usuário.
+Editor.wf.error.removingStalledSet=Erro ao remover o conjunto parado da versão de produção.													  
+
+
+Editor.wf.noperm=Você não tem permissão para editar
+Editor.wf.devVers=Você não deveria alterar para versão não aprovada para editar
+Editor.wf.status=Este item não pode ser editado.  O item está em processo por outro usuário.
+Editor.wf.error.removingStalledSet=Erro ao remover o conjunto não utilizadp da versão de produção.

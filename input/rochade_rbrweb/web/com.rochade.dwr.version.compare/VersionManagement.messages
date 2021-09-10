@@ -1,0 +1,96 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#------------------------------ Report Definition (RoBrowser) ------------------------------ 
+### Icons: all images should be inside of dir /com.rochade.dwr.version.compare/ + img/, see plugin.xml
+
+rbr.version.compare.filter.action.do=/com.rochade.dwr.version.compare/img/ArrowRight-16x16.png
+rbr.version.select.img=/com.rochade.wa.action.ui/img/16x16_organize.png
+rbr.version.compare.filter.forward=/com.rochade.wa.ui.macros/img/right_16x16.png
+rbr.version.compare.filter.backward=/com.rochade.wa.ui.macros/img/left_16x16.png
+rbr.version.publish.img=/com.rochade.wa.action.ui/img/share.gif
+
+rbr.version.compare.head.type=Item Type
+rbr.version.compare.head.name=Name
+rbr.version.compare.head.status=Status
+rbr.version.compare.head.compare=Compare: 
+rbr.version.compare.head.qualname=Qualified Name
+rbr.version.compare.head.impactedD=Downstream Impacts for {0} {1}
+rbr.version.compare.head.impactedB=Up- and Downstream Impacts for {0} {1}
+rbr.version.compare.head.impactedU=Upstream Impacts for {0} {1}
+rbr.version.compare.head.impactedIn={0} Impacted Items in {1}
+
+rbr.version.label.select=Select Version for Comparison
+rbr.version.label.newer=Newer Snapshot
+rbr.version.label.older=Older Snapshot
+rbr.version.label.result=Result of comparison between {0} and {1}
+rbr.version.label.publish=Publish
+rbr.version.label.publish.report=Result in Report
+rbr.version.label.publish.reportStatistics=Statistics in Report 
+rbr.version.label.publish.displayStatistics=Display Statistics
+
+rbr.version.compare.list.tablabel=Compare Version
+rbr.version.compare.item.tablabel=Compare Version
+rbr.version.compare.impact.tablabelD=Downstream Impacts
+rbr.version.compare.impact.tablabelB=Up- and Downstream Impacts
+rbr.version.compare.impact.tablabelU=Upstream Impacts
+
+rbr.version.compare.filterStatus=Status filter:
+
+rbr.version.compare.filter.label=Compare Version Filter
+rbr.version.compare.filter.namefilter=Name filter
+rbr.version.compare.filter.typefilter=Type filter
+rbr.version.compare.filter.attrfilter=Attribute filter
+rbr.version.compare.filter.button.run=Run
+rbr.version.compare.filter.button.cancel=Cancel
+rbr.version.compare.filter.button.close=Close
+
+rbr.version.compare.filter.availableTypes=Available Item Types
+rbr.version.compare.filter.selectedTypes=Restrict Compare to Item Types
+rbr.version.compare.filter.availableAttributes=Available Attributes
+rbr.version.compare.filter.selectedAttributes=Restrict Compare to Attributes
+rbr.version.compare.filter.organize=Organize
+rbr.version.compare.filter.selectall=Select All
+rbr.version.compare.filter.deselectall=Deselect All
+rbr.version.compare.filter.invert=Invert Selection
+rbr.version.compare.filter.typeList.footer=Types found: {0}
+rbr.version.compare.filter.attrList.footer=Attributes found: {0}
+rbr.version.compare.filter.cmpExec.AllAtt_AllType=Compare all attributes of all item types
+rbr.version.compare.filter.cmpExec.AllAtt_NType=Compare all attributes of {0} item types
+rbr.version.compare.filter.cmpExec.AllAtt_1Type=Compare all attributes of item type {0}
+rbr.version.compare.filter.cmpExec.NAtt_1Type=Compare {0} attribute(s) of item type {1}
+
+rbr.version.compare.menu.open=Open
+rbr.version.compare.menu.compare=Compare
+rbr.version.compare.menu.impact=Impacts
+rbr.version.compare.menu.impactDown=Downstream
+rbr.version.compare.menu.impactUpDown=Up- and Downstream
+rbr.version.compare.menu.impactUp=Upstream
+
+rbr.version.compare.status.StatusUnchanged=Unchanged
+rbr.version.compare.status.rev.StatusUnchanged=Unchanged
+
+rbr.version.compare.status.StatusOnlyIn1=New
+rbr.version.compare.status.rev.StatusOnlyIn1=Deleted
+
+rbr.version.compare.status.StatusOnlyIn2=Deleted
+rbr.version.compare.status.rev.StatusOnlyIn2=New
+
+rbr.version.compare.status.StatusDifferent=Different
+rbr.version.compare.status.rev.StatusDifferent=Different
+
+rbr.version.compare.status.StatusDifferent_1_is_Dummy=Deleted
+rbr.version.compare.status.rev.StatusDifferent_1_is_Dummy=New
+
+rbr.version.compare.status.StatusDifferent_2_is_Dummy=New
+rbr.version.compare.status.rev.StatusDifferent_2_is_Dummy=Deleted
+
+rbr.version.compare.result.StatusAll=All
+
+rbr.version.compare.result=Differences found: New {0}, Different {1}, Deleted {2}
+rbr.version.compare.noResult=No differences found

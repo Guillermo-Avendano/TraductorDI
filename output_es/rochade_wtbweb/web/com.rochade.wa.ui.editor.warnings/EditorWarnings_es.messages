@@ -1,0 +1,31 @@
+﻿# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.wa.ui.editor.objectinfo
+#
+### Icons: all images should be inside of dir /com.rochade.wa.ui.editor.warnings/ + img/, see plugin.xml
+
+#extra icons
+### END Icons
+
+EditorWarnings.title=Advertencias
+EditorWarnings.subtitle=Displays the warnings that have been issued for the current business item. 
+EditorWarnings.dcsubtitle=Displays the warnings that have been issued for the current data concept. 
+
+EditorWarnings.type.EWT_MULTILINGUAL=Advertencias Multi-Idioma
+# EditorWarnings.type.EWT_MANDATORY=Advertencias obligatorias
+EditorWarnings.type.EWT_RULE=Advertencias de Reglas y Obligatorias
+
+EditorWarnings.colIcon.label=
+EditorWarnings.colItemName.label=Propiedad
+EditorWarnings.colMessage.label=Descripción
+
+EditorWarnings.enter=Cerrar la ventana (<Enter>, <Esc>)
+
+
+EditorWarnings.btnOK.label=Aceptar

@@ -1,0 +1,65 @@
+﻿# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.wa.ui.deleteitem
+#
+### Icons: all images should be inside of dir /com.rochade.wa.ui.deleteitem/ + img/, see plugin.xml
+
+#extra icons
+### END Icons
+
+DeleteItem.name=Nombre
+DeleteItem.type=Tipo
+
+DeleteItem.currappl=Subject Area actual:
+DeleteItem.curnamespace=Espacio de nombres actual:
+DeleteItem.backbutton=< Volver
+DeleteItem.nextbutton=Siguiente>
+DeleteItem.finishbutton=Finalizar
+DeleteItem.cancelbutton=Cancelar
+DeleteItem.changebutton=Cambiar...
+DeleteItem.enter=<Enter>: Finalizar
+DeleteItem.altB=Alt-B: Negro
+DeleteItem.altN=Alt-N: Siguiente
+DeleteItem.esc=<Esc>: Cancelar
+
+DeleteItem.title=Eliminar ítem
+DeleteItem.list=Lista de ítems:
+DeleteItem.items=Ítems:
+DeleteItem.select=Seleccionar ítems
+DeleteItem.specify=Especificar los ítems que desea eliminar.
+DeleteItem.selecteditems=Ítems seleccionados para ser eliminados:
+DeleteItem.mode=Eliminar Modo
+DeleteItem.selectmode=Seleccione el modo por el cual se deben suprimir los ítems.
+DeleteItem.mode_REMOVE=Eliminar Modo:
+DeleteItem.mode_ERASE=Borrar el contenido del ítem
+DeleteItem.mode_REMVERSION=Eliminar la versión del ítem
+DeleteItem.mode_HIDE=Eliminar la versión del ítem y ocultar versiones subyacentes
+DeleteItem.options=Opciones adicionales
+DeleteItem.effect=Efecto del modo de extracción seleccionado:
+DeleteItem.erase=Borrar el contenido del ítem - borra el contenido del ítem y reinicializa los atributos del mismo.
+DeleteItem.delrefswc=Eliminar referencias al ítem a partir de otros de la configuración de trabajo
+DeleteItem.delchildren=Elimina a los miembros del espacio de nombres asignados a la configuración de trabajo
+DeleteItem.remversion=Eliminar la versión del ítem - Elimina la versión del ítem de la Subject Area corriente, el ítem permanece visible si existe en Subject Areas subyacentes.
+DeleteItem.hide=Eliminar la versión del ítem y ocultar versiones subyacentes - Elimina la versión del ítem de la Subject Area corriente, el ítem estará oculto si existe en Subject Areas subyacentes.
+DeleteItem.delrefs=Eliminar referencias al ítem
+DeleteItem.delnsmembers=Eliminar miembros de espacio de nombres
+DeleteItem.removeitems=Eliminar ítems
+DeleteItem.finish=Haga clic en Finalizar para eliminar los ítems.
+DeleteItem.finallist=Lista final de ítems :
+DeleteItem.delfailure=No se puede eliminar uno o más ítems.
+DeleteItem.delaction=Eliminar Acción
+DeleteItem.delsuccess=Eliminar la operación completada con éxito.
+DeleteItem.idlocked=ítem está bloqueado en esta Subject Area
+DeleteItem.somelocked=Algunos de los ítems seleccionados ya están bloqueados.
+DeleteItem.somelocked1=¿Le gustaría omitir estos ítems y continuar?
+DeleteItem.lockfailure=Falla al recuperar bloquear uno o mas ítems.
+DeleteItem.add=Agregar
+
+DeleteAction.errLoading=Error al cargar el ítem que será eliminado.
+DeleteAction.errDeleting=Error al eliminar el ítem.

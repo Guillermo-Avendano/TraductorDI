@@ -1,0 +1,115 @@
+﻿# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+Subentry.SnapShots=Snapshots
+dg.snapnav.new_config.msg=Nueva Configuración de Snapshot
+
+dg.snapshot.config.addItems=Add Items
+dg.snapshot.config.colAbsName=Nombre Calificado.
+dg.snapshot.config.colDescr=Descripción
+dg.snapshot.config.colName=Nombre
+dg.snapshot.config.colType=Tipo
+dg.snapshot.config.configTitle=Configuración de Snapshot:
+dg.snapshot.config.contentConfig=Configuración del contenido del snapshot:
+dg.snapshot.config.contentConfigV=Configuración del contenido del snapshot:
+dg.snapshot.config.createSnapshot=Crear un nuevo Snapshot
+dg.snapshot.config.creationDate=Fecha de creación
+dg.snapshot.config.delete=Borrar
+dg.snapshot.config.edit=Editar
+dg.snapshot.config.exit=Salir
+dg.snapshot.config.longDscr=Descripción larga:
+dg.snapshot.config.delta=Número de
+dg.snapshot.config.includeTags=Etiquetas incluidas:
+dg.snapshot.config.includeLikes=Include likes:
+dg.snapshot.config.noActionInSnapshot=No esta permitido crear o borrar un Snapshot porque esta dentro de una vista del mismo Snapshot
+dg.snapshot.config.noActionNoSeeds=La creación del Snapshot no se permite porque los ítems "semilla" ya no están disponibles.
+dg.snapshot.config.noActionRunning=Crear o borrar un Snapshot no se permite porque ya existe un proceso de ese tipo en ejecución.
+dg.snapshot.config.refresh=Refrescar
+dg.snapshot.config.remove=Eliminar
+dg.snapshot.config.save=Guardar
+dg.snapshot.config.saveexit=Guardar & Salir
+dg.snapshot.config.sdcac=Seleccionar condiciones (Sintaxis SDCAC)
+dg.snapshot.config.sdcac.invalid=Definición de condición es inválida {0}
+dg.snapshot.config.seedItems=Ítems Semillas
+dg.snapshot.config.shortDscr=Descripción corta:
+dg.snapshot.config.snapshots=Snapshots:
+dg.snapshot.config.status=Estado
+dg.snapshot.config.incomplete=Nombre, descripción corta, descripción larga, ítems gérmen, y/o condiciones seleccionadas no existen o son inválidas.
+dg.snapshot.content=Contenido del Snapshot:
+dg.snapshot.create.snapshot.rpc.noService=La creación del Snapshot en segundo plano no fue posible El servicio no esta instalado?
+dg.snapshot.create.snapshot.rpc.runBackground=La creación del Snapshot {0} podría tardar un tiempo. Esto se realiza en segundo plano, por lo tanto puede continuar su trabajo.
+dg.snapshot.create.snapshot.rpc.runOnline=La creación del Snapshot {0} podría tardar un tiempo. La versión o privilegios del servidor no son suficientes o el servicio RPC no está instalado para proceder en segundo plano. ¿Desea continuar?
+dg.snapshot.create.snapshot.rpc.started=La creación del Snapshot en segundo plano iniciado.
+dg.snapshot.create.snapshot.rpc.failed=La creación del Snapshot en segundo plano falló. El servicio no fue encontrado.
+dg.snapshot.create.snapshot.running=No es posible crear el Snapshot porque ya hay un proceso de borrado/creación del mismo en ejecución. Intente después.
+dg.snapshot.creationDate=Fecha de Creación:
+dg.snapshot.delete.config.msg=Seguro de borrar la Configuracion del Snapshot {0} ?
+dg.snapshot.delete.config.title=Borrar Configuración del Snapshot
+dg.snapshot.delete.msg=Seguro de borrar el Snapshot {0}?
+dg.snapshot.delete.root.msg=Seguro de borrar el item semilla {0} de la configuracion de snapshot {1}?
+dg.snapshot.delete.root.title=Eliminar Item Gérmen
+dg.snapshot.delete.snapshot.error=Error borrando Snapshot
+dg.snapshot.delete.snapshot.locked.msg=No puede borrar el Snapshot porque esta en uso
+dg.snapshot.delete.snapshot.title=Borrar Snapshot
+dg.snapshot.delete.snapshot.rpc.noService=No fue posible borrar el Snapshot en segundo plano. No está instalado el servicio?
+dg.snapshot.delete.snapshot.rpc.runBackground=Eliminar el Snapshot {0} podría tardar un tiempo. Esto se realiza en segundo plano, por lo tanto puede continuar su trabajo.
+dg.snapshot.delete.snapshot.rpc.runOnline=Eliminar el Snapshot {0} puede tardar un tiempo. La versión o privilegios del servidor no son suficientes o el servicio RPC no está instalado para proceder en segundo plano. ¿Desea continuar?
+dg.snapshot.delete.snapshot.rpc.started=El borrado del Spanshot en segundo plano fue iniciado.
+dg.snapshot.delete.snapshot.rpc.failed=Falló el borrado del Snapshot en segundo plano. El servicio no disponible.
+dg.snapshot.delete.snapshot.running=No es posible borrar el Snapshop porque ya hay un proceso de borrado/creación en ejecución. Por favor, indente después.
+dg.snapshot.delete.successor.locked.msg=No puede borrar el Snapshot porque uno de sus sucesores esta en uso
+dg.snapshot.name.config.duplication.msg=Configuración de Snapshot con ese nombre ya existe
+dg.snapshot.name.duplication.msg=Un Spanshot con ese nombre ya existe
+dg.snapshot.name.duplication.title=Nombre duplicado
+dg.snapshot.new.name_invalid.title=Nombre inválido
+dg.snapshot.new.name_invalid=Nombre inválido, no debe contener espacios, minúsculas, salto de linea, o cualquiera de estos caracteres: * ( ) , ; : @ | # ^
+dg.snapshot.new_config.name=Nueva Configuración de Snapshot
+dg.snapshot.save.config.msg={0} fué modificado. Guarda los cambios?
+dg.snapshot.save.config.title=Guardar configuración del Snapshot
+dg.snapshot.snapshotTitle=Snapshot:
+dg.snapshot.window.cancel=Cancelar
+dg.snapshot.window.create=Crear
+dg.snapshot.window.description=Descripción:
+dg.snapshot.window.name=Nombre:
+dg.snapshot.window.title=Crear un nuevo Snapshot
+
+dg.queries.queryRBR1=Todos los items en Producción
+dg.queries.queryRBR2=Seleccion de ítem en Producción
+dg.queries.queryRBR3=Consulta de item avanzado en Producción
+dg.queries.queryRBR4=Item tree in Production
+
+DGSearchRootItemWizard.Title.Step.1=Paso 1: Buscar Items Semilla
+DGSearchRootItemWizard.Title.Step.2=Paso 2: Seleccionar Items Semilla
+DGSearchRootItemWizard.btCancel=Cancelar
+DGSearchRootItemWizard.btFinish=Agregar
+DGSearchRootItemWizard.winCaption=Agregar items Semilla
+DGSearchRootItemWizard.winWizard.height=650px
+DGSearchRootItemWizard.winWizard.width=800px
+dg.addroot.button.search=Buscar >>
+dg.addroot.errorItemTypes=No se encontraron ítems gérmen.
+dg.addroot.searchforname=Nombre:
+dg.addroot.targettype=Tipo:
+
+dg.snapshot.list.title=Elementos Semillas del Snapshot {0}
+dg.snapshot.list.allItems=El Snapshot fue creado en base a todos los ítems de Producción. Use el árbol de navegación para navegar por el mismo.
+dg.snapshot.list.noSeedItems=Los ítems Semilla ya no estan disponibles. Use el árbol de navagación para revisar este Snapshot.
+
+dg.snapshot.namestatus.failed={0} (falló)
+dg.snapshot.namestatus.ok={0}
+dg.snapshot.namestatus.running={0} en crear/borrar proceso
+dg.snapshot.namestatus.undefined={0} (no definido)
+dg.snapshot.status.failed=Falló
+dg.snapshot.status.ok=disponible
+dg.snapshot.status.running=En proceso de crear/borrar
+dg.snapshot.status.undefined=Indefinido
+
+dg.snapshot.noopen=Abrir el Snapshot {0} no es posible.
+dg.snapshot.open.title=Abrir Snapshot
+
+dg.snapshot.EventLog={0} {1} ({2})
+
+#----------------
+#icons

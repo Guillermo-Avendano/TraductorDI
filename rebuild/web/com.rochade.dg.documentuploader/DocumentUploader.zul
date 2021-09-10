@@ -1,0 +1,174 @@
+<?page contentType="text/html;charset=UTF-8"?>
+<?taglib uri="http://www.zkoss.org/dsp/web/core" prefix="c" ?>
+
+<!-- DocumentUploader.zul @author RC 12/04/2012, created (copied and fix 
+	from MG 2.20 http://gechemsvn1.asg.com/Glossary/trunk/BusinessGlossary/WebContent/editor/addLinkPages/AddExternalDocuments.zul) 
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. -->
+
+<zk xmlns:w="http://www.zkoss.org/2005/zk/client">
+	<window id="dialogWin" title="" border="normal" width="700px"
+		height="400px" maximizable="false" minimizable="false" closable="true"
+		sclass="asg-modal-window asg-rochade-dg-documentuploader-document-uploader"
+		forward="onUpload=onUploadFileCall" apply="${arg.composer}">
+		<zscript><![CDATA[
+			boolean encodeURL = java.lang.Boolean.parseBoolean(com.rochade.wa.metaapp.MetaApplicationAdmin.getProperty("attachments.encodeURL"));
+			boolean notEncodeURL = !encodeURL;
+		]]></zscript>
+		<script type="text/javascript">
+			<![CDATA[
+				function encode (input) {
+					var _keyStr = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';
+					var output = '';
+					var chr1, chr2, chr3, enc1, enc2, enc3, enc4;
+					var i = 0;
+
+					while (i < input.length) {
+
+						chr1 = input.charCodeAt(i++);
+						chr2 = input.charCodeAt(i++);
+						chr3 = input.charCodeAt(i++);
+
+						enc1 = chr1 >> 2;
+						enc2 = ((chr1 & 3) << 4) | (chr2 >> 4);
+						enc3 = ((chr2 & 15) << 2) | (chr3 >> 6);
+						enc4 = chr3 & 63;
+
+						if (isNaN(chr2)) {
+							enc3 = enc4 = 64;
+						} else if (isNaN(chr3)) {
+							enc4 = 64;
+						}
+
+						output = output +
+						_keyStr.charAt(enc1) + _keyStr.charAt(enc2) +
+						_keyStr.charAt(enc3) + _keyStr.charAt(enc4);
+
+					}
+
+					return output;
+				}
+				]]>
+		</script>
+		<caption image="${wtb:getImg('documentuploader.img.addLink')}"
+			label="${c:l('dg_AddExternalDoc.dialogheader')}" />
+		<borderlayout>
+			<center>
+				<div>
+					<groupbox style="margin: 5px; ">
+						<caption label="${c:l('dg_AddExternalDoc.caption1')}" />
+						<radiogroup id="radioGroup" forward="onCheck=onCheckRadio">
+							<hbox style="margin: 10px 5px 5px 5px">
+								<radio id="rdURL" label="${c:l('dg_AddExternalDoc.radio1')}"
+									selected="true" />
+								<radio id="rdDocument" label="${c:l('dg_AddExternalDoc.radio2')}" />
+							</hbox>
+						</radiogroup>
+					</groupbox>
+					<groupbox height="180px" style="margin: 5px" id="urlGroup">
+						<caption label="${c:l('dg_AddExternalDoc.caption2')}" />
+						<grid width="635px" sclass="asg-grid"
+							style="border:0px; padding:5px 5px 0px 5px; background:transparent">
+							<columns>
+								<column align="right" width="100px" />
+								<column align="left" width="225px" />
+								<column align="right" width="160px" />
+								<column align="center" width="150px" />
+							</columns>
+							<rows>
+								<row spans="1,3"
+									style="border: 0px; background:transparent; padding:3px ">
+									<label value="${wtb:l('rim.attr.URL')}:" style="color:${wtb:l('asg-atlantic-first-color')}" />
+									<textbox id="urlInput" value="" width="98%" focus="true"
+										if="${notEncodeURL}" />
+									<textbox id="urlInputWithEncode" value="" width="99%"
+										focus="true" if="${encodeURL}">
+										<attribute w:name="fireOnChange">
+											function (opts) {
+											var val =
+											this.marshall_(this.getValue());
+											val = encode(val);
+											this.fire('onChange',
+											_onChangeData(this, {value: val}),
+											opts);
+											}
+										</attribute>
+										<attribute w:name="updateChange_">
+											function () {
+											var inp =
+											this.getInputNode(),
+											val = inp.value;
+											inp.value = encode(val);
+											this.$updateChange_();
+											inp.value = val;
+											}
+										</attribute>
+										<attribute name="onChange"><![CDATA[
+											String value = event.getValue();
+											self.setValue(value);
+										]]></attribute>
+									</textbox>
+								</row>
+								<row height="10px" />
+								<row spans="1,3"
+									style="border: 0px; background:transparent; padding:3px ">
+									<label value="${wtb:l('rim.attr.DEFINITION')}:" style="color:${wtb:l('asg-atlantic-first-color')}" />
+									<textbox id="urldefText" rows="1" width="98%" />
+								</row>
+							</rows>
+						</grid>
+					</groupbox>
+					<groupbox height="180px" style="margin: 5px" id="fileGroup"
+						visible="false">
+						<caption label="${c:l('dg_AddExternalDoc.caption3')}" />
+						<grid width="635px" sclass="asg-grid"
+							style="border:0px; padding:5px 5px 0px 5px; background:transparent">
+							<columns>
+								<column align="right" width="100px" />
+								<column align="left" width="225px" />
+								<column align="right" width="160px" />
+								<column align="center" width="150px" />
+							</columns>
+							<rows>
+								<row spans="1,3"
+									style="border: 0px; background:transparent; padding:3px ">
+									<label value="${wtb:l('rim.attr.RBG/FILE-COPY')}:" style="color:${wtb:l('asg-atlantic-first-color')}" />
+									<button label="${wtb:l('dg_AddExternalDoc.button.upload')}"
+										focus="true" sclass="asg-button-standard-blue-10px" onClick="Fileupload.get(true);" />
+								</row>
+								<row height="10px" />
+								<row spans="1,3"
+									style="border: 0px; background:transparent; padding:3px ">
+									<label value="${wtb:l('rim.attr.DEFINITION')}:" style="color:${wtb:l('asg-atlantic-first-color')}" />
+									<textbox rows="1" id="filedefText" width="98%" />
+								</row>
+								<row height="10px" />
+								<row spans="1,3"
+									style="border: 0px; background:transparent; padding:3px ">
+									<label value="${wtb:l('rim.attr.RBG/DOCUMENT-TITLE')}:"
+										style="color:${wtb:l('asg-atlantic-first-color')}" />
+									<label id="fileUploadTitle" width="340px" />
+								</row>
+								<row height="10px" />
+								<row spans="1,3"
+									style="border: 0px; background:transparent; padding:3px ">
+									<label value="${wtb:l('rim.attr.RBG/FILE-TYPE')}:" style="color:${wtb:l('asg-atlantic-first-color')}" />
+									<label id="fileUploadType" width="340px" />
+								</row>
+							</rows>
+						</grid>
+					</groupbox>
+				</div>
+			</center>
+			<south height="70px" class="field1" style="border: none;">
+				<hbox height="70px" align="center" pack="end" width="98%">
+					<button id="btAdd" disabled="true" forward='onClick=onFinish'
+						width="150px" sclass="asg-button" label="${c:l('dg_AddExternalDoc.button.addterms')}"
+						style="margin: 0 10px 0 0" />
+					<button forward='onClick=onCancelClicked' width="150px"
+						sclass="asg-button" label="${c:l('dg_AddExternalDoc.button.cancel')}"
+						style="margin: 0 10px 0 0" />
+				</hbox>
+			</south>
+		</borderlayout>
+	</window>
+</zk>

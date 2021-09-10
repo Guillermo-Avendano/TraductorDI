@@ -1,0 +1,29 @@
+﻿# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.wa.report
+#
+### Icons: all images should be inside of dir /com.rochade.wa.report/ + img/, see plugin.xml
+
+#extra icons
+### END Icons
+
+Param.select=Especifique los parámetros para ejecutar el informe.
+Param.property=Parámetro
+Param.value=Valor
+Param.runButton=Ejecutar
+Param.cancelButton=Cancelar
+Param.resetButton=Reestablecer
+Param.reportparam=Parámetro del Reporte
+
+# Tooltips
+
+Param.altS=Ejecutar Configuraciones (Alt-S)
+Param.enter=Ejecutar Reporte (Alt-R, <enter>)
+Param.esc=Cancelar (<Esc>)
+Param.reset=Reestablecer

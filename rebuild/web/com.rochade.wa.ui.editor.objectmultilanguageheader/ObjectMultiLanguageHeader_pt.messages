@@ -1,0 +1,15 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+# package: com.rochade.wa.ui.editor.objectmultilanguageheader
+#
+ml.otherLanguages=Outros Idiomas
+ml.default.label=- (Padrão)
+ml.header.translated=Traduzido de {0}:
+ml.edit.switchOffLanguage.msgtext=Deseja realmente desabilitar o idioma ? Isto irá descartar qualquer alteração feita neste idioma. {0}
+mg.edit.switchOffLanguage.title=Aviso

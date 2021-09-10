@@ -1,0 +1,98 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+### Icons: all images should be inside of dir /com.rochade.wa.ui.base/ + img/, see plugin.xml
+
+#extra icons
+### END Icons
+
+IndexComposer.missingload=Faltando <load name={0}>  no plugin.xml para o componente índice.
+IndexComposer.confirmclose=Recomendamos fortemente salvar seu trabalho e clicar no hyperlink "Logoff" antes de fechar a janela do navegador.
+IndexComposer.loggingoff=Fazendo Logout
+IndexComposer.loggedoff=Você foi desconectado.  Pressione [OK] para se conectar novamente.
+IndexComposer.autotosmall=O valor da configuração session.autocloseTimeout é muito pequeno.  Foi configurado para {0} ms.
+IndexComposer.autotobig=O valor da configuração session.autocloseTimeout é muito alto.  Foi configurado para {0} ms.
+IndexComposer.warntosmall=O valor da configuração session.warningTimeout é muito pequeno.  Foi configurado para {0} ms.
+IndexComposer.illegallang=Idioma ilegal solicitado pelo parâmetro de URL "Lang": {0}
+IndexComposer.bookmarkerr=O marcador não pode ser aberto por causa de informações insuficientes
+IndexComposer.nodirectws=Não é permitido especificar um ambiente de trabalho na URL.  A sintaxe $workspace deve ser utilizada.
+IndexComposer.compatmode=Você está executando o Internet Explorer na Visualização de Compatibilidade.  Isto irá causar diversos problemas de layout.  Favor, alterar para o modo padrão.
+IndexComposer.invalidbookmark=A visualização não pode ser aberta.  O marcador aponta para um objeto que não existe mais.
+IndexComposer.logincompleted=Login concluído.
+IndexComposer.startupcompleted=Início concluído.  O carregamento de componentes iniciou.
+#IndexComposer.noupdatelicense=Suas funções implicam responsabilidades para o uso de Atualizações, mas o número de licenças de atualização é excedido. Aguarde até que uma licença de atualização fique disponível ou entre em contato com o Administrador.
+IndexComposer.noupdatelicense=A Rochade detectou que você é um usuário de atualização.  Atualmente, não há licenças de atualização disponíveis.  Aguarde até que uma licença de atualização fique disponível ou entre em contato com o administrador da Rochade.
+IndexComposer.enterReviewWIPMode=Existe Trabalho em Andamento em outro ambiente disponível para você para revisão!\nIniciar a revisão?
+IndexComposer.enterReviewWIPModeTitle=Revisar Trabalhos em Andamento
+IndexComposer.activelicense=A licença ativa para esta sessão é {0}.
+IndexComposer.alreadyInWip=Outro desktop já está funcionando no modo Desenvolvimento.  Portanto, não é possível ter vários desktops.  Por favor, feche a guia do navegador.
+IndexComposer.warbrNoaccess=O espaço de trabalho {0} do Navegador Rochade não está acessível.
+ 
+
+Menu.home=Painel de Controle
+Menu.report=Relatórios
+Menu.file=Arquivo
+Menu.item=Item
+Menu.query=Consulta
+Menu.tools=Ferramentas
+Menu.connectionmanager=Gerenciador de Conexões
+Menu.preferences=Preferências
+Menu.configure=Configurar
+Menu.confNav=Personalizar Caminhos de Navegação
+Menu.confPort=Personalizar Áreas de Trabalho
+Menu.confFav=Configurar Favoritos
+Menu.debug=Depurar
+Menu.statistics=Estatísticas
+Menu.trace=Rastreabilidade
+Menu.memory=Memória
+Menu.uipermissions=Permissões de UI
+Menu.debugpref=Preferências
+Menu.debugcapa=Funcionalidades
+Menu.debugaction=Ações
+Menu.debugcomp=Componentes
+Menu.debugquery=Consultas
+Menu.debugtableshape=Formas da Tabela
+Menu.debugsetting=Configurações
+Menu.debugworkspaces=Áreas de Trabalho
+Menu.debugwfengine=Motor para Fluxo de Trabalho								  
+Menu.debugextensions=Extensões
+Menu.debugconflicts=Verificar Conflitos
+Menu.debugdeployment=Detalhes de implantação
+Menu.about=Sobre
+Menu.logger=Log de Sessão
+Menu.user=Usuário {0}
+Menu.login=Conectar
+Menu.logoff=Desconectar
+Menu.loggedoff=Você foi desconectado.  Pressione [OK] para fazer login novamente.
+Menu.reload=Você solicitou se desconectar, mas a sessão permanece ativa porque várias guias do navegador estão abertas.  Feche as guias do navegador ou pressione [OK] para recarregar.
+Menu.nav=Navegação
+Menu.tab=Conteúdo
+Menu.apptab=Tipos de Aplicação
+Menu.confirmlogoff=Nós recomendamos gravar suas alterações antes de se desconectar.
+Menu.confirm=Tem certeza que deseja se desconectar?
+Menu.multitab=Você tem várias abas abertas.  Por favor, fechar as outras abas antes de mudar o ID de usuário.
+Menu.confirmmulti=Você tem várias abas do navegador abertas.  Pressione [Cancelar] e feche esta aba do navegador se deseja manter a sessão ativa para outras abas.  Pressionando [OK], você irá invalidar a sessão para todas as abas.
+Menu.environment=Ambiente:
+Menu.item.production=Produção
+Menu.item.reviewWIP=Revisar Trabalhos em Andamento
+Menu.item.browseWIP=Área de Desenvolvimento
+Menu.item.wip=Desenvolvimento
+#Menu.tabdirty=Existem abas abertas que estão atualmente no modo de Edição. Por favor, feche essas guias antes de mudar.
+Menu.tabdirty=Existem guias do navegador que falta gravar alterações.  Por favor, grave as alterações antes desta alteração.
+Menu.enterWIP.multipleSessions=A inicialização do modo WIP falhou porque existem várias guias do navegador abertas. Por favor, feche as outras guias do navegador.
+
+Tab.menuitem.close=Fechar
+Tab.menuitem.closeall=Fechar Tudo
+Tab.menuitem.closeothers=Fechar as Outras
+
+Query.incomplete.limited=Número de itens nesta visualização limitada a {0}. O resultado está incompleto.
+Query.incomplete.interrupted=A Consulta foi interrompida.  O Resultado está incompleto.
+Query.incomplete.repeat.interruptible=Pressione aqui para executar a consulta novamente.
+Query.incomplete.repeat.nonInterruptible=Pressione aqui para executar a consulta novamente sem limite (não pode ser interrompida).
+Query.running.background=Pesquisa está em execução em segundo plano.\nPor favor espere.
+Query.cannotExecute=Erro ao executar a consulta.

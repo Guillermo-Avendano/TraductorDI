@@ -1,0 +1,59 @@
+﻿#-------------------------------------------------------
+# Rochade Business Package - Message file
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+#
+# package: com.rochade.gdp.objectcontent
+#
+# names of custom tabs
+Tab.GDP.Details=Detalhes
+Tab.GDP.PI.Implementation=Implementação & Cascata
+Tab.GDP.Personal_Information=Informação Pessoal
+Tab.PIA.Overview=Resumo
+Tab.PIA.DataAndSupportingAssets=Dados e Ativos Suportados
+Tab.PIA.ProportionalityAndNecessity=Proporcionalidade e Necessidade
+Tab.PIA.RightsOfDataSubjects=Direitos dos titulares
+Tab.PIA.ExistingAndPlannedMeasures=Medidas Existentes e Planejadas
+Tab.PIA.RiskSources=Origem dos Riscos
+Tab.PIA.RiskEvaluation=Avalia'c~ao de Risco
+Tab.GDP.PIAs=Avaliação de Privacidade
+
+# localization for different tabs
+label.GDP_PIImplementation=Implementado diretamente ou indiretamente como elemento de dados físico
+label.GDP_PICascade=Cascata por
+label.GDP_PISensitiveWithBL=Sensitivo combinado
+label.GDP_PIUsedInStructure=Usado nas estruturas PI (Informação Pessoal)
+label.GDP_LinkedPIs=Informações pessoais relacionadas
+label.GDP_LinkedPIStructures=Estruturas de PI (Informações Pessoais) relacionadas
+label.GDP_CascadedPIs=Informações pessoais relacionadas por cascata
+label.GDP_PIRelated=Informação Pessoal
+label.GDP_LinkedTechDataPIs=Dados pessoais relacionados por dados técnicos detectadosa
+label.GDP_PIPDE=Elementos de dados Físicos
+label.GDP_LinkedPIAs=Avaliação de impacto de privacidade disponível
+# Labels of PIA tabs
+label.GDP_UsingSensiblePI=Este processamento ativo usa dado pessoal? \nSe Sim, por favor, forneça as informações de processamento abaixo. Se não, continue na próxima pergunta.
+label.GDP_SendingDataOutsideEU=O dado pessoa foi enviado para fora da União Européia?
+label.GDP_LifeCycleDescription=Por favor, descreva o dado e os ciclos de vida:
+label.GDP_UsesPersonalInformation=Selecione as definições de dados pessoal
+label.GDP_SupportingAssets=Quais são os ativos que suportam o processamento de dado pessoal?
+label.GDP_ProcessingPurposes=Os propósitos de processamento de dados pessoais especificados são explícitos e legítimos?
+label.GDP_FollowedPolicies=Quais são as bases legais (políticas) tornado o dado pessoal legal?
+label.GDP_MinimizedData=Os dados pessoais coletados são adequados, relevantes e limitados ao necessário?
+label.GDP_AccurateData=O dado pessoal está correto e atualizado?
+label.GDP_SubjectsInformed=Quais são as finalidades informadas para o processamento de dados pessoais?
+label.GDP_SubjectsConsentObtained=Como é obtido o consentimento dos titulares dos dados?
+label.GDP_RectificationAndErasure=Como os proprietários dos dados exercem seu direito de revalidação ou esquecimento?
+label.GDP_RestrictionAndObject=Como os titulares dos dados podem exercer seu direito de restringir e se opor ao processamento?
+label.GDP_ObligationsIdentifiedAndContracted=As obrigações do processador são claramente identificadas e regidas por um contrato?
+label.GDP_ExistingMeasures=Identificadas medidas existentes para aperfeiçoar a segurança de dados pessoais
+label.GDP_PlannedMeasures=Identificada medidas planejadas que podem contribuir para segurança de dados pessoais
+label.GDP_RiskSourcesIllegitimateAccess=Quais são as origens dos risco evidenciados abaixo? \nAcesso ao dado não autorizado:
+label.GDP_RiskSourcesUnwantedModification=Modificação de dado não autorizada:
+label.GDP_RiskSourcesDataDisappearance=Dado perdido:
+label.GDP_RiskSeverity=Qual a severidade prevista para o evento de risco, considerando potenciais impactos e controles planejados?
+label.GDP_RiskLikelihood=Qual a probabilidade do evento de risco, considerando as fontes de risco e os controles planejados?
+
+#{0}=Atributo Nome, {1}=SDCAC mensagem de erro

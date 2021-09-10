@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page id="manageTagsMenu" title="Manage Tags Menu" contentType="text/html;charset=UTF-8"?>
+<!-- 
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 	
+-->
+<selviewmenu>
+	<div hflex="1">
+		<div sclass="asg-menubar-right-aligned">
+			<menubar style="background:none; border:none">
+				<menu actionId="DWR_Organize">
+					<menupopup>
+						<menuitem actionId="WTB_SelectAll"/>
+						<menuitem actionId="WTB_DeselectAll"/>
+						<menuseparator />
+						<menuitem actionId="WTB_RouteOpen" enableCondition="selection.single" visibleCondition="WTB_RouteOpen.visible"/>
+						<menuseparator />
+						<menuitem actionId="WTB_RenameItem" enableCondition="selection.single" visibleCondition="WTB_RouteRename.visible"/>
+						<menuitem actionId="WTB_RouteDelete" enableCondition="selection.single.multi" visibleCondition="WTB_RouteDelete.visible"/>
+<!--                         <menuitem actionId="WTB_RouteRegenerate" enableCondition="selection.single.multi" visibleCondition="WTB_RouteRegenerate.visible"/> -->
+						<!--
+						<menuitem actionId="WTB_TagRename" enableCondition="selection.single" visibleCondition="tag.rename"/>
+						-->
+					</menupopup>
+				</menu>
+				<menuitem actionId="WTB_RefreshNow"/>
+				<menu actionId="WTB_Editor_Share" visibleCondition="Editor.isPublishButtonEnabled">
+					<menupopup>
+						<menuitem actionId="WTB_SendUrl"/>
+						<menuitem actionId="WTB_AddFavorites" visibleCondition="WTB_AddFavorites.visible" />
+<!-- 						<menuseparator /> -->
+<!-- 						<menuitem actionId="WTB_TagExport" enableCondition="selection.single.multi" /> -->
+					</menupopup>
+				</menu>
+			</menubar>
+		</div>
+		
+		<div sclass="asg-menubar-left-aligned">
+			<special actionId="WTB_Filter"       visibleCondition="view.isTable"/>
+		</div>
+		<div sclass="clearfix" />
+	</div>
+</selviewmenu>

@@ -1,0 +1,9 @@
+﻿# Issue Management messages
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+IM_Property=Propiedad
+IM_Error_NotDefinedAndLoadedDefaultValue=No está definido. Un valor predeterminado será cargado
+IM_Error_CanNotRetrieveWorkspaceContextProviderFor=No se puede recuperar proveedor de contexto del área de trabajo para:

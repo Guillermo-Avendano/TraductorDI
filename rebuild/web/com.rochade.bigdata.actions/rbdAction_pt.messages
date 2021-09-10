@@ -1,0 +1,88 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#
+#-------------------------------------------------------
+
+RBD_EnvironmentReports.lbl=Ambiente
+RBD_EnvironmentReports.tip=Ambiente
+
+#------------------------------ Action Definition ------------------------------ 
+### Icons: all images should be inside of dir /com.rochade.bigdata.actions/ + img/, see plugin.xml
+
+RBD_EnvRef.lbl=Referências
+RBD_EnvRef.tip=Referências do Item
+RBD_EnvRefAndUsages.lbl=Referências e Usos
+RBD_EnvRefAndUsages.tip=Referências & Usos do Item
+RBD_EnvUsages.lbl=Usos
+RBD_EnvUsages.tip=Usos do Item
+
+DWR_DataLineage_DWR_RDB_TABLE_OR_VIEW.lbl=Transformação de Tabela
+DWR_DataLineage_DWR_RDB_TABLE_OR_VIEW.tip=mpath:TableTransformation
+DWR_TableTransformation.tip=Transformação de Tabela
+RBD_TableLineage.lbl=Linhagem de Tabela de Big Data
+RBD_TableLineage.tip=Linhagem de Dados para Tabelas ou Views
+RBD_TableStructure.lbl=Estrutura de Tabela
+RBD_TableStructure.tip=Estrutura de Tabela
+RBD_FileLineage.lbl=Linhagem de Arquivo de Big Data
+RBD_FileLineage.tip=Linhagem de Dados para Arquivos
+RBD_Table_Forward-Diagram.lbl=Avançar
+RBD_Table_Forward-Diagram.tip=Linhagem Progressiva de Tabela de Big Data
+RBD_Table_Backward-Diagram.lbl=Retornar
+RBD_Table_Backward-Diagram.tip=Linhagem Retrógrada de Tabela de Big Data
+RBD_File_Forward-Diagram.lbl=Avançar
+RBD_File_Forward-Diagram.tip=Linhagem Progressiva de Tabela de Big Data
+RBD_File_Backward-Diagram.lbl=Retornar
+RBD_File_Backward-Diagram.tip=Linhagem Retrógrada de Tabela de Big Data
+#------------------------------ non Action Definition ------------------------------ 
+############ DWR item view text ##############
+header.ValueDomain=
+header.ConceptualDomain=CD:
+
+
+RBD_ComplexDataTypesUsage.tip=Uso de Tipos Complexos
+RBD_ComplexDataTypesUsage.lbl=Uso de Tipos Complexos Por
+RBD_DataTypesByColumns.tip=Uso de tipos de dados complexos de Big Data por colunas
+RBD_DataTypesByColumns.lbl=Colunas
+RBD_DataTypesByFields.tip=Uso de tipos de dados complexos de Big Data por campos
+RBD_DataTypesByFields.lbl=campos
+
+RBD_ComplexRecordTypesUsage.tip=Uso de Tipos Complexos
+RBD_ComplexRecordTypesUsage.lbl=Uso de Tipos Complexos Por
+RBD_RecordTypesByColumns.tip=Uso de tipos de registros complexos de Big Data por colunas
+RBD_RecordTypesByColumns.lbl=Colunas
+RBD_RecordTypesByFields.tip=Uso de tipos de registros complexos de Big Data por campos
+RBD_RecordTypesByFields.lbl=campos
+
+RBD_FieldsUsage.tip=Uso de Campos de Dados
+RBD_FieldsUsage.lbl=Uso de Campos de Dados
+RBD_FieldsByRecordTypes.tip=Uso de campos de dados de big data por tipos de registro
+RBD_FieldsByRecordTypes.lbl=Tipos de Registro
+RBD_FieldsByColumns.tip=Uso de campos de dados de big data por colunas
+RBD_FieldsByColumns.lbl=Colunas
+
+RBD_ComplexTypesStructure.tip=Estrutura de Tipos Complexos
+RBD_ComplexTypesStructure.lbl=Estrutura de Tipos Complexos
+
+RBD_ListTableOrViewfrDB.tip=Listar Tabelas/Views
+RBD_ListTableOrViewfrDB.lbl=Listar Tabelas/Views
+
+RBD_ListFiles.tip=Listar Arquivos
+RBD_ListFiles.lbl=Listar Arquivos
+
+RBD_ListTablesfrDB.tip=Listar Tabelas
+RBD_ListTablesfrDB.lbl=Listar Tabelas
+
+RBD_ListViewsfrDB.tip=Listar Views
+RBD_ListViewsfrDB.lbl=Listar Views
+
+#RBD_TableStructureTitle=Hive Data Warehouse: Estrutura das Tabelas
+#RBD_HiveComplexDataUsageByField=Uso de tipos de registros complexos de Big Data por campos
+#RBD_HiveComplexDataUsageByColumn=Uso de tipos de registros complexos de Big Data por colunas
+#RBD_ComplexTypesStructureTitle=Tipos de Dados
+#RBD_FieldsUsageTitle=Campos de Dados
+#RBD_HiveTablesTitle=Hive Data Warehouse: Tabelas
+

@@ -1,0 +1,35 @@
+<window id="winWsParamsDlg" border="normal" width="520px" minheight="250" closable="true" title="${wtb:l('WebServiceParamsDialog.title')}">
+
+	<style>
+	div.asg-dialog-content > div.asg-dialog-parameter-group {
+		margin:8px 8px;
+	}
+	</style>
+
+	<div sclass="asg-dialog-content">
+		<div sclass="asg-dialog-parameter-group">
+			<label value="${wtb:l('WebServiceParamsDialog.method')}" />
+			<combobox id="cbMethod" width="100%" readonly="true" popupWidth="100%"/>
+		</div>
+
+		<div sclass="asg-dialog-parameter-group">
+			<label value="${wtb:l('WebServiceParamsDialog.headers')}" />
+			<textbox id="tbHeaders" width="100%" rows="3" />
+		</div>
+
+		<div sclass="asg-dialog-parameter-group">
+			<label value="${wtb:l('WebServiceParamsDialog.contentType')}" />
+			<textbox id="tbContentType" width="100%" />
+		</div>
+
+		<div sclass="asg-dialog-parameter-group">
+			<label value="${wtb:l('WebServiceParamsDialog.content')}" />
+			<textbox id="tbContent" width="100%" rows="3" />
+		</div>
+	</div>
+	<div sclass="asg-dialog-buttons">
+		<button id="btnOk" label="${wtb:l('WebServiceParamsDialog.okButton')}" />
+		<button id="btnCancel" label="${wtb:l('WebServiceParamsDialog.cancelButton')}" onClick="winWsParamsDlg.detach()" />
+	</div>
+
+</window>

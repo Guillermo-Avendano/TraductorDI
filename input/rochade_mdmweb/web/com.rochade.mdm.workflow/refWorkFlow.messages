@@ -1,0 +1,274 @@
+﻿#-------------------------------------------------------
+# metaRDM - Message file
+# This is an UTF-8 endcoded file!
+#
+#  Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#-------------------------------------------------------
+
+#
+# package: com.rochade.mg.workflow
+#
+
+### Icons: all images should be inside of dir /com.rochade.mg.workflow/ + img/, see plugin.xml
+
+lblBusinessTerm=Data Concept
+
+#extra icons
+
+################### copied keys for RDM Workflow (Data Concepts)
+
+## WARNING: these keys also used inside cellrenderer/RwfTitleCellRenderer.java
+##          and there's no way to separate and define similar key in cellrenderer's own message file
+rwf_REF_DC_MODIFIED.img=/com.rochade.dg.workflow/img/ModifiedApprovalRequired16.png
+rwf_REF_DC_MODIFIED_MAIL.img=/com.rochade.dg.workflow/img/ModifiedApprovalRequired16.png
+rwf_REF_DC_CREATED.img=/com.rochade.dg.workflow/img/CreatedApprovalRequired16.png
+rwf_REF_DC_CREATED_MAIL.img=/com.rochade.dg.workflow/img/CreatedApprovalRequired16.png
+rwf_REF_DC_TASK_APPROVED.img=/com.rochade.dg.workflow/img/TaskApproved16.png
+rwf_REF_DC_TASK_REJECTED.img=/com.rochade.dg.workflow/img/TaskRejected16.png
+rwf_REF_DC_TASK_REACTIVATED.img=/com.rochade.dg.workflow/img/TaskReactivated16.png
+rwf_REF_DC_TASK_REASSIGNED.img=/com.rochade.dg.workflow/img/TaskReassigned16.png
+rwf_REF_DC_OWNER_ADD_REQUESTED.img=/com.rochade.dg.workflow/img/CreatedApprovalRequired16.png
+rwf_REF_DC_OWNER_CHANGE_REQUESTED.img=/com.rochade.dg.workflow/img/ModifiedApprovalRequired16.png
+rwf_REF_DC_OWNER_REMOVE_REQUESTED.img=/com.rochade.dg.workflow/img/TaskRejected16.png
+rwf_REF_DC_TASK_REMINDER.img=/com.rochade.dg.workflow/img/TaskReminder16.png
+### END Icons
+
+############ Notification/Task List ################
+DG_NotificationList.IsTask.true=Task
+DG_NotificationList.IsTask.false=Notification
+
+#rwf_RDM_MODEL_MODIFIED.title=Approval Request for Model 
+rwf_REF_DC_MODIFIED.title=Approval Request 
+rwf_REF_DC_MODIFIED_MAIL.title=Approval Request 
+rwf_REF_DC_CREATED.title=Approval Request 
+rwf_REF_DC_CREATED_MAIL.title=Approval Request 
+rwf_REF_DC_TASK_APPROVED.title=Request Approved 
+rwf_REF_DC_TASK_REJECTED.title=Request Rejected 
+rwf_REF_DC_TASK_REACTIVATED.title=Request Resumed 
+rwf_REF_DC_TASK_REASSIGNED.title=Request Returned 
+#rwf_REF_DC_OWNER_ADD_REQUESTED.title=Request for Access Control
+rwf_REF_DC_OWNER_ADD_REQUESTED.title=Add Contributor context request 
+rwf_REF_DC_OWNER_CHANGE_REQUESTED.title=Change Contributor context request
+rwf_REF_DC_OWNER_REMOVE_REQUESTED.title=Remove Contributor context request
+rwf_REF_DC_TASK_REMINDER.title=Reminder
+rwf_status_APPROVED=Approved
+rwf_status_REJECTED=Rejected
+rwf_status_READY=Ready to approve
+rwf_status_WAITING=Waiting
+rwf_status_CLOSEDBYROLLBACK=Closed by Rollback
+rwf_status_CLOSEDBYRESET=Closed by Reset
+rwf_action_CREATE=Create
+rwf_action_CREATE.desc=Create the approval
+rwf_action_APPROVE=Approve
+rwf_action_APPROVE.desc=Accept the changes and close the task 
+rwf_action_REJECT=Reject
+rwf_action_REJECT.desc=Reject the changes and close the task
+rwf_action_REASSIGN=Return
+rwf_action_REASSIGN.desc=Return the task to the requester
+rwf_action_REACTIVATE=Resume
+rwf_action_REACTIVATE.desc=Resume the approval process
+rwf_action_REF_DC_CREATED=Created
+rwf_action_REF_DC_CREATED_MAIL=Created
+rwf_action_REF_DC_MODIFIED=Modification
+rwf_action_REF_DC_MODIFIED_MAIL=Modification
+rwf_action_REF_DC_TASK_APPROVED=Approved
+rwf_action_REF_DC_TASK_REACTIVATED=Reactivated
+rwf_action_REF_DC_TASK_REJECTED=Rejected
+rwf_action_REF_DC_TASK_REASSIGNED=Returned
+rwf_action_REF_DC_OWNER_CHANGE_REQUESTED=Change Contributor context
+rwf_action_REF_DC_OWNER_ADD_REQUESTED=Add Contributor context
+rwf_action_REF_DC_OWNER_REMOVE_REQUESTED=Remove Contributor context
+rwf_action_REF_DC_TASK_REMINDER=Reminder
+
+############ Task Dialog (TaskDialog.zul) ################
+ref_TaskDialog.norights=The task is waiting for approval by another user.
+ref_TaskDialog.noComparison=There is no comparison information available for the task.
+ref_TaskDialog.description=Description
+ref_TaskDialog.status=Status
+ref_TaskDialog.status:=Status:
+ref_TaskDialog.waitingforusers=Waiting for users:
+ref_TaskDialog.loading=Loading...
+ref_TaskDialog.thistaskisclosed=The task is closed. No further action required.
+ref_TaskDialog.comment=Comment:
+ref_TaskDialog.doyouapprovethistask=Select an action:
+ref_TaskDialog.button.submit=Submit
+ref_TaskDialog.comparison=Comparison
+ref_TaskDialog.author=Author:
+ref_TaskDialog.date=Date:
+ref_TaskDialog.attributes=Attributes:
+ref_TaskDialog.moredetails=More details:
+ref_TaskDialog.open=...click here to open the data concept
+ref_TaskDialog.details=...click here to display modification details
+ref_TaskDialog.actionlist=Action List
+ref_TaskDialog.synch.msg=The requested action could not be completed. The status of the approval request has changed. You must reopen the request to display the new status.
+ref_TaskDialog.glossary=Data context:
+ref_TaskDialog.context=Current context:
+ref_TaskDialog.reqContext=Requested by context:
+ref_TaskDialog.ownershipApprove.failure=The data concept is currently in use. You cannot change governance control at this stage.
+ref_TaskDialog.pending=The concept related to this task has the status Pending. To close the task, you must roll back the concept. To continue the task, you must reset the concept''s status.
+ref_TaskDialog.duplicateWarning=Note: At least one data concept of the same name already exists.
+ref_TaskDialog.button.compare=Compare
+ref_TaskDialog.duplicates=Duplicate data concepts
+ref_TaskDialog.status.Requestedby:=Requested by:
+ref_TaskDialog.status.Completedby:=Completed by:
+ref_TaskDialog.status.BusinessTerm:=Data concept:
+ref_TaskDialog.CurrentAction=Current Action
+ref_TaskDialog.rename=Renamed {0} to {1} [{2}]
+ref_TaskDialog.multilanguage.change=Change language attributes in {0}
+ref_TaskDialog.bpmnDiagram=BPMN Diagram
+
+################ Notification Dialog (NotificationDialog.zul) ################
+
+ref_NotificationDialog.button.opencorrespondingtask=Open Task
+ref_NotificationDialog.button.removenotification=Remove Notification
+ref_NotificationDialog.description=Description
+ref_NotificationDialog.status=Status
+ref_NotificationDialog.businessterm=Data concept:
+ref_NotificationDialog.button.open=...click here to open the data concept
+ref_NotificationDialog.IsTask.true=Task
+ref_NotificationDialog.IsTask.false=Notification
+ref_NotificationDialog.tooltip=Notifications
+ref_NotificationDialog.noLinkedItemMsg=Either data concept does not exist or you do not have permission to access it.
+ref_NotificationDialog.notAttributeRecords=There are no related history records
+
+
+################ Search for completed tasks (CompletedTasksFilter.zul) ################
+
+ref_CompletedTasksFilter.windowheader=Search for Completed Tasks
+ref_CompletedTasksFilter.searchinglossary=Search in glossary:
+ref_CompletedTasksFilter.numberofdays=Number of days since completion:
+ref_CompletedTasksFilter.button.cancel=Cancel
+ref_CompletedTasksFilter.button.search=Search
+ref_CompletedTasksFilter.outofrange= The specified number of days is out of range. You must specify a number between 0 and {0}.
+################ Advanced task search (AdvancedTasksFilter.zul) ################
+
+ref_AdvancedTasksFilter.windowheader=Search for Tasks
+ref_AdvancedTasksFilter.startdate=Start date:
+ref_AdvancedTasksFilter.enddate=End date:
+ref_AdvancedTasksFilter.completed=Completed:
+ref_AdvancedTasksFilter.requestedby=Requested by user:
+ref_AdvancedTasksFilter.completedby=Completed by user:
+ref_AdvancedTasksFilter.businessterm=Data concept:
+ref_AdvancedTasksFilter.result=Result:
+ref_AdvancedTasksFilter.button.cancel=Cancel
+ref_AdvancedTasksFilter.button.search=Search
+
+################ Search for Items In Process (ItemsInProcessFilter.zul) ################
+#
+ref_ItemsInProcessFilter.contexts=Search in context:
+ref_ItemsInProcessFilter.state=Status:
+ref_ItemsInProcessFilter.windowheader=Search for Data Concepts in Process
+ref_ItemsInProcessFilter.button.cancel=Cancel
+ref_ItemsInProcessFilter.button.search=Search
+ref_ItemsInProcessFilter.searchresult.title=Data Concepts in Process
+ref_ItemsInProcessFilter.label.allContexts=All Data Contexts
+ref_ItemsInProcessFilter.state.all=All
+
+
+################ Search for open tasks (PendingTasksFilter.zul) ################
+
+ref_PendingTasksFilter.windowheader=Search for Open Tasks
+ref_PendingTasksFilter.button.cancel=Cancel
+ref_PendingTasksFilter.button.search=Search
+
+
+RefTermCreated.title=Request Submitted for Creation of Data Concept [$item.name]
+RefTermCreated.footer=Click <a href="[$notification.link]">here</a> to open the notification.
+RefTermCreated.body=A request has been submitted for the creation of data concept [$item.name].
+RefTermCreated.mail_body=A request has been submitted for the creation of data concept <a href="[$item.link]">[$item.name]</a>.<br/><br/>\nRequested by: <a href="[$author.link]">[$author.DEFINITION]</a><br/><br/>
+
+
+RefTermModified.title=Request Submitted for Modification of Data Concept [$item.name]
+RefTermModified.footer=Click <a href="[$notification.link]">here</a> to open the notification.
+RefTermModified.body=A request has been submitted for the modification of data concept [$item.name].
+RefTermModified.mail_body=A request has been submitted for the modification of data concept <a href="[$item.link]">[$item.name]</a>.<br/><br/>\nRequested by: <a href="[$author.link]">[$author.DEFINITION]</a><br/><br/>
+
+RefTermOwnerAdd.title=Add Contributor Context over Data Concept [$item.name] 
+RefTermOwnerAdd.footer=Click <a href="[$notification.link]">here</a> to open the notification.
+RefTermOwnerAdd.body=Context [$context.name] requests contributor control over data concept [$item.name].\nRequested by: [$author.DEFINITION]
+RefTermOwnerAdd.mail_body=Context <a href="[$context.link]">[$context.name]</a> requests Contributor control over data concept <a href="[$item.link]">[$item.name]</a>.<br/><br/>\nRequested by: <a href="[$author.link]">[$author.DEFINITION]</a><br/><br/>
+
+
+RefTermOwnerChange.title=Change Contributor Context over Data Concept [$item.name] 
+RefTermOwnerChange.footer=Click <a href="[$notification.link]">here</a> to open the notification.
+RefTermOwnerChange.body=Context [$context.name] is requested to replace the contributor control over data concept [$item.name].\nRequested by: [$author.DEFINITION]
+RefTermOwnerChange.mail-body=Context <a href="[$context.link]">[$context.name]</a> is requested to be replaced the contributor control over data concept <a href="[$item.link]">[$item.name]</a>.<br/><br/>\nRequested by: <a href="[$author.link]">[$author.DEFINITION]</a><br/><br/>
+
+
+RefTermOwnerRemove.title=Remove Contributor Context over Data Concept [$item.name] 
+RefTermOwnerRemove.footer=Click <a href="[$notification.link]">here</a> to open the notification.
+RefTermOwnerRemove.body=Context [$context.name] requested to be removed from contributor control over data concept [$item.name].\nRequested by: [$author.DEFINITION]
+RefTermOwnerRemove.mail_body=Context <a href="[$context.link]">[$context.name]</a> is requested to be removed from contributor control over data concept <a href="[$item.link]">[$item.name]</a>.<br/><br/>\nRequested by: <a href="[$author.link]">[$author.DEFINITION]</a><br/><br/>
+
+RefTaskApproved.title=Request Approved for Data Concept [$item.name]
+RefTaskApproved.footer=Click <a href="[$notification.link]">here</a> to open the notification.
+RefTaskApproved.body=The request for change of data concept [$item.name] has been approved.\n\nRequested by: [$author.DEFINITION]\nApproved by: [$history.RWF/COMPLETED-BY.DEFINITION]\nComments: [$comment]
+RefTaskApproved.mail_body=The request for change of data concept <a href="[$item.link]">[$item.name]</a> has been approved.<br/><br/>\nRequested by: <a href="[$author.link]">[$author.DEFINITION]</a><br/>\nApproved by: <a href="[$actionBy.link]">[$actionBy.DEFINITION]</a><br/>\nComments: [$comment]<br/><br/>\nClick <a target="right" href="[$history.link]">here</a> to open the task.<br/>
+
+RefTaskReactivated.title=Request Resumed for Data Concept [$item.name] 
+RefTaskReactivated.footer=Click <a href="[$notification.link]">here</a> to open the notification.
+RefTaskReactivated.body=The request for change of data concept [$item.name] has been resumed.\n\nRequested by: [$author.DEFINITION]\nResumed by: [$actionBy.DEFINITION]\nComments: [$comment]
+RefTaskReactivated.mail_body=The request for change of data concept <a href="[$item.link]">[$item.name]</a> has been resumed.<br/><br/>\nRequested by: <a href="[$author.link]">[$author.DEFINITION]</a><br/>\nResumed by: <a href="[$actionBy.link]">[$actionBy.DEFINITION]</a><br/>\nComments: [$comment]<br/><br/>
+
+RefTaskReassigned.title=Request Returned for Data Concept [$item.name]
+RefTaskReassigned.footer=Click <a href="[$notification.link]">here</a> to open the notification.
+RefTaskReassigned.body=The request for change of data concept [$item.name] has been returned. Please submit an updated concept for approval.\n\nRequested by: [$author.DEFINITION]\nReturned by: [$actionBy.DEFINITION]\nComments: [$comment]
+RefTaskReassigned.mail_body=The request for change of data concept <a href="[$item.link]">[$item.name]</a> has been returned. Please submit an updated concept for approval.<br/><br/>\nRequested by: <a href="[$author.link]">[$author.DEFINITION]</a><br/>\nReturned by: <a href="[$actionBy.link]">[$actionBy.DEFINITION]</a><br/>\nComments: [$comment]<br/><br/>
+
+
+RefTaskRejected.title=Request Rejected for Data Concept [$item.name]
+RefTaskRejected.footer=Click <a href="[$notification.link]">here</a> to open the notification.
+RefTaskRejected.body=The request for change of data concept [$item.name] has been rejected.\n\nRequested by: [$author.DEFINITION]\nRejected by: [$history.RWF/COMPLETED-BY.DEFINITION]\nComments: [$history.RWF/COMMENT1]\n
+RefTaskRejected.mail_body=The request for change of data concept <a target="right" href="[$item.link]">[$item.name]</a> has been rejected.<br/><br/>\nRequested by: <a href="[$author.link]">[$author.DEFINITION]</a><br/>\nRejected by: <a href="[$actionBy.link]">[$actionBy.DEFINITION]</a><br/>\nComments: [$comment]<br/><br/>\nClick <a target="right" href="[$history.link]">here</a> to open the task.<br/>
+
+RefTaskReminder.title=Please Take Action on Request for Data Concept [$item.name] 
+RefTaskReminder.footer=Click <a href="[$notification.link]">here</a> to open the notification.
+RefTaskReminder.body=Please take action on the request for change of data concept [$item.name].\n\nComments: [$comment]
+RefTaskReminder.mail_body=Please take action on the request for change of data concept <a target="right" href="[$item.link]">[$item.name]</a>.<br/><br/>\nComments: [$comment]<br/><br/>\nClick <a target="right" href="[$history.link]">here</a> to open the task.<br/>
+
+RdmService.item.created=Data Concept is newly created
+RdmService.item.deleted=Data Concept is marked for deletion
+RdmService.item.modified=Data Concept is modified
+
+ref_SearchGeneral.datecheck.failed=Invalid date filter. The end date must not be before the start date.
+
+# Option for Info Management - Task-Search-Dialog
+#ref_Filter.OPT_DATA_CONCEPTS=Data Concepts
+ref_ItemsInProcessFilter.searchresult.title=Data Concepts in Process
+ref_TaskSearch.label.allGovernedContexts=All Data Concepts
+
+################ Task Metrics (GlossaryMetrics.zul) ################
+
+REF_ApprovedDCs.lbl=Approved data concepts
+REF_DCsSubmitted.lbl=Approval pending
+REF_DCsInProgress.lbl=Unapproved data concepts
+REF_DCsNew.lbl=New data concepts
+REF_DCsRejected.lbl=Rejected data concepts
+#REF_ListAcronyms_GLoss.lbl=Acronyms
+#REF_ListContextfmGlossarySt.lbl=Contexts
+
+Ref_RefData.changes=Changes
+Ref_RefData.relatedItems=Related Items
+Ref_RefData.differences=Differences
+Ref_RefData.referenceDataItems=Reference Data Items
+
+############ Camunda new templates ################
+
+rwf_REF_DC_REVIEW_TASK_CREATED.title=Review requested 
+rwf_REF_DC_REVIEW_TASK_COMPLETED.title=Review completed 
+
+rwf_REF_DC_REVIEW_TASK_CREATED.img=/com.rochade.mg.workflow/img/TaskReminder16.png 
+rwf_REF_DC_REVIEW_TASK_COMPLETED.img=/com.rochade.mg.workflow/img/TaskReminder16.png 
+
+rwf_action_REF_DC_REVIEW_TASK_CREATED=Review requested
+rwf_action_REF_DC_REVIEW_TASK_COMPLETED=Review completed
+
+RefReviewTaskCreated.title=Review Task Created for Data Concept [$item.name]
+RefReviewTaskCreated.footer=Click <a href="[$notification.link]">here</a> to open the notification.
+RefReviewTaskCreated.body=A review task for data concept [$item.name] has been created.\n\nRequested by: [$author.DEFINITION]\n
+RefReviewTaskCreated.mail_body=A review task for data concept <a target="right" href="[$item.link]">[$item.name]</a> has been created.<br/><br/>\nRequested by: <a href="[$author.link]">[$author.DEFINITION]</a><br/>\n\nClick <a target="right" href="[$history.link]">here</a> to open the task.<br/>
+
+RefReviewTaskCompleted.title=Review Task Completed for Data Concept [$item.name]
+RefReviewTaskCompleted.footer=Click <a href="[$notification.link]">here</a> to open the notification.
+RefReviewTaskCompleted.body=A review task for data concept [$item.name] has been completed.\n\nRequested by: [$author.DEFINITION]\nCompleted by: [$actionBy.DEFINITION]\nComments: [$comment]\n
+RefReviewTaskCompleted.mail_body=A review task for data concept <a target="right" href="[$item.link]">[$item.name]</a> has been completed.<br/><br/>\nRequested by: <a href="[$author.link]">[$author.DEFINITION]</a><br/>\nCompleted by: <a href="[$actionBy.link]">[$actionBy.DEFINITION]</a><br/>\nComments: [$comment]<br/><br/>\nClick <a target="right" href="[$history.link]">here</a> to open the task.<br/>

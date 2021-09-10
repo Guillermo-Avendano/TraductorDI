@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="ConfSolrSearch" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<!-- 
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+<window width="600px" height="500px" sclass="asg-search-config-dialog"
+	apply="com.rochade.rir.config.ConfSearchComposer">
+
+	<menupopup id="mpContext">
+		<menuitem id="miEdit"
+			image="${wtb:getImg('SolrSearchConf.img.edit')}"
+			label="${wtb:l('SolrSearchConf.edit')}" forward="onEdit"/>
+		<!-- EDI-1195 Remove the Delete action because all parameters are useful (in best case some parameters can be made empty but the parameter must exist)
+		<menuitem id="miDelete"
+			image="${wtb:getImg('SolrSearchConf.img.delete')}"
+			label="${wtb:l('SolrSearchConf.delete')}" forward="onDelete"/>
+		-->
+	</menupopup>
+	<borderlayout>
+		<north>
+			<hbox width="100%" widths="80%,20%" sclass="field0">
+				<vbox style="padding:5px">
+					<div id="headerTitle" width="100%" />
+					<label
+						value="${wtb:l('SolrSearchConf.confsubtitle')}" />
+				</vbox>
+				<vbox width="100%" align="end"
+					style="min-width:155px">
+					<menubar
+						style="border:none; position:absolute; right:50px; bottom:0px">
+						<menu actionId="DWR_Organize">
+							<menupopup>
+								<menuitem id="editParam"
+									image="${wtb:getImg('SolrSearchConf.img.edit')}"
+									label="${wtb:l('SolrSearchConf.edit')}" forward="onEdit"/>
+								<!-- EDI-1195 Remove the Add action because SearchApps are not able to manage new parameters which they are not aware.
+								<menuitem id="addParam"
+									image="${wtb:getImg('SolrSearchConf.img.add')}"
+									label="${wtb:l('SolrSearchConf.add')}" forward="onAdd" />
+								<menuseparator />
+								-->
+								<!-- EDI-1195 Remove the Delete action because all parameters are useful (in best case some parameters can be made empty but the parameter must exist)
+								<menuitem id="deleteParam"
+									image="${wtb:getImg('SolrSearchConf.img.delete')}"
+									label="${wtb:l('SolrSearchConf.delete')}" forward="onDelete" />
+								-->
+								<menuseparator />
+								<menuitem id="showApps"
+									image="${wtb:getImg('SolrSearchConf.img.showApps')}"
+									label="${wtb:l('SolrSearchConf.showApps')}" forward="onShowAll"/>
+								<!-- <menuitem id="load"
+									image="${wtb:getImg('SolrSearchConf.img.load')}"
+									label="${wtb:l('SolrSearchConf.load')}" forward="onLoadNew"/>  -->
+							</menupopup>
+						</menu>
+					</menubar>
+
+					<image id="imgWizard"
+						src="${wtb:getImg('SolrSearchConf.img.wizard')}"
+						height="${wtb:l('img.height.wizard')}" />
+				</vbox>
+			</hbox>
+		</north>
+		<center sclass="field1" autoscroll="true">
+			<listbox id="lbSolrSearch" hflex="1" vflex="1"
+				style="border:none;" forward="onSelect=onLoadMenuItems">
+				<listhead id="lhSolrSearch">
+					<listheader width="90%"
+						label="${wtb:l('SolrSearchConf.paramDescr')}" />
+					<listheader width="90%"
+						label="${wtb:l('SolrSearchConf.paramValue')}" />
+				</listhead>
+			</listbox>
+		</center>
+		<south sclass="field1" height="35px">
+			<hbox width="100%" widths="80%,10%,10%"
+				style="padding:5px">
+				<button width="150px" id="btnRestore"
+					tooltiptext="${wtb:l('SolrSearchConf.restore.tip')}"
+					label="${wtb:l('SolrSearchConf.restore')}" forward="onRestore"/>
+				<button width="100px" id="okButton"
+					label="${wtb:l('SolrSearchConf.okButton')}"
+					tooltiptext="${wtb:l('SolrSearchConf.enter')}" forward="onOK"/>
+				<button width="100px" id="cancelButton"
+					label="${wtb:l('SolrSearchConf.cancelButton')}"
+					tooltiptext="${wtb:l('SolrSearchConf.esc')}" forward="onClose"/>
+			</hbox>
+		</south>
+	</borderlayout>
+</window>

@@ -1,0 +1,94 @@
+﻿#-------------------------------------------------------
+# Rochade Big Data - Message file
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#
+#-------------------------------------------------------
+metapp.rbd.title=Big Data
+Pathway.BigData.title=Big Data
+Pathway.BigData.tp=Big Data
+
+#Labels for the Dialogs
+BigData_Analytical_Method=Método analítico
+BigData_Cluster_Name=Nome do Cluster
+BigData_Data_Kind=Espécie de dados
+BigData_Data_Source=Origem de dados
+BigData_Data_Type=Tipos de Dados
+BigData_Database_Name=Nome do Banco de Dados
+BigData_Feed_Name=Nome do Alimentador
+BigData_Hive_Tool=Ferramenta Hive
+BigData_Host_Ip_Address=Endereço IP do computador
+BigData_Host_Name=Nome do computador
+BigData_Job_Name=Nome do Serviço
+BigData_Job_Type=Tipo do Serviço
+BigData_Import_Tool=Ferramenta de Importação
+BigData_Name=Nome
+BigData_Name_Pattern=Modelo de nome
+BigData_Security_Level=Nível de segurança
+BigData_Tag_Name=Nome do rótulo
+BigData_Time_Pattern=Padrão de tempo
+BigData_Tool=Ferramenta
+BigData_Transf_Kind=Espécie de transformação
+BigData_Transf_Service=Serviço de Transformação
+BigData_Type=Tipo Transformar
+BigData_User_Name=Nome de usuário
+
+#Entry Topics 
+#BigDataEntryTopic-ClassByTag=Classificação por Rótulo
+#BigDataEntryTopic-Revelytix=Revelytix
+#BigDataEntryTopic-Loom=Loom
+#BigDataEntryTopic-BigDataTags=Rótulos de Bid Data
+#BigDataEntryTopic-DataOwner=Proprietário dos Dados
+#BigDataEntryTopic-DataProjectAssignment=Atribuição do Projeto de Dados
+#BigDataEntryTopic-DataSecurityLevel=Nível de Segurança de Dados
+#BigDataEntryTopic-MethodLineage=Linhagem de Dados por Método Analítico
+#BigDataEntryTopic-ServiceLineage=Linhagem de Dados por Serviço
+#BigDataEntryTopic-Hadoop=Hadoop
+#BigDataEntryTopic-MapR=MapR
+
+BigDataEntryTopic-HiveDW=Bases de Dados e Tabelas
+BigDataEntryTopic-ColumnsAndFields=Colunas e Campos Utilizado
+BigDataEntryTopic-TypesAndRecords=Tipos de Dados e Registros
+
+BigDataEntryTopic-FileSystem=Diretórios e Arquivos
+BigDataEntryTopic-HostRes=Computador e Recursos
+BigDataEntryTopic-Services=Serviços
+
+BigDataEntryTopic-Sqoop=Sqoop
+BigDataEntryTopic-Flume=Flume
+BigDataEntryTopic-Falcon=Falcon
+BigDataEntryTopic-HiveQL=HiveQL
+
+BigDataEntryTopic-BatchData=Importações em Lote
+BigDataEntryTopic-StreamData=Importações Correntes
+BigDataEntryTopic-SourceData=Origem do Dado Importado
+BigDataEntryTopic-TargetData=Destino do Dado Exportado
+
+#Hadoop Clusters and Services
+Querygroup.hadoopClustersServices.title=Sistema de Arquivo Hadoop
+Querygroup.hadoopClustersServices.tip=Metadata sobre Sistema de Arquivo Hadoop e estrutura Cluster
+
+#Data Discovery by Lifecycle
+Querygroup.dataDiscoveryByLifecycle.title=Fluxo da Zona de Aterragem
+Querygroup.dataDiscoveryByLifecycle.tip=Informações sobre origem e destino de dados na Zona de Aterragem do Big Data
+
+#Data Discovery by Structure
+Querygroup.dataDiscoveryByStructure.title=Transformação
+Querygroup.dataDiscoveryByStructure.tip=Transformações Big Data
+
+#Data Discovery by Tool
+Querygroup.dataDiscoveryByContents.title=Hive Data Warehouse
+Querygroup.dataDiscoveryByContents.tip=Metada sobre Hive Data Warehouse e estrutura de dados
+
+#Data Governance
+#Querygroup.dataGovernance.title=Governança de Dados
+#Querygroup.dataGovernance.tip=Governança de Dados
+
+#Revelytix
+#Querygroup.revelytix.title=Revelytix
+#Querygroup.revelytix.tip=Inventário do metadados Revelytix
+
+#Icons for Entry Topics 
+#Default Values

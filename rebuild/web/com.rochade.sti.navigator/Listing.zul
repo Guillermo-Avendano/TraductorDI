@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="Type Tree" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<!-- 
+	@author HG 27/07/2012, created
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+<div>
+	<wtbGroupbox>
+		<wtbCaption actionId="STI_Listings"/>
+		<listbox nonselectableTags="*" name="asg-stitching-templates-pathway-listbox">
+			<wtbListitem actionId="STI_Templates"/>
+			<wtbListitem actionId="STI_Containers"/>
+		</listbox>
+	</wtbGroupbox>	
+</div>

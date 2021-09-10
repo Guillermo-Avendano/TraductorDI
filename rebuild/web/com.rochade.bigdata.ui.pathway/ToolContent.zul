@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zk xmlns="http://www.zkoss.org/2005/zul" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:w="http://www.zkoss.org/2005/zk/client"
+  xmlns:n="http://www.zkoss.org/2005/zk/native" xsi:schemaLocation="http://www.zkoss.org/2005/zul http://www.zkoss.org/2005/zul/zul.xsd">
+<!-- 
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+<?page title="Appl List" contentType="text/html;charset=UTF-8"?>
+<window width="90%" apply="com.rochade.bigdata.ui.pathway.ToolContentComposer" >
+		<style src="${wtb:getImg('InfoPages.img.css')}"/>
+		<div class="Main">			
+		    <div class="Back">
+		        <n:h2>${wtb:l('rbd_toolset.title')}<combobox id="clusterList" class="clusterList" visible="true" readonly="true" popupWidth="100%"/></n:h2>
+		    </div>
+			<div class="Back">
+			    	<div class="cColumn" vflex="1" hflex="6">
+			                <n:img class ="Img" src="${wtb:getImg('InfoPages.img.tool')}"/>
+			        </div><!--  cColumn -->
+			    
+			        <div class="Column" vflex="1" hflex="4">
+			        	<div class="Item">
+				            <div class="Header">
+				                <div class="HeaderText"><n:h4>${wtb:l('rbd_toolset.securityAdminRole')}</n:h4></div>
+				            </div>
+				            <div class="Back">
+					            <n:ul>
+					            	<n:li><a href="#" id="svcConf" class="infoLink">${wtb:l('rbd_toolset.securityAdminText')}</a></n:li>
+					            	<!-- <n:li><a href="#" id="bottlenecks" class="infoLink">${wtb:l('rbd_toolset.securityAdminText')}</a></n:li> -->
+					            </n:ul>
+				            </div>     
+			        	</div><!-- Item -->
+			        	<div class="Item">
+				            <div class="Header">
+				                <div class="HeaderText"><n:h4>${wtb:l('rbd_toolset.dataScientistRole')}</n:h4></div>
+				            </div>
+				            <div class="Back">
+					            <n:ul>
+					            	<n:li><a href="#" id="svcRun" class="infoLink">${wtb:l('rbd_toolset.dataScientistText')}</a></n:li>
+					            </n:ul>
+				            </div>
+			            </div><!-- Item -->
+			            <div class="Item">
+				            <div class="Header">
+				                <div class="HeaderText"><n:h4>${wtb:l('rbd_toolset.bigDataAdminRole')}</n:h4></div>
+				            </div>
+				            <div class="Back">
+					            <n:ul>
+					            	<n:li><a href="#" id="healthRes" class="infoLink">${wtb:l('rbd_toolset.bigDataAdminText')}</a></n:li>
+					            </n:ul>
+				            </div>
+			            </div><!-- Item -->
+			            <div class="Item">
+				            <div class="Header">
+				                <div class="HeaderText"><n:h4>${wtb:l('rbd_toolset.dataStewardRole')}</n:h4></div>
+				            </div>
+				            <div class="Back">
+					            <n:ul>
+					            	<n:li><a href="#" id="svcInstall" class="infoLink">${wtb:l('rbd_toolset.dataStewardText')}</a></n:li>
+					            	<!-- <n:li><a href="#" id="dataPath" class="infoLink">${wtb:l('rbd_toolset.dataStewardText')}</a></n:li> -->
+					            </n:ul>
+			            	</div>     
+			        	</div><!-- Item -->
+			        </div><!-- Column -->
+			</div><!--  Back -->        
+		</div><!-- Main -->
+</window>
+</zk>
+

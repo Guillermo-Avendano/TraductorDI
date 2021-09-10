@@ -1,0 +1,127 @@
+﻿#-------------------------------------------------------
+# RDM - Message file
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+TableGrid.filter.CurrentValues=Valores Atuais
+TableGrid.filter.FilterByValidPeriod=Por Período de Validade
+TableGrid.filter.AllValues=Todos os Valores
+TableGrid.filter.Filter=Filtro
+TableGrid.filter.FilterForDetailedDC=Filtro por conceito de dados detalhados por hierarquia:
+
+TableGrid.modalWindow.EditVM=Editar Significado do Valor
+TableGrid.modalWindow.DeactivateVM=Desativar Significado do Valor
+TableGrid.modalWindow.DeactivateWindowHeight=295px
+TableGrid.modalWindow.EditPV=Editar Valor Permitido
+TableGrid.modalWindow.DeactivatePV=Desativar Valor Permitido
+TableGrid.modalWindow.DeleteMessage=Você tem certeza que quer excluir {0} dos dados de referência?
+TableGrid.modalWindow.DeleteParentMessage=Você tem certeza que quer excluir o {0}?
+TableGrid.modalWindow.DeleteTitle=Apagar {0}
+TableGrid.modalWindow.DeleteAllMessage=Você tem certeza que deseja excluir todos os valores dos dados de referência?
+TableGrid.modalWindow.DeleteAllTitle=Excluir todos valores
+TableGrid.modalWindow.deactivatedValue=Este item está desatualizado.
+TableGrid.modalWindow.willBeDeactivated=Item atual será desativado.
+TableGrid.modalWindow.willBeDeleted=Item atual será excluído.
+TableGrid.modalWindow.DeactivateReused=Este item é usado mais de uma vez neste domínio. Todas as ocorrências serão desativadas.
+TableGrid.modalWindow.RenameReused=Este item é usado mais de uma vez neste domínio. Todas as ocorrências serão renomeadas.
+TableGrid.modalWindow.DeleteReused=Este item é usado mais de uma vez neste domínio. Todas as ocorrências serão excluídas.
+TableGrid.modalWindow.HierarchyValidity=Editar período de validade
+
+TableGrid.items.PermissbleValue=Valor Permitido
+TableGrid.items.ValueMeaning=Significado do Valor
+
+TableGrid.tableGrid.addRc=Adicionar
+TableGrid.tableGrid.addVc=Adicionar
+TableGrid.tableGrid.valueDomain=Domínios de valor
+TableGrid.tableGrid.addRcTooltip=Adicionar domínio a partir de dados de referência operacional
+TableGrid.tableGrid.addVcTooltip=Adicionar domínio a partir de dados de referência operacional
+TableGrid.tableGrid.newEntry=Criar Nova Entrada
+TableGrid.tableGrid.newDomain=Criar Novo Domínio
+TableGrid.tableGrid.itemExpired=Este valor não é mais válido
+TableGrid.tableGrid.isNotYetValid=Este valor ainda não é válido
+TableGrid.tableGrid.noValues=Coleção selecionada está vazia.  Nenhum valor será adicionado.
+TableGrid.tableGrid.clearCDom=Limpar Dados de Referência
+
+TableGrid.editWindow.curValue=Valor corrente
+TableGrid.editWindow.newValue=Novo Valor
+TableGrid.editWindow.changeComment=Comentário modificado
+TableGrid.editWindow.reset=Reiniciar
+TableGrid.editWindow.resetTooltip=Reiniciar valores para padrão
+TableGrid.editWindow.save=Salvar
+TableGrid.editWindow.saveTooltip=Salvar Item
+TableGrid.editWindow.cancel=Cancelar
+TableGrid.editWindow.cancelTooltip=Descartar todas alterações
+
+TableGrid.periodFilter.title=Selecionar Período de Validade
+TableGrid.periodFilter.validFrom=Válido de:
+TableGrid.periodFilter.validTo=Válido até:
+TableGrid.periodFilter.run=Executar
+TableGrid.periodFilter.runTooltip=Filtrar itens com o período selecionado
+TableGrid.periodFilter.cancel=Cancelar
+TableGrid.periodFilter.cancelTooltip=Cancelar filtragem de itens
+
+TableGrid.renameWindow.title=Renomear
+TableGrid.renameWindow.newName=Insira um novo nome:
+TableGrid.renameWindow.saveButton=Gravar
+TableGrid.renameWindow.saveTooltip=Renomear Item
+TableGrid.renameWindow.cancleButton=Cancelar
+TableGrid.renameWindow.cancleTolltip=Cancelar renomear
+
+TableGrid.itemType.MDM_RMD_VALUE_DOMAIN=Valor do Domínio
+TableGrid.itemType.MDM_RMD_PERMISSIBLE_VALUE=Valor Permitido
+TableGrid.itemType.MDM_RMD_DATA_CONCEPT=Significado do Valor
+TableGrid.itemType.MDM_RMD_CDRELATIONSHIP=Pai Hierárquico
+
+HierarchyManagement.addParent=Adicionar Pai
+HierarchyManagement.removeParentMessage=Você tem certeza que quer remover o significado do pai?
+HierarchyManagement.removeParentTitle=Remover significado de pai
+
+#possible vars: %kind%; %concerneditem%; %name%
+Anomaly.text.MDuplicate=Significado duplicado %concerneditem%.
+Anomaly.text.PVDuplicate=Valor duplicado %concerneditem%.
+Anomaly.text.UnmappedMeaning=Um ou mais valores ausentes para significado %concerneditem%.
+Anomaly.text.UnmappedPV=Nenhum significado atribuído para %concerneditem%.
+Anomaly.text.InvalidMeaning=Significado %concerneditem% (referenciado por pelo menos um domínio) não pertence ao atual conceito de dados.
+Anomaly.text.AmbiguousMMap=Significado referenciado por mais de um valor (%concerneditem%).
+Anomaly.text.AmbiguousPVMap=Valor %concerneditem% referencia mais de um significado.
+Anomaly.text.MappingGap=Significado %concerneditem% não é continuamente referenciado por valores.
+Anomaly.text.InvalidUV=Valor inválido %concerneditem% na coluna de referência associada.
+Anomaly.text.InvalidDV=Par valor-significado inválido %concerneditem% na tabela de referência associada.
+Anomaly.text.MissingDV=Par valor-significado ausente para valor %concerneditem%.
+Anomaly.text.InvalidRefDV=Par valor-significado %concerneditem% refere-se a uma tabela de referência incorreta.
+Anomaly.text.AmbiguousVD=Coluna de referência %concerneditem% é referenciada por mais de um domínio de valor.
+Anomaly.text.default=Anomalia encontrada %name% - %kind% para %concerneditem%.
+Anomaly.text.null=Anomalia inativa.
+Anomaly.text.=Anomalia vazia
+
+tablegrid.valuedomain.menu.selectall=Exibir tudo
+tablegrid.valuedomain.menu.deselectall=Esconder tudo
+
+Anomaly.tooltip.header.singlewarn.text=Existe um aviso:
+Anomaly.tooltip.header.morewarn.text=Existem %count% avisos:
+EditorWarnings.type.EWT_ANOMALY=Avisos de Anomalia
+
+tablegrid.edit.add=Adicionar
+tablegrid.edit.edit=Editar
+tablegrid.edit.rename=Renomear
+tablegrid.edit.deactivate=Desativar
+tablegrid.edit.delete=Apagar
+
+ItemsLocker.unableAcquireLock=Não é possível adquirir o bloqueio do {0} item.  ID do Item: {1}.
+ItemsLocker.unableAcquireUnlock=Não foi possível desbloquear o item {0}.  ID do Item: {1}.
+MDMTableGrid.exceptionRenderingReferenceData=Ocorreu uma opção no processamento dos dados de referência
+MDMTableGrid.unableValueDomainItem=Não foi possível obter item domínio de valor associado com a coluna {0}
+ValueDomainsCheckListener.valueDomainIsNotAssosiated=Nenhum domínio de valor está associado ao menuitem {0}.
+ValueDomainsCheckListener.tableGridIsNotFound=Coluna de grade de tabela relacionada com {0} não encontrada.
+
+# Validation Complaints
+ValidationException.NameDuplicate=Item {0} [{1}] já existe.
+ValidationException.ProdNameDuplicate=Item {0} [{1}] já existe em versão de produção.
+ValidationException.ProdNameDuplicate.Hint=Dica: Para evitar nomes duplicados em diferentes versões de item, envie qualquer modificação antes de reusar um nome para outro item.
+
+NotificationWindow.continue=Continuar
+NotificationWindow.cancel=Cancelar
+NotificationWindow.info=Informação

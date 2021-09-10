@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="MG User User View" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<!-- 
+	ImportExcelAll.zul
+	@author GC
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+<window id="ImportExcelWin" title="" border="normal" width="800px"
+	maximizable="false" minimizable="false" closable="true"
+	apply="com.rochade.mg.xlsimport.ImportExcel">
+	<caption image=""
+		label="${wtb:l('mg.xlsimport.caption.label')}" />
+
+	<groupbox style="margin: 5px 5px 10px 5px;">
+		<caption />
+		<hbox pack="left" align="center" width="100%"
+			style="margin-left: 10px">
+			<button id="btUpload"
+				label="${wtb:l('mg.xlsimport.button.upload')}"
+				sclass="asg-button" style="margin-left: 50px" 
+				upload="true,native"/>
+			<textbox style="margin-left: 10px"  width="550px"
+				 id="filename" disabled="true"  />				
+		</hbox>
+	</groupbox>	
+	<div width="99%" align="right" style="margin: 10px;">
+		<button id="finish" width="150px" disabled="true"
+			label="${wtb:l('mg.xlsimport.button.import')}"
+			style="margin: 0 10px 0 0" />
+		<button id="cancel" width="150px" 
+			label="${wtb:l('mg.xlsimport.button.cancel')}"
+			style="margin: 0 10px 0 0" />
+	</div>
+</window>

@@ -1,0 +1,44 @@
+﻿# Rochade WTB - Message file
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+### Icons: all images should be inside of dir /com.rochade.dwr.cellrenderer/ + img/, see plugin.xml
+### END Icons
+
+Diagram.renderernotcreate=No se puede crear la instancia de representación de diagrama de la clase {0}. Compruebe ''diagram.renderer'' en startup.properties.
+Diagram.generatornotcreate=No se puede crear instancia generador de diagramas de clase {0}.
+Diagram.noimage=Error al generar la imagen. Ver salida de la consola para obtener más detalles.
+Diagram.noimgrend=No hay imagen de procesador configurado. No se puede crear el diagrama. Verifique " diagram.graphviz " en startup.properties.
+Diagram.rendererr=Un error inesperado durante la representación. Ver salida de la consola para obtener más detalles.
+Diagram.graphvizexcept=Graphviz no pudo iniciarse debido al siguiente motivo: \n {0} \n Por favor pregunte al administrador para comprobar la configuración \nNota:.. En caso de problemas de seguridad, tenga en cuenta el acceso a Graphviz por RPC.
+Diagram.graphvizerror=Graphviz - Error: {0}
+Diagram.graphviznotconf=Graphviz no está configurado. Verificar "diagram.graphviz" en startup.properties.
+Diagram.graphvizlimited=Demasiados nodos y aristas. Por razones de rendimiento, el resultado es truncado y el diagrama quedará incompleto.
+Diagram.graphviznoctrlarea=No se puede crear el diagrama por RPC debido a que el subject area no está disponible.
+Diagram.noseeds=Debe haber exactamente un ítem de raíz en el modelo.
+Diagram.isempty=Diagrama está vacía, no se muestran ítems.
+Diagram.notconfigured=Graphviz no está configurado.
+Diagram.error.createFilter=Ignored error creating filter {0}.
+
+Diagram.action.ExpandNode.lbl=+
+Diagram.action.ExpandNode.tip=Expand Children
+Diagram.action.ExplodeNode.lbl=*
+Diagram.action.ExplodeNode.tip=Expand Details
+Diagram.action.CollapseNode.lbl=-
+Diagram.action.CollapseNode.tip=Collapse
+
+tlDiagram.tfmLevel.detail=Map Level
+tlDiagram.tfmLevel.structure=Transformaciones
+tlDiagram.tfmLevel.task=Packages/Tasks
+tlDiagram.tfmLevel.schema=Subsystems/Schemas
+tlDiagram.tfmLevel.system=Systems
+
+tlDiagram.level.detail=Technical - Element
+tlDiagram.level.structure=Technical - Structure
+tlDiagram.level.schema=Technical - Schema
+tlDiagram.level.system=Technical - Package/System
+tlDiagram.level.BL=Business Lineage
+tlDiagram.level.AL=Application Lineage

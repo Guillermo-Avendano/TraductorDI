@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="History View - HTMLTemplate" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<div style="background:#ffffff; border:1px solid ${wtb:l('asg-atlantic-gray')}">
+	<grid sclass="asg-grid" fixedLayout="true" style="border:0px; padding:5px; ">
+		<columns style="border:1px">
+			<column valign="top" style="background:transparent" width="10%" />
+			<column valign="top" style="background:transparent" width="90%" />
+		</columns>
+		<rows>
+			<row style="border:0px; background:transparent; padding:3px">
+				<cell colspan="2">
+					<label value="${wtb:l('DialogHistoryRecord.oldvalue')}" style="color:gray; background:transparent" />
+				</cell>
+			</row>
+			<row style="border:0px; background:transparent; padding:3px">
+				<div />
+				<html id="oldValueHtmlMode" />
+			</row>
+			<row style="border:0px; background:transparent; padding:3px">
+				<cell colspan="2">
+					<label value="${wtb:l('DialogHistoryRecord.newvalue')}" style="color:gray; background:transparent" />
+				</cell>
+			</row>
+			<row style="border:0px; background:transparent; padding:3px">
+				<div />
+				<html id="newValueHtmlMode" />
+			</row>
+		</rows>
+	</grid>
+</div>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page id="start" title="WTB" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<!-- 
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+<window apply="com.rochade.wa.ui.invquery.InvQueryComposer" border="normal" width="600px" height="350px">
+
+<borderlayout>
+	<north>	
+		<hbox width="100%" widths="80%,20%" sclass="field0" >
+			<vbox style="padding:5px">
+				<label sclass="asg-title-label" value="${wtb:l('InvQuery.title')}"/>
+				<label value="${wtb:l('InvQuery.select')}"/>
+			</vbox>
+			<vbox width="100%" align="end">
+				<image id="imgWizard" src="${wtb:getImg('InvQuery.img.wizard')}" height="${wtb:l('img.height.wizard')}"/>
+			</vbox>
+		</hbox>
+	</north>
+    <center sclass="field1" autoscroll="true">
+        <div>
+			<div style="padding:5px">
+		        <label value="${wtb:l('InvQuery.runSettings')}" tooltiptext="${wtb:l('InvQuery.altS')}"/>
+				<listbox id="lbRunsettings" seltype="single" rows="4"> 
+					<listhead sizable="true">
+						<listheader width="40%" label="${wtb:l('InvQuery.property')}" />
+						<listheader width="60%"	label="${wtb:l('InvQuery.value')}" />
+					</listhead>
+				</listbox>
+			</div>
+			<hbox width="100%" widths="80%,10%,10%" style="padding:5px">
+				<checkbox id="cbPreserve" label="${wtb:l('InvQuery.preserve')}" tooltiptext="${wtb:l('InvQuery.altP')}"/>
+		        <button width="100px" id="runButton" label="${wtb:l('InvQuery.runButton')}" tooltiptext="${wtb:l('InvQuery.enter')}"/>
+				<button width="100px" id="cancelButton" label="${wtb:l('InvQuery.cancelButton')}" tooltiptext="${wtb:l('InvQuery.esc')}"/>
+			</hbox>	
+ 		</div>
+	</center>
+</borderlayout>
+</window>

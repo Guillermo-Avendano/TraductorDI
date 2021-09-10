@@ -1,0 +1,51 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+#  Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#-------------------------------------------------------
+
+# package: com.rochade.mdm.comp.referencecollection.configuration.EditRCCnfg
+#
+### Icons: all images should be inside of dir /com.rochade.wa.ui.queryparam/ + img/, see plugin.xml
+EditRCCnfg.refColName=Reference collection name:
+EditRCCnfg.hierarchyParentSpec=Specify hierarchy (parent):
+EditRCCnfg.relatedRefCollection=Related reference collection:
+EditRCCnfg.generatedSqlQuery=Generated SQL query:
+EditRCCnfg.copyQuery=Copy
+EditRCCnfg.sqlQuery=SQL query:
+
+EditRCCnfg.valueColumn=Value column:
+EditRCCnfg.definitionColumn=Definition column: 
+EditRCCnfg.referenceColumn=Reference column:
+EditRCCnfg.valInfSpec=Specify validity information:
+EditRCCnfg.beginDateColumn=Begin date column:
+EditRCCnfg.endDateColumn=End date column:
+EditRCCnfg.outdatedColumn=Outdated flag column:
+EditRCCnfg.outdatedFlagValue=Outdated flag value:
+
+
+EditRCCnfg.valColName=Value collection name:
+EditRCCnfg.warningMsg=Selected reference collection is not fully configured. The Value column field is empty. The parent will be omitted by the scanner process. You must enter a value in the field.
+MDM_AddRelationshipListener.modelCanNotBeNull=Relationship model must not be NULL
+MDM_EditRCComposer.callerNotSpecified=Caller component not specified.
+MDM_EditRCComposer.messageErrorRenamingRC=An error occurred while processing the item: {0}\nPossible reason: The item is locked.
+MDM_EditRCComposer.warningMissedParentRCValueColumn=Selected reference collection contains children ({0} in hierarchy). The Value Column field is empty. The hierarchical links to the reference collection will be omitted by the scanner process. You must enter a value in the Value column field for the parent collection {0}.
+
+
+MDM_EditRCHelper.errorLoadingRC=Error loading reference collection dialog
+MDM_EditRCHierarchiesComposer.resultAreEmpty=Search results are empty
+MDM_EditRCHierarchiesComposer.title=Select Related Reference Collection
+MDM_EditRCHierarchiesComposer.tooltip=Search for related reference collection
+MDM_NoNameDuplication.srapNameDuplication=An SRAP exception occurred while checking the new name for duplicates. Caused by:
+MDM_NoNameDuplication.rvlNameDuplication=An RVL exception occurred while checking the new name for duplicates. Caused by:
+MDM_NoNameDuplication.nameAlreadyExists=The name already exists.
+MDM_NoNameDuplication.findDuplicates=Query to find duplicates: {0}
+
+EditRCCnfg.hierarchyParents=Parents
+EditRCCnfg.addParent=Add
+EditRCCnfg.hierarchyCurrConfig=Current configuration
+EditRCCnfg.hierarchyParentName=Parent''s name
+EditRCCnfg.hierarchyRefColumnChild=Reference Column (in Child)
+EditRCCnfg.hierarchyRefColumnParent=Reference Column (in Parent)
+EditRCCnfg.hierarchyRefCollection=Reference Collection (Parent)

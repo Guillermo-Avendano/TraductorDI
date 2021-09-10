@@ -1,0 +1,127 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+
+#extra icons
+### END Icons
+
+SolrSearch.title=Search
+SolrSearch.configure=Configurar Pesquisa
+SolrSearchConf.enterlabel=Definir nome do parâmetro de pesquisa:
+SolrSearchConf.enterValue=Definir valor do parâmetro de pesquisa:
+SolrSearchConf.enterContext=Selecione o metaApp ao qual esse parâmetro pertence
+SolrSearchConf.context=A informação de contexto desta pesquisa é: 
+SolrSearchConf.addButton=Adicionar
+SolrSearchConf.okButton=OK
+SolrSearchConf.cancelButton=Cancelar
+SolrSearchConf.enter=OK/Adicionar (<Enter>)
+SolrSearchConf.esc=Cancelar (<Esc>)
+SolrSearchConf.warningctx=Alerta: Um parâmetro de pesquisa com essas informações de contexto já existe. 
+
+SolrSearchConf.confsubtitle=Editar, Remover, e Alterar os parâmetro de Pesquisa.
+SolrSearchConf.visible=Visível
+SolrSearchConf.label=Parâmetros de Pesquisa
+SolrSearchConf.edit=Editar
+SolrSearchConf.add=Adicionar
+SolrSearchConf.delete=Apagar
+SolrSearchConf.showApps=Mostrar mais
+SolrSearchConf.hideApps=Esconder
+SolrSearchConf.load=Carregando Parâmetros
+SolrSearch.theLabelIs=O rótulo para este parâmetro de pesquisa é:
+
+SolrSearchConf.conftitle=Configurar parâmetros de pesquisa
+SolrSearchConf.confirmtitle=Confirmar Exclusão
+SolrSearchConf.confirmmsg=Confirma a exclusão do parâmetro de pesquisa: {0}
+SolrSearchConf.confirmmsg.multi=Confirmar exclusão de {0} parâmetros de pesquisa.
+SolrSearchConf.confirmmsg.delete.mandatory=Preferência de pesquisa {0} não pode ser apagada
+SolrSearchConf.load.confirm.title=Carregando Nova Lista de Parâmetros de Pesquisa
+
+SolrSearchConf.edittitle=Editar parâmetros de Pequisa
+SolrSearchConf.editsubtitle=Editar conteúdo do parâmetro de pesquisa.
+
+SolrSearchConf.addtitle=Adicionar Parâmetro de Pesquisa
+SolrSearchConf.addsubtitle=Adicione a guia atual à sua lista de pesquisa.
+SolrSearchConf.errtitle=Erro: O parâmetro de pesquisa com este rótulo já existe. Especifique outro rótulo.
+
+SolrSearchConf.addParam=Adicionar
+SolrSearchConf.paramName=Nome
+SolrSearchConf.paramValue=Valor
+SolrSearchConf.paramDescr=Descrição
+
+#Index search parameter labels
+SolrSearchConf.param.fq=Lista de campos para filtrar a consulta por
+SolrSearchConf.param.start=Número de documentos principais a serem ignorados
+SolrSearchConf.param.rows=Número de documentos retornados após ''iniciar''
+SolrSearchConf.param.list_pagesize=Documentos por página
+SolrSearchConf.param.list_pagesize.toolTip=Número de documentos por página para layout HTML
+SolrSearchConf.param.solr.query.limit.value=Limite de itens na pesquisa
+SolrSearchConf.param.solr.query.limit.value.toolTip=Número máximo de itens a serem recuperados numa execução (a execução é repetida até que: o total seja alcançado ou todos os itens sejam recuperados ou o usuário decida interromper).
+SolrSearchConf.param.solr.query.totalLimit.value=Limite itens global
+SolrSearchConf.param.solr.query.totalLimit.value.toolTip=O número máximo de itens que podem ser recuperados globalmente (a execução é interrompida quando o limite é alcançado independente de alguns itens válidos ainda não terem sido recuperados).
+SolrSearchConf.param.qf=Pesquisa com lista de campos de consulta alargada
+SolrSearchConf.param.qf.toolTip=Uma lista separada por vírgulas dos campos Solr a serem consultados e os seus pesos.
+SolrSearchConf.param.fl=Campos de retorno definidos
+SolrSearchConf.param.fl.toolTip=Quando retornamos os resultados ao cliente, apenas os campos constantes na lista serão incluído.
+SolrSearchConf.param.qt=Manipulador de consulta que processa a solicitação
+SolrSearchConf.param.qt.toolTip=O manipulador de solicitação padrão para o qual envio é "/select".
+SolrSearchConf.param.facet=Use contagens de fachadas na resposta da consulta
+SolrSearchConf.param.facet.toolTip=Qualquer valor em branco ou ausente ou "falso" desativirá a fachada.
+SolrSearchConf.param.facet.pivot=Lista de campos a serem dinamizados.
+SolrSearchConf.param.facet.pivot.toolTip=Múltiplos valores criarão múltiplas seções na resposta Multiple values will create multiple sections in the response.
+SolrSearchConf.param.httpSolrServer=URL do servidor Solr
+SolrSearchConf.param.core=Nome da instância Solr
+SolrSearchConf.param.core.toolTip=Nome de instância do Solr para toda a configuração Solr.
+SolrSearchConf.param.wt=Tipo de Escritor
+SolrSearchConf.param.hl=Utilizar destaque na página de resultados
+SolrSearchConf.param.hl.toolTip=Habilitar destaque em trecho a ser gerado na resposta da pesquisa. Qualquer ausência de valor ou em branco, ou"falso" desabilitará o realce.\nO realce só é eficaz em resultados na disposição HTML.
+SolrSearchConf.param.hl.fl=Lista de campos para destaque na página de resultados
+SolrSearchConf.param.hl.fl.toolTip=Lista de campos delimitada por vígula os quais gera trecho em realce.\nO realce só é eficaz em resultados na disposição HTML.
+SolrSearchConf.param.autosuggest=Manipulador de preenchimento automático personalizado
+SolrSearchConf.param.autocomplete=Nomes dos manipuladores de preenchimento automático
+SolrSearchConf.param.autocomplete.toolTip=Define os nomes do requestHandler de preenchimento automático que você possui na configuração do Solr separados por vírgula.Se o primeiro conjunto de respostas do manipulador de solicitações for nosso objetivo, a próxima cadeia de manipuladores não será executada. Se vazio, o preenchimento automático será desativado
+SolrSearchConf.param.defType=Tipo de analisador de consulta
+SolrSearchConf.param.defType.toolTip= O Padrão é "edismax" 
+SolrSearchConf.param.hl.fragsize=Número máximo de itens que podem ser retornados pela consulta.
+SolrSearchConf.param.hl.fragsize.toolTip=Especificar 0, remove a restrição
+SolrSearchConf.param.sort=Define a lista de campos para ordenação
+SolrSearchConf.param.language=Idioma para pesquisa de dados
+SolrSearchConf.param.language.toolTip=Idioma que será utilizado para pesquisar
+SolrSearchConf.param.layouts=Layouts de Pesquisa
+SolrSearchConf.param.layouts.toolTip=Todos os layouts de pesquisa que serão utilizados para mostrar os resultados da pesquisa
+SolrSearchConf.param.defLayout=Layout de Pesquisa
+SolrSearchConf.param.defLayout.toolTip=Define o layout de pesquisa que será utilizado para mostrar os resultados da pesquisa
+SolrSearchConf.param.pureFields=Campos não apresentados no resultado da pesquisa
+SolrSearchConf.param.pureFields.toolTip=Lista de campos que não são apresentados no resultado da pesquisa
+SolrSearchConf.param.mode=Modo de Pesquisa
+SolrSearchConf.param.mode.toolTip="simples" significa mostrar todos os datos recuperados pelo sistema de busca, \n"advançado" - pesquisa apenas identificadores de itens e mostra os dados restantes do Rochade
+SolrSearchConf.param.ignored_search_fields=Campos ignorados
+SolrSearchConf.param.ignored_search_fields.toolTip=A lista dos campos Solr que NÃO serão utilizados na pesquisa
+SolrSearchConf.param.Rochade_indexed_fields=Campos de indexação de dados Rochade
+SolrSearchConf.param.Rochade_indexed_fields.toolTip=Lista de campos do Solr que correspondem aos dados indexados do Rochade (ou seja, campos Solr que mapeiam dados provenientes do Rochade)
+SolrSearchConf.param.no_keyword_clone_fields=Campos não indexados como palavra-chave
+SolrSearchConf.param.no_keyword_clone_fields.toolTip=Lista de campos do Solr oriundos do Rochade que não possuem equivalentes indexados como palavra-chave (i.e. Campos Solr com dados Rochade que não são copiados ou indexados novamente como "palavra-chave" inquebrável)
+SolrSearchConf.param.Result_Page_Displayed_Features=Definições de atributos adicionais para a página de resultados
+SolrSearchConf.param.Result_Page_Displayed_Features.toolTip=Uma lista separada por vírgulas de atributos de texto adicionais a ser exibida na página de resultados.\nA configuração também pode ser utilizada para alterar a ordem dos atributos apresentados na página de resultados.\nEsta função só é eficaz para resultados na disposição HTML.
+#fall back label
+SolrSearchConf.param.=Parâmetro adicional
+SolrSearchConf.param..toolTip=Parâmetro adicional (não há designação especial disponível) 
+
+#Index search parameter values mapping
+SolrSearchConf.param.value.defLayout.table=Tabela
+SolrSearchConf.param.value.defLayout.table.toolTip=Layout Tabela - Padrão Rochade Browser
+SolrSearchConf.param.value.defLayout.list=HTML
+SolrSearchConf.param.value.defLayout.list.toolTip=Layout Lista de itens padronizado
+SolrSearchConf.param.value.layouts.table=Tabela
+SolrSearchConf.param.value.layouts.list=HTML
+
+
+SolrSearchConf.restore=Restaurar Padrões
+SolrSearchConf.restore.tip=Restaurar Parâmetros Padrão de Pesquisa
+
+SolrSearchConf.noLanguageDefined=Idioma não suportado
+

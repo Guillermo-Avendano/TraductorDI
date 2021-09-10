@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>${title_placeholder}</title>
+		<style type="text/css">
+			h1 {
+				font-family:Tahoma,Arial,sans-serif;
+				color:white;
+				background-color:#525D76;
+				font-size:1.8em;
+			}
+			h2 {
+				font-family:Tahoma,Arial,sans-serif;
+				color:white;
+				background-color:#525D76;
+				font-size:1.4em;
+			}
+			h3 {
+				font-family:Tahoma,Arial,sans-serif;
+				color:white;
+				background-color:#525D76;
+				font-size:1.2em;
+			}
+			body {
+				font-family:Tahoma,Arial,sans-serif;
+				color:black;
+				background-color:white;
+				font-size:12px;
+			}
+			.header {
+				font-family:Tahoma,Arial,sans-serif;
+				color:white;
+				background-color:#525D76;
+				padding: 0.2em;
+				font-weight: bold;
+				user-select: none;
+			}
+			.bar {
+				margin-bottom:0.5em;
+			}
+			p {
+				font-family:Tahoma,Arial,sans-serif;
+				background:white;
+				color:black;
+				font-size:12px;
+			}
+			a {
+				color:black;
+			}
+			a.name {
+				color:black;
+			}
+			.line {
+				height:1px;
+				background-color:#525D76;
+				border:none;
+			}
+			#stacktrace {
+				font-family: Tahoma,Arial,sans-serif;
+				background: white;
+				color: black;
+				font-size: 1.0em;
+				padding: 0.3em;
+				border-width: 1px;
+				border-color: black;
+				border-style: solid;
+			}
+			#stacktrace.shown {
+				display: block;
+				visibility: visible;
+			}
+			#stacktrace.hidden {
+				display: none;
+				visibility: hidden;
+			}
+			#toggleDecorator {
+				margin-left: 0.5em;
+				font-weight: bolder;
+			}
+			#toggleDecorator.shown::after {
+				content: '\22C1'; /* N-Ary Logical Or - arrow down character */
+			}
+			#toggleDecorator::after {
+				content: '\22C0'; /* N-Ary Logical And - arrow up character */
+			}
+		</style>
+		<script>
+			function toggleStacktrace() {
+				var stacktraceEl = document.getElementById('stacktrace');
+				var decoratorEl = document.getElementById('toggleDecorator');
+				if (stacktraceEl.className=='shown') {
+					stacktraceEl.className = 'hidden';
+					decoratorEl.className = 'hidden';
+				} else {
+					stacktraceEl.className = 'shown';
+					decoratorEl.className = 'shown';
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<a href="${back_link_href_placeholder}">${back_link_label_placeholder}</a>
+		<h1>${main_header_placeholder}</h1>
+		<hr class="line"/>
+		<p>
+			<span class="header">${report_type_label}</span>
+			${report_type_placeholder}
+		</p>
+		<p>
+			<span class="header">${message_label}</span>
+			${message_placeholder}
+		</p>
+		<div class="header bar" onclick="javascript:toggleStacktrace();">${stacktrace_label}<span id="toggleDecorator" class="shown"></span></div>
+		<div id="stacktrace" class="shown">${stacktrace_placeholder}</div>
+		<hr class="line" />
+		<h3>${product_version_placeholder}</h3>
+	</body>
+</html>

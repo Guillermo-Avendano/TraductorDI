@@ -1,0 +1,279 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: XR/K7FowTGDSbOfZ6Yp02AHoZmyYh
+ plnSdSKubLyaEE=
+SHA-256-Digest-Manifest: nUMpcd9XhbDpzQZ/dT+qHAnHtuCH8jCTXJgWEVp4+70=
+Created-By: 1.7.0_65 (Oracle Corporation)
+
+Name: web/com.rochade.bigdata.navigator/img/bg-icon-governance.png
+SHA-256-Digest: vTwkUGRLDqVZ7rHIfkdsJ4ko0iVFvN8m4mOkjnafViY=
+
+Name: web/com.rochade.bigdata.ctxmenu/RBD_SERVICE_ROLE.zul
+SHA-256-Digest: rTZZILwpwVV7/9ll6ClRf5+swNsttR8xSLCDQ2vDwBc=
+
+Name: web/com.rochade.bigdata.objectcontent/RBD_DirectorySizeTab.zul
+SHA-256-Digest: XFu35Wl5bJ7Fnv5z/uKa66ODNUS3RfmLMLGieHSgSGY=
+
+Name: web/com.rochade.bigdata.ui.pathway/LifecycleContent.zul
+SHA-256-Digest: hd4iu441TJxn35HUD9BEocGbuGbQdZKA6I9UrFNjSI0=
+
+Name: web/com.rochade.bigdata.queryparam/SqoopQueryParam.zul
+SHA-256-Digest: IBHH5fCm2cpCLeFQz4vUh5746kLErRNTJlY5XIrCLRI=
+
+Name: web/com.rochade.bigdata.objectcontent/RBD_ServiceGeneralTab.zul
+SHA-256-Digest: RSQFkHlAhl3CwXm+vcG6jYty1ARBqxKtoaXck3tdYh4=
+
+Name: web/com.rochade.bigdata.queryparam/HiveQLQueryParam.zul
+SHA-256-Digest: rphhFpxkhCShnHr7VW5ZPUwdNjd/w2pERSlrQOjGLvg=
+
+Name: web/com.rochade.bigdata.portlet/GovernanceMetrics.zul
+SHA-256-Digest: 4seoWL64OTPHjTodGBoTDFOT4BW1KrwkVHG1UPcpUMg=
+
+Name: web/com.rochade.bigdata.queryparam/TargetExportQueryParam.zul
+SHA-256-Digest: Hig1mAFQRR8ujQOWrD6RRuKgkFHlKEHjaX7eHL+uv+E=
+
+Name: web/com.rochade.bigdata.ctxmenu/RBD_Database.zul
+SHA-256-Digest: tNlrvkF6Usrkrt9hQ2ereNmn+kJH0jfIkQYiMqwBZiU=
+
+Name: web/com.rochade.bigdata.queryparam/img/WizardDefault.gif
+SHA-256-Digest: 5g2dby/Cy+nh2oatRQxRRhBrGFhLYxVf9XSi566LhWY=
+
+Name: web/com.rochade.bigdata.queryparam/BigDataQueryParam.messages
+SHA-256-Digest: j+CHa/8k9oWQztIENCDRqc3bq6Qqu8OTUD+hb9OCaBw=
+
+Name: web/com.rochade.bigdata.objectcontent/RBD_ServiceConfigParamsTab
+ .zul
+SHA-256-Digest: u5OBC0OufDM+NzuBbvFgKb8rZjF83NcdXQGE9U3QZI0=
+
+Name: web/com.rochade.bigdata.portlet/GovernanceMetrics.messages
+SHA-256-Digest: 8e2lUKLhchwUToLAM0HInfxdXxICZ9GZEZcJNt6xzuQ=
+
+Name: web/com.rochade.bigdata.navigator/img/structure.png
+SHA-256-Digest: FMJC6B3XPqjsyKOsCNQGkexvUzHOU6vJygacch5kknY=
+
+Name: web/com.rochade.bigdata.ctxmenu/RBD_CLUSTER.zul
+SHA-256-Digest: sPnFZCyMoIhdYKE7tRUmws++CbL2LEHgGQr1nWNQN/M=
+
+Name: web/com.rochade.bigdata.navigator/img/hadoop-16.png
+SHA-256-Digest: zmVFjkqTivLtxhS8gCI6+CSFSFlUC4V0rNB1aUShZjk=
+
+Name: web/com.rochade.bigdata.queryparam/HadoopFSQueryParam.messages
+SHA-256-Digest: BMl8mrEaegiNtSIfHrw86c0cZcj6yJzGf3bjjx8n/Hg=
+
+Name: web/com.rochade.bigdata.ui.pathway/img/Lifecycle.png
+SHA-256-Digest: S9VnDVXx9ergH6GdmWyEsnG96VAqXrNM+OZq0SCNxkQ=
+
+Name: web/com.rochade.bigdata.queryparam/ServiceQueryParam.zul
+SHA-256-Digest: cLas501LKLHEPt4ETYFAn2mafmTNHmmJj0q9tynG5Kg=
+
+Name: web/com.rochade.bigdata.queryparam/ServiceLineageQueryParam.zul
+SHA-256-Digest: wMzjiftH7P6qbs0WxRj9W9iGH/mVknoYrL3Y7vS4A3k=
+
+Name: web/com.rochade.bigdata.objectcontent/RBD_HostGeneralTab.zul
+SHA-256-Digest: zhKVhu2AE1wepSskNtjvqKhSWSxVZW3gQCO+EfkHWGc=
+
+Name: web/com.rochade.bigdata.ctxmenu/RBD_HOST.zul
+SHA-256-Digest: IxjqvxmciBkB2dL+u8LEmFwiuJcDz9WR29VHdYZ5hrk=
+
+Name: web/com.rochade.bigdata.objectcontent/RBD_RoleGeneralTab.zul
+SHA-256-Digest: sz+atMrQaIOicDQETjJbIXV3y6iQmvK2odsBf2Hr0/E=
+
+Name: web/com.rochade.bigdata.ui.pathway/img/Cluster.png
+SHA-256-Digest: 3akeLaaLHY6jBZWubJV91aQWAeqXah92hj1qjkopMpU=
+
+Name: web/com.rochade.bigdata.objectcontent/RBD_ServiceRolesTab.zul
+SHA-256-Digest: Q9YXG5zBdg75Yi97vbdAabWdH02LOt18/tNYT02BXpk=
+
+Name: web/com.rochade.bigdata.navigator/img/bg-icon-lifecycle.png
+SHA-256-Digest: MSp2tbmsUTkFwp/gc/feQDsOnowFwE+MbLItG1jD+tA=
+
+Name: web/com.rochade.bigdata.ui.pathway/BigDataContent.messages
+SHA-256-Digest: f6b+6rG6m8AxMKFThkOX59J5y8QLilYL76SXImz13Jg=
+
+Name: web/com.rochade.bigdata.ui.pathway/ToolContent.messages
+SHA-256-Digest: ghfOU4i5rIVlxusKsMqTzRrwMysYhWmwfy9/LnFD6JM=
+
+Name: web/com.rochade.bigdata.objectcontent/RBD_DirectoryGeneralTab.zu
+ l
+SHA-256-Digest: Xs0gMRVCdw+hMcq8qz0X7pzLlNh1w87SJIsIYELFRew=
+
+Name: web/com.rochade.bigdata.actions/rbdAction.messages
+SHA-256-Digest: QbAwp0QjFSna+otTn7gR70ipY2np0ZULTsYJSqJ8ZeU=
+
+Name: web/com.rochade.bigdata.navigator/img/lifecycle-16.png
+SHA-256-Digest: ZnWsbrsiyz2HRkPsDQNjLx3BuApGWLQHEEX2t6vKUg0=
+
+Name: web/com.rochade.bigdata.navigator/img/sqoop-24.png
+SHA-256-Digest: 2Cec8ODBCjITxIumJQCMgjcrY4rQoISNue0147/H++E=
+
+Name: web/com.rochade.bigdata.objectcontent/RBD_RoleHostsTab.zul
+SHA-256-Digest: hAl97sSvjNl3/CKm1z5X4X4MlQ4zXSvOt4eZWP7nYeQ=
+
+Name: web/com.rochade.bigdata.ui.pathway/img/button.png
+SHA-256-Digest: 3NqtU8D7qufpEYTOo/c/12HgQkvxlrdLSyZAz836OBo=
+
+Name: web/com.rochade.bigdata.queryparam/ColumnsFieldsQueryParam.zul
+SHA-256-Digest: xZcn26P5urAibT5RZRBXusfgDZX6MLCH7EktViQUXko=
+
+Name: web/com.rochade.bigdata.ui.pathway/img/infoPages.css
+SHA-256-Digest: MIBDizAt1NxKpozvyw74Q3/SNZJzcWcdYBBlWVflBD0=
+
+Name: web/com.rochade.bigdata.ui.pathway/img/Tool.png
+SHA-256-Digest: E3CKHLhCirqj3+bgv6oYS2DKT/3aTXhqzWLH6vNwVXA=
+
+Name: web/com.rochade.bigdata.navigator/img/contents-16.png
+SHA-256-Digest: t/qnqbpy3f82qXMrQvs2P9ZXAF9u4brRR3P+D+sbPTo=
+
+Name: web/com.rochade.bigdata.queryparam/BatchImportedQueryParam.messa
+ ges
+SHA-256-Digest: eOAAtWiWbOYkxpyC9flqF1UPncxHS9bXIiWR26Pm9gg=
+
+Name: web/com.rochade.bigdata.navigator/img/bg-icon-contents.png
+SHA-256-Digest: 6itxEfCDs30wCARbbyDDXND3MMkkrYmWuxm0aJcqHfs=
+
+Name: web/rbd.messages
+SHA-256-Digest: ulfqReV/6zZ7YEn5XP0xJZ/DzC5Dmek8+l6JOq+hNBE=
+
+Name: web/com.rochade.bigdata.navigator/img/hadoop-24.png
+SHA-256-Digest: kmMQIo1iTvZcAeP4LdwjW8fo696ZJiotWx/S9bJXGLI=
+
+Name: web/com.rochade.bigdata.queryparam/HadoopFSQueryParam.zul
+SHA-256-Digest: 13CQU2STeisz5wcsELGwPiy9VLpsxsgQPoaWTIibzXk=
+
+Name: web/com.rochade.bigdata.objectcontent/RBD_DirectoryFilesTab.zul
+SHA-256-Digest: k2wc4dZau5zETZhGpbrhTBSqXg7Gm7HESvIam9tAROo=
+
+Name: web/com.rochade.bigdata.ui.pathway/ClustersContent.messages
+SHA-256-Digest: l4S7C6tTacpHNBBXXS7zOF1HZZhEBiJrhr15kwMbwUs=
+
+Name: web/com.rochade.bigdata.ui.pathway/ToolContent.zul
+SHA-256-Digest: JTZ9YSgblmr/Se6D0iwiLc1oyi9VB+0NVPOhwUmV5B4=
+
+Name: web/com.rochade.bigdata.navigator/img/governance-16.png
+SHA-256-Digest: U09ayxVDnWpoCHNNWvvskflt4bq8vjDzO3wRt8yzEt4=
+
+Name: web/com.rochade.bigdata.ctxmenu/RBD_DIRECTORY.zul
+SHA-256-Digest: 6WtlT5Zt40Y8sFmqSmLOBx7FuT9VWfAMnsl8A5xhuao=
+
+Name: web/com.rochade.bigdata.navigator/img/flume-16.png
+SHA-256-Digest: 3cj3m3RwP63+JIGIAqcmRo+07CmhoDuFnIyCpJtA+O4=
+
+Name: web/com.rochade.bigdata.navigator/BD.zul
+SHA-256-Digest: XLDIoZ9vqASkRyLVTkUYSkn6xbfoONzU/1tH6Sj5H6A=
+
+Name: web/com.rochade.bigdata.queryparam/SqoopQueryParam.messages
+SHA-256-Digest: W3PM7sVmfPteUSnan3cTZeROoG9KnI2DRcPrRNvMDQw=
+
+Name: web/com.rochade.bigdata.ctxmenu/RBD_SERVICE.zul
+SHA-256-Digest: QqiY4CdBCgoTQW+otUMYnFCzO+E2fyqtanU7Zf+DTDY=
+
+Name: web/com.rochade.bigdata.objectcontent/RBD_RoleConfigParamsTab.zu
+ l
+SHA-256-Digest: LOXSr7ip1bNa8k2f4lBJUoIA+RUCZxRdVTPWcD2wkl0=
+
+Name: web/com.rochade.bigdata.objectcontent/RBD_ParameterGeneralTab.zu
+ l
+SHA-256-Digest: mu6354/9XydOg/R1rropI/zMpyqblVpN0T6Ju48Hid8=
+
+Name: web/com.rochade.bigdata.navigator/img/bg-icon-elephant.png
+SHA-256-Digest: J9lMAhKSSIajT0uJnzD75zr4FSXEtySXBYVOz8bqLOE=
+
+Name: web/com.rochade.bigdata.objectcontent/rbdObjectContent.messages
+SHA-256-Digest: cgre0Oxe5lbTi3cm9RPl49n8rkGmSCipQnRvFZLfF5c=
+
+Name: web/com.rochade.bigdata.queryparam/BatchImportedQueryParam.zul
+SHA-256-Digest: t8+H3sCSTWV86oovzT0ywJubxpwP6mSsLwu9pXvtj4M=
+
+Name: web/com.rochade.bigdata.objectcontent/RBD_FileGeneralTab.zul
+SHA-256-Digest: 9fo16cdCnK64ksHqtINcFM2vA1QRf3juzBCrMc1195w=
+
+Name: web/com.rochade.bigdata.navigator/img/hive-16.png
+SHA-256-Digest: LSmkZk+IaHI4eShxkS03KRBJHGNB5BmyuRJf8a4bAr0=
+
+Name: web/com.rochade.bigdata.navigator/img/sqoop-16.png
+SHA-256-Digest: WLNC5nyphvmWkGUpkjyLNsC9wPUwJdRBMOwOyCKc6+I=
+
+Name: web/com.rochade.bigdata.queryparam/FlumeQueryParam.zul
+SHA-256-Digest: o9WArjDQ06GwzXYxQeCTXF1s8444tFTx+tfkidjjmR8=
+
+Name: web/com.rochade.bigdata.ctxmenu/ComplexDataTypesStructure.zul
+SHA-256-Digest: MnCgtIOxSRG/P6qsFbrNSY+8UkmFLiHdB5RrP+TeGX4=
+
+Name: web/com.rochade.bigdata.queryparam/HostsQueryParam.zul
+SHA-256-Digest: n6ZIhcAAI4hgOaFCcOiTx3+9eHZIYdjvsK8WXc7I3Hk=
+
+Name: web/com.rochade.bigdata.queryparam/FalconQueryParam.zul
+SHA-256-Digest: E9Mpf9RkI/OeQ017J7O0K4y+pYNiVx5BsZMZg2xVo00=
+
+Name: web/com.rochade.bigdata.ui.pathway/LifecycleContent.messages
+SHA-256-Digest: GERSx9mfNaLiJihB3foSzTkvJwD/WvjL/gFegCNo6zI=
+
+Name: web/com.rochade.bigdata.ui.pathway/ClustersContent.zul
+SHA-256-Digest: aRbCuJv/ycp4qnfCYCdJTLMxpSJIJuqaX1ZtjCXpLvc=
+
+Name: web/com.rochade.bigdata.navigator/img/bigdata-16.png
+SHA-256-Digest: buj2jwUQs+Oo+IHFggTM9jQdEwtiBtTGS81sU6d1mDc=
+
+Name: web/com.rochade.bigdata.queryparam/FlumeQueryParam.messages
+SHA-256-Digest: bVrycBkNECWa8pOohP+NWZm1S9Qh7Vj5fuSlgH2ifys=
+
+Name: web/com.rochade.bigdata.queryparam/SourceImportQueryParam.zul
+SHA-256-Digest: hlY1KvGqnpCNHfwy5dhli3zrGFU+xXVNlWEMAb7oFNo=
+
+Name: web/com.rochade.bigdata.queryparam/TypesRecordsQueryParam.zul
+SHA-256-Digest: QQdG1dK1VObwrvwT0GGvo8wPKHN5+uAKjyv3LtVBAMk=
+
+Name: web/com.rochade.bigdata.ctxmenu/RBD_CONFIG_PARAM.zul
+SHA-256-Digest: +XMagHaaE5HShlUNvXxNC0P6Cyr1xBB//mdFQKrJDuM=
+
+Name: web/com.rochade.bigdata.navigator/BigDataSubNavigator.zul
+SHA-256-Digest: Jz3dEprWwv5u5J5U8BvOQy3xOQANNS/aPoPys+mTLY8=
+
+Name: web/com.rochade.bigdata.navigator/img/hive-24.png
+SHA-256-Digest: C23DMF/CCG4qC9qQD8IqrYvT7s47XpDtr39jr8fjlMQ=
+
+Name: web/com.rochade.bigdata.navigator/img/oozie-16.png
+SHA-256-Digest: M9NMkd6KkUTIwv4QoBEWmnlzV27H03MDU/PSdcIa43w=
+
+Name: web/com.rochade.bigdata.navigator/img/bg-icon-structure.png
+SHA-256-Digest: LloVhdacRnoEN6BZqmeRfaVwD9rKJy0XAnmMG/F2xiI=
+
+Name: web/com.rochade.bigdata.ctxmenu/ComplexRecordTypesStructure.zul
+SHA-256-Digest: jcSv6zFf1j7+sbvofDNyIukHwhtQm8GEAcyZuZJSl4k=
+
+Name: web/com.rochade.bigdata.queryparam/StreamImportedQueryParam.mess
+ ages
+SHA-256-Digest: 1bqxceZwdA/3fkYDuzfI9NLj14cES23qFBv/FWUFj0g=
+
+Name: web/com.rochade.bigdata.navigator/img/bigdata-24.png
+SHA-256-Digest: TjFqd9Fi7deXbfFcBPcI3rEQPQdAsoD4+0PvG7OQkP4=
+
+Name: web/com.rochade.bigdata.navigator/NavTree.messages
+SHA-256-Digest: Hu/fyvV2cLOgJHFcXFc47Z8yTo5WSg5FA0jyAAGjdzY=
+
+Name: web/com.rochade.bigdata.portlet/img/16x16_metrics.png
+SHA-256-Digest: Aw3xCkEAjEDPPVp3tKy6xlvScblpS21VLteTHoffNfg=
+
+Name: web/com.rochade.bigdata.ctxmenu/ComplexStructure.zul
+SHA-256-Digest: dCxus/UyU/BUioVgdHVa2KVzYZL2/hLxMwXf4UomhpE=
+
+Name: web/com.rochade.bigdata.queryparam/StreamImportedQueryParam.zul
+SHA-256-Digest: G/p6wvM8i4jWIoYgzXKXdRTvmVw5y4tt7bfcUro6ZN8=
+
+Name: web/com.rochade.bigdata.queryparam/HiveDWQueryParam.zul
+SHA-256-Digest: c6u4H8yeHXDiEb5rNoMgAXfCUqTfloM00nBpf5tNtDg=
+
+Name: web/com.rochade.bigdata.navigator/img/oozie-24.png
+SHA-256-Digest: mr+x/5YHXD+DFsCfcB4FLFG1Bqa1WTmK5hHzivt0r0Y=
+
+Name: web/com.rochade.bigdata.queryparam/HiveDWQueryParam.messages
+SHA-256-Digest: a43TB0KxXJ6eJbCi+y30MBIV/I8vx7HFy3Q6Wx/d0UM=
+
+Name: web/com.rochade.bigdata.ctxmenu/DWR_RDB_TABLE_OR_VIEW.zul
+SHA-256-Digest: FXCUrz6ZiqywJ9h7kHKvkCPgTEWyekHzo21F2MWsR2c=
+
+Name: web/com.rochade.bigdata.navigator/img/about.png
+SHA-256-Digest: QzPCOoo8e2np3IUD3465yCAeaZ4LfDiVDjoR1Y4UU4k=
+
+Name: web/com.rochade.bigdata.navigator/img/falcon-16.png
+SHA-256-Digest: 6aUTPCDJfRs2Qknmi1Eo1I8B6Ua30r344vI7HI6uiAU=
+

@@ -1,0 +1,137 @@
+﻿#-------------------------------------------------------
+# metaGlossary - Message file
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.mg.useradministration
+#
+
+### Icons: all images should be inside of dir /com.rochade.mg.useradministration/ + img/, see plugin.xml
+
+#extra icons
+mg.customize.model.img.add=/com.rochade.mg.customize.businessterm/img/addlink.gif
+mg.customize.model.img.refresh=/com.rochade.mg.customize.businessterm/img/Refresh.png
+mg.customize.model.img.search=/com.rochade.mg.customize.businessterm/img/16x16_search.png
+mg.customize.model.img.empty=/com.rochade.mg.customize.businessterm/img/Empty.png
+mg.customize.model.img.generate=/com.rochade.mg.customize.businessterm/img/Generate.png
+
+
+UserAdministration.img.delete=/com.rochade.mg.useradministration/img/Delete16.png
+### END Icons
+
+mg.customize.model.tabtitle=Business Items Administration
+
+mg.customize.model.caption.label=Type Information
+mg.customize.model.caption.label.create.type=Create Subtype of Type: 
+mg.customize.model.caption.label.edit.type=Edit Type  
+mg.customize.model.caption.label.create.attribute=Create Attribute for Type: 
+mg.customize.model.caption.label.edit.attribute=Attribute Information
+mg.customize.model.caption.create.type=Type Information
+mg.customize.model.caption.label.addexist.attribute=Add Attribute to Type:
+
+mg.customize.addtype.alreadyexist.msg=Type {0} already exists. Do you want to add the existing type?
+mg.customize.addtype.alreadyexistandassigned.msg=Type {0} already exists and is assigned.
+mg.customize.addtype.alreadyexist.title=Type {0} already exists.
+mg.customize.addtype.notpossible.supertype=Type {0} already exists. Cannot proceed because the selected supertype is not assigned to the type.
+
+mg.customize.addattribute.alreadyexist.msg=Attribute {0} already exists. Do you want to add the existing attribute?
+mg.customize.addattribute.alreadyexistandassigned.msg=Attribute {0} already exists and is assigned to type {1}.
+mg.customize.addattribute.alreadyexist.title=Attribute {0} already exists.
+
+mg.customize.attribute.businessname.title=Edit Display Names of Attribute: 
+mg.customize.type.businessname.title=Edit Display Names of Type: 
+
+mg.customize.model.label.businessNameFor=Customized display names for {0}:
+mg.customize.model.label.businessNameDefLang={0} (installed default language)
+
+# @deprecated: next 2 lines
+mg.customize.model.label.businessname=Display name:
+mg.customize.model.label.businessname.defaultLanguage=Default language ({0}):
+
+mg.customize.model.caption.create.attribute=Create Attribute
+mg.customize.model.type.name=Name:
+mg.customize.model.type.shortDesc=Definition:
+mg.customize.model.attribute.name=Name:
+mg.customize.model.attribute.shortDesc=Definition:
+mg.customize.model.attribute.ml=Multilingual:
+mg.customize.model.button.add=Add
+mg.customize.model.button.save=Save
+mg.customize.model.button.cancel=Cancel
+
+mg.customize.model.caption.addexist.attribute=Add Existing Attribute
+mg.customize.model.attribute.searchfor=Search for attribute:
+mg.customize.model.attribute.button.search=Search
+
+
+mg.customize.label.menuitem.action=Actions
+mg.customize.label.menuitem.edit=Edit
+mg.customize.label.menuitem.edit.businessname=Edit Display Names
+mg.customize.label.menuitem.detach=Detach
+mg.customize.label.menuitem.addattribute=Create Attribute
+mg.customize.label.menuitem.addExistattribute=Add Existing Attribute
+mg.customize.label.menuitem.addnewterm=Create Type
+#Add New Term Type that Inherits From
+mg.customize.label.menuitem.addnewterm.menulabel=Inherits from:
+mg.customize.label.menuitem.mainAddExisting=Add Existing Type
+mg.customize.label.menuitem.mainRefresh=Refresh
+mg.customize.label.menuitem.mainGen=Generate
+
+mg.customize.label.grid.head.itemtype=Type
+mg.customize.label.grid.head.type=Type
+mg.customize.label.grid.head.name=Name
+mg.customize.label.grid.head.definition=Definition
+mg.customize.label.grid.head.multilanguage=ML
+mg.customize.label.grid.head.multilanguage.value.true=yes
+mg.customize.label.grid.head.multilanguage.value.false=no
+mg.customize.label.grid.head.supertype=Supertype
+
+mg.customize.label.detachnotpossibleinuse1=Detach not possible. The type is in use.
+mg.customize.label.detachnotpossibleinuse2=Detach not possible. The type is in use. Number of items: {0}
+mg.customize.label.detachnotpossiblesubtypeassigned=Detach not possible. The type has subtypes: {0}
+
+mg.customize.info.generate.success=Generation successfully completed.\nNote: Changes take effect at next logon.
+
+mg.customize.error.msg.loadadminnotpossible=The Business Items Administration could not be loaded.
+mg.customize.error.msg.assignnotpossiblesupertype=Assign not possible. Supertype is not assigned ({0}).
+mg.customize.error.lockrim=The model could not be locked.
+mg.customize.error.lockresource=The label mappings were not saved because the resource could not be locked.
+mg.customize.error.saveresource=The label mappings were not saved.
+mg.customize.error.addexistingterm=The existing type could not be added.
+mg.customize.error.reorg.sa=The subject area could not be reorganized.
+mg.customize.error.gen.rim=The model could not be generated.
+mg.customize.error.detach.type=The type could not be detached from the model.
+mg.customize.error.detach.attribute=The attribute could not be detached from the type.
+
+mg.customize.error.addexistattr.noselection=No attribute selected.
+mg.customize.error.createtype=Type could not be created.
+mg.customize.error.addtype=Type could not be added.
+mg.customize.error.changetype=Type changes could not be saved.
+mg.customize.error.createattribute=Attribute could not be created.
+mg.customize.error.addattribute=Attribute could not be added.
+mg.customize.error.changeattribute=Attribute changes could not be saved.
+mg.customize.error.wrongelementname=Invalid name:\nThe name length is limited to 32 characters.\nSpaces, tabs, and new lines are not allowed.\nThe following characters are not allowed: . * ( ) ^ @ # , ; \nOnly uppercase characters are allowed.
+mg.customize.error.duplicateBusinessName=Display name ''{0}'' is not unique for language ''{1}''
+
+mg.customize.model.caption.businessnames=Display Names
+
+#mg.customice.generate.question.before.text=The generation could take some time. Once it has completed, you will be prompted whether you want to re-login for the changes to take effect. \n\nDo you want to proceed?
+mg.customice.generate.question.before.text=The generation could take some time and it requires to close all open windows before. Afterwards, the changes will take effect immediately. \n\nDo you want to proceed?
+mg.customice.generate.question.before.title=Generate 
+
+mg.customice.generate.question.enforce.text=This operation requires exclusive access to the metaGlossary data. All other sessions currently accessing the data will be closed.\nBefore you continue, inform other users about the impending forced logoff or click Cancel to postpone the operation.
+mg.customice.generate.question.enforce.title=Exclusive Access Required
+
+mg.customice.generate.message.after.text=The generation has been completed successfully. \nYou must re-login for the changes to take effect.\n\nDo you want to log out now?
+mg.customice.generate.message.after.title=Generation Successful
+
+mg.customize.detachattr.confirmation.title=Detaching attribute ...
+# you may use {0} placeholder for attribute and {1} for type
+mg.customize.detachattr.confirmation.message=Are you sure to detach selected attribute?
+
+mg.customize.detachtype.confirmation.title=Detaching item type ...
+# you may use {0} for type
+mg.customize.detachtype.confirmation.message=Are you sure to detach selected item type?

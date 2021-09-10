@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page id="start" title="WebAccess" contentType="text/html;charset=UTF-8"?>
+<!--
+	@author HG 14/03/2011, created
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+-->
+<selviewmenu>
+	<div hflex="1">
+		<div sclass="asg-menubar-right-aligned">
+			<menubar style="background:none; border:none;">
+				<menu actionId="MWTB_Env">
+					<menupopup>
+						<menuitem actionId="WTB_EnvRef" enableCondition="selection.single.multi"/>
+						<menuitem actionId="WTB_EnvRefAndUsages" enableCondition="selection.single.multi"/>
+						<menuitem actionId="WTB_EnvUsages" enableCondition="selection.single.multi"/>
+					</menupopup>
+				</menu>
+				<menu actionId="WTB_Switch2View" visibleCondition="view.isNotTable">
+					<menupopup>
+						<menuitem actionId="WTB_Switch2Tree" visibleCondition="view.isNotTree"/>
+						<menuitem actionId="WTB_Switch2Diagram" visibleCondition="view.isNotDiagram"/>
+						<menuitem actionId="DWR_Switch2Diagram" visibleCondition="view.isNotDWRDiagram"/>
+					</menupopup>
+				</menu>
+				<menuitem actionId="WTB_ShowColumns" xmlns:w="client" w:onClick="getColumnWidths(this)" visibleCondition="view.isNotDiagram"/>
+				<menuitem actionId="WTB_RefreshNow"/>
+				<menu actionId="WTB_Editor_Share" visibleCondition="Editor.isPublishButtonEnabled">
+					<menupopup>
+						<menuitem actionId="WTB_SendUrl"/>
+						<menuitem actionId="WTB_AddFavorites" visibleCondition="WTB_AddFavorites.visible"/>
+						<menuitem actionId="WTB_CommonExport" visibleCondition="view.isTable"/>
+						<menuitem actionId="WTB_FormatPDFSummary" visibleCondition="Export.FormatPDFSummary"/>
+						<menuitem actionId="WTB_Diagram_Export" visibleCondition="Export.Diagram"/>
+						<menuitem actionId="WTB_ResultSet_Export_XLS" visibleCondition="Export.ResultSetXLS"/>
+						<menuitem actionId="WTB_ChartDynamic" visibleCondition="Export.Chart"/>
+					</menupopup>
+				</menu>
+			</menubar>
+		</div>
+
+		<div sclass="asg-menubar-left-aligned">
+			<special actionId="WTB_Filter" visibleCondition="view.isTable"/>
+		</div>
+		<div sclass="clearfix" />
+	</div>
+</selviewmenu>

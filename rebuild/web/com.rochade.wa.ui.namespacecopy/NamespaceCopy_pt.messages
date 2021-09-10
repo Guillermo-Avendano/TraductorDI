@@ -1,0 +1,57 @@
+﻿#-------------------------------------------------------														
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.wa.ui.namespacecopy
+#
+### Icons: all images should be inside of dir /com.rochade.wa.metanote/ + img/, see plugin.xml
+
+#extra icons
+### END Icons
+
+#TODO: who uses this ?
+NamespaceCopy.name=Nome
+NamespaceCopy.type=Tipo
+
+NamespaceCopy.currappl=Subject Area Atual:
+NamespaceCopy.curnamespace=Namespace Atual:
+NamespaceCopy.backbutton=< Anterior
+NamespaceCopy.nextbutton=Próxima >
+NamespaceCopy.finishbutton=Finalizar
+NamespaceCopy.cancelbutton=Cancelar
+NamespaceCopy.changebutton=Alterar...
+NamespaceCopy.nonstargets=Nenhum namespace alvo válido disponível
+NamespaceCopy.alreadyexists={0}Item já existe.
+NamespaceCopy.enter=<Enter>: Finalizar
+NamespaceCopy.altB=Alt-B: Anterior
+NamespaceCopy.altN=Alt-N: Próxima
+NamespaceCopy.esc=<Esc>: Cancelar
+NamespaceCopy.idlocked=O item já está bloqueado em outra SA.
+NamespaceCopy.somelocked=Alguns dos itens selecionados já estão bloqueados.
+NamespaceCopy.somelocked1=Deseja ignorar estes itens e continuar?
+NamespaceCopy.allexists=Todos os itens selecionados já existem.
+NamespaceCopy.nscopyerr=Erro ao copiar o item {0}  para o namespace {1}
+NamespaceCopy.errcopying=Erro ao copiar o item {0}
+
+NamespaceCopy.title=Copiar Itens para o Namespace
+NamespaceCopy.desc=Selecione um namespace para a cópia
+NamespaceCopy.header=Item de Namespace
+NamespaceCopy.summary=Página de Resumo
+NamespaceCopy.summarydesc=Selecione um atributo de namespace, então clique Finalizar para copiar os itens.
+NamespaceCopy.rootns=Usar raiz como namespace
+NamespaceCopy.itemns=Usar um item como namespace
+NamespaceCopy.newns=Novo namespace:
+NamespaceCopy.excludeitems=Excluindo a lista de itens já existentes.
+NamespaceCopy.items=Os seguintes itens
+NamespaceCopy.copied=estão copiados para o namespace
+NamespaceCopy.unclassified=como membros de namespace não classificados
+NamespaceCopy.nsattr=no atributo
+NamespaceCopy.nslockfailure=Itens não puderam ser bloqueados
+NamespaceCopy.err=Erro ao copiar o item para o namespace {0}.
+NamespaceCopy.info=Informação
+NamespaceCopy.errAction=Erro ao executar a ação de namespace {0}.

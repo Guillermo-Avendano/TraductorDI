@@ -1,0 +1,287 @@
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<zk>
+	<?script content="zk.afterLoad('zul.inp',function(){zul.inp.InputWidget.onChangingDelay=1000;})"?>
+	<div id="searchBusinessTermMain"
+		apply="com.rochade.mg.search.SearchComposer" visible="true" width="100%">
+
+		<!-- *********************************************************
+	 		 *       Standard Search                                 *
+	 		 ********************************************************* -->
+		<div id="divStandardSearch" height="100%" style="padding: 5px; padding-bottom: 10px;">
+			<div align="left" >
+				<label id="labelStdSearch"
+					value="${wtb:l('bg_SearchBT.titlestandard')}"
+					sclass="asg-title-label" />
+			</div>
+			<separator id="labelStdSearchSep1"
+				style="border-top:1px solid ${wtb:l('asg-atlantic-gray')}; height: 3px; margin-top: 5px; margin-bottom: 5px;;" />
+			<hbox id="hbox1" widths="23%,77%" width="100%" align="center" style=" margin-left: 5px; margin-right: 5px;">
+				<div style="padding-right: 10px">
+					<label value="${wtb:l('bg_SearchBT.searchScope.Glossary')}"></label>
+				</div>
+				<combobox id="glossaryFilter" width="100%" focus="true" popupWidth="100%" 
+					readonly="true" forward="onOK=searchBusinessTermMain.onSearch" />
+			</hbox>
+			<separator />
+			<hbox id="hbox2" widths="23%,77%" width="100%" align="center" style=" margin-left: 5px; margin-right: 5px;">
+				<div style="padding-right: 10px">
+					<label value="${wtb:l('bg_SearchBT.keyword')}"></label>
+				</div>
+				<combobox
+					use="com.rochade.mg.search.MgAutoSuggestTextField"
+					indexSearchWhat="id,name,scopeId,appDefined(EntrySource),appDefined(ContextName),appDefined(TopScopeId),"
+					indexSearchFrom="static.mgSearch"
+					indexSearchWhere="TopScopeId=@{Glossary},ContextName=@{Context},EntrySource=@{appVersion},type=@{Type}"
+					indexSearchInput="LcName" indexSearchUse="name"
+					indexSearchMaxHits="10" autodrop="false" buttonVisible="false"
+					autocomplete="false" id="searchNameBTermSimple" width="100%" popupWidth="100%" 
+					style="font-size: 14px;" focus="true" openbyselect="true" />
+			</hbox>
+			<separator />
+			<hbox id="hbox3" widths="23%,77%" width="100%" align="center" visible="${wtb:check('RBR.isBPAEnabled')}" style=" margin-left: 5px; margin-right: 5px;">
+				<div style="padding-right: 10px">
+					<label value="${wtb:l('bg_SearchBT.type')}"></label>
+				</div>
+				<combobox 
+					id="typeStandard"
+					readonly="true"
+					width="100%" popupWidth="100%" >
+				</combobox>
+			</hbox>
+			<hbox id="hbox4" widths="23%,77%" width="100%" align="center" style=" margin-left: 5px; margin-right: 5px;">
+				<div style="padding-right: 10px">
+					<label value="${wtb:l('bg_SearchBT.tag')}"></label>
+				</div>
+				<chosenbox width="100%"
+					id="tagStandard" 
+					creatable="false" 
+					sclass="asg-chosenbox" 
+					emptyMessage="${wtb:l('tag.emptyMsg')}"
+					noResultsText="${wtb:l('tag.noResultMsg')}">
+				</chosenbox>
+			</hbox>
+			<hbox id="hbox5" widths="23%,77%" width="100%" align="center" style=" margin-left: 5px; margin-right: 5px;">
+				<div style="padding-right: 10px">
+					<label value="${wtb:l('bg_SearchBT.tagOperator')}"></label>
+				</div>
+				<checkbox id="tagOperatorStandard"></checkbox>
+			</hbox>
+			<separator id="labelStdSearchSep2"
+				style="border-top:1px solid ${wtb:l('asg-atlantic-gray')}; height: 3px;  margin-top: 5px; " />
+			<hbox widths="50%,50%" width="100%" style="margin: 5px">
+				<hbox width="100%" style="margin-right: 5px">
+					<button sclass="asg-button"
+						id="btOpenAdvancedSearch"
+						label="${wtb:l('bg_SearchBT.button.openadvancedsearch')}"
+						forward="onClick=searchBusinessTermMain.onOpenAdvancedSearch">
+					</button>
+					<button sclass="asg-button"
+						image="${wtb:getImg('search.img.refresh')}"
+						id="refreshButton1" label="${wtb:l('bg_SearchBT.button.refresh')}"
+						forward="onClick=searchBusinessTermMain.onRefresh">
+					</button>
+				</hbox>
+				<hbox width="100%" pack="end">
+					<button sclass="asg-button"
+						image="${wtb:getImg('search.img.search')}" style="float:right"
+						id="searchbutton1" label="${wtb:l('bg_SearchBT.button.search')}"
+						forward="onClick=searchBusinessTermMain.onSearch">
+					</button>
+				</hbox>
+			</hbox>
+			<div style="clear:both" />
+		</div>
+		<!--*********************************************************
+			*       Advanced Search                                 *
+			********************************************************* -->
+		<div id="divAdvancedSearch" visible="false" height="100%" style="padding: 5px; padding-bottom: 10px;">
+			<div align="left" >
+				<label id="labelAdSearch"
+					value="${wtb:l('bg_SearchBT.titleadvanced')}"
+					sclass="asg-title-label" />
+			</div>
+			<separator id="labelAdSearchSep1"
+				style="border-top:1px solid ${wtb:l('asg-atlantic-gray')}; height: 3px; margin-top: 5px; margin-bottom: 5px;" />
+			<hbox widths="16%,84%" width="100%" align="center"
+				style=" margin-left: 5px; margin-right: 5px;" id="hboxParentForTextInAdvSearch">
+				<div align="right" style="padding-right: 10px">
+					<label value="${wtb:l('bg_SearchBT.keyword')}"
+						style="font-weight: bold" />
+				</div>
+				<combobox
+					use="com.rochade.mg.search.MgAutoSuggestTextField"
+					indexSearchWhat="id,name,scopeId,appDefined(EntrySource),appDefined(ContextName),appDefined(TopScopeId)"
+					indexSearchFrom="static.mgSearch"
+					indexSearchWhere="TopScopeId=@{Glossary},ContextName=@{Context},EntrySource=@{appVersion},type=@{Type}"
+					indexSearchInput="LcName" indexSearchUse="name"
+					indexSearchMaxHits="10" autodrop="false" buttonVisible="false"
+					autocomplete="false" id="searchNameBTermAdv" width="100%" popupWidth="100%"
+					style="font-size: 14px;" focus="true" openbyselect="true" />
+			</hbox>
+			<separator
+				style="border-top:1px solid ${wtb:l('asg-atlantic-gray')}; height: 3px; margin-top:5px " />
+			<hbox widths="16%,84%" width="100%" style="margin: 5px" align="center" visible="${wtb:check('RBR.isBPAEnabled')}">
+				<div align="right" style="padding-right: 10px">
+					<label value="${wtb:l('bg_SearchBT.type')}" style="font-weight: bold"></label>
+				</div>
+				<div width="100%">
+				<combobox 
+					id="typeAdvanced"
+					readonly="true"
+					width="100%" popupWidth="100%">
+				</combobox>
+				</div>
+			</hbox>
+			<hbox widths="16%,84%" width="100%" style=" margin-left: 5px; margin-right: 5px;" align="center">
+				<div align="right" style="padding-right: 10px">
+					<label value="${wtb:l('bg_SearchBT.tag')}" style="font-weight: bold" ></label>
+				</div>
+				<div width="100%">
+					<chosenbox
+						id="tagAdvanced"
+						creatable="false"
+						width="100%"
+						sclass="asg-chosenbox"
+						emptyMessage="${wtb:l('tag.emptyMsg')}"
+						noResultsText="${wtb:l('tag.noResultMsg')}">
+					</chosenbox>
+				</div>
+			</hbox>
+			<hbox widths="16%,84%" width="100%" style=" margin-left: 5px; margin-right: 5px;" align="center">
+				<div align="right" style="padding-right: 10px">
+					<label value="${wtb:l('bg_SearchBT.tagOperator')}" style="font-weight: bold" ></label>
+				</div>
+				<checkbox id="tagOperatorAdvanced"></checkbox>
+			</hbox>
+			<separator
+				style="border-top:1px solid ${wtb:l('asg-atlantic-gray')}; height: 3px; margin:5px " />
+			<hbox widths="16%,84%" width="100%" align="center" style=" margin-left: 5px; margin-right: 5px;">
+				<div align="right" style="padding-right: 10px">
+					<label value="${wtb:l('bg_SearchBT.contextfilter')}"
+						style="font-weight: bold" />
+				</div>
+				<div width="100%">
+					<hbox width="100%" widths="20%, 80%" align="center"
+						id="hboxParentForGlossInAdvSearch">
+						<label value="${wtb:l('bg_SearchBT.searchScope.Glossary')}" />
+						<combobox id="glossaryFilterAdv" width="100%" focus="true"
+							readonly="true" forward="onOK=searchBusinessTermMain.onSearch" />
+					</hbox>
+				</div>
+			</hbox>
+			<hbox id="hboxSearchContext" width="100%" widths="16%,84%" align="center" visible="false"
+				style=" margin-left: 5px;">
+				<div />
+				<vbox width="100%"
+					style="background: #ffffff; padding: 5px;" >
+					<hbox align="center" width="100%">
+						<label
+							value="${wtb:l('bg_SearchBT.searchContext')}"/>
+						<combobox id="cmbSearchContext"
+							use="com.rochade.mg.search.ContextAutoSuggestTextField"
+							buttonVisible="false" autodrop="false" autocomplete="false"
+							style="" focus="true" hflex="1"
+							indexSearchFrom="dialog.mg.search" indexSearchInput="LcName"
+							indexSearchUse="name" indexSearchWhat="name" indexSearchMaxHits="10"
+							openbyselect="true" popupWidth="100%"/>
+					</hbox>
+                    <checkbox id="cbSelectInclusiveSubContext" visible="false"
+                        label="${wtb:l('bg_SearchBT.checkbox.SelectInclusiveSubContext')}"
+                        tooltiptext="${wtb:l('bg_SearchBT.checkbox.SelectInclusiveSubContext.tooltip')}"
+                        checked="true"
+                        forward="onClick=searchBusinessTermMain.onSelectInclusiveSubContext" />
+					<separator height="20px" />
+					<div hflex="1" id="divGridContainer">
+					   <tree hflex="1" id="treeContexts" sclass="asg-search-contexts-tree" 
+					       mold="paging" pageSize="10" checkmark="true" nonselectableTags="*">
+					       <treecols visible="false"><treecol label="Name"/></treecols>
+					   </tree>
+					</div>
+				</vbox>
+			</hbox>
+			<hbox widths="16%,84%" align="center" width="100%"
+				style=" margin-left: 5px; margin-right: 5px;">
+				<div />
+				<div width="100%">
+					<hbox width="100%" widths="20%, 80%" align="center">
+						<label
+							value="${wtb:l('bg_SearchBT.contextRelation')}" />
+						<combobox id="cmbContextRelation" width="100%"
+							readonly="true" popupWidth="100%"/>
+					</hbox>
+				</div>
+			</hbox>
+			<separator id="separatorSearchInLang"
+				style="border-top:1px solid ${wtb:l('asg-atlantic-gray')}; height: 3px; margin-top: 5px; margin-bottom: 5px;"
+				visible="false" />
+			<hbox id="hboxSearchInLang" widths="16%,84%" width="100%" align="top" pack="start"
+				style=" margin-left: 5px; margin-right: 5px;">
+				<div width="100%" align="right" style="padding-right: 10px" id="languageDiv">
+					<label value="${wtb:l('bg_SearchBT.searchinLang')}"
+						 style="font-weight: bold" />
+				</div>
+				<grid id="Langcheckboxes" width="100%"
+					forward="onOK=searchBusinessTermMain.onSearch" />
+			</hbox>
+			<separator
+				style="border-top:1px solid ${wtb:l('asg-atlantic-gray')}; height: 3px; margin-top: 5px; margin-bottom: 5px;" />
+			<hbox widths="16%,84%" width="100%" align="top" pack="start"
+				style=" margin-left: 5px; margin-right: 5px;">
+				<div width="100%" align="right" style="padding-right: 10px">
+					<label value="${wtb:l('bg_SearchBT.searchin')}"
+						 style="font-weight: bold" />
+				</div>
+				<grid id="Attrchcekboxes" width="100%"
+					forward="onOK=searchBusinessTermMain.onSearch" />
+			</hbox>
+			<separator
+				style="border-top:1px solid ${wtb:l('asg-atlantic-gray')}; height: 3px; margin-top: 5px; margin-bottom: 5px;" />
+			<hbox widths="16%,84%" width="100%" align="center"
+				pack="start" style=" margin-left: 5px; margin-right: 5px;">
+				<div align="right" style="padding-right: 10px">
+					<label value="${wtb:l('bg_SearchBT.lastupdate')}"
+						 style="font-weight: bold" />
+				</div>
+				<hbox align="center" width="100%" >
+					<label value="${wtb:l('bg_SearchBT.between')}"
+						onClick="SearchDateFrom.setValue(null)" />
+					<datebox id="SearchDateFrom" readonly="true"
+					    width="150px" />
+					<label value="${wtb:l('bg_SearchBT.and')}"
+						onClick="SearchDateTo.setValue(null)" />
+					<datebox id="SearchDateTo" readonly="true"
+						width="150px" />
+					<button
+						label="${wtb:l('bg_SearchBT.button.cleardates')}"
+						image="${wtb:getImg('search.img.cleardates')}"
+						tooltiptext="${wtb:l('bg_SearchBT.cleardates.tooltip')}"
+						sclass="asg-button-standard-blue-10px z-button"
+						style="color: ${wtb:l('asg-atlantic-first-color')}; margin: 0px 20px 0px 0px"
+						forward="onClick=searchBusinessTermMain.onClearDates" />
+				</hbox>
+			</hbox>
+			<separator id="labelAdSearchSep2"
+				style="border-top:1px solid ${wtb:l('asg-atlantic-gray')}; height: 3px; margin-top: 5px; margin-bottom: 5px;" />
+			<hbox widths="50%,50%" width="100%" style="margin: 5px">
+				<hbox width="100%">
+					<button sclass="asg-button" 
+						id="btOpenStandardSearch"
+						label="${wtb:l('bg_SearchBT.button.openstandardsearch')}"
+						forward="onClick=searchBusinessTermMain.onOpenStandardSearch">
+					</button>
+					<button sclass="asg-button" image="${wtb:getImg('search.img.refresh')}"
+						id="refreshButton2" label="${wtb:l('bg_SearchBT.button.refresh')}"
+						forward="onClick=searchBusinessTermMain.onRefresh">
+					</button>
+				</hbox>
+				<hbox width="100%" pack="end">
+					<button sclass="asg-button" image="${wtb:getImg('search.img.search')}"
+						label="${wtb:l('bg_SearchBT.button.search')}" id="searchbutton2"
+						forward="onClick=searchBusinessTermMain.onSearch">
+					</button>
+				</hbox>
+			</hbox>
+			<separator height="10px" />
+		</div>
+	</div>
+</zk>

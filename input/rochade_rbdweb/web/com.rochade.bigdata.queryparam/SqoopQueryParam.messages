@@ -1,0 +1,12 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+SqoopQueryParam.select=Specify parameters for obtaining sqoop transformations representing RDBMS table imports
+SqoopQueryParam.sqooopSystem=Sqoop system
+SqoopQueryParam.title=Sqoop Transformations
+SqoopQueryParam.transListEmpty=There are no transformations under current Sqoop system!

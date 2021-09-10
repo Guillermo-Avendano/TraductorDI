@@ -1,0 +1,38 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.bigdata.ui.pathway
+#
+
+#extra icons
+BigDataContent.hadoop=/com.rochade.bigdata.navigator/img/bigdata-16.png
+BigDataContent.lifecycle=/com.rochade.bigdata.navigator/img/lifecycle-16.png
+BigDataContent.tool=/com.rochade.bigdata.navigator/img/contents-16.png
+### END Icons
+
+BigDataContent.clusterServices=Hadoop Clusters and Services
+BigDataContent.lifecycleDiscovery=Data Discovery by Lifecycle
+BigDataContent.toolDiscovery=Data Discovery by Tool
+
+#images
+InfoPages.img.tool=/com.rochade.bigdata.ui.pathway/img/Tool.png
+InfoPages.img.css=/com.rochade.bigdata.ui.pathway/img/infoPages.css
+
+#Header
+rbd_toolset.title=Supported Apache Hadoop Toolset for Cluster: 
+#Roles
+rbd_toolset.securityAdminRole=Security Administrator
+rbd_toolset.dataScientistRole=Data Scientist
+rbd_toolset.bigDataAdminRole=Big Data Administrator
+rbd_toolset.dataStewardRole=Data Steward
+#Role texts
+rbd_toolset.securityAdminText=Browse the Big Data structures owed by a particular user or user group
+rbd_toolset.dataScientistText=Examine data structures and browse for common data fields
+rbd_toolset.bigDataAdminText=Detect defected data structures in a Big Data cluster
+rbd_toolset.dataStewardText=Authorize and certify Big Data results for business use

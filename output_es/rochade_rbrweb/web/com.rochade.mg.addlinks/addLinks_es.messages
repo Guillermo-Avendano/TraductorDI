@@ -1,0 +1,48 @@
+﻿# metaGlossary - Message file
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#
+# package: com.rochade.mg.addlinks
+#
+#-------------------------------------------------------
+
+### Icons: all images should be inside of dir /com.rochade.mg.addlinks/ + img/, see plugin.xml
+
+#extra icons
+### END Icons
+
+BTAddLinksWizard.winCaption=Agregar etiqueta a relaciones de ítems
+BTAddLinksWizard.Title.Step.1=Paso 1: Buscar el ítem del Negocio
+BTAddLinksWizard.Title.Step.2=Paso 2: Seleccionar el ítem del Negocio y el Tipo de Relación
+
+BTAddLinksWizard.btFinish=Agregar
+BTAddLinksWizard.btCancel=Cancelar
+BTAddLinksWizard.lblSelectTerms=Ítems de negocios:
+BTAddLinksWizard.lblSelectRelType=Tipo de Relación
+BTAddLinksWizard.sepSelectTerms.height=10px
+BTAddLinksWizard.divContextList.style=relleno: 3px;
+BTAddLinksWizard.divContextList.width=98%
+BTAddLinksWizard.cmbAttrList.width=283px
+
+# addLinks.ErrorLoadResultlist=Error cargando la lista de resultados
+# addLinks.errortargettypes=No se encontraron ítems destino.
+# addLinks.info.alreadyLinked=Los siguientes ítems no serán agregados porque ya están vinculados: {0}
+# addLinks.dialogheader=Agregar Referencia
+
+# bg_AddRefDocument.targettype=Tipo:
+# bg_AddRefDocument.addinglossary=en glosario:
+# bg_AddRefDocument.errorlabel=No se encontraron ítems externos.
+# bg_AddRefDocument.scope=Alcance de la Búsqueda:
+# bg_AddRefDocument.root=Raiz
+# bg_AddRefDocument.caption1=Buscar
+# bg_AddRefDocument.caption2=Seleccionar
+# bg_AddRefDocument.button.addterms=Agregar
+# bg_AddRefDocument.button.cancel=Cancelar
+# bg_AddRefDocument.button.drilldown=Examinar a fondo
+# bg_AddRefDocument.searchforname=Nombre:
+# bg_AddRefDocument.msg.search.busy=Ejecutando Búsqueda
+# bg_AddRefDocument.button.search=Buscar >>
+# bg_AddRefDocument.label1=Paso 1: Buscar Objetos
+# bg_AddRefDocument.label2=Paso 2: Seleccionar Objetos

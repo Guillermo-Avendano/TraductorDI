@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page id="start" title="WTB" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<!-- 
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+<window apply="com.rochade.gdp.report.PIDetailsParamComposer"
+	contentStyle="overflow:auto;" border="normal" width="950px"
+	sclass="asg-query-param" title="${wtb:l('Param.reportparam')}">
+
+
+	<hbox width="100%" widths="80%,20%" sclass="field0">
+		<vbox style="padding:5px">
+			<div id="headerTitle" width="100%" />
+			<label value="${wtb:l('Param.select')}" />
+		</vbox>
+		<vbox width="100%" align="end">
+			<image id="imgWizard"
+				src="${wtb:getImg('Param.img.wizard')}"
+				height="${wtb:l('img.height.wizard')}" />
+		</vbox>
+	</hbox>
+
+	<div sclass="field1">
+		<listbox id="lbRunsettings" seltype="single" rows="11">
+			<listhead sizable="true">
+				<listheader width="22%" label="${wtb:l('Param.property')}" />
+				<listheader width="78%" label="${wtb:l('Param.value')}" />
+			</listhead>
+			<listitem>
+				<listcell>
+					<label value="${wtb:l('gdpSelection')}" />
+				</listcell>
+				<listcell>
+					<radiogroup id="rgSelection">
+						<vlayout spacing="0">
+							<radio id="rSelectionName"
+								radiogroup="rgSelection" label="${wtb:l('gdpSelectionNAME')}"
+								value="NAME">
+							</radio>
+							<radio id="rSelectionStructure"
+								radiogroup="rgSelection" label="${wtb:l('gdpSelectionSTRUCT')}"
+								value="STRUCT">
+							</radio>
+							<radio id="rSelectionContext"
+								radiogroup="rgSelection" label="${wtb:l('gdpSelectionCTX')}"
+								value="CTX">
+							</radio>
+							<radio id="rSelectionGlossary"
+								radiogroup="rgSelection" label="${wtb:l('gdpSelectionGLS')}"
+								value="GLS">
+							</radio>
+						</vlayout>
+					</radiogroup>
+				</listcell>
+			</listitem>
+			<listitem id="liGlossary" visible="false">
+				<listcell>
+					<label value="${wtb:l('rim.type.RBG/GLOSSARY')}" />
+				</listcell>
+				<listcell>
+					<hbox widths="26%,,74%" width="100%" sclass="asg-reportparm-filter">
+						<textbox id="tb_lbGlossary" value="*" width="100%"/>
+						<button id="btn_lbGlossary" sclass="asg-button" image="${wtb:getImg('action.arrow.img')}"/>
+						<combobox id="lbGlossary" width="100%" readonly="true" popupWidth="100%"/>
+					</hbox>
+				</listcell>
+			</listitem>
+			<listitem id="liContext" visible="false">
+				<listcell>
+					<label value="${wtb:l('rim.type.RBG/CONTEXT')}" />
+				</listcell>
+				<listcell>
+					<hbox widths="26%,,74%" width="100%" sclass="asg-reportparm-filter">
+						<textbox id="tb_lbContext" value="*" width="100%"/>
+						<button id="btn_lbContext" sclass="asg-button" image="${wtb:getImg('action.arrow.img')}"/>
+						<combobox id="lbContext" width="100%" readonly="true" popupWidth="100%"/>
+					</hbox>
+				</listcell>
+			</listitem>
+			<listitem id="liStructure" visible="false">
+				<listcell>
+					<label value="${wtb:l('rim.type.GDP_PI_STRUCTURE')}" />
+				</listcell>
+				<listcell>
+					<hbox widths="26%,,74%" width="100%" sclass="asg-reportparm-filter">
+						<textbox id="tb_lbStructure" value="*" width="100%"/>
+						<button id="btn_lbStructure" sclass="asg-button" image="${wtb:getImg('action.arrow.img')}"/>
+						<combobox id="lbStructure" width="100%" readonly="true" popupWidth="100%"/>
+					</hbox>
+				</listcell>
+			</listitem>
+			<listitem id="liName">
+				<listcell>
+					<label value="${wtb:l('rim.type.GDP_PERSONAL_INFORMATION')}" />
+				</listcell>
+				<listcell>
+					<textbox id="tbName" width="100%" />
+				</listcell>
+			</listitem>
+			<listitem id="liFoundIn"> 
+				<listcell>
+					<label value="${wtb:l('gdpFoundIn')}" />
+				</listcell>
+				<listcell>
+					<hbox widths="30%,20%,,50%" width="100%"
+						sclass="asg-reportparm-filter">
+						<combobox id="cbSourceType" readonly="true"
+							width="100%" />
+						<textbox id="tbSource" value="*"
+							disabled="true" />
+						<button id="btnSource" disabled="true"
+							sclass="asg-button" image="${wtb:getImg('action.arrow.img')}" />
+						<combobox id="cbSource" readonly="true"
+							width="99%" />
+					</hbox>
+				</listcell>
+			</listitem>
+			<listitem id="liDetails">
+				<listcell>
+					<label
+						value="${wtb:l('gdpGetDetails')}" />
+				</listcell>
+				<listcell>
+					<checkbox id="cbDetails">
+					</checkbox>
+				</listcell>
+			</listitem>
+			<listitem>
+				<listcell>
+					<label
+						value="${wtb:l('gdpGetTechnicalData')}" />
+				</listcell>
+				<listcell>
+					<checkbox id="cbTechData">
+					</checkbox>
+				</listcell>
+			</listitem>
+			<listitem>
+				<listcell>
+					<label
+						value="${wtb:l('gdpGetCascadeData')}" />
+				</listcell>
+				<listcell>
+					<checkbox id="cbCascadeData">
+					</checkbox>
+				</listcell>
+			</listitem>
+		</listbox>
+
+		<hbox width="100%" widths="80%,10%,10%">
+			<button width="120px" id="resetButton"
+				label="${wtb:l('Param.resetButton')}"
+				tooltiptext="${wtb:l('Param.reset')}" />
+			<button width="120px" id="runButton"
+				label="${wtb:l('Param.runButton')}"
+				tooltiptext="${wtb:l('Param.enter')}" />
+			<button width="120px" id="cancelButton"
+				label="${wtb:l('Param.cancelButton')}"
+				tooltiptext="${wtb:l('Param.esc')}" />
+		</hbox>
+	</div>
+</window>

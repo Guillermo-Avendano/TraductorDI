@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page id="start" title="WTB" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<!-- 
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+<window apply="com.rochade.mdm.xlsimport.ImportCollectionComposer" border="normal" width="630px" height="510px" sclass="ags-query-param">
+
+<borderlayout>
+	<north>	
+		<hbox width="100%" widths="80%,20%" sclass="field0" >
+			<vbox style="padding:5px">
+				<div   id="headerTitle" width="100%"/>
+				<label id="title"/>
+			</vbox>
+			<vbox width="100%" align="end">
+				<image id="imgWizard" src="${wtb:getImg('ImportCollection.img.wizard')}"  height="${wtb:l('img.height.wizard')}"/>
+			</vbox>
+		</hbox>
+	</north>
+    <center sclass="field1">
+        <div>
+			<div style="padding:5px;">
+		       	<listbox id="lbExcel" width="100%" height="100%"> 
+		       		<listhead visible="false">
+						<listheader width="40%"/>
+						<listheader width="60%"/>
+					</listhead>
+					<listitem>
+						<listcell><label value="${wtb:l('ImportCollection.worksheet')}"/></listcell>
+						<listcell>
+							<combobox id="lbWorksheet" width="100%" readonly="true" onCreate="self.setSelectedIndex(0)" popupWidth="100%">
+								<comboitem label="${wtb:l('ImportCollection.pleaseUpload')}"/>
+							</combobox>
+						</listcell>
+					</listitem>
+					<listitem>
+						<listcell><label value="${wtb:l('ImportCollection.skip')}"/></listcell>
+						<listcell>
+							<combobox id="lbSkip" width="100%" readonly="true" onCreate="self.setSelectedIndex(0)" popupWidth="100%">
+								<comboitem label="${wtb:l('ImportCollection.header0')}"/>
+								<comboitem label="${wtb:l('ImportCollection.header1')}"/>
+								<comboitem label="${wtb:l('ImportCollection.header2')}"/>
+								<comboitem label="${wtb:l('ImportCollection.header3')}"/>
+							</combobox>
+						</listcell>
+					</listitem>
+					<listitem id="rowTableColumn">
+						<listcell><label value="${wtb:l('ImportCollection.TableColumn')}"/></listcell>
+						<listcell>
+							<combobox id="lbTableColumn" width="100%" readonly="true" popupWidth="100%">
+							</combobox>
+						</listcell>
+					</listitem>
+					<listitem id="rowDctxName">
+						<listcell><label value="${wtb:l('ImportCollection.DctxName')}"/></listcell>
+						<listcell>
+							<combobox id="lbDctxName" width="100%" readonly="true" popupWidth="100%"> 
+							</combobox>
+						</listcell>
+					</listitem>
+					
+					<!--  only RC -->
+					<listitem id="rowRcName">
+						<listcell><label value="${wtb:l('ImportCollection.RcName')}"/></listcell>
+						<listcell>
+							<combobox id="lbRcName" width="100%" readonly="true" popupWidth="100%"></combobox>
+						</listcell>
+					</listitem>
+					
+					<!--  only VC -->
+					<listitem id="rowVcName">
+						<listcell><label value="${wtb:l('ImportCollection.VcName')}"/></listcell>
+						<listcell>
+							<combobox id="lbVcName" width="100%" readonly="true" popupWidth="100%"></combobox>
+						</listcell>
+					</listitem>
+					
+					<!--  only RC  -->
+					<listitem id="rowValueColumn">
+						<listcell><label value="${wtb:l('ImportCollection.ValueColumn')}"/></listcell>
+						<listcell>
+							<combobox id="lbValueColumn" width="100%" readonly="true" popupWidth="100%">
+							</combobox>
+						</listcell>
+					</listitem>
+					<listitem id="rowDefinitionColumn">
+						<listcell><label value="${wtb:l('ImportCollection.DefinitionColumn')}"/></listcell>
+						<listcell>
+							<combobox id="lbDefinitionColumn"  width="100%" readonly="true" popupWidth="100%">
+							</combobox>
+						</listcell>
+					</listitem>
+					<listitem id="rowQueryType">
+						<listcell><label value="${wtb:l('ImportCollection.QueryType')}"/></listcell>
+						<listcell>
+							<combobox id="lbQueryType" width="100%" readonly="true" popupWidth="100%"></combobox>
+						</listcell>
+					</listitem>
+					<listitem id="rowQuery">
+						<listcell><label value="${wtb:l('ImportCollection.Query')}"/></listcell>
+						<listcell>
+							<combobox id="lbQuery" width="100%" readonly="true" popupWidth="100%"></combobox>
+						</listcell>
+					</listitem>
+					<listitem id="rowBeginDate">
+						<listcell><label value="${wtb:l('ImportCollection.BeginDate')}"/></listcell>
+						<listcell>
+							<combobox id="lbBeginDate" width="100%" readonly="true" popupWidth="100%"></combobox>
+						</listcell>
+					</listitem>
+					<listitem id="rowEndDate">
+						<listcell><label value="${wtb:l('ImportCollection.EndDate')}"/></listcell>
+						<listcell>
+							<combobox id="lbEndDate" width="100%" readonly="true" popupWidth="100%"></combobox>
+						</listcell>
+					</listitem>
+					<listitem id="rowOutDateFlag">
+						<listcell><label value="${wtb:l('ImportCollection.OutDateFlag')}"/></listcell>
+						<listcell>
+							<combobox id="lbOutDateFlag" width="100%" readonly="true" popupWidth="100%"></combobox>
+						</listcell>
+					</listitem>
+					<listitem id="rowOutDateInd">
+						<listcell><label value="${wtb:l('ImportCollection.OutDateInd')}"/></listcell>
+						<listcell>
+							<combobox id="lbOutDateInd" width="100%" readonly="true" popupWidth="100%"></combobox>
+						</listcell>
+					</listitem>
+					<listitem id="rowParentRc">
+						<listcell><label value="${wtb:l('ImportCollection.ParentRc')}"/></listcell>
+						<listcell>
+							<combobox id="lbParentRc"  width="100%" readonly="true" popupWidth="100%">
+							</combobox>
+						</listcell>
+					</listitem>
+					<listitem id="rowParentColumn">
+						<listcell><label value="${wtb:l('ImportCollection.ParentColumn')}"/></listcell>
+						<listcell>
+							<combobox id="lbParentColumn" width="100%" readonly="true" popupWidth="100%"></combobox>
+						</listcell>
+					</listitem>
+					<listitem id="rowChildColumn">
+						<listcell><label value="${wtb:l('ImportCollection.ChildColumn')}"/></listcell>
+						<listcell>
+							<combobox id="lbChildColumn" width="100%" readonly="true" popupWidth="100%"></combobox>
+						</listcell>
+					</listitem>
+				</listbox>
+
+			</div>
+			<hbox width="100%" style="padding:5px">
+			    <!--  see also zk.xml max-upload-size  -->
+				<button width="180px" id="uploadButton" label="${wtb:l('ImportCollection.uploadButton')}" upload="true,native"/>
+				<button width="120px" id="viewButton" label="${wtb:l('ImportCollection.viewButton')}" tooltiptext="${wtb:l('ImportCollection.view')}"/>
+		        <button width="120px" id="resetButton" label="${wtb:l('ImportCollection.resetButton')}" tooltiptext="${wtb:l('ImportCollection.reset')}"/>
+		        <button width="120px" id="runButton" label="${wtb:l('ImportCollection.runButton')}" tooltiptext="${wtb:l('ImportCollection.enter')}"/>
+				<button width="120px" id="cancelButton" label="${wtb:l('ImportCollection.cancelButton')}" tooltiptext="${wtb:l('ImportCollection.esc')}"/>
+			</hbox>	
+ 		</div>
+	</center>
+</borderlayout>
+</window>

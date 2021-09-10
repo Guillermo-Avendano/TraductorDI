@@ -1,0 +1,88 @@
+﻿# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.wa.ui.editor.objectbody
+#
+### Icons: all images should be inside of dir /com.rochade.wa.ui.editor.objectbody/ + img/, see plugin.xml
+
+#extra icons
+### END Icons
+
+ObjectBody.actions=ItemActions.zul
+#TODO: who uses this ?
+#ObjectBody.icon_item=Item.gif
+ObjectBody.title=Editor de objetos
+ObjectBody.attribute=Atributo
+ObjectBody.content=Contenido
+ObjectBody.TA=Atributo Text
+ObjectBody.LA=Atributo Link
+ObjectBody.NameSpace=Atributo del espacio de nombres
+ObjectBody.HT=Atributo de vínculo(link) sin formato
+ObjectBody.VA=Atributo de valor
+ObjectBody.BA=Atributo Binary
+ObjectBody.OPTIONAL=Opcional
+ObjectBody.MANDATORY=Obligatorio
+ObjectBody.INFO=información
+ObjectBody.objinfo=Información de objeto
+ObjectBody.properties=Propiedades
+ObjectBody.select=Seleccione propiedades para ser editadas o navegadas
+ObjectBody.edit=Editar
+ObjectBody.refresh=Refrescar
+ObjectBody.exit=Salir
+ObjectBody.save=Guardar
+ObjectBody.save_exit=Guardar & Salir
+ObjectBody.delete=Borrar
+ObjectBody.readonlymode=Editor en modo de sólo lectura
+ObjectBody.locked=Objeto está bloqueado
+ObjectBody.lockfailed=No se puede bloquear el Objeto
+ObjectBody.modified={0} fue modificado. Guardar cambios?
+ObjectBody.nameempty={0} fue modificado. \nPuede guardarse solo cuando se completa el Nombre
+ObjectBody.lockerr=No se puede obtener el bloqueo
+ObjectBody.lockexp=Excepción durante el bloqueo de objetos
+ObjectBody.notApproved=Borrador
+ObjectBody.savetitle=Guardar recurso
+ObjectBody.duplicatedAttrsInPropView=La vista del ítem contiene duplicados o atributos superpuestos: {0}
+ObjectBody.MandatoryAttributes={0} Information Is Incomplete
+ObjectBody.MandatoryAttributesInfo=Parte de la información requerida no se encuentra. Completar las entradas siguientes antes de continuar: {0}
+ObjectBody.MandatoryAttributesQuestion=Las siguientes propiedades del término de negocios están vacíos: {0}. Haga clic en Cancelar para agregar las propiedades o haga clic en Aceptar para enviar a control el término sin proporcionar ninguna información adicional.
+
+WfObjectBody.autoApproval.notEnabled=Su solicitud ha sido presentada para su aprobación. Los cambios serán revisados ​​por los aprobadores involucrados antes de ser promovidos a producción.
+WfObjectBody.autoApproval.enabled=Su solicitud ha sido enviada a control para su aprobación. Será aprobado automáticamente y aparecerá en la producción en unos pocos minutos. No hay que tomar más medidas.
+WfObjectBody.errorContext=Error recuperando información de contexto.
+WfObjectBody.wrongSubjectArea=Error: especificando Subject Area
+WfObjectBody.currVersion=La versión actual del ítem es {0}.
+WfObjectBody.saveError=Guardar error.
+WfObjectBody.visExcept=Ocurrió la excepción: VisException al enviar a control.
+WfObjectBody.newValue=Nuevo valor {0}
+
+WfObjectBody.err.noDevVersion=No se pudo leer ítem en Desarrollo
+WfObjectBody.err.noPermission=Usted no tiene permisos para ver este ítem
+WfObjectBody.err.noOpened=No se puede abrir este ítem, ya que no ha sido aprobado todavía. Los ítems nuevos y modificados se pueden abrir sólo por sus autores o, durante el proceso de aprobación por los administradores de datos y las partes interesadas.
+
+
+Editor.wf.noperm=No tiene permiso para editar
+Editor.wf.devVers=Debe cambiar a una versión no aprobada para su edición
+Editor.wf.status=This item cannot be edited. The item is in process by another user or by a workflow process, or the status could not be determined. (Process engine initialized?)
+Editor.wf.error.removingStalledSet=Error removing stalled set from production version.
+Editor.wf.error.retrievingRelatedBI=Error while retrieving related business items
+Editor.wf.error.handlingRelatedBI=Not all related business items can be submitted
+Editor.wf.error.relatedBI.belongsTo=is in process by another user
+Editor.wf.error.relatedBI.locked=is locked
+Editor.wf.error.relatedBI.lockedInSession=is locked in this session
+Editor.wf.error.relatedBI.notPermitted=You have no permission to submit
+Editor.wf.error.relatedBI.status=is already in approval process
+Editor.wf.error.relatedBI.isDummy=has no content
+Editor.wf.error.relatedBI.mandatory=has not all mandatory attributes filled
+Editor.wf.info.relatedBI.currentItem=is current item
+
+wf.lbl.relatedBI.header=Select related business items to submit
+wf.lbl.relatedBI.type=Tipo
+wf.lbl.relatedBI.name=Nombre
+wf.lbl.relatedBI.ctx=Ruta de Contexto
+wf.lbl.relatedBI.submit=Enviar a Control
+wf.lbl.relatedBI.info=Información

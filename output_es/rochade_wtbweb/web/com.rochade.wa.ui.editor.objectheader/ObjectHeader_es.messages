@@ -1,0 +1,21 @@
+﻿# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.wa.ui.editor.objectheader
+#
+ObjectHeader.title={0} {1} 
+
+Object.isdummy=- Object has no content.
+ObjectHeader.initText=Ingresar nombre :
+ObjectHeader.ML.notTranslated=No hay traducción disponible para el idioma actual
+ObjectHeader.ML.Note=Nota:
+
+ObjectHeader.attributeOverview=Visión Global del Atributo
+ObjectHeader.scrollToAttribute=Jump to attribute
+ObjectHeader.expandAll=Expandir todas las secciones
+ObjectHeader.collapseAll=Reducir Todas las Secciones

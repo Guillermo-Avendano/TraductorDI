@@ -1,0 +1,59 @@
+﻿# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+gdpChartPI.title=Informacion personal
+gdpChartPI.glossary=Glosario:
+gdpChartPI.chart=Chart by:
+gdpChartPI.chartCategory=Categoria
+gdpChartPI.chartClassification=Clasificación
+gdpChartPI.chartClosureRule=Regla de cierre
+gdpChartPI.NoCategeory=Without category
+gdpChartPI.NoClassification=Without classification
+gdpChartPI.NoClosureRule=Without closure rule
+gdpChartPI.PIbyCategeory=Información personal con categoría {0}
+gdpChartPI.PIbyCategeoryNo=Información personal sin categoría
+gdpChartPI.PIbyClassification=Información personal con clasificación {0}
+gdpChartPI.PIbyClassificationNo=Información personal sin clasificación
+gdpChartPI.PIbyClosureRule=Información personal con regla de cierre {0}
+gdpChartPI.PIbyClosureRuleNo=Información personal sin regla de cierre
+gdpChartPI.foundIn=Found in:
+gdpChartPI.allSourceTypes=No Source Type Filter
+gdpChartPI.allSources=No Source Filter
+gdpChartPI.allGlossaries=Todos los Glosarios
+gdpChartPI.locationLabelAllGlossaries=Todos los Glosarios
+gdpChartPI.locationLabelGlossary=Glossary {0}
+gdpChartPI.locationLabelAllSourceTypes=all Source Types
+gdpChartPI.locationLabelAllSourcesOfType=all Sources of Type {0}
+gdpChartPI.locationLabelSourceTypeName={0} {1}
+gdpChartPI.drillDownLabel={0} for {1} found in {2}
+
+gdpChartInventory.title=Inventory Personal Information
+gdpChartInventory.glossary=Glosario:
+gdpChartInventory.allGlossaries=Todos los Glosarios
+gdpChartInventory.InventoryByGlossary={0} Inventory for Glossary {1}
+gdpChartInventory.InventoryAllGlossary={0} Inventory for All Glossaries
+
+#gdpChartAppStatus.title=Estado de la aplicación
+#gdpChartAppStatus.filterBy=Filter by:
+#gdpChartAppStatus.filter=Filtrar:
+#gdpChartAppStatus.NoFilter=No filter
+
+gdpChartPIA.groupedBy.-NIL-=[Vacio]
+gdpChartPIA.groupedBy.SendingDataOutsideEU.title=Evaluaciones de impacto de la privacidad mediante el envío de datos fuera de la UE
+gdpChartPIA.groupedBy.SendingDataOutsideEU.scoped=Evaluaciones de impacto de la privacidad mediante el envío de datos fuera de la UE para el glosario {0}
+gdpChartPIA.groupedBy.SendingDataOutsideEU.unscoped=Evaluaciones de impacto de la privacidad mediante el envío de datos fuera de la UE para todos los glosarios
+gdpChartPIA.groupedBy.UsingSensiblePI.title=Evaluaciones de Impacto de Privacidad usando Sensible PI
+gdpChartPIA.groupedBy.UsingSensiblePI.scoped=Evaluaciones de impacto en la privacidad mediante Sensible PI para el glosario {0}
+gdpChartPIA.groupedBy.UsingSensiblePI.unscoped=Evaluaciones de impacto de la privacidad mediante el uso de Sensible PI para todos los glosarios
+gdpChartPIA.groupedBy.RiskSeverity.title=Evaluaciones de Impacto de Privacidad por Gravedad de Riesgo
+gdpChartPIA.groupedBy.RiskSeverity.scoped=Evaluaciones de impacto de la privacidad por gravedad de riesgo para el glosario {0}
+gdpChartPIA.groupedBy.RiskSeverity.unscoped=Evaluaciones de impacto en la privacidad por gravedad de riesgo para todos los glosarios
+gdpChartPIA.WithIssue.title=Evaluaciones de impacto de privacidad con problema
+gdpChartPIA.WithIssue.scoped=Evaluaciones de impacto de la privacidad con problema para el glosario {0}
+gdpChartPIA.WithIssue.unscoped=Evaluaciones de impacto de la privacidad con problema para todos los glosarios
+
+gdpChartMostCommonPI.title=Most Common Personal Data
+gdpChartMostCommonPI.noContentLabel=-

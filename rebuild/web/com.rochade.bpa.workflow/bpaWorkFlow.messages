@@ -1,0 +1,127 @@
+﻿#-------------------------------------------------------
+# Rochade Business Package - Message file
+# This is an UTF-8 endcoded file!
+#
+#  Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+#
+################### copied keys for RDM Workflow (business items)
+
+## WARNING: these keys also used inside cellrenderer/RwfTitleCellRenderer.java
+##          and there's no way to separate and define similar key in cellrenderer's own message file
+rwf_BPA_BI_MODIFIED.img=/com.rochade.mg.workflow/img/ModifiedApprovalRequired16.png
+rwf_BPA_BI_CREATED.img=/com.rochade.mg.workflow/img/CreatedApprovalRequired16.png
+rwf_BPA_BI_TASK_APPROVED.img=/com.rochade.mg.workflow/img/TaskApproved16.png
+rwf_BPA_BI_TASK_REJECTED.img=/com.rochade.mg.workflow/img/TaskRejected16.png
+rwf_BPA_BI_TASK_REACTIVATED.img=/com.rochade.mg.workflow/img/TaskReactivated16.png
+rwf_BPA_BI_TASK_REASSIGNED.img=/com.rochade.mg.workflow/img/TaskReassigned16.png
+rwf_BPA_BI_TASK_REMINDER.img=/com.rochade.mg.workflow/img/TaskReminder16.png
+rwf_BPA_CDE_LINEAGE_COMPARISON_COMPLETED.img=/com.rochade.dg.workflow/img/TaskApproved16.png
+### END Icons
+
+############ Notification/Task List ################
+rwf_BPA_BI_MODIFIED.title=Approval Request
+rwf_BPA_BI_CREATED.title=Approval Request
+rwf_BPA_BI_TASK_APPROVED.title=Request Approved
+rwf_BPA_BI_TASK_REJECTED.title=Request Rejected
+rwf_BPA_BI_TASK_REACTIVATED.title=Request Resumed
+rwf_BPA_BI_TASK_REASSIGNED.title=Request Returned
+rwf_BPA_BI_TASK_REMINDER.title=Reminder
+rwf_BPA_CDE_LINEAGE_COMPARISON_COMPLETED.title=Lineage Comparison Completed 
+
+rwf_action_BPA_BI_CREATED=Created
+rwf_action_BPA_BI_MODIFIED=Modification
+rwf_action_BPA_BI_TASK_APPROVED=Approved
+rwf_action_BPA_BI_TASK_REACTIVATED=Reactivated
+rwf_action_BPA_BI_TASK_REJECTED=Rejected
+rwf_action_BPA_BI_TASK_REASSIGNED=Returned
+rwf_action_BPA_BI_TASK_REMINDER=Reminder
+rwf_action_BPA_CDE_LINEAGE_COMPARISON_COMPLETED=Lineage comparison completed
+
+BP.business_item.created=Business Item is newly created
+BP.business_item.deleted=Business Item is marked for deletion
+BP.business_item.modified=Business Item is modified
+
+BpTermCreated.title=Request Submitted for Creation of Business Item [$item.name]
+BpTermCreated.footer=Click <a href="[$notification.link]">here</a> to open the notification.
+BpTermCreated.body=A request has been submitted for the creation of Business Item [$item.name].
+BpTermCreated.mail_body=A request has been submitted for the creation of Business Item <a href="[$item.link]">[$item.name]</a>.<br/><br/>\nRequested by: <a href="[$author.link]">[$author.DEFINITION]</a><br/><br/>
+
+BpTermModified.title=Request Submitted for Modification of Business Item [$item.name]
+BpTermModified.footer=Click <a href="[$notification.link]">here</a> to open the notification.
+BpTermModified.body=A request has been submitted for the modification of Business Item [$item.name].
+BpTermModified.mail_body=A request has been submitted for the modification of Business Item <a href="[$item.link]">[$item.name]</a>.<br/><br/>\nRequested by: <a href="[$author.link]">[$author.DEFINITION]</a><br/><br/>
+
+BpTaskApproved.title=Request Approved for Business Item [$item.name]
+BpTaskApproved.footer=Click <a href="[$notification.link]">here</a> to open the notification.
+BpTaskApproved.body=The request for change of Business Item [$item.name] has been approved.\n\nRequested by: [$author.DEFINITION]\nApproved by: [$history.RWF/COMPLETED-BY.DEFINITION]\nComments: [$comment]
+BpTaskApproved.mail_body=The request for change of Business Item <a href="[$item.link]">[$item.name]</a> has been approved.<br/><br/>\nRequested by: <a href="[$author.link]">[$author.DEFINITION]</a><br/>\nApproved by: <a href="[$actionBy.link]">[$actionBy.DEFINITION]</a><br/>\nComments: [$comment]<br/><br/>\nClick <a target="right" href="[$history.link]">here</a> to open the task.<br/>
+
+BpTaskReactivated.title=Request Resumed for Business Item [$item.name]
+BpTaskReactivated.footer=Click <a href="[$notification.link]">here</a> to open the notification.
+BpTaskReactivated.body=The request for change of Business Item [$item.name] has been resumed.\n\nRequested by: [$author.DEFINITION]\nResumed by: [$actionBy.DEFINITION]\nComments: [$comment]
+BpTaskReactivated.mail_body=The request for change of Business Item <a href="[$item.link]">[$item.name]</a> has been resumed.<br/><br/>\nRequested by: <a href="[$author.link]">[$author.DEFINITION]</a><br/>\nResumed by: <a href="[$actionBy.link]">[$actionBy.DEFINITION]</a><br/>\nComments: [$comment]<br/><br/>
+
+BpTaskReassigned.title=Request Returned for Business Item [$item.name]
+BpTaskReassigned.footer=Click <a href="[$notification.link]">here</a> to open the notification.
+BpTaskReassigned.body=The request for change of Business Item [$item.name] has been returned. Please submit an updated item for approval.\n\nRequested by: [$author.DEFINITION]\nReturned by: [$actionBy.DEFINITION]\nComments: [$comment]
+BpTaskReassigned.mail_body=The request for change of Business Item <a href="[$item.link]">[$item.name]</a> has been returned. Please submit an updated item for approval.<br/><br/>\nRequested by: <a href="[$author.link]">[$author.DEFINITION]</a><br/>\nReturned by: <a href="[$actionBy.link]">[$actionBy.DEFINITION]</a><br/>\nComments: [$comment]<br/><br/>
+
+BpTaskRejected.title=Request Rejected for Business Item [$item.name]
+BpTaskRejected.footer=Click <a href="[$notification.link]">here</a> to open the notification.
+BpTaskRejected.body=The request for change of Business Item [$item.name] has been rejected.\n\nRequested by: [$author.DEFINITION]\nRejected by: [$history.RWF/COMPLETED-BY.DEFINITION]\nComments: [$history.RWF/COMMENT1]\n
+BpTaskRejected.mail_body=The request for change of Business Item <a target="right" href="[$item.link]">[$item.name]</a> has been rejected.<br/><br/>\nRequested by: <a href="[$author.link]">[$author.DEFINITION]</a><br/>\nRejected by: <a href="[$actionBy.link]">[$actionBy.DEFINITION]</a><br/>\nComments: [$comment]<br/><br/>\nClick <a target="right" href="[$history.link]">here</a> to open the task.<br/>
+
+BpTaskReminder.title=Please Take Action on Request for Business Item [$item.name]
+BpTaskReminder.footer=Click <a href="[$notification.link]">here</a> to open the notification.
+BpTaskReminder.body=Please take action on the request for change of Business Item [$item.name].\n\nComments: [$comment]
+BpTaskReminder.mail_body=Please take action on the request for change of Business Item <a target="right" href="[$item.link]">[$item.name]</a>.<br/><br/>\nComments: [$comment]<br/><br/>\nClick <a target="right" href="[$history.link]">here</a> to open the task.<br/>
+
+rwf_BPA_BI_REVIEW_TASK_CREATED.title=Review requested
+rwf_BPA_BI_REVIEW_TASK_COMPLETED.title=Review completed
+
+rwf_BPA_BI_REVIEW_TASK_CREATED.img=/com.rochade.mg.workflow/img/TaskReminder16.png
+rwf_BPA_BI_REVIEW_TASK_COMPLETED.img=/com.rochade.mg.workflow/img/TaskReminder16.png
+
+rwf_action_BPA_BI_REVIEW_TASK_CREATED=Review requested
+rwf_action_BPA_BI_REVIEW_TASK_COMPLETED=Review completed
+
+BpReviewTaskCreated.title=Review Task Created for Business Item [$item.name]
+BpReviewTaskCreated.footer=Click <a href="[$notification.link]">here</a> to open the notification.
+BpReviewTaskCreated.body=A review task for Business Item [$item.name] has been created.\n\nRequested by: [$author.DEFINITION]\n
+BpReviewTaskCreated.mail_body=A review task for Business Item <a target="right" href="[$item.link]">[$item.name]</a> has been created.<br/><br/>\nRequested by: <a href="[$author.link]">[$author.DEFINITION]</a><br/>\n\nClick <a target="right" href="[$history.link]">here</a> to open the task.<br/>
+
+BpReviewTaskCompleted.title=Review Task Completed for Business Item [$item.name]
+BpReviewTaskCompleted.footer=Click <a href="[$notification.link]">here</a> to open the notification.
+BpReviewTaskCompleted.body=A review task for Business Item [$item.name] has been completed.\n\nRequested by: [$author.DEFINITION]\nCompleted by: [$actionBy.DEFINITION]\nComments: [$comment]\n
+BpReviewTaskCompleted.mail_body=A review task for Business Item <a target="right" href="[$item.link]">[$item.name]</a> has been completed.<br/><br/>\nRequested by: <a href="[$author.link]">[$author.DEFINITION]</a><br/>\nCompleted by: <a href="[$actionBy.link]">[$actionBy.DEFINITION]</a><br/>\nComments: [$comment]<br/><br/>\nClick <a target="right" href="[$history.link]">here</a> to open the task.<br/>
+
+BpLineageComparisonCompleted.title=Lineage Comparison Completed for [$item.MappedType] [$item.name]
+BpLineageComparisonCompleted.footer=Click <a href="[$notification.link]">here</a> to open the notification.
+BpLineageComparisonCompleted.body=A lineage comparison for [$item.MappedType] [$item.name] has been completed and differences were detected. Details can be found in the Lineage Comparison Report.  
+BpLineageComparisonCompleted.mail_body=A lineage comparison for [$item.MappedType] <a target="right" href="[$item.link]">[$item.name]</a> has been completed and differences were detected.<br/><br/>\nDetails can be found in the Lineage Comparison Report reachable from notification page.<br/><br/>
+
+############ BPA_LineageComparisonNotificationView ################
+bpa_LineageComparison.ReportUrl=Report URL:
+bpa_LineageComparison.executionDate=Execution Date:
+bpa_LineageComparison.lblReport=Report:
+bpa_LineageComparison.btnReport=Click here to open the Lineage Comparison Report.
+
+################ Search for Items In Process (ItemsInProcessFilter.zul) ################
+#
+bpa_ItemsInProcessFilter.contexts=Search in glossary:
+bpa_ItemsInProcessFilter.state=Status:
+bpa_ItemsInProcessFilter.windowheader=Search for Business Items in Process
+bpa_ItemsInProcessFilter.button.cancel=Cancel
+bpa_ItemsInProcessFilter.button.search=Search
+bpa_ItemsInProcessFilter.searchresult.title=Business Items in Process
+bpa_ItemsInProcessFilter.label.allContexts=All Glossaries
+bpa_ItemsInProcessFilter.state.all=All
+
+BPA_BusinessItemsInProgress.lbl=Unapproved business items
+#bpa_TaskSearch.label.allGovernedContexts=All Business Contexts
+bpa_TaskSearch.label.allGovernedContexts=All Glossaries
+
+# Option for Info Management - Task-Search-Dialog
+#bpa_Filter.OPT_BUSINESS_ITEMS=Business Items

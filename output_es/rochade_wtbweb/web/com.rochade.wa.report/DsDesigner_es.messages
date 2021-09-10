@@ -1,0 +1,53 @@
+﻿# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.wa.report
+#
+### Icons: all images should be inside of dir /com.rochade.wa.report/ + img/, see plugin.xml
+
+#extra icons
+### END Icons
+
+DsDesigner.reportparam=Data Source Parameter
+DsDesigner.select=Create a SDCAC Data Source for Report
+
+DsDesigner.propAttr=Atributos
+DsDesigner.propAttr.desc=Attributes for columns (id,scopeId,type,name are always added automatically)
+DsDesigner.propName=Nombre
+DsDesigner.propName.desc=Name filter
+DsDesigner.propType=Tipo
+DsDesigner.propType.desc=Technical type''s name
+DsDesigner.propId=Data source name
+DsDesigner.propId.desc=Alphanumeric
+
+DsDesigner.runButton=Test Query
+DsDesigner.saveButton=Aceptar
+DsDesigner.cancelButton=Cerrar
+# Tooltips
+DsDesigner.enter=Test Query (Alt-T, <enter>)
+DsDesigner.save=Guardar Fuente de Datos (Alt-S)
+DsDesigner.esc=Close (<esc>)
+
+DsDesigner.msg.title=Resultado de la consulta
+DsDesigner.msg.empty=Result is empty.
+DsDesigner.msg.result=Result has {0} rows.
+
+DsDesigner.err.duplicate=Data Source already exist. Please use another Data Source Name.
+DsDesigner.err.querydef.notfound=No se encontró la definición de la consulta del reporte {0}.
+DsDesigner.err.save=Saving Data Source ''{0}'' failed.
+DsDesigner.err.invalidAttr=Invalid attribute ''{0}''.\nPlease use valid attributes of the Rochade information model.
+DsDesigner.err.invalidType=Invalid type ''{0}''.\nPlease use valid type of the Rochade information model.
+
+ManageDs.name=Nombre
+ManageDs.type=Tipo
+ManageDs.reports=Related Reports
+ManageDs.deleteButton=Borrar
+ManageDs.confirm.title=Delete Data Source
+ManageDs.confirm.text=Are you sure you want to delete this Data Source?
+ManageDs.err.deleteFailed=Deleting resource ''{0}'' failed.
+ManageDs.err.columnNotMatch=The amount of Data Source''s attributes is bigger than the amount Report''s columns

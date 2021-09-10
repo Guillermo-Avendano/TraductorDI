@@ -1,0 +1,245 @@
+﻿# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.wa.workflow
+#
+Workflow.synch.msg=La acción solicitada no puedo ser completada. El estado de la solicitud de aprobación ha cambiado. Puede reabrir la solicitud para mostrar el nuevo estado.
+Workflow.setpendingstate.suspened=El ítem no está disponible, ya que espera una acción de workflow pendiente para completar.
+Workflow.setpendingstate.failed=El ítem no puede ser suspendido:
+Workflow.Messagebox.error.title=Error
+Workflow.submitNotPossible.existingInstance=El ítem ya se ha enviado a control. Refresca la página para actualizar la vista.
+
+Workflow.inComment=En el comentario RWFutils: {0}
+Workflow.oldState=Estado antiguo del valor de atributo: {0}
+Workflow.pkgNotFound=Paquete no encontrado: {0}
+Workflow.notExists=No existe ítem con ID {0}.
+Workflow.allInPkg=Todos los ítems ya estaban contenidos en el paquete.
+Workflow.exceptIsDummy=Excepción recuperando la información isDummy
+
+Workflow.RemoveWfCellRenderer.unsupportedObjectType=Tipo de objeto no soportado para RemoveWfCellRenderer: {0}.
+
+Workflow.tooltip.delete.notPossible.notAssigned=La asignación se hereda
+Workflow.tooltip.delete.notPossible.delivered=Este es un workflow predeterminado. Los workflows predeterminados no se pueden eliminar.
+Workflow.tooltip.delete.notPossible.inUse.assigned=El workflow está actualmente asignado y no se puede quitar.
+Workflow.tooltip.delete.notPossible.inUse.activeInstances=El workflow está actualmente en uso (instancias de procesos activos) y no se puede quitar.
+Workflow.tooltip.delete.notPossible.defaultWf=Este es un workflow predeterminado. Los workflows predeterminados no se pueden eliminar.
+Workflow.tooltip.delete.notPossible.noCustomWf=Esto no es un workflow personalizado. Solamente los workflows personalizados pueden ser eliminados.
+Workflow.tooltip.delete=Borrar
+
+Workflow.title.replace=Reemplazar asignación de workflow
+Workflow.tooltip.replace=Reemplazar
+Workflow.error.replace.missingRights=No hay permiso para reemplazar asignación del workflow.
+
+Workflow.inheritedFrom.globalDefault=PREDETERMINADO GLOBAL
+Workflow.inheritedFrom.directlyAssigned=-
+
+#
+# package: com.rochade.wa.workflow.camunda
+#
+Workflow.taskDisposed=The task has been modified by other user or workflow.
+Workflow.taskAlreadyClaimed=La tarea ya ha sido reclamada por otro usuario.
+Workflow.multipleTasksFound=Múltiples tareas activas {0} encontradas para el ítem con ID {1}.
+Workflow.srapException=SrapException en operación del workflow. {0}
+Workflow.rvlException=RVLException en la operación de workflow. {0}
+Workflow.parseException=Se ha producido un error al leer la definición de workflow.
+Workflow.exception=Excepción en la operación del workflow. {0}
+Workflow.temporaryException=Excepción temporal en la operación de workflow. Por favor, inténtelo de nuevo más tarde. \n ({0})
+Workflow.error.processEngine.null=El motor de workflow no está disponible.
+Workflow.error.creatingProcessEngine=Se ha producido un error al crear el motor de workflow con el nombre {0} y JdbcUrl {1} .
+Workflow.error.h2StartFailed=No se pudo iniciar el servidor H2 . Por favor, ver los registros(Logs) de BgWebServices.
+Workflow.error.h2StartedButNotReachable=El servidor de h2 se inició, pero no es accesible desde el servidor de aplicaciones.
+Workflow.cleanUpTasksFailed=La limpieza de las tareas viejas falló. La lista de tareas (myTasks) no contendrá estas tareas, pero todavía están contenidas en la base de datos del motor de Workflow.
+Workflow.error.startProcess=Hubo un error al iniciar un nuevo proceso de workflow.
+Workflow.error.completeTask=Hubo un error al completar la tarea de workflow.
+Workflow.error.deleteProcesses=Se ha producido un error al eliminar los procesos de workflow para RWF/Tasks {0}.
+
+Workflow.foundProcessDefinitionId=Encontró la definición del proceso con id  {1} para el tipo de proceso de {0}.
+Workflow.defaultActionLabel=Enviar a control {0}
+Workflow.defaultWorkflowNotFound=El siguiente workflow predeterminado no se pudo encontrar: {0}.
+
+Workflow.assignConfig.constrainedTypes=Los siguientes tipos de ítems han sido desactivados:
+Workflow.assignConfig.constrainedTypes.NONEXISTENT={0} (no soportado en este cntexto)
+Workflow.assignConfig.constrainedTypes.ALREADY_ASSIGNED={0} (ya esta activo en otras asignaciones)
+
+Workflow.warn.componentForScriptNull=Error appending script for field {0}: missing parameter component.
+
+Workflow.field.action.label=Acción:
+Workflow.field.commentMandatory.label=Comentarios Obligatorio:
+Workflow.field.autoApprovalEnabled.label=Automatizar aprobación:
+Workflow.field.excludeAuthorFromApproval.label=Exclude Author from Approval:
+Workflow.field.reviewerRoles.label=Votantes:
+Workflow.field.RoleGroup1.label=Rol de Aprobador 1:
+Workflow.field.RoleGroup2.label=Rol de Aprobador 2:
+Workflow.field.taskTimeoutForReminderDays.label=Tiempo límite para enviar recordatorios (en días):
+Workflow.field.taskTimeoutForRejectDays.label=Tiempo límite para el rechazo automático (en días):
+Workflow.field.taskTimeoutDays.label=Tiempo límite para ejecutar la acción predeterminado (en días):
+Workflow.field.taskTimeoutAction.label=Tiempo límite para ejecutar la acción predeterminado:
+Workflow.field.percentageToComplete.label=Participación de votantes requerido (en %):
+Workflow.field.percentageOfVotesToReject.label=Votos requeridos para el rechazo (en %):
+Workflow.field.percentageOfVotesToReassign.label=Votos necesarios para la devolución (en %):
+
+Workflow.field.approveVotesLimit.label=Número de votos para aprobar:
+Workflow.field.rejectVotesLimit.label=Número de votos para Rechazar:
+Workflow.field.reassignVotesLimit.label=Número de votos para Devolver:
+
+Workflow.field.approveVotes.label=Número de votos para aprobar:
+Workflow.field.approveVotes.label_1=Número de votos para aprobar (máximo = {0}, 0 significa desactivado):
+Workflow.field.rejectVotes.label_1=Número de votos para rechazar (máximo = {0}, 0 significa desactivado):
+Workflow.field.reassignVotes.label_1=Número de votos para Devolver (Límite = {0}, 0 significa desactivado):
+Workflow.field.dismissVotes.label_1=Número de Votos para Descartar (Límite={0}, 0 significa deshabilitado):
+
+Workflow.field.defaultAction.label=Acción predeterminada:
+
+Workflow.field.nullValue.plsSelect=- (Por favor, seleccione) -
+Workflow.roleSelection.noRolesForTemplateAvailable=La selección no está disponible en la plantilla. Necesita la asignación de un Glosario/Contexto.
+Workflow.roleSelection.notyetselected=Aún no ha seleccionado el rol de Administración.
+
+Workflow.userSelection.noUsersForTemplateAvailable=La selección no está disponible en la plantilla. Necesita la asignación de un Glosario/Contexto.
+Workflow.userSelection.notyetselected=Usuario responsible no seleccionado aún.
+
+Workflow.field.notifyMask.label=Notification settings:
+Workflow.notifyMask.action.label=Workflow Step
+Workflow.notifyMask.action.notifyStakeholders=Stakeholder Notifications
+Workflow.notifyMask.action.notifyApprovers=Aprobador de notificaciones
+Workflow.notifyMask.action.sendReminder=Reminders
+Workflow.notifyMask.role.$author=Author of Business Item
+Workflow.notifyMask.role.$notified=Stakeholders in Context
+Workflow.notifyMask.role.$approver=Aprobadores en contexto
+Workflow.notifyMask.role.$facilitator=Facilitators in Context
+
+Workflow.field.reviewerRoles.voting.label.count=Cantidad Máxima de votantes
+Workflow.field.reviewerRoles.voting.label.value=Rol de Aprobador
+
+Workflow.field.hint.label=Sugerencias:
+Workflow.field.Voting.reviewerRolesHint=El proceso de votar termina en estos casos (lo que ocurra primero):<ul><li>El resultado de la votación que se conoce (en base a los votos que ya han sido presentados).</li><li>La participación de los votantes requeridos se ha alcanzado.</li><li>El tiempo limite de auto-rechazo se ha alcanzado.</li></ul>El retorno (al autor) y las opciones de rechazo pueden desactivarse introduciendo 0.
+
+Workflow.field.reviewerRoles.multistep.label=Aprobadores
+Workflow.field.reviewerRoles.multistep.label.count=Number of Approvers
+Workflow.field.reviewerRoles.multistep.label.value=Rol de Aprobador
+Workflow.field.multistep.reviewerRolesHint=The approval process ends in these cases (whatever occurs first):<ul><li>The outcome of the approval is known (based on the votes that already have been submitted)</li><li>The timeout for default action has been reached</li></ul>
+Workflow.field.reviewerRoles.multistep.label.totalCount=Total number of approvers: {0}
+
+Workflow.field.detectTDcmd.label=Detect Technical Data Command:
+Workflow.field.cascadePIcmd.label=Cascade PI Command:
+
+Workflow.field.eplDoExecute.label=Execute EPL:
+Workflow.field.eplCommand.label=EPL Command:
+Workflow.field.eplDoWait4ExtRun.label=Wait for external EPL run:
+Workflow.field.stiDoExecute.label=Execute Stitching:
+Workflow.field.stiCommand.label=Stitching Command:
+Workflow.field.dlnDoExecute.label=Execute Data Lineage Comparison:
+Workflow.field.dlnCommand.label=Data Lineage Comparison Command:
+Workflow.field.takeSnapshot.label=Take Snapshot:
+Workflow.field.snapshotConfig.label=Configuración de Snapshot:
+Workflow.field.snapshotNameTemplate.label=Default Snapshot Name Template:
+Workflow.field.snapshotDescription.label=Default Snapshot Description:
+Workflow.field.delegateToUser.label=Delegate to user:
+Workflow.field.delegateToRole.label=Delegate to group:
+
+Workflow.field.externalPIAnalyzers.label=External PI analyzer web services:
+Workflow.field.externalPIAnalyzers.hint=Optionally select configured external web services to call as the last step before completing this approval workflow, that is, at the time when the business item has just been set in production.
+
+#Workflow.field.extWebServiceUrl.label=Optional service URL:
+#Workflow.field.extWebServiceParams.label=Optional service parameters:
+#Workflow.field.extWebService.Hint=Optionally enter an URL to call an external service as the last step before completing this approval workflow, that is, at the time when the business item has just been set in production.
+Workflow.field.ignoreErrors.label=Ignore errors:
+Workflow.field.webServiceParams.view.empty=Parameters are not initialized.
+Workflow.field.webServiceParams.view.notEmpty=Parameters are set.
+Workflow.field.webServiceParams.edit.empty=Set Optional Service Parameters
+Workflow.field.webServiceParams.edit.notEmpty=Update Optional Service Parameters
+
+Workflow.SingleStep.Approve.definition=Uno de los muchos administradores aprobará
+Workflow.SingleStep.Approve.label=Enviar a control (para aprobación en Paso-Simple)
+Workflow.MultiStep.Approve.definition=Un número configurable de administradores aprobará
+Workflow.MultiStep.Approve.label=Enviar a control (para aprobación en Multi-Pasos)
+Workflow.Voting.Approve.definition=Votación
+Workflow.Voting.Approve.label=Enviar a control (para aprobación en Votación)
+
+Workflow.oneStepWorkflow.definition=Uno de los muchos administradores aprobará.
+Workflow.oneStepWorkflow.label=para Aprobación
+Workflow.multiStepWorkflow2Groups.definition=Aprobación Multi-Pasos (2 Grupos aprobadores)
+Workflow.multiStepWorkflow2Groups.label=para Aprobación (2 Grupos aprobadores)
+Workflow.votingWorkflowV1.definition=Workflow de aprobación por votación (V1)
+Workflow.votingWorkflowV2.definition=Workflow de aprobación por votación (V2)
+Workflow.votingWorkflow.label=para Aprobación (po votación)
+Workflow.PIWorkflow.definition=WorkFlow de aprobación de información personal
+Workflow.PIWorkflow.label=for Approval (PI)
+#Workflow.PIAWorkflow.definition=Flujo de trabajo de evaluación de impacto de privacidad
+#Workflow.PIAWorkflow.label=for Approval (PIA)
+#Workflow.GDPWorkflow.definition=GDPR Workflow
+Workflow.GDPWorkflow.definition=Workflow de aprobación para documentos relevantes de protección de datos
+Workflow.GDPWorkflow.label=para Aprobación
+Workflow.EnterpriseWIPMultiStepApprovalWorkflow.label=para Aprobación
+Workflow.EnterpriseWIPMultiStepApprovalWorkflow.definition=Workflow corporativo de aprobación del Borrador en varios pasos
+Workflow.LOBWIPMultiStepApprovalWorkflow.label=para Aprobación
+Workflow.LOBWIPMultiStepApprovalWorkflow.definition=Workflow de aprobación del Borrador de Línea de Negocios en varios pasos
+
+MultiSelectionGrid.totalCount.label=Número total de votantes: {0}
+
+Workflow.IssueWorkflow.definition=Los administradores revisarán problemas de acuerdo con este workflow.
+Workflow.IssueWorkflow.label=para Revisión
+
+Workflow.task.reviewItem.firstApprover=Usted es el primer responsable de aprobación. Por favor, revise.
+Workflow.task.reviewItem.secondApprover=Usted es el segundo aprobador. Por favor revise.
+Workflow.task.reviewItem.anApprover=Usted es un autorizador para esta tarea. Por favor, revise.
+Workflow.task.reviewItem.taskOfTasks_2=Usted es responsable de aprobación para la tarea {0} de {1}. Por favor, revise.
+Workflow.task.reviewItem.notificationComment=Se creó una nueva tarea de revisión.
+Workflow.task.reactivateWorkflow.plsResume=Este ítem se ha devuelto. Por favor reanudar el workflow.
+
+Workflow.task.reviewIssue.plsReview=Usted es un auditor para esta tarea. Por favor, revísela.
+
+Workflow.comment.autoApprove=Aprobación automatizada directa
+Workflow.comment.taskReminderDays=Recordatorio de la tarea tras el tiempo límite de {0} días.
+Workflow.comment.autoRejectDays=Auto Rechazada despues de {0} días.
+Workflow.comment.votingFinished=La votación terminó.
+Workflow.comment.approvalFinished=Aprobación finalizada.
+Workflow.comment.defaultActionAfterTimeoutDays=La acción predeterminado se ejecuta después de {0} días.
+Workflow.comment.resetAfterExternalWIPChange=Restablecer después de un cambio externo del Borrador.
+Workflow.comment.autostartedForWIP=Revisión del Borrador iniciada automáticamente.
+Workflow.wipWorkflow.comment.errorIngTimeChange=Restablecer debido a una ingestión externa.
+Workflow.wipWorkflow.comment.errorModTimeChange=Restablecer debido a la modificación del contenido del Borrador.
+
+Workflow.error.noProcessConfig=Sin configuración del proceso para el tipo de ítem {0} y categoría {1}. Importar un workflow predeterminado o asignar un workflow al ítem padre.
+Workflow.error.noProcessDefinition=No se encontró la definición del proceso. Por favor, seleccione un proceso de workflow en la Administración de usuarios.
+Workflow.error.invalidProcessConfigItem=El ítem RWF/PROCESS-CONFIGURATION item "{0}" con id "{1}" no es válido.
+Workflow.error.parsingValue=El valor "{0}" de tipo "{1}" en el campo de formulario "{2}" no se pudo analizar.
+Workflow.error.parsingFieldDefinition=El atributo obligatorio "{0}" no se encuentra en el campo de formulario con ID "{1}".
+Workflow.error.invalidItemIds=El identificador de ítem "{0}" (como parte de "{1}") en la tarea "{2}" no es válido.
+Workflow.error.parsingVersionNumber=El número de versión "{0}" (propiedad "VERSION") no es válido.
+
+Workflow.error.webServiceConfigurationValueNotEqual=La configuración de BgWebServices no coincide con la configuración de la aplicación Rochade Web: \n
+Workflow.error.webServiceConfigurationValueNotEqual.detail=\nEl parametro "{0}" tiene valores diferentes "{1}" y "{2}".
+Workflow.error.emptyConfigValue=El parámetro de configuración obligatoria {0} está vacío.
+
+Workflow.error.createRwfProcessDefinitionFailed=Error creando RWF/PROCESS-DEFINITION {0} para el recurso {1}. Por favor, ver los logs de BgWebServices.
+Workflow.error.updateRwfProcessDefinitionFailed=Error actualizando  RWF/PROCESS-DEFINITION {0}. Por favor, consulte los Logs de BgWebServices.
+Workflow.error.createRwfProcessConfigFailed=Error creando de RWF/PROCESS-CONFIG {0} para el recurso {1}. Por favor, ver los logs de BgWebServices.
+Workflow.error.updateRwfProcessConfigFailed=Error actualizando  RWF/PROCESS-CONFIG {0}. Por favor, consulte los Logs de BgWebServices.
+Workflow.error.deleteRwfProcessConfigFailed=Error eliminando de RWF/PROCESS-CONFIG {0} para el recurso {1}. Por favor, ver los logs de BgWebServices.
+
+Workflow.error.deployDefaultWorkflowFailed=Error durante el despliegue de workflow predeterminado {0}: {1} Estado del ítem con id {2} no es compatible.
+Workflow.error.updateDefaultWorkflows=Error actualizando workflows predeterminados.
+Workflow.error.updateWorkflow=Error al actualizar el workflow {0}.
+Workflow.error.convertExistingTasks=Error al convertir las tareas existentes después de la actualización de los workflows predeterminados.
+Workflow.error.convertExistingTasks.unsupportedState=Error al convertir la tarea existente con ID {0}: {1} Estado del ítem con ID {2} no es compatible.
+Workflow.error.recoverTask.exception=Error recuperando la tarea (tipo de proceso = {0}, el proceso de id = {1}, la actividad de id = {2}).
+Workflow.error.recoverTask.noProcessConfig=Error recuperando la tarea: El proceso de configuración no está disponible (tipo de proceso = {0}, el proceso de id = {1}, la actividad de id = {2}).
+Workflow.error.cleaningUpOldNotificationsFailed=Error limpando notificaciones antiguas.
+Workflow.error.syncProcessInstancesFailed=Error sincronizando instancias de proceso de tareas abiertas.
+Workflow.error.syncWIPWorkflowFailed=Error sincronizando la instancia de proceso del Borrador.
+Workflow.error.updateTransactionDummyItem=Error actualizando la última información de tiempo de inactividad de las transacciones (Sincronización del workflow del Borrador).
+
+Workflow.info.creatingCamundaTask=Creando una tarea de Workflow para RWF/TASK con ID {0} para el ítem {1}: workflow={2}, status={3}, Task={4}
+Workflow.info.resubmitItemManually=La tarea del Workflow no fue creada para RWF/TASK con ID {0} para el ítem {1}: estado={2}. Enviar a control nuevamente el ítem.
+Workflow.info.processEngine=motor de proceso: nombre: {0}, JDBCURL: {1}
+Workflow.info.updatingDefaultWorkflow=Actualizando workflow predeterminado {0} a partir del recurso {1}.
+
+Workflow.error.settingVariableForCheckCondition=Falló checkCondition al estabecer la configuración de la variable {0} con el valor {1}. Esta variable será ignorada en la prueba.
+
+Workflow.processType.APPROVE=Aprobar
+Workflow.processType.REVIEW=Revisión

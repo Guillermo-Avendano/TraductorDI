@@ -1,0 +1,97 @@
+﻿#-------------------------------------------------------
+# Issue Management messages
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+### Icons: all images should be inside of dir /com.rochade.im.workflow/ + img/, see plugin.xml
+### END Icons
+
+rwf_im_action_RESOLVE=Resolver
+rwf_im_action_INVALIDATE=Invalidar
+rwf_im_action_REASSIGN=Atribuir Novamente
+rwf_im_action_ACCEPT=Aceitar
+rwf_im_action_ACTION=Ação
+
+issue.reassignTo=Atribuir Novamente para:
+issue.action_OK=OK
+issue.action_Cancel=Cancelar
+
+issue.action.emptyComment.title=Comentário obrigatório:
+issue.action.emptyComment.msg=Por favor, não digite um comentário vazio
+issue.action.emptyUser.title=O usuário não está selecionado
+issue.action.emptyUser.msg=Selecione o usuário para o qual você gostaria de atribuir novamente a Caso
+
+issue.action.SUBMIT=Enviado
+issue.action.SUBMITTED=Enviado
+issue.action.ACCEPT=Aceito
+issue.action.ACCEPTED=Aceito
+issue.action.RESOLVE=Resolvido
+issue.action.RESOLVED=Resolvido
+issue.action.INVALIDATE=Invalidado
+issue.action.INVALIDATED=Invalidado
+issue.action.REASSIGN=Atribuído Novamente
+
+issue.action.SUBMITTED-PENDING=Enviado (pendente)
+issue.action.ACCEPTED-PENDING=Aceito (Pendente)
+issue.action.RESOLVED-PENDING=Resolvido (Pendente)
+issue.action.INVALIDATED-PENDING=Invalidado (Pendente)
+issue.action.READY=Pronto
+
+#Ticker comments
+Comment.Commented=comentado
+Comment.Accepted=Aceito
+Comment.Invalidated=Invalidado
+Comment.Resolved=Resolvido
+
+################ Notifications ################
+
+rwf_ISM_ISSUE_CREATED.title=Caso Criado
+rwf_ISM_ISSUE_REVIEW_TASK_ACCEPTED.title=Revisar Tarefa Aceita
+rwf_ISM_ISSUE_TASK_INVALIDATED.title=Caso Invalidado
+rwf_ISM_ISSUE_TASK_REASSIGNED.title=Caso Atribuído Novamente
+rwf_ISM_ISSUE_TASK_RESOLVED.title=Caso Resolvido
+rwf_ISM_ISSUE_TASK_SUBMITED.title=Caso Enviado
+
+rwf_action_ISM_ISSUE_CREATED=Criado
+rwf_action_ISM_ISSUE_REVIEW_TASK_ACCEPTED=Aceito
+rwf_action_ISM_ISSUE_TASK_INVALIDATED=Invalidado
+rwf_action_ISM_ISSUE_TASK_REASSIGNED=Atribuído Novamente
+rwf_action_ISM_ISSUE_TASK_RESOLVED=Resolvido
+rwf_action_ISM_ISSUE_TASK_SUBMITED=Enviado
+
+IsmIssueSubmited.title=Caso [$item.name] Enviado
+IsmIssueSubmited.footer=Clique <a href="[$notification.link]">aqui</a> para abrir a notificação.
+IsmIssueSubmited.mail_body=Um caso <a href="[$item.link]">[$item.name]</a> foi submetido.<br/><br/>\nSubmetido por: <a href="[$author.link]">[$author.DEFINITION]</a><br/><br/>
+IsmIssueSubmited.body=Um caso [$item.name] foi submetido.\nSubmetido por: [$author.DEFINITION]
+
+IsmIssueAccepted.title=Caso [$item.name] Aceito
+IsmIssueAccepted.footer=Clique <a href="[$notification.link]">aqui</a> para abrir a notificação.
+IsmIssueAccepted.mail_body=O Caso <a href="[$item.link]">[$item.name]</a> foi aceito. <br/><br/>\nSubmetido por: <a href = "[$author. link] "> [$author.DEFINITION]</a><br/><br/>
+IsmIssueAccepted.body=O Caso [$item.name] foi aceito.\nSubstituído por: [$author.DEFINITION]
+
+IsmIssueResolved.title=Caso [$item.name] Resolvido
+IsmIssueResolved.footer=Clique <a href="[$notification.link]">aqui</a> para abrir a notificação.
+IsmIssueResolved.body=O Caso [$item.name] foi resolvido.\n\nSubmetido por: [$author.DEFINITION]\nResolvido por: [$history.RWF / COMPLETED-BY.DEFINITION]\nComentários: [$comment]
+IsmIssueResolved.mail_body=O Caso <a href="[$item.link]"> [$item.name]</a>  foi resolvido.<br/><br/>\nSubmetido por: <a href = "[$author. link] "> [$author.DEFINITION]</a><br/>\nResolvido por: <a href="[$history.RWF/COMPLETED-BY.link]"> [$history.RWF / COMPLETED-BY .DEFINITION]</a><br/>\nComentários: [$history.RWF / COMMENT11]<br/><br/>\nClique <a target="right" href="[$history.link]"> aqui </a> para abrir a tarefa.<br/>
+
+IsmIssueInvalidated.title=Caso [$item.name] Invalidada
+IsmIssueInvalidated.footer=Clique <a href="[$notification.link]">aqui</a> para abrir a notificação.
+IsmIssueInvalidated.body=A Issue [$item.name] foi invalidada.\n\nSubstituído por: [$author.DEFINITION]\nInvalidado por: [$history.RWF / COMPLETED-BY.DEFINITION]\nComentários: [$comment]
+IsmIssueInvalidated.mail_body=A Issue <a href="[$item.link]">[$item.name]</a> foi invalidado.<br/><br/>\nSubmetido por:<a href = "[$author. link] "> [$author.DEFINITION]</a><br/>\nInvalidado por: <a href="[$history.RWF/COMPLETED-BY.link]">[$history.RWF / COMPLETED-BY .DEFINITION]</a> <br/>\nComentários: [$history.RWF / COMMENT11]<br/><br/>\nClique <a target="right" href="[$history.link]"> aqui </a> para abrir a tarefa. <br/>
+
+IsmIssueTaskCreated.title=Revisar Tarefa Criada para Caso [$item.name]
+IsmIssueTaskCreated.footer=Clique <a href="[$notification.link]">aqui</a> para abrir a notificação.
+IsmIssueTaskCreated.body=Uma tarefa de revisão para a Issue [$item.name] foi criada.\n\nSubmetido por: [$author.DEFINITION]\n
+IsmIssueTaskCreated.mail_body=Uma tarefa de revisão para a Issue <a target="right" href="[$item.link]">[$item.name]</a> foi criada.<br/><br/>\nSubmetido por: <a href="[$author.link]">[$author.DEFINITION]</a><br/>\n\nClique <a target="right" href="[$notification.link]">aqui</a> para abrir a tarefa.<br/>
+
+IsmIssueReassigned.title=Caso [$item.name] Atribuída Novamente
+IsmIssueReassigned.footer=Clique <a href="[$notification.link]">aqui</a> para abrir a notificação.
+IsmIssueReassigned.body=A issue [$item.name] foi reatribuída. Por favor, reveja a Caso.\n\nSubmetido por: [$author.DEFINITION]\nComentários: [$comment]
+IsmIssueReassigned.mail_body=A issue <a href="[$item.link]"> [$item.name]</a> foi reatribuída. Por favor, reveja essa Caso.<br/><br/>\nSubmetido por: <a href="[$author.link]"> [$author.DEFINITION] </a><br/>\nComentários: [$comment ]<br/><br/>
+
+IM_Error_DuringCalculatingReviewerLevel=Ocorreu um erro ao calcular o nível do revisor
+IM_Error_DuringRetrievingUsers=Ocorreu um erro ao recuperar os usuários
+IM_Error_DuringRetrievingReviewers=Ocorreu um erro ao recuperar os revisores

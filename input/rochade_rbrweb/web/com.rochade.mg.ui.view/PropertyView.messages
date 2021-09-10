@@ -1,0 +1,27 @@
+﻿#-------------------------------------------------------
+# Rochade WTB - Message file
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+### Icons: all images should be inside of dir /com.rochade.mg.ui.view/ + img/, see plugin.xml
+propview.img.user=/com.rochade.mg.ui.view/img/user.gif
+propview.img.mail=/com.rochade.mg.ui.view/img/mailto.gif
+propview.img.arrowDown=/com.rochade.mg.ui.view/img/btn-arrow-down10x16.png
+### END Icons
+
+mg_DialogBT.info.SendEmailToApprovers=Send Email to approvers
+BusinessTermItemView.Info.noApprover=No approver available.
+
+#Like feature related messages
+MG.Label.Like.CannotLike=Your current permissions are not sufficient to enable the Like features
+MG.Label.Like.NoOneLiked=You can be the first one who like this contents
+MG.Label.Like.OneOtherLikes=One user likes this contents
+MG.Label.Like.ManyOthersLike={0} users like this contents
+MG.Label.Like.OnlyYouLike=You like this (and no other user likes this contents)
+MG.Label.Like.YouAndOneOtherLike=You like this (and one other user likes this contents)
+MG.Label.Like.YouAndManyOthersLike=You like this (and {0} other users like this contents)
+MG.Label.Like=Like
+MG.Label.Unlike=Unlike

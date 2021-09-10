@@ -1,0 +1,49 @@
+﻿# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#
+#-------------------------------------------------------
+AP_ADV_INV_VALUE=O valor não é válido para o atributo lista/sequência/intervalo
+AP_AVD_WRONG_DT=O valor não é válido para definição de tipo de dados do atributo
+AP_AVD_MULTILINE=Valor com múltiplas linhas não é válido para o atributo
+AP_USR_NP_AP_USr=O usuário não existe
+BSA_IDHDL_NOT_EXIST=O objeto não existe
+BSA_USR_NO_ACCESS=Acesso negado para o usuário
+BSA_QRY_NO_SEED=Nenhum identificador inicial para a consulta
+
+CMD_NOCONNECTION=Sem conexão para o Servidor Rochade
+CMD_TIMEOUT_ERR=O tempo de espera expirou durante a conexão com o servidor
+CMD_ROAPI_NO_LICENSE=Não foi possível conectar ao servidor por falta de Licença
+
+DS__ACCESS=O usuário não tem poderes de acesso suficientes
+DS_USER_PWD_EXPIRED=Senha expirada.  Por favor, configurar uma nova.
+DS_USER_PWD_REJECTED=A senha não confere com as regras definidas
+DS_USER_TRUST_REJECTED=Relação de confiança ainda não está disponível
+DS_USER_TRUST_KEY_EXPIRED=Chave de confiança expirada
+DS_USER_TRUST_SIGNERROR=
+DS__NOQRY=Nenhuma consulta encontrada
+DS_USER_ACC_LOCKED=Conta de Usuário bloqueada
+DS__INV_TYPE=Tipo inválido
+DS__INV_ATTR=Atributo inválido
+DS__INV_OP=Operação inválida
+DS_QRY_2CTX_SEEDS=Identificadores iniciais pertencentes ao mesmo contexto são suportados
+DS_MPATH_QRY_PARSE=Avaliação de QueryMPath falhou
+DS_MPATH_QRY_SAVE=Gravação de QueryMPath falhou
+DS_MPATH_QRY_MASKING=Falha ao mascarar QueryMPath
+DS_MPATH_QRY_SEEDTYPE=Identificadores iniciais inválidos para QueryMPath
+DS_QF_DS_WRG_DBSRV=O armazenamento de dados não pertence a mesma base de dados/servidor
+DS__ID_LOCKED=O objeto está bloqueado
+DS_IDHDL_EXIST=O objeto já existe
+DS_IDHDL_LINKED=Modificar um Objeto de uma aplicação conectada não é suportado
+
+DS_IDHDL_LANGPATH=Modificar informação de um Objeto multilíngue requer um caminho de linguagem com exatamente uma entrada
+DS_DB_SYSTAB_LOAd=As tabelas de sistema Rochade não puderam ser carregadas
+DS_DB_NO_DB=A base de dados requerida não existe
+DS_IDENT_SAME_DB=A condição que o identificador deve existir na mesma base de dados não foi satisfeita
+WHITE_SPACE_FAILURE=O nome não pode conter espaços em branco no prefixo ou sufixo
+WILD_CARD_FAILURE=Nome não pode conter asterisco (*).
+NAME_START_FAILURE=Nome não pode começar com ponto e vírgula (;).
+EMPTY_NAME_FAILURE=Nome não pode ser vazio.
+NAME_TOO_LONG=Nome não pode conter mais que 512 caracteres.

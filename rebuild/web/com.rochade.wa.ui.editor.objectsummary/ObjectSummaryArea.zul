@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="Object Body" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<!-- 
+	@author SA 01/07/2011, createdf
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+<window
+	apply="com.rochade.wa.ui.editor.objectsummary.ObjectSummaryAreaComposer" sclass="asg-itemview-window asg-summary-view">
+	<div id="divSummaryBody" style="background: transparent; border: 0px; padding: 5px 5px 5px 5px; clear:both; overflow:auto;" vflex="1"/>
+</window>
+

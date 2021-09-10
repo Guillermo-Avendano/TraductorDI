@@ -1,0 +1,13 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#-------------------------------------------------------
+IconView.btFinish=OK
+IconView.btCancel=Cancel
+IconView.winCaption=Select Image
+IconView.winWizard.height=525px
+IconView.winWizard.width=550px
+IconView.Title.Step.1=Select:
+IconView.Title.Step.2=+ Add

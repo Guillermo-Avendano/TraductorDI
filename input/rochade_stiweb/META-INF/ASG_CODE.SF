@@ -1,0 +1,153 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: Rk3ZpisO0jiWN7Zbhxon3UXeU45d0
+ /PVa6WlYHZBDL0=
+SHA-256-Digest-Manifest: oE9WsX90ksduu+E0VnPLm43+Ix3idFCr/74kNFl0JPc=
+Created-By: 1.7.0_65 (Oracle Corporation)
+
+Name: web/com.rochade.sti.ui.modalwindow/TemplatesList.zul
+SHA-256-Digest: sulUtFKH1VjP/RuS+lJKw2dSsowgiE+wBfB7fuk82pg=
+
+Name: web/sti.messages
+SHA-256-Digest: kuUrtaGo3SDo2BE2/epW8E6D8fO/gyxNblp/LaE4xv8=
+
+Name: web/com.rochade.sti.objectcontent/StitchingTemplateGeneralTab.zu
+ l
+SHA-256-Digest: ck5+MBg6GvCy+XguqGLxGC1TbuJAxlGCuZTsSZrRk+o=
+
+Name: web/com.rochade.sti.navigator/img/stitching-16.png
+SHA-256-Digest: Lpd8O2e3MCrdzP9pTTO8qjtZTzBvpdJgeODgJPUu/go=
+
+Name: web/com.rochade.sti.ui.modalwindow/ConfigurableAttributeChooser.
+ zul
+SHA-256-Digest: MD+kKhjTAU5sq8xwwcVoJKzcqC4C2rLmCIaqP8UAtvg=
+
+Name: web/com.rochade.sti.objectcontent/ContainerItemViewDetailsTab.zu
+ l
+SHA-256-Digest: br6mMo+3ucH4kJCCfKCt+vaBE8o7UvNC/5nJjUVGk/s=
+
+Name: web/com.rochade.sti.objectcontent/stiObjectContent.messages
+SHA-256-Digest: 12MHEecfx5/ekJHecn8cP1qcHCj3D/SbXrGfTuym9W0=
+
+Name: web/com.rochade.sti.objectcontent/ContainerItemViewGeneralTab.zu
+ l
+SHA-256-Digest: ljJIgFP0o4qm8ZCb6kDIMFHhD3+fhkxVBUatkc07hHs=
+
+Name: web/com.rochade.sti.objectcontent/combo.zul
+SHA-256-Digest: 6p0tEZ63FxYCy/WM3LtJp87KqabRY+5QUibvZ7M49qg=
+
+Name: web/com.rochade.sti.ui.modalwindow/StiContainerSearch.zul
+SHA-256-Digest: VC2kG67Gqt89C5c04k37DdiJWyqJFyIupKuzAtSKQCQ=
+
+Name: web/com.rochade.sti.objectcontent/GeneralTabEdit.zul
+SHA-256-Digest: qL1SeCGKcH8lK3X4nkOqnXfT4o454UW72kjjY8XA7IM=
+
+Name: web/com.rochade.sti.objectcontent/ContainerItemViewStitchesTab.z
+ ul
+SHA-256-Digest: i2fADmbn3WPWVG/iosA+tkwxVc9pcA0wn5J/8vkf9oY=
+
+Name: web/com.rochade.sti.navigator/NavTree.messages
+SHA-256-Digest: OJ7Bkos+35aG03q1p7liITCdhjn+y76Jujmygsw5zTY=
+
+Name: web/com.rochade.sti.ui.newitem/NewStitchingContainer.zul
+SHA-256-Digest: qwZNZYISnwy6fbOfPyabyVrEwTkUjJeqH7k08FZtyN0=
+
+Name: web/com.rochade.sti.ui.modalwindow/StitchingTemplateConfiguratio
+ nWizard.zul
+SHA-256-Digest: 2gqMOMRIGqo1KAptwQSt3c0pVf0nVCRAWFWlKK34OeM=
+
+Name: web/com.rochade.sti.navigator/STINavMenu.zul
+SHA-256-Digest: BJjFGxuSj3XU2Nvk8EG/NMZWlmJOVlvVXSFuv5I1At0=
+
+Name: web/com.rochade.sti.objectcontent/ContainerItemViewRealStitchesT
+ ab.zul
+SHA-256-Digest: 3rHWSEpqk34FO4UaRRVdxFrU3DoZenEGuGPc/VquKsQ=
+
+Name: web/com.rochade.sti.ctxmenu/TemplatePopup.zul
+SHA-256-Digest: OwhRvVA36h1k2HQomX8NFmii6y6rwRxGn2fI1XSYaHw=
+
+Name: web/com.rochade.sti.ui.newitem/NewStitchingContainer.messages
+SHA-256-Digest: fw7HrW2qcvOmBtXN2dFdU2YDwXNSS3T4rbPMYuN6xW8=
+
+Name: web/com.rochade.sti.ctxmenu/ContainerPopup.zul
+SHA-256-Digest: Y1+INmfsg+gQbhegkYmc6StFSv+Lm5VIIGVDu2udhPI=
+
+Name: web/com.rochade.sti.ui.modalwindow/StitchItems.messages
+SHA-256-Digest: znF9WyIQNzCz5IZPFyBV87uZrGEn+pesqBqJB5IegRM=
+
+Name: web/com.rochade.sti.viewmenu/TemplatesListViewMenu.zul
+SHA-256-Digest: PdFizTO9PQPupKX7x2imJIh7qMggXgoYB3EoqZhtIfM=
+
+Name: web/com.rochade.sti.navigator/Stitching.zul
+SHA-256-Digest: 0Z5og8BU1lz2D0COXjZQDdYNSEzMJD0dwLodHlf5wQ8=
+
+Name: web/com.rochade.sti.editor.editormenu/StitchingContainerViewMenu
+ .zul
+SHA-256-Digest: MGu316Ricad69vUNUUadFwgx+3rN3PH1VVR9Zhcd14k=
+
+Name: web/com.rochade.sti.editor.editormenu/CreateStitchingContainerMe
+ nu.zul
+SHA-256-Digest: cUbU+2SWz7Ij0tp+ZgnJ0fcDhZJ/R3QuSGjZnoPr344=
+
+Name: web/com.rochade.sti.objectcontent/stitchesList.zul
+SHA-256-Digest: 0aFi8tgt6sjzLe7btFGcXbiMyBL8nDTQznTbgiJ3MKY=
+
+Name: web/com.rochade.sti.report/Report.messages
+SHA-256-Digest: jHP9e8V3PGT8wtYPiIld2/9OdKvodvCspIKFOWh5MpA=
+
+Name: web/com.rochade.sti.ui.modalwindow/ConfigurableAttributeChooser.
+ messages
+SHA-256-Digest: NOAriwLBGI7f0RheD6YjpfIiD9HYvPvgMzTPIktWNJQ=
+
+Name: web/com.rochade.sti.objectcontent/StitchingTemplateConfiguration
+ Tab.zul
+SHA-256-Digest: iCgeandiDLRg7ltX5ohJope0uUvK5gcojvipYbOjAVs=
+
+Name: web/com.rochade.sti.objectcontent/img/addlink.gif
+SHA-256-Digest: vi5ggHQRMIcgVoMWe/zdxVGN7wywdnHA3Br/3NHRES0=
+
+Name: web/com.rochade.sti.objectcontent/StitchingElementItemGeneralTab
+ .zul
+SHA-256-Digest: 3MwVbXB5lIQk8ns1mB2LwdHIRMSKLejQlCD6mNgWnvw=
+
+Name: web/com.rochade.sti.objectcontent/GeneralTabView.zul
+SHA-256-Digest: KeCY5tODf3XaxqLos0TP74hxMYxrqkM5N5oqrcKVL8s=
+
+Name: web/com.rochade.sti.navigator/img/stitching-24.png
+SHA-256-Digest: CZewqX3GL8ExfSpxN3Yj+brMwEUv97ZVqLC7ZNUciQo=
+
+Name: web/com.rochade.sti.navigator/query.properties
+SHA-256-Digest: eE2ye3nnJCSwqnIuwqPp2ZrZO4sUCc6TL7xBSZTZNto=
+
+Name: web/com.rochade.sti.ctxmenu/StitchPopup.zul
+SHA-256-Digest: NiA4hHveMBeNgKODDRqAEQykKiU5SsKO84PjGswQkJQ=
+
+Name: web/com.rochade.sti.navigator/Listing.zul
+SHA-256-Digest: CH79jCNh96UD1/Z6fIQgbFWLn0lGQJ8yjJ3d0ZyZ/yg=
+
+Name: web/com.rochade.sti.ui.newitem/StitchingContainerEditorMenu.zul
+SHA-256-Digest: 6PzWo5A65lV/ssCuJS322MRByAWTcmS0Zy5b2IUdkZk=
+
+Name: web/com.rochade.sti.objectcontent/StitchingTemplateAdvancedTab.z
+ ul
+SHA-256-Digest: r+b1AP0N2kJnY1o72XfagOg70/uaQp3ZnhHmf8Gtg6U=
+
+Name: web/com.rochade.sti.ui.modalwindow/StitchTemplates.messages
+SHA-256-Digest: aN+5/Z9R8Z01LWVR9+LklOVXtLnhVMO0kadOP6Pka0Y=
+
+Name: web/com.rochade.sti.objectcontent/ContainerItemRulesTab.zul
+SHA-256-Digest: P4ydN7HFYlSbY7w1wlEzYFKO62pK9rkaeGujCMoVU8c=
+
+Name: web/com.rochade.sti.editor.editormenu/StitchingTemplateViewMenu.
+ zul
+SHA-256-Digest: 4ytPAz2qRa6SN2uoFjYMpCKfQolyxRqwhyaVOhrY76Y=
+
+Name: web/com.rochade.sti.objectcontent/StructureLinkItemGeneralTab.zu
+ l
+SHA-256-Digest: e0NcQSoiP/cIjRcHfSZOPvjyTrccw34bm8mFiRaecu8=
+
+Name: web/com.rochade.sti.actions/stiAction.messages
+SHA-256-Digest: 14zxL6XGTTVdiaaLqIF7FbBJOxcRRID5rGXrzWDJJrc=
+
+Name: web/com.rochade.sti.viewmenu/ContainersListViewMenu.zul
+SHA-256-Digest: KBBDB8U0Z7OyrQ91Xv4DlmtrmQDDp6BJs6GY6u8qv1A=
+

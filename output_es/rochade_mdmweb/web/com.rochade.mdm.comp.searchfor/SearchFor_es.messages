@@ -1,0 +1,184 @@
+﻿# metaRDM messages
+# This is an UTF-8 encoded file!
+#
+#  Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#-------------------------------------------------------
+Search.tabtitle=Buscar
+
+Search.buttonOK=Aceptar
+Search.buttonCancel=Cancelar
+Search.buttonReset=Reestablecer
+Search.buttonSearch=Buscar
+
+Search.title=Buscar
+Search.result=Resultado de la Búsqueda
+Search.limit=Número máximo de resultados de la búsqueda:
+Search.autoclose=Cerrar eldiálogo de búsqueda después de
+Search.tabName=Nombre
+Search.tabSets=Ajustes
+Search.tabContent=Contenido
+Search.tabSize=Tamaño
+Search.tabRelations=Relaciones
+Search.tabSystem=Sistema
+Search.tabList=Lista
+
+Search.item=Buscar:
+Search.itemcase=Distingue mayúsculas y minúsculas
+Search.types=Tipo de ítem:
+Search.itemabst=Lista también los tipos abstractos
+Search.itemsub=Buscar también para los subtipos
+Search.inwork=Buscar en la configuración de borrador solamente
+Search.state=Estado del ítem:
+Search.state_ALL=Ítems visibles
+Search.state_ACTIVE=Ítems con contenido
+Search.state_DUMMIES=Ítems sin contenidos
+Search.state_REF=Ítems referenciados
+Search.state_UNREF=Ítems sin referencias
+Search.state_ACTIVEREF=Ítems referenciados con contenido
+Search.state_DUMMIESREF=Ítems referenciados sin contenido
+Search.namespace=Espacio de nombres:
+Search.nsroot=Raiz
+Search.nsany=Alguna
+Search.nsrel=Relaciones de espacio de nombres:
+Search.nsall=Todo
+Search.nsclass=Clasificado
+Search.nsunclass=Sin clasificación
+
+Search.setsearch=Buscar en Conjuntos
+Search.setsearch_IGNORE=No buscar en conjuntos
+Search.setsearch_IN=Buscar ítems en los conjuntos seleccionados
+Search.setsearch_OUT=Buscar ítems que no estén en los conjuntos seleccionados
+Search.setlist=Ajustes:
+Search.searchcrit=Buscar en Conjuntos
+Search.errldsets=Error al cargar conjuntos
+Search.currentset=Conjuntos actuales
+
+Search.content=Buscar en los atributos
+Search.contnone=No buscar en los atributos
+Search.conttext=Buscar ítems que contienen un trexto específico
+Search.contnumber=Buscar ítems que contienen un número específico
+Search.contdate=Buscar ítems que contienen una fecha específica
+
+Search.text=Texto:
+Search.textcase=Distingue mayúsculas y minúsculas
+Search.complete=Como una línea completa
+Search.cmpop=Comparación:
+Search.format=Formato numérico:
+Search.integer=Entero
+Search.real=Real
+Search.number1=Numero 1:
+Search.date1=Fecha 1:
+Search.number2=Número 2:
+Search.date2=Fecha 2:
+Search.number=Número
+Search.date=Fecha
+Search.sizex=Tamaño
+Search.LT=< # 1
+Search.LE=<= # 1
+Search.EQ== # 1
+Search.NE=<> # 1
+Search.GT=> # 1
+Search.GE=>= # 1
+Search.GTANDLT=> # 1 and < # 2
+Search.GEANDLE=>= # 1 and <= # 2
+Search.GEANDLT=>= # 1 and < # 2
+Search.GTANDLE=> # 1 and <= # 2
+Search.LTORGT=< # 1 or > # 2
+Search.LEORGE=<= # 1 or >= # 2
+Search.LEORGT=<= # 1 or > # 2
+Search.LTORGE=< # 1 or >= # 2
+Search.attrs=Atributos:
+Search.attrseltext=Buscar texto en:
+Search.attrseldate=Buscar en la fecha:
+Search.attrselnumber=Buscar número en:
+Search.attrselone=Uno de los atributos seleccionados
+Search.attrselall=Todos los atributos seleccionados
+
+Search.size=Buscar por tamaño del atributo
+Search.sizenone=No buscar el tamaño de atributo
+Search.sizefind=Buscar ítems con atributos de un tamaño específico
+Search.scmpop=Comparación:
+Search.size1=Tamaño 1
+Search.size2=Tamaño 2
+Search.sizefmt=Formato de tamaño:
+Search.sizecharbytes=Caracteres / bytes
+Search.attrselsize=Buscar por tamaño de:
+
+Search.rel=Buscar de relaciones
+Search.relnone=No buscar relaciones
+Search.relto=Buscar ítems con referencias a
+Search.relby=Buscar ítems que son referenciados por
+Search.reltypes=Tipo de ítem:
+Search.relsub=Buscar también para los subtipos
+Search.relitem=Nombre del ítem:
+Search.relcase=Distingue mayúsculas y minúsculas
+Search.qual=Filtro calificador:
+Search.qualcase=Distingue mayúsculas y minúsculas
+Search.nonsqual=Advertencia: El calificador del filtro no está soportado para las relaciones del espacio de nombres.
+Search.moreadv=Mas opciones
+Search.advattr=Restringir par los atributos:
+Search.nssearch=Buscar:
+Search.nslinknsa=Relaciones de vínculos(links) y espacios de nombres
+Search.nslink=Relaciones de vínculos(Links)
+Search.nsnsa=Relaciones de espacio de nombres
+
+Search.sys=Buscar en los atributos del sistema
+Search.sysnone=No buscar en los atributos del sistema
+Search.sysfind=Buscar ítems que coinciden con parámetros específicos
+Search.vcmore=Versión de la creación del ítem
+Search.creop=Comparación:
+Search.creby=Creado por el usuario:
+Search.vmmore=Versión de la modificación del ítem
+Search.modop=Comparación:
+Search.modby=Modificado por el usuario:
+Search.ccmore=Creación de contenido del ítem
+Search.cmmore=Modificación de contenido del ítem
+Search.iimore=Información sobre el ítem en Subject Area
+Search.owner=Propietario:
+Search.modifier=Último modificador:
+Search.datereq=Fecha prevista (entrada ilegal {0}).\nSe reconocen los siguientes formatos de fecha:\nMM/dd/yyyy [HH:mm],\ndd.MM.yyyy [HH:mm],\nMMM dd, yyyy [HH:mm],\ndd MMM yyyy [HH:mm]\nyyyyMMdd[HHmm]
+Search.checkinput=Un campo de entrada contiene un valor no válido.
+Search.rvlexception=Ocurrió una excepcion inesperada RVLException. Por favor, vea el Log para obtener más detalles.
+Search.missingload=Falta <load name={0}> en plugin.xml para el componente del índice.
+
+
+Search.coltype=Tipo
+Search.colname=Nombre
+Search.exactlyone=Seleccionar exactamente un ítem.
+Search.atleastone=Seleccionar al menos un ítem.
+Search.nonsattrs=Este ítem no puede tener miembros en el espacio de nombres.
+Search.identlink=Seleccione los vínculos destino
+Search.identadd=Agregar ítems para Ver
+Search.identsearch=Buscar ítems
+Search.identselect=Buscar ítems, seleccionar alguno, y hacer click en Aceptar.
+Search.identsarea=Buscar en
+Search.identselectone=Buscar ítems, seleccionar exactamente uno, y hacer click en Aceptar.
+Search.cancel=Cancelar
+Search.illinput=Entrada ilegal!
+Search.illinputnote=Nota: Los siguientes formatos de fecha se reconocen: \nMM/dd/yyyy [HH:mm]\ndd.MM.yyyy [HH:mm]\nMMM dd, yyyy [HH:mm]\ndd MMM yyyy [HH:mm]\nyyyyMMdd[HHmm]
+Search.editL=Seleccione los vínculos destino
+Search.editN=Seleccionar ítems
+Search.invalidtypes=Su selección contiene ítems de un tipo de ítem no válido para el atributo actual.
+Search.move=Seleccione un espacio de nombres
+Search.scope=Seleccione un espacio de nombres
+Search.notargetMove=No hay tipos de ítems de destino disponibles.
+Search.notargetEdit=No se puede editar este atributo porque no es válido\n el tipo destino que está disponible para este atributo.
+Search.illegalselmode=Parámetro de modo de selección ilegal: {0}
+
+Search.altM=Introducir un límite para el número de objetos (Alt-M)
+Search.altO=Activar/Desactivar casilla de verificación para cerrar después de una búsqueda (Alt-O)
+Search.altN=Condiciones para el nombre, tipos y estados del ítem (Alt-N)
+Search.altC=Condiciones para el contenido del atributo (Alt-C)
+Search.altZ=Condiciones para el tamaño de atributo (Alt-Z)
+Search.altL=Las condiciones para las relaciones (Alt-L)
+Search.altY=Condiciones para los atributos del sistema (Alt-Y)
+Search.altT=La lista de ítems de entrada a filtrar (Alt-T)
+Search.altP=Condiciones para conjuntos (Alt-P)
+Search.altS=Buscar (Alt-S)
+Search.altR=Reestablecer (Alt-R)
+Search.enter=Aceptar (<Enter>)
+Search.esc=Cancelar (<Esc>)
+
+# icons
+
+Search.qualifiedName=Nombre Calificado.

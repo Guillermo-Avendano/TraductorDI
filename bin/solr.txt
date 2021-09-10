@@ -1,0 +1,1 @@
+java -Dauto=yes -Ddata=files -Dc=ditr -jar post.jar .\es_*.jsonl

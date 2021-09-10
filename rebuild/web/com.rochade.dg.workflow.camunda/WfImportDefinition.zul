@@ -1,0 +1,71 @@
+<?page contentType="text/html;charset=UTF-8"?>
+<?taglib uri="http://www.zkoss.org/dsp/web/core" prefix="c" ?>
+
+<!-- 
+	WfImportDefinition.zul
+	@author  RK 29/06/2015, created 
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+
+<zk xmlns:w="http://www.zkoss.org/2005/zk/client">
+	<window id="winWfImportDefinition" title="" border="normal" width="700px" height="400px"
+		maximizable="false" minimizable="false" sclass="asg-modal-window"
+		forward="onUpload=onUploadFileCall"
+		apply="com.rochade.dg.workflow.camunda.WfImportDefinitionComposer">
+		
+		<caption image="${wtb:getImg('WfImportDefinition.img.add')}"
+			label="${c:l('WfImportDefinition.dialogHeader')}" />	
+
+		
+		<borderlayout>	
+		<center>
+		<div>
+			<grid sclass="asg-grid">
+				<columns>
+					<column hflex="min"></column>
+					<column hflex="1"></column>
+				</columns>
+				<rows>
+					<row>
+						<label value="${wtb:l('WfImportDefinition.processId')}"></label>
+						<textbox id="tbProcessId" readonly="true" hflex="1"></textbox>
+					</row>
+					<row>
+						<label value="${wtb:l('WfImportDefinition.definition')}"></label>
+						<textbox id="tbDefinition" hflex="1"></textbox>
+					</row>
+					<row>
+						<label value="${wtb:l('WfImportDefinition.label')}"></label>
+						<textbox id="tbLabel" hflex="1"></textbox>
+					</row>
+					<row>
+						<label value="${wtb:l('WfImportDefinition.description')}"></label>
+						<textbox id="tbDescription" hflex="1"></textbox>
+					</row>
+					<row>
+						<label value="${wtb:l('WfImportDefinition.processTypes')}"></label>
+						<textbox id="tbProcessTypes" hflex="1"></textbox>
+					</row>
+					<row>
+						<label value="${wtb:l('WfImportDefinition.isDefault')}"></label>
+						<checkbox id="cbIsDefault" />
+					</row>
+				</rows>
+			</grid>
+		</div>
+		</center>
+        <south height="70px" class="field1" style="border: none;">
+			<hbox height="70px" align="center" pack="end" width="98%">
+			<button id="btAdd"
+				forward='onClick=onFinish' width="150px" sclass="asg-button"
+				label="${c:l('WfImportDefinition.button.import')}"
+				style="margin: 0 10px 0 0" />
+			<button forward='onClick=onCancel' width="150px"
+				sclass="asg-button"
+				label="${c:l('WfImportDefinition.button.cancel')}"
+				style="margin: 0 10px 0 0" />
+		</hbox>
+		</south>
+		</borderlayout>
+	</window>
+</zk>

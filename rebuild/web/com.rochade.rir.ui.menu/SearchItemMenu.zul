@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page id="seacrhitemmenu" contentType="text/html;charset=UTF-8"?>
+<!-- 
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 	
+-->
+<hlayout style="margin: 3px 0px; overflow-x: auto;" use="com.rochade.rir.ui.menu.SearchItemMenu">
+	<div hflex="1">
+		<div sclass="asg-menubar-right-aligned">
+			<menubar style="background:none; border:none">
+				<menu actionId="SwitchSearchLayout">
+					<menupopup>
+						<!--menuitem actionId="SwitchSearchLayout_Html"/-->
+						<menuitem actionId="SwitchSearchLayout_Default"/>
+					</menupopup>
+				</menu>
+				<menuitem actionId="WTB_RefreshNow"/>
+				<!-- 
+				<menu actionId="WTB_Editor_Share">
+					<menupopup>
+						<menuitem actionId="WTB_SendUrl"/>
+						<menuitem actionId="WTB_AddFavorites" visibleCondition="WTB_AddFavorites.visible"/>	
+					</menupopup>
+				</menu>
+				 -->
+			</menubar>
+		</div>
+	</div>	
+</hlayout>

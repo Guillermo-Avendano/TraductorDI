@@ -1,0 +1,55 @@
+﻿# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.wa.ui.favorites
+#
+
+### Icons: all images should be inside of dir /com.rochade.wa.ui.favorites/ + img/, see plugin.xml
+
+#extra icons
+### END Icons
+
+Favorites.title=Favoritos
+Favorites.configure=Configurar
+Favorites.noneConfigured=You have no favorites configured
+Favorites.addtitle=Agregar a los favoritos
+Favorites.addsubtitle=Agregar ficha actual a su lista de favoritos.
+Favorites.edittitle=Editar favorito
+Favorites.editsubtitle=Editar la etiqueta de la entrada de favoritos.
+Favorites.showDetailsTitle=Detalles de favorito
+Favorites.showDetailsSubtitle=Mostrar detalles de las entrada en favoritos.
+Favorites.enterlabel=Introduzca una etiqueta para la entrada de favoritos:
+Favorites.context=La información de contexto de esta entrada favoritos es:
+Favorites.addButton=Agregar
+Favorites.okButton=Aceptar
+Favorites.cancelButton=Cancelar
+Favorites.enter=Aceptar/Agregar (<Enter>)
+Favorites.esc=Cancelar (<Esc>)
+Favorites.warningctx=Advertencia: ya existe una entrada en favoritos con esta información de contexto.
+Favorites.errtitle=Error: Una entrada de favoritos con esta etiqueta ya existe. Por favor, elija otra etiqueta.
+Favorites.conftitle=Configurar Entradas de Favoritos
+Favorites.header=User Favorites Entries
+Favorites.confsubtitle=Editar, eliminar y cambiar el orden de las entradas de favoritos.
+Favorites.visible=Visible
+Favorites.label=Entrada a favoritos
+Favorites.up=Arriba
+Favorites.down=Abajo
+Favorites.top=Parte superior
+Favorites.bottom=Inferior
+Favorites.edit=Editar
+Favorites.delete=Borrar
+Favorites.details=Detalles
+Favorites.confirmtitle=Confirmar eliminación
+Favorites.confirmmsg=Confirmar la eliminación de la entrada de favoritos: {0}
+Favorites.confirmmsg.multi=Confirmar la eliminación de {0} entradas favoritas.
+Favorites.theLabelIs=La etiqueta para la entrada de favoritos es:
+Favorites.restore.confirm.msg=¿Quiere borrar la lista de favoritos?
+Favorites.restore.confirm.title=Limpiar Lista de Favoritos
+Favorites.restore=Limpiar Favoritos
+Favorites.restore.tip=Limpiar Favoritos
+

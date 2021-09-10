@@ -1,0 +1,35 @@
+﻿#-------------------------------------------------------
+# DQA - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+DQMQualityMeasureTypeCellRenderer.CanNotLoadItemById=Não é possível carregar item por id:{0}
+DQMQualityMeasureTypeCellRenderer.Column=Coluna
+DQMQualityMeasureTypeCellRenderer.TableOrView=Tabela | View
+
+EntryTopicMeasuresTechnicalItemSDCACQuery.ErrorDuringSearchingForDataQualityMeasures=Ocorreu um erro ao pesquisar medidas de qualidade de dados
+EntryTopicMeasuresTechnicalItemSDCACQuery.ErrorDuringSearchingForDWRItemsTable=Ocorreu um erro ao pesquisar por tabelas
+
+DQAUtil.CouldNotFindScopeItems=Não foi possível encontrar itens de escopo
+DQAUtil.ErrorCreatingModel=Ocorreu um erro ao criar modelo
+DQAUtil.ErrorRetrivingExtendedInfo=Ocorreu um erro ao recuperar informações estendidas para contextos governados
+DQAUtil.ErrorRetrivingSubtypes=Ocorreu um erro ao recuperar os subtipos
+
+DQMAttributeRelatedItemCellRenderer.ErrorGettingProfiledItem=Ocorreu um erro ao recuperar o item do perfil
+DQMQualityMeasureResultProfiledCellRenderer.DaysAreInWrongFormat=A quantidade de dias está no formato errado
+DQMQualityMeasureResultProfiledCellRenderer.NO=Não
+DQMQualityMeasureResultProfiledCellRenderer.YES=Sim
+MeasureReferncedDataElementCellRenderer.Column=Coluna
+MeasureReferncedDataElementCellRenderer.Field=Campo
+
+DQMQualityMeasureResultCellRenderer.GREEN=Verde
+DQMQualityMeasureResultCellRenderer.RED=Vermelha
+
+ScopeItemQueryParam.couldNotFindScopeItems=Não foi possível encontrar itens de escopo
+
+OpenAttributeProfile.lbl=Abrir Perfil de Qualidade de Dados
+OpenAttributeProfile.tip=Abrir Perfil de Qualidade de Dados
+
+DQMProfileAverageValueCellRenderer.ErrorLoadingProfiledColumn=Erro ao carregar a coluna com perfil

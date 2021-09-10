@@ -1,0 +1,28 @@
+﻿#-------------------------------------------------------
+# Rochade WTB - Message file
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#-------------------------------------------------------
+
+# navigator tab labels of query group
+### Icons: all images should be inside of dir /com.rochade.dwr.mg.navigator/ + img/, see plugin.xml
+Querygroup.BT.ico=/com.rochade.dwr.mg.navigator/img/16x16_glossary.png
+Querygroup.BT.img=/com.rochade.dwr.mg.navigator/img/24x24_glossary.png
+#Querygroup.search.ico=/com.rochade.dwr.mg.navigator/img/16x16_glossary_.png
+
+# Icons for entry topics - Glossary
+query.plugin.icon.EntryTopicMGBusinessTerm=/com.rochade.dwr.mg.navigator/img/16x16_glossary_list.png
+### END Icons
+
+Querygroup.BT.title=Glossary
+Querygroup.BT.tip=Glossary
+
+#Querygroup.search.title=Search in all Glossaries
+#Querygroup.search.tip=Search in all Glossaries
+
+#navTree.lbl.bg=Business Items
+#navTree.tip.bg=Show Business Items
+
+#List Entries for Glossary
+DWR_MG.BusinessTerm=Glossary

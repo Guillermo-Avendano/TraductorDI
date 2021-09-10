@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+
+<window id="addMetaNoteWindow" apply="com.rochade.wa.metanote.AddMetaNoteComposer" height="470px" width="640px" title="${wtb:l('addMetanote.title')}" sclass="asg-add-metanote"
+	border="normal" action="show: slideDown;hide: slideUp">
+
+	<div width="640px" height="371px" style="padding: 10px;">
+		<hlayout>
+			<label value="${wtb:l('addMetanote.subject')}" />
+			<textbox id="shortDesc" width="550px" style="resize: none;" constraint="no empty"/>
+		</hlayout>
+		<separator height="20px" />
+		<textbox id="desc" width="600px" rows="20" />
+	</div>
+	<hbox height="50px" width="630px" pack="end"
+		style="margin: -2px;">
+		<button id="save" label="${wtb:l('addMetanote.save')}" style="margin: 5px 10px 0px 0px"/>
+		<button id="cancel" label="${wtb:l('addMetanote.cancel')}" style="margin: 5px 10px 0px 0px" />
+	</hbox>
+</window>

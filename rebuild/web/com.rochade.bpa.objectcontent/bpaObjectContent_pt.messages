@@ -1,0 +1,61 @@
+﻿#-------------------------------------------------------
+# Rochade Business Package - Message file
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+#
+# package: com.rochade.bpa.objectcontent
+#
+
+Tab.BP.History=Histórico
+Tab.BP.Details=Detalhes
+BI.DetailsTab.Context=Contexto
+
+CDE.Tab.Lineage.Comparison=Comparação de Linhagem
+CDE.Tab.Profile=Perfil
+
+#Lineage Comparison tab
+BPK_Level =Nível:
+BPK_detailed =Detalhado
+BPK_highlevel =Alto Nível
+BPK_NoComparisonResults =Sem Resultados de Comparação
+BPK_DataElements =Elementos de Dados
+BPK_DataStructures =Estruturas de Dados
+BPK_Transformations =Transformações
+BPK_DateTime =Data
+BPK_Compare =Comparar
+BPK_Direction =Linhagem
+BPK_Forward =Avançar
+BPK_Backward =Retornar
+BPK_Compare_WP =Desenvolvimento com Produção
+BPK_Compare_SP =Snapshot com Prod
+BPK_Compare_SS =Snapshot com Snapshot
+BPK_WIP_Total =WIP \nTotal
+BPK_PROD_Total =PROD \nTotal
+BPK_Added =Adicionado
+BPK_Removed =Removido
+BPK_NotChanged =Não\nmodificado
+
+# Profile tab
+BPK_HasProfile =Tem Perfil
+
+# Exceptions
+BPK_Err_FailedParseDate =Falha ao analisar a data.  Formato errado
+BPK_Err_GetPropValue =Não é possível obter valor {0} para a ID do item:
+BPK_Err_LoadById =Não é possível carregar item(ns) pela ID:
+BPK_Err_SkippedComparisonItem=Item de resultados de comparação de nome errado ignorada: {0}
+BPK_Err_Query =Erro ao obter resultados de comparação do item {0}
+
+CDEProfileResults.Ok=OK
+CDEProfileResults.OK=OK
+CDEProfileResults.undefined=indefinido
+CDEProfileResults.ambiguous=ambíguo
+CDEProfileResults.inconsistent=inconsistente
+CDEProfileResults.false=falso							 
+CDEProfileResults.true=verdadeiro						   
+CDEProfileResults.source=Origem
+CDEProfileResults.target=Destino
+CDEProfileResults.lookup=verificar
+CDEProfileResults.isolated=isolado

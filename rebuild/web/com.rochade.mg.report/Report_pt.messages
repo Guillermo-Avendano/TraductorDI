@@ -1,0 +1,72 @@
+﻿#-------------------------------------------------------														
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#
+#-------------------------------------------------------
+
+#------------------------------ Report Definition (MG) ------------------------------
+### Icons: all images should be inside of dir /com.rochade.mg.report/ + img/, see plugin.xml
+
+#### ------------------- ONLY report menus and reports ---------------
+InventoryDG.lbl=Governança de Dados
+
+DG_RBG.lbl=Glossário
+DG_RBG.tip=Relatórios de glossário
+
+DG_RBG_RoleSum.lbl=Sumário de Perfil
+DG_RBG_RoleSum.tip=Relatório de Sumário de Perfil
+
+DG_RBG_TermPhysicSum.lbl=Sumário de Uso Físico do Termo
+DG_RBG_TermPhysicSum.tip=Relatório de Sumário de Uso Físico do Termo
+
+DG_RBG_TermSummary.lbl=Resumo do Termo
+DG_RBG_TermSummary.tip=Relatório de Resumo do Termo
+
+DG_RBG_TermDuplComp.lbl=Comparação de Termo Duplicado
+DG_RBG_TermDuplComp.tip=Relatório de Comparação de Termo Duplicado
+
+DG_RBG_TermSummaryDetail.lbl=Detalhe de Resumo de Termo
+DG_RBG_TermSummaryDetail.tip=Relatório de Detalhe de Sumário de Termo
+
+DG_RBG_TermAudit.lbl=Auditoria de Termo
+DG_RBG_TermAudit.tip=Relatório de Auditoria de Termo
+
+mgTUS.lbl=Glossário da Utilização da Equipe de Governança
+mgTUS.tip=Relatório de utilização da equipe de governança de glossário
+
+ImpactAnalysisOverviewBG.lbl=Visão Geral da Análise de Impacto (Glossário)
+ImpactAnalysisOverviewBG.tip=Relatório da Visão Geral da Análise de Impacto para Glossário Comercial
+
+mgDG_Utilization.lbl=Utilização do Glossário
+mgDG_Utilization.tip=Relatório de utilização do glossário
+
+mgDG_TermsWithLikes.lbl=Sumário de Curtidas nos Glossários
+mgDG_TermsWithLikes.tip=Sumário de Curtidas nos Glossários
+
+mgDG_TermsWithLikes.lblTitle=Sumário de Curtidas nos Glossários
+mgDG_TermsWithLikes.lblGlossary=Glossário
+mgDG_TermsWithLikes.lblContext=Governado por
+mgDG_TermsWithLikes.lblType=Curtir para
+mgDG_TermsWithLikes.lblName=Nome
+mgDG_TermsWithLikes.lblCount=Número de Curtidas
+mgDG_TermsWithLikes.lblTotalLikes=Número de Curtidas
+mgDG_TermsWithLikes.lblTotalItems=Número de Itens Comercial
+mgDG_TermsWithLikes.lblSum=Somatória de Curtidas
+
+#### ------------------- displays ---------------
+displmgDG_RoleSum_Title=Sumário de Perfil
+displmgDG_TermPhysicSum_Title=Sumário de Uso Físico do Termo
+displmgDG_TermSum_Glo_Title=Sumário de Termo por Glossário
+displmgDG_TermAudit_Title=Auditoria de Termo
+displmgDG_TermSummaryDetail_Title=Detalhe de Resumo de Termo
+displmgDGUtilizationTitle=Sumário do Glossário da Utilização
+displModifier=Modificador
+displModificationCount=Número de Modificações
+displModificationCountTotal=Número total de modificações
+displModificationComment=Razões de Modificação
+
+mgDG_role.Author=Autor
+mgDG_role.Approver=Aprovador

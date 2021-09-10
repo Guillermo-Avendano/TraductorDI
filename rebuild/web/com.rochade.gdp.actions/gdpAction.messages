@@ -1,0 +1,78 @@
+﻿#-------------------------------------------------------
+# gdpr - Message file
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+### Icons: all images should be inside of dir /com.rochade.gdp.actions/ + img/, see plugin.xml
+
+GDP_ListPIs.img=
+GDP_ListPIs.lbl=Personal Information
+GDP_ListPIs.tip=List Personal Information
+GDP_ListPIStructures.img=
+GDP_ListPIStructures.lbl=PI Structures
+GDP_ListPIStructures.tip=List PI Structures
+GDP_ListPIForContext.img=
+GDP_ListPIForContext.lbl=List Personal Information
+GDP_ListPIForContext.tip=List Personal Information
+GDP_ListPIStructureForContext.img=
+GDP_ListPIStructureForContext.lbl=List PI Structures
+GDP_ListPIStructureForContext.tip=List PI Structures
+GDP_ImplementationAndCascade.img=
+GDP_ImplementationAndCascade.lbl=Implementation & Cascade
+GDP_ImplementationAndCascade.tip=List implementation and cascade information
+
+GDP_CascadePI.lbl=Cascade
+GDP_CascadePI.tip=Cascades the Personal Information along the metadata lineage 
+GDP_CascadePI.img=16x16_cascadePI.png
+
+GDP_CascadePI.title=Cascade Personal Information
+GDP_CascadePI.inProgress=Cascading Personal Information... 
+GDP_CascadePI.finished=Cascading Personal Information finished successfully.\nPlease review the results in the Implementation & Cascade tab.
+GDP_CascadePI.error.exception=An error occurred. Please see logs for details.
+GDP_CascadePI.error.invalidCascadeFilter=The Cascade filter contains an invalid SDCAC expression.
+
+GDP_CreatePIAforAppl.lbl=Create Privacy Assessment
+GDP_CreatePIAforAppl.tip=Create Privacy Impact Assessment 
+GDP_CreatePIAforAppl.img=OA05-new.gif
+
+GDP_StartExternalPIAnalyzerServices.lbl=Start External PI Analyzer
+GDP_StartExternalPIAnalyzerServices.tip=Start External PI Analyzer
+GDP_StartExternalPIAnalyzerServices.img=
+
+GDP_StartExternalPIAnalyzerServices.dialog.title=Calling External PI Analyzer
+GDP_StartExternalPIAnalyzerServices.wsCall.success=Successful
+GDP_StartExternalPIAnalyzerServices.wsCall.error.status=Error ({0} {1})
+GDP_StartExternalPIAnalyzerServices.wsCall.error.noStatus=Error (see log file for more information)
+GDP_StartExternalPIAnalyzerServices.wsCall.skipped.previousError=Skipped (due to previous errors)
+GDP_StartExternalPIAnalyzerServices.wsCall.ignored.noConfig=Ignored (due to missing configuration)
+
+GDP_CascadeOrganize.img=16x16_organize.png
+GDP_CascadeOrganize.lbl=Organize
+GDP_CascadeOrganize.tip=Organize cascaded items
+GDP_CascadeIgnore.lbl=Ignore
+GDP_CascadeIgnore.tip=Ignore items
+GDP_CascadeVerify.lbl=Verify
+GDP_CascadeVerify.tip=Verify items
+GDP_CascadeUndoVerify.lbl=Undo Verify
+GDP_CascadeUndoVerify.tip=Undo verification of items 
+GDP_CascadeDelete.lbl=Delete
+GDP_CascadeDelete.tip=Delete item links that have been added
+GDP_CascadeRegard.lbl=Regard
+GDP_CascadeRegard.tip=Regard items that have been ignored
+
+GDP_CascadeCounter.lbl=({0})
+GDP_CascadeCounter.tip=(selected items: {0})
+
+CascadeActionRenderer.title=Adjust Cascade to
+CascadeActionRendererDelete1.msg=Are you sure to remove the selected item from the link attribute?
+CascadeActionRendererDeleteN.msg=Are you sure to remove the selected {0} items from the link attribute?
+CascadeActionRenderer.noItemsToDelete=No items found to be deleted. Only items with status Added can be deleted.
+CascadeActionRenderer.noItemsToIgnore=No items found to be ignored. Only items with status Scanned or Verified can be ignored.
+CascadeActionRenderer.noItemsToRegard=No items found to be regarded. Only items with status Scanned or Verified can be regarded.
+CascadeActionRenderer.noItemsToVerify=No items found to be verified. Only items with status Scanned can be verified.
+CascadeActionRenderer.noItemsToUnverify=No items found to undo verification for. Only items with status Verified can be unverified.
+
+GDP_PI-TRACEABILITY.lbl=Traceability
+GDP_PI-TRACEABILITY.tip=Traceability

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page contentType="text/html;charset=UTF-8"?>
+<?taglib uri="http://www.zkoss.org/dsp/web/core" prefix="c" ?>
+<!-- 
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+<window border="none" apply="com.rochade.wa.ui.debug.UIPermissionsComposer" sclass="asg-debug-ui-permissions">
+	<hbox id="header" style="padding:5px;" width="100%" widths="60%,20%,20%">
+	 		 <div id="headerTitle" width="100%"/>
+			 <hbox width="100%" pack="end"><label id="laRoles"/> <label value="${wtb:l('Debug.uiroles')}"/></hbox>
+			 <hbox width="100%" pack="end"><label id="laCount"/> <label value="${wtb:l('Debug.uipermissions')}"/></hbox>
+	</hbox>
+    <div width="100%" vflex="1">
+		 <listbox id="lbRoles" vflex="1">
+			<listhead id="lbHeadRoles" sizable="true">
+				<listheader label="${wtb:l('Debug.roles')}"/>
+	 		</listhead>
+	 	 </listbox>
+	 	 <div height="3px"/>
+	 	 <listbox id="lbUIPerm" vflex="2">
+			<listhead id="lbHead" sizable="true">
+				<listheader label="${wtb:l('Debug.uipermname')}"/>
+	 			<listheader label="${wtb:l('Debug.value')}"/>
+	 		</listhead>
+	 	 </listbox>
+ 	 </div>
+</window>

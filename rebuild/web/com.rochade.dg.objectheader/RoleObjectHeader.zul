@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="Object Header" contentType="text/html;charset=UTF-8"?>
+<!--
+	@author GC 07/08/2015, created
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+-->
+<!--
+<hbox>
+	<vbox>
+		<hbox align="center" apply="com.rochade.dg.objectheader.RoleObjectHeaderComposer" style="padding: 5px 5px 0px 5px;">
+			<div id="divname" sclass="asg-itemname-label" />
+			<separator width="3px" />
+			<label id="ltype" sclass="asg-itemtype-label" />
+		</hbox>
+	</vbox>
+</hbox>
+ -->
+ <div><div style="float:none">
+	<div id="divItemSpec" sclass="asg-objectheader-itemspec" apply="com.rochade.dg.objectheader.RoleObjectHeaderComposer" />
+ </div></div>

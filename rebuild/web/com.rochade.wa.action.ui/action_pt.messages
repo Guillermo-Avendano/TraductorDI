@@ -1,0 +1,338 @@
+﻿#-------------------------------------------------------														
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#------------------------------ Action Definition ------------------------------
+### Icons: all images should be inside of dir /com.rochade.wa.action.ui/ + img/, see plugin.xml
+#extra icons
+### END Icons
+
+WTB_OpenTabView.lbl=Abrir Aba de Visualização
+WTB_OpenTabView.tip=Abrir Aba de Visualização
+WTB_OpenSummaryView.lbl=Abrir Visão Resumo
+WTB_OpenSummaryView.tip=Abrir Visão Resumo
+WTB_OpenItem.lbl=Abrir
+WTB_OpenItem.tip=Abrir Item
+WTB_OpenSummary.lbl=Abrir Resumo
+WTB_OpenSummary.tip=Abrir Resumo
+WTB_BrowseItem.lbl=Navegar
+WTB_BrowseItem.tip=Navegar Item
+WTB_NewItem.lbl=Novo
+WTB_NewItem.tip=Novo Item
+WTB_Manage.lbl=Criar
+WTB_Manage.tip=Criar Itens
+WTB_DeleteItem.lbl=Apagar
+WTB_DeleteItem.tip=Deletar Itens
+WTB_CopyItem.lbl=Copiar...
+WTB_CopyItem.tip=Copiar Itens
+WTB_RenameItem.lbl=Renomear
+WTB_RenameItem.tip=Renomear Item
+#WTB_CopyItemToNS.lbl=Copiar para Namespaces...
+#WTB_CopyItemToNS.tip=Copiar Itens para o Namespace
+#WTB_MoveItemToNS.lbl=Mover para o conjunto de nomes...
+#WTB_MoveItemToNS.tip=Mover Itens para o Namespace
+MWTB_Env.lbl=Navegação
+MWTB_Env.tip=Navegação
+WTB_EnvSelect.lbl=Selecionar...
+WTB_EnvSelect.tip=Selecionar Consulta de Ambiente...
+WTB_EnvContext.lbl=Contexto
+WTB_EnvContext.tip=Contexto de Ambiente do Item
+WTB_EnvRef.lbl=Referências
+WTB_EnvRef.tip=Referências de Ambiente do Item
+WTB_EnvRefAndUsages.lbl=Referências e Usos
+WTB_EnvRefAndUsages.tip=Referências e Usos do Ambiente do Item
+WTB_EnvUsages.lbl=Usos
+WTB_EnvUsages.tip=Usos do Ambiente do Item
+#MWTB_PathQuery.lbl=Consulta de Caminho
+#MWTB_PathQuery.tip=Consulta de Caminho
+#WTB_PathQueryCompute.lbl=Calcular...
+#WTB_PathQueryCompute.tip=Calcular Caminho de Consulta...
+#WTB_PathQuerySelect.lbl=Selecionar...
+#WTB_PathQuerySelect.tip=Selecione o caminho da Consulta...
+WTB_Switch2View.lbl=Visão
+WTB_Switch2View.tip=Exibir Itens em outra Visualização
+WTB_Switch2Tree.lbl=Árvore
+WTB_Switch2Tree.tip=Exibir Itens em Árvore
+#WTB_Switch2Diagram.lbl=Diagrama
+WTB_Switch2Diagram.lbl=Diagrama Técnico
+#WTB_Switch2Diagram.tip=Mostrar Itens no Diagrama
+WTB_Switch2Diagram.tip=Mostrar Itens no Diagrama Técnico
+WTB_Switch2Table.lbl=Tabela
+WTB_Switch2Table.tip=Exibir Itens em Tabela
+#WTB_ShowTreeTable.lbl=Árvore de Tabela
+#WTB_ShowTreeTable.tip=Mostrar Itens na árvore da Tabela
+MWTB_Format.lbl=Formatar como
+MWTB_Format.tip=Formatar Itens como
+WTB_FormatPDF.lbl=Exportar Tabela para PDF
+WTB_FormatPDF.tip=Exportar Tabela para PDF
+WTB_FormatPDFSummary.lbl=Exportar Resumos para PDF
+WTB_FormatPDFSummary.tip=Exportar Resumos para PDF
+WTB_FormatHTM.lbl=Exportar Tabela para HTML
+WTB_FormatHTM.tip=Exportar Tabela para HTML
+WTB_FormatXLS.lbl=Exportar Tabela para Excel
+WTB_FormatXLS.tip=Exportar Tabela para Excel
+WTB_ExportXLSX.lbl=Exportar Conteúdo para Excel
+WTB_ExportXLSX.tip=Exportar Conteúdo para Excel
+WTB_ResultSet_Export_XLS.lbl=Exportar Dados para o Excel
+WTB_ResultSet_Export_XLS.tip=Exportar Dados para o Excel
+WTB_ChartDynamic.lbl=Gráfico por Coluna
+WTB_ChartDynamic.tip=Gráfico por Conteúdo da Coluna
+#WTB_ItemVersion.lbl=Versão do Item
+#WTB_ItemVersion.tip=Versão do Item
+#WTB_CompareItems.lbl=Compare os Itens...
+#WTB_CompareItems.tip=Compare os Itens...
+#WTB_CompareItemVersions.lbl=Compare as versões dos Itens...
+#WTB_CompareItemVersions.tip=Compare as versões dos Itens...
+#MWTB_CtxQuery.lbl=Consulta de Contexto
+#MWTB_CtxQuery.tip=Consulta de Contexto
+#WTB_CtxQuerySelect.lbl=Selecionar...
+#WTB_CtxQuerySelect.tip=Selecione a pesquisa de Contexto...
+WTB_ChangeScope.lbl=Alterar Escopo
+WTB_ChangeScope.tip=Alterar Escopo (Ctrl+S)
+WTB_SelectAll.lbl=selecionar tudo
+WTB_SelectAll.tip=Selecionar Todos os Itens (Ctrl+A)
+WTB_DeselectAll.lbl=Desselecionar Tudo
+WTB_DeselectAll.tip=Desmarcar Todos os Itens (Ctrl+D)
+WTB_ResetAllTraces.lbl=Redefine traços
+WTB_ResetAllTraces.tip=Redefinir todos os traços
+WTB_InvertSelection.lbl=Inverter Seleção
+WTB_InvertSelection.tip=Inverter Seleção (Ctrl+I)
+WTB_ShowColumns.lbl=Colunas
+WTB_ShowColumns.tip=Exibir Colunas
+WTB_OpenSA.lbl=Abrir SA
+WTB_OpenSA.tip=Abrir SA
+WTB_CloseSA.lbl=Fechar SA
+WTB_CloseSA.tip=Fechar SA
+MWTB_AdvanceQuery.lbl=Consulta Avançada
+MWTB_AdvanceQuery.tip=Consulta Avançada
+WTB_AdvanceQueryEdit.lbl=Editar...
+WTB_AdvanceQueryEdit.tip=Editar Consulta Avançada...
+WTB_AdvanceQuerySelect.lbl=Selecionar...
+WTB_AdvanceQuerySelect.tip=Selecionar Consulta Avançada...
+WTB_ShowSearch.lbl=Pesquisar por Itens
+WTB_ShowSearch.tip=Pesquisar por Itens
+WTB_InventorySelect.lbl=Inventário
+WTB_InventorySelect.tip=Inventário...
+MWTB_EntryQuery.lbl=Consulta de Entrada
+MWTB_EntryQuery.tip=Consulta de Entrada
+WTB_EntryQuerySelect.lbl=Selecionar...
+WTB_EntryQuerySelect.tip=Seleção de Consulta de Entrada...
+WTB_MHelp.lbl=Ajuda
+WTB_MHelp.tip=Ajuda
+WTB_MWindow.lbl=Janela
+WTB_MWindow.tip=Janela
+WTB_Refresh.lbl=Atualizar
+WTB_Refresh.tip=Atualizar Visão
+WTB_RefreshNow.lbl=Atualizar
+WTB_RefreshNow.tip=Atualizar
+#WTB_ChangeMode.lbl=Alterna para o modo Editar
+#WTB_ChangeMode.tip=Alterna de tabela para o modo Editar
+#WTB_TableSave.lbl=Gravar Visão tabela
+#WTB_TableSave.tip=Grava a Visão tabela
+#WTB_TableCancel.lbl=Retorna ao modo de leitura
+#WTB_TableCancel.tip=Cancela as modificações e retorna a tabela para o modo de leitura
+WTB_WF_Governance.lbl=Submeter
+WTB_WF_Governance.tip=Submeter
+WTB_WF_StartProcess.lbl=Iniciar Processo de Fluxo de Trabalho
+WTB_WF_StartProcess.tip=Iniciar Processo de Fluxo de Trabalho
+WTB_WF_Submit.lbl=Submeter
+WTB_WF_Submit.tip=Submeter
+WTB_WF_ItemVersionSwitch.lbl=Exibir Aprovados
+WTB_WF_ItemVersionSwitch.tip=Alterar Versão
+WTB_WF_ItemVersionSwitch.lbl.appr=Exibir aprovados
+WTB_WF_ItemVersionSwitch.lbl.inw=Exibir em Processo
+#WTB_WF_Rollback.lbl=Desfazer
+#WTB_WF_Rollback.tip=Desfazer
+WTB_Editor_Create.lbl=Criar
+WTB_Editor_Create.tip=Criar Item
+WTB_Editor_Save.lbl=Gravar
+WTB_Editor_Save.tip=Gravar
+WTB_Editor_SaveExit.lbl=Gravar & Sair
+WTB_Editor_SaveExit.tip=Gravar & Sair
+WTB_Editor_Edit.lbl=Editar
+WTB_Editor_Edit.tip=Editar
+WTB_Editor_Exit.lbl=Sair
+WTB_Editor_Exit.tip=Sair
+WTB_Editor_Refresh.lbl=Atualizar
+WTB_Editor_Refresh.tip=Atualizar
+WTB_Editor_Delete.lbl=Apagar
+WTB_Editor_Delete.tip=Apagar
+WTB_CommonExport.lbl=Exportar Tabela
+WTB_CommonExport.tip=Exportar Tabela
+WTB_Editor_Share.lbl=Publicar
+WTB_Editor_Share.tip=Publicar
+WTB_Editor_Export_PDF.lbl=Exportar para PDF
+WTB_Editor_Export_PDF.tip=Exportar para PDF
+WTB_Editor_AddMetaNotes.lbl=Adicionar Metanote
+WTB_Editor_AddMetaNotes.tip=Adicionar Metanote
+WTB_Editor_Theme.lbl=Modelo
+WTB_Editor_Theme.tip=Modelo
+WTB_Editor_Theme_Shadow.lbl=Retrato
+WTB_Editor_Theme_Shadow.tip=Retrato
+WTB_Editor_Theme_Landscape.lbl=Paisagem
+WTB_Editor_Theme_Landscape.tip=Paisagem
+WTB_Editor_Theme_Fullsize.lbl=Tela Cheia
+WTB_Editor_Theme_Fullsize.tip=Tela Cheia
+WTB_Editor_ShowWarnings.lbl=Exibir Avisos
+WTB_Editor_ShowWarnings.tip=Exibir Avisos
+WTB_Diagram_Options.lbl=Opções de Diagrama
+WTB_Diagram_Options.tip=Opções de Diagrama
+WTB_Diagram_Export.lbl=Exportar Diagrama
+WTB_Diagram_Export.tip=Exportar Diagrama
+WTB_Diagram_Export.noimage=Nenhum Diagrama foi gerado.
+WTB_NavCollapseAll.lbl=Reduzir Tudo
+WTB_NavCollapseAll.tip=Reduzir Tudo
+WTB_NavRefresh.lbl=Atualizar
+WTB_NavRefresh.tip=Atualizar
+############# SendURL Action ##############
+WTB_SendUrl.lbl=Enviar URL
+WTB_SendUrl.tip=Enviar URL
+WTB_SendUrl.sorry=Não foi possível reproduzir uma URL para esta página; depende de entrada interativa ou um certo estado de aplicação.
+############# Favorites Action ##############
+WTB_AddFavorites.lbl=Adicionar a Favoritos
+WTB_AddFavorites.tip=Adicionar a Favoritos
+WTB_AddFavorites.sorry=Não foi possível adicionar esta página aos favoritos; depende de entrada interativa ou um certo estado de aplicação.
+WTB_TreeExpand.lbl=Expandir Tudo
+WTB_TreeExpand.tip=Expandir Tudo
+WTB_TreeCollapse.lbl=Reduzir Tudo
+WTB_TreeCollapse.tip=Reduzir Tudo
+WTB_Editor_Context.lbl=Navegação
+WTB_Editor_Context.tip=Navegação
+############# Special actions #############
+WTB_Filter.lbl=Filtro:
+WTB_Filter.tip=Filtro
+WTB_Filter.noautosuggest=Autossugestão foi desabilitada para este resultado de pesquisa, porque o resultado excede o número de itens suportado pela funcionalidade de autossugestão.
+WTB_Filter.nofilter=A Filtragem foi desabilitada para este resultado de pesquisa porque o resultado excede o número de itens suportados pela função de filtro.
+WTB_Filter.filterlimitHeader=A Filtragem pode levar um tempo considerável
+WTB_Filter.filterlimit=Devido ao grande número de itens, classificar o conteúdo da coluna pode demorar muito tempo ao ser aplicado pela primeira vez nesta visualização.\nVocê deseja continuar?
+WTB_Filter.filterlimitEstimation=\nA classificação requer aproximadamente {0} segundos.
+WTB_Zoom.lbl=Zoom:
+WTB_Zoom.tip=Zoom
+WTB_MPathMask.lbl=Máscara:
+WTB_MPathMask.tip=Máscara
+WTB_MPathDepth.lbl=Profundidade:
+WTB_MPathDepth.tip=Profundidade
+WTB_MPathDepth.hops=Saltos:
+WTB_MPathDepth.hops.low=baixo
+WTB_MPathDepth.hops.medium=Médio
+WTB_MPathDepth.hops.high=Alto
+WTB_FilterByListQuery.lbl=Filtro:
+WTB_FilterByListQuery.tip=Filtro:
+WTB_SelectByName.lbl=Selecionar:
+WTB_SelectByName.tip=Selecionar
+WTB_FilterByName.lbl=Filtro:
+WTB_FilterByName.tip=Filtro
+WTB_SwitchView.lbl=Visão:
+WTB_SwitchView.tip=Visão
+WTB_SwitchView.ItemTree=Árvore
+WTB_SwitchView.ItemDiagram=Diagrama
+WTB_SwitchView.DWHDiagram=Diagrama DWH
+WTB_SwitchView.DQADiagram=Diagrama DWH com Métrica DQ
+WTB_SwitchView.GDPDiagram=Diagrama DWH com Informação Pessoal
+WTB_SwitchView.CMPDiagram=Comparar Diagrama DWH
+WTB_SwitchContextGroup.lbl=Nível:
+WTB_SwitchContextGroup.tip=Alterar Nível
+WTB_Report.lbl=Relatório
+WTB_Report.tip=Relatório
+WTB_Expand.lbl=Tela Cheia
+WTB_Expand.tip=Tela Cheia
+WTB_Collapse.lbl=Embutido
+WTB_Collapse.tip=Embutido
+# Who uses these?
+#WTB_Continue.lbl=Continuar Consulta
+#WTB_Continue.tip=Continuar Consulta
+#WTB_Loadall.lbl=Carrega todos
+#WTB_Loadall.tip=Carrega todos
+#WTB_AssocFilter.lbl=Adicionar/Remover Associação de Filtros
+#WTB_AssocFilter.tip=Adicionar/Remover Associação de Filtros
+
+############# Default actions #############
+WTB_Default_OpenItem.lbl=Abrir Item
+WTB_Default_OpenItem.tip=Abrir Item
+WTB_Default_OpenItemSummary.lbl=Abrir Resumo
+WTB_Default_OpenItemSummary.tip=Abrir Resumo
+WTB_Default_OpenType.lbl=Abrir Tipo
+WTB_Default_OpenType.tip=Abrir Tipo
+WTB_Default_OpenSubjectArea.lbl=Abrir Subject Area
+WTB_Default_OpenSubjectArea.tip=Abrir Subject Area
+#WTB_DeleteItemOld.lbl=Deletar Item
+#WTB_DeleteItemOld.tip=Deletar Item
+
+#------------------------------ non Action Definition ------------------------------
+############# title #############
+#title.copy=Copiando Item...
+title.new=Criar
+title.delete=Apagar
+title.rename=Renomear
+#title.copy.ns=Copiando Itens para Namespace...
+#title.move.ns=Mover itens para o conjunto de nomes...
+
+############# Export Actions ##############
+title.export=Exportando dados...
+warn.big.data=Os dados a serem exportados excedem o limite de exportação: {0}.\nEste processo pode levar algum tempo. Você quer continuar?
+warn.big.data.summary=Os dados a serem exportados como exibição de resumo excedem o limite de exportação: {0}.\nEste processo pode levar algum tempo. Você quer continuar?
+selected.export.footer=Itens selecionados: {0}
+err.parseCompToXML=Erro em parseComponentToXML
+err.parseRichText=Erro em parseRichText
+err.resolveURL=Erro em resolveURL
+err.exportTableToHtml=Erro em exportTableToHtml
+err.exportTableToPdf=Erro em exportTableToPdf
+err.exportTableToXls=Erro em exportTableToXls
+err.export.empty=Não há dados para serem exportados.
+msg.pdf.summary=-Resumo
+msg.pdf.tab=-Aba
+ExportResultSetToExcel.name=Nome
+ExportResultSetToExcel.type=Tipo
+ExportResultSetToExcel.level=Nível
+ExportResultSetToExcel.qname=Nome Qualificado
+ExportResultSetToExcel.lvl=- Lvl
+ExportResultSetToExcel.line=Linha #
+ExportResultSetToExcel.attr=Atributo de Vínculo
+ExportResultSetToExcel.info=Qualificador do link
+
+############# BaseParamAction ##############
+header.of=de
+
+############# CRUD Action ##############
+msg.delete.item.failure=Não é possível apagar o item.
+#msg.delete.item.success=Itens excluídos com sucesso.
+msg.delete.item.conf=Tem certeza que deseja apagar o item?
+msg.delete.item.cancel=O item está bloqueado; operação cancelada.
+msg.delete.item.hasChildren=O item ainda tem filhos.  Por favor apagar os filhos primeiro.
+
+############# General ##################
+msg.error.noview=Sem referência a qualquer Visualização
+WTB_Popup_SubMenu_Columns_Languages=(outros idiomas)
+err.no.impl.found=Nenhuma classe de implementação encontrada para a ação [{0}].
+
+err.open.item.empty=O item não pode ser exibido porque não tem conteúdo.
+err.open.item.notfound=O item não está visível e não pode ser exibido\n(você pode excluir agora).
+err.reportNotFound={0}Nenhum relatório com id [] foi encontrado.
+
+err.lock.item=Erro ao bloquear o item.
+err.lock.items=Erro ao bloquear os itens.
+
+############## tag related ######################
+WTB_TagDelete.lbl=Apagar
+WTB_TagDelete.tip=Apagar Rótulos
+WTB_TagRename.lbl=Renomear
+WTB_TagRename.tip=Renomear Rótulos
+WTB_TagAdd.lbl=Adicionar
+WTB_TagAdd.tip=Adicionar um rótulo para o(s) Item(ns)
+WTB_TagDrop.lbl=Apagar
+WTB_TagDrop.tip=Apagar rótulo do item
+WTB_TaggedItems.lbl=Lista Itens marcados
+WTB_TaggedItems.tip=Lista itens que usam o rótulo selecionado
+WTB_ListTaggedItems.lbl=Lista Itens marcados
+WTB_ListTaggedItems.tip=Lista itens que usam um rótulo selecionado
+
+############## fullscreen mode related ######################
+ExpandableWindow.ParentNotFound=Não é possível encontrar o container pai do tipo "Window" para esta ação.
+ExpandableWindow.WindowIsNull=Janela está nula.
+
+seedItemsAreLimited=Você selecionou {0} items, devido ao limite de consulta, esta pesquisa só pode ser processada com no máximo {1} de itens iniciais.
+seedItemsAreLimitedBrowser=Você selecionou {0} items, entretanto, para o nvegador atual, esta consulta pode ser processada com no máximo {1} de itens iniciais.

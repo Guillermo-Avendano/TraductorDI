@@ -1,0 +1,71 @@
+﻿# Rochade Business Package - Message file
+# This is an UTF-8 endcoded file!
+#
+#  Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+BP_CreateBusinessContextInRoot.lbl=Nuevo Contexto
+BP_CreateBusinessContextInRoot.tip=Nuevo Contexto
+
+BP_ListBusinessItems.lbl=Lista de Ítems de Negocios
+BP_ListBusinessItems.tip=Lista de Ítems de Negocios
+
+BP_NewBusinessItem.lbl=Nuevo Ítem de Negocios
+BP_NewBusinessItem.tip=Nuevo Ítem de Negocios
+
+BP_ListBusinessContext.lbl=Lista de Contextos de Negocio
+BP_ListBusinessContext.tip=Lista de Contextos de Negocio
+
+BP_NewBusinessContext.lbl=Nuevo Contexto de Negocios
+BP_NewBusinessContext.tip=Nuevo Contexto de Negocios
+
+BP_SingleClick_ListBusinessItem.lbl=Lista de Ítems de Negocios
+BP_SingleClick_ListBusinessItem.tip=Lista de Ítems de Negocios
+
+BP_CDE-DIAGRAM.lbl=Trazabilidad
+BP_CDE-DIAGRAM.tip=Trazabilidad
+
+BP_MyBusinessItem.lbl=Mis Ítems de Negocios
+BP_MyBusinessItem.tip=Mis Ítems de Negocios
+
+BP_BusinessItemInProcess.lbl=Ítems de Negocios en Proceso
+BP_BusinessItemInProcess.tip=Ítems de Negocios en Proceso
+
+BP_Editor_CreateBI.lbl=Crear
+BP_Editor_CreateBI.tip=Crear Ítem de Negocios
+
+BP_Editor_CreateBC.lbl=Crear
+BP_Editor_CreateBC.tip=Crear Contexto de Negocios
+
+BP_Delete_BI.lbl=Borrar
+BP_Delete_BI.tip=Borrar
+
+BPA_UserAdministration.creationFailed.message=Falló Inicialización de Administración de Usuario
+BPA_UserAdministration.creationFailed.title=Inicialización de Administración del Usuario
+BPA_UserAdmininistration.InitializationError=Error durante la inicialización de administración del usuario del Contexto de Negocios
+
+BP_Delete_BI.messagebox.remove.text=Seguro quiere eliminar el Término?
+BP_Delete_BI.messagebox.remove.title=Borrar Ítem de Negocios
+BP_Delete_BI.errdel=Error borrando Ítem de Negocios
+
+BP_Delete_BC.lbl=Borrar
+BP_Delete_BC.tip=Borrar
+
+BP_Error_DuringDeletionOfRelatedTasks=Error borrando tareas relacionadas
+BP_Error_DuringCreatingHistory=Error creando el histórico
+
+BP_DemoOrganize.lbl=Organizar
+BP_DemoOrganize.tip=Organizar
+
+EditorWarnings.cannotBeAfter=No puede ser después
+
+BP_Editor_StartProfiling.lbl=Verificar reglas del perfil de metadatos
+BP_Editor_StartProfiling.tip=Verificar reglas del perfil de metadatos
+
+BP_DisplayBusinessMetaData.lbl=Business Information
+BP_DisplayBusinessMetaData.tip=Display Business Information
+
+GDP_CreatePIAforApplGlossaryFilter.lbl=Glosario
+GDP_CreatePIAforApplGlossaryFilter.tip=Glosario
+GDP_CreatePIAforApplGlossaryFilter.All.lbl=Todo

@@ -1,0 +1,22 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.wa.ui.navigator
+#
+Tree.loading=Error while loading the navigation tree {0}: {1}. 
+Tree.queries.opening=Reading {0}.
+Tree.queries.notfound=Resource {0} not found.
+Tree.queries.key.syntaxerr=Syntax error in key: [{0}].
+Tree.queries.value.syntaxerr=Syntax error in value: [{0}].
+Tree.query.notfound=Query Definition {0} not found. 
+Tree.query.err=Error while executing query {0}: {1}. 
+
+Tree.exec.query1=Executing (1st) query [{0}]
+Tree.exec.query2=Executing (2nd) init query [{0}]
+Tree.exec.query3=Executing (3rd) expand query [{0}]

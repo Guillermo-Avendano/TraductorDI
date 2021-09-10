@@ -1,0 +1,18 @@
+﻿# Rochade Platform - Message file
+# This is an UTF-8 (with BOM) encoded file!
+# 
+#------------------------------ Action Definition ------------------------------ 
+### Icons: all images should be inside of dir /com.rochade.rir.actions/ + img/, see plugin.xml
+
+SwitchSearchLayout.lbl=Buscar Diseño
+SwitchSearchLayout.tip=Intercambiar Diseños de Búsqueda
+SwitchSearchLayout_Html.lbl=HTML Layout
+SwitchSearchLayout_Html.tip=Cambiar a la búsqueda de diseños HTML
+SwitchSearchLayout_Default.lbl=Diseño de tabla
+SwitchSearchLayout_Default.tip=Cambiar a la búsqueda de diseños de Tabla
+ShowSearchColumns.lbl=Columnas
+ShowSearchColumns.tip=Mostrar Columnas de Búsqueda
+
+### Images
+
+### END Icons

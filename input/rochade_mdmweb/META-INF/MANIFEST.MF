@@ -1,0 +1,844 @@
+Manifest-Version: 1.0
+Implementation-Title: com.rochade.ref.rochade_mdmweb
+Legal-TradeMarks: ASG-Rochade ® is a registered trademark of ASG GmbH
+  & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc.
+Implementation-Version: 9.92.001-1303
+Specification-Vendor: ASG GmbH & Co. KG, a wholly owned subsidiary of 
+ ASG Technologies Group, Inc.
+Gradle-Version: 4.10.2
+Created-By: 1.8.0_144
+Copyright: Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned s
+ ubsidiary of ASG Technologies Group, Inc. All rights reserved.
+Build-date: 20210521154507+0200
+Implementation-Vendor: ASG GmbH & Co. KG, a wholly owned subsidiary of
+  ASG Technologies Group, Inc.
+Build-number: 1303
+Specification-Title: ASG-Rochade ® metaRDM (REF)
+Specification-Version: 9.92.001
+
+Name: web/com.rochade.mdm.comp.tablegrid/FilterByPeriodWindow.zul
+SHA-256-Digest: CpM3z2BWwO9JKfZ4NJuraRGxpM3IZQtXkChwKmppTdM=
+
+Name: web/com.rochade.mdm.drilldown/img/02_search16x16.png
+SHA-256-Digest: sj0OlyKjDCz1B1NpfJIv7K0vPHuoh6dwmEMfesPSAMA=
+
+Name: web/com.rochade.mdm.comp.duplicate/DuplicateItem.zul
+SHA-256-Digest: sZDY+l3Fr1k6ZO1FXMiKWAnXTMvXFo+y1l7oOi0lrtE=
+
+Name: web/com.rochade.mdm.comp.tablegrid.menu/SelectValueDomainMenu.zu
+ l
+SHA-256-Digest: a/UYkLOj05CzsvmOQ3z3TrhQgrZ/jK45ibScWU8+K+U=
+
+Name: web/img/16x16_ItemTypes_context.png
+SHA-256-Digest: hBKWNHMqnGVZ4d0+8eVp+tJDGJIQD2jt04Nj8+W5Mxk=
+
+Name: web/com.rochade.mdm.navigator/img/24x24_camera.png
+SHA-256-Digest: DNM1HACM3NJPqKDM+7HRjjm/mG6yaMDL4cPb+NsXyMg=
+
+Name: web/com.rochade.mdm.drilldown/img/24x24_search_level_H.png
+SHA-256-Digest: V6B7ErL0i6BX/znaZ1Qwpn0VonV0qeFffjTNDLkwqxQ=
+
+Name: web/com.rochade.mdm.objectcontent/MDM_Context_GeneralTab.zul
+SHA-256-Digest: ftC8TF+2fiVJ6pOTz9H0MwCVNGwgbZXVdHqKaXY8EZQ=
+
+Name: web/com.rochade.mdm.editor.editormenu/EditorMenuExtColumn_ref.zu
+ l
+SHA-256-Digest: QK7BwgjuLJOPV3nt3L4YyHVHPYrqo7EGMOXWgpIjkh8=
+
+Name: web/com.rochade.mdm.actions/img/16x16_c_domain.png
+SHA-256-Digest: Bs3zKx8Th+Bzpz1GGz4BE8bIfjeHsh/hoH1PrmPsECM=
+
+Name: web/com.rochade.mdm.workflow/img/TaskReminder16.png
+SHA-256-Digest: dnlv6ckNbOwX+3g+aDsrHSgXezDfUVA4Viw6V0EkqbE=
+
+Name: web/com.rochade.mdm.editor.editormenu/MDMReferenceCollection.zul
+SHA-256-Digest: bDL0X+gS1oIsPBBMVBdoWVnOLLN6HgR2rFhmlv2mcZE=
+
+Name: web/com.rochade.mdm.objectheader/mdmObjectHeader.messages
+SHA-256-Digest: CX2edaTtI/BBFgSc/xiYcmQ6KRnKxAVyXTM+OmiZZZ0=
+
+Name: web/com.rochade.mdm.actions/img/16x16_ItemTypes_dataContext1.png
+SHA-256-Digest: 993slmtNtwIykXQEn0+0kHZ4pNXKVW1cThANv7TKMXE=
+
+Name: web/com.rochade.mdm.objectcontent/MDM_DataConcept_AddBT_Button.z
+ ul
+SHA-256-Digest: xv6/xx9sdIx36k8mJ3pFIeWbi3VA3ix+z6VqmTMwo/A=
+
+Name: web/com.rochade.mdm.drilldown/img/delete16x16.png
+SHA-256-Digest: meXTJpG/45ESILxm0x5Ew2FaIZ5UL+ieJL3TsAlbsoA=
+
+Name: web/com.rochade.mdm.editor.editormenu/MDMDataContext.zul
+SHA-256-Digest: 56u7M5i9Od/2qyoFY+UkLeKHtMbj7typC9xgSSvlQYo=
+
+Name: web/com.rochade.mdm.ctxmenu/MDMPermValuePopup.zul
+SHA-256-Digest: iqYZL5c+ktAc/bsIfscW8kyA7aksdLX9UyFEkNuqy50=
+
+Name: web/com.rochade.mdm.portlet/AnomalyMetrics.zul
+SHA-256-Digest: DbMTPxtoAhwX3P5HTQ8iydSGUEYozNMD840698X0UP8=
+
+Name: web/com.rochade.mdm.drilldown/img/24x24_search_level_C.png
+SHA-256-Digest: ly0q7WL1MQSWnJ7YfWcdICjuN3/SZDGEMqzsP7LZVns=
+
+Name: web/com.rochade.mdm.comp.radiogroup/RadioGroupPropertyView.messa
+ ges
+SHA-256-Digest: 8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=
+
+Name: web/com.rochade.mdm.navigator/img/placeholder_24x24.png
+SHA-256-Digest: xcrHEi8QREOvKfK2J3avDtgiClQySRSQTRFxDQhP2/o=
+
+Name: web/com.rochade.mdm.snapshot/SnapshotComparisonView.zul
+SHA-256-Digest: +YLBBsXy5ABoRlztXJo1Vf6tfOZSXE6BqXozJ9kjjdQ=
+
+Name: web/com.rochade.mdm.drilldown/img/checkered_flag.png
+SHA-256-Digest: YJLDrfp+B3poN9yvCGqcpo8RpPATAJbFwwIt246Cp+w=
+
+Name: web/com.rochade.mdm.actions/img/OA07-copy.gif
+SHA-256-Digest: lSX15f4ZdjHXFe9DJYkT0Rlk4pLgHTrZsx9HNVPTmlo=
+
+Name: web/com.rochade.mdm.actions/img/16x16_item.png
+SHA-256-Digest: 6uUyaFo/z85B1UEUg+8muf/KTR2wyeECztzNk+5WmJ0=
+
+Name: web/com.rochade.mdm.objectcontent/MDM_RMD_ConceptualDomain_Hiera
+ rchyTab.zul
+SHA-256-Digest: PdsCTcoup1ph33uYzgMZesnVuGaW4ZW7kcQA+Xp8J8w=
+
+Name: web/img/16x16_database.png
+SHA-256-Digest: n2RN2/7iDc8HinlobPR0TANzG+RPSQI0H6gNF8Xt7bs=
+
+Name: web/com.rochade.mdm.embqueryparam/EmbQueryParamDrilldown.zul
+SHA-256-Digest: 1x5E5CdmcPjvMX/YUs6xPmlryxrlIu1snbgG6ZqALvU=
+
+Name: web/com.rochade.mdm.comp.tablegrid/tablegrid.messages
+SHA-256-Digest: eazFFMdRmjCMeCYgze1mFMka4aaeXQaSL/ZN3sTVlnQ=
+
+Name: web/com.rochade.mdm.mainmenu/MainMenuMDM.zul
+SHA-256-Digest: PaqCVfoEbBIVdEKdeixLVuk609rCSaM7HIop0hQH8Oc=
+
+Name: web/com.rochade.mdm.comp.referencecollection.configuration/EditR
+ CCnfg.messages
+SHA-256-Digest: rVnyAl1PuB9YGvg0VsRoFZYJsAzo1f66G/gVY00gTsg=
+
+Name: web/img/IconCross.png
+SHA-256-Digest: S/jKB1+9SniQoUs+4CL7IzfL/PbYAImE2s0eCYJ8tHU=
+
+Name: web/com.rochade.mdm.comp.refobjectcontent/RefObjectContent.messa
+ ges
+SHA-256-Digest: aqnDe4d4BGkHrmSVInkA+zpza3nof2lIHKzgm6bcIcI=
+
+Name: web/com.rochade.mdm.comp.tablegrid.menu/MDMTableGridMenu.message
+ s
+SHA-256-Digest: /ZV56YYs/fsFD9OhKTlBPPXkAA160rt+TAFd7hStEDY=
+
+Name: web/com.rochade.mdm.comp.referencecollection.configuration/EditR
+ CHierarchiesCnfg.zul
+SHA-256-Digest: U40c8+YgVYFUKB+Uuqr6SMT3C1LkbUTsOZ5AqVqMAGg=
+
+Name: web/com.rochade.mdm.actions/img/16x16_ItemTypes_glossary.png
+SHA-256-Digest: iJJxe8MSmq1Um3v91ThKaqwuO2edrVVujmQavsBc0Qg=
+
+Name: web/com.rochade.mdm.objectcontent/MDM_BusinessTerm_GeneralTab.zu
+ l
+SHA-256-Digest: UOYg3JPM5Pvkapg+1AkCy4D7Mvb/Di5wB8u3iSooibQ=
+
+Name: web/com.rochade.mdm.workflow/TaskDialog.zul
+SHA-256-Digest: a7gSU11UX4q/nbuUC4Zyn+FLJT4YKS8NgtD54yMl26k=
+
+Name: web/com.rochade.mdm.objectcontent/MDM_DataContext_GeneralTab.zul
+SHA-256-Digest: R5R5aE9ojK+NHo/7rNYhdC9SY+UMDBRqWE+buKq99t4=
+
+Name: web/com.rochade.mdm.ctxmenu/MDMValueColumnPopup.zul
+SHA-256-Digest: EaGXWfB0sLo4vaNSloAp2a5tpSg2kjQeAsxaz95wcM8=
+
+Name: web/com.rochade.mdm.drilldown/img/24x24_search_level_F.png
+SHA-256-Digest: QjEqzedIHIJF2V3ZgRJ6bIxYi7QswK0hvwCuL5+Geyk=
+
+Name: web/com.rochade.mdm.navigator/img/16x16_glossary.png
+SHA-256-Digest: l4lJGexy/o3ARwqtgvyLx9avJ2ijA8W2+rryE5gZtxI=
+
+Name: web/com.rochade.mdm.navigator/img/DataBinding-16x16.png
+SHA-256-Digest: O6VfCwXUYhAZUSpFhBRyGH6tE+8qCPO8NPHIUFQiD9A=
+
+Name: web/com.rochade.mdm.navigator/img/DataBinding-24x24.png
+SHA-256-Digest: Mvkr1paS/gI62nkWYtF48TJNSE9BiofWs7fx8xrs8a8=
+
+Name: web/img/HappyIcon.jpg
+SHA-256-Digest: m/2dzje966biz8+DZ9x9DvrGya3jxgjKVMaBfjlFdW0=
+
+Name: web/com.rochade.mdm.actions/img/Item.gif
+SHA-256-Digest: wy+tAS5pMFwGMtvJHEXNBmj8ytZ2Rj5n4gjhzEm3do4=
+
+Name: web/com.rochade.mdm.comp.searchfor/SearchRootItem.zul
+SHA-256-Digest: jKZ6Idy/nYXvuOaJdDTeDZrBsi7835L35nthKtBf0T4=
+
+Name: web/com.rochade.mdm.objectcontent/MDM_BTerm_RefDCTab.zul
+SHA-256-Digest: 3YTn0B+XIuG91pkWwBnIFqXywpuGx0rrKynUEN+Snxk=
+
+Name: web/com.rochade.mdm.navigator/img/24x24_reference_data.png
+SHA-256-Digest: re+MGbYtg/OsXxqAy7vgicpAI3MAwamhQNIiJcXgAKA=
+
+Name: web/com.rochade.mdm.viewmenu/DataContextItemMenuMDM.zul
+SHA-256-Digest: C34zbI9pFgwJhLV9Kk7juTsFg3l/N3alfw3GRnF/TRg=
+
+Name: web/com.rochade.mdm.objectcontent/MDM_RMD_DataConcept_HierarchyT
+ ab.zul
+SHA-256-Digest: x15Ocr/HEbQ7oyXtHPYLQeTonfFHpGQajsPUWhHcnmg=
+
+Name: web/com.rochade.mdm.objectcontent/img/item.gif
+SHA-256-Digest: oMCuo+1Wuq43KF8/B+ichBEgiJ7n+99OXVi5ArKmFaE=
+
+Name: web/com.rochade.mdm.actions/img/16x16_ItemTypes_dataConcept.png
+SHA-256-Digest: UoqGJ/Kn9IPPJlUh3qNo6mE1FAM5G2Uda0FrvQjwHG0=
+
+Name: web/com.rochade.mdm.actions/img/16x16_select_all.png
+SHA-256-Digest: 1n8Cvkf5WdVSBhWLUzPUpFGP/MJb4IFOCSJ2Kx8AXSQ=
+
+Name: web/com.rochade.mdm.actions/img/OA05-new.gif
+SHA-256-Digest: yO9nDoQwZnhMwN2R6Hd+8JkVnhGza0Wfi76673f+C5Q=
+
+Name: web/com.rochade.mdm.objectcontent/MDM_RMD_DataConcept_ValidityPe
+ riodTab.zul
+SHA-256-Digest: Y+uQ9E9C/lRYX8vYsC4OVqtbAEvVIkp94gX1KJ0sA4g=
+
+Name: web/com.rochade.mdm.comp.referencecollection.configuration/EditR
+ CCnfg.zul
+SHA-256-Digest: aNIaM4W+GGtURB/T5R+sNuewjKnj0matDdmkClERWLE=
+
+Name: web/com.rochade.mdm.objectcontent/MDM_HistoryAttributeLinkModeTe
+ mplate.zul
+SHA-256-Digest: Q1dWemmvMC7pm+tafmLZtXoA/pphDPPBvFzuE7vN95o=
+
+Name: web/com.rochade.mdm.ctxmenu/MDMDataConceptPopup.zul
+SHA-256-Digest: wHcO1Vd4JFRASaU8gpE7+nYGOooiZIBpW90ddTy41LU=
+
+Name: web/com.rochade.mdm.objectcontent/MDM_RDM_ImportVCConfig.zul
+SHA-256-Digest: 91g83EKdFbnceU5MvZGYxlr3QOkD2sv2cB8U5nEGiFM=
+
+Name: web/com.rochade.mdm.navigator/img/GoogleMaps-16x16.png
+SHA-256-Digest: RhsAA4HtB9j+5wYyCRAMvrEIcsusY8jQeQvHXxu7nag=
+
+Name: web/com.rochade.mdm.objectcontent/MDM_RDB_Table_MultipleReferenc
+ eCollections.zul
+SHA-256-Digest: j9Vn044wYKER5jE9IsDJ02iJwBZxExTzEPq1JSngy5Q=
+
+Name: web/com.rochade.mdm.actions/img/16x16_edit.png
+SHA-256-Digest: gPWAgtKnufHIxbYOCY0zYy7QnutF3NohhwbXePMMOXQ=
+
+Name: web/img/16x16_ItemTypes_glossary.png
+SHA-256-Digest: iJJxe8MSmq1Um3v91ThKaqwuO2edrVVujmQavsBc0Qg=
+
+Name: web/com.rochade.mdm.navigator/img/JPA-16x16.png
+SHA-256-Digest: q/cyrY1EmgW1UDfjcZODhAwH4uKEbUsti9r2shxQQxs=
+
+Name: web/com.rochade.mdm.comp.refobjectcontent/RefObjectContent.zul
+SHA-256-Digest: PhIDBQBBQsjVXCLi0Rk+GbxfGjx1fjtfOG9ba4aqkmk=
+
+Name: web/com.rochade.mdm.objectcontent/MDM_RMD_DataConcept_ImpDetlTab
+ .zul
+SHA-256-Digest: oAGPkzrXiX1peEvZiY6omU6SslfSCY1lh9hBhqiiyrY=
+
+Name: web/com.rochade.mdm.workflow/NotificationDialog.zul
+SHA-256-Digest: XFaG+g5JO/jijif2F+Io9PctGC/zuSEoYK0pqWe2IVI=
+
+Name: web/com.rochade.mdm.objectcontent/MDM_RDB_Column_MultipleValueCo
+ llections.zul
+SHA-256-Digest: A3HI0wpQELUlXtPdobxIq7PgitKpSHumxdziMcZNWgc=
+
+Name: web/com.rochade.mdm.actions/img/16x16_new_dataContext.png
+SHA-256-Digest: Fo2Tlq4onRUZyWapPQ75RgM4mqwYvR92sQ2TVSquKPI=
+
+Name: web/img/16x16_column.png
+SHA-256-Digest: jZlJwAsKonZVwHYTgnTcHyleGnOcEn0wq4srLk9u6uw=
+
+Name: web/com.rochade.mdm.ui.view/img/16x16_search.png
+SHA-256-Digest: 7xgFkYttk6M2W35OIG5ix5rUmOdqldFA5LpK3t05q5Y=
+
+Name: web/com.rochade.mdm.objectcontent/MDM_RMD_ValueDomain_DomValueTa
+ b.zul
+SHA-256-Digest: FmeGFBTaCqADdvCUJjMqKQnpAs+wADrRqHlilcNJVGM=
+
+Name: web/com.rochade.mdm.objectcontent/MDM_HistoryItemView.zul
+SHA-256-Digest: +/8tDonGQzisGyPpMw4oE9AGNjv3koT//oUycFkjfdk=
+
+Name: web/com.rochade.mdm.actions/img/16x16_user.png
+SHA-256-Digest: CE5Kww5JARr+nVm9xkFTLrFLKMPSUfbBb4Nb3BJkPmE=
+
+Name: web/com.rochade.mdm.objectcontent/MDM_RDM_ValueCollection_Genera
+ lTab.zul
+SHA-256-Digest: wfCQjF/q7c9P5I5HciixgK+v3gQcIqMcHOfLcibFGNk=
+
+Name: web/com.rochade.mdm.comp.tablegrid/notifiationWindow.zul
+SHA-256-Digest: 1N8cKdHNExc3iku0xUx5wbnn0CcLu0seRlUnaSOXgNQ=
+
+Name: web/com.rochade.mdm.actions/img/16x16_export_HTML.png
+SHA-256-Digest: RWpVhn5SzVDHU7dofcf1FscC3Q+ThTmWgpChgN0nTiI=
+
+Name: web/com.rochade.mdm.snapshot/snapshots.messages
+SHA-256-Digest: DXC+GhgKplitMycAGhsbuQiJS9wgoU6ntmmjNyDlax0=
+
+Name: web/com.rochade.mdm.objectcontent/MDM_RDM_ImportRCConfig.zul
+SHA-256-Digest: /dyA4MWO8Y3mCY8q9L39+lYUcUinGUY2MFF962mN12w=
+
+Name: web/com.rochade.mdm.drilldown/img/24x24_search_level_E.png
+SHA-256-Digest: VvXjnnOjrlXWrA/M8SFNWGPibagodsz9kXefcfDKVII=
+
+Name: web/com.rochade.mdm.actions/img/16x16_mg_itemlist.png
+SHA-256-Digest: zChARJcbE0SaMYumz1iOirTMKLgukf+xkWMPe/vRr9A=
+
+Name: web/img/Frowney.png
+SHA-256-Digest: MrzW1TLqOEC0ooIQHD6KROn4KfZkAnz9djzAgtV2L98=
+
+Name: web/img/unknown.png
+SHA-256-Digest: Js4GiqlACjG+jOZ1dUUG/wkc96HkEp7XJN616M3V0Q0=
+
+Name: web/com.rochade.mdm.comp.objectcontentdetailgrid/ObjectContentDe
+ tailGrid.zul
+SHA-256-Digest: n3IuKIvWFD1NC+OiZkEYxMScqqfWAipNRrQDTERHa2U=
+
+Name: web/com.rochade.mdm.comp.tablegrid/img/16x16_delete.png
+SHA-256-Digest: j1Py3ysK+V38ZIOPrg/FpEQLgnvTLNzIOMcsIm0RFcw=
+
+Name: web/com.rochade.mdm.comp.searchfor.embeded/SearchForEmbeded.zul
+SHA-256-Digest: BEVJMYzFbIO4g7gBUgWo15yG3gHoqx0GyoHUJHXRd2U=
+
+Name: web/com.rochade.mdm.xlsimport/ImportDataConcept.zul
+SHA-256-Digest: zEiEyhgxd79bv+ak+4LoiYijigg7SSKTxI8Z1crjUag=
+
+Name: web/com.rochade.mdm.objectcontent/MDM_RDM_DefinedValue_GeneralTa
+ b.zul
+SHA-256-Digest: w7oaU+xM4X2XCrAO9elZpdTbgVmdMa3XcedIcXPVI6I=
+
+Name: web/img/Questionmark.png
+SHA-256-Digest: qgrJKL2oE5HnXFScRsUWavQglY0s2xiRMyZGvJd6xcI=
+
+Name: web/com.rochade.mdm.actions/img/16x16_mark-lut-vdc.png
+SHA-256-Digest: tXPBw7gMDXHs5F2+NCX2/U3rZuvKGZLZlgnq6ta8/Qs=
+
+Name: web/com.rochade.mdm.actions/img/16x16_deselect_all.png
+SHA-256-Digest: mCfr+AIhXBol8Uw+5FRHlFuhSQsTgRl1xRqf+vNS5w8=
+
+Name: web/com.rochade.mdm.actions/img/Portfolio.gif
+SHA-256-Digest: 01ci5Mbquz6SD0JLQG1mjXb0Y+IH6vsA5YekQ2uemxg=
+
+Name: web/com.rochade.mdm.actions/img/16x16_ItemTypes_context.png
+SHA-256-Digest: hBKWNHMqnGVZ4d0+8eVp+tJDGJIQD2jt04Nj8+W5Mxk=
+
+Name: web/com.rochade.mdm.report/img/16x16_glossary.png
+SHA-256-Digest: l4lJGexy/o3ARwqtgvyLx9avJ2ijA8W2+rryE5gZtxI=
+
+Name: web/com.rochade.mdm.comp.searchfor.embeded/SearchForEmbeded.mess
+ ages
+SHA-256-Digest: qeQXGPcC4pa9CYL0JrO8tPJdrc2n1ste083b4grkUC8=
+
+Name: web/com.rochade.mdm.xlsimport/ImportCollection.messages
+SHA-256-Digest: DL6s+0YLmYiQysaCoCfcnwNsmVYTvu0JNltNLOYK/jg=
+
+Name: web/img/Information-22x22.png
+SHA-256-Digest: p0el92loHgge7Tpj9dVYulOjatSqXaQCf7zs8GIwjiw=
+
+Name: web/com.rochade.mdm.actions/img/16x16_new_dataConcept.png
+SHA-256-Digest: EFElAKv9Fl4uI9EAENXECOa5ggb0NheodSQiDmKhhuE=
+
+Name: web/com.rochade.mdm.comp.refobjectcontent/img/switch-icon.png
+SHA-256-Digest: 1K4R//Uxx5TXFbih8Mqx7uQyhy6k9fOP0ZrPSWRq7Ck=
+
+Name: web/com.rochade.mdm.navigator/img/folder-close_16x16.png
+SHA-256-Digest: a3U+GuRS9YCT6fVj7oBxGpsJ9YfqJ+/fHXA4/2J0V9w=
+
+Name: web/com.rochade.mdm.navigator/img/placeholder_16x16.png
+SHA-256-Digest: 22ZcmgfwXEfuYToa4g0UutplW9NwTdFRovOAsqztd+c=
+
+Name: web/com.rochade.mdm.objectcontent/MDM_HistoryCreatedDeletedItems
+ List.zul
+SHA-256-Digest: suop9UYyPIt3RRVXjoHQYNgRuhZkb0Kb0NgfSD8XWHg=
+
+Name: web/com.rochade.mdm.drilldown/img/24x24_search_level_J.png
+SHA-256-Digest: OU6Hk5yEpHvKiNCNJcz90gRK7UMKKlmSVdhz8BhipgI=
+
+Name: web/img/16x16_Anomaly.png
+SHA-256-Digest: A/4NuWqaACwZhw+jv1EZSmOjKFxewlozzulYdBxv+e8=
+
+Name: web/com.rochade.mdm.actions/img/16x16_value_ref_collection.png
+SHA-256-Digest: 4xo17xeXMpTlPT3eeqW3ztHiB/ljL0yowmrAtth5eEs=
+
+Name: web/com.rochade.mdm.drilldown/img/24x24_search_level_K.png
+SHA-256-Digest: 5IfLZVRiSvmHOaiTILN17S2dgl6gTfnDb7JsMz0HoAk=
+
+Name: web/com.rochade.mdm.drilldown/img/01_Target_32x32.png
+SHA-256-Digest: HTMk5t8m0tPu1kK6luIZ2WUPQ6ox55XHEFw4iJiZ8aI=
+
+Name: web/com.rochade.mdm.objectcontent/MDM_RMD_DataConcept_HierarchyM
+ anagementTab.zul
+SHA-256-Digest: 3Qu5dYkU/2WYUMcN7kYbRFQ2+sB3NdYF8RsMQgirLzQ=
+
+Name: web/com.rochade.mdm.comp.wizard/img/16x16_delete.png
+SHA-256-Digest: j1Py3ysK+V38ZIOPrg/FpEQLgnvTLNzIOMcsIm0RFcw=
+
+Name: web/com.rochade.mdm.comp.refobjectcontent/WfRefObjectContent.zul
+SHA-256-Digest: OgJe1svofsrTYqWcM6ZDkifZaa/thRPICrAFuM+amWs=
+
+Name: web/com.rochade.mdm.editor.editormenu/CreateDCMenu.zul
+SHA-256-Digest: lfKF4FKF1HM7FYQ9XlYpYpvr2uQDQx5CLfZcVC7b5lI=
+
+Name: web/com.rochade.mdm.actions/img/16x16_reference_table.png
+SHA-256-Digest: 5Zr8IlZ6M65uERktnbHJeEi7Do2bZBok1d8c+HpO/hA=
+
+Name: web/com.rochade.mdm.actions/img/16x16_export_mds.png
+SHA-256-Digest: 3396WLiFT6wqGvqGRFD+FXR80JOjZU1W5H83Dtpg7dA=
+
+Name: web/com.rochade.mdm.comp.tablegrid/ValidityPeriodFilter.zul
+SHA-256-Digest: jRVz3qWbOKsjE9ov7w3TiXxE3KAPaiT2te0J0qTEGgc=
+
+Name: web/com.rochade.mdm.drilldown/img/24x24_search_level_I.png
+SHA-256-Digest: kv+ZaP/9c+4OZcRRG+FdbQDaLod4UZR09VNxll3navE=
+
+Name: web/com.rochade.mdm.ctxmenu/MyDataConceptPopup.zul
+SHA-256-Digest: Uni+vhJSmkyAsoob92UaDcrgclTgaIdyq5loqfXTNUI=
+
+Name: web/com.rochade.mdm.navigator/img/16x16_reference_data.png
+SHA-256-Digest: MZBQkD2ZmRmg8sXmFujk58SYDMMbmsSAnebD9Qw+3aA=
+
+Name: web/com.rochade.mdm.report/Report.messages
+SHA-256-Digest: yQmlmRDn3mjpveifRnXbMBWrpjH+7HX4xRooiawQG/s=
+
+Name: web/com.rochade.mdm.objectcontent/MDM_RMD_DataConcept_DomValueTa
+ b.zul
+SHA-256-Digest: 4vn4BFSqma+AvZqX4HIL0ojuZ3ShN8qdAg0ie1j1o/o=
+
+Name: web/com.rochade.mdm.navigator/img/GoogleMaps-24x24.png
+SHA-256-Digest: mL9f5eq410KH01UNDKqiAIeiidCO0D6qRkHHV/yI53s=
+
+Name: web/img/16x16_cross.png
+SHA-256-Digest: rwifLRbvPIJG67uJD17MhX7aW3Qy4nufV/vsIw9pTDQ=
+
+Name: web/com.rochade.mdm.objectsummary/MDM_RDM_DefinedValue.zul
+SHA-256-Digest: eIBBc4ZQh0UHZwEX2eHNd5jj9H6v/1tTASV20yffNxc=
+
+Name: web/com.rochade.mdm.actions/img/16x16_ItemTypes_businessTerm.png
+SHA-256-Digest: SkgCuh0m9TSAjfc4JDsUrTcz6v7bd52YhOS492HnA/E=
+
+Name: web/com.rochade.mdm.comp.tablegrid.menu/MergeValueDomainsConfirm
+ Window.zul
+SHA-256-Digest: gVmOGXkaL4G96kSJQDOkm/lYP4Lb10Ol65YBkr02Nio=
+
+Name: web/com.rochade.mdm.objectcontent/MDM_DataContext_WfAssignmentTa
+ b.zul
+SHA-256-Digest: cmLTSDcOv5Z7aQJeGlu/b0hKgq4lNt57n3wysgLOY7U=
+
+Name: web/com.rochade.mdm.objectcontent/MDM_RMD_DataConcept_DetailsTab
+ .zul
+SHA-256-Digest: g/0Yo6/scKWjFeN6TCCCGIZs/K3OFQmAFleZ8qi8JyU=
+
+Name: web/com.rochade.mdm.actions/img/rename16.png
+SHA-256-Digest: 9bbq6DWpjtXFzJ77nYx4KSNEOXaB46tchuhT0KnBq34=
+
+Name: web/img/Split-22x22.png
+SHA-256-Digest: tuUGnFGqmkLpIOc4XVPSAS8jPNLj6cTh9HOiOqoKRPk=
+
+Name: web/img/Hill.png
+SHA-256-Digest: 5f4cW8uMa7/zkJwXHhLnGgkFkMF5DvJTK238qQXCfhs=
+
+Name: web/com.rochade.mdm.objectcontentref/MDM_Default.zul
+SHA-256-Digest: AJHUpvkwSj5fFc2vzwATsUf6HymSgiXSjRH5fCVxoV8=
+
+Name: web/com.rochade.mdm.objectcontent/MDM_RDM_ReferenceCollection_Ge
+ neralTab.zul
+SHA-256-Digest: /pz+1+ktBxfM6m3SY79kE4/Pz4CTiEtq9cf6Vd8ufzM=
+
+Name: web/com.rochade.mdm.actions/img/16x16_vd_column.png
+SHA-256-Digest: tA3pswAaLiGf36LiaEFv964+Tjo2yqwJSvcB78kYnfo=
+
+Name: web/com.rochade.mdm.comp.searchfor.embeded/SearchForGovContainer
+ .messages
+SHA-256-Digest: Pq7HU3u/HD8R8/20rz7I/L4M4sCjgn+1JCDKxAjGH8Y=
+
+Name: web/com.rochade.mdm.actions/img/run.png
+SHA-256-Digest: E58GVcm8zlpJNtBgnUlyj481QmJaqX8OVuOZqTFrK2Y=
+
+Name: web/com.rochade.mdm.comp.duplicate/DuplicateItem.messages
+SHA-256-Digest: s7G7HjTRH/iDO/fvDWuX4zGV15yaXqMiQLHbuhBLS8o=
+
+Name: web/com.rochade.mdm.navigator/img/16x16_camera.png
+SHA-256-Digest: JpIJkS+lZaEcwFFkDt1v5SrlM5KwKrB/NpGRPrJucLs=
+
+Name: web/img/MDMLogo.png
+SHA-256-Digest: JNqZPuzf/TD6QX8feMbIoo1am84s+xVoePYpx83JgiM=
+
+Name: web/img/16x16_value_ref_collection.png
+SHA-256-Digest: 4xo17xeXMpTlPT3eeqW3ztHiB/ljL0yowmrAtth5eEs=
+
+Name: web/com.rochade.mdm.comp.tablegrid/img/calendar_new.png
+SHA-256-Digest: oJADvH8I73KIRvJMLq1wJVe5vBMyi3Y1dXhJE/4QML4=
+
+Name: web/com.rochade.mdm.objectcontent/MDM_RMD_ValueDomain_HierarchyT
+ ab.zul
+SHA-256-Digest: Dk3RM0NmRuP5Wuz68ZHMYPd5I0O1Qe6MJo9vhacY+Bo=
+
+Name: web/img/16x16_v_domain.png
+SHA-256-Digest: 7Gt8pCi/x+4rVYl1ZiNSOZeBd4XIeoLHS+NAnIR9pdI=
+
+Name: web/com.rochade.mdm.actions/img/16x16_organize.png
+SHA-256-Digest: HVGcTFH8QZml+ocAGCQoFTcW3qCr1KS7hlGrU6q9l44=
+
+Name: web/img/16x16_ItemTypes_dataContext1.png
+SHA-256-Digest: 993slmtNtwIykXQEn0+0kHZ4pNXKVW1cThANv7TKMXE=
+
+Name: web/com.rochade.mdm.navigator/img/16x16_relational_database.png
+SHA-256-Digest: 6ekpzuSenCvkrdzHmp59mWobNiguYIN53nIMyX6nO8Q=
+
+Name: web/com.rochade.mdm.embqueryparam/img/WizardDefault.gif
+SHA-256-Digest: g2gtZW1EBm/ieNrEiBtBZyGwqe4IQUfQ2etfE6ysfKI=
+
+Name: web/img/16x16_c_domain.png
+SHA-256-Digest: Bs3zKx8Th+Bzpz1GGz4BE8bIfjeHsh/hoH1PrmPsECM=
+
+Name: web/com.rochade.mdm.objectcontent/MDM_Glossary_GeneralTab.zul
+SHA-256-Digest: yHX0HUwJl0M4W79dSVagx24vHz7WyijsDC37B48LQ9E=
+
+Name: web/com.rochade.mdm.portlet/img/16x16_metrics.png
+SHA-256-Digest: TmPZYWgeJHfgWy6lyqdzcn93xyNAswTzeKD0AnLbvpM=
+
+Name: web/img/Smiley.png
+SHA-256-Digest: iVBdF03EpQrAGX58xLHudtvQwYsTURWNmP84mros/c4=
+
+Name: web/com.rochade.mdm.comp.tablegrid/img/edit.png
+SHA-256-Digest: cKBrAS0htMvfklSRcFP1dbpD/nGDEA5gCLXMqahCJug=
+
+Name: web/com.rochade.mdm.comp.searchfor.embeded/SearchForGovContainer
+ .zul
+SHA-256-Digest: nHE0uYVTHgV0KR1b939puZ68AjXb8MVFFQWVuNncA0k=
+
+Name: web/com.rochade.mdm.objectcontent/MDM_RMD_PermissibleValue_Gener
+ alTab.zul
+SHA-256-Digest: jgg11J9YEeGPVoxDVOV3wNsOPqvvZO+cqKgLzxBys6A=
+
+Name: web/com.rochade.mdm.drilldown/img/24x24_search_level_D.png
+SHA-256-Digest: DKKH+fJdN/qKnE7Iz4T1YD5J0y9wghypRV6ZWGE18rs=
+
+Name: web/com.rochade.mdm.ctxmenu/MDMRefTablePopup.zul
+SHA-256-Digest: 3wTgfMb5OaZDXP0WVn9LMN096cYFM87WF/6NYMmo67w=
+
+Name: web/com.rochade.mdm.portlet/AnomalyMetrics.messages
+SHA-256-Digest: yXlL72kxXgYfGAyqAyZxXDnt7SD/r6WTLIofSIeHRNQ=
+
+Name: web/img/16x16_search.png
+SHA-256-Digest: 7xgFkYttk6M2W35OIG5ix5rUmOdqldFA5LpK3t05q5Y=
+
+Name: web/com.rochade.mdm.objectcontent/MDM_RDB_Column_ValueCollection
+ Tab.zul
+SHA-256-Digest: K1Vzk5UU5pC1gNVbQWIc+H04L3w3aoRuQNEh+QcoNSw=
+
+Name: web/com.rochade.mdm.comp.tablegrid/img/warning_10x10.gif
+SHA-256-Digest: Y1HZpReoSy8Cce4+gi3CV0lyPZw9roBueOImBR4lGPU=
+
+Name: web/com.rochade.mdm.viewmenu/ItemMenuMDM.zul
+SHA-256-Digest: Y6QbynFJ2wdUVjRRTLkzY02JH8QHRzKgjvOEeCUWnNc=
+
+Name: web/com.rochade.mdm.actions/img/addItems.gif
+SHA-256-Digest: P98qFc1pAOebSnKAUGCLYJppPJA7cvklSIHn9kj7DW4=
+
+Name: web/com.rochade.mdm.navigator/img/24x24_relational_database.png
+SHA-256-Digest: h7Mh3lJ/btUmP+6uD2oKFSw0MBeVIj8DtCOP1ZFWSjI=
+
+Name: web/com.rochade.mdm.actions/img/16x16_ref_collection.png
+SHA-256-Digest: SAoP3OjNHJnKnWt9fi2RpoQ7yLBQ3m3IlqDQcbRalmY=
+
+Name: web/com.rochade.mdm.editor.editormenu/EditorMenuExtDatabase_ref.
+ zul
+SHA-256-Digest: jzyHse0U6CkgDiGPzngR25bSBXS2A8/YCUi81XuJV1g=
+
+Name: web/img/CoolIcon.jpg
+SHA-256-Digest: FZVlhi+KqnxYnSm/k8WbyJ+JlWZzzYUdwKscjBZzAnw=
+
+Name: web/com.rochade.mdm.actions/img/16x16_use_filter.png
+SHA-256-Digest: VjrB25pas1N2XBRv5gvMpO8DF9aQn3R+0W0Z7ir6ols=
+
+Name: web/com.rochade.mdm.comp.wizard/Wizard.messages
+SHA-256-Digest: PX+wgWBb6z6Co/++ln3QGP0UFU5B7lQlEVgnYClVmFM=
+
+Name: web/com.rochade.mdm.editor.editormenu/CreateDContextItemMenu.zul
+SHA-256-Digest: Nj2Pu5PQyN+I6r1tp67jlFYMuhovBTgXzVlQfV/SRd4=
+
+Name: web/com.rochade.mdm.actions/img/16x16_schema.png
+SHA-256-Digest: 64uZf2ItO2yPTwTbcTk8o4lRkZklS/W1staISz6bUqs=
+
+Name: web/com.rochade.mdm.workflow/HistoryRecord.zul
+SHA-256-Digest: LmbK85XUfrn/4r6iXqs6gRIQJgavAzGCy0o0veEY6vI=
+
+Name: web/img/16x16_ItemTypes_businessConcept.png
+SHA-256-Digest: fz9nSFfYlERftQ1OYRCmVD71ETG/aNIGRIHHaimPLpI=
+
+Name: web/com.rochade.mdm.actions/img/16x16_export_excel.png
+SHA-256-Digest: dzFqfIY24fQrWkvc5G76HSZStk8tFd/6aigj8vcaA2k=
+
+Name: web/com.rochade.mdm.comp.searchfor/SearchHierarchyParent.message
+ s
+SHA-256-Digest: 0CF2btnoZnjO3247RLCZH/aliasTNpCQhXlCNbVF6FY=
+
+Name: web/img/SadIcon.jpg
+SHA-256-Digest: Iqx7LT25/HqHfez/OoTqSsCygIcUOhyxxT06jipQRhQ=
+
+Name: web/img/warning_red_10x10.gif
+SHA-256-Digest: RL4jzmvzKui2vsmZbuqtJfRSR33WDBWS+5MEu6L338g=
+
+Name: web/com.rochade.mdm.navigator/img/JasperReports-16x16.png
+SHA-256-Digest: yAMEDwnfU+l8mzFPX55XvQ1OjxRCEtXom+AuobFL/Hs=
+
+Name: web/com.rochade.mdm.comp.referencecollection.configuration/EditV
+ alColCnfg.zul
+SHA-256-Digest: JpxmFkQtAqQr1/VrYmRaLs/Vc6LD5KWVBqk/nVDuDlU=
+
+Name: web/com.rochade.mdm.navigator/MDMNavMenu.zul
+SHA-256-Digest: ybPZO7z4LqK+R8ACTyOfcEycSr7UfNeOqegjAO1QV4M=
+
+Name: web/com.rochade.mdm.actions/img/16x16_new_c_domain.png
+SHA-256-Digest: GbDOq7btc9CXProNOO9xd1IV9oytyfm6mTUjZlJ6JoQ=
+
+Name: web/com.rochade.mdm.embqueryparam/EmbQueryParamDrilldown.message
+ s
+SHA-256-Digest: A4VgEBalDRNzJUcVyuV+W/wGOV9uVM6WWfGP7z9flJA=
+
+Name: web/com.rochade.mdm.drilldown/img/24x24_search_level_G.png
+SHA-256-Digest: ynYHBQBQNE/IVlUcDDldrKMpAPvwECqiPrI5+2dnq3Y=
+
+Name: web/com.rochade.mdm.actions/img/24x24_value_ref_collection.png
+SHA-256-Digest: jQu03QUzBjYUozouyQjfXqxoOP1Ibm/16K2YU+GO+jM=
+
+Name: web/com.rochade.mdm.viewmenu/DataConceptItemMenuMDM.zul
+SHA-256-Digest: gQlS87F5AJ0qcwOWKYxe8Da9bomrtW4+w4u7vMngKMQ=
+
+Name: web/com.rochade.mdm.comp.radiogroup/RadioGroupPropertyView.zul
+SHA-256-Digest: TlKW1w29HxtubFuOyWIqH19BvhO2ml4SI+k3r1s6/rk=
+
+Name: web/com.rochade.mdm.actions/mdmAction.messages
+SHA-256-Digest: 4KOoLM2yVsrSuOpygzcms6V3p4OM3RucRo83EyCXBgI=
+
+Name: web/com.rochade.mdm.navigator/NavTree.messages
+SHA-256-Digest: ZFOpokVgjUB3FyHI2JkQteS85MssDhMxI21N02tizDU=
+
+Name: web/com.rochade.mdm.comp.tablegrid.menu/img/deselect.gif
+SHA-256-Digest: 6avNDr8jY1lqcdQN98Hw+vBLWPsjatqde4LQwAyjDJo=
+
+Name: web/com.rochade.mdm.editor.editormenu/MDMEditorMenu.zul
+SHA-256-Digest: R3J1S0BRiDFRMSnIiz5Cqr1DpcExTTBeALObF5ClXt8=
+
+Name: web/com.rochade.mdm.editor.editormenu/MDMValueCollection.zul
+SHA-256-Digest: bzPL2RWRcCo1NNQD1tzlQ0Yld4517zOdrQzjGcY+fpU=
+
+Name: web/com.rochade.mdm.drilldown/img/01_search16x16.png
+SHA-256-Digest: OKC94zIbsrFLSEAKBCtPK+7QdAiu+srNh6Q/GqyWI9k=
+
+Name: web/com.rochade.mdm.actions/img/16x16_column.png
+SHA-256-Digest: 1/dUN1eCMG2HXTbMOFHLWkcH7LQNv0TF3P3RO9RBwlE=
+
+Name: web/com.rochade.mdm.actions/img/16x16_database.png
+SHA-256-Digest: n2RN2/7iDc8HinlobPR0TANzG+RPSQI0H6gNF8Xt7bs=
+
+Name: web/com.rochade.mdm.xlsimport/img/WizardDefault.gif
+SHA-256-Digest: g2gtZW1EBm/ieNrEiBtBZyGwqe4IQUfQ2etfE6ysfKI=
+
+Name: web/com.rochade.mdm.drilldown/img/24x24_search.png
+SHA-256-Digest: WY62U5WYTmc4Sp6l6oBCkMeffU9CylW77Nvtn5Y4Ze4=
+
+Name: web/com.rochade.mdm.comp.tablegrid/img/rename16.png
+SHA-256-Digest: 9bbq6DWpjtXFzJ77nYx4KSNEOXaB46tchuhT0KnBq34=
+
+Name: web/com.rochade.mdm.actions/img/placeholder_16x16.png
+SHA-256-Digest: 22ZcmgfwXEfuYToa4g0UutplW9NwTdFRovOAsqztd+c=
+
+Name: web/com.rochade.mdm.comp.searchfor/SearchHierarchyParent.zul
+SHA-256-Digest: WHNgHj9MCKMrhRf+KVEnPtki7baPLEcXttlzQctX6ds=
+
+Name: web/com.rochade.mdm.objectinfo/DataConceptObjectInfo.zul
+SHA-256-Digest: Jrp+xrucZDiL8zEwhQbYlzJ1fHkoSkPUOhClQMRoZL4=
+
+Name: web/com.rochade.mdm.objectcontent/MDM_DataConcept_GeneralTab.zul
+SHA-256-Digest: xShvVmL+rJ+PdWjSDrg7OsjlkipihHnMzWFeY9cJ87Y=
+
+Name: web/com.rochade.mdm.objectcontentdetailgrid/MDM_Default.zul
+SHA-256-Digest: AJHUpvkwSj5fFc2vzwATsUf6HymSgiXSjRH5fCVxoV8=
+
+Name: web/com.rochade.mdm.editor.editormenu/EditorMenuExtTable_ref.zul
+SHA-256-Digest: CMQbzIM1G/WfJoQoUb4qT+eS1746te2HCNDXRugosHg=
+
+Name: web/img/MDMText.png
+SHA-256-Digest: pHxZKdVcjvO4qwcdc5UAb2OW6t0bjREuGaQQNNn1MfQ=
+
+Name: web/img/Item.gif
+SHA-256-Digest: wy+tAS5pMFwGMtvJHEXNBmj8ytZ2Rj5n4gjhzEm3do4=
+
+Name: web/com.rochade.mdm.objectcontent/img/EditTableMenu16.png
+SHA-256-Digest: VBRmAIsCMETjKrHABT3ZGzhQzDHUj0XgzSvRc8O4nDo=
+
+Name: web/com.rochade.mdm.comp.searchfor/SearchFor.messages
+SHA-256-Digest: jgckp/XaxshPyHC5SHi7nzCpuIz4VLjAmeodhqH8CYk=
+
+Name: web/com.rochade.mdm.objectheader/DataContextObjectHeader.zul
+SHA-256-Digest: HOpxotYWUTnlRuYOA+9tvuWDY7FhpnuhciylSBYga+s=
+
+Name: web/com.rochade.mdm.viewmenu/TableEditMenu.zul
+SHA-256-Digest: 1v/cW/e10wcB0IMRcMLduxDfBNN8gvfiywNRDr3WONM=
+
+Name: web/com.rochade.mdm.objectcontent/MDM_BusinessTerm_ConceptualDom
+ ainTab.zul
+SHA-256-Digest: 5JzwgvHA833WBKOh7ebVqZhAws1YvbUI0VsgRiu2oOo=
+
+Name: web/com.rochade.mdm.actions/img/16x16_refresh.png
+SHA-256-Digest: YcRgw7IiJUKvBPXsGkis5ybtcNF4SQMA04aSdzBvOKo=
+
+Name: web/com.rochade.mdm.editor.editormenu/EditorMenuExtBusinessTerm_
+ ref.zul
+SHA-256-Digest: qpDqtz7KM8FX8pV5qJwXQn+0tmDfmH5LvG+L5m0Jbrc=
+
+Name: web/com.rochade.mdm.objectcontent/MDM_RMD_ValueDomain_ImpDetlTab
+ .zul
+SHA-256-Digest: 9gWcAu2tCEHmBj3wWtWAOh1RvcpPiIgWz3XXtkMsb4k=
+
+Name: web/com.rochade.mdm.ui.view/img/16x16_cross.png
+SHA-256-Digest: rwifLRbvPIJG67uJD17MhX7aW3Qy4nufV/vsIw9pTDQ=
+
+Name: web/com.rochade.mdm.drilldown/img/24x24_search_level_B.png
+SHA-256-Digest: a493opsgB8pl9UecgTQklS86XILAOhIK5vDVd3rIDnI=
+
+Name: web/com.rochade.mdm.comp.tablegrid/editwindow.zul
+SHA-256-Digest: igl7LJMKmzKG7owB2DTTd68NwTF/0mf/SWaRIKga9HY=
+
+Name: web/com.rochade.mdm.navigator/RdmNavigator.zul
+SHA-256-Digest: S2lZ/9nShYSfb+wsFOy9xH6s9zW2SdCeyPregRSalsU=
+
+Name: web/com.rochade.mdm.mainmenu/MainMenuMDM.messages
+SHA-256-Digest: 4TILk8yd4GHHeOntpXFsST7snW1NOgMphBIpjMwdZVE=
+
+Name: web/com.rochade.mdm.xlsimport/ImportCollection.zul
+SHA-256-Digest: +obJS5RqsT6JiIAAoKXj0beKq9uv+7DEtTtpI+elndQ=
+
+Name: web/img/Information.png
+SHA-256-Digest: tGCu+0vzpHKFp9XRij0DHwYKjYMR4LWm9rB641owOMM=
+
+Name: web/com.rochade.mdm.utils/MessageBoxWithCheckbox.zul
+SHA-256-Digest: SqrOXF9LZoGOCwNYBDJ2STPKlnOwPaeT7OmQ7AC3Wf4=
+
+Name: web/com.rochade.mdm.actions/img/16x16_import_excel.png
+SHA-256-Digest: HPlIOVlDB2HrJVeGgY0nrc9wyHJcCG+AKB6swxDyclk=
+
+Name: web/com.rochade.mdm.navigator/img/JasperReports-24x24.png
+SHA-256-Digest: iVcwezKJyS5TREbJU69rlaMdgc32g+r/M70PoDWF/Vg=
+
+Name: web/img/16x16_ref_collection.png
+SHA-256-Digest: SAoP3OjNHJnKnWt9fi2RpoQ7yLBQ3m3IlqDQcbRalmY=
+
+Name: web/com.rochade.mdm.objectcontent/MDM_RMD_ConceptualDomain_ImpDe
+ tlTab.zul
+SHA-256-Digest: WRwab9l2KjlFCC/13pOrCxrAqeZ6UDM5FhNcFtHZg6I=
+
+Name: web/ref.messages
+SHA-256-Digest: psyEOooaG4oXxtXMN89NYLAbwArLXMcQKIMYF/FLmJ4=
+
+Name: web/img/16x16_ItemTypes_dataConcept.png
+SHA-256-Digest: tTupaCZxDFASewWF0oa4emxkHsn9uU+9x9gWjSNMgDg=
+
+Name: web/com.rochade.mdm.comp.tablegrid.menu/img/select.gif
+SHA-256-Digest: 9E2rEXqmHIl42cIgfk+W1qh6tIxSMcAyzF0SznSO7OM=
+
+Name: web/com.rochade.mdm.actions/img/16x16_save_exit.png
+SHA-256-Digest: FoMwwmce8GssFiilhdEqZ04hc9U0Cgenn2yD/TDVjwE=
+
+Name: web/com.rochade.mdm.actions/img/16x16_table.png
+SHA-256-Digest: kVXw03JHWKuCdZAjatvZbF/8aOB1zq497S35wYggs8I=
+
+Name: web/com.rochade.mdm.comp.tablegrid/ValidityPeriodFilterQuery.zul
+SHA-256-Digest: ZrL9Cy3TT8I7zSuYKHb7RL8UddR8Wcv82bReTAvHoyM=
+
+Name: web/img/Duplic-22x22.png
+SHA-256-Digest: oU4bgbH5iW4Nu5oUnB/lp90dOnxxamKTNgsJpmiEvq8=
+
+Name: web/com.rochade.mdm.ctxmenu/MDMDataContextPopup.zul
+SHA-256-Digest: WJVVXRXrbMDaLrZLdgRn8TGBQmeNe8klxt5D5ag6JfQ=
+
+Name: web/com.rochade.mdm.actions/img/16x16_delete.png
+SHA-256-Digest: j1Py3ysK+V38ZIOPrg/FpEQLgnvTLNzIOMcsIm0RFcw=
+
+Name: web/img/16x16_table.png
+SHA-256-Digest: kVXw03JHWKuCdZAjatvZbF/8aOB1zq497S35wYggs8I=
+
+Name: web/com.rochade.mdm.objectcontent/MDM_RMD_TableGrid.zul
+SHA-256-Digest: 3SSbVJqySPgS33YKWJowj4IgpufzMIcPpAc3gK18ZcM=
+
+Name: web/com.rochade.mdm.objectcontent/MDM_RMD_DataConcept_HistoryTab
+ .zul
+SHA-256-Digest: oGOW8gjyNnRcBMJED96u7x3w5UN/gUFNETdIsBZaPAA=
+
+Name: web/com.rochade.mdm.viewmenu/MDMWfAssignedConfigsViewMenu.zul
+SHA-256-Digest: +JQ/rgavfcMAKkB3LM6GsbQDn71RnFDXVVlI57cNPr4=
+
+Name: web/com.rochade.mdm.drilldown/img/24x24_search_level_L.png
+SHA-256-Digest: VY+2EKX9GCZvxEZZKsf8VRkruHf7tRFLDPN7h0y4ZB4=
+
+Name: web/com.rochade.mdm.objectcontent/mdmObjectContent.messages
+SHA-256-Digest: 2VGutVgKoOiWq1zRipUSUMHVgXD/FlNfybJve1xOfGU=
+
+Name: web/com.rochade.mdm.actions/img/16x16_relational_database.png
+SHA-256-Digest: QBKMncE9uA5y6B56PN6t2XMWT07yyAOOWyqJ4nnsn1c=
+
+Name: web/com.rochade.mdm.drilldown/img/24x24_search_level_A.png
+SHA-256-Digest: lgJSetaguOBliOWn9zqAysnekTTguY1qIafUa9EcxY4=
+
+Name: web/com.rochade.mdm.objectcontent/MDM_RDM_UsedValue_GeneralTab.z
+ ul
+SHA-256-Digest: tVoY8Mk/moM579ueAVzLhnvvyNy9LCrVlUoUD3YR2io=
+
+Name: web/com.rochade.mdm.workflow/refWorkFlow.messages
+SHA-256-Digest: zeOehr4YvARcAmBD83WkbQoOpmLp2RibC8cWxpLBalU=
+
+Name: web/com.rochade.mdm.xlsimport/ImportDataConcept.messages
+SHA-256-Digest: Njr7b4i9reMw7lI7BfIcfykno1N6VRQwXxksFwjf//E=
+
+Name: web/com.rochade.mdm.comp.tablegrid/RenameItem.zul
+SHA-256-Digest: JipwsLRZPjZ+7PfSitngo3Vm+OOkOR980Nt9SfYG98E=
+
+Name: web/com.rochade.mdm.actions/img/Actions-go-next-icon.png
+SHA-256-Digest: QgBJeF27KaraeILNFHqWWlOxWpSh2p00iv6Ba75VgyA=
+
+Name: web/com.rochade.mdm.navigator/img/JPA-24x24.png
+SHA-256-Digest: Aqhyr2/xt6CEkSmahrf1MI4QEsOowbVaAefLrUZ4xl8=
+
+Name: web/com.rochade.mdm.comp.objectcontentdetailgrid/ObjectContentDe
+ tailGrid.messages
+SHA-256-Digest: Yw+evmi1G1KOPIkCqZ3bNvOLMt4e8IRdZpMOnkVvgig=
+
+Name: web/com.rochade.mdm.actions/img/16x16_v_domain.png
+SHA-256-Digest: 7Gt8pCi/x+4rVYl1ZiNSOZeBd4XIeoLHS+NAnIR9pdI=
+
+Name: web/com.rochade.mdm.comp.tablegrid.menu/img/warn_32.png
+SHA-256-Digest: 6nLdSftS88ky+cPQU+KJxYLg2w6QKDS7wJf1Nc4m6jc=
+
+Name: web/img/16x16_relational_database.png
+SHA-256-Digest: QBKMncE9uA5y6B56PN6t2XMWT07yyAOOWyqJ4nnsn1c=
+
+Name: web/com.rochade.mdm.actions/img/16x16_new_v_domain.png
+SHA-256-Digest: RSx7KopNY+WHYoh//WWkEjbf/Tm93AAvostpANDOzSE=
+
+Name: web/com.rochade.mdm.comp.searchfor/SearchFor.zul
+SHA-256-Digest: GeWMQArvpi109b3cRmKB+Z3CW0PPZibwHi7cGfowzyA=
+
+Name: web/com.rochade.mdm.objectcontent/img/CreatedApprovalRequired16.
+ png
+SHA-256-Digest: RWOr11u/qeArcZmuvaOUpIjqTKO2wVcdQAmBV8OVBMo=
+
+Name: web/com.rochade.mdm.objectcontent/MDM_RDB_Table_RefColTab.zul
+SHA-256-Digest: xJQebGYu9peHRNYWgjhYTQqtB8kbFfdM67eHIle8Knk=
+
+Name: web/com.rochade.mdm.objectcontent/img/ArrowRight-16x16.png
+SHA-256-Digest: RjnxWuccvvu2jBXaWlfumFng11ACxRvC0RBmVUv/3CI=
+
+Name: web/com.rochade.mdm.navigator/img/24x24_glossary.png
+SHA-256-Digest: 1qspTmO4Qo2yfc3rSnUTFoqz106y/5sQLg7NOd7JSUE=
+
+Name: web/com.rochade.mdm.viewmenu/ItemMenuDomainValue.zul
+SHA-256-Digest: 2RKqKjZ/GL6Zd7hZ6yfHlXMC6aVdBRQed17gbB028sU=
+
+Name: web/img/placeholder_16x16.png
+SHA-256-Digest: 22ZcmgfwXEfuYToa4g0UutplW9NwTdFRovOAsqztd+c=
+
+Name: web/img/16x16_schema.png
+SHA-256-Digest: 64uZf2ItO2yPTwTbcTk8o4lRkZklS/W1staISz6bUqs=
+

@@ -1,0 +1,248 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.wa.workflow
+#
+Workflow.synch.msg=A ação solicitada não pode ser completada.  O estado da solicitação de aprovação foi alterado.  Você deve reabrir a solicitação para exibir o novo estado.
+Workflow.setpendingstate.suspened=O item não está disponível atualmente conforme ele espera por uma ação pendente de ser completada no fluxo de trabalho.
+Workflow.setpendingstate.failed=O item não pode ser suspendido:
+Workflow.Messagebox.error.title=Erro
+Workflow.submitNotPossible.existingInstance=O item já foi submetido.  Por favor, atualize para atualizar a exibição.
+
+Workflow.inComment=em comentário RWFutils: {0}
+Workflow.oldState=Estado antigo do valor do atributo: {0}
+Workflow.pkgNotFound=Pacote não encontrado: {0}
+Workflow.notExists=O item não existe com o id {0}.
+Workflow.allInPkg=Todos os itens já pertencem ao pacote.
+Workflow.exceptIsDummy=Exceção ao obter a informação isDummy
+
+Workflow.RemoveWfCellRenderer.unsupportedObjectType=Tipo de objeto não suportado para RemoveWfCellRenderer: {0}.
+
+Workflow.tooltip.delete.notPossible.notAssigned=Atribuição é herdada
+Workflow.tooltip.delete.notPossible.delivered=Este é o fluxo de trabalho padrão.  Fluxos de trabalho padrão não podem ser removidos.
+Workflow.tooltip.delete.notPossible.inUse.assigned=O fluxo de trabalho está atualmente atribuído e não pode ser removido.
+Workflow.tooltip.delete.notPossible.inUse.activeInstances=O fluxo de trabalho está em uso atualmente (instâncias de processos ativa) e não pode ser removido.
+Workflow.tooltip.delete.notPossible.defaultWf=Este é o fluxo de trabalho padrão.  Fluxos de trabalho padrão não podem ser removidos.
+Workflow.tooltip.delete.notPossible.noCustomWf=Este não é um fluxo de trabalho personalizado.  Apenas fluxos de trabalho personalizados podem ser removidos.
+Workflow.tooltip.delete=Deletar
+
+Workflow.title.replace=Substituir tarefa do fluxo de trabalho
+Workflow.tooltip.replace=Trocar
+Workflow.error.replace.missingRights=Nenhuma permissão para substituir a tarefa do fluxo de trabalho.
+
+Workflow.inheritedFrom.globalDefault=PADRÃO GLOBAL
+Workflow.inheritedFrom.directlyAssigned=NÃO
+
+#
+# package: com.rochade.wa.workflow.camunda
+#
+Workflow.taskDisposed=A tarefa foi modificada por outro Usuário ou por um fluxo de trabalho.
+Workflow.taskAlreadyClaimed=A tarefa já foi requerida por outro usuário.
+Workflow.multipleTasksFound=Múltiplas tarefas ativas {0} encontradas para o item com ID {1}.
+Workflow.srapException=SrapException na operação do fluxo de trabalho. {0}
+Workflow.rvlException=RLVException na operação do fluxo de trabalho. {0}
+Workflow.parseException=Houve um erro lendo a definição do fluxo de trabalho.
+Workflow.exception=Exceção na operação do fluxo de trabalho.  {0}
+Workflow.temporaryException=Exceção temporária na operação do fluxo de trabalho. Por favor, tente novamente.\n ({0})
+Workflow.error.processEngine.null=O motor Fluxo de Trabalho não está disponível.
+Workflow.error.creatingProcessEngine=Houve um erro na criação do motor  Fluxo de Trabalho com o nome {0} e jdbcUrl {1}.
+Workflow.error.h2StartFailed=A inicialização do servidor H2 falhou.  Por favor, veja os registros de BgWebServices.
+Workflow.error.h2StartedButNotReachable=O servidor H2 foi iniciado, mas não pode ser alcançado pelo servidor de aplicação.
+Workflow.cleanUpTasksFailed=Removendo antigas tarefas que falharam.  A lista de tarefas (Minhas Tarefas) não irá conter estas tarefas, mas elas ainda estão contidas na base de dados do motor fluxo de trabalho.
+Workflow.error.startProcess=Houve um erro ao iniciar um novo processo fluxo de trabalho.
+Workflow.error.completeTask=Houve um erro ao completar  a tarefa fluxo de trabalho.
+Workflow.error.deleteProcesses= Houve um erro excluindo os processos fluxo de trabalho de RWF/Tarefas {0}.
+
+Workflow.foundProcessDefinitionId=Encontrado id {1} de definição de processo para o tipo de processo {0}.
+Workflow.defaultActionLabel=Enviar para {0}
+Workflow.defaultWorkflowNotFound=O seguinte fluxo de trabalho padrão não pode ser encontrado.  {0}.
+
+Workflow.assignConfig.constrainedTypes=Os seguintes tipos de itens foram desativados:
+Workflow.assignConfig.constrainedTypes.NONEXISTENT={0} (não suportado neste contexto)
+Workflow.assignConfig.constrainedTypes.ALREADY_ASSIGNED={0} (já ativo em outras atribuições)
+
+Workflow.warn.componentForScriptNull=Erro incluindo script para o campo {0}: falta parâmetro do componente.
+
+Workflow.field.action.label=Ação:
+Workflow.field.commentMandatory.label=Comentário obrigatório:
+Workflow.field.autoApprovalEnabled.label=Aprovação Automatizada:
+Workflow.field.reviewerRoles.label=Eleitores:
+Workflow.field.RoleGroup1.label=Aprovador 1:
+Workflow.field.RoleGroup2.label=Aprovador 2:
+Workflow.field.taskTimeoutForReminderDays.label=Tempo limite para lembretes (em dias):
+Workflow.field.taskTimeoutForRejectDays.label=Tempo máximo para rejeição automática (em dias):
+Workflow.field.taskTimeoutDays.label=Tempo mínimo para ação padrão (em dias):
+Workflow.field.taskTimeoutAction.label=Tempo mínimo para ação padrão:
+Workflow.field.percentageToComplete.label=Eleitores obrigatória (em %):
+Workflow.field.percentageOfVotesToReject.label=Votos obrigatórios para rejeição (em %):
+Workflow.field.percentageOfVotesToReassign.label=Votos necessários para devolução (em %):
+
+Workflow.field.approveVotesLimit.label=Número de Votos para Autorização:
+Workflow.field.rejectVotesLimit.label=Número de Votos para Rejeição:
+Workflow.field.reassignVotesLimit.label=Número de Votos para Devolução:
+
+Workflow.field.approveVotes.label=Número de Votos para Autorização:
+Workflow.field.approveVotes.label_1=Número de Votos para Autorização (Limite={0}, 0 significa desabilitado):
+Workflow.field.rejectVotes.label_1=Número de Votos para Rejeição (Limite={0}, 0 significa desabilitado):
+Workflow.field.reassignVotes.label_1=Número de Votos para Devolução (Limite={0}, 0 significa desabilitado):
+Workflow.field.dismissVotes.label_1=Número de Votos para descartar (Limite={0}, onde 0 significa desabilitado):
+
+Workflow.field.defaultAction.label=Ação padrão:
+
+Workflow.field.nullValue.plsSelect=- (Por favor, selecione) -
+Workflow.roleSelection.noRolesForTemplateAvailable=Seleção não disponível no modelo. Precisa de Glossário/Atribuição de Contexto.
+Workflow.roleSelection.notyetselected=Função de administração ainda não selecionada.
+
+Workflow.userSelection.noUsersForTemplateAvailable=Seleção não disponível no modelo. Precisa de Glossário/Atribuição de Contexto.
+Workflow.userSelection.notyetselected=Usuário Stewardship ainda não selecionado.
+
+Workflow.field.notifyMask.label=Ajustes de Notificação:
+Workflow.notifyMask.action.label=Passo no Fluxo de Trabalho
+Workflow.notifyMask.action.notifyStakeholders=Notificações para Stakeholder
+Workflow.notifyMask.action.notifyApprovers=Notificações para o Aprovador
+Workflow.notifyMask.action.sendReminder=Lembretes
+Workflow.notifyMask.role.$author=Autor do Termo de Negócio
+Workflow.notifyMask.role.$notified=Stakeholders do Contexto
+Workflow.notifyMask.role.$approver=Aprovadores no Contexto
+Workflow.notifyMask.role.$facilitator=Facilitadores do Contexto
+
+Workflow.field.reviewerRoles.voting.label.count=Máximo Número de Eleitores
+Workflow.field.reviewerRoles.voting.label.value=Função de Autorizador
+Workflow.field.hint.label=Dicas:
+Workflow.field.Voting.reviewerRolesHint=O processo de votação termina em três casos (qual ocorrer primeiro): <ul><li>O resultado da votação é conhecido (baseado no número de votos que já foram submetidos)</li><li>O número de eleitores participantes requerido foi atingido </li><li>O tempo de espera para rejeição automática foi alcançado </li></ul>As opções de devolução (para o autor) e rejeição podem ser desabilitadas inserindo 0.
+Workflow.field.reviewerRoles.multistep.label=Aprovadores:
+Workflow.field.reviewerRoles.multistep.label.count=Número de aprovadores.
+Workflow.field.reviewerRoles.multistep.label.value=Função de Autorizador
+Workflow.field.multistep.reviewerRolesHint=O processo de aprovação termina nesses casos (o que ocorrer primeiro):<ul><li>O resultado da aprovação é conhecido (com base nos votos já enviados)</li> <li> O tempo limite para esta ação foi alcançado </li></ul>
+Workflow.field.reviewerRoles.multistep.label.totalCount=Número total de Aprovadores: {0}
+Workflow.field.detectTDcmd.label=Comando - Detectar Dados Técnicos:
+Workflow.field.cascadePIcmd.label=Commando - Cascateamento PI:
+
+Workflow.field.eplDoExecute.label=Executa EPL:
+Workflow.field.eplCommand.label=Comando EPL:
+Workflow.field.stiDoExecute.label=Executa Conexão Manual:
+Workflow.field.stiCommand.label=Comando - Conexão Manual:
+Workflow.field.dlnDoExecute.label=Executa Comparação de Linhagem:
+Workflow.field.dlnCommand.label=Comando - Comparação de Linhagem:
+Workflow.field.takeSnapshot.label=Tira Snapshop:
+Workflow.field.snapshotConfig.label=Configuração de Snapshot:
+Workflow.field.snapshotNameTemplate.label=Nome do Modelo Padrão Snapshot:
+Workflow.field.snapshotDescription.label=Descrição Padrão do Snapshot:
+Workflow.field.delegateToUser.label=Delega para o usuário:
+Workflow.field.delegateToRole.label=Delega para o grupo:
+
+Workflow.field.externalPIAnalyzers.label=Serviço Web de Analisador PI Externo:
+Workflow.field.externalPIAnalyzers.hint=Opcionalmente, selecione serviços de web externos configurados para chamar como a última etapa antes de concluir este fluxo de trabalho de aprovação, ou seja, no momento em que o item de negócios acabou de ser definido na produção.
+																								
+																		   
+											
+																	 
+
+#Workflow.field.extWebServiceUrl.label=Serviço URL opcional:
+#Workflow.field.extWebServiceParams.label=Parâmetros de serviço opcional:
+#Workflow.field.extWebService.Hint=Opcionalmente, insira uma URL para chamar um serviço externo como a última etapa antes de concluir este fluxo de trabalho de aprovação, ou seja, no momento em que o item de negócio acabou de ser definido na produção.
+																					
+																						 
+																						 
+Workflow.field.ignoreErrors.label=Ignorar erros:
+Workflow.field.webServiceParams.view.empty=Parâmetros não inicializados.
+Workflow.field.webServiceParams.view.notEmpty=Parâmetros configurados.
+Workflow.field.webServiceParams.edit.empty=Configuração Opcional dos Parâmetros de Serviço
+Workflow.field.webServiceParams.edit.notEmpty=Atualização Opcionao dos Parâmetros de Serviço
+																 
+																																					 
+Workflow.SingleStep.Approve.definition=Um dos vários administradores irá autorizar
+Workflow.SingleStep.Approve.label=Enviar para autorização (Passo Único)
+Workflow.MultiStep.Approve.definition=Um número configurável de administradores irá autorizar
+Workflow.MultiStep.Approve.label=Enviar para autorização (Vários Passos)
+Workflow.Voting.Approve.definition=Votação
+Workflow.Voting.Approve.label=Submeter para autorização (Votação)
+
+Workflow.oneStepWorkflow.definition=Um dos vários administradores irá autorizar.
+Workflow.oneStepWorkflow.label=para Autorização
+Workflow.multiStepWorkflow2Groups.definition=Autorização Vários Passos (2 Grupos de Autorizador)
+Workflow.multiStepWorkflow2Groups.label=para Autorização (2 Grupos de Autorizador)
+Workflow.votingWorkflowV1.definition=Fluxo de trabalho de Autorização de Votação (V1)
+Workflow.votingWorkflowV2.definition=Fluxo de trabalho de Autorização de Votação (V2)
+Workflow.votingWorkflow.label=para Autorização (Votação)
+Workflow.PIWorkflow.definition=Fluxo de trabalho de Aprovação de informação pessoal
+Workflow.PIWorkflow.label=para Aprovação (PI)
+#Workflow.PIAWorkflow.definition=Fluxo de Trabalho para Avaliação de Impacto de Privacidade
+#Workflow.PIAWorkflow.label=para Aprovação (PIA)
+#Workflow.GDPWorkflow.definition=Fluxo de Trabalho GDPR
+Workflow.GDPWorkflow.definition=Fluxo de Trabalho para Aprovação de Documentos Relevantes à Proteção de Dados
+Workflow.GDPWorkflow.label=para Aprovação
+Workflow.EnterpriseWIPMultiStepApprovalWorkflow.label=para Aprovação
+Workflow.EnterpriseWIPMultiStepApprovalWorkflow.definition=Fluxo de Trabalho Corporativo para Aprovação em vários passos do ambiente WIP
+Workflow.LOBWIPMultiStepApprovalWorkflow.label=para Autorização
+Workflow.LOBWIPMultiStepApprovalWorkflow.definition=Fluxo de Trabalho para Aprovação em vários passos, no ambiente WIP, da Linha de Negócio  
+MultiSelectionGrid.totalCount.label=Número total de eleitores elegíveis: {0}
+
+Workflow.IssueWorkflow.definition=Administradores irão avaliar problemas de acordo com este fluxo de trabalho.
+Workflow.IssueWorkflow.label=para Avaliação
+
+Workflow.task.reviewItem.firstApprover=Você é o primeiro autorizador.  Por favor, avaliar.
+Workflow.task.reviewItem.secondApprover=Você é o segundo autorizador.  Por favor, avaliar.
+Workflow.task.reviewItem.anApprover=Você é um autorizador para esta tarefa.  Por favor, avaliar.
+Workflow.task.reviewItem.taskOfTasks_2=Você é um autorizador para a tarefa {0} de {1}. Por favor, avaliar.
+Workflow.task.reviewItem.notificationComment=Uma nova tarefa de avaliação foi criada.
+Workflow.task.reactivateWorkflow.plsResume=O item foi devolvido.  Por favor, retome o fluxo de trabalho.
+
+Workflow.task.reviewIssue.plsReview=Você é o primeiro avaliador para esta tarefa.  Por favor, avaliar.
+
+Workflow.comment.autoApprove=Aprovação Automática Direta
+Workflow.comment.taskReminderDays=Lembrete de tarefa após tempo esgotado de {0} dias.
+Workflow.comment.autoRejectDays=Rejeitar automaticamente após tempo esgotado de {0} dias.
+Workflow.comment.votingFinished=Votação encerrada.
+Workflow.comment.approvalFinished=Aprovação finalizada.
+Workflow.comment.defaultActionAfterTimeoutDays=Ação padrão executada após o tempo de espera de {0} dias.
+Workflow.comment.resetAfterExternalWIPChange=Redefinir após a mudança da área de Desenvolvimento externa.
+Workflow.comment.autostartedForWIP=Começar automaticamente a revisão da Área de Desenvolvimento.
+Workflow.wipWorkflow.comment.errorIngTimeChange=Reiniciar devido a ingestão externa.
+Workflow.wipWorkflow.comment.errorModTimeChange=Reiniciar devido a modificação do conteúdo da área de Desenvolvimento.
+
+Workflow.error.noProcessConfig=Nenhuma configuração de processo foi encontrada para o tipo de item {0} e categoria {1}.  Importe um fluxo de trabalho padrão ou atribua um fluxo de trabalho ao item pai.
+Workflow.error.noProcessDefinition=Nenhuma definição de processo encontrada.  Por favor, selecione um processo de fluxo de trabalho em Administração de Usuário.
+Workflow.error.invalidProcessConfigItem=O item RWF/PROCESS-CONFIGURATION "{0}" com id "{1}" é inválido.
+Workflow.error.parsingValue=O valor "{0}" do tipo "{1}" no campo do formulário "{2}" não pode ser avaliado.
+Workflow.error.parsingFieldDefinition=O atributo requerido "{0}" está ausente no campo do formulário com ID "{1}".
+Workflow.error.invalidItemIds=O identificador do item "{0}" (como parte de "{1}") na tarefa "{2}" é inválido.
+Workflow.error.parsingVersionNumber=O número de versão "{0}" (propriedade "VERSÃO") é inválido.
+
+Workflow.error.webServiceConfigurationValueNotEqual=A configuração do 'BgWebServices' não corresponde à configuração da aplicação Rochade Web:\n
+Workflow.error.webServiceConfigurationValueNotEqual.detail=\nO parâmetro "{0}" possui diferentes valores: "{1}" e "{2}".
+Workflow.error.emptyConfigValue=O parâmetro de configuração requerido {0} está vazio.
+
+Workflow.error.createRwfProcessDefinitionFailed=Erro durante a criação de RWF/PROCESS-DEFINITION {0} para recurso {1}. Por favor, veja os registros de BgWebServices.
+Workflow.error.updateRwfProcessDefinitionFailed=Erro durante a atualização de RWF/PROCESS-DEFINITION {0} para recurso. Por favor, veja os registros de BgWebServices.
+Workflow.error.createRwfProcessConfigFailed=Erro durante a criação de RWF/PROCESS-CONFIG {0} para recurso {1}. Por favor, veja os registros de BgWebServices.
+Workflow.error.updateRwfProcessConfigFailed=Erro durante a atualização de RWF/PROCESS-CONFIG {0} para recurso. Por favor, veja os registros de BgWebServices.
+Workflow.error.deleteRwfProcessConfigFailed=Erro durante a exclusão de RWF/PROCESS-CONFIG {0} para recurso. Por favor, veja os registros de BgWebServices.
+
+Workflow.error.deployDefaultWorkflowFailed=Erro durante a implementação do fluxo de trabalho padrão {0}: Estado {1} do item com id {2} não é suportado.
+Workflow.error.updateDefaultWorkflows=Erro ao atualizar os fluxos de trabalho padrão.
+Workflow.error.updateWorkflow=Erro atualizando fluxo de trabalho {0}.
+Workflow.error.convertExistingTasks=Erro ao converter tarefas existentes após a atualização de fluxos de trabalho padrão.
+Workflow.error.convertExistingTasks.unsupportedState=Erro durante a conversão da tarefa existente com ID {0}: Estado {1} do item com ID {2} não é suportado.
+Workflow.error.recoverTask.exception=Erro de recuperação de tarefa (tipo de processo={0}, id do processo={1}, id da atividade={2}).
+Workflow.error.recoverTask.noProcessConfig=Erro de recuperação de tarefa: A configuração do processo não está disponível (tipo de processo={0}, id do processo={1}, id da atividade={2}).
+Workflow.error.cleaningUpOldNotificationsFailed=Erro removendo antigas notificações.
+Workflow.error.syncProcessInstancesFailed=Erro sincronizando instâncias de processos de tarefas abertas.
+Workflow.error.syncWIPWorkflowFailed=Erro na sincronização da instância do processo para essa versão (Área de Desenvolvimento).
+Workflow.error.updateTransactionDummyItem=Erro ao atualizar as últimas informações de inatividade das transações (Sincronização do fluxo de trabalho - ambiente de Desenvolvimento).
+
+Workflow.info.creatingCamundaTask=Criando tarefa de fluxo de trabalho para RWF/TASK com id {0} para o item {1}: workflow={2},estado={3}, Tarefa={4}
+Workflow.info.resubmitItemManually=Tarefa de fluxo de trabalho não foi criada para RWF/TASK com ID {0} para o item {1}: estado={2}. Envie o item novamente.
+Workflow.info.processEngine=motor de processo: nome: {0}, jdbcUrl :{1}
+Workflow.info.updatingDefaultWorkflow=Atualizando Fluxo de Trabalho {0} padrão a partir de Recurso {1}.
+
+Workflow.error.settingVariableForCheckCondition=A Configuração da variável {0} com valor {1} para checkCondition() falhou.  A variável será ignorada no teste.
+
+Workflow.processType.APPROVE=Aprovar
+Workflow.processType.REVIEW=Avaliar

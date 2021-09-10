@@ -1,0 +1,57 @@
+﻿# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+### Icons: all images should be inside of dir /com.rochade.wa.ui.search/ + img/, see plugin.xml
+
+#extra icons
+### END Icons
+
+SearchMain.tabLabel=Buscar
+SearchMain.ErrorLoadResultlist=Error al cargar la lista de resultados
+
+SearchMain.title=metaEIM
+SearchMain.Search=Buscar
+SearchMain.Refresh=Refrescar
+SearchMain.SearchOptions=Opciones de búsqueda
+SearchMain.SearchConditions=Condiciones de búsqueda
+SearchMain.SearchCategories=Sub-Categoría:
+SearchMain.SearchDateTools=Período de Tiempo:
+
+SearchMain.SearchMainTitle=Buscar en Rochade
+SearchMain.SearchMainFor=Buscar:
+SearchMain.SearchMainCategory=Categoría:
+
+Nav.All=Todo
+Nav.BusinessGlossary=Glosario de Negocios
+Nav.MDM=Gestión de Metadatos
+Nav.TechnicalGlossary=Glosario Técnico
+
+Date.All=Cualquier momento
+Date.PastHour=Pasada una hora
+Date.Past24Hours=Últimas 24 Horas
+Date.PastWeek=Semana pasada
+Date.PastMonth=Mes pasado
+Date.PastYear=Año pasado
+Date.CustomRange=Rango personalizado…
+Date.CustomRangeFrom=De:
+Date.CustomRangeTo=para:
+textReadMore=Lee mas...
+
+CategoryQuery.valdom.stages=Etapas
+CategoryQuery.value.operational=Operacional
+CategoryQuery.value.datawarehouse=DataWarehouse
+CategoryQuery.value.datamart=DataMart
+CategoryQuery.value.etl=Transformación
+CategoryQuery.value.bi=BI
+CategoryQuery.value.report=Reporte
+CategoryQuery.value.olap=OLAP
+
+CategoryQuery.option.searchin=Buscar en
+CategoryQuery.param.searchin.name=Nombre
+CategoryQuery.param.searchin.attr.definition=Definición
+CategoryQuery.param.searchin.attr.description=Descripción
+CategoryQuery.category.technicalglossary=Glosario Técnico

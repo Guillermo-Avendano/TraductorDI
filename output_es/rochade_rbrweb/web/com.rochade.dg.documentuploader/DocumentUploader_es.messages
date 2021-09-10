@@ -1,0 +1,39 @@
+﻿# metaGlossary - Message file
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+# package: com.rochade.dg.documentuploader
+#
+#-------------------------------------------------------
+
+### Icons: all images should be inside of dir /com.rochade.dg.documentuploader/ + img/, see plugin.xml
+
+#extra icons
+### END Icons
+
+dg_AddExternalDoc.dialogheader=Agregar Documentos Externos
+dg_AddExternalDoc.caption1=Seleccionar Origen
+dg_AddExternalDoc.caption2=Url
+dg_AddExternalDoc.caption3=Archivo
+dg_AddExternalDoc.caption4=Documento Externo
+dg_AddExternalDoc.radio1=Url
+dg_AddExternalDoc.radio2=Archivo
+#dg_AddExternalDoc.addinglossary=en glosario:
+dg_AddExternalDoc.defaultName.URL={0}-URL{1}
+dg_AddExternalDoc.defaultName.Doc={0}-{1}
+#0: item type label, 1: term name
+dg_AddExternalDoc.defaultDef=Documentación para {0} {1}
+dg_AddExternalDoc.newDef=Documentación para nuevo {0}
+#dg_AddExternalDoc.name=Nombre:
+#dg_AddExternalDoc.emptyName=El nombre del Documento no puede ser vacio.
+dg_AddExternalDoc.emptyDef=Definición no puede ser vacia
+dg_AddExternalDoc.emptyURL=URL no puede ser vacio.
+dg_AddExternalDoc.invalidURL=URL inválido: {0}
+dg_AddExternalDoc.emptyStream=Por favor, cargar un archivo.
+dg_AddExternalDoc.button.addterms=Agregar
+dg_AddExternalDoc.button.cancel=Cancelar
+dg_AddExternalDoc.button.upload=Subir
+
+dg_AddExternalDoc.error.text.refdoccreateItem=No puede crear documento de referencia {0}. {1}
+dg_AddExternalDoc.warn.uploadExceedSizeLimit=No puede cargar el archivo, porque porque excede el tamano máximo del archivo en {0} Kbytes.

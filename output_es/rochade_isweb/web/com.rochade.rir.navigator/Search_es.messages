@@ -1,0 +1,59 @@
+﻿# Rochade Platform - Message file
+# This is an UTF-8 (with BOM) encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+# Language: English
+#-------------------------------------------------------
+metapp.is.title=Buscar
+# official product title (not to be translated)
+metapp.is.productTitle=ASG-Enterprise Data Intelligence™ Index Search
+
+#extra icons
+### END Icons
+
+SolrSearch.title=Buscar
+SolrSearch.configure=Configurar Búsqueda
+SolrSearch.addtitle=Agregar Parámetros de Búsqueda
+SolrSearch.addsubtitle=Agregar ficha actual a la lista de búsqueda.
+SolrSearch.edittitle=Editar parámetro de Búsqueda
+SolrSearch.editsubtitle=Editar la etiqueta del parámetro de búsqueda.
+SolrSearch.showDetailsTitle=Detalles de Búsqueda
+SolrSearch.showDetailsSubtitle=Mostrar detalles de las entrada en búsqueda.
+SolrSearch.enterlabel=Introduzca una etiqueta para la entrada de búsqueda:
+SolrSearch.context=La información de contexto de esta entrada de búsqueda es:
+SolrSearch.addButton=Agregar
+SolrSearch.okButton=Aceptar
+SolrSearch.cancelButton=Cancelar
+SolrSearch.enter=Aceptar/Agregar (<Enter>)
+SolrSearch.esc=Cancelar (<Esc>)
+SolrSearch.warningctx=Advertencia: ya existe un parámetro de búsqueda con esta información de contexto.
+SolrSearch.errtitle=Error: Un parámetro de búsqueda con esta etiqueta ya existe. Especifique otra etiqueta.
+SolrSearch.conftitle=Configurar Parámetros de Búsqueda
+SolrSearch.confsubtitle=Editar, eliminar y cambiar el orden de los parámetros de búsqueda.
+SolrSearch.visible=Visible
+SolrSearch.label=Parámetros de búsqueda
+SolrSearch.up=Arriba
+SolrSearch.down=Abajo
+SolrSearch.top=Parte superior
+SolrSearch.bottom=Inferior
+SolrSearch.edit=Editar
+SolrSearch.add=Agregar
+SolrSearch.delete=Borrar
+SolrSearch.confirmtitle=Confirmar eliminación
+SolrSearch.confirmmsg=Confirmar la eliminación del parámetro de búsqueda: {0}
+SolrSearch.confirmmsg.multi=Confirmar la eliminación de {0} parámetros de búsqueda.
+SolrSearch.theLabelIs=La etiqueta para el parámetro de búsqueda es:
+
+
+SolrSearchConf.addParam=Agregar
+SolrSearchConf.paramName=Nombre
+SolrSearchConf.paramValue=Valor
+
+SolrSearch.load=Cargar nuevos parámetros de búsqueda de aplicación
+SolrSearch.load.tip=Cargar nuevos parámetros de búsqueda de aplicación
+
+SolrSearch.load.confirm.title=Cargar nueva lista de parámetros de búsqueda
+
+SolrSearch.facetName=Nombre
+SolrSearch.facetCount=Contar

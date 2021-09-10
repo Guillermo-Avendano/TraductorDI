@@ -1,0 +1,22 @@
+﻿# metaGlossary - Message file
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+PrefMultiLingual.title=Contenido Multi-Idioma
+PrefMultiLingual.Default.Language=Seleccionar el idioma de trabajo:
+PrefMultiLingual.Default.Language.Label=(Predeterminado)
+PrefMultiLingual.reset.Language=Cambio del idioma de trabajo entra en vigor después de re-inicio de sesión.
+
+#PrefMLWarnIcon.label=Mostrar icono de advertencia para los nombres de términos no traducidos
+PrefMLWarnIcon.label=Mostrar advertencias para los contenidos multi-idiomas faltantes
+
+
+PrefMultiLingual.AvailableLanguage.title=Especificar los idiomas adicionales:
+PrefMultiLingual.AvailableLanguage.Language=Seleccionable
+PrefMultiLingual.AvailableLanguage.VisibleViews=Visibles en las vistas
+PrefMultiLingual.AvailableLanguage.VisibleList=Visibles en las listas
+
+Preferences.tooltipM=Multi-Language Settings

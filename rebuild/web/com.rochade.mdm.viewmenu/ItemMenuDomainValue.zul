@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page id="start" title="MDM" contentType="text/html;charset=UTF-8"?>
+<!-- 
+	@author HC 17/07/2011, created
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 	
+-->
+<hlayout use="com.rochade.wa.ui.viewmenu.ViewMenu">
+	<menubar style="background:none; border:none">
+		<menu actionId="VD_ShowColumns" visibleCondition="true">
+			<menupopup use="com.rochade.mdm.viewmenu.VDomainsColumnViewMenu" />
+		</menu>
+	</menubar>
+</hlayout>

@@ -1,0 +1,22 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+sorlSearch.tabname=Pesquisa
+sorlSearch.tabname.result=Resultado da Pesquisa
+sorlSearch.title=Pesquisa
+sorlSearch.searchAll=Todos
+sorlSearch.button.search=Pesquisar
+solrSearch.msg.search.busy=Executar pesquisa...
+solrSearch.footer=Itens encontrados: {0}
+
+solrSearch.defLayout.load.error=Preferência padrão do layout de pesquisa não foi encontrado ou definido
+solrSearch.defSearchMode.load=Nenhum modo de pesquisa definido nas prederências globais. Modo de pesquisa simples definido.
+solrSearch.tab.tooltip={0} na frase "{1}"
+solrSearch.queriesUndef=As consultas de pesquisa não estão definidas para realizar a pesquisa de frases "{0}" na aplicação de código {1}
+solrSearch.queries.empty=As consultas de pesquisa não estão configuradas corretamente. Por favor, verifique a conexão com o servidor de pesquisa.
+

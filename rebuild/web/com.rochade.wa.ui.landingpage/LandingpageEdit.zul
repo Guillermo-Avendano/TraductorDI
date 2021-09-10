@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="Item View" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<!-- 
+	@author HO 05/10/2010, created
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+<zk>
+<window width="700px" height="500px" border="normal" apply="com.rochade.wa.ui.landingpage.LandingpageEditComposer" sclass="asg-configure-portal">
+	<borderlayout>
+		<north>	
+			<hbox width="100%" widths="80%,20%" sclass="field0" >
+				<vbox style="padding:5px">
+					<div   id="headerTitle" width="100%"/> 
+					<label value="${wtb:l('Landingpage.subtitle')}"/>
+				</vbox>
+				<vbox width="100%" align="end">
+					<image id="imgWizard" src="${wtb:getImg('Landingpage.img.wizard')}"  height="${wtb:l('img.height.wizard')}"/>
+				</vbox>
+			</hbox>
+		</north>
+    	<center autoscroll="true">
+	    	<borderlayout>
+		    	<west width="175px" sclass="z-tree">
+		    	
+			    <tree id="tree" >
+			      	<treechildren id="treeChildren" />
+			    </tree>
+			    </west>
+			    <center sclass="z-center field1">
+			      <div id="divPanels" style="padding:5px"/>
+			    </center>
+		    </borderlayout>
+	     </center>	
+		 <south height="35px" class="field1" >
+		 	<hbox width="100%" widths="80%,10%,10%" style="padding:5px">
+				<button width="150px" id="btnRestore" tooltiptext="${wtb:l('Landingpage.restore.tip')}" label="${wtb:l('Landingpage.restore')}"/>
+				<button width="100px" id="btnOk" tooltiptext="${wtb:l('Landingpage.enter')}"  label="${wtb:l('Landingpage.ok')}"/>
+				<button width="100px" id="btnCancel" tooltiptext="${wtb:l('Landingpage.esc')}" label="${wtb:l('Landingpage.cancel')}"/>
+			</hbox>
+    	</south>		 	 
+    </borderlayout>
+</window>
+</zk>

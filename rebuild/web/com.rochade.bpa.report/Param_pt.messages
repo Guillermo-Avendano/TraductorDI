@@ -1,0 +1,23 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#
+#-------------------------------------------------------
+# specific parms
+
+bpaLCCompDate=Data de Comparação
+bpaLCCompType=Tipo de Comparação
+bpaLCCompTypeWP=WIP versus Produção
+bpaLCCompTypeSP=Produção contra Snapshot
+bpaLCCompTypeSS=Snapshot contra Snapshot
+bpaLCDirection=Direção
+bpaLCDirectionForward=Avançar
+bpaLCDirectionBackward=Retornar
+bpaLCDirectionAll=Todos
+bpaLCMask=Máscara
+bpaLCMaskOverview=Resumo
+bpaLCMaskComplete=Completar
+bpaLCMaskAll=Todos

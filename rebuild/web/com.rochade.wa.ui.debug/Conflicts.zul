@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page contentType="text/html;charset=UTF-8"?>
+<?taglib uri="http://www.zkoss.org/dsp/web/core" prefix="c" ?>
+<!-- 
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+<window border="none" apply="com.rochade.wa.ui.debug.ConflictComposer">
+	 <hbox id="header" style="padding:5px;" width="100%" widths="80%,20%">
+		<div id="headerTitle" width="100%"/>
+	 </hbox>
+	 <!-- 
+   	 <div width="100%" vflex="1">
+	 	 <listbox id="lbConflicts" vflex="1" hflex="1">
+			<listhead id="lbHead" sizable="true">
+				<listheader width="30%" label="${wtb:l('Debug.queryid')}"/>
+	 			<listheader width="20%" label="${wtb:l('Debug.querylabel')}"/>
+				<listheader width="50%" label="${wtb:l('Debug.querydef')}"/>
+	 		</listhead>
+	 	 </listbox>
+ 	 </div>
+ 	 -->
+</window>

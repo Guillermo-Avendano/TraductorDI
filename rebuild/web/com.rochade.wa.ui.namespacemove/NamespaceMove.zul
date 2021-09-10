@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page id="start" title="WTB" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<!-- 
+	@author SA 21/09/2010, created
+	@version 1.00.001
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+<window apply="com.rochade.wa.ui.namespacemove.NamespaceMoveComposer"
+	border="normal">
+	<borderlayout>
+		<north style="border: 0px; padding: 5px;">
+			<div>
+				<vbox id="movens_header" height="60px" spacing="1em">
+					<label sclass="asg-title-label"
+						value="${wtb:l('NamespaceMove.header')}" />
+					<hbox width="100%" >
+						<space spacing="10px" />
+						<label value="${wtb:l('NamespaceMove.desc')}" />
+						<image />
+					</hbox>
+				</vbox>
+				<vbox id="finish_header" height="60px" spacing="1em"
+					visible="false">
+					<label sclass="asg-title-label"
+						value="${wtb:l('NamespaceMove.summary')}" />
+					<hbox width="100%">
+						<space spacing="10px" />
+						<label
+							value="${wtb:l('NamespaceMove.summarydesc')}" />
+						<image />
+					</hbox>
+				</vbox>
+				<separator bar="true" />
+				<!--  display of subject area and namespace -->
+				<vbox id="namespace" height="50px" width="100%"
+					spacing="1em">
+					<vbox height="100%" spacing="0">
+						<hbox width="100%">
+							<space spacing="30px" />
+							<label width="100%"
+								value="${wtb:l('NamespaceMove.currappl')}" />
+						</hbox>
+						<hbox width="100%">
+							<space spacing="10px" />
+							<image id="imgsa" src="${wtb:getImg('NamespaceMove.img.subjectarea')}"/>
+							<label id="lsubjectarea" />
+						</hbox>
+					</vbox>
+					<vbox height="100%" spacing="0">
+						<hbox width="100%" >
+							<space spacing="25px" />
+							<label width="100%" id="lnamespace" />
+						</hbox>
+						<hbox width="100%">
+							<space spacing="10px" />
+							<image id="imgns" src="${wtb:getImg('NamespaceMove.img.scope')}"/>
+							<label id="ns_itemtype" />
+							<space spacing="3px" />
+							<label id="ns_name" />
+						</hbox>
+					</vbox>
+				</vbox>
+				<separator id="sep1" bar="true" />
+			</div>
+		</north>
+		<center style="border: 0px; padding: 5px;">
+			<div>
+				<vbox id="movens_" height="120px" spacing="1em">
+ 						<hbox>
+							<space spacing="10px" />
+							<radiogroup id="rdnamespace">
+								<radio id="rootns"
+									label="${wtb:l('NamespaceMove.rootns')}" />
+								<space spacing="20px" />
+								<radio id="itemns"
+									label="${wtb:l('NamespaceMove.itemns')}" />
+							</radiogroup>
+						</hbox>
+						<hbox>
+							<space spacing="10px" />
+							<label
+								value="${wtb:l('NamespaceMove.newns')}" />
+						</hbox>
+						<hbox>
+							<space spacing="10px" />
+							<textbox id="tbnewns" width="300px"
+								readonly="true" />
+							<button width="80px" id="changeButton"
+								label="${wtb:l('NamespaceMove.changebutton')}"
+								tooltiptext="${wtb:l('NamespaceMove.altC')}" />
+						</hbox>
+ 				</vbox>
+				<vbox id="finish_" height="170px" spacing="1em"
+					visible="false">
+ 						<hbox>
+							<space spacing="20px" />
+							<label
+								value="${wtb:l('NamespaceMove.items')}" />
+						</hbox>
+						<hbox >
+							<space spacing="10px" />
+							<listbox height="130px" id="lbfinallist"
+								rows="10" width="380px" context="none">
+								<listhead>
+									<listheader width="30px" />
+									<listheader width="100px" />
+								</listhead>
+							</listbox>
+						</hbox>
+						<hbox>
+							<space spacing="20px" />
+							<label
+								value="${wtb:l('NamespaceMove.moved')}" />
+						</hbox>
+						<hbox>
+							<space spacing="10px" />
+							<image id="imgitem" src="${wtb:getImg('NamespaceMove.img.item')}"/>
+							<label id="lnsitemtype" />
+							<space spacing="10px" />
+							<label id="lnsitemname" />
+						</hbox>
+						<hbox>
+							<space spacing="20px" />
+							<combobox id="lbnsattrs" width="230px" readonly="true" popupWidth="100%"/>
+						</hbox>
+					</vbox>
+ 			</div>
+		</center>
+		<south style="border: 0px; padding: 5px;">
+			<div vflex="1">
+				<separator bar="true" />
+				<separator />
+				<hbox pack="end" width="100%">
+					<button width="80px" id="backButton"
+						label="${wtb:l('NamespaceMove.backbutton')}"
+						tooltiptext="${wtb:l('NamespaceMove.altB')}" disabled="true" />
+					<button width="80px" id="nextButton"
+						label="${wtb:l('NamespaceMove.nextbutton')}"
+						tooltiptext="${wtb:l('NamespaceMove.altN')}" />
+					<button width="80px" id="finishButton"
+						disabled="true" label="${wtb:l('NamespaceMove.finishbutton')}"
+						tooltiptext="${wtb:l('NamespaceMove.enter')}" />
+					<button width="75px" id="cancelButton"
+						label="${wtb:l('NamespaceMove.cancelbutton')}"
+						tooltiptext="${wtb:l('NamespaceMove.esc')}" />
+				</hbox>
+				<separator />
+			</div>
+		</south>
+	</borderlayout>
+</window>

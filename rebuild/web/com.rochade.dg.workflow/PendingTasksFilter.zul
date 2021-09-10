@@ -1,0 +1,55 @@
+<?page title="Pending Tasks" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="http://www.zkoss.org/dsp/web/core" prefix="c" ?>
+<?init class="org.zkoss.zkplus.databind.AnnotateDataBinderInit" arg0="win" ?>
+<!-- 
+	Filter Dialog for Pending Task Search
+	@author YO, 20090508, created
+	@version 1.00.001
+-->
+<!-- Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. -->
+<zk>
+	<window id="win" title="" border="normal" width="610px" maximizable="false" minimizable="false" closable="false" sclass="asg-search-open-tasks"
+		 apply="com.rochade.dg.workflow.FilterComposer">
+		<caption image="${wtb:getImg('workflow.img.search')}" label="${wtb:l('dg_PendingTasksFilter.windowheader')}"/>
+		<panel>
+			<panelchildren style="background:transparent; padding:5px;">
+				<grid sclass="asg-grid" fixedLayout="true"
+					style="border:0px; background:transparent; padding:5px;">
+					<columns style="border:1px">
+						<column valign="middle"
+							style="background:transparent" align="right" hflex="1" />
+						<column valign="middle" hflex="3" 
+							style="background:transparent"  />
+					</columns>
+					<rows>
+						<row style="padding-right: 19px;">
+							<label
+								value="${wtb:l('dg_TasksFilter.searchIn')}" />
+							<combobox  
+								id="GlossaryFilter" width="100%" focus="true"
+								readonly="true" 
+								forward="onOK=searchBusinessTermMain.onSearch" popupWidth="100%"/>
+						</row>
+						<row spans="2" align="right"
+							style="background:transparent; padding:10px 0px 0px 0px;">
+							<div align="right" style="padding:3px;" >
+							<button id="btOK"
+								label="${wtb:l('dg_PendingTasksFilter.button.search')}" image=""
+								style="margin: 0px 10px 0px 0px;">
+								<attribute name="onClick">
+  										Clients.showBusy(busyMsg.getValue());
+  										Events.echoEvent("onOK", win, null);
+   								</attribute>
+   							</button>
+   							<label id="busyMsg" visible="false" value="${wtb:l('dg_DialogAll.msg.search.busy')}"/>
+   							<button id="btCancel"
+								label="${wtb:l('dg_PendingTasksFilter.button.cancel')}" image=""
+								forward="onClick=onCancelClicked" />
+							</div>	
+						</row>
+					</rows>
+				</grid>
+			</panelchildren>
+		</panel>
+	</window>
+</zk>

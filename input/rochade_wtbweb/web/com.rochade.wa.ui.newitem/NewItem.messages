@@ -1,0 +1,56 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.wa.ui.item
+#
+### Icons: all images should be inside of dir /com.rochade.wa.ui.newitem/ + img/, see plugin.xml
+
+#extra icons
+NewItem.img.item=/com.rochade.wa.ui.newitem/img/Item.gif
+NewItem.img.scope=/com.rochade.wa.ui.newitem/img/scope.gif
+NewItem.img.subjectarea=/com.rochade.wa.ui.newitem/img/subjectarea.gif
+### END Icons
+
+#TODO: who uses this ?
+#NewItem.icon_item=Item.gif
+NewItem.name=Name
+NewItem.type=Type
+
+NewItem.currappl=Current subject area:
+NewItem.curnamespace=Current namespace:
+NewItem.nsheader=Namespace Item
+NewItem.nsdesc=Select the namespace item for the new item
+NewItem.rootns=Use root as namespace
+NewItem.itemns=Use an item as namespace
+NewItem.newns=New namespace:
+NewItem.backbutton=< Back 
+NewItem.nextbutton=Next > 
+NewItem.finishbutton=Finish 
+NewItem.cancelbutton=Cancel 
+NewItem.changebutton=Change... 
+NewItem.enter=<Enter>: Finish
+NewItem.altB=Alt-B: Back 
+NewItem.altN=Alt-N: Next
+NewItem.esc=<Esc>: Cancel
+NewItem.alreadyexists={0} Item already exists.
+NewItem.info=Item name must not be empty.
+NewItem.seltype=Type Selection
+NewItem.selitem=Select the item type for the new item.
+NewItem.title=New Item
+NewItem.label=New item:
+NewItem.created=The new item is now created.
+NewItem.name=Item Name
+NewItem.type=Item type:
+NewItem.create=Create a new item.
+NewItem.newname=New item name:
+NewItem.inititem=Initialize item content
+NewItem.openeditor=Open created item in editor
+NewItem.unclassified=unclassified namespace member
+NewItem.attribute=Attribute:
+NewItem.errCreate=Error creating the item.

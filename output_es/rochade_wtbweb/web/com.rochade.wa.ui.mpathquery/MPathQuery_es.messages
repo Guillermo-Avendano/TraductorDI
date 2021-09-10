@@ -1,0 +1,53 @@
+﻿# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.wa.ui.mpathquery
+#
+### Icons: all images should be inside of dir /com.rochade.wa.ui.mpathquery/ + img/, see plugin.xml
+
+#extra icons
+### END Icons
+
+MPathQuery.title=Seleccione una ruta de consulta
+MPathQuery.select=Seleccione una consulta para ejecutar.
+MPathQuery.pathquery=Consulta ruta
+MPathQuery.owner=Propietario:
+MPathQuery.myQueries=Mis Consultas
+MPathQuery.allQueries=Todos las consultas
+MPathQuery.format=Formato:
+MPathQuery.allFormats=Todos los Formatos
+MPathQuery.maskablePaths=Rutas con máscara
+MPathQuery.nonmaskablePaths=Rutas no enmascarables
+MPathQuery.filter=Nombre del filtro de la ruta:
+MPathQuery.refresh=Refrescar
+MPathQuery.queryPaths=Rutas de consulta:
+MPathQuery.name=Nombre
+MPathQuery.description=Descripción
+MPathQuery.masks=Máscaras
+MPathQuery.depth=Profundidad
+MPathQuery.runSettings=Ejecutar Configuraciones:
+MPathQuery.property=Propiedad
+MPathQuery.value=Valor
+MPathQuery.preserve=Preservar ajustes
+MPathQuery.runButton=Ejecutar
+MPathQuery.cancelButton=Cancelar
+MPathQuery.noqueries=No hay consultas de ruta disponibles
+MPathQuery.information=Información
+
+# tooltips
+
+MPathQuery.altO=Propietario de la consulta (Alt-O)
+MPathQuery.altM=Formato de consulta: consultas ruta enmascarables/no-enmascarables (Alt-M)
+MPathQuery.altF=Filtrado del nombre físico de la consulta (Alt-F)
+MPathQuery.altQ=Seleccionar de la lista de consultas disponibles (Alt-Q)
+MPathQuery.altE=Refrescar (Alt-E)
+MPathQuery.altS=Ejecutar Configuraciones (Alt-S)
+MPathQuery.altL=Limite del resultado de la consulta (Alt-L)
+MPathQuery.altP=Preservar configuraciones (Alt-P)
+MPathQuery.enter=Ejecutar consulta (Alt-R, <enter>)
+MPathQuery.esc=Cancelar (<Esc>)

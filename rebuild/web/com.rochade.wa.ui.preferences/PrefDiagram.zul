@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="Diagram Preferences" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<!-- 
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+<window height="100%" apply="com.rochade.wa.ui.preferences.PrefDiagramComposer" style="Background: transparent" sclass="asg-diagram-pref-dialog">
+
+ 	<grid width="100%" sclass="asg-tab-content-div" style="border:0px; background:transparent">
+ 		<columns>
+	 		<column width="40%"></column>
+	 		<column width="40%" ></column>
+ 			<column width="20%" ></column>
+ 		</columns>
+ 		<rows>
+ 		
+<!-- (Technical) Lineage Diagram settings -->
+
+ 			<row height="24px" style="background:transparent; border:0px; padding:0px; padding-top:5px; line-height: 16px">
+	 			<cell colspan="3" style="padding:0px">
+					<label sclass="asg-subtitle-label" value="${wtb:l('PrefDiagram.tlDiagram')}" />
+					<separator bar="true" orient="horizontal"/>
+ 				</cell>
+ 			</row>
+ 			<row height="24px" style="background:transparent; border:0px; padding:0px">
+	 			<cell style="padding:0px">
+					<label value="${wtb:l('PrefDiagram.tlDiagram.maxNodes.lbl')}" tooltiptext="${wtb:l('PrefDiagram.tlDiagram.maxNodes.tip')}" />
+				</cell>
+				<intbox id="tbTldMaxNodes" width="100%" />
+				<label/>
+ 			</row>
+ 			<row height="24px" style="background:transparent; border:0px; padding:0px">
+	 			<cell style="padding:0px">
+					<label value="${wtb:l('PrefDiagram.tlDiagram.maxChildNodes.lbl')}" tooltiptext="${wtb:l('PrefDiagram.tlDiagram.maxChildNodes.tip')}" />
+				</cell>
+				<intbox id="tbTldMaxChildNodes" width="100%" />
+				<label/>
+ 			</row>
+            <row height="24px" style="background:transparent; border:0px; padding:0px">
+                <cell style="padding:0px" colspan="2">
+                    <checkbox id="cbTldSortNodes" label="${wtb:l('PrefDiagram.tlDiagram.sortNodes.lbl')}" tooltiptext="${wtb:l('PrefDiagram.tlDiagram.sortNodes.tip')}" />
+                </cell>
+                <label/>
+            </row>
+            <row height="24px" style="background:transparent; border:0px; padding:0px">
+                <cell style="padding:0px" colspan="2">
+                    <checkbox id="cbTldSortNodesCI" label="${wtb:l('PrefDiagram.tlDiagram.sortNodesCI.lbl')}" tooltiptext="${wtb:l('PrefDiagram.tlDiagram.sortNodesCI.tip')}" />
+                </cell>
+                <label/>
+            </row>
+ 			<row height="24px" style="background:transparent; border:0px; padding:0px">
+	 			<cell style="padding:0px" colspan="2">
+					<checkbox id="cbTldSplitByHeader" label="${wtb:l('PrefDiagram.tlDiagram.splitByHeader.lbl')}" tooltiptext="${wtb:l('PrefDiagram.tlDiagram.splitByHeader.tip')}" />
+				</cell>
+				<label/>
+ 			</row>
+ 		
+<!-- 		
+ 			<row height="24px" style="background:transparent; border:0px; padding:0px">
+	 			<cell colspan="3" style="padding:0px">
+					<label sclass="asg-subtitle-label" value="${wtb:l('PrefDiagram.limitations')}"/>
+					<separator bar="true" orient="horizontal"/>
+ 				</cell>
+ 			</row>
+ 			<row height="24px" style="background:transparent; border:0px; padding:0px">
+	 			<cell style="padding:0px">
+					<label value="${wtb:l('PrefDiagram.maxobjects')}" tooltiptext="${wtb:l('PrefDiagram.maxobjects')}"></label>
+				</cell>
+				<combobox id="lbMaxObjects" width="100%" readonly="true" popupWidth="100%"/>
+				<label/>
+ 			</row>
+ -->	
+ 			<row height="24px" style="background:transparent; border:0px; padding:0px; padding-top:5px; line-height: 16px">
+	 			<cell colspan="3" style="padding:0px; padding-top:5px">
+					<label sclass="asg-subtitle-label" value="${wtb:l('PrefDiagram.imgsizeheader')}"/>
+					<separator bar="true" orient="horizontal"/>
+ 				</cell>
+ 			</row>
+ 			<row height="24px" style="background:transparent; border:0px; padding:0px">
+	 			<cell style="padding:0px">
+					<label value="${wtb:l('PrefDiagram.maxheight')}" tooltiptext="${wtb:l('PrefDiagram.maxheight')}"></label>
+				</cell>
+	 			<combobox id="lbMaxHeight" width="100%" readonly="true" popupWidth="100%"/>
+				<label/>
+ 			</row>
+ 			<row height="24px" style="background:transparent; border:0px; padding:0px">
+	 			<cell style="padding:0px">
+					<label value="${wtb:l('PrefDiagram.maxwidth')}" tooltiptext="${wtb:l('PrefDiagram.maxwidth')}"></label>
+				</cell>
+				<combobox id="lbMaxWidth" width="100%" readonly="true" popupWidth="100%"/>
+				<label/>
+ 			</row>
+ 			<row height="24px" style="background:transparent; border:0px; padding:0px; padding-top:5px; line-height: 16px">
+	 			<cell colspan="3" style="padding:0px; padding-top:5px">
+					<label sclass="asg-subtitle-label" value="${wtb:l('PrefDiagram.graphattributes')}"/>
+					<separator bar="true" orient="horizontal"/>
+ 				</cell>
+ 			</row>
+ 			<row height="24px" style="background:transparent; border:0px; padding:0px">
+	 			<cell style="padding:0px">
+					<label value="${wtb:l('PrefDiagram.graphdirection')}" tooltiptext="${wtb:l('PrefDiagram.graphdirection')}"></label>
+				</cell>
+				<combobox id="lbGraphDirection" width="100%" readonly="true" popupWidth="100%"/>
+				<label/>
+ 			</row>
+ 			<row height="24px" style="background:transparent; border:0px; padding:0px">
+	 			<cell style="padding:0px">
+					<label value="${wtb:l('PrefDiagram.graphcolor')}" tooltiptext="${wtb:l('PrefDiagram.graphcolor')}"></label>
+				</cell>
+				<combobox id="lbGraphColor" width="100%" readonly="true" popupWidth="100%"/>
+				<label/>
+ 			</row>
+ 			<row height="24px" style="background:transparent; border:0px; padding:0px">
+ 				<cell colspan="2" style="padding:0px">
+					<checkbox id="cbDiagramMarkRoots" label="${wtb:l('PrefDiagram.markroots')}" tooltiptext="${wtb:l('PrefDiagram.markroots')}"></checkbox>
+				</cell>
+				<label/>
+ 			</row>
+ 			<row height="24px" style="background:transparent; border:0px; padding-top:5px; line-height: 16px">
+                <cell colspan="3" style="padding:0px; padding-top:5px">
+					<label sclass="asg-subtitle-label" value="${wtb:l('PrefDiagram.nodeattributes')}"/>
+					<separator bar="true" orient="horizontal"/>
+ 				</cell>
+ 			</row>
+ 			<row height="24px" style="background:transparent; border:0px; padding:0px">
+	 			<cell style="padding:0px">
+					<label value="${wtb:l('PrefDiagram.nodefontcolor')}" tooltiptext="${wtb:l('PrefDiagram.nodefontcolor')}"></label>
+				</cell>
+				<combobox id="lbNodeFontColor" width="100%" readonly="true" popupWidth="100%"/>
+				<label/>
+ 			</row>
+ 			<row height="24px" style="background:transparent; border:0px; padding:0px">
+	 			<cell style="padding:0px">
+					<label value="${wtb:l('PrefDiagram.nodefontnamesize')}" tooltiptext="${wtb:l('PrefDiagram.nodefontnamesize')}"></label>
+				</cell>
+				<combobox id="lbNodeFontName" width="100%" readonly="true" popupWidth="100%"/>
+				<combobox id="lbNodeFontSize" width="98%" readonly="true" popupWidth="100%"/>
+ 			</row>
+ 			<row height="24px" style="background:transparent; border:0px; padding:0px">
+	 			<cell style="padding:0px">
+					<label value="${wtb:l('PrefDiagram.nodeshapestyle')}" tooltiptext="${wtb:l('PrefDiagram.nodeshapestyle')}"></label>
+				</cell>
+				<combobox id="lbNodeShape" width="100%" readonly="true" popupWidth="100%"/>
+				<combobox id="lbNodeStyle" width="98%" readonly="true" popupWidth="100%"/>
+ 			</row>
+ 			<row height="24px" style="background:transparent; border:0px; padding:0px">
+	 			<cell style="padding:0px">
+					<label value="${wtb:l('PrefDiagram.nodebordercolor')}" tooltiptext="${wtb:l('PrefDiagram.nodebordercolor')}"></label>
+				</cell>
+				<combobox id="lbNodeBorderColor" width="100%" readonly="true" popupWidth="100%"/>
+				<label/>
+ 			</row>
+ 			<row height="24px" style="background:transparent; border:0px; padding:0px">
+	 			<cell style="padding:0px">
+					<label value="${wtb:l('PrefDiagram.nodefillcolor')}" tooltiptext="${wtb:l('PrefDiagram.nodefillcolor')}"></label>
+				</cell>
+				<combobox id="lbNodeFillColor" width="100%" readonly="true" popupWidth="100%"/>
+				<label/>
+ 			</row>
+ 			<row height="24px" style="background:transparent; border:0px; padding:0px">
+	 			<cell style="padding:0px">
+					<label value="${wtb:l('PrefDiagram.iestretch')}"/>
+				</cell>
+	 			<cell colspan="2" style="padding:0px">
+					<slider id="slIestretch" width="98%" mold="sphere" minpos="0" maxpos="80"/>
+				</cell>
+ 			</row>
+ 			<row height="24px" style="background:transparent; border:0px; padding:0px; padding-top:5px; line-height: 16px">
+	 			<cell colspan="3" style="padding:0px; padding-top:5px">
+					<label sclass="asg-subtitle-label" value="${wtb:l('PrefDiagram.edgeattributes')}"/>
+					<separator bar="true" orient="horizontal"/>
+ 				</cell>
+ 			</row>
+ 			<row height="24px" style="background:transparent; border:0px; padding:0px">
+	 			<cell style="padding:0px">
+					<label value="${wtb:l('PrefDiagram.edgefontcolor')}" tooltiptext="${wtb:l('PrefDiagram.edgefontcolor')}"></label>
+				</cell>
+				<combobox id="lbEdgeFontColor" width="100%" readonly="true" popupWidth="100%"/>
+				<label/>
+ 			</row>
+ 			<row height="24px" style="background:transparent; border:0px; padding:0px">
+	 			<cell style="padding:0px">
+					<label value="${wtb:l('PrefDiagram.edgefontnamesize')}" tooltiptext="${wtb:l('PrefDiagram.edgefontnamesize')}"></label>
+				</cell>
+				<combobox id="lbEdgeFontName" width="100%" readonly="true" popupWidth="100%"/>
+				<combobox id="lbEdgeFontSize" width="98%" readonly="true" popupWidth="100%"/>
+ 			</row>
+ 			<row height="24px" style="background:transparent; border:0px; padding:0px">
+	 			<cell style="padding:0px">
+					<label value="${wtb:l('PrefDiagram.edgecolor')}" tooltiptext="${wtb:l('PrefDiagram.edgecolor')}"></label>
+				</cell>
+				<combobox id="lbEdgeColor" width="100%" readonly="true" popupWidth="100%"/>
+				<label/>
+ 			</row>
+ 			<row height="24px" style="background:transparent; border:0px; padding:0px">
+ 				<cell colspan="3" style="padding:0px">
+					<checkbox id="cbShowAttr" label="${wtb:l('PrefDiagram.graphshowattr')}" tooltiptext="${wtb:l('PrefDiagram.graphshowattr')}"/>
+	 			</cell>
+ 			</row>
+ 			<row height="24px" style="background:transparent; border:0px; padding:0px">
+	 			<cell colspan="3" style="padding:0px">
+					<checkbox id="cbShowInfo" label="${wtb:l('PrefDiagram.graphshowinfo')}" tooltiptext="${wtb:l('PrefDiagram.graphshowinfo')}"/>
+ 				</cell>
+ 			</row>
+            <row height="24px" style="background:transparent; border:0px; padding:0px">
+                <cell style="padding:0px">
+                    <label value="${wtb:l('PrefDiagram.lookupMode.lbl')}" tooltiptext="${wtb:l('PrefDiagram.lookupMode.tip')}" />
+                </cell>
+                <combobox id="cbxLookupMode" width="100%" readonly="true" popupWidth="100%"/>
+                <label />
+            </row>
+            <row height="24px" style="background:transparent; border:0px; padding:0px; padding-top:5px; line-height: 16px">
+                <cell colspan="3" style="padding:0px; padding-top:5px">
+                    <label sclass="asg-subtitle-label" value="${wtb:l('PrefDiagram.mapdetails')}"/>
+                    <separator bar="true" orient="horizontal"/>
+                </cell>
+            </row>
+            <row height="24px" style="background:transparent; border:0px; padding:0px">
+                <cell colspan="3" style="padding:0px">
+                    <checkbox id="cbMapDetailsMaps" label="${wtb:l('PrefDiagram.mapDetails.maps.lbl')}" tooltiptext="${wtb:l('PrefDiagram.mapDetails.maps.tip')}"/>
+                </cell>
+            </row>
+            <row height="24px" style="background:transparent; border:0px; padding:0px">
+                <cell style="padding:0px">
+                    <label value="${wtb:l('PrefDiagram.mapDetails.tfm.lbl')}" tooltiptext="${wtb:l('PrefDiagram.mapDetails.tfm.tip')}" />
+                </cell>
+                <combobox id="cbxShowMapDetailsTfm" width="100%" readonly="true" popupWidth="100%"/>
+                <label />
+            </row>
+<!--             <row height="24px" style="background:transparent; border:0px; padding:0px"> -->
+<!--                 <cell colspan="3" style="padding:0px"> -->
+<!--                     <checkbox id="cbMapDetailsTfm" label="${wtb:l('PrefDiagram.mapDetails.tfm.lbl')}" tooltiptext="${wtb:l('PrefDiagram.mapDetails.tfm.tip')}"/> -->
+<!--                 </cell> -->
+<!--             </row> -->
+<!--             <row height="24px" style="background:transparent; border:0px; padding:0px"> -->
+<!--                 <cell colspan="3" style="padding:0px"> -->
+<!--                     <checkbox id="cbMapDetailsTfmi" label="${wtb:l('PrefDiagram.mapDetails.tfmi.lbl')}" tooltiptext="${wtb:l('PrefDiagram.mapDetails.tfmi.tip')}"/> -->
+<!--                 </cell> -->
+<!--             </row> -->
+            <row height="24px" style="background:transparent; border:0px; padding:0px">
+                <cell colspan="3" style="padding:0px">
+                    <checkbox id="cbMapDetailsSti" label="${wtb:l('PrefDiagram.mapDetails.sti.lbl')}" tooltiptext="${wtb:l('PrefDiagram.mapDetails.sti.tip')}"/>
+                </cell>
+            </row>
+            <row height="24px" style="background:transparent; border:0px; padding:0px; padding-top:5px; line-height: 16px">
+                <cell colspan="3" style="padding:0px; padding-top:5px">
+                    <label sclass="asg-subtitle-label" value="${wtb:l('PrefDiagram.routes')}"/>
+                    <separator bar="true" orient="horizontal"/>
+                </cell>
+            </row>
+            <row height="24px" style="background:transparent; border:0px; padding:0px">
+                <cell style="padding:0px">
+                    <label value="${wtb:l('PrefDiagram.routeSelectionMode.lbl')}" tooltiptext="${wtb:l('PrefDiagram.routeSelectionMode.tip')}" />
+                </cell>
+                <combobox id="cbxRouteSelectionMode" width="100%" readonly="true" popupWidth="100%"/>
+                <label />
+            </row>
+            <row height="24px" style="background:transparent; border:0px; padding:0px">
+                <cell colspan="3" style="padding:0px">
+                    <checkbox id="cbShowRoutes" label="${wtb:l('PrefDiagram.showRoutes.lbl')}" tooltiptext="${wtb:l('PrefDiagram.showRoutes.tip')}"/>
+                </cell>
+            </row>
+ 		</rows>
+ 	</grid>
+</window>

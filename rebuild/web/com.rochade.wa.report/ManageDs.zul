@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page id="start" title="WTB" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<!-- 
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+<window apply="com.rochade.wa.report.ManageDsComposer" contentStyle="overflow:auto;" border="normal" width="790px" sclass="asg-query-param">
+	<hbox width="100%" widths="80%,20%" sclass="field0" >
+		<vbox style="padding:5px">
+			<div   id="headerTitle" width="100%"/> 
+			<label id="lblTitle"/>
+		</vbox>
+		<vbox width="100%" align="end">
+			<image id="imgWizard" src="${wtb:getImg('DsDesigner.img.wizard')}"  height="${wtb:l('img.height.wizard')}"/>
+		</vbox>
+	</hbox>
+	<div>
+		<hbox style="padding: 4px 5px;">
+	       	<listbox id="listboxDs" seltype="single" mold="paging" pageSize="5"> 
+				<listhead sizable="true">
+					<listheader width="39%" label="${wtb:l('ManageDs.name')}" sort="auto" sortDirection="ascending"/>
+					<listheader width="9%" label="${wtb:l('ManageDs.type')}" />
+					<listheader width="39%" label="${wtb:l('ManageDs.reports')}" />
+					<listheader width="13%"  label="" />
+				</listhead>
+			</listbox>
+		</hbox>
+		<hbox height="50px" width="100%" align="center" pack="end" style="padding: 4px 5px; background-color: #fff">
+			<button width="120px" id="cancelButton" label="${wtb:l('DsDesigner.cancelButton')}" tooltiptext="${wtb:l('DsDesigner.esc')}" />
+		</hbox>	
+	</div>	
+</window>

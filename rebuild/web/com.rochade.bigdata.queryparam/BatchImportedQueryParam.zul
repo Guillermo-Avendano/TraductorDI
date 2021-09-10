@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page id="start" title="WTB" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<!-- 
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+<window apply="com.rochade.bigdata.queryparam.landingzone.BatchImportedQueryParamComposer" border="normal" width="855px" height="620px" sclass="asg-big-data-dialogs">
+
+<borderlayout>
+	<north>	
+		<hbox width="100%" widths="80%,20%" sclass="field0" >
+			<vbox style="padding:5px">
+				<div   id="headerTitle" width="100%"/> 
+				<label value="${wtb:l('BatchImportedQuery.select')}"/>
+			</vbox>
+			<vbox width="100%" align="end">
+				<image id="imgWizard" src="${wtb:getImg('BatchImportedQuery.img.wizard')}"  height="${wtb:l('img.height.wizard')}"/>
+			</vbox>
+		</hbox>
+	</north>
+    <center sclass="field1" autoscroll="true">
+        <div>
+			<div style="padding:5px">
+		       	<listbox id="lbRunsettings" seltype="single" hflex="1" rows="9"> 
+					<listhead sizable="true">
+						<listheader width="20%" label="${wtb:l('BatchImportedQuery.property')}" />
+						<listheader width="80%" label="${wtb:l('BatchImportedQuery.value')}" />
+					</listhead>
+					<listitem id="tag">
+						<listcell label="${wtb:l('param.tag')}"/>
+						<listcell>
+							<chosenbox id="tagList" creatable="false" hflex="1" sclass="asg-chosenbox" emptyMessage="${wtb:l('tag.emptyMsg')}"
+								noResultsText="${wtb:l('tag.noResultMsg')}"/>
+						</listcell>
+					</listitem>
+					<listitem id="tagOperator">
+						<listcell label="${wtb:l('param.tagOperator')}"/>
+						<listcell>
+							<checkbox id="tagOperatorCheckBox"/>
+						</listcell>
+					</listitem>
+					<listitem id="importTool">
+						<listcell label="${wtb:l('BatchImportedQuery.importTool')}"/>
+						<listcell>
+							<combobox width="100%" id="toolList" readonly="true" popupWidth="100%"/>
+						</listcell>
+					</listitem>
+					<listitem>
+						<listcell label="${wtb:l('BatchImportedQuery.importToolSelect')}"/>
+						<listcell/>
+					</listitem>
+					<listitem id="dataType">
+						<listcell label="${wtb:l('BatchImportedQuery.dataType')}"/>
+						<listcell>
+							<radiogroup width="100%" id="dataTypeList">
+								<radio label="${wtb:l('BatchImportedQuery.table')}" value="Table" checked="true" style="padding-right: 5px;"/>
+								<radio label="${wtb:l('BatchImportedQuery.database')}" value="Database" style="padding-right: 5px;"/>
+							</radiogroup>
+						</listcell>
+					</listitem>
+					<listitem id="databaseName">
+						<listcell label="${wtb:l('BatchImportedQuery.databaseName')}"/>
+						<listcell>
+							<combobox width="100%" id="databaseNameList" readonly="true" popupWidth="100%"/>
+						</listcell>
+					</listitem>
+					<listitem id="tableName">
+						<listcell label="${wtb:l('BatchImportedQuery.tableName')}"/>
+						<listcell>
+							<combobox width="100%" id="tableNameList" readonly="true" popupWidth="100%"/>
+						</listcell>
+					</listitem>
+				</listbox>
+			</div>
+			<hbox width="100%" widths="80%,10%,10%" style="padding:5px">
+		        <button width="100px" id="resetButton" label="${wtb:l('BatchImportedQuery.resetButton')}" tooltiptext="${wtb:l('BatchImportedQuery.reset')}"/>
+		        <button width="100px" id="runButton" label="${wtb:l('BatchImportedQuery.runButton')}" tooltiptext="${wtb:l('BatchImportedQuery.enter')}"/>
+				<button width="100px" id="cancelButton" label="${wtb:l('BatchImportedQuery.cancelButton')}" tooltiptext="${wtb:l('BatchImportedQuery.esc')}"/>
+			</hbox>	
+ 		</div>
+	</center>
+</borderlayout>
+</window>

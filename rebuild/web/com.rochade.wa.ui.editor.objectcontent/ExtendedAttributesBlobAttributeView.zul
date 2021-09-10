@@ -1,0 +1,12 @@
+<zk>
+	<row valign="top" align="left" sclass="asg-itemview-gridline-label">
+		<label value="rim.attr.attrName"
+		       sclass="asg-attribute-label-bold"
+		       style="display:inline" />
+	</row>
+	<row valign="top" align="left" sclass="asg-itemview-gridline-value">
+	<!-- relatedId is set here to handle the editor.hideEmptyAttributes=true preference setting;
+		 will be replaced with appropriate attrname in PropertyView -->	
+		<div use="com.rochade.wa.ui.view.BinaryPropertyView" relatedId="PREFIXID+rim.attr.attrName" />
+	</row>
+</zk>

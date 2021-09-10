@@ -1,0 +1,12 @@
+﻿# Rochade Stitching - Message file
+# This is an UTF-8 endcoded file!
+#
+#  Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+###  Stitching Templates  ###
+STI_StitchingTemplatesTable.Title.Step.1=Select Existing Stitching Rule to Apply to Container
+STI_StitchingTemplatesTable.btFinish=Aceptar
+STI_StitchingTemplatesTable.btCancel=Cancelar
+STI_StitchingTemplatesTable.winWizard.height=390px
+STI_StitchingTemplatesTable.winWizard.width=800px

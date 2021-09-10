@@ -1,0 +1,150 @@
+<hlayout style="padding: 3px 4px 4px;">
+	<grid span="true">
+		<columns>
+			<column label="${wtb:l('generalTab.StitchSource')}" />
+			<column label="${wtb:l('generalTab.StitchTarget')}" />
+		</columns>
+		<rows>
+			<row valign="top" align="left" spans="1,3,1,3">
+				<label value="${wtb:l('generalTab.Element')}" />
+				<textbox rows="1" width="100%" readonly="true"
+					id="srcStiLowPath" name="asg-stitching-src-sti-systems"
+					value="@load(vm.srcLabelsAndValues.combo[10].value.absName)" />
+				<label value="${wtb:l('generalTab.Element')}" />
+				<textbox rows="1" width="100%" readonly="true" name="asg-stitching-tgt-sti-systems"
+					id="tgtStiLowPath"
+					value="@load(vm.tgtLabelsAndValues.combo[10].value.absName)" />
+			</row>
+			<row valign="top" align="left" spans="1,3,1,3">
+				<label value="${wtb:l('generalTab.Context')}" />
+				<textbox rows="1" width="100%" readonly="true"
+					id="srcStiNavigatePath" name="asg-stitching-src-sti-systems"
+					value="@load(vm.srcLabelsAndValues.combo[0].value.absName)" />
+				<label value="${wtb:l('generalTab.Context')}" />
+				<textbox rows="1" width="100%" readonly="true" name="asg-stitching-tgt-sti-systems"
+					id="tgyStiNavigatePath"
+					value="@load(vm.tgtLabelsAndValues.combo[0].value.absName)" />
+			</row>
+			<!-- DB System -->
+			<row valign="top" align="left" spans="1,3,1,3"
+				visible="@load(vm.srcLabelsAndValues.combo[1].visible or vm.tgtLabelsAndValues.combo[1].visible)">
+				<label
+					value="@load(vm.srcLabelsAndValues.combo[1].label)"
+					visible="@load(vm.srcLabelsAndValues.combo[1].visible)" />
+				<textbox rows="1" width="100%" readonly="true" name="asg-stitching-src-top"
+					visible="@load(vm.srcLabelsAndValues.combo[1].visible)"
+					value="@load(vm.srcLabelsAndValues.combo[1].value.name)"
+					tooltiptext="@load(vm.srcLabelsAndValues.combo[1].value.absName)" />
+				<label
+					value="@load(vm.tgtLabelsAndValues.combo[1].label)"
+					visible="@load(vm.tgtLabelsAndValues.combo[1].visible)" />
+				<textbox rows="1" width="100%" readonly="true" name="asg-stitching-tgt-top"
+					visible="@load(vm.tgtLabelsAndValues.combo[1].visible)"
+					value="@load(vm.tgtLabelsAndValues.combo[1].value.name)"
+					tooltiptext="@load(vm.tgtLabelsAndValues.combo[1].value.absName)" />
+			</row>
+			<row valign="top" align="left" spans="1,3,1,3"
+				visible="@load(vm.srcLabelsAndValues.combo[2].visible or vm.tgtLabelsAndValues.combo[2].visible)">
+				<label
+					value="@load(vm.srcLabelsAndValues.combo[2].label)"
+					visible="@load(vm.srcLabelsAndValues.combo[2].visible)" />
+				<textbox rows="1" width="100%" readonly="true" name="asg-stitching-src-mid"
+					visible="@load(vm.srcLabelsAndValues.combo[2].visible)"
+					value="@load(vm.srcLabelsAndValues.combo[2].value.name)"
+					tooltiptext="@load(vm.srcLabelsAndValues.combo[2].value.absName)" />
+				<label
+					value="@load(vm.tgtLabelsAndValues.combo[2].label)"
+					visible="@load(vm.tgtLabelsAndValues.combo[2].visible)" />
+				<textbox rows="1" width="100%" readonly="true" name="asg-stitching-tgt-mid"
+					visible="@load(vm.tgtLabelsAndValues.combo[2].visible)"
+					value="@load(vm.tgtLabelsAndValues.combo[2].value.name)"
+					tooltiptext="@load(vm.tgtLabelsAndValues.combo[2].value.absName)" />
+			</row>
+			<row valign="top" align="left" spans="1,3,1,3"
+				visible="@load(vm.srcLabelsAndValues.combo[3].visible or vm.tgtLabelsAndValues.combo[3].visible)">
+				<label
+					value="@load(vm.srcLabelsAndValues.combo[3].label)"
+					visible="@load(vm.srcLabelsAndValues.combo[3].visible)" />
+				<textbox rows="1" width="100%" readonly="true" name="asg-stitching-src-low"
+					visible="@load(vm.srcLabelsAndValues.combo[3].visible)"
+					value="@load(vm.srcLabelsAndValues.combo[3].value.name)"
+					tooltiptext="@load(vm.srcLabelsAndValues.combo[3].value.absName)" />
+				<label
+					value="@load(vm.tgtLabelsAndValues.combo[3].label)"
+					visible="@load(vm.tgtLabelsAndValues.combo[3].visible)" />
+				<textbox rows="1" width="100%" readonly="true" name="asg-stitching-tgt-low"
+					visible="@load(vm.tgtLabelsAndValues.combo[3].visible)"
+					value="@load(vm.tgtLabelsAndValues.combo[3].value.name)"
+					tooltiptext="@load(vm.tgtLabelsAndValues.combo[3].value.absName)" />
+			</row>
+			<row valign="top" align="left" spans="1,3,1,3"
+				visible="@load(vm.srcLabelsAndValues.combo[4].visible or vm.tgtLabelsAndValues.combo[4].visible)">
+				<label
+					value="@load(vm.srcLabelsAndValues.combo[4].label)"
+					visible="@load(vm.srcLabelsAndValues.combo[4].visible)" />
+				<textbox rows="1" width="100%" readonly="true" name="asg-stitching-src-low"
+					visible="@load(vm.srcLabelsAndValues.combo[4].visible)"
+					value="@load(vm.srcLabelsAndValues.combo[4].value.name)"
+					tooltiptext="@load(vm.srcLabelsAndValues.combo[4].value.absName)" />
+				<label
+					value="@load(vm.tgtLabelsAndValues.combo[4].label)"
+					visible="@load(vm.tgtLabelsAndValues.combo[4].visible)" />
+				<textbox rows="1" width="100%" readonly="true" name="asg-stitching-tgt-low"
+					visible="@load(vm.tgtLabelsAndValues.combo[4].visible)"
+					value="@load(vm.tgtLabelsAndValues.combo[4].value.name)"
+					tooltiptext="@load(vm.tgtLabelsAndValues.combo[4].value.absName)" />
+			</row>
+			<row valign="top" align="left" spans="1,3,1,3"
+				visible="@load(vm.srcLabelsAndValues.combo[5].visible or vm.tgtLabelsAndValues.combo[5].visible)">
+				<label
+					value="@load(vm.srcLabelsAndValues.combo[5].label)"
+					visible="@load(vm.srcLabelsAndValues.combo[5].visible)" />
+				<textbox rows="1" width="100%" readonly="true" name="asg-stitching-src-low"
+					visible="@load(vm.srcLabelsAndValues.combo[5].visible)"
+					value="@load(vm.srcLabelsAndValues.combo[5].value.name)"
+					tooltiptext="@load(vm.srcLabelsAndValues.combo[5].value.absName)" />
+				<label
+					value="@load(vm.tgtLabelsAndValues.combo[5].label)"
+					visible="@load(vm.tgtLabelsAndValues.combo[5].visible)" />
+				<textbox rows="1" width="100%" readonly="true" name="asg-stitching-tgt-low"
+					visible="@load(vm.tgtLabelsAndValues.combo[5].visible)"
+					value="@load(vm.tgtLabelsAndValues.combo[5].value.name)"
+					tooltiptext="@load(vm.tgtLabelsAndValues.combo[5].value.absName)" />
+			</row>
+			<row valign="top" align="left" spans="1,3,1,3"
+				visible="@load(vm.srcLabelsAndValues.combo[6].visible or vm.tgtLabelsAndValues.combo[6].visible)">
+				<label
+					value="@load(vm.srcLabelsAndValues.combo[6].label)"
+					visible="@load(vm.srcLabelsAndValues.combo[6].visible)" />
+				<textbox rows="1" width="100%" readonly="true" name="asg-stitching-src-low"
+					visible="@load(vm.srcLabelsAndValues.combo[6].visible)"
+					value="@load(vm.srcLabelsAndValues.combo[6].value.name)"
+					tooltiptext="@load(vm.srcLabelsAndValues.combo[6].value.absName)" />
+				<label
+					value="@load(vm.tgtLabelsAndValues.combo[6].label)"
+					visible="@load(vm.tgtLabelsAndValues.combo[6].visible)" />
+				<textbox rows="1" width="100%" readonly="true" name="asg-stitching-tgt-low"
+					visible="@load(vm.tgtLabelsAndValues.combo[6].visible)"
+					value="@load(vm.tgtLabelsAndValues.combo[6].value.name)"
+					tooltiptext="@load(vm.tgtLabelsAndValues.combo[6].value.absName)" />
+			</row>
+			<row valign="top" align="left" spans="1,3,1,3"
+				visible="@load(vm.srcLabelsAndValues.combo[7].visible or vm.tgtLabelsAndValues.combo[7].visible)">
+				<label
+					value="@load(vm.srcLabelsAndValues.combo[7].label)"
+					visible="@load(vm.srcLabelsAndValues.combo[7].visible)" />
+				<textbox rows="1" width="100%" readonly="true" name="asg-stitching-src-low"
+					visible="@load(vm.srcLabelsAndValues.combo[7].visible)"
+					value="@load(vm.srcLabelsAndValues.combo[7].value.name)"
+					tooltiptext="@load(vm.srcLabelsAndValues.combo[7].value.absName)" />
+				<label
+					value="@load(vm.tgtLabelsAndValues.combo[7].label)"
+					visible="@load(vm.tgtLabelsAndValues.combo[7].visible)" />
+				<textbox rows="1" width="100%" readonly="true" name="asg-stitching-tgt-low"
+					visible="@load(vm.tgtLabelsAndValues.combo[7].visible)"
+					value="@load(vm.tgtLabelsAndValues.combo[7].value.name)"
+					tooltiptext="@load(vm.tgtLabelsAndValues.combo[7].value.absName)" />
+			</row>
+		</rows>
+	</grid>
+</hlayout>

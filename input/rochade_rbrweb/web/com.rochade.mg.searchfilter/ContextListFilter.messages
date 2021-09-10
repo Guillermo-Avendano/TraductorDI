@@ -1,0 +1,28 @@
+﻿#-------------------------------------------------------
+# metaGlossary - Message file
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.mg.searchfilter
+#
+
+### Icons: all images should be inside of dir /com.rochade.mg.searchfilter/ + img/, see plugin.xml
+
+#extra icons
+Itemlist.img=/com.rochade.mg.searchfilter/img/16x16_mg_itemlist.png
+### END Icons
+
+ContextListFilter.title=Select Glossary
+ContextListFilter.ListContexts=List Contexts...
+EnvQuery.title=Select an Environment Query
+EnvQuery.select=Select a query to run and adjust the settings
+
+btn.List=List Contexts >>
+btn.Cancel=Cancel
+btn.Ok=OK
+
+Itemlist.label= Contexts

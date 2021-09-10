@@ -1,0 +1,44 @@
+<hbox hflex="1">
+	<!-- default page size -->
+	<custom-attributes pageSize="5" />
+	<label hflex="1" value="@load('* '.concat(p.label))" visible="@bind(p.visible)" tooltiptext="@load(p.tooltipmsg)" />
+	<bandbox hflex="3" id="combo" mold="rounded"
+		readonly="@bind(not p.bandBoxOpen)" name="@load(p.bandboxName)"
+		sclass="asg-bandbox-sti" autodrop="true" visible="@load(p.visible)"
+		tooltiptext="@load(p.value.absName)" focus="@bind(p.focus)"
+		onChange="@command('changeFilter', level=p.index, side=p.side)"
+		ctrlKeys="^#down^#up"
+		onCtrlKey="@command('openPopup', level=p.index, side=p.side)"
+		onCancel="@command('clearFocus', level=p.index, side=p.side)"
+		value="@bind(p.filterValue)" instant="true"
+		disabled="@bind(p.readOnly)"
+		open="@bind(p.bandBoxOpen)">
+		<bandpopup sclass="asg-rochade-sti-objectcontent-combobox-popup">
+			<listbox mold="paging" autopaging="false"
+				sclass="asg-paging-list-popup" pageSize="${pageSize}" width="450px"
+				id="listCombo" visible="@load(p.visible)"
+				focus="@bind(p.focusPopup)" model="@load(p.items)"
+				selectedItem="@bind(p.value)"
+				onSelect="@command('select', level=p.index, side=p.side)">
+				<template name="model" var="item">
+					<listitem>
+						<listcell>
+							<vbox>
+								<label sclass="asg-stitching-item-name-label" value="@load(item.name)" />
+								<label sclass="asg-stitching-item-absname-label" value="@load(item.absName)" />
+							</vbox>
+						</listcell>
+					</listitem>
+				</template>
+				<listhead sizable="false" visible="@bind(p.hasItems())">
+					<listheader label="@load(p.label)"/>
+				</listhead>
+				<listfoot visible="@bind(p.hasItems())">
+					<listfooter align="right" visible="@bind(p.limited)">
+						<label style="color: red; font-size: 12px;" value="@load(p.limitedmsg)"/>
+					</listfooter>
+				</listfoot>
+			</listbox>
+		</bandpopup>
+	</bandbox>
+</hbox>

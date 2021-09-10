@@ -1,0 +1,54 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.wa.ui.favorites
+#
+
+### Icons: all images should be inside of dir /com.rochade.wa.ui.favorites/ + img/, see plugin.xml
+
+#extra icons
+### END Icons
+
+Favorites.title=Favoritos
+Favorites.configure=Configurar
+Favorites.addtitle=Adicionar a Favoritos
+Favorites.addsubtitle=Adicionar a aba atual à sua lista de favoritos.
+Favorites.edittitle=Editar Favoritos
+Favorites.editsubtitle=Editar o rótulo da entrada de favoritos.
+Favorites.showDetailsTitle=Detalhes de Favoritos
+Favorites.showDetailsSubtitle=Exibir detalhes da entrada de favoritos.
+Favorites.enterlabel=Entre o rótulo para a entrada de favoritos:
+Favorites.context=A informação de contexto desta entrada de favoritos é:
+Favorites.addButton=Adicionar
+Favorites.okButton=OK
+Favorites.cancelButton=Cancelar
+Favorites.enter=OK/Adicionar (<Enter>)
+Favorites.esc=Cancelar (<esc>)
+Favorites.warningctx=Aviso: Uma entrada de favoritos com esta informação de contexto já existe.
+Favorites.errtitle=Erro: Uma entrada com este rótulo já existe.  Favor escolher outro rótulo.
+Favorites.conftitle=Configurar Entradas de Favoritos
+Favorites.confsubtitle=Editar, remover, e alterar a ordem das entradas de favoritos.
+Favorites.visible=Visível
+Favorites.label=Entrada de Favoritos
+Favorites.up=Acima
+Favorites.down=Abaixo
+Favorites.top=Topo
+Favorites.bottom=Baixo
+Favorites.edit=Editar
+Favorites.delete=Deletar
+Favorites.details=Detalhes
+Favorites.confirmtitle=Confirmar Exclusão
+Favorites.confirmmsg=Confirmar exclusão da entrada de favoritos: {0}
+Favorites.confirmmsg.multi=Confirmar exclusão das entradas de favoritos:{0}
+Favorites.theLabelIs=O rótulo da entrada de favoritos é:
+Favorites.restore.confirm.msg=Deseja limpar sua lista de favoritos?
+Favorites.restore.confirm.title=Limpar Lista de Favoritos
+Favorites.restore=Limpar Favoritos
+Favorites.restore.tip=Limpar Favoritos
+

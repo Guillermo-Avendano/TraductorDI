@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page id="AddFavorites" title="WTB" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<!-- 
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+<window apply="com.rochade.wa.ui.favorites.AddFavoritesComposer" border="normal" width="520px" minheight="250" sizable="true" sclass="asg-add-favorites">
+			<hbox width="100%"  sclass="field0" style="background-color: ${wtb:l('asg-atlantic-light-gray')}; padding:5px" >
+					<label id="headerLabel" value="${wtb:l('Favorites.addsubtitle')}" style="font-style: normal;   font-size: 14px!important"/>
+			</hbox>
+			<div style="padding:5px; background-color: ${wtb:l('asg-atlantic-light-gray')};">
+				<label value="${wtb:l('Favorites.enterlabel')}"   />
+				<textbox id="tbTitle" width="100%" constraint="no empty" />
+				<label id="laWarning" value="${wtb:l('Favorites.warningctx')}" sclass="backgred"/>
+			</div>
+			<hbox width="100%" widths="80%,10%,10%" style="padding:5px" >
+			    <label value=" "></label>
+		        <button width="100px" id="okButton" label="${wtb:l('Favorites.okButton')}" tooltiptext="${wtb:l('Favorites.enter')}"/>
+				<button width="100px" id="cancelButton" label="${wtb:l('Favorites.cancelButton')}" tooltiptext="${wtb:l('Favorites.esc')}"/>
+			</hbox>
+</window>

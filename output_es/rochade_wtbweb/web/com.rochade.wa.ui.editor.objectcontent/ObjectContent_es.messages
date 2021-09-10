@@ -1,0 +1,49 @@
+﻿# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+ObjectContent.exloadprops=Excepción cargando las propiedades
+TextPropertyView.validrange=Rangos de valor válido: {0}
+TextPropertyView.excludevalidrange=Valor de rangos excluido : {0}
+TextPropertyView.rangenotvalid=Utilice el rango de valores adecuado: {0}
+TextPropertyView.excluderangenotvalid=Utilice el intervalo de exclusión adecuada: {0}
+ObjectContent.Create.Language.Exception=No es posible por: {1} establecer el nombre en idioma {0}
+ObjectContent.Create.Language.Exception.AlreadyExist=No es posible establecer el nombre en idioma {0}. El nombre ya existe.
+ObjectContent.srapExceptionModel=SrapException: Error cargando el modelo.
+ObjectContent.rvlExceptionModel=RVLException: Error al cargar el modelo.
+ObjectContent.visTransExceptionUnclass=VisTranslationException: Error recuperando los miembros de espacio de nombres clasificación.
+ObjectContent.srapExceptionUnclass=SrapException: Error recuperando los miembros no clasificados del espacio de nombres.
+
+PropertyView.ML.WarningIcon.tooltip=El contenido de esta propiedad aún no se ha proporcionado para el idioma predeterminado.
+NamePropertyView.ML.WarningIcon.tooltip=El nombre aún no se ha proporcionado para el idioma predeterminado.
+#PropertyView.ML.WarningIcon.tooltip=El contenido de esta propiedad aún no se ha proporcionado para el idioma actual.
+#NamePropertyView.ML.WarningIcon.tooltip=El nombre aún no se ha proporcionado para el idioma actual.
+PropertyView.WarningIcon.header.oneMessage=Hay una advertencia:
+PropertyView.WarningIcon.header.multipleMessages=Hay {0} advertencias:
+
+PropertyView.MandatoryAttr.WarningIcon.tooltip=Esta propiedad está marcada como obligatoria, no debe estar vacío.
+PropertyView.MandatoryAttr.WarningIcon.tooltip1={0} esta marcado como obligatorio, no debería ser vacío.
+
+AttrRuleCheckerFactory.minValueWarning=Debe introducir un valor que sea al menos {0} caracteres
+AttrRuleCheckerFactory.maxValueWarning=Debe introducir un valor que no es más que {0} caracteres
+AttrRuleCheckerFactory.numberOnlyValueWarning=Debe introducir un valor numérico solamente
+
+# multilingual fields: last parameter (upper case) language code 
+AttrRuleCheckerFactory.minValueWarning.ml=[{1}]: Debe ingresar valor que tenga al menos {0} caracteres
+AttrRuleCheckerFactory.maxValueWarning.ml=[{1}]: Debe ingresar un valor que no tengas mas de {0} caracteres
+AttrRuleCheckerFactory.numberOnlyValueWarning.ml=[{0}]: Debe ingresar solo un numero
+
+PropertyView.warning.textTooLong=The length exceeds the configured limit of {0} characters.
+PropertyView.checkSave.textTooLong=The length of the {0} attribute exceeds the configured limit of {1} characters.\nThis needs to be corrected for a successful completion of the save process.
+
+BooleanPropertyView.true=Si
+BooleanPropertyView.false=NO
+BooleanPropertyView.null=Indefinido
+BooleanPropertyView.NullAsEmpty.true=Si
+BooleanPropertyView.NullAsEmpty.false=NO
+BooleanPropertyView.NullAsEmpty.null=
+
+ObjectContent.itemname=Nombre

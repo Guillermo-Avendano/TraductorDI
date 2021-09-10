@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="Type Tree" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<!--
+	@author SB 05/05/2014, created
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+-->
+<hbox width="100%"  align="center" pack="right" sclass="asg-navmenubar-hbox rochade-mdm-navigator-mdm-nav-menu">
+	<menubar sclass="asg-navmenubar-hor asg-mainmenubar-hor">
+		<menuitem actionId="MDM_CreateDataContextInRoot" visibleCondition="RefPathWayCapability_CreateRootContext"/>
+		<menuitem actionId="WTB_NavCollapseAll" visibleCondition="Navigation.collapse"></menuitem>
+		<menuitem actionId="WTB_NavRefresh"     visibleCondition="Navigation.refresh"></menuitem>
+	</menubar>
+</hbox>

@@ -1,0 +1,52 @@
+﻿# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.wa.ui.item
+#
+### Icons: all images should be inside of dir /com.rochade.wa.ui.newitem/ + img/, see plugin.xml
+
+#extra icons
+### END Icons
+
+#TODO: who uses this ?
+#NewItem.icon_item=Item.gif
+NewItem.name=Nombre
+NewItem.type=Tipo
+
+NewItem.currappl=Subject Area actual:
+NewItem.curnamespace=Espacio de nombres actual:
+NewItem.nsheader=Item de Namespace
+NewItem.nsdesc=Seleccione el ítem de espacio de nombres para el nuevo ítem
+NewItem.rootns=Utilizar como espacio de nombres raíz
+NewItem.itemns=Utilice un ítem como espacio de nombres
+NewItem.newns=Nuevo espacio de nombres:
+NewItem.backbutton=< Volver
+NewItem.nextbutton=Siguiente>
+NewItem.finishbutton=Finalizar
+NewItem.cancelbutton=Cancelar
+NewItem.changebutton=Cambiar...
+NewItem.enter=<Enter>: Finalizar
+NewItem.altB=Alt-B: Negro
+NewItem.altN=Alt-N: Siguiente
+NewItem.esc=<Esc>: Cancelar
+NewItem.alreadyexists=El Item {0} ya existe.
+NewItem.info=El nombre del ítem no debe ser vacío.
+NewItem.seltype=Tipo de selección
+NewItem.selitem=Seleccione el tipo de ítem para el nuevo ítem.
+NewItem.title=Nuevo ítem
+NewItem.label=Nuevo ítem:
+NewItem.created=El nuevo ítem se ha creado.
+NewItem.name=Nombre del ítem
+NewItem.type=Tipo de ítem:
+NewItem.create=Crear un nuevo ítem.
+NewItem.newname=Nuevo nombre del ítem:
+NewItem.inititem=Inicializar el contenido de los ítems
+NewItem.openeditor=Abrir el ítem creado en el editor
+NewItem.unclassified=Miembro de espacio de nombres no clasificado
+NewItem.attribute=Atributo:
+NewItem.errCreate=Error al crear el ítem.

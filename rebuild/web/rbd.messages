@@ -1,0 +1,30 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+# Error messages
+RBD_ClassNotFound=Class not found!
+RBD_IllegalAccessException=Does not have access to the definition of the specified class, field, method or constructor. 
+RBD_InstantiationException=Specified class object cannot be instantiated.
+RBD_RetrievingException=Error while retrieving BigData items.
+RBD_RetrievingServicesError=Error while retrieving BigData services.
+RBD_RetrievingRoleError=Error while retrieving BigData service roles.
+RBD_RetrievingClusterError=Error while retrieving BigData clusters.
+RBD_RetrievingHostsError=Error while retrieving BigData cluster hosts.
+RBD_GetDirOrTableError=Error while retrieving directories or tables.
+RBD_GetNonLinkerDbSystemsError=Error while retrieving non linked database systems.
+RBD_GetAllDataTypesError=Error while retrieving data types from BigData cluster.
+RBD_GetAllDbSystemsError=Error while retrieving all database systems.
+RBD_GetAllTfmSystemsError=Error while retrieving all transformation systems.
+RBD_GetAllClustersError=Error while retrieving all BigData clusters.
+RBD_GetAllPackagesError=Error while retrieving all BigData packages.
+RBD_GetNormalTablesError=Error while retrieving Hive normal tables.
+RBD_GetHiveDatabaseError=Error while retrieving Hive databases.
+RBD_GetHiveDbTrasfomError=Error while retrieving Hive databases that took part in Sqoop transformations.
+RBD_GetRelDbTrasfomError=Error while retrieving relational databases that took part in transformations.
+RBD_JsonParseException=Content does not conform to JSON syntax as per specification.
+RBD_JsonMappingException=Fatal problems with mapping of JSON content. 
+RBD_IOException=Input/Output exception has occurred.

@@ -1,0 +1,18 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+
+#
+# package: com.rochade.wa.ui.entryquery
+#
+### Icons: all images should be inside of dir /com.rochade.wa.ui.entryquery/ + img/, see plugin.xml
+
+#extra icons
+### END Icons
+
+EntryQuery.title=Consultas de Entrada

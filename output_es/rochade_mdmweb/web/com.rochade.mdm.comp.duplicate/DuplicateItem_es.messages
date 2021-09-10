@@ -1,0 +1,24 @@
+﻿# metaGlossary - Message file
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.#
+#-------------------------------------------------------
+duplicate.item.title=Copiar ítem
+duplicate.item.button.duplicate=Copiar
+duplicate.item.button.cancel=Cancelar
+
+duplicate.item.options=Mas opciones
+duplicate.item.options.approvedversions=Copiar sólo las versiones aprobadas
+duplicate.item.options.duplicatetoprod=Copiar todo como aprobado
+
+duplicate.item.message.title=Error en la Copia
+
+duplicate.item.message.duplicatename=Sin nombre para el nuevo {0}.
+duplicate.item.message.alreadyexist={0} con el nombre {1} ya existe en el seleccionado {2} {3}.
+duplicate.item.message.notinprod=El ítem que desea copiar no tiene ninguna versión aprobada.
+duplicate.item.message.selectcontext=Sin contexto seleccionado para los ítems copiados.
+duplicate.item.message.noright=No tiene permiso para crear {0} en {1} {2}.
+duplicate.item.message.errorongetitems=No hay ítems colectados para la copia.
+duplicate.item.message.nodataconcepts=No se encontraron {0} para la copia.
+duplicate.item.message.erroroncreate=Los ítems no pudieron ser creados.
+duplicate.item.message.erroronwriteattributes=Los ítems no pudieron ser modificados.

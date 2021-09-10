@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="Item View" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<!-- 
+	Copyright (c) 1983-2018 ASG GmbH & Co. KG., a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+<window id="LoginWindow" sclass="asg-login" width="100%" height="100%"
+	apply="com.rochade.wa.ui.login.LoginComposer" >
+			<div sclass="asg-menu">
+				<!-- just to resemble structure in header of main window -->
+				<div>
+					<div>
+					</div>
+				</div>
+			</div>
+			<div sclass="asg-login-label">
+				<span>
+					<label id="lLogInTitle"/>
+				</span>
+			</div>
+
+			<div sclass="asg-login-left-content">
+				<hbox>
+					<box align="end" width="180px">
+						<label id="lPerspective" visible="false"/>
+					</box>
+					<combobox sclass="asg-login-perspective-select" id="cbPerspective" visible="false" width="170px" popupWidth="100%"/>
+				</hbox>
+				<hbox>
+					<box align="end" width="180px">
+						<label id="lLanguage"/>
+					</box>
+					<combobox sclass="asg-login-language-select" id="cbLanguage" width="170px" popupWidth="100%"/>
+				</hbox>
+			</div>
+
+			<div sclass="asg-login-right-content">
+				<hbox>
+					<box align="end" width="180px">
+						<label id="lUser"/>
+					</box>
+					<textbox sclass="asg-login-user-textbox" id="tbUser" value="" focus="true" visible="false" width="200px"/>
+				</hbox>
+				<hbox>
+					<box align="end" width="180px">
+						<label id="lPasswd0"/>
+					</box>
+					<zk xmlns:ca="client/attribute">
+						<textbox sclass="asg-login-passwd0-textbox" id="tbPasswd0" type="password" visible="false" width="200px" ca:autocomplete="off"/>
+					</zk>
+				</hbox>
+				<hbox id="hbPasswd1" visible="false">
+					<box align="end" width="180px">
+						<label id="lPasswd1"/>
+					</box>
+					<zk xmlns:ca="client/attribute">
+						<textbox sclass="asg-login-passwd1-textbox" id="tbPasswd1" type="password" width="200px" ca:autocomplete="off"/>
+					</zk>
+				</hbox>
+				<hbox id="hbPasswd2" visible="false">
+					<box align="end" width="180px">
+						<label id="lPasswd2"/>
+					</box>
+					<zk xmlns:ca="client/attribute">
+						<textbox sclass="asg-login-passwd2-textbox" id="tbPasswd2" type="password" width="200px" ca:autocomplete="off"/>
+					</zk>
+				</hbox>
+			</div>
+
+			<div sclass="asg-login-line" />
+
+			<div sclass="asg-login-left-second-content">
+				<hbox height="50px">
+					<label width="180px" id="lLoggedOff" sclass="asg-splash-screen-loggedoff" multiline="true"/> 
+				</hbox>		
+				<hbox height="50px">
+					<label width="180px" id="lorLoginAs" visible="false"/> 
+				</hbox>	
+			</div>
+
+			<vlayout sclass="asg-login-right-second-content">
+				<hbox height="25px">				    
+					<button sclass="asg-login-alt-login-button" id="btnAltLogin" width="200px" visible="false"/>
+				</hbox>
+				<hbox>				    
+					<button sclass="asg-login-login-button" id="btnLogin" visible="false"  width="200px"/>
+				</hbox>
+				<hbox>				    
+					<button sclass="asg-login-passwd-button" id="btnPasswd"  visible="false" width="200px"/>
+				</hbox>
+			</vlayout>
+
+			<div sclass="asg-splash-screen">
+				<image id="imgLogo"/>
+				<div sclass="asg-splash-screen-label">
+					<html id="logotext" sclass="asg-splash-screen-label-text"><!-- <![CDATA[
+						${wtb:l('splash-screen-text')}
+						]]>--></html>
+				</div>
+			</div>
+</window>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="ChartConfig" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<!-- 
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+<window apply="com.rochade.wa.ui.dashboard.ChartConfigComposer" height="620px" width="500px" sclass="asg-chart-config">
+<borderlayout>
+	
+    <center sclass="field1" autoscroll="true" style="padding:5px">
+    	<vlayout>
+
+    	    <label sclass="asg-subtitle-label" value="${wtb:l('Dashboard.savecurrent')}"/>
+			
+			<hbox id="hbTitle" width="100%" widths="50%,50%">
+				<label value="${wtb:l('Dashboard.chartTitle')}"/>
+				<textbox id="tbTitle" width="95%"/>
+			</hbox>
+
+			<hbox id="hbXAxis" width="100%" widths="50%,50%">
+				<label value="${wtb:l('Dashboard.labelXAxis')}"/>
+				<textbox id="tbXAxis" width="95%"/>
+			</hbox>
+
+			<hbox id="hbYAxis" width="100%" widths="50%,50%">
+				<label value="${wtb:l('Dashboard.labelYAxis')}"/>
+				<textbox id="tbYAxis" width="95%"/>
+			</hbox>
+			
+			<hbox id="hbLayout" width="100%" widths="50%,50%">
+				<label value="${wtb:l('Dashboard.chartType')}"/>
+				<combobox id="lbChartType" width="95%" readonly="true" popupWidth="100%">
+					<comboitem label="${wtb:l('Dashboard.pie')}" value="pie"></comboitem>
+					<comboitem label="${wtb:l('Dashboard.vbar')}" value="vbar"></comboitem>
+					<comboitem label="${wtb:l('Dashboard.hbar')}" value="hbar"></comboitem>
+					<comboitem label="${wtb:l('Dashboard.line')}" value="line"></comboitem>
+					<comboitem label="${wtb:l('Dashboard.square')}" value="square"></comboitem>
+					<comboitem label="${wtb:l('Dashboard.text')}" value="text"></comboitem>
+				</combobox>
+			</hbox>
+						
+			<hbox id="hbSorting" width="100%" widths="50%,50%">
+				<label value="${wtb:l('Dashboard.sorting')}"/>
+				<combobox id="lbSorting" width="95%" readonly="true" popupWidth="100%">
+					<comboitem label="${wtb:l('Dashboard.nosort')}" value="none"></comboitem>
+					<comboitem label="${wtb:l('Dashboard.ascending')}" value="asc"></comboitem>
+					<comboitem label="${wtb:l('Dashboard.descending')}" value="desc"></comboitem>
+				</combobox>
+			</hbox>
+
+			<hbox id="hbDim" width="100%" widths="50%,50%">
+				<label value="${wtb:l('Dashboard.dimension')}"/>
+				<combobox id="lbDimension" width="95%" readonly="true" popupWidth="100%">
+					<comboitem label="${wtb:l('Dashboard.dimensionDef')}"></comboitem>
+				</combobox>
+			</hbox>
+			
+			<hbox id="hbColorType" width="100%" widths="50%,50%">
+				<label value="${wtb:l('Dashboard.colorType')}"/>
+				<combobox id="lbColorType" width="95%" readonly="true" popupWidth="100%">
+					<comboitem label="${wtb:l('Dashboard.MultiColor')}" value="multi"></comboitem>
+					<comboitem label="${wtb:l('Dashboard.MonoColor')}" value="mono"></comboitem>
+				</combobox>
+			</hbox>
+
+			<separator bar="true" orient="horizontal" />
+
+    	    <label sclass="asg-subtitle-label" value="${wtb:l('Dashboard.legendHiding')}"/>
+			<checkbox id="cbBottomLegend"   label="${wtb:l('Dashboard.bottomLegend')}"/>
+			<checkbox id="cbHideLegend"     label="${wtb:l('Dashboard.hideLegend')}"/>
+			<checkbox id="cbHideZoomBtn"    label="${wtb:l('Dashboard.hideZoomBtn')}"/>
+			<checkbox id="cbHideRefreshBtn" label="${wtb:l('Dashboard.hideRefreshBtn')}"/>
+			<checkbox id="cbHideTimestamp"  label="${wtb:l('Dashboard.hideTimestamp')}"/>
+			<checkbox id="cbHideLayout"     label="${wtb:l('Dashboard.hideLayout')}"/>
+			<checkbox id="cbHideDimension"  label="${wtb:l('Dashboard.hideDimension')}"/>
+			
+			<separator bar="true" orient="horizontal" />
+			
+    	    <label sclass="asg-subtitle-label" value="${wtb:l('Dashboard.show')}"/>
+    	    <label value="${wtb:l('Dashboard.showHint')}"/>
+			
+			<grid width="100%" style="border:0px; background:transparent">
+				<columns>
+					<column width="50%"></column>
+					<column width="30%" ></column>
+					<column width="20%" ></column>
+				</columns>
+				<rows>
+		 			<row height="24px" style="background:transparent; border:0px; padding:0px">
+						<cell style="padding:0px">
+							<checkbox id="cbShowLabels" />
+							<label value ="${wtb:l('Dashboard.showLabels')}"/>
+						</cell>
+					 	<cell style="padding:0px">
+							<slider id="slShowLabels" width="100%" mold="sphere" minpos="50" maxpos="150"/>
+						</cell>
+						<cell style="padding:0px">
+							<label id="laShowLabels"/>
+						</cell>
+					</row>
+					<row height="24px" style="background:transparent; border:0px; padding:0px">
+						<cell style="padding:0px">
+							<checkbox id="cbShowDimensionValues"/>
+							<label value ="${wtb:l('Dashboard.showDimensionValues')}"/>
+						</cell>
+					 	<cell style="padding:0px">
+							<slider id="slShowDimensionValues" width="100%" mold="sphere" minpos="50" maxpos="150"/>
+						</cell>
+						<cell style="padding:0px">
+							<label id="laShowDimensionValues"/>
+						</cell>
+					</row>
+					<row height="24px" style="background:transparent; border:0px; padding:0px">
+						<cell style="padding:0px">
+							<checkbox id="cbShowValues"/>
+							<label value ="${wtb:l('Dashboard.showValues')}"/>
+						</cell>
+					 	<cell style="padding:0px">
+							<slider id="slShowValues" width="100%" mold="sphere" minpos="50" maxpos="150"/>
+						</cell>
+						<cell style="padding:0px">
+							<label id="laShowValues"/>
+						</cell>
+					</row>
+				</rows>
+			</grid>
+
+			<separator bar="true" orient="horizontal" />
+			
+    	    <label sclass="asg-subtitle-label" value="${wtb:l('Dashboard.sizeing')}"/>
+    	    
+    	    <hbox id="hbZoom" width="100%" widths="50%,30%,20%" align="center">
+				<label value="${wtb:l('Dashboard.zoom')}"/>
+				<slider id="slZoom" width="100%" mold="sphere" minpos="50" maxpos="150"/>
+				<label id="laZoom"/>
+			</hbox>
+
+    	    <hbox id="hbHeight" width="100%" widths="50%,30%,20%" align="center">
+				<label value="${wtb:l('Dashboard.height')}"/>
+				<slider id="slHeight" width="100%" mold="sphere" minpos="50" maxpos="800"/>
+				<label id="laHeight"/>
+			</hbox>
+			
+    	    <hbox id="hbWidth" width="100%" widths="50%,30%,20%" align="center">
+				<label value="${wtb:l('Dashboard.width')}"/>
+				<slider id="slWidth" width="100%" mold="sphere" minpos="50" maxpos="800"/>
+				<label id="laWidth"/>
+			</hbox>
+			
+    	    <hbox id="hbTop" width="100%" widths="50%,30%,20%" align="center">
+				<label value="${wtb:l('Dashboard.margintop')}"/>
+				<slider id="slTop" width="100%" mold="sphere" minpos="0" maxpos="100"/>
+				<label id="laTop"/>
+			</hbox>
+			
+    	    <hbox id="hbBottom" width="100%" widths="50%,30%,20%" align="center">
+				<label value="${wtb:l('Dashboard.marginbottom')}"/>
+				<slider id="slBottom" width="100%" mold="sphere" minpos="0" maxpos="100"/>
+				<label id="laBottom"/>
+			</hbox>
+			
+    	    <hbox id="hbLeft" width="100%" widths="50%,30%,20%" align="center">
+				<label value="${wtb:l('Dashboard.marginleft')}"/>
+				<slider id="slLeft" width="100%" mold="sphere" minpos="0" maxpos="100"/>
+				<label id="laLeft"/>
+			</hbox>
+
+    	    <hbox id="hbRight" width="100%" widths="50%,30%,20%" align="center">
+				<label value="${wtb:l('Dashboard.marginright')}"/>
+				<slider id="slRight" width="100%" mold="sphere" minpos="0" maxpos="100"/>
+				<label id="laRight"/>
+			</hbox>
+
+    	    <hbox id="hbLbwidth" width="100%" widths="50%,30%,20%" align="center">
+				<label value="${wtb:l('Dashboard.lbwidth')}"/>
+				<slider id="slLbwidth" width="100%" mold="sphere" minpos="70" maxpos="300"/>
+				<label id="laLbwidth"/>
+			</hbox>
+			
+    	    <hbox id="hbRotate" width="100%" widths="50%,30%,20%" align="center">
+				<label value="${wtb:l('Dashboard.rotatelabel')}"/>
+				<slider id="slRotate" width="100%" mold="sphere" minpos="0" maxpos="90" step="5"/>
+				<label id="laRotate"/>
+			</hbox>
+
+			<separator bar="true" orient="horizontal" />
+			
+    	    <label sclass="asg-subtitle-label" value="${wtb:l('Dashboard.refreshcaching')}"/>
+
+    		<hbox id="hbAutoRefresh" width="100%" widths="50%,30%,20%" align="center">
+				<label value="${wtb:l('Dashboard.autorefresh')}"/>
+				<slider id="slAutoRefresh" width="100%" mold="sphere" minpos="0" maxpos="60"/>
+				<label id="laAutoRefresh"/>
+			</hbox>
+			
+			<hbox id="hbCaching" width="100%" widths="50%,50%">
+				<label value="${wtb:l('Dashboard.caching')}"/>
+				<combobox id="lbCaching" width="95%" readonly="true" popupWidth="100%">
+					<comboitem label="${wtb:l('Dashboard.dorefresh')}" value="delay"/>
+					<comboitem label="${wtb:l('Dashboard.nocache')}" value="none" />
+					<comboitem label="${wtb:l('Dashboard.usecache')}" value="use"/>
+				</combobox>
+			</hbox>
+    	    
+			<separator bar="true" orient="horizontal" />
+    	    <label sclass="asg-subtitle-label" value="${wtb:l('Dashboard.colors')}"/> 	    
+	    	<vlayout id="vlay"/>
+	    	
+	    	<vlayout id="vlInventory">
+	    		<separator bar="true" orient="horizontal" />
+	    	    <label sclass="asg-subtitle-label" value="${wtb:l('Dashboard.inventory')}"/> 	    
+	    	    <label value="${wtb:l('Dashboard.inventoryHint')}"/>
+	    	    <grid id="grInventory" width="100%">
+	                <columns sizable="true">
+		        		<column width="5%"  label="" id="colAdd" image="${wtb:getImg('Dashboard.img.insert')}" tooltiptext="${wtb:l('Dashboard.inventoryIns')}" />
+		        		<column width="5%"  label="" />
+		            	<column width="45%" label="${wtb:l('Dashboard.inventoryType')}" tooltiptext="${wtb:l('Dashboard.inventoryType')}" />
+		            	<column width="45%" label="${wtb:l('Dashboard.inventoryQuery')}" tooltiptext="${wtb:l('Dashboard.inventoryQuery')}" />
+		        	</columns>
+		        	<rows id="rowsInventory"/>
+	    	    </grid>
+	    	</vlayout>
+	    	
+	    	<separator id="sepEnd" bar="true" orient="horizontal" />
+		</vlayout>	
+	</center>
+	
+	<south class="field1">
+		<hbox width="100%" widths="40%,30%,30%">
+		   	<button width="140px" id="resetButton"  label="${wtb:l('Dashboard.resetButton')}"  tooltiptext="${wtb:l('Dashboard.resetButton')}"/>
+		    <button width="120px" id="okButton"     label="${wtb:l('Dashboard.okButton')}"     tooltiptext="${wtb:l('Dashboard.okButton')}"/>
+			<button width="120px" id="cancelButton" label="${wtb:l('Dashboard.cancelButton')}" tooltiptext="${wtb:l('Dashboard.cancelButton')}"/>
+		</hbox>
+	</south>
+	
+</borderlayout>
+     
+</window>

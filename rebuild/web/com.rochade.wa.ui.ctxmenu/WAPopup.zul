@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page id="start" title="WTB" contentType="text/html;charset=UTF-8"?>
+<!-- 
+	@author HG 08/07/2011, created
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+
+<ctxmenu context="emptyPopup">
+	<!-- 
+	This is the default Popup that will be attached during rendering process.
+	The real Popup, which can be result of multiple Popups (because of inheritance or extends metaApp) 
+	will be inserted during openEvent. 
+	Component Model will look the appropriate Popup(s) based on args, normally IView and IVisDataObject. 
+	 -->
+</ctxmenu>

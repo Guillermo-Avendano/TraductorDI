@@ -1,0 +1,49 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.wa.ui.QueryParam
+#
+
+StreamImportedQuery.select=Specify parameters for obtaining directories that are targets of data streams
+StreamImportedQuery.runSettings=Run Settings:
+StreamImportedQuery.property=Parameter
+StreamImportedQuery.value=Value
+StreamImportedQuery.limit=Maximum number of items
+StreamImportedQuery.runButton=Run
+StreamImportedQuery.cancelButton=Cancel
+StreamImportedQuery.resetButton=Reset
+StreamImportedQuery.queryparam=Query Parameter
+StreamImportedQuery.title = HDFS Directories Imported by Flume Streams
+
+StreamImportedQuery.filterby.DWR_RDB_DATABASE=Database name
+
+
+# Tooltips
+
+StreamImportedQuery.altS=Run Settings (Alt-S)
+StreamImportedQuery.altP=Preserve settings (Alt-P)
+StreamImportedQuery.altL=Limit the query result (Alt-L)
+StreamImportedQuery.enter=Run query (Alt-R, <enter>)
+StreamImportedQuery.esc=Cancel (<esc>)
+StreamImportedQuery.reset=Reset
+
+# icons
+StreamImportedQuery.img.wizard=/com.rochade.dwr.queryparam/img/WizardDefault.gif
+
+
+# Message
+StreamImportedQuery.alert.warning = You need to choose Database!
+
+StreamImportedQuery.directoryFilter = Directory
+
+StreamImportedQuery.importTool = Import tool
+StreamImportedQuery.importToolSelect = Select Hive import data:
+StreamImportedQuery.dataType = Data type
+StreamImportedQuery.databaseName = Database name
+StreamImportedQuery.tableName = Table name

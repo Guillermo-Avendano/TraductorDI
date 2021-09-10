@@ -1,0 +1,74 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#
+#-------------------------------------------------------
+
+#------------------------------ Report Definition (RoBrowser) ------------------------------ 
+### Icons: all images should be inside of dir /com.rochade.dwr.report/ + img/, see plugin.xml
+
+#### ------------------- ONLY report menus and reports ---------------
+InventoryMD.lbl=Metadata
+CountgroupRDB.lbl=Banco de Dados Relacional
+CountgroupBI.lbl=Inteligência de Negócios
+CountgroupETL.lbl=Transformação
+CountgroupERM.lbl=Modelos Lógicos
+CountgroupPDM.lbl=Modelos Físicos
+CountgroupOLAP.lbl=OLAP
+CountgroupDAT.lbl=Estrutura de Dados
+
+ModelDDLCompare.lbl=Comparação Modelo para DDL (Lógico)
+ModelDDLCompare.tip=Relatório de comparação Modelo para DDL com modelo lógico inicial
+
+ModelDDLCompareP.lbl=Modelo para Comparação DDL (Físico)
+ModelDDLCompareP.tip=Modelo para relatório de comparação DDL com modelo físico inicial
+
+DG_IM.lbl=Gerenciamento de Problemas
+DG_IM.tip=Relatórios de Gerenciamento de Problemas
+
+MD.lbl=Metadados
+MD.tip=Relatório de Metadados
+
+MD_db.lbl=Bancos de Dados
+MD_db.tip=Relatórios de Banco de Dados
+
+MD_dl.lbl=Linhagem de Dados
+MD_dl.tip=Relatórios de Linhagem de Dados
+
+MD_ia.lbl=Análise de Impacto
+MD_ia.tip=Relatório de Análise de Impacto
+
+MD_modeling.lbl=Modelagem
+MD_modeling.tip=Relatórios de modelagem
+
+TabColDef.lbl=Definições de Tabela/Coluna
+TabColDef.tip=Relatório de definição de Tabela/Coluna
+
+SourceTargetMapping.lbl=Mapeamentos de Origem para Destino
+SourceTargetMapping.tip=Relatório de Mapeamentos de Origem para Destino
+
+ImpactAnalysisOverviewRDB.lbl=Visão Geral da Análise de Impacto (RDB)
+ImpactAnalysisOverviewRDB.tip=Relatório de Visão Geral de Análise de Impacto para Bancos de Dados Relacionais
+ImpactAnalysisOverviewDAT.lbl=Visão Geral de Análise de Impacto (Estrutura de Dados)
+ImpactAnalysisOverviewDAT.tip=Relatório de Visão Geral de Análise de Impacto para Estruturas de Dados
+ImpactAnalysisOverviewFILE.lbl=Visão Geral da Análise de Impacto (Arquivo)
+ImpactAnalysisOverviewFILE.tip=Relatório da Visão Geral da Análise de Impacto para Arquivos de Dados
+ImpactAnalysisOverviewOLAP.lbl=Visão Geral da Análise de Impacto (BI)
+ImpactAnalysisOverviewOLAP.tip=Relatório da Visão Geral da Análise de Impacto para Business Intelligence
+ImpactAnalysisOverviewTFM.lbl=Relatório da Visão Geral da Análise de Impacto (Transformação)
+ImpactAnalysisOverviewTFM.tip=Relatório da Visão Geral da Análise de Impacto para Transformação
+ImpactAnalysisOverviewERM.lbl=Visão Geral da Análise de Impacto (Modelo Lógico)
+ImpactAnalysisOverviewERM.tip=Relatório da Visão Geral da Análise de Impacto para Modelos Lógicos
+
+LineageComplete.lbl=Sumário de Integridade de Linhagem
+LineageComplete.tip=Relatório de Sumário de Integridade de Linhagem
+
+#### ------------------- displays ---------------
+displLineageCompleteTitle=Sumário de Integridade de Linhagem
+displCountWithLineage=Com Linhagem
+displCountWithoutLineage=Sem Linhagem
+
+displStatistics=Statistics

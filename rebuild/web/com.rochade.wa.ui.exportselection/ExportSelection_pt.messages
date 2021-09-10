@@ -1,0 +1,37 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.wa.ui.exportselection
+#
+### Icons: all images should be inside of dir /com.rochade.wa.ui.exportselection/ + img/, see plugin.xml
+
+#extra icons
+### END Icons
+ 
+ExportSelection.ok=OK
+ExportSelection.cancel=Cancelar
+ExportSelection.export=Exportar
+ExportSelection.Selection=Selecionar Conteúdos para Exportação
+
+ExportSelection.exportas=Exportar Como:
+ExportSelection.desc=Selecione Atributos para exportar.\nO tipo base dessa tabela é:
+ExportSelection.layout=Layout:
+ExportSelection.layoutmsg=Clique no Cabeçalho de Coluna e Conteúdo de\nColuna para definir o layout:
+ExportSelection.warnmsg=Não há colunas selecionadas.  Selecione as colunas para a exportação.
+ExportSelection.savepref=Gravar o layout em suas preferências
+ExportSelection.AllTypes=Listar atributos de um tipo base e seus subtipos
+ExportSelection.SingleType=Listar atributos de um tipo base
+ExportSelection.UseCustom=Usar formatação personalizada das Preferências
+ExportSelection.pdf=PDF (.pdf)
+ExportSelection.htm=HTML (.html)
+ExportSelection.xlsx=Excel (.xlsx)
+ExportSelection.enter=Exportar (<Enter>)
+ExportSelection.esc=Sair (<Esc>)
+ExportSelection.ColumnHeader=Cabeçalho da Coluna
+ExportSelection.ColumnContent=Conteúdo da Coluna

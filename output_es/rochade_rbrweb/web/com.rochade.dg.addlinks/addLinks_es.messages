@@ -1,0 +1,38 @@
+﻿# metaGlossary - Message file
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+# package: com.rochade.dg.addlinks
+#
+#-------------------------------------------------------
+
+### Icons: all images should be inside of dir /com.rochade.dg.addlinks/ + img/, see plugin.xml
+
+#extra icons
+### END Icons
+
+WfAddConfigWizard.winCaption=Agregar Workflow
+WfAddConfigWizard.Title.Step.1=Seleccionar Workflow
+
+WfAddConfigWizard.btFinish=Agregar
+WfAddConfigWizard.btCancel=Cancelar
+WfAddConfigWizard.lblSelectTerms=Workflows compatibles
+WfAddConfigWizard.lblSelectRelType=Tipo de Relación
+WfAddConfigWizard.sepSelectTerms.height=10px
+WfAddConfigWizard.divContextList.style=relleno: 3px;
+WfAddConfigWizard.divContextList.width=98%
+WfAddConfigWizard.cmbAttrList.width=283px
+
+WfReplaceConfigWizard.winCaption=Reemplazar workflow
+WfReplaceConfigWizard.Title.Step.1=Seleccionar Workflow
+
+WfReplaceConfigWizard.btFinish=Reemplazar
+WfReplaceConfigWizard.btCancel=Cancelar
+WfReplaceConfigWizard.lblSelectTerms=Workflows compatibles
+WfReplaceConfigWizard.lblSelectRelType=Tipo de Relación
+WfReplaceConfigWizard.sepSelectTerms.height=10px
+WfReplaceConfigWizard.divContextList.style=relleno: 3px;
+WfReplaceConfigWizard.divContextList.width=98%
+WfReplaceConfigWizard.cmbAttrList.width=283px
+

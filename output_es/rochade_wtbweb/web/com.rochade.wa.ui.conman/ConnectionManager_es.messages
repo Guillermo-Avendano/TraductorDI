@@ -1,0 +1,63 @@
+﻿# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.wa.ui.conman
+#
+### Icons: all images should be inside of dir /com.rochade.wa.ui.conman/ + img/, see plugin.xml
+
+#extra icons
+### END Icons
+
+ConnectionManager.title=Configurar las Conexiones del Repositorio
+ConnectionManager.select=Seleccione una conexión para cambiar el estado
+ConnectionManager.available=Conexiones disponibles:
+ConnectionManager.name=Nombre de la conexión
+ConnectionManager.autoconnect=Inicio automático
+ConnectionManager.state=Estado
+ConnectionManager.connect=Conectar
+ConnectionManager.disconnect=Desconectar
+ConnectionManager.edit=Editar
+ConnectionManager.restore=Rest.Predeterminados
+ConnectionManager.displaystate=Mostrar estado de conexión
+ConnectionManager.close=Cerrar
+ConnectionManager.disconnecttext=¿Seguro desconectar de {0} y cerrar todas las subject areas relacionadas?
+ConnectionManager.disconnecttitle=Desconectar
+ConnectionManager.restoretext=Va a restaurar la configuración de espacio de datos.  ¿Desea continuar?
+ConnectionManager.restoretitle=Restaurar conexiones
+
+# tooltips
+ConnectionManager.altA=Activar/Desactivar indicador de arranque automático (Alt-A)
+ConnectionManager.altN=Lista de conexiones (Alt-N)
+ConnectionManager.altC=Conectar (Alt-C)
+ConnectionManager.altD=Desconectar (Alt-D)
+ConnectionManager.altE=Editar (Alt-E)
+ConnectionManager.altR=Restaurar (Alt-R)
+ConnectionManager.altS=Estado de visualización (ALT-S)
+ConnectionManager.esc=Cerrar (<Esc>, <Intro>)
+
+# ConnectionWizard 
+ConnectionWizard.title=Seleccione propiedades y bases de datos para el acceso
+ConnectionWizard.conname=Nombre de conexión: {0}
+ConnectionWizard.autostart=Conexión automática de inicio
+ConnectionWizard.conproperties=Propiedades de la conexión
+ConnectionWizard.alldb=Conectarse a todas las bases de datos accesibles
+ConnectionWizard.listdb=Seleccionar bases de datos para acceso
+ConnectionWizard.dbwarning=No conectado. Acceso a la base de datos no se puede configurar.
+ConnectionWizard.specific=Inicio de sesión específico de conexión
+
+# buttons
+ConnectionWizard.ok=Aceptar
+ConnectionWizard.cancel=Cancelar
+
+# tooltips
+ConnectionWizard.enter=Aceptar (<Enter>)
+ConnectionWizard.esc=Cancelar (<Esc>)
+ConnectionWizard.altA=Inicio automático (Alt-A)
+ConnectionWizard.altC=Conectarse a todas las bases de datos accesibles (Alt-C)
+ConnectionWizard.altD=Seleccionar bases de datos para acceso (Alt-D)
+ConnectionWizard.altS=Inicio de sesión específico de conexión. Siempre solicitar usuario y contraseña. (Alt-S)

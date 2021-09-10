@@ -1,0 +1,227 @@
+﻿#-------------------------------------------------------
+# metaGlossary - Message file
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+#
+# package: com.rochade.dg.xlsimport
+#
+
+### Icons: all images should be inside of dir /com.rochade.dg.xlsimport/ + img/, see plugin.xml
+
+#extra icons
+dg.xlsimport.img.add=/com.rochade.dg.xlsimport/img/addlink.gif
+dg.xlsimport.img.delete=/com.rochade.dg.xlsimport/img/Delete16.png
+dg.xlsimport.img.edit=/com.rochade.dg.xlsimport/img/02_16x16_edit.png
+dg.xlsimport.img.import=/com.rochade.dg.xlsimport/img/TableImport_16x16.png
+dg.xlsimport.img.batchimport=/com.rochade.dg.xlsimport/img/TableImportBatch_16x16.png
+dg.xlsimport.img.exit=/com.rochade.dg.xlsimport/img/exit.gif
+dg.xlsimport.img.save=/com.rochade.dg.xlsimport/img/16x16_save.png
+dg.xlsimport.img.load=/com.rochade.dg.xlsimport/img/Load_16x16.png
+dg.xlsimport.img.selectexcel=/com.rochade.dg.xlsimport/img/SelectExcel.png
+dg.xlsimport.img.refresh=/com.rochade.wa.action.ui/img/WTB_Refresh.png
+dg.xlsimport.img.filter=/com.rochade.dwr.version.compare/img/ArrowRight-16x16.png
+
+### END Icons
+
+dg.xlsimport.title.label=Excel Import
+dg.xlsimport.title.label.foritem=Import Excel File {0} {1}
+dg.xlsimport.button.upload=Select Excel File
+dg.xlsimport.button.import=Import
+dg.xlsimport.button.cancel=Cancel
+
+dg.xlsimport.label.loadedsetting=Setting loaded:
+
+dg.xlsimport.menu.label.doimport=Import
+dg.xlsimport.menu.label.batchimport=Batch Import
+
+dg.xlsimport.menu.label.save=Save
+dg.xlsimport.menu.label.save.own=Only For Me
+dg.xlsimport.menu.label.save.all=For All Users 
+dg.xlsimport.menu.label.saveas=Save As...
+
+dg.xlsimport.menu.label.settings=Settings
+dg.xlsimport.menu.label.load=Load
+dg.xlsimport.menu.label.load.own=My Settings
+dg.xlsimport.menu.label.load.general=General Settings
+dg.xlsimport.menu.label.load.all=All Settings
+dg.xlsimport.menu.label.load.refresh=Refresh
+dg.xlsimport.menu.label.load.delete=Delete
+
+dg.xlsimport.menu.label.headline=Headline
+dg.xlsimport.menu.label.startwith=Start at line
+
+dg.xlsimport.menu.label.addsheet=Add Sheet
+dg.xlsimport.menu.label.edit=Edit
+dg.xlsimport.menu.label.exit=Exit
+dg.xlsimport.menu.label.actions=Add Mapping
+dg.xlsimport.menu.label.la-mapping=Link Attribute
+dg.xlsimport.menu.label.ta-mapping=Text Attribute
+dg.xlsimport.menu.label.tag-mapping=Tags
+dg.xlsimport.menu.label.MainItemMapping=Import Item
+dg.xlsimport.menu.label.simple_NamespaceMappingPart=Namespace Item
+dg.xlsimport.menu.label.complex_NamespaceMapping=Namespace Item (Multi-level)
+dg.xlsimport.menu.label.RootItemMappingNSP=Namespace Item (Multi-level)
+dg.xlsimport.menu.label.RootItemMapping=Namespace Item
+
+dg.xlsimport.listitem.header=Header
+dg.xlsimport.listitem.select_column=... Select Column
+dg.xlsimport.listitem.select_type_and_attribute_for_add=...Select Type and Attribute to Add
+
+dg.xlsimport.label.itemtype=Item type
+dg.xlsimport.label.itemtypeattr=Item type (attribute)
+dg.xlsimport.label.attribute=Attribute
+dg.xlsimport.label.itemname=Item name
+dg.xlsimport.label.namespace=Namespace
+dg.xlsimport.label.itemattribute=Attribute
+dg.xlsimport.label.itemattributevalue=Value
+dg.xlsimport.label.splitcharacter=Delimiter
+dg.xlsimport.label.splitcharacter.value.none=none
+dg.xlsimport.label.linkmode=Link mode
+dg.xlsimport.label.linkmode.single=Single
+dg.xlsimport.label.linkmode.multiple=Multiple
+dg.xlsimport.label.linksearchmode=Link search mode
+dg.xlsimport.label.linksearchmode.global=Global
+dg.xlsimport.label.linksearchmode.actualscope=Actual namespace
+dg.xlsimport.label.linksearchmode.root=Root namespace
+dg.xlsimport.label.linkupdatemode=Link update mode
+dg.xlsimport.label.linkupdatemode.add=Add
+
+dg.xlsimport.label.actions=Add Mapping
+dg.xlsimport.label.la-mapping=Link Attribute
+dg.xlsimport.label.ta-mapping=Text Attribute
+dg.xlsimport.label.tag-mapping=Tags
+dg.xlsimport.label.MainItemMapping=Import Item
+dg.xlsimport.label.simple_NamespaceMappingPart=Namespace Item
+dg.xlsimport.label.complex_NamespaceMapping=Namespace Item (Multi-level)
+dg.xlsimport.label.RootItemMappingNSP=Namespace Item (Multi-level)
+dg.xlsimport.label.RootItemMapping=Namespace Item
+
+dg.xlsimport.tab.title.general=General
+dg.xlsimport.tab.title.mapping=Mapping
+dg.xlsimport.tab.title.import=Import
+
+dg.xlsimport.noxlsx=The file {0} is not an .xlsx Excel file (OOXML / Office Open XML file) or it has unsupported or corrupt contents
+
+dg.xlsimport.result.title=Excel Import Result
+dg.xlsimport.result.button.close=Close
+dg.xlsimport.result.button.download=Download Log
+dg.xlsimport.result.log.file.prefix=Import-Log-
+dg.xlsimport.result.log.file.dateformat=yyyy-MM-dd HH:mm:ss
+dg.xlsimport.result.log.file.suffix=.log
+
+dg.xlsimport.load.msg.discard.changes=There are unsaved changes... \nDo you want to proceed?
+dg.xlsimport.load.msg.discard.changes.title=Discard Changes
+
+dg.xlsimport.saveas.title=Save As
+dg.xlsimport.saveas.label=Setting name:
+dg.xlsimport.saveasforall.label=Save to general setting (available for all users)
+dg.xlsimport.saveas.button.close=Cancel
+dg.xlsimport.saveas.button.save=Save
+
+
+dg.xlsimport.saveas.msg.notempty=The name must not be empty.
+dg.xlsimport.saveas.msg.notempty.title=Error
+dg.xlsimport.saveas.msg.alreadyexist=The setting with the name "{0}" already exists. \nDo you want to overwrite them?
+dg.xlsimport.saveas.msg.alreadyexist.title=Setting Already Exists
+dg.xlsimport.saveas.msg.saved=The setting "{0}" has been saved.
+dg.xlsimport.saveas.msg.saved.error=Error on save setting "{0}".
+dg.xlsimport.saveas.msg.saved.title=Save
+
+dg.xlsimport.result.write.error=Write errors (sheet/row):
+dg.xlsimport.result.create.error=Create errors (sheet/row):
+dg.xlsimport.result.summary=Load summary:
+dg.xlsimport.result.links.unresolved.details=Details about unresolved links (sheet/row):
+dg.xlsimport.result.links.unresolved=Links unresolved: {0}
+dg.xlsimport.result.links.resolved=Links resolved: {0}
+dg.xlsimport.result.items.created=Items created: {0}
+dg.xlsimport.result.items.updated=Items updated: {0}
+dg.xlsimport.result.stat.detail= - {0} {1}
+
+dg.xlsimport.load.error.title=Error Loading Import Setting
+dg.xlsimport.load.error.sheetcount=There are more sheets defined in the setting than exist in the Excel file.
+dg.xlsimport.load.error.invalidtype=Incorrect setting: Item type {0} is not valid
+dg.xlsimport.load.error.invalidtype.refitem=Incorrect setting: Item type {0} is not valid for referenced item type {1}
+dg.xlsimport.load.error.invalidattribute=Incorrect setting: Attribute {0} is not valid
+dg.xlsimport.load.error.columns.notexist=Incorrect setting: The setting defines columns that do not exist in the Excel file (Sheet: {0}; Missing column: {1})
+dg.xlsimport.load.error.nsptype=Incorrect setting: Item type {0} is not valid as a target type for {1} (Attribute: {2})
+dg.xlsimport.load.error.linktype=Incorrect setting: Item type {0} is not valid as a target type for {1} (Attribute: {2})
+dg.xlsimport.load.error.texttype=Incorrect setting: Attribute {0} is not valid for item type {1}
+dg.xlsimport.load.error.refitem=Incorrect setting: Stored setting is build for reference item import.
+dg.xlsimport.load.error.notforrefitem=Incorrect setting: Stored setting is not build for reference item import.
+
+dg.xlsimport.load.error.notexist=Stored setting "{0}" does not exist any more.
+dg.xlsimport.load.error.isempty=Stored setting "{0}" is empty.
+
+dg.xlsimport.lockerror=Item lock could not be acquired. Item is locked by {0}.
+dg.xlsimport.lockerror2=Item lock could not be acquired for all selected items.
+dg.xlsimport.lockerror.title=Error 
+
+dg.xlsimport.batch.title=Prepare Batch Import
+dg.xlsimport.batch.title.create=Create Import Package
+dg.xlsimport.batch.title.download=Download Import Package
+dg.xlsimport.batch.import=Import using:
+dg.xlsimport.batch.importLoaded=Loaded file and setting
+dg.xlsimport.batch.importAny=Other file and setting
+dg.xlsimport.batch.filename=Full path of import file:
+dg.xlsimport.batch.mapping=Setting:
+dg.xlsimport.batch.ownSetting=[My Setting]
+dg.xlsimport.batch.allSetting=[General Setting]
+dg.xlsimport.batch.application=Target application:
+dg.xlsimport.batch.transaction=Import into Work in Progress:
+dg.xlsimport.batch.item=Target item:
+dg.xlsimport.batch.user=User:
+dg.xlsimport.batch.pw=Password:
+dg.xlsimport.batch.os=Create Package for:
+dg.xlsimport.batch.osWin=Windows
+dg.xlsimport.batch.osUnix=Unix
+dg.xlsimport.batch.prefix=Prefix for generated files:
+dg.xlsimport.batch.jars=Include libraries:
+dg.xlsimport.batch.generate=Create Package
+dg.xlsimport.batch.zip=Package: 
+dg.xlsimport.batch.download=Download
+dg.xlsimport.batch.close=Close
+
+dg.xlsimport.batch.error.filename=Enter Excel file name including path
+dg.xlsimport.batch.error.setting=Select the setting
+dg.xlsimport.batch.error.emptysetting=Selected setting does no longer exist or is empty
+dg.xlsimport.batch.error.user=Enter user name
+dg.xlsimport.batch.error.accountfile=Could not create account file
+dg.xlsimport.batch.error.verify=Verification of connection failed
+dg.xlsimport.batch.error.prefix=Enter prefix for generated files
+dg.xlsimport.batch.error.tempdir=Could not create temporary directory
+dg.xlsimport.batch.error.connectfile=Could not create properties file for connection settings
+dg.xlsimport.batch.error.settingsfile=Could not create properties file for mapping settings
+dg.xlsimport.batch.error.commandfile=Could not create command file
+dg.xlsimport.batch.error.excelfile=Could not provide Excel file
+dg.xlsimport.batch.error.jarfile=Could not copy the following libraries: {0}
+dg.xlsimport.batch.error.zipfile=Could not create zip file
+dg.xlsimport.batch.error.zipdownload=Download failed
+dg.xlsimport.batch.error.passwordRetrieve=Unable to get the password from {0} for {1}.\n{2}
+dg.xlsimport.batch.error.passwordUser=User {0} is not registered for the given account file!
+dg.xlsimport.batch.error.passwordMatch=The given password does not match. Please check the account details!
+dg.xlsimport.batch.error.connectServer=Error connecting to Rochade using: host={0} port={1}\n{2}
+dg.xlsimport.batch.error.connectDatabase=Error accessing database: {0}\n{1}
+
+dg.xlsimport.batch.copyright1=Copyright © 1983-{0} ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc.
+dg.xlsimport.batch.copyright2=All rights reserved. This program is protected by U.S. and international copyright laws.
+
+dg.xlsimport.tags.tooltip=Tags to be added to all imported items
+
+dg.xlsimport.setting.title=All Settings
+dg.xlsimport.setting.close=Close
+dg.xlsimport.setting.name=Name
+dg.xlsimport.setting.type=Type
+dg.xlsimport.setting.file=Initially Used for Excel File
+dg.xlsimport.setting.fileLC=Initially used for Excel file
+dg.xlsimport.setting.root=Root
+dg.xlsimport.setting.fileLoaded=Excel file loaded:
+dg.xlsimport.setting.tgtitem=Target item:
+dg.xlsimport.setting.noDelete.any=No permission to delete any setting
+dg.xlsimport.setting.noDelete.item=No permission to delete the selected setting(s)
+dg.xlsimport.setting.noLoad.any=Load only available if Excel file is loaded
+dg.xlsimport.setting.noLoad.item=Selected setting cannot be loaded for current Excel file
+dg.xlsimport.setting.confirmDelete=Are you sure you want to delete the setting(s)?
+dg.xlsimport.setting.NotAllDeleted=Not all selected settings could be deleted

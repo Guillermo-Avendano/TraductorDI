@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+
+<window apply="com.rochade.wa.ui.table.columnsselection.ColumnsFormatComposer" 
+	height="300px" width="500px" title="${wtb:l('ColumnsFormat.title')}"
+	border="normal" action="show: slideDown;hide: slideUp"
+	sclass="asg-rochade-wa-ui-table-columnselection">
+
+  <div height="200px" width="500px" style="margin: -2px; padding: 5px 5px">
+  	<vbox>
+  		<hbox height="200px" width="500px">
+  			<vbox>
+				<listbox id="listColumn" width="250px" height="180px">
+					<listhead sizable="true">
+						<listheader label="${wtb:l('TableColumns.SelectedColumns')}" />
+					</listhead>
+				</listbox>
+  			</vbox>
+  			<vbox>
+  				<label value="${wtb:l('ColumnsFormat.attr')}"/>
+	  			<hbox style="border: 1px">
+	  				<space/>
+					<label value="${wtb:l('ColumnsFormat.attrWidth')}"/>
+					<intbox id="txtboxWidth" width="35px" constraint="no empty, no negative,no zero"/>
+	  			</hbox>
+  			</vbox>
+  		</hbox>
+  	</vbox>
+  </div>
+  <div height="80px" width="500px" style="margin: -2px; background: ${wtb:l('asg-atlantic-celadon-green')};">
+	  	<hbox height="30px" width="500px" style="">
+	  		<hbox height="30px" width="490px" pack="end">
+	  			<button id="btnOK"
+	  				label="${wtb:l('ColumnsFormat.OK')}"
+	  				tooltiptext="${wtb:l('ColumnsFormat.OK.tip')}"
+	  				style="margin: 5px 10px 0px 0px" />
+	  			<button id="btnCancel"
+	  				label="${wtb:l('ColumnsFormat.cancel')}"
+	  				tooltiptext="${wtb:l('ColumnsFormat.cancel.tip')}"
+	  				style="margin: 5px 10px 0px 0px" />
+	  			<space spacing="5px" />	
+	  		</hbox>
+	  	</hbox>
+  </div>
+  
+</window>

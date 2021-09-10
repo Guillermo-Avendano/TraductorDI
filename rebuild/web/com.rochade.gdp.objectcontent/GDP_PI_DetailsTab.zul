@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="MG View" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<!--
+	GDP_PI_DetailsTab.zul
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+-->
+<div
+	use="com.rochade.mg.ui.view.BusinessTermPropertiesTabComposer"
+	sclass="asg-tab-content-div">
+	<grid id="BusinessTermItemViewPropertiesGrid"
+		sclass="asg-itemview-grid">
+		<columns sclass="asg-itemview-grid-columns">
+			<column width="100%" />
+		</columns>
+		<rows style="background: transparent;" sclass="asg-itemview-grid-rows asg-tableshapes-links">
+			<row sclass="asg-itemview-gridline-value">
+				<grid id="BusinessTermItemViewSystemPropertiesGrid" sclass="asg-itemview-grid" style="padding-left: 0px; padding-top: 0px;">
+					<columns sclass="asg-itemview-grid-columns">
+						<column hflex="2" />
+						<column hflex="5" />
+					</columns>
+					<rows sclass="asg-itemview-grid-rows asg-tableshapes-links">
+						<row sclass="asg-itemview-gridline-value" >
+							<label
+								value="${wtb:l('BusinessTermItemView.PropertiesTab.Glossary')}"
+								sclass="asg-attribute-label-bold" />
+							<div 
+								use="com.rochade.mg.ui.view.GlossaryTextPropertyView"
+								attributeNames="AbsName" width="99%" readOnly="true"
+								id="MgBtViewPropTabGlossary" />
+						</row>
+						<row sclass="asg-itemview-gridline-value" >
+							<label
+								value="${wtb:l('BusinessTermItemView.Info.status')}"
+								sclass="asg-attribute-label-bold" />
+							<div
+								use="com.rochade.mg.ui.view.StatusTextPropertyView"
+								attributeNames="RBG/STATUS" width="99%" readOnly="true"
+								id="MgBtViewPropTabStatus" />
+						</row>
+						<row sclass="asg-itemview-gridline-value" >
+							<label
+								value="${wtb:l('BusinessTermItemView.PropertiesTab.InProcessBy')}"
+								sclass="asg-attribute-label-bold" />
+							<div
+								use="com.rochade.mg.ui.view.InProcessByTextPropertyView"
+								attributeNames="RBG/LOCKED-BY" width="99%" readOnly="true"
+								id="MgBtViewPropTabLockedBy" />
+						</row>
+						<row sclass="asg-itemview-gridline-value" >
+							<label
+								value="${wtb:l('BusinessTermItemView.PropertiesTab.LastApprover')}"
+								sclass="asg-attribute-label-bold" />
+							<div
+								use="com.rochade.mg.ui.view.LastApproverTextPropertyView"
+								attributeNames="" width="99%" readOnly="true"
+								id="MgBtViewPropTabLastApprover" />
+						</row>
+						<row sclass="asg-itemview-gridline-value" >
+							<label
+								value="${wtb:l('BusinessTermItemView.Info.lastapproveddate')}"
+								sclass="asg-attribute-label-bold" />
+							<div
+								use="com.rochade.mg.ui.view.LastApprovalDateTextPropertyView"
+								attributeNames="" format="date" width="99%" readOnly="true"
+								id="MgBtViewPropTabLastApprovalDate" />
+						</row>
+						<row sclass="asg-itemview-gridline-value" >
+							<label
+								value="${wtb:l('BusinessTermItemView.Info.termowner')}"
+								sclass="asg-attribute-label-bold" />
+							<div
+								use="com.rochade.mg.ui.view.TermOwnerTextPropertyView"
+								attributeNames="scopeId" width="99%"
+								id="MgBtViewPropTabTermOwner" />
+						</row>
+						<row sclass="asg-itemview-gridline-value"  if="${wtb:check('appModeDefault')}">
+							<hbox id="approvalGroup" align="center" sclass="asg-attribute-label-bold">
+							<label value="${c:l('BusinessTermItemView.Info.ApprovalGroupField')}"  sclass="asg-attribute-label-bold" />
+							<div use="com.rochade.mg.ui.view.ApprovalGroupField" attributeNames="" width="90%"
+							readOnly="true" id="MgBtViewInfoApprovalGroup" relatedId="approvalGroup"  />
+						</hbox>
+			 		</row>	
+					</rows>
+				</grid><!-- id="BusinessTermItemViewSystemPropertiesGrid" -->
+			</row>
+			
+			<row id="lPIUsedInStrucrure" sclass="asg-itemview-gridline-value">
+				<label
+					value="${wtb:l('label.GDP_PIUsedInStructure')}:"
+					sclass="asg-attribute-label-bold" style="padding-left: 4px;" />
+			</row>
+			<row sclass="asg-itemview-gridline-value">
+				<div style="padding-left: 4px;"
+					id="PIUsedInStrucrure"
+					relatedId="lPIUsedInStrucrure"
+					sclass="asg-linklist"
+					use="com.rochade.wa.ui.view.ObjectContentQueryView"
+					query="mpath=GDP_PIUsedInStructures!mask=Structures!discardSeeds=true!discardAssocs=true" 
+					tableShape="BI_Items_with_def"
+					readOnly="true"
+					hideForCreate="true"
+					viewMenu="DWR_FilterViewMenu"
+					footerVisible="false" />
+			</row>
+			<row id="lMgBtViewPropTabAssociatedContexts" sclass="asg-itemview-gridline-value">
+				<hbox>
+					<label
+						value="${wtb:l('BusinessTermItemView.List.GoverningAssociatedContexts')}:"
+						sclass="asg-attribute-label-bold" style="padding-left: 4px; padding-top: 10px;" />
+				</hbox>
+			</row>
+			<row sclass="asg-itemview-gridline-value">
+				<div style="padding-left: 4px;"
+					id="MgBtViewPropTabAssociatedContexts"
+					relatedId="lMgBtViewPropTabAssociatedContexts"
+					sclass="asg-linklist"
+					use="com.rochade.mg.ui.view.ObjectContentQueryViewUpdateOnViewerContributor"
+					attributeNames=""
+					query="topic=GDP_AssociatedContextsPathQuery!fromType=BPK__BUSINESS_ITEM"
+					tableShape="MG_BTGOVERNINGASSOCIATEDCONTEXTSVIEW"
+					readOnly="true" 
+					hideForCreate="true"
+					footerVisible="false"/>
+			</row>
+		</rows>			
+	</grid>
+</div>

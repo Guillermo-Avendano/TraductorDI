@@ -1,0 +1,33 @@
+﻿# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.wa.ui.InvQuery
+#
+### Icons: all images should be inside of dir /com.rochade.wa.ui.invquery/ + img/, see plugin.xml
+
+#extra icons
+### END Icons
+
+InvQuery.title=Inventario
+InvQuery.select=Ajustar la configuración del inventario de consultas.
+InvQuery.list=Consultas disponibles
+InvQuery.runSettings=Ejecutar Configuraciones:
+InvQuery.property=Propiedad
+InvQuery.value=Valor
+InvQuery.preserve=Preservar ajustes
+InvQuery.runButton=Ejecutar
+InvQuery.cancelButton=Cancelar
+InvQuery.invquery=Inventario
+
+# Tooltips
+
+InvQuery.altS=Ejecutar Configuraciones (Alt-S)
+InvQuery.altP=Preservar configuraciones (Alt-P)
+InvQuery.altL=Limite del resultado de la consulta (Alt-L)
+InvQuery.enter=Ejecutar consulta (Alt-R, <enter>)
+InvQuery.esc=Cancelar (<Esc>)

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="WTB" contentType="text/html;charset=UTF-8"?>
+<!-- 
+	@author SK Dec 26, 2011, created
+	@version 1.00.000
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+<zk>
+	<div width="100%" apply="com.rochade.mdm.comp.searchfor.embeded.AutoSuggestSearchForComposer">
+		<hlayout valign="middle">
+			<label value="${wtb:l('Search.label')}" hflex="1" />
+			<combobox id="contextNameList" autodrop="true" popupWidth="100%" 
+				hflex="3" />
+			<button image="${wtb:getImg('search.img.search')}"
+				label="${wtb:l('bg_SearchBT.button.search')}" id="searchButton"
+				sclass="asg-button-standard-11px" hflex="1" />
+		</hlayout>
+	</div>
+</zk>

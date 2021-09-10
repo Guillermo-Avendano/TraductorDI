@@ -1,0 +1,40 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.wa.ui.QueryParam
+#
+
+EmbQueryParamDrilldown.select=Specify the parameters for running the query.
+EmbQueryParamDrilldown.runSettings=Run settings:
+EmbQueryParamDrilldown.property=Parameter
+EmbQueryParamDrilldown.value=Value
+EmbQueryParamDrilldown.limit=Maximum number of items
+EmbQueryParamDrilldown.runButton=Search >>
+EmbQueryParamDrilldown.cancelButton=Cancel
+EmbQueryParamDrilldown.resetButton=Reset
+EmbQueryParamDrilldown.queryparam=Query Parameter
+
+EmbQueryParamDrilldown.filterby.DWR_RDB_DB_SYSTEM=Filter by DB System
+EmbQueryParamDrilldown.filterby.DWR_RDB_DATABASE=Filter by database
+EmbQueryParamDrilldown.filterby.DWR_RDB_SCHEMA=Filter by DB Schema
+EmbQueryParamDrilldown.filterby.DWR_RDB_TABLE_OR_VIEW=Filter by table or view
+EmbQueryParamDrilldown.filterby.DWR_TFM_SYSTEM=Filter by folder
+
+
+# Tooltips
+
+EmbQueryParamDrilldown.altS=Run Settings (Alt-S)
+EmbQueryParamDrilldown.altP=Preserve settings (Alt-P)
+EmbQueryParamDrilldown.altL=Limit the query result (Alt-L)
+EmbQueryParamDrilldown.enter=Run query (Alt-R, <enter>)
+EmbQueryParamDrilldown.esc=Cancel (<esc>)
+EmbQueryParamDrilldown.reset=Reset
+
+# icons
+EmbQueryParamDrilldown.img.wizard=/com.rochade.dwr.queryparam/img/WizardDefault.gif
+

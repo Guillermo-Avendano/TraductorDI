@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="MG View" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<div use="com.rochade.wa.ui.view.BaseObjectView" sclass="asg-stitch-tab-details">
+	<div use="com.rochade.sti.ui.view.propviews.DetailsContainerPropertyView" id="DetailsTab">
+		<window title="" border="none" id="DetailsTabWindow"
+			onCreate="@command('onWindowCreate')"
+			apply="org.zkoss.bind.BindComposer"
+			viewModel="@id('vm') @init('com.rochade.sti.ui.view.model.ContainerDetailsViewModel')">
+			<grid style="border: 0px; padding: 10px; background: #FFFFFF;" id = "ContainerDetailsTabWindow">			 
+				<columns style="background: transparent;border: 0px">
+					<column width="20%" />
+					<column width="80%" />
+				</columns>
+				<rows id="textGrid" style="background: transparent;border: 0px">
+					<row valign="top" align="left" style=" border: 0px">
+						<label	value="${wtb:l('detailsTab.StiContainer')}" sclass="asg-attribute-label-bold"/>										
+						<label	value="@bind(vm.container.name)" />
+					</row>														
+					<row valign="top" align="left" style=" border: 0px">
+						<label	value="${wtb:l('detailsTab.Status')}" sclass="asg-attribute-label-bold"/>
+						<label	value="@bind(vm.containerState)" />
+					</row>
+					<row valign="top" align="left" style=" border: 0px">
+						<label	value="${wtb:l('detailsTab.modifier')}" sclass="asg-attribute-label-bold"/>
+						<label	value="@bind(vm.container.modifier)" />
+					</row>
+					<row valign="top" align="left" style=" border: 0px">
+						<label	value="${wtb:l('detailsTab.modificationTime')}" sclass="asg-attribute-label-bold"/>
+						<label	value="@bind(vm.modificationTime)" />
+					</row>							
+					<row valign="top" align="left" style=" border: 0px">
+						<label	value="${wtb:l('detailsTab.executor')}" sclass="asg-attribute-label-bold"/>
+						<label	value="@bind(vm.container.executor)" />
+					</row>
+					<row valign="top" align="left" style=" border: 0px">
+						<label	value="${wtb:l('detailsTab.executionTime')}" sclass="asg-attribute-label-bold"/>
+						<label	value="@bind(vm.executionTime)" />
+					</row>
+				</rows>  	
+			</grid>
+		</window>
+	</div>
+</div>

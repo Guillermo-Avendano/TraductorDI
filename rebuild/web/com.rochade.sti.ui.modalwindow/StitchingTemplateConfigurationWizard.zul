@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="MG View" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<div use="com.rochade.wa.ui.view.BaseObjectView">
+	<div
+		use="com.rochade.sti.ui.view.propviews.ConfigurationTemplatePropertyView"
+		id="ConfigTemplateModal">
+		<window title="${wtb:l('STI_AdjustParametersWindowTitle')}"
+			border="none" mode="modal" closable="false" sclass="asg-stitching-templates-modal-dialog"
+			viewModel="@id('vm') @init('com.rochade.sti.ui.view.model.StitchingTemplateInstanceViewModel')"
+			apply="org.zkoss.bind.BindComposer" width="800px" height="50%">
+			<listbox model="@bind(vm.parameters)" name="asg-stitching-templates-modal-list"
+				sclass="asg-stitching-templates-modal-list"
+				disabled="@load(not vm.editMode)"
+				itemRenderer="com.rochade.sti.ui.view.renderer.templates.TemplateParametersModalRenderer"
+				height="90%" />
+			<div id="divButtons"
+				sclass="asg-stitching-templates-modal-buttons-div">
+				<button width="150px" label="${wtb:l('wizard.Ok')}"
+					sclass="asg-stitching-templates-modal-button-ok"
+					onClick="@command('ok')" />
+				<button width="150px" label="${wtb:l('wizard.Cancel')}"
+					sclass="asg-stitching-templates-modal-button-cancel"
+					onClick="@command('closeWindow')" />
+			</div>
+		</window>
+	</div>
+</div>

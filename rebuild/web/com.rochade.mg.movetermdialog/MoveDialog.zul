@@ -1,0 +1,108 @@
+<?page title="Move Dialog" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="http://www.zkoss.org/dsp/web/core" prefix="c" ?>
+<!-- 
+	Dialog to select the glossary/context where BT is moved into 
+	@author XC, 20120313, created
+	@version 2.20.001
+-->
+<!-- Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. -->
+<window id="moveBtWin" closable="true" minimizable="false"
+	maximizable="false" title="" border="normal" width="940px" 
+	apply="com.rochade.mg.movetermdialog.MoveDialogComposer" sclass="asg-modal-window">
+	<caption image="${wtb:getImg('movetermdialog.img.move')}"
+		label="${c:l('MoveDialog.title')}" />
+<!-- 	<borderlayout sclass="asg-borderlayout"  -->
+<!-- 		width="100%" style="background:${wtb:l('asg-atlantic-light-gray')}; border: none;"> -->
+<!-- 		<center id="north" style="background-color: ${wtb:l('asg-atlantic-light-gray')}; padding:5px" autoscroll="true"> -->
+			<div sclass="asg-content" style="padding:0px 5px 5px 5px">
+				<grid
+					style="border: 0px solid ${wtb:l('asg-atlantic-gray')}; padding: 0; background: #FFFFFF;">
+					<columns style="background: transparent">
+						<column />
+					</columns>
+					<rows style="background: transparent">
+						<row valign="top"
+							style="border: 0px; background: transparent">
+							<hlayout>
+								<label
+									value="${c:l('MoveDialog.subtitle')}:" style="color: ${wtb:l('label-color')};" />
+								<label id="itemName" />
+								<hbox id="mlName" align="left"
+									visible="false">
+									<label
+										id="defaultTranslatedText"
+										style="color: ${wtb:l('label-color')}; margin-left: 10px;" />
+									<label id="defaultName" />
+								</hbox>
+
+							</hlayout>
+						</row>
+						<row valign="top"
+							style="border: 0px; background: transparent;">
+							<hlayout>
+								<label id="itemScopeLbl"
+									style="color: ${wtb:l('label-color')};" />
+								<label id="itemScopeLblValue" />
+							</hlayout>
+						</row>
+						<row id="moveBtGlossaryRow" valign="top"
+							style="border: 0px; background: transparent; padding-top: 10px">
+							<label
+								value="${c:l('MoveDialog.label.glossary')}:" />
+						</row>
+						<row id="moveBtGlossaryListRow" valign="top"
+							style="border: 0px; background: transparent">
+							<vbox>
+								<listbox id="moveBtGlossaryList"
+									use="com.rochade.wa.view.table.WABaseTable"
+									tableShape="moveDialogGlossaryView" viewMenu=""
+									multiple="false" headerVisible="true" footerVisible="false"
+									sclass="asg-listbox1">
+								</listbox>
+								<label id="lblGlossaryHint" 
+									visible="false" />
+								<label id="noPermissionGlossary"
+									value="${c:l('MoveDialog.nopermission')}"
+									visible="false" style="color: red" />
+							</vbox>
+						</row>
+						<row valign="top"
+							style="border: 0px; background: transparent; padding-top: 10px">
+							<label
+								value="${c:l('MoveDialog.label.contexts')}:" />
+
+						</row>
+						<row valign="top"
+							style="border: 0px; background: transparent;">
+							<vbox>
+								<listbox id="moveBtContextsList"
+									use="com.rochade.wa.view.table.WABaseTable"
+									tableShape="moveDialogContextsView" viewMenu=""
+									multiple="false" headerVisible="true" footerVisible="false"
+									sclass="asg-listbox1" >
+								</listbox>
+								<label id="lblContextsHint" 
+									visible="false" />
+								<label id="noPermissionContexts"
+									value="${c:l('MoveDialog.nopermission')}"
+									visible="false" style="color: red" />
+							</vbox>
+						</row>
+						<row valign="top"
+							style="border: 0px; background: transparent;">
+							<hbox pack="end" width="99%"
+								style="margin: 5px">
+								<button id="btnOK"
+									sclass="asg-button" label="${c:l('MoveDialog.button.ok')}"
+									forward="onClick=onOK" />
+								<button id="btnCancel"
+									sclass="asg-button" label="${c:l('MoveDialog.button.cancel')}"
+									forward="onClick=onCancelClicked" />
+							</hbox>
+						</row>
+					</rows>
+				</grid>
+			</div>
+<!-- 		</center> -->
+<!-- 	</borderlayout> -->
+</window>

@@ -1,0 +1,16 @@
+﻿#-------------------------------------------------------
+# Rochade WTB - Message file
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#Menu.search=Pesquisa & Relatórios
+
+DWR_Maintain.lbl=Manutenção
+DWR_Maintain.tip=Manutenção de algo
+
+DWR_Search.lbl=Pesquisa & Relatórios
+DWR_Search.tip=Pesquisa & Relatórios de algo
+

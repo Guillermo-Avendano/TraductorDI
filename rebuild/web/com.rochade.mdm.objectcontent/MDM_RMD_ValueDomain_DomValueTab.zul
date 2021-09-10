@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="MG View" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<!--
+	@author  HC 31/07/2011, created
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+	deprecated???
+-->
+<div use="com.rochade.wa.ui.view.BaseObjectView" width="100%"
+	height="100%">
+	<div style="background:transparent" height="100%">
+		<grid style="border: 0px; padding: 0; background: #FFFFFF;">
+			<columns style="background: transparent">
+				<column width="100%" />
+			</columns>
+			<rows id="topGrid" style="background: transparent; ">
+				<row valign="top" align="left"
+						style="border: 0px; background: transparent;">
+						<label value="${wtb:l('Attributes.MDM_RMD_PERMISSIBLE_VALUE')}: "
+							sclass="asg-attribute-label-bold"/>
+					</row>
+					<row valign="top" align="left"
+						style="border: 0px; background: transparent;">
+						<div
+							use="com.rochade.wa.ui.view.TableLinkPropertyView"
+							tableShape="MDM-RDB-Tables"
+							width="99%"
+							attributeNames="MDM_RMD_CONTAINS_PERMISSIBLE_VAL"
+							readOnly="false"
+							id="PVs"
+							viewMenu=""
+							/>
+					</row>
+			</rows>
+		</grid>
+	</div>
+</div>

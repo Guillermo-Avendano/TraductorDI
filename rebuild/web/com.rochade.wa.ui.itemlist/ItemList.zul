@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="Type List title" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<!--
+	@author HO 03/10/2010, created
+			SA 19/10/2010, added menu items.
+			HG 08/26/2010, add scrollbar function
+			HG 16/03/2011, use RVL Table View
+			HG 04/04/2011, use Action Model, old implementation removed
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+-->
+<window apply="${arg.composer}" sclass="asg-itemlistview-content">
+
+	<div id="header" sclass="asg-itemlistview-header" >
+		<div   id="headerTitle" sclass="asg-itemlistview-title-header" width="100%" />
+		<label id="headerInfo" sclass="asg-itemlistview-info-header" width="100%" />
+	</div>
+
+	<listbox id="itemListbox"
+		use="com.rochade.wa.view.table.WABaseTable"
+		tableShape="${wtb:getArg('tableShape')}"
+		viewMenu="${wtb:getArg('viewMenu')}"
+		contextMenu="${wtb:getArg('contextMenu')}"
+		footerLabel="${wtb:l('ItemList.footer')}"
+		rowRendererClass="${wtb:getArg('rowRendererClass')}"
+		multiple="true"
+		defaultActionTriggeredOnDoubleClick="true"
+		defaultActionTriggeredOnSingleClick="false"
+		defaultActionTriggeredOnEnter="true">
+	</listbox>
+
+	<div id="divQueryWasLimited" visible="${$composer.warnQueryLimitedVisible}">
+		<label id="lblQueryLimited" value="${$composer.queryLimitedLabel}" style="color:red"></label>
+		<a id="aRepeatQuery" label="${$composer.queryRepeatLabel}" visible="${$composer.queryRepeatVisible}" style="color:red" />
+	</div>
+</window>

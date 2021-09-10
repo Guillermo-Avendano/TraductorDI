@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page id="start" title="WebAccess" contentType="text/html;charset=UTF-8"?>
+<!-- 
+	@author HG 14/03/2011, created
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 	
+-->
+<hlayout use="com.rochade.wa.ui.drilldown.DrilldownMenu" style="spacing:0px; padding:0px">
+	<toolbar style="background:none; border:none; padding:0px">
+		<space bar="true" width="1px"/>
+		<toolbarbutton actionId="WTB_SelectAll"/>
+		<toolbarbutton actionId="WTB_DeselectAll"/>
+		<toolbarbutton actionId="WTB_InvertSelection"/>
+		<toolbarbutton actionId="WTB_ChangeScope" enableCondition="selection.single"/>
+	</toolbar>
+</hlayout>

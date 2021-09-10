@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="DG Snapshot Create Window" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<?taglib uri="http://www.zkoss.org/dsp/web/core" prefix="c"?>
+<!-- 
+	Create Snapshot Dialog
+-->
+<!-- Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. -->
+<window vflex="min" id="dqTrendConfigWin"
+	apply="com.rochade.dqa.chart.configwindow.DQTrendChartConfigModalComposer"
+	mode="modal" title="${wtb:l('dq.trend_chart.cfg.title')}"
+	closable="true" width="510px" sizable="true">
+	<div id="content" style="margin: 5px;" height="250px" />
+	<hbox pack="end" width="98%" style="margin: 5px;">
+		<button label="${wtb:l('dq.trend_chart.cfg.ok')}"
+			id="createChart" />
+		<button label="${wtb:l('dq.trend_chart.cfg.cancel')}"
+			onClick="dqTrendConfigWin.detach()" />
+	</hbox>
+</window>

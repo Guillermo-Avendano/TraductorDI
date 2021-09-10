@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page id="start" title="WebAccess" contentType="text/html;charset=UTF-8"?>
+<!-- 
+	@author HC 20/12/2011, created
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 	
+-->
+<editormenu>
+	<menubar style="background:none; border:none;">
+		<menuitem actionId="WTB_Editor_AddMetaNotes" visibleCondition="metaNotesTypeExist" />
+		<menuitem actionId="WTB_OpenSummaryView" />
+		<contextmenu actionId="WTB_Editor_Context" showDefaultOnly="true"/>
+		<menu actionId="WTB_Editor_Share" visibleCondition="Editor.isPublishButtonEnabled">
+			<menupopup>
+				<menuitem actionId="WTB_SendUrl"/>
+				<menuitem actionId="WTB_AddFavorites" visibleCondition="WTB_AddFavorites.visible"/>
+				<menuitem actionId="WTB_Editor_Export_PDF"/>
+				<!--menuitem actionId="DWR_BTExcelExport"/-->
+			</menupopup>
+		</menu>
+	</menubar>
+</editormenu>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page id="start" title="WebAccess" contentType="text/html;charset=UTF-8"?>
+<!-- 
+	@author HC 20/12/2011, created
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 	
+-->
+<editormenu sclass="asg-rochade-im-editormenu-issue-create-menu">
+	<menubar style="background:none; border:none; ">
+		<imwfgovernancemenu processTypes="REVIEW" actionId="WTB_WF_Governance" wfActionId="IM_WF_StartProcess" enableCondition="Editor.wf.objectSubmit_allowed" />
+	</menubar>
+</editormenu>

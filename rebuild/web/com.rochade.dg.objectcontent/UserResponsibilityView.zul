@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="MG View" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<!-- 
+	@author  HC 12/11/2011, created
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+<div use="com.rochade.wa.ui.view.BaseObjectView" sclass="asg-tab-content-div">
+	<grid style="border: 0px; padding: 10px; background: #FFFFFF;">
+		<columns style="background: transparent">
+			<column width="100%" />
+		</columns>
+		<rows id="topGrid" style="background: transparent; ">
+			<row valign="top" align="left" style="border: 0px; background: transparent; padding-top: 10px">
+				<div use="com.rochade.wa.ui.view.ObjectContentQueryView" query="$environment.mg.PROD!topic=DG_ListResponsibilitiesForUser" 
+					tableShape="DG_UserResponsibilitiesList" id="UserResponsibilities" viewMenu="DG_UserResponsibilitiesViewMenu" sclass="asg-linklist"
+					footerVisible="false" refreshFilter="onItemCreation:RBG/USER" />
+			</row>
+		</rows>
+	</grid>
+</div>

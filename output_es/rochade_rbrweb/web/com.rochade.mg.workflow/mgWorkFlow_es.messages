@@ -1,0 +1,214 @@
+﻿# metaGlossary - Message file
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.mg.workflow
+#
+
+### Icons: all images should be inside of dir /com.rochade.mg.workflow/ + img/, see plugin.xml
+
+#extra icons
+
+## WARNING: these keys also used inside cellrenderer/RwfTitleCellRenderer.java
+##          and there's no way to separate and define similar key in cellrenderer's own message file
+#rwf_RDM_MODEL_MODIFIED.img=/com.rochade.mg.workflow/img/ModifiedApprovalRequired16.png
+rwf_RBG_BT_REVIEW_TASK_CREATED.img=/com.rochade.mg.workflow/img/TaskReminder16.png 
+rwf_RBG_BT_REVIEW_TASK_COMPLETED.img=/com.rochade.mg.workflow/img/TaskReminder16.png 
+### END Icons
+
+
+############ Notification/Task Dialog (BaseNotificationDialogComposer) ################
+#
+#rwf_RDM_MODEL_MODIFIED.title=Solicitud de Aprobacion para Modelo
+rwf_RBG_BT_MODIFIED.title=Solicitud de Aprobación
+rwf_RBG_BT_MODIFIED_MAIL.title=Solicitud de Aprobación
+rwf_RBG_BT_CREATED.title=Solicitud de Aprobación
+rwf_RBG_BT_CREATED_MAIL.title=Solicitud de Aprobación
+rwf_RBG_BT_TASK_APPROVED.title=Solicitud Aprobada
+rwf_RBG_BT_TASK_REJECTED.title=Solicitud Rechazada
+rwf_RBG_BT_TASK_REACTIVATED.title=Continuar Solicitud
+rwf_RBG_BT_TASK_REASSIGNED.title=Solicitud devuelta
+#rwf_RBG_BT_OWNER_ADD_REQUESTED.title=Solicitud para Control de Acceso
+rwf_RBG_BT_OWNER_ADD_REQUESTED.title=Solicitud de agregar un colaborador de Contexto
+rwf_RBG_BT_OWNER_CHANGE_REQUESTED.title=Solicitud de cambio de contexto colaborativo
+rwf_RBG_BT_OWNER_REMOVE_REQUESTED.title=Eliminar solicitud de contexto colaborador
+rwf_RBG_BT_TASK_REMINDER.title=Recordatorio
+rwf_RBG_BT_REVIEW_TASK_CREATED.title=Solicitud de revisión
+rwf_RBG_BT_REVIEW_TASK_COMPLETED.title=Revisión completa
+
+
+############ RwfActionCellRenderer ################
+#
+rwf_action_RBG_BT_CREATED=Creado
+rwf_action_RBG_BT_CREATED_MAIL=Creado
+rwf_action_RBG_BT_MODIFIED=Modificación
+rwf_action_RBG_BT_MODIFIED_MAIL=Modificación
+rwf_action_RBG_BT_TASK_APPROVED=Aprobado
+rwf_action_RBG_BT_TASK_REACTIVATED=Reactivado
+rwf_action_RBG_BT_TASK_REJECTED=Rechazado
+rwf_action_RBG_BT_TASK_REASSIGNED=Devuelto
+rwf_action_RBG_BT_OWNER_CHANGE_REQUESTED=Cambiar contexto colaborativo
+rwf_action_RBG_BT_OWNER_ADD_REQUESTED=Agregar contexto colaborador
+rwf_action_RBG_BT_OWNER_REMOVE_REQUESTED=Eliminar Contexto Colaborador
+rwf_action_RBG_BT_TASK_REMINDER=Recordatorio
+rwf_action_RBG_BT_REVIEW_TASK_CREATED=Solicitud de revisión
+rwf_action_RBG_BT_REVIEW_TASK_COMPLETED=Revisión completa
+
+
+############ History View ################
+#
+bt_state_READY=Listo
+bt_state_MODIFIED=Modificado
+bt_state_SUBMITTED=Enviado a Control
+bt_state_REASSIGNED=Devuelto
+bt_state_CREATED=Nuevo
+bt_state_REMOVED=Marcado para borrar
+bt_state_REJECTED=Rechazado
+bt_state_PENDING=Pendiente
+
+bt_state_MODIFIED-PENDING=Modificado (pendiente)
+bt_state_SUBMITTED-PENDING=Enviado a control (Pendiente)
+bt_state_REASSIGNED-PENDING=Devuelto (pendiente)
+bt_state_CREATED-PENDING=Nuevo (pendiente)
+bt_state_REJECTED-PENDING=Rechazado (pendiente)
+
+bt_state_APPROVE-PENDING=Aprobar (pendiente)
+bt_state_REJECT-PENDING=Rechazar (pendiente)
+
+
+################ TaskDialog/History Record View (Item Comparison) ################
+#
+BgGlossary.term.created=El Término fue creado nuevamente
+BgGlossary.term.deleted=El Término está marcado para ser borrado
+BgGlossary.term.modified=El Término está modificado
+
+
+############ Task Dialog (TaskDialog.zul) ################
+#
+#bg_TaskDialog.openItemTypeParam=...click aquí para abrir {0}
+bg_TaskDialog.context=Contexto actual:
+bg_TaskDialog.reqContext=Solicitado por contexto:
+bg_TaskDialog.ownershipApprove.failure=El término de Negocios esta en uso. No puede cambiar el control de gobierno en este estado.
+bg_TaskDialog.duplicateWarning=Nota: ya existe al menos un término de Negocios con el mismo nombre.
+bg_TaskDialog.button.compare=Comparar
+bg_TaskDialog.duplicates=Términos de Negocio duplicados
+
+
+################ Search for completed tasks (CompletedTasksFilter.zul) ################
+#
+#bg_CompletedTasksFilter.windowheader=Buscar Tareas Terminadas
+#bg_CompletedTasksFilter.searchinglossary=Buscar en glosario:
+#bg_CompletedTasksFilter.numberofdays=Número de días desde la terminación:
+#bg_CompletedTasksFilter.button.cancel=Cancelar
+#bg_CompletedTasksFilter.button.search=Buscar
+#bg_CompletedTasksFilter.outofrange=El número de días especificado está fuera de rango. Debe especificar un número entre 0 y {0}.
+
+
+################ Advanced task search (AdvancedTasksFilter.zul) ################
+#
+#bg_AdvancedTasksFilter.windowheader=Buscar Tareas
+#bg_AdvancedTasksFilter.startdate=Fecha de Inicio
+#bg_AdvancedTasksFilter.enddate=Fecha de Fin:
+#bg_AdvancedTasksFilter.completed=Completado:
+#bg_AdvancedTasksFilter.requestedby=Solicitado por usuario:
+#bg_AdvancedTasksFilter.completedby=Completado por el usuario
+#bg_AdvancedTasksFilter.businessterm=Término de Negocios:
+#bg_AdvancedTasksFilter.result=Resultado:
+#bg_AdvancedTasksFilter.button.cancel=Cancelar
+#bg_AdvancedTasksFilter.button.search=Buscar
+#bg_AdvancedTasksFilter.true=Si
+#bg_AdvancedTasksFilter.false=NO
+#bg_AdvancedTasksFilter.approved=Aprobado
+#bg_AdvancedTasksFilter.rejected=Rechazado
+
+
+################ Search for Items In Process (ItemsInProcessFilter.zul) ################
+#
+mg_ItemsInProcessFilter.contexts=Buscar en glosario:
+mg_ItemsInProcessFilter.state=Estado:
+mg_ItemsInProcessFilter.windowheader=Buscar Términos de Negocio en Proceso
+mg_ItemsInProcessFilter.button.cancel=Cancelar
+mg_ItemsInProcessFilter.button.search=Buscar
+mg_ItemsInProcessFilter.searchresult.title=Términos de Negocio en proceso
+mg_ItemsInProcessFilter.label.allContexts=Todos los Glosarios
+mg_ItemsInProcessFilter.state.all=Todo
+
+################ Search for open tasks (PendingTasksFilter.zul) ################
+#
+#bg_PendingTasksFilter.windowheader=Buscar Tareas Abiertas
+#bg_PendingTasksFilter.button.cancel=Cancelar
+#bg_PendingTasksFilter.button.search=Buscar
+
+#bg_SearchGeneral.datecheck.failed=Filtro de fecha inválido. La fecha de fin no puede estar antes que la fecha de inicio.
+mg_TaskSearch.label.allGovernedContexts=Todos los Glosarios
+
+
+
+################ Messages from RWF/TEMPLATEs ################
+#
+BgTermCreated.title=Solicitud enviada a control para la Creación de [$item.MappedType] [$item.name]
+BgTermCreated.footer=Click <a href="[$notification.link]">aqu&iacute;</a> para abrir la notificaci&oacute;n.
+BgTermCreated.body=Se ha enviado a control una solucitud de creación para [$item.MappedType] [$item.name].
+BgTermCreated.mail_body=Se envi&oacute; a control una solucitud de creaci&oacute;n para [$item.MappedType] <a href="[$item.link]">[$item.name]</a>.<br/><br/>\nSolicitado por: <a href="[$author.link]">[$author.DEFINITION]</a><br/><br/>
+
+BgTermModified.title=Solicitud enviada a control para la Modificación de [$item.MappedType] [$item.name]
+BgTermModified.footer=Click <a href="[$notification.link]">aqu&iacute;</a> para abrir la notificaci&oacute;n.
+BgTermModified.body=Se ha enviado a control una solucitud de modificación para [$item.MappedType] [$item.name].
+BgTermModified.mail_body=Se ha enviado a control una solucitud de modificaci&oacute;n para [$item.MappedType] <a href="[$item.link]">[$item.name]</a>.<br/><br/>\nSolicitado por: <a href="[$author.link]">[$author.DEFINITION]</a><br/><br/>
+
+BgTermOwnerAdd.title=Agregar un colaborador al contexto no es posible para [$item.MappedType] [$item.name]
+BgTermOwnerAdd.footer=Click <a href="[$notification.link]">aqu&iacute;</a> para abrir la notificaci&oacute;n.
+BgTermOwnerAdd.body=El Contexto [$context.name] requeriere el control del colaborador sobre [$item.MappedType] [$item.name].\nSolicitado por: [$author.DEFINITION]
+BgTermOwnerAdd.mail_body=El Contexto <a href="[$context.link]">[$context.name]</a> requeriere el control del colaborador sobre [$item.MappedType] <a href="[$item.link]">[$item.name]</a>.<br/><br/>\nSolicitado por: <a href="[$author.link]">[$author.DEFINITION]</a><br/><br/>
+
+BgTermOwnerChange.title=Cambiar contexto colaborativo para [$item.MappedType] [$item.name]
+BgTermOwnerChange.footer=Click <a href="[$notification.link]">aqu&iacute;</a> para abrir la notificaci&oacute;n.
+BgTermOwnerChange.body=Se requiere en el Contexto [$context.name] reemplazar el control del colaborador sobre [$item.MappedType] [$item.name].\nSolicitado por: [$author.DEFINITION]
+BgTermOwnerChange.mail_body=Se requiere reemplazar en el Contexto <a href="[$context.link]">[$context.name]</a> del control del colaborador para [$item.MappedType] <a href="[$item.link]">[$item.name]</a>.<br/><br/>\nSolicitado por: <a href="[$author.link]">[$author.DEFINITION]</a><br/><br/>
+
+BgTermOwnerRemove.title=Eliminar el Contexto Colaborador para [$item.MappedType] [$item.name]
+BgTermOwnerRemove.footer=Click <a href="[$notification.link]">aqu&iacute;</a> para abrir la notificaci&oacute;n.
+BgTermOwnerRemove.body=Se requiere en el Contexto [$context.name] remover el control del colaborador sobre [$item.MappedType] [$item.name].\nSolicitado por: [$author.DEFINITION]
+BgTermOwnerRemove.mail_body=Se requiere remover en el Contexto <a href="[$context.link]">[$context.name]</a> del control del colaborador en [$item.MappedType] <a href="[$item.link]">[$item.name]</a>.<br/><br/>\nSolicitado por: <a href="[$author.link]">[$author.DEFINITION]</a><br/><br/>
+
+BgTaskApproved.title=Solicitud Aprobada para [$item.MappedType] [$item.name]
+BgTaskApproved.footer=Click <a href="[$notification.link]">aqu&iacute;</a> para abrir la notificaci&oacute;n.
+BgTaskApproved.body=La solicitud de cambio de [$item.MappedType] [$item.name] fue aprobada.\n\nSolicitada por: [$author.DEFINITION]\nAprobada por: [$history.RWF/COMPLETED-BY.DEFINITION]\nComentarios: [$comment]
+BgTaskApproved.mail_body=La solicitud de cambio de [$item.MappedType] <a href="[$item.link]">[$item.name]</a> fue aprobada.<br/><br/>\nSolicitada por: <a href="[$author.link]">[$author.DEFINITION]</a><br/>\nAprobada por: <a href="[$actionBy.link]">[$actionBy.DEFINITION]</a><br/>\nComentarios: [$comment]<br/><br/>\nClick <a target="right" href="[$history.link]">aqu&iacute;</a>para abrir la tarea.<br/>
+
+BgTaskReactivated.title=Solicitud Continuada para [$item.MappedType] [$item.name]
+BgTaskReactivated.footer=Click <a href="[$notification.link]">aqu&iacute;</a> para abrir la notificaci&oacute;n.
+BgTaskReactivated.body=La solicitud de cambio de [$item.MappedType] [$item.name] fue continuada.\n\nSolicitada por: [$author.DEFINITION]\nContinuada por: [$actionBy.DEFINITION]\nComentarios: [$comment]
+BgTaskReactivated.mail_body=La solicitud de cambio de [$item.MappedType] <a href="[$item.link]">[$item.name]</a> fue continuada.<br/><br/>\nSolicitada por: <a href="[$author.link]">[$author.DEFINITION]</a><br/>\nContinuada por: <a href="[$actionBy.link]">[$actionBy.DEFINITION]</a><br/>\nComentarios: [$comment]<br/><br/>
+
+BgTaskReassigned.title=Solicitud Devuelta para [$item.MappedType] [$item.name]
+BgTaskReassigned.footer=Click <a href="[$notification.link]">aqu&iacute;</a> para abrir la notificaci&oacute;n.
+BgTaskReassigned.body=La solicitud de cambio de [$item.MappedType] [$item.name] fue devuelta. Por favor, enviar a control una versión actualizada para aprobación.\n\nSolicitada por: [$author.DEFINITION]\nDevuelta por: [$actionBy.DEFINITION]\nComentarios: [$comment]
+BgTaskReassigned.mail_body=La solicitud de cambio de [$item.MappedType] <a href="[$item.link]">[$item.name]</a> fue devuelta. Por favor, enviar a control una versi&oacute;n actualizada para aprobar .<br/><br/>\nSolicitada por: <a href="[$author.link]">[$author.DEFINITION]</a><br/>\nDevuelta por: <a href="[$actionBy.link]">[$actionBy.DEFINITION]</a><br/>\nComentarios: [$comment]<br/><br/>
+
+BgTaskRejected.title=Solicitud Rechazada para [$item.MappedType] [$item.name]
+BgTaskRejected.footer=Click <a href="[$notification.link]">aqu&iacute;</a> para abrir la notificaci&oacute;n.
+BgTaskRejected.body=La solicitud de cambio de [$item.MappedType] [$item.name] fue rechazada.\n\nSolicitada por: [$author.DEFINITION]\nRechazada por: [$history.RWF/COMPLETED-BY.DEFINITION]\nComentarios: [$history.RWF/COMMENT1]\n
+BgTaskRejected.mail_body=La solicitud de cambio de [$item.MappedType] <a target="right" href="[$item.link]">[$item.name]</a> fue rechazada.<br/><br/>\nSolicitada por: <a href="[$author.link]">[$author.DEFINITION]</a><br/>\nRechazada por: <a href="[$actionBy.link]">[$actionBy.DEFINITION]</a><br/>\nComentarios: [$comment]<br/><br/>\nClick <a target="right" href="[$history.link]">aqu&iacute;</a>para abrir la tarea.<br/>
+
+BgTaskReminder.title=Por favor, tomar acción sobre la solicitud para [$item.MappedType] [$item.name]
+BgTaskReminder.footer=Click <a href="[$notification.link]">aqu&iacute;</a> para abrir la notificaci&oacute;n.
+BgTaskReminder.body=Por favor, tomar acción sobre la solicitud de cambio de [$item.MappedType] [$item.name].\n\nComentarios: [$comment]
+BgTaskReminder.mail_body=Por favor, tomar acci&oacute;n sobre la solicitud de cambio de [$item.MappedType] <a target="right" href="[$item.link]">[$item.name]</a>.<br/><br/>\nComentarios: [$comment]<br/><br/>\nClick <a target="right" href="[$history.link]">aqu&iacute;</a>para abrir la tarea.<br/>
+
+#BgReviewTaskCreated.title=Revisar Tarea Completada para Término de Negocios [$item.name]
+BgReviewTaskCreated.title=Revisar Tarea Creada para [$item.MappedType] [$item.name]
+BgReviewTaskCreated.footer=Click <a href="[$notification.link]">aqu&iacute;</a> para abrir la notificaci&oacute;n.
+#BgReviewTaskCreated.body=Se creó una tarea de revisión para el término de negocios [$item.name].\n\nSolicitado por: [$author.DEFINITION]\n
+BgReviewTaskCreated.body=Se creó una tarea de revisión para [$item.MappedType] [$item.name].\n\nSolicitado por: [$author.DEFINITION]\n
+BgReviewTaskCreated.mail_body=Se cre&oacute; una tarea de revisi&oacute;n para [$item.MappedType] <a target="right" href="[$item.link]">[$item.name]</a>.<br/><br/>\nSolicitado por: <a href="[$author.link]">[$author.DEFINITION]</a><br/>\n\nClick <a target="right" href="[$history.link]">aqu&iacute;</a> para abrir esta tarea.<br/>
+
+BgReviewTaskCompleted.title=Revisar Tarea Completada para [$item.MappedType] [$item.name]
+BgReviewTaskCompleted.footer=Click <a href="[$notification.link]">aqu&iacute;</a> para abrir la notificaci&oacute;n.
+BgReviewTaskCompleted.body=Se completó una tarea de revisión para [$item.MappedType] [$item.name].\n\nSolicitado por: [$author.DEFINITION]\nCompletado por: [$actionBy.DEFINITION]\nComentarios: [$comment]\n
+BgReviewTaskCompleted.mail_body=Se complet&oacute; una tarea de revisi&oacute;n para el t&eacute;rmino de negocios [$item.MappedType] <a target="right" href="[$item.link]">[$item.name]</a>.<br/><br/>\nSolicitado por: <a href="[$author.link]">[$author.DEFINITION]</a><br/>\nCompletado por: <a href="[$actionBy.link]">[$actionBy.DEFINITION]</a><br/>\nComentarios: [$comment]<br/><br/>\nClick <a target="right" href="[$history.link]">aqu&iacute;</a>para abrir la tarea.<br/>
+

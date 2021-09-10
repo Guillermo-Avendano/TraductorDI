@@ -1,0 +1,103 @@
+﻿#-------------------------------------------------------
+# Issue Management messages
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+### Icons: all images should be inside of dir /com.rochade.im.workflow/ + img/, see plugin.xml
+rwf_ISM_ISSUE_CREATED.img= 
+rwf_ISM_ISSUE_REVIEW_TASK_ACCEPTED.img= 
+rwf_ISM_ISSUE_TASK_INVALIDATED.img=
+rwf_ISM_ISSUE_TASK_REASSIGNED.img= 
+rwf_ISM_ISSUE_TASK_RESOLVED.img=
+rwf_ISM_ISSUE_TASK_SUBMITED.img=
+### END Icons
+
+rwf_im_action_RESOLVE=Resolve
+rwf_im_action_INVALIDATE=Invalidate
+rwf_im_action_REASSIGN=Reassign
+rwf_im_action_ACCEPT=Accept
+rwf_im_action_ACTION=Action
+
+issue.reassignTo=Reassign to:
+issue.action_OK=OK
+issue.action_Cancel=Cancel
+
+issue.action.emptyComment.title=Comment is mandatory
+issue.action.emptyComment.msg=Please enter not empty comment
+issue.action.emptyUser.title=User is not selected
+issue.action.emptyUser.msg=Please select user you would like to reassign issue
+
+issue.action.SUBMIT=Submitted
+issue.action.SUBMITTED=Submitted
+issue.action.ACCEPT=Accepted
+issue.action.ACCEPTED=Accepted
+issue.action.RESOLVE=Resolved
+issue.action.RESOLVED=Resolved
+issue.action.INVALIDATE=Invalidated
+issue.action.INVALIDATED=Invalidated
+issue.action.REASSIGN=Reassigned
+
+issue.action.SUBMITTED-PENDING=Submitted (Pending)
+issue.action.ACCEPTED-PENDING=Accepted (Pending)
+issue.action.RESOLVED-PENDING=Resolved (Pending)
+issue.action.INVALIDATED-PENDING=Invalidated (Pending)
+issue.action.READY=Ready
+
+#Ticker comments
+Comment.Commented=commented
+Comment.Accepted=accepted
+Comment.Invalidated=invalidated
+Comment.Resolved=resolved
+
+################ Notifications ################
+
+rwf_ISM_ISSUE_CREATED.title=Issue Created 
+rwf_ISM_ISSUE_REVIEW_TASK_ACCEPTED.title=Review Task Accepted 
+rwf_ISM_ISSUE_TASK_INVALIDATED.title=Issue Invalidated
+rwf_ISM_ISSUE_TASK_REASSIGNED.title=Issue Reassigned 
+rwf_ISM_ISSUE_TASK_RESOLVED.title=Issue Resolved 
+rwf_ISM_ISSUE_TASK_SUBMITED.title=Issue Submitted 
+
+rwf_action_ISM_ISSUE_CREATED=Created 
+rwf_action_ISM_ISSUE_REVIEW_TASK_ACCEPTED=Accepted 
+rwf_action_ISM_ISSUE_TASK_INVALIDATED=Invalidated
+rwf_action_ISM_ISSUE_TASK_REASSIGNED=Reassigned 
+rwf_action_ISM_ISSUE_TASK_RESOLVED=Resolved 
+rwf_action_ISM_ISSUE_TASK_SUBMITED=Submitted 
+
+IsmIssueSubmited.title=Issue [$item.name] Submitted
+IsmIssueSubmited.footer=Click <a href="[$notification.link]">here</a> to open the notification.
+IsmIssueSubmited.mail_body=An issue <a href="[$item.link]">[$item.name]</a> has been submitted.<br/><br/>\nSubmitted by: <a href="[$author.link]">[$author.DEFINITION]</a><br/><br/>
+IsmIssueSubmited.body=An issue [$item.name] has been submitted.\nSubmitted by: [$author.DEFINITION]
+
+IsmIssueAccepted.title=Issue [$item.name] Accepted
+IsmIssueAccepted.footer=Click <a href="[$notification.link]">here</a> to open the notification.
+IsmIssueAccepted.mail_body=The issue <a href="[$item.link]">[$item.name]</a> has been accepted.<br/><br/>\nSubmitted by: <a href="[$author.link]">[$author.DEFINITION]</a><br/><br/>
+IsmIssueAccepted.body=The issue [$item.name] has been accepted.\nSubmitted by: [$author.DEFINITION]
+
+IsmIssueResolved.title=Issue [$item.name] Resolved
+IsmIssueResolved.footer=Click <a href="[$notification.link]">here</a> to open the notification.
+IsmIssueResolved.body=The issue [$item.name] has been resolved.\n\nSubmitted by: [$author.DEFINITION]\nResolved by: [$history.RWF/COMPLETED-BY.DEFINITION]\nComments: [$comment]
+IsmIssueResolved.mail_body=The issue <a href="[$item.link]">[$item.name]</a> has been resolved.<br/><br/>\nSubmitted by: <a href="[$author.link]">[$author.DEFINITION]</a><br/>\nResolved by: <a href="[$history.RWF/COMPLETED-BY.link]">[$history.RWF/COMPLETED-BY.DEFINITION]</a><br/>\nComments: [$history.RWF/COMMENT1]<br/><br/>\nClick <a target="right" href="[$history.link]">here</a> to open the task.<br/>
+
+IsmIssueInvalidated.title=Issue [$item.name] Invalidated
+IsmIssueInvalidated.footer=Click <a href="[$notification.link]">here</a> to open the notification.
+IsmIssueInvalidated.body=The issue [$item.name] has been invalidated.\n\nSubmitted by: [$author.DEFINITION]\nInvalidated by: [$history.RWF/COMPLETED-BY.DEFINITION]\nComments: [$comment]
+IsmIssueInvalidated.mail_body=The issue <a href="[$item.link]">[$item.name]</a> has been invalidated.<br/><br/>\nSubmitted by: <a href="[$author.link]">[$author.DEFINITION]</a><br/>\nInvalidated by: <a href="[$history.RWF/COMPLETED-BY.link]">[$history.RWF/COMPLETED-BY.DEFINITION]</a><br/>\nComments: [$history.RWF/COMMENT1]<br/><br/>\nClick <a target="right" href="[$history.link]">here</a> to open the task.<br/>
+
+IsmIssueTaskCreated.title=Review Task Created for Issue [$item.name]
+IsmIssueTaskCreated.footer=Click <a href="[$notification.link]">here</a> to open the notification.
+IsmIssueTaskCreated.body=A review task for issue [$item.name] has been created.\n\nSubmitted by: [$author.DEFINITION]\n
+IsmIssueTaskCreated.mail_body=A review task for issue <a target="right" href="[$item.link]">[$item.name]</a> has been created.<br/><br/>\nSubmitted by: <a href="[$author.link]">[$author.DEFINITION]</a><br/>\n\nClick <a target="right" href="[$notification.link]">here</a> to open the task.<br/>
+
+IsmIssueReassigned.title=Issue [$item.name] Reassigned
+IsmIssueReassigned.footer=Click <a href="[$notification.link]">here</a> to open the notification.
+IsmIssueReassigned.body=The issue [$item.name] has been reassigned. Please review the issue.\n\nSubmitted by: [$author.DEFINITION]\nComments: [$comment]
+IsmIssueReassigned.mail_body=The issue <a href="[$item.link]">[$item.name]</a> has been reassigned. Please review the issue.<br/><br/>\nSubmitted by: <a href="[$author.link]">[$author.DEFINITION]</a><br/>\nComments: [$comment]<br/><br/>
+
+IM_Error_DuringCalculatingReviewerLevel=An error occurred while calculating the reviewer level
+IM_Error_DuringRetrievingUsers=An error occurred while retrieving users
+IM_Error_DuringRetrievingReviewers=An error occurred while retrieving reviewers

@@ -1,0 +1,36 @@
+﻿#-------------------------------------------------------
+# Issue Management messages
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.im.comp.issue
+#
+
+### Icons: all images should be inside of dir /com.rochade.im.comp.issue/ + img/, see plugin.xml
+
+advancedIssues.title=Advanced Issue Search
+pendingIssues.title=Open Issues
+
+################ Advanced issue search (AdvancedIssuesFilter.zul) ################
+
+im_AdvancedIssueFilter.windowheader=Search for Issues
+im_AdvancedIssueFilter.startdate=Start date:
+im_AdvancedIssueFilter.enddate=End date:
+im_AdvancedIssueFilter.priority=Priority:
+im_AdvancedIssueFilter.status=Status:
+im_AdvancedIssueFilter.button.search=Search
+im_AdvancedIssueFilter.button.cancel=Cancel
+im_AdvancedIssueFilter.msg.search.busy=Executing search...
+im_AdvancedIssueFilter.button.cleardate=Clear Dates
+im_AdvancedIssueFilter.cleardate.tooltip=Clear Dates
+im_AdvancedIssueFilter.submitted=Submitted
+im_AdvancedIssueFilter.accepted=Accepted
+im_AdvancedIssueFilter.resolved=Resolved
+im_AdvancedIssueFilter.invalidated=Invalidated
+
+MetaApplication.access_IMWSFailed=Accessing the Issue Management workspace failed. The application will be disabled.
+IM_ErrorWrongDateRanking=Wrong date ranking

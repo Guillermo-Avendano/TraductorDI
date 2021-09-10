@@ -1,0 +1,41 @@
+﻿# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.wa.ui.renameitem
+#
+### Icons: all images should be inside of dir /com.rochade.wa.ui.renameitem/ + img/, see plugin.xml
+
+#extra icons
+### END Icons
+
+#TODO: who uses this ?
+#RenameItem.icon_item=Item.gif
+RenameItem.name=Nombre
+RenameItem.type=Tipo
+
+RenameItem.currappl=Subject Area actual:
+RenameItem.curnamespace=Espacio de nombres actual:
+RenameItem.backbutton=< Volver
+RenameItem.nextbutton=Siguiente>
+RenameItem.finishbutton=Finalizar
+RenameItem.cancelbutton=Cancelar
+RenameItem.enter=<Enter>: Finalizar
+RenameItem.altB=Alt-B: Negro
+RenameItem.altN=Alt-N: Siguiente
+RenameItem.esc=<Esc>: Cancelar
+RenameItem.alreadyexists=El Item {0} ya existe.
+RenameItem.info=Información
+RenameItem.title=Renombrar ítem
+RenameItem.header=Nuevo nombre de ítem
+RenameItem.desc=Renombrar el ítem
+RenameItem.renameheader=Renombrar el ítem
+RenameItem.renameitem=Ítem a ser renombrado:
+RenameItem.newname=Nuevo nombre del ítem:
+RenameItem.itemrenamed=El ítem esta siendo renombrado
+RenameItem.item=El ítem
+RenameItem.renamed=Está siendo renombrado a

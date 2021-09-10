@@ -1,0 +1,48 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.wa.ui.advancedquery
+#
+### Icons: all images should be inside of dir /com.rochade.wa.ui.advancedquery/ + img/, see plugin.xml
+
+#extra icons
+### END Icons
+
+AdvancedQuery.title=Consulta Avançada
+AdvancedQuery.select=Selecione uma consulta para execução.
+AdvancedQuery.list=Consultas Disponíveis
+AdvancedQuery.owner=Proprietário:
+AdvancedQuery.allQueries=Todas as Consultas
+AdvancedQuery.myQueries=Minhas Consultas
+AdvancedQuery.filter=Filtro de nome de Consulta:
+AdvancedQuery.refresh=Atualizar
+AdvancedQuery.queries=Consultas Disponíveis:
+AdvancedQuery.name=Nome
+AdvancedQuery.description=Descrição
+AdvancedQuery.runSettings=Configurações de Execução:
+AdvancedQuery.property=Propriedade
+AdvancedQuery.value=Valor
+AdvancedQuery.preserve=Preservar configurações
+AdvancedQuery.runButton=Executar
+AdvancedQuery.cancelButton=Cancelar
+AdvancedQuery.advquery=Consulta Avançada
+AdvancedQuery.noqueries=Não há mais consultas avançadas disponíveis
+AdvancedQuery.information=Informações
+
+# Tooltips
+
+AdvancedQuery.altO=Proprietário da consulta (Alt-O)
+AdvancedQuery.altF=Filtrando o nome da consulta física (Alt-F)
+AdvancedQuery.altA=Selecione da lista de consultas disponíveis (Alt-A)
+AdvancedQuery.altE=Atualizar (Alt-E)
+AdvancedQuery.altS=Configurações de Execução (Alt-S)
+AdvancedQuery.altL=Limitar os resultados da consulta (Alt-L)
+AdvancedQuery.altP=Preservar Configurações (Alt-P)
+AdvancedQuery.enter=Executar consulta (Alt-R, <enter>)
+AdvancedQuery.esc=Cancelar (<esc>)

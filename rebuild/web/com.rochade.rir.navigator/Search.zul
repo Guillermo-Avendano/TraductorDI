@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="EntryQueryNavigator" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<!-- 
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+<window apply="com.rochade.rir.navigator.facets.FacetComposer" sclass="asg-search-dialog">
+	<hbox width="100%" align="center" pack="right"
+		sclass="asg-navmenubar-hbox">
+		<menubar sclass="asg-navmenubar-hor asg-mainmenubar-hor"
+			visible="${wtb:check('RIR.isVisibleConfigureSearch')}">
+			<menuitem id="miConfigure"
+				label="${wtb:l('SolrSearch.configure')}"
+				image="${wtb:getImg('SolrSearch.img.configure')}">
+			</menuitem>
+		</menubar>
+	</hbox>
+
+	<tree id="lbSolrSearch" sclass="asg-navtree" nonselectableTags="*"/>
+</window>

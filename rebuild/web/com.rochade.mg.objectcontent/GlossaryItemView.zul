@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="MG View" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<?component name="propViewLabel" inline="true" macroURI="/WEB-INF/macros/PropertyViewLabel.zul" ?>
+<!-- 
+	@author  HC 12/11/2011, created
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+<div use="com.rochade.wa.ui.view.BaseObjectView"
+	sclass="asg-tab-content-div">
+	<hbox use="com.rochade.mg.ui.view.HasContextPropertyView"
+		align="middle" id="infoGrid" width="100%" height="30px"
+		style="padding-left:10px; background: ${wtb:l('asg-atlantic-gray')};">
+		<label value="${wtb:l('label.hasContexts')}"
+			style="color: ${wtb:l('label-color')}; font-size: 11px; " sclass="asg-no-pdf-export" />
+		<button width="16px"
+			image="${wtb:getImg('objectcontent.img.arrowdown')}"
+			sclass="asg-button10px" popup="hascontext"
+			style="color: ${wtb:l('label-color')}; font-size: 11px; font-weight: normal" />
+	</hbox>
+	<grid style="border: 0px; padding: 10px; background: #FFFFFF;">
+		<columns style="background: transparent">
+			<column width="25%" />
+			<column width="75%" />
+		</columns>
+		<rows id="topGrid" style="background: transparent; " sclass="asg-tableshapes-links">
+			<row valign="top" align="left" id="rItemName" 
+				style="border: 0px; background: transparent; padding-top: 15px; padding-bottom: 0px">
+				<cell colspan="2">				
+					<div use="com.rochade.wa.ui.view.ItemNameLabelPropertyView" id="lItemName" width="80%"/>
+				</cell>
+			</row> 		
+		 	<row  align="left"  valign="top"  style="border: 0px; background: transparent;">
+				<cell colspan="2">
+		 			<div use="com.rochade.wa.ui.view.RenameItemPropertyView" id="rename" attributeNames="" sclass="asg-itemname-label"  warningIconId="nameWarning"  />
+	 			</cell>
+			</row> 
+			<!-- <row id="lTranslatedNames" valign="top" align="left"
+				style="border: 0px; background: transparent; padding-top: 15px; padding-bottom: 0px">
+				<cell colspan="2">
+					<hbox>
+						<label value="${wtb:l('label.translatedNames')}"
+							sclass="asg-attribute-label-bold" width="99%" />
+						<separator width="2px" />
+						<span id="nameWarning"
+							sclass="asg-rochade-warningicon" visible="false" />
+					</hbox>
+				</cell>
+			</row> -->
+			<row valign="top" align="left"
+				style="border: 0px; background: transparent; ">
+				<cell colspan="2">
+					<div use="com.rochade.wa.ui.view.MultiLingualNamePropertyView" id="translatedNames" relatedId="lTranslatedNames"
+						width="100%"  warningIconId="nameWarning"  sclass="asg-itemname-label" />
+				</cell>
+			</row>
+
+			<row id="lDefinition" valign="top" align="left"
+				style="border: 0px; background: transparent; padding-top: 15px; padding-bottom: 0px">
+				<cell colspan="2">
+					<hbox width="99%">
+						<propViewLabel id="lDefinition" value="${wtb:l('rim.attr.DEFINITION')}" />
+						<separator width="2px" />
+						<span id="defWarning"
+							sclass="asg-rochade-warningicon" visible="false" />
+					</hbox>
+				</cell>
+			</row>
+			 <row valign="top" align="left"
+				style="border: 0px; background: transparent;">
+				<cell colspan="2">
+					<div use="com.rochade.wa.ui.view.MandatoryTextPropertyView"
+						attributeNames="DEFINITION" id="DEFINITION"
+						relatedId="lDefinition" warningIconId="defWarning" rows="7"/>
+				</cell>
+			</row>
+			 <row id="lDescription" valign="top" align="left"
+				style="border: 0px; background: transparent; padding-top: 15px; padding-bottom: 0px">
+				<cell colspan="2">
+					<hbox width="99%">
+						<label value="${wtb:l('rim.attr.RBG/DESCRIPTION')}:"
+							sclass="asg-attribute-label-bold" />
+						<separator width="2px" />
+						<span id="descWarning"
+							sclass="asg-rochade-warningicon" visible="false" />
+					</hbox>
+				</cell>
+			</row>
+			<row valign="top" align="left"
+				style="border: 0px; background: transparent; ">
+				<cell colspan="2">
+					<div
+						use="com.rochade.wa.ui.view.RichTextPropertyView"
+						attributeNames="RBG/DESCRIPTION" id="DESCRIPTION"
+						relatedId="lDescription" warningIconId="descWarning" />
+				</cell>
+			</row> 
+			<row valign="top" align="left" id="lBTTYPE" 
+				style="border: 0px; background: transparent; padding-top: 15px; padding-bottom: 0px">
+				<label
+					value="${wtb:l('GlossaryItemView.BusinessTermType')}:"
+					sclass="asg-attribute-label-bold" />
+				<div use="com.rochade.mg.ui.view.BTTypePropertyView"
+					attributeNames="RBG/BUSINESS-TERM-TYPE" id="BTTYPE" relatedId="lBTTYPE" />
+			</row>
+			<row valign="top" align="left" id="lPOLICYTYPE" if="${wtb:check('RBR.isBPAEnabled')}"
+				style="border: 0px; background: transparent; padding-top: 15px; padding-bottom: 0px">
+				<label
+					value="${wtb:l('GlossaryItemView.PolicyType')}:"
+					sclass="asg-attribute-label-bold" />
+				<div use="com.rochade.mg.ui.view.SubTypesPropertyView" superType="BPK_POLICY"
+					attributeNames="BPK_POLICY_TYPE" id="POLICYTYPE" relatedId="lPOLICYTYPE" />
+			</row>
+			<row valign="top" align="left" id="lSTANDARDTYPE" if="${wtb:check('RBR.isBPAEnabled')}"
+				style="border: 0px; background: transparent; padding-top: 15px; padding-bottom: 0px">
+				<label
+					value="${wtb:l('GlossaryItemView.StandardType')}:"
+					sclass="asg-attribute-label-bold" />
+				<div use="com.rochade.mg.ui.view.SubTypesPropertyView" superType="BPK_STANDARD"
+					attributeNames="BPK_STANDARD_TYPE" id="STANDARDTYPE" relatedId="lSTANDARDTYPE" />
+			</row>
+			<row valign="top" align="left" id="lPROCESSTYPE" if="${wtb:check('RBR.isBPAEnabled')}"
+				style="border: 0px; background: transparent; padding-top: 15px; padding-bottom: 0px">
+				<label
+					value="${wtb:l('GlossaryItemView.ProcessType')}:"
+					sclass="asg-attribute-label-bold" />
+				<div use="com.rochade.mg.ui.view.SubTypesPropertyView" superType="BPK_PROCESS"
+					attributeNames="BPK_PROCESS_TYPE" id="PROCESSTYPE" relatedId="lPROCESSTYPE" />
+			</row>
+			<row valign="top" align="left" id="lCDETYPE" if="${wtb:check('RBR.isBPAEnabled')}"
+				style="border: 0px; background: transparent; padding-top: 15px; padding-bottom: 0px">
+				<label
+					value="${wtb:l('GlossaryItemView.CDEType')}:"
+					sclass="asg-attribute-label-bold" />
+				<div use="com.rochade.mg.ui.view.SubTypesPropertyView" superType="BPK_CRITICAL_DATA_ELEMENT"
+					attributeNames="BPK_CDE_TYPE"  id="CDETYPE" relatedId="lCDETYPE" />
+			</row>
+			<row valign="top" align="left" id="lBRULETYPE" if="${wtb:check('RBR.isBPAEnabled')}"
+				style="border: 0px; background: transparent; padding-top: 15px; padding-bottom: 0px">
+				<label
+					value="${wtb:l('GlossaryItemView.BusinessRuleType')}:"
+					sclass="asg-attribute-label-bold" />
+				<div use="com.rochade.mg.ui.view.SubTypesPropertyView" superType="BPK_BUSINESS_RULE"
+					attributeNames="BPK_BUSINESS_RULE_TYPE" id="BRULETYPE" relatedId="lBRULETYPE" />
+			</row>
+			<row valign="top" align="left" id="lOTHERTYPE" if="${wtb:check('RBR.isBPAEnabled')}"
+				style="border: 0px; background: transparent; padding-top: 15px; padding-bottom: 0px">
+				<label
+					value="${wtb:l('GlossaryItemView.OtherType')}:"
+					sclass="asg-attribute-label-bold" />
+				<div use="com.rochade.mg.ui.view.SubTypesPropertyView" superType="BPK__CUST_BUSINESS_ITEM"
+					isMultipleSelect="true" attributeNames="BPK_OTHER_TYPE" id="OTHERTYPE" relatedId="lOTHERTYPE" />
+			</row>
+			<row valign="top" align="left" id="lPITYPE" if="${wtb:check('RBR.isBPAEnabled')}"
+				style="border: 0px; background: transparent; padding-top: 15px; padding-bottom: 0px">
+				<label
+					value="${wtb:l('GlossaryItemView.PIType')}:"
+					sclass="asg-attribute-label-bold" />
+				<div use="com.rochade.mg.ui.view.SubTypesPropertyView" superType="GDP_PERSONAL_INFORMATION"
+					attributeNames="GDP_PI_TYPE" id="PITYPE" relatedId="lPITYPE" />
+			</row>
+			<row valign="top" align="left" id="lPISTRUCTURETYPE" if="${wtb:check('RBR.isBPAEnabled')}"
+				style="border: 0px; background: transparent; padding-top: 15px; padding-bottom: 0px">
+				<label
+					value="${wtb:l('GlossaryItemView.PIStructureType')}:"
+					sclass="asg-attribute-label-bold" />
+				<div use="com.rochade.mg.ui.view.SubTypesPropertyView" superType="GDP_PI_STRUCTURE"
+					attributeNames="GDP_PI_STRUCTURE_TYPE" id="PISTRUCTURETYPE" relatedId="lPISTRUCTURETYPE" />
+			</row>
+			<row valign="top" align="left" id="lPIATYPE" if="${wtb:check('RBR.isBPAEnabled')}"
+				style="border: 0px; background: transparent; padding-top: 15px; padding-bottom: 0px">
+				<label
+					value="${wtb:l('GlossaryItemView.PIAType')}:"
+					sclass="asg-attribute-label-bold" />
+				<div use="com.rochade.mg.ui.view.SubTypesPropertyView" superType="GDP_PIA"
+					attributeNames="GDP_PIA_TYPE" id="PIATYPE" relatedId="lPIATYPE" />
+			</row>
+			<row Id="lBTerm_Has" valign="top" align="left"
+				style="border: 0px; background: transparent; padding-top: 15px; padding-bottom: 0px">
+				<cell colspan="2">
+					<label
+						value="${wtb:l('GlossaryItemView.List.ContainedTerms')}:"
+						sclass="asg-attribute-label-bold" />
+				</cell>
+			</row>
+			<row valign="top" align="left"
+				style="border: 0px; background: transparent; ">
+				<cell colspan="2">
+					<div
+						use="com.rochade.mg.ui.view.MGTableLinkPropertyView" 
+						attributeNames="RBG/HAS-BUSINESS-TERM BPK_HAS_BUSINESS_RULE BPK_HAS_CDE BPK_HAS_OTHER_BUSINESS_ITEM BPK_HAS_POLICY BPK_HAS_PROCESS BPK_HAS_STANDARD GDP_HAS_PERSONAL_INFORMATION GDP_HAS_PI_STRUCTURE GDP_HAS_PIA" sclass="asg-linklist"
+						tableShape="MG_BTList" id="BTerm_Has" readOnly="true"
+						relatedId="lBTerm_Has" hideForCreate="true" viewMenu="DWR_FilterViewMenu"
+						footerVisible="false" />
+				</cell>
+			</row>
+			<!-- row valign="top" align="left"
+				style="border: 0px; background: transparent; ">
+				<cell colspan="2">
+					<div
+						use="com.rochade.mg.ui.view.MGTableLinkPropertyView" 
+						attributeNames="RBG/HAS-BUSINESS-TERM" sclass="asg-linklist"
+						tableShape="MG_BTList" id="BTerm_Has_8_80" readOnly="true"
+						relatedId="lBTerm_Has" hideForCreate="true" viewMenu=""
+						footerVisible="false" />
+				</cell>
+			</row --> 
+		</rows> 
+	</grid>
+   	<popup id="hascontext" style="max-width:33%" sclass="asg-tableshapes-links">
+		<div use="com.rochade.mg.ui.view.ContextTreeView" width="100%"
+			query="topic=MG_TreeContextfmGlossary"
+			tableShape="MG_SingleColumnNoHeader" id="ContextTreeGlossary"
+			readOnly="true" viewMenu="" viewType="ItemTree" height="200px" />
+	</popup> 
+</div>

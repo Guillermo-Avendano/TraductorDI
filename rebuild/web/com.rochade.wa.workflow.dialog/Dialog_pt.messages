@@ -1,0 +1,45 @@
+﻿#-------------------------------------------------------
+# Rochade WTB - Message file
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#
+#-------------------------------------------------------
+
+### Icons: all images should be inside of dir /com.rochade.wa.workflow.dialog/ + img/, see plugin.xml
+### END Icons
+
+submitComment.mandatory=Um comentário é obrigatório para esta ação.
+Button.cancel=Cancelar
+SubmissionComment.title=Inserir Comentário
+SubmissionComment.msg=Por favor, insira um comentário para sua ação:
+submit.default.msg=Envie para aprovação
+myNotifications.title=Minhas Notificações
+myTasks.title=Minhas Tarefas
+completedTasks.title=Tarefas Concluídas
+completedTasks.tooltip=Lista de tarefas concluídas
+pendingTasks.title=Abrir Tarefas
+pendingTasks.tooltip=Lista de tarefas pendentes
+advancedTasks.title=Pesquisa Avançada de Tarefas
+advancedTasks.tooltip=Pesquisa avançada por tarefas
+
+rollback.failed=Falha ao Retroceder.
+rollback.failed.dev=Falha ao Retroceder. O termo não está em desenvolvimento.
+AuthorizationTokenDialog.title=Token de Authorização
+AuthorizationTokenDialog.label=Por favor, especifique o token de autorização:
+AuthorizationTokenDialog.okButton=OK
+AuthorizationTokenDialog.cancelButton=Cancela
+
+WebServiceParamsDialog.title=Parâmetros de Serviço
+WebServiceParamsDialog.method=Método:
+WebServiceParamsDialog.headers=Cabeçalhos (one per line):
+WebServiceParamsDialog.contentType=Tipo de Conteúdo:
+WebServiceParamsDialog.content=Conteúdo para requisições POST:
+WebServiceParamsDialog.okButton=OK
+WebServiceParamsDialog.cancelButton=Cancela
+
+WebServiceResultDialog.title=Chamando Serviços WEB Externos
+WebServiceResultDialog.serviceName=Serviço Web
+WebServiceResultDialog.result=Tentativa de Chamar
+WebServiceResultDialog.okButton=OK

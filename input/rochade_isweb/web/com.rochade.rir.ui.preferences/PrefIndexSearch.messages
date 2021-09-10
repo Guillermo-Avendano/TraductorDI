@@ -1,0 +1,13 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 (with BOM) encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+# Language: English
+#-------------------------------------------------------
+PrefIndexSearch.emptyDir.prefix=index is empty.
+PrefIndexSearch.someInvalidPreferences=Some Search preferences contain an invalid value.\nPlease verify the settings on the Search page.
+PrefIndexSearch.invalidPreference=The Search preference ''{0}'' contains an invalid value.\nPlease verify the settings on the Search page.
+
+Preferences.tooltipC=Integrated Search Settings

@@ -1,0 +1,11 @@
+﻿#-------------------------------------------------------
+# Issue Management messages
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+IM_ErrorDuringVerifyingSubmitPermission=Erro durante a verificação da permissão de envio
+IM_ErrorDuringRetrievingWorkspace=Erro durante a recuperação do espaço de trabalho
+IM_ErrorDuringRetrievingNotifications=Erro durante a recuperação das notificações
+IM_ErrorDuringRetrievingIssue=Erro durante a recuperação das questões

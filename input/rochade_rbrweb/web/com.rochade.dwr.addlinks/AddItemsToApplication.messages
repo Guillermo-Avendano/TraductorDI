@@ -1,0 +1,38 @@
+﻿#-------------------------------------------------------
+# Add items to business application messages
+#
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+addToAppl.title=Add to Business Application
+
+addToAppl.tab1.title=Step 1: Search and Select Business Application
+addToAppl.tab2.title=Step 2: Select Items to Add
+addToAppl.tab3.title=Step 3: Add Items to Business Application
+
+addToAppl.name=Name
+addToAppl.type=Type
+addToAppl.qualName=Qualified Name
+addToAppl.comment=Comment
+addToAppl.commentInvalid=Items of this type cannot be added to {0} items
+addToAppl.commentInvalidWS=Item does not exist in Production
+addToAppl.result=Result
+
+addToAppl.searchForAppl=Search Business Application
+addToAppl.selectAppl=Select Business Application
+addToAppl.busApplType=Business application type
+addToAppl.search=Search
+addToAppl.execute=Add Items
+addToAppl.close=Close
+
+addToAppl.step3.enabled=Add Items to {0} {1}
+addToAppl.step3.disabled1=No items are selected to add to {0} {1} (step 2) 
+addToAppl.step3.disabled2=No business application is selected to add items to (step 1)
+addToAppl.result.added=Item successfully added
+addToAppl.result.alreadyAssigned=Item was already assigned
+addToAppl.error.locked=Add not possible, {0} {1} is locked
+addToAppl.error=Error while adding items to {0} {1} - {2}. 
+addToAppl.error.NoAppl=Select business application to add items to first (step 1)
+addToAppl.error.title=Add Items to Business Application

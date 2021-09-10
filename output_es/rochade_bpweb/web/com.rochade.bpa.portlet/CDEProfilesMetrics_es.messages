@@ -1,0 +1,27 @@
+﻿# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+# Categories
+bp_cdeprofilesmetrics.name=Descripción del perfil de CDE
+bp_cdeprofilesmetrics.select=Seleccione Contexto de Negocio:
+bp_cdeprofilesmetrics.profiles.all=Todo
+bp_cdeprofilesmetrics.profiles.used.cdes=Total de Elementos Críticos de Datos analizados
+bp_cdeprofilesmetrics.profiles.linkage.business=Sin vínculo de Negocios
+bp_cdeprofilesmetrics.profiles.linkage.ldm=Sin vínculo al Modelo Lógico de Datos (LDM)
+bp_cdeprofilesmetrics.profiles.linkage.pdm=Sin vínculo al Modelo Físico de Datos (PDM)
+bp_cdeprofilesmetrics.profiles.linkage.op=Sin vínculo operacional
+bp_cdeprofilesmetrics.profiles.linkage.data=Tipo de inconsistencia
+bp_cdeprofilesmetrics.profiles.optionality=Opcional /Incoherencia nula
+bp_cdeprofilesmetrics.profiles.lineage=Aislado
+bp_cdeprofilesmetrics.profiles.with.issues=Con problemas
+bp_cdeprofilesmetrics.profiles.without.issues=Sin problemas
+
+# Labels
+bp_cdeprofilesmetrics.lbl.mode.general=Visión General
+bp_cdeprofilesmetrics.lbl.mode.detailed=Distribución de temas entre categorías
+
+#Titles
+bp_cdeprofilesmetrics.title.listview=Elementos críticos de datos para la categoría: {0} (Contexto: {1})

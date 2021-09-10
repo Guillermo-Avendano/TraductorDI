@@ -1,0 +1,153 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#------------------------------ Action Definition ------------------------------ 
+
+DG_RoleAdd.img=addlink.gif
+DG_RoleType.lbl=Role Templates
+DG_RoleType.tip=Role Templates
+RoleCreate.lbl=Create Role
+RoleCreate.tip=Create Role
+DG_RoleAdd.lbl=Add
+DG_RoleAdd.tip=Add
+DG_AddRespForUser.lbl=Add
+DG_AddRespForUser.tip=Add
+DG_RoleAdminRoleActive.lbl=Activate Role
+DG_RoleAdminRoleActive.tip=Activate Role
+DG_RoleAdminRoleDeactive.lbl=Deactivate Role
+DG_RoleAdminRoleDeactive.tip=Deactivate Role
+DG_RoleAdminRoleDeactive.value.true=inactive
+DG_RoleAdminRoleDeactive.value.false=active
+DG_RoleAdminRoleDeactive.value.null=active
+DG_RoleAdminRoleDeactive.value.=active
+
+DG_SetResponsibilityAdministration.lbl=Set Responsibilities
+DG_SetResponsibilityAdministration.tip=Set Responsibilities 
+DG_RemResponsibilityAdministration.lbl=Remove Responsibilities
+DG_RemResponsibilityAdministration.tip=Remove Responsibilities 
+
+DG_Listings.lbl=Listings
+DG_Listings.tip=Listings
+DG_ListResponsibilities.lbl=List Responsibilities
+DG_ListResponsibilities.tip=List Responsibilities
+
+New.RoleTemplate=New Role Template
+new.type.RBG/ROLE=Role Template
+
+DG_InitUserAdmin.lbl=Initialize
+DG_InitUserAdmin.tip=Initialize Stewardship
+DG_InitUserAdmin.error.permission=Permission not granted for initialize user administration.
+
+DG_WF_ListConfigs.lbl=Workflow Templates
+DG_WF_ListConfigs.tip=Workflow Templates
+#DG_WF_ConfigAdmin.lbl=Administrate Workflow
+#DG_WF_ConfigAdmin.tip=Administrate Workflow
+DG_WF_ImportDefinition.lbl=Add
+DG_WF_ImportDefinition.tip=Import Workflow
+DG_WF_OpenConfig.lbl=Open
+DG_WF_OpenConfig.tip=Open
+DG_WF_AddWfAssignment.lbl=Add
+DG_WF_AddWfAssignment.tip=Add Workflow Assignment
+DG_WF_RemoveWfAssignment.lbl=Remove
+DG_WF_RemoveWfAssignment.tip=Remove Workflow Assignment
+DG_WF_UploadDialog.title=Workflow Import
+DG_WF_UploadDialog.text=Please upload the BPMN file.
+
+DG_DoubleClick_ShowNotificationTaskView.lbl=Notification Task View
+DG_DoubleClick_ShowNotificationTaskView.tip=Notification Task View
+
+DG_OpenNotificationListItem.lbl=Open
+DG_OpenNotificationListItem.tip=Open
+DG_OpenCamundaTaskListItem.lbl=Open
+DG_OpenCamundaTaskListItem.tip=Open
+DG_RemoveNotificationItem_ViewMenu.lbl=Remove Selected Notifications
+DG_RemoveNotificationItem_ViewMenu.tip=Remove Selected Notifications
+DG_RemoveNotificationItem_Popup.lbl=Remove Selected Notification
+DG_RemoveNotificationItem_Popup.tip=Remove Selected Notification
+DG_WF_ResetTask.lbl=Reset
+DG_WF_ResetTask.tip=Reset This Task
+DG_WF_ResetTask.error=There was an error resetting the selected tasks.   
+DG_WF_ResetTask.error.noPermission=You are not permitted to reset the selected tasks.
+DG_WF_ResetTask.msgboxTitle=Reset Tasks
+DG_WF_ResetTask.confirm=Do you want to reset the selected tasks and items to the initial state? 
+DG_WF_ResetTask.success=The tasks have been reset successfully. 
+DG_WF_RetryTask.lbl=Retry
+DG_WF_RetryTask.tip=Retry Failed Jobs
+DG_WF_RetryTask.error=There was an error setting the retry counter for the selected tasks.   
+DG_WF_RetryTask.msgboxTitle=Retry Tasks
+DG_WF_RetryTask.confirm=Do you want to retry the selected paused tasks? 
+DG_WF_RetryTask.success=Failed jobs have been reactivated and will be executed in background.
+
+dg_remove_notification.error=This notification ({0}) could not be deleted.
+dg_remove_notifications.error=The selected notifications could not be deleted.
+
+dg_remove_notifications.title=Remove Notification
+dg_remove_notifications.msg=Are you sure to remove the selected notification(s)? 
+
+DG_MyNotifications.tip=List My Notifications
+DG_MyNotifications.lbl=My Notifications
+DG_MyNotifications.incomplete.limited=Limit for notifications reached. Only the latest {0} of {1} are displayed.
+DG_MyTasks.tip=List My Tasks
+DG_MyTasks.lbl=My Tasks
+DG_MyTasks_CamundaList.tip=List My Tasks
+DG_MyTasks_CamundaList.lbl=My Tasks
+
+DG_S_TaskReports.lbl=Task Reports
+DG_S_TaskReports.tip=Task Reports
+DG_S_T_CompTasks.lbl=Completed Tasks
+DG_S_T_CompTasks.tip=Completed Tasks
+DG_S_T_OpenTasks.lbl=Open Tasks
+DG_S_T_OpenTasks.tip=Open Tasks
+DG_S_T_AdTaskSearch.lbl=Advanced Task Search
+DG_S_T_AdTaskSearch.tip=Advanced Task Search
+
+WfAddAssignment.noCompatibleWorkflows=No additional workflow category available for items in the current context. The current workflow assignment already covers all possible cases. 
+WfAddAssignment.modifiedItemTypes=Some item types have been deactivated, because they are already active in another assigned configuration or are not supported within this context.  
+
+DG_InWork.lbl=In Work
+DG_InWork.tip=In Work
+
+# Icons
+DG_WF_ImportDefinition.img=addlink.gif
+DG_WF_OpenConfig.img=edit.png
+DG_WF_AddWfAssignment.img=addlink.gif
+DG_WF_RemoveWfAssignment.img=delete16x16.png
+DG_WF_ResetTask.img=
+DG_WF_RetryTask.img=
+
+DG_DoubleClick_ShowNotificationTaskView.img=
+
+DG_OpenNotificationListItem.img=~./com.rochade.wa.action.ui/img/OA01-open.gif
+DG_OpenCamundaTaskListItem.img=~./com.rochade.wa.action.ui/img/OA01-open.gif
+DG_RemoveNotificationItem_ViewMenu.img=RemoveNotification16.png
+DG_RemoveNotificationItem_Popup.img=RemoveNotification16.png
+DG_MyNotifications.img=16x16_dg_itemlist.png
+DG_MyTasks.img=16x16_dg_itemlist.png
+DG_S_TaskReports.img=
+DG_S_T_CompTasks.img=16x16_dg_itemlist.png
+DG_S_T_OpenTasks.img=16x16_dg_itemlist.png
+DG_S_T_AdTaskSearch.img=16x16_dg_itemlist.png
+
+DG_InWork.img=
+
+DG_ImportExcelAll.lbl=Excel Import
+DG_ImportExcelAll.tip=Excel Import
+DG_ImportExcelRefGlossary.lbl=Import Business Items
+DG_ImportExcelRefGlossary.tip=Import Business Items
+DG_ImportExcelRefContext.lbl=Import Business Items
+DG_ImportExcelRefContext.tip=Import Business Items
+
+############ Self Subscription Service ################
+DG_Unsubscribe.img=/com.rochade.dg.roleadministration/img/Delete16.png
+DG_Unsubscribe.tooltip=Unsubscribe
+
+DG_Unsubscribe.title=Unsubscribe
+DG_Unsubscribe.confirmation=Do you really want to unsubscribe from {0} {1}?
+DG_Unsubscribe.error=Error unsubscribing from context.
+DG_Unsubscribe.error.locked=Error unsubscribing from context. User {0} is locked.
+DG_Unsubscribe.error.noRight=Error unsubscribing from context. Missing write permission for user item.

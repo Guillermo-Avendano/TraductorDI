@@ -1,0 +1,36 @@
+﻿#-------------------------------------------------------
+# DQA - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+DQMQualityMeasureTypeCellRenderer.CanNotLoadItemById=Cannot load item by id: {0}
+DQMQualityMeasureTypeCellRenderer.Column=Column
+DQMQualityMeasureTypeCellRenderer.TableOrView=Table | View
+
+EntryTopicMeasuresTechnicalItemSDCACQuery.ErrorDuringSearchingForDataQualityMeasures=An error occurred while searching for data quality measures
+EntryTopicMeasuresTechnicalItemSDCACQuery.ErrorDuringSearchingForDWRItemsTable=An error occurred while searching for tables
+
+DQAUtil.CouldNotFindScopeItems=Could not find scope items
+DQAUtil.ErrorCreatingModel=An error occurred while creating model
+DQAUtil.ErrorRetrivingExtendedInfo=An error occurred while retrieving extended information for governed contexts
+DQAUtil.ErrorRetrivingSubtypes=An error occurred while retrieving subtypes
+
+QueryHelper.ErrorGettingProfiledItem=An error occurred while retrieving profiled item
+DQMQualityMeasureResultProfiledCellRenderer.DaysAreInWrongFormat=Amount of days is in wrong format
+DQMQualityMeasureResultProfiledCellRenderer.NO=No
+DQMQualityMeasureResultProfiledCellRenderer.YES=Yes
+MeasureReferncedDataElementCellRenderer.Column=Column
+MeasureReferncedDataElementCellRenderer.Field=Field
+
+DQMQualityMeasureResultCellRenderer.GREEN=GREEN
+DQMQualityMeasureResultCellRenderer.RED=RED
+
+ScopeItemQueryParam.couldNotFindScopeItems=Could not find scope items
+
+OpenAttributeProfile.lbl=Open Data Quality Profile
+OpenAttributeProfile.tip=Open Data Quality Profile
+
+DQMProfileAverageValueCellRenderer.ErrorLoadingProfiledColumn=Error during loading profiled Column
+

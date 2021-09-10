@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="MG View" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<!-- 
+	@author YA 01/09/2015, created
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+<div use="com.rochade.im.ui.view.HistoryTabObjectView"
+	sclass="asg-tab-content-div asg-rochade-im-objectcontent-issue-comment-tab asg-tableshapes-links">
+	<div use="com.rochade.im.ui.view.IssueHistoryPropertyView">
+		<window apply="org.zkoss.bind.BindComposer"
+			viewModel="@id('vm') @init('com.rochade.im.objectcontent.IssueCommentsViewModel')">
+			<grid style="border: 0px; padding: 10px; background: #FFFFFF;" visible="@load(not vm.newCommentAdded)">
+				<columns style="background: transparent">
+					<column width="20%" />
+					<column width="80%" />
+				</columns>
+				<rows style="background: transparent;">
+	 				<row valign="top" align="left">
+		 				<cell colspan="2" align="right">
+	 						<button
+	 							label="${wtb:l('issue.addComment')}"
+	 							onClick="@command('addNewComment')" />
+		 				</cell>
+	 				</row>
+				</rows>
+			</grid>
+			<grid style="border: 0px; padding: 10px; background: #FFFFFF;">
+				<columns style="background: transparent">
+					<column width="20%" />
+					<column width="80%" />
+				</columns>
+				<rows style="background: transparent;" children="@load(vm.comments)">
+					<template name="children" var="comment">
+						<row valign="top" align="left" style="border: 0px;" visible="@load(not comment.created)">
+							<cell colspan="2">
+								<hbox pack="start">
+								 	<label value="${wtb:l('issue.commentNumber')}" />
+									<label value="@load(comment.commentNumber) " />
+									<label value="${wtb:l('issue.commentFrom')}" />
+									<label value="@load(comment.user)" />
+									<separator width="3px" />
+									<label value="@load(comment.formattedDate)" />
+									<label value=" - " visible="@load(not empty comment.actionMessage)" />
+									<label value="@load(comment.actionMessage)" />
+								</hbox>
+							</cell>
+						</row>
+						<row valign="top" align="left" style="border: 0px; padding-bottom: 5px" visible="@load(comment.created)"> 
+							<cell colspan="2" align="right">
+								<button
+									label="${wtb:l('issue.commentSave')}"
+									onClick="@command('saveComment', selectedComment=comment)" />
+								<separator width="3px" orient="vertical">
+								</separator>
+								<button
+									label="${wtb:l('issue.commentCancel')}"
+									onClick="@command('cancelAddComment')" />
+							</cell>
+						</row>
+						<row valign="top" align="left" style="border: 0px;" visible="@load(comment.commentFiledVisible)"> 
+							<cell colspan="2">
+								<textbox
+									value="@bind(comment.commentBody)" rows="4"
+									readonly="@load(not comment.created)" width="100%"
+									style="resize: none;" focus="@load(comment.created)" />
+							</cell>
+						</row>
+						<row valign="top" align="left" style="border: 0px;" visible="@load(not empty comment.modifications)"> 
+							<groupbox>
+								<caption label="${wtb:l('DialogHistoryRecord.attributes')}" />
+								<listbox fixedLayout="true"
+									multiple="false" checkmark="true" sclass="bg-wizard-listbox"
+									model="@bind(comment.modifications)"
+									selectedItem="@bind(comment.selectedModification)">
+									<template name="model"
+										var="modification">
+										<listitem
+											label="@load(modification.attributeMessage)" />
+									</template>
+								</listbox>
+							</groupbox>
+							<groupbox>
+								<caption label="${wtb:l('DialogHistoryRecord.changes')}" />
+								<vlayout visible="@load(not empty comment.selectedModification)" style="padding-left: 5px; padding-right: 5px;">
+									<label
+										style="color:gray; background:transparent;"
+										value="${wtb:l('DialogHistoryRecord.oldvalue')}" />
+									<html
+										style="min-height: 5px;"
+										content="@load(comment.selectedModification.oldValue)" />
+									<label
+										style="color:gray; background:transparent;"
+										value="${wtb:l('DialogHistoryRecord.newvalue')}" />
+									<html
+										style="min-height: 5px;"
+										content="@load(comment.selectedModification.newValue)" />
+								</vlayout>
+							</groupbox>
+						</row>
+					</template>
+				</rows>
+			</grid>
+		</window>
+	</div>
+</div>

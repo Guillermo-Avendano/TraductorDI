@@ -1,0 +1,124 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+Subentry.SnapShots=Snapshots
+dg.snapnav.new_config.msg=New Snapshot Configuration
+dg.snapnav.new_config.img=/com.rochade.wa.action.ui/img/OA05-new.gif
+
+dg.snapshot.config.addItems=Add Items
+dg.snapshot.config.colAbsName=Qualified Name
+dg.snapshot.config.colDescr=Description
+dg.snapshot.config.colName=Name
+dg.snapshot.config.colType=Type
+dg.snapshot.config.configTitle=Snapshot Configuration:
+dg.snapshot.config.contentConfig=Snapshot Content Configuration:
+dg.snapshot.config.contentConfigV=Snapshot content configuration:
+dg.snapshot.config.createSnapshot=Create New Snapshot
+dg.snapshot.config.creationDate=Creation Date
+dg.snapshot.config.delete=Delete
+dg.snapshot.config.edit=Edit
+dg.snapshot.config.exit=Exit
+dg.snapshot.config.longDscr=Long description:
+dg.snapshot.config.delta=Number of delta snapshots:
+dg.snapshot.config.includeTags=Include tags:
+dg.snapshot.config.includeLikes=Include likes:
+dg.snapshot.config.noActionInSnapshot=Create and delete snapshot are not permitted because you are within snapshot view.
+dg.snapshot.config.noActionNoSeeds=Create snapshot is not permitted because the seed items are no longer available.
+dg.snapshot.config.noActionRunning=Create and delete snapshot are not permitted because there is already a delete/create process running.
+dg.snapshot.config.refresh=Refresh
+dg.snapshot.config.remove=Remove
+dg.snapshot.config.save=Save
+dg.snapshot.config.saveexit=Save & Exit
+dg.snapshot.config.sdcac=Select conditions (SDCAC Syntax):
+dg.snapshot.config.sdcac.invalid=Condition definition is invalid: {0}
+dg.snapshot.config.seedItems=Seed items:
+dg.snapshot.config.shortDscr=Short description:
+dg.snapshot.config.snapshots=Snapshots:
+dg.snapshot.config.status=Status
+dg.snapshot.config.incomplete=Name, short description, long description, seed items, and/or select conditions missing/invalid. 
+dg.snapshot.content=Snapshot Content:
+dg.snapshot.create.snapshot.rpc.noService=Create snapshot in background impossible. No service installed?
+dg.snapshot.create.snapshot.rpc.runBackground=Creating the snapshot {0} could take a while. Therefore, this is proceeded in background while you can continue your work.
+dg.snapshot.create.snapshot.rpc.runOnline=Creating the snapshot {0} could take a while. Server version or privileges are not sufficient or RPC service is not installed to proceed in background. Continue anyway?
+dg.snapshot.create.snapshot.rpc.started=Create snapshot in background started.
+dg.snapshot.create.snapshot.rpc.failed=Create snapshot in background failed. Service could not be bound.
+dg.snapshot.create.snapshot.running=Create snapshot currently not possible because there is already a delete/create process running. Please try later.
+dg.snapshot.creationDate=Creation date:
+dg.snapshot.delete.config.msg=Are you sure to delete Snapshot Configuration {0}?
+dg.snapshot.delete.config.title=Delete Snapshot Configuration
+dg.snapshot.delete.msg=Are you sure to delete Snapshot {0}?
+dg.snapshot.delete.root.msg=Are you sure to remove seed item {0} {1} from snapshot configuration?
+dg.snapshot.delete.root.title=Remove Seed Item
+dg.snapshot.delete.snapshot.error=Error during deleting snapshot
+dg.snapshot.delete.snapshot.locked.msg=Snapshot cannot be deleted because it is currently in use
+dg.snapshot.delete.snapshot.title=Delete Snapshot
+dg.snapshot.delete.snapshot.rpc.noService=Delete snapshot in background impossible. No service installed?
+dg.snapshot.delete.snapshot.rpc.runBackground=Deleting snapshot {0} could take a while. Therefore, this is proceeded in background while you can continue your work.
+dg.snapshot.delete.snapshot.rpc.runOnline=Deleting the snapshot {0} could take a while. Server version or privileges are not sufficient or RPC service is not installed to proceed in background. Continue anyway?
+dg.snapshot.delete.snapshot.rpc.started=Delete snapshot in background started.
+dg.snapshot.delete.snapshot.rpc.failed=Delete snapshot in background failed. Service could not be bound. 
+dg.snapshot.delete.snapshot.running=Delete snapshot currently not possible because there is already a delete/create process running. Please try later.
+dg.snapshot.delete.successor.locked.msg=Snapshot cannot be deleted because one of its successors is currently in use
+dg.snapshot.name.config.duplication.msg=Snapshot configuration with such name already exists
+dg.snapshot.name.duplication.msg=Snapshot with such name already exists
+dg.snapshot.name.duplication.title=Duplicate Name
+dg.snapshot.new.name_invalid.title=Invalid name
+dg.snapshot.new.name_invalid=Name is invalid, must not contain space, lower cases, new line, or any of these characters: * ( ) , ; : @ | # ^ 
+dg.snapshot.new_config.name=New Snapshot configuration
+dg.snapshot.save.config.msg={0} has been changed. Save changes?
+dg.snapshot.save.config.title=Save Snapshot configuration
+dg.snapshot.snapshotTitle=Snapshot:
+dg.snapshot.window.cancel=Cancel
+dg.snapshot.window.create=Create
+dg.snapshot.window.description=Description:
+dg.snapshot.window.name=Name:
+dg.snapshot.window.title=Create New Snapshot
+
+dg.queries.queryRBR1=All items in Production
+dg.queries.queryRBR2=Item selection in Production
+dg.queries.queryRBR3=Advanced item query in Production
+dg.queries.queryRBR4=Item tree in Production
+
+DGSearchRootItemWizard.Title.Step.1=Step 1: Search Seed Items
+DGSearchRootItemWizard.Title.Step.2=Step 2: Select Seed Items
+DGSearchRootItemWizard.btCancel=Cancel
+DGSearchRootItemWizard.btFinish=Add
+DGSearchRootItemWizard.winCaption=Add Seed Items
+DGSearchRootItemWizard.winWizard.height=650px
+DGSearchRootItemWizard.winWizard.width=800px
+dg.addroot.button.search=Search >>
+dg.addroot.errorItemTypes=No seed item types found.
+dg.addroot.searchforname=Name:
+dg.addroot.targettype=Type:
+
+dg.snapshot.list.title=Seed Items of Snapshot {0}
+dg.snapshot.list.allItems=Snapshot was created on base of all items in Production. Use the Navigation tree to navigate through this snapshot.
+dg.snapshot.list.noSeedItems=The seed items are no longer available. Use the Navigation tree to navigate through this snapshot.
+
+dg.snapshot.namestatus.failed={0} (failed)
+dg.snapshot.namestatus.ok={0}
+dg.snapshot.namestatus.running={0} (in create/delete process)
+dg.snapshot.namestatus.undefined={0} (undefined)
+dg.snapshot.status.failed=failed
+dg.snapshot.status.ok=available
+dg.snapshot.status.running=in create/delete process
+dg.snapshot.status.undefined=undefined
+
+dg.snapshot.noopen=Open of snapshot {0} not possible.
+dg.snapshot.open.title=Open Snapshot
+
+dg.snapshot.EventLog={0} {1} ({2})
+
+#----------------
+#icons
+dg.snapshot.config.create.img=/com.rochade.wa.action.ui/img/OA05-new.gif
+dg.snapshot.config.delete.img=/com.rochade.wa.action.ui/img/OA06-delete.gif
+dg.snapshot.config.edit.img=/com.rochade.wa.action.ui/img/02_16x16_edit.png
+dg.snapshot.config.exit.img=/com.rochade.wa.action.ui/img/exit.gif
+dg.snapshot.config.refresh.img=/com.rochade.wa.action.ui/img/WTB_Refresh.png
+dg.snapshot.config.save.img=/com.rochade.wa.action.ui/img/16x16_save.png
+dg.snapshot.config.saveexit.img=/com.rochade.wa.action.ui/img/16x16_save_exit.png

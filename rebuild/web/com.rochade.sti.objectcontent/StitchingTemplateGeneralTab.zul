@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="MG View" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<div use="com.rochade.wa.ui.view.BaseObjectView">
+	<div
+		use="com.rochade.sti.ui.view.propviews.GeneralTemplatePropertyView"
+		id="GeneralTemplateTab">
+		<window title="" border="none" id="StitchingTemplateGeneralTab"
+			viewModel="@id('vm') @init('com.rochade.sti.ui.view.model.StitchingTemplatesViewModel')"
+			apply="org.zkoss.bind.BindComposer">
+			<vlayout>
+				<label value="@load(vm.templateName)" sclass="asg-stitching-template-name"/>
+				<label value="${wtb:l('rulesTab.stitchingTemplateDescription')}" sclass="asg-stitching-template-description-label" />
+				<label value="@load(vm.templateDefinition)" sclass="asg-stitching-template-description" />
+			</vlayout>
+		</window>
+	</div>
+</div>

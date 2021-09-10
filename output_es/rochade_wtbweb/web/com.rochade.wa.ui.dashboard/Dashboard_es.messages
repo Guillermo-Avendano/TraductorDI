@@ -1,0 +1,168 @@
+﻿# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.wa.ui.dashboard
+#
+
+
+Dashboard.title=Tablero
+Dashboard.Pie=Gráfico de torta
+Dashboard.Vbar=Barras verticales
+Dashboard.Hbar=Barras horizontales
+Dashboard.Line=Líneas
+Dashboard.Square=Gráfico de recuadro
+Dashboard.Text=Solo texto
+Dashboard.pie=Gráfico de torta
+Dashboard.vbar=Barras verticales
+Dashboard.hbar=Barras horizontales
+Dashboard.line=Líneas
+Dashboard.square=Gráfico de recuadro
+Dashboard.text=Solo texto
+Dashboard.plus=Acercarse
+Dashboard.minus=Alejarse
+Dashboard.refresh=Refrescar
+Dashboard.configure=Configurar
+Dashboard.save=Exportar
+Dashboard.savePNG=Exportar como PNG
+Dashboard.saveSVG=Exportar como SVG
+Dashboard.savePDF=Exportar en formato PDF
+Dashboard.nodrilldown=No disponible "Explorar a fondo"
+Dashboard.colorType=Tipo de color
+Dashboard.MultiColor=Multi color
+Dashboard.MonoColor=Mono color
+Dashboard.Refreshing=Refreshing...
+
+# icons
+
+# statistics dimensions
+Dashboard.statistics=Gráfico de Estadísticas de Rendimiento
+Dashboard.select=Seleccionar una categoría:
+Dashboard.None=Detener/Borrar los contadores
+Dashboard.Srv.Calls=Llamadas al servidor
+Dashboard.Srv.Sum=Tiempo Total del Servidor(ms)
+Dashboard.Srv.Avg=Tiempo promedio de servidor (ms)
+Dashboard.Japi.Calls=JapiLow calls
+Dashboard.Japi.Sum=JapiLow total time (ms)
+Dashboard.Japi.Avg=JapiLow avg time (ms)
+Dashboard.Stat.Calls=JapiHigh calls
+Dashboard.Stat.Sum=JapiHigh total time (ms)
+Dashboard.Stat.Avg=JapiHigh avg time (ms)
+Dashboard.Srap.Calls=Llamadas SRAP
+Dashboard.Srap.Sum=Tiempo total SRAP(ms)
+Dashboard.Srap.Avg=Tiempo promedio SRAP(ms)
+
+# chart config
+Dashboard.configtitle=Configurar Parámetros del Gráfico
+Dashboard.confighint=Los ajustes se guardarán como preferencias.
+Dashboard.resetButton=Rest.Predeterminados
+Dashboard.okButton=Aceptar
+Dashboard.cancelButton=Cancelar
+Dashboard.defaultsRestored=Se restauran los ajustes predeterminados.
+Dashboard.colors=Personalizar colores para los valores actuales
+Dashboard.linecolor=[ Color de linea usada en lineas de graficos]
+Dashboard.savecurrent=Labels and Layouts
+Dashboard.chartTitle=Título:
+Dashboard.labelXAxis=Etiqueta eje X del gráfico de barras / línea:
+Dashboard.labelYAxis=Etiqueta del eje y del gráfico de barras / línea:
+Dashboard.chartType=Diseño gráfico predeterminado:
+Dashboard.dimension=Selección de Dimensión predeterminado:
+Dashboard.dimensionDef=[n/a, o primera entrada]
+Dashboard.sorting=Ordenar entradas de gráficos:
+Dashboard.nosort=Sin ordenar, mantener el orden
+Dashboard.ascending=Iniciar con los más pequeños
+Dashboard.descending=Iniciar con el mayor
+Dashboard.legendHiding=Leyenda y Ocultación
+Dashboard.bottomLegend=Ubicar leyenda debajo del gráfico
+Dashboard.hideLegend=Ocultar leyenda
+Dashboard.showLabels=Show dimension labels in x-axis
+Dashboard.showDimensionValues=Show dimension labels in y-axis
+Dashboard.showValues=Show value labels in chart
+Dashboard.show=Show labels at zoom factor
+Dashboard.showHint=Set minimum zoom factor at which the labels have to appear 
+Dashboard.hideLabels=Ocultar etiquetas de dimensión en el gráfico
+Dashboard.hideDimensionValues=Hide dimension values in chart
+Dashboard.hideValues=Ocultar etiquetas de valor en el gráfico
+Dashboard.hideZoomBtn=Ocultar botones de enfocar
+Dashboard.hideRefreshBtn=Ocultar acción de refrescar
+Dashboard.hideTimestamp=Ocultar información de hora
+Dashboard.hideLayout=Ocultar cuadro de selección de diseño gráfico
+Dashboard.hideDimension=Ocultar cuadro de selección dimensión y la etiqueta
+Dashboard.sizeing=Ajuste de tamaños y márgenes
+Dashboard.zoom=Enfocar el área de gráfico:
+Dashboard.height=Altura del área de gráfico:
+Dashboard.width=Ancho del área de gráfico:
+Dashboard.margintop=Margen Superior de área de gráfico:
+Dashboard.marginbottom=Margen inferior del área de gráfico:
+Dashboard.marginleft=Margen izquierdo del área del gráfico:
+Dashboard.marginright=Margen derecha del área del gráfico:
+Dashboard.lbwidth=Ancho de la dimensión de la caja de selección:
+Dashboard.rotatelabel=Girar etiquetas del eje x:
+Dashboard.refreshcaching=Refrescar y almacenar en caché al inicio
+Dashboard.autorefresh=Refrescar periódicamente:
+Dashboard.caching=Almacenamiento en caché de valores del gráfico:
+Dashboard.nocache=Sin caché, obtener datos en el inicio
+Dashboard.usecache=Usar caché, no refrescar automáticamente
+Dashboard.dorefresh=Usar caché, refrescar automáticamente después de un tiempo
+Dashboard.px=px
+Dashboard.off=apagado
+Dashboard.min=min
+Dashboard.deg=°
+Dashboard.inventory=Inventario de la configuración específica de Gráficos
+Dashboard.inventoryHint=This section is specific for inventory chart. For each item type an optional plugin query can be configured, which is executed on mouse click in the chart.
+Dashboard.inventoryType=Tipo de ítem
+Dashboard.inventoryQuery=Plugin Query Name
+Dashboard.inventoryIns=Insertar una nueva línea al final
+Dashboard.inventoryDel=Eliminar esta línea
+Dashboard.inventoryList={0}
+Dashboard.byroot=Inventario agrupado por ítem raíz
+Dashboard.byroot.drillDownTitle=Inventory of {0} Items within Root {1} [{2}]
+Dashboard.byrootOld=Inventory Grouped by Root Item (deprecated)
+Dashboard.byroottype=Seleccione un tipo de ítem:
+Dashboard.byrootlimit=El resultado de la consulta fue truncado. Hay más de {0} ítems. El gráfico de resultado está incompleto.
+Dashboard.byrootlimitRoot1=Query result is truncated.
+Dashboard.byrootlimitRoot2=There are more than {0} root items. 
+Dashboard.byrootlimitRoot3=In at least 1 root item there are more than {0} items.
+Dashboard.byrootlimitRoot4=Chart result is incomplete.
+Dashboard.byrootconfig.exception=Exception while reading control item ChartByRootConfiguration
+Dashboard.byrootconfig.notFound=Control item ChartByRootConfiguration not found or empty
+Dashboard.usageMetrics=Estadísticas de uso del repositorio
+Dashboard.usageMetrics.scale=Gráfico:
+Dashboard.usageMetrics.period=Mes:
+
+
+# dynamic chart
+Dashboard.dynchartTitle=Gráfico de Columna
+Dashboard.dynchartColumns=Seleccionar columna de la tabla:
+Dashboard.dynchartColumnshint=Este gráfico agrupa ítems por contenido diferente de columna.
+Dashboard.dynchartChartBy=Gráfico para {0}
+Dashboard.dynchartEmpty=[Vacio]
+Dashboard.dynchartHeader=Recuperar todos los contenidos puede llevar mucho tiempo.
+Dashboard.dynchartLimit=Debido a la gran cantidad de ítems, conseguir todo el contenido puede llevar mucho tiempo. \n ¿Desea continuar?
+Dashboard.dynchartEstimation=\nLa operacion requerira al menos {0} segundos.
+Dashboard.dynchartMultiline=[Multi-Lineas]
+Dashboard.dynchartToomany={1} entradas están disponibles, que hacen el gráfico ilegible. Por lo tanto, sólo las {0} entradas mayores se mostrarán.
+Dashboard.dynchartType=Tipo de ítem
+Dashboard.dynchartScopeId=Alcance del ítem
+Dashboard.dynchartTransformation=Transformación
+Dashboard.dynchartRoot=[Root]
+Dashboard.dynchartPlace=Ubicar Chart en:
+Dashboard.placetab=Temporalmente en una nueva pestaña
+Dashboard.placetemp=Temporalmente en la pestaña del Tablero
+Dashboard.placepersistent=Persistente en la pestaña del Tablero
+Dashboard.errorCreateChartDynamicComposerObject=No se puede crear el objeto ChartDynamicComposer.
+
+
+## lineage messages
+Dashboard.lineage.sti.no.details = Cannot retrieve stitches details
+Dashboard.lineage.sti.auto =(automatizado)
+Dashboard.lineage.sti.manual = (manual)
+
+
+Dashboard.errorNoChartProvider=No Chart Provider defined or found for portlet: {0}
+Dashboard.restore.confirm.msg=Do you want to restore the default values for this chart?
+Dashboard.restore.confirm.title=Rest.Predeterminados

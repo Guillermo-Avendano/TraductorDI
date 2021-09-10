@@ -1,0 +1,79 @@
+﻿#-------------------------------------------------------
+# Rochade Business Package - Message file
+# This is an UTF-8 endcoded file!
+#
+#  Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+BP_CreateBusinessContextInRoot.lbl=New Context
+BP_CreateBusinessContextInRoot.tip=New Context
+BP_CreateBusinessContextInRoot.img=/com.rochade.bpa.action/img/OA05-new.gif
+
+BP_ListBusinessItems.lbl=List Business Items
+BP_ListBusinessItems.tip=List Business Items
+
+BP_NewBusinessItem.lbl=New Business Item
+BP_NewBusinessItem.tip=New Business Item
+
+BP_ListBusinessContext.lbl=List Business Contexts
+BP_ListBusinessContext.tip=List Business Contexts
+
+BP_NewBusinessContext.lbl=New Business Context
+BP_NewBusinessContext.tip=New Business Context
+
+BP_SingleClick_ListBusinessItem.lbl=List Business Items
+BP_SingleClick_ListBusinessItem.tip=List Business Items
+
+BP_CDE-DIAGRAM.lbl=Traceability
+BP_CDE-DIAGRAM.tip=Traceability
+
+BP_MyBusinessItem.lbl=My Business Items
+BP_MyBusinessItem.tip=My Business Items
+
+BP_BusinessItemInProcess.lbl=Business Items in Process
+BP_BusinessItemInProcess.tip=Business Items in Process
+
+BP_Editor_CreateBI.lbl=Create
+BP_Editor_CreateBI.tip=Create Business Item
+BP_Editor_CreateBI.img=/com.rochade.bpa.action/img/OA05-new.gif
+
+BP_Editor_CreateBC.lbl=Create
+BP_Editor_CreateBC.tip=Create Business Context
+BP_Editor_CreateBC.img=/com.rochade.bpa.action/img/OA05-new.gif
+
+BP_Delete_BI.lbl=Delete
+BP_Delete_BI.tip=Delete
+
+BPA_UserAdministration.creationFailed.message=User Administration initialization failed
+BPA_UserAdministration.creationFailed.title=User Administration initialization
+BPA_UserAdmininistration.InitializationError=Error during Business Context user administration initialization
+
+BP_Delete_BI.messagebox.remove.text=Are you sure to delete the Business Item?
+BP_Delete_BI.messagebox.remove.title=Delete Business Item
+BP_Delete_BI.errdel=Error occurred while deleting Business Item
+
+BP_Delete_BC.lbl=Delete
+BP_Delete_BC.tip=Delete
+
+BP_Error_DuringDeletionOfRelatedTasks=Error during deletion of related tasks
+BP_Error_DuringCreatingHistory=Error during creating history
+
+BP_DemoOrganize.img=~./com.rochade.wa.action.ui/img/16x16_organize.png
+BP_DemoOrganize.lbl=Organize
+BP_DemoOrganize.tip=Organize
+
+EditorWarnings.cannotBeAfter=cannot be after
+
+BP_Editor_StartProfiling.img=/com.rochade.bpa.action/img/data-quality-mng-v2.png
+BP_Editor_StartProfiling.lbl=Check Metadata Profile Rules
+BP_Editor_StartProfiling.tip=Check Metadata Profile Rules
+
+BP_DisplayBusinessMetaData.lbl=Business Information
+BP_DisplayBusinessMetaData.tip=Display Business Information
+BP_DisplayBusinessMetaData.img=
+
+GDP_CreatePIAforApplGlossaryFilter.lbl=Glossary
+GDP_CreatePIAforApplGlossaryFilter.tip=Glossary
+GDP_CreatePIAforApplGlossaryFilter.img=
+GDP_CreatePIAforApplGlossaryFilter.All.lbl=All

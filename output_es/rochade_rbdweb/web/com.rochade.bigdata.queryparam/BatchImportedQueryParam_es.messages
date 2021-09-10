@@ -1,0 +1,49 @@
+﻿# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.wa.ui.QueryParam
+#
+
+BatchImportedQuery.select=Especificar parámetros para obtener bases de datos/tablas o directorios que son importados por jobs batch
+BatchImportedQuery.runSettings=Ejecutar Configuraciones:
+BatchImportedQuery.property=Parámetro
+BatchImportedQuery.value=Valor
+BatchImportedQuery.limit=Numero máximo de ítems
+BatchImportedQuery.runButton=Ejecutar
+BatchImportedQuery.cancelButton=Cancelar
+BatchImportedQuery.resetButton=Reestablecer
+BatchImportedQuery.queryparam=Parámetros de la consulta
+BatchImportedQuery.table=Tabla
+BatchImportedQuery.database=Base de Datos
+
+BatchImportedQuery.filterby.DWR_RDB_DATABASE=Nombre de Base de Datos
+
+BatchImportedQuery.sqoopListEmpty =Lista de bases de datos es vacía bajo la actual herramienta de importación
+
+
+# Tooltips
+
+BatchImportedQuery.altS=Ejecutar Configuraciones (Alt-S)
+BatchImportedQuery.altP=Preservar configuraciones (Alt-P)
+BatchImportedQuery.altL=Limite del resultado de la consulta (Alt-L)
+BatchImportedQuery.enter=Ejecutar consulta (Alt-R, <enter>)
+BatchImportedQuery.esc=Cancelar (<Esc>)
+BatchImportedQuery.reset=Reestablecer
+
+# icons
+
+
+# Message
+BatchImportedQuery.alert.warning =Necesita elegir una base de datos!
+
+BatchImportedQuery.importTool =Herramienta de importación
+BatchImportedQuery.importToolSelect =Seleccionar datos a importar en Hive:
+BatchImportedQuery.dataType =Tipo de Dato
+BatchImportedQuery.databaseName =Nombre de Base de Datos
+BatchImportedQuery.tableName =Nombre de la Tabla
+BatchImportedQuery.title = Batch Imported Data:

@@ -1,0 +1,75 @@
+﻿#-------------------------------------------------------
+# Rochade Business Package - Message file
+# This is an UTF-8 endcoded file!
+#
+#  Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+#
+# package: com.rochade.gdp.ui
+#
+gdp.delete.img=/com.rochade.wa.action.ui/img/OA06-delete.gif
+
+gdp.delete.tip=Remove
+
+gdpIgnoreDuplicate=The attribute {0} is unique and already contains links to selected objects. These new links are not added.
+labelQualVERIFIED=Verified
+labelQualSCANNED=Scanned
+labelQualADDED=Added
+
+CreatePIAforApplSelect.dialog.title=Create Privacy Impact Assessment for Business Application
+CreatePIAforApplSelect.dialog.msg=The Privacy Impact Assessment will be created within the selected glossary or context (requires create permission).
+CreatePIAforApplSelect.dialog.noGlossaryOrContext=No glossaries or contexts to select.
+
+labelStructuredData=Properties for searching structured data
+labelUnstructuredData=Properties for searching unstructured data
+labelHeadName=Name
+labelHeadDataPattern=Data Pattern
+labelHeadNamePattern=Name Pattern
+labelHeadTypePattern=Type Pattern
+labelHeadMatchFull=Match Full
+labelHeadMatchEmpty=Match Empty
+labelHeadMinimumRatio=Minimum Ratio %
+
+gdp.labelName=Name
+gdp.labelDataPattern=Data pattern
+gdp.labelNamePattern=Name pattern
+gdp.labelTypePattern=Type pattern
+gdp.labelMatchFull=Match full
+gdp.labelMatchEmpty=Match empty
+gdp.labelMinimumRatio=Minimum ratio %
+
+gdp.delete.property.msg=Are you sure to remove the selected catalog search filter property from attribute?
+gdp.delete.property.title=Removing property...
+gdp.edit.property.title=Edit Catalog Search Filter Property
+gdp.button.Ok=OK
+gdp.button.Cancel=Cancel
+
+gdp.errorMinimumRatio=Minumum ratio % must be between 0 and 100.
+gdp.errorName=Property with name {0} already exists. Enter a different name.
+gdp.errorNameChar=Illegal value, name has to start with A-Z, a-z, or 0-9, 2nd - n-th character has to be  A-Z, a-z, or 0-9, _, -, or space. 
+gdp.errorPattern=Invalid pattern, has to be regular expression.
+
+EditorWarnings.type.EWT_CATALOG_FILTER=Warnings for Imported Catalog Content Search Filter
+catalogFilter.warnTitle=Catalog Content Search Filter
+catalogFilter.warnMessage=The imported Catalog Content Search Filter was analyzed.\nProblems were detected and corrected automatically as far as possible.\nPlease display the warnings and review the affected settings on the Implementation & Cascade tab. Then save the item.
+catalogFilter.warnicon.tooltip1=There is one warning for imported Catalog Content Search Filter
+catalogFilter.warnicon.tooltipN=There are {0} warnings for imported Catalog Content Search Filter
+catalogFilter.prop.Filter=Filter
+catalogFilter.prop.Line=Entry {0}
+catalogFilter.warn.invalidJson=Imported filter is no valid JSON: {0}
+catalogFilter.warn.invalidJsonStartEnd=Imported filter must not be included in ''['' and '']''. Automatically corrected.
+catalogFilter.warn.emptyLine=Superfluous empty line in imported filter. Automatically corrected.
+catalogFilter.warn.Spaces=Superfluous trailing/leading spaces in imported filter. Automatically corrected.
+catalogFilter.warn.KeywordInvalid=Invalid spelling of keyword ''{0}''. Keyword is ignored.
+catalogFilter.warn.KeywordInvalidGen=Invalid spelling of keyword ''{0}''. Keyword {1} is assumed. Automatically corrected.
+catalogFilter.warn.KeywordNotation=Wrong capitalization of keyword ''{0}''. Keyword {1} assumed. Automatically corrected.
+catalogFilter.warn.NameDuplicate=Duplicate usage of same value ''{0}'' for keyword ''name'' in imported filter. New name {1} generated.
+catalogFilter.warn.NameMissing=Keyword ''name'' is not defined in imported filter. New name {0} generated.
+catalogFilter.warn.NameSpaces=Superfluous trailing/leading spaces in value of keyword ''name'': ''{0}''. Automatically corrected.
+catalogFilter.warn.NameCharacters=Invalid characters in value of keyword ''name'': ''{0}''. 1st character must be A-Z,a-z,0-9. 2nd through n-th character must be A-Z,a-z,0-9, ,-,_. Automatically corrected. 
+catalogFilter.warn.SettingType=Invalid type found for value of keyword ''{0}'', {1} is expected. 
+catalogFilter.warn.SettingTypeParsed=Type {1} found for value of keyword ''{0}'', {2} is expected. Automatically corrected. 
+catalogFilter.warn.InvalidRegex=Invalid regular expression ''{0}'' defined for value of keyword ''{1}'': {2}
+catalogFilter.warn.LessThanMin=Invalid value ''{1}'' for keyword ''{0}'', must not be less than {2}.
+catalogFilter.warn.MoreThanMax=Invalid value ''{1}'' for keyword ''{0}'', must not be more than {2}.

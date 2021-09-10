@@ -1,0 +1,74 @@
+﻿# metaRDM - Message file
+#
+#  Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#-------------------------------------------------------
+
+#
+# package: com.rochade.mdm.xlsimport
+#
+
+# Messages for the exporter
+ExportDataConcept.cdheader.1=CD/VM name
+ExportDataConcept.cdheader.2=Padres DC/validez VM
+ExportDataConcept.vdheader.1=VD/PV name
+ExportDataConcept.vdheader.2=Nombre RC / validez PV
+ExportDataConcept.vdheader.3=VDR/parentPV
+ExportDataConcept.vmheader.1=Nombre de la MV
+ExportDataConcept.vmheader.2=Validez DC/VM
+ExportDataConcept.cdrheader.1=Padres DC/VM
+ExportDataConcept.cdrheader.2=Descomposición / validez
+ExportDataConcept.sheetAll=Completar Concepto de Datos
+ExportDataConcept.sheetMeanings=Significados
+ExportDataConcept.sheetParents=Padres
+ExportDataConcept.sheetValues=Valores
+
+ExportDataConcept.subvdheader=VDR.parentPV
+ExportDataConcept.subcdheader=parentVM
+
+# Importer
+ImportDataConcept.title=Cargue un archivo de Excel y seleccione una hoja de cálculo que desee importar.
+ImportDataConcept.header=Importar Dominios Conceptuales con los Valores de Dominios
+ImportDataConcept.excelImport=Importar Excel
+
+ImportDataConcept.runSettings=Ejecutar Configuraciones:
+ImportDataConcept.property=Parámetro
+ImportDataConcept.value=Valor
+ImportDataConcept.limit=Numero máximo de ítems
+ImportDataConcept.uploadButton=Cargar un archivo Excel
+ImportDataConcept.viewButton=Ver de archivos Excel
+ImportDataConcept.runButton=Ejecutar
+ImportDataConcept.cancelButton=Cancelar
+ImportDataConcept.resetButton=Reestablecer
+ImportDataConcept.queryparam=Parámetros de la consulta
+ImportDataConcept.noxlsx=No es un archivo Excel .xlsx.
+
+ImportDataConcept.worksheet=Seleccione la hoja de cálculo:
+ImportDataConcept.pleaseUpload=<Cargar archivo Excel>
+ImportDataConcept.view.title=Ver Excel
+ImportDataConcept.maxcount=Sólo se muestran las primeras 500 líneas.
+ImportDataConcept.impHierarchy=Import hierarchy decomposition
+ImportDataConcept.impHierarchy0=Importar descomposición del archivo Excel
+ImportDataConcept.impHierarchy1=No importar la descomposición
+ImportDataConcept.impHierarchy2=No importar, pero volver a calcular que a partir de datos de referencia
+ImportDataConcept.impSameCtx=Identificando conceptos padres
+ImportDataConcept.impSameCtx0=Buscar padres en todos los contextos
+ImportDataConcept.impSameCtx1=Buscar padres en el contexto actual
+
+
+# Warnings / Success
+ImportDataConcept.success=La importación de Excel ha finalizado correctamente.
+ImportDataConcept.errRC=No se ha identificado la Colección de Referencia, número de línea:
+ImportDataConcept.missingHierarchyParents=No se encontró la especificación de la siguiente jerarquía de padres:
+ImportDataConcept.errVDR=Nombre de relación VD faltante, número de línea:
+ImportDataConcept.errVDT=No se encuentra el dominio de valores del sub-dominio de valores secundario, número de línea:
+ImportDataConcept.errCD=No <parentVM> para éstos <VDR>.<parentPV> encontrado.:
+ImportDataConcept.rcconflict=RC conflicto de nombres - RC mismo nombre pero en diferentes contextos:
+
+# Tooltips
+ImportDataConcept.view=Ver Excel
+ImportDataConcept.enter=Ejecutar consulta
+ImportDataConcept.esc=Cancelar (<Esc>)
+ImportDataConcept.reset=Reestablecer
+
+# icons
+

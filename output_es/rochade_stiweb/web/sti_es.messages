@@ -1,0 +1,149 @@
+﻿# Rochade Stitching - Message file
+# This is an UTF-8 endcoded file!
+#
+#  Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+###     MessageBox     ###
+STI_StitchAlreadyExists=Stitch already exists. To change it, remove existing stitch first.
+STI_PathNotFound=Paths cannot be found
+STI_SequenceNotFound=Sequences cannot be found
+STI_MessageboxNoSelectedItem=Ningún ítem seleccionado
+STI_InfoMessageboxTitle=información
+STI_WarningMessageboxTitle=Alerta
+STI_ErrorMessageboxTitle=Error
+STI_MessageboxNoNameForItem=Container name can''t be empty
+STI_EmptyFields=Por favor, seleccione costuras Origen y Destino
+STI_EmptySrcFields=Please select Stitch Source
+STI_EmptyTgtFields=Please select Stitch Target
+STI_DuplicateContainerName=Stitching container with such name already exists! Please specify another container name.
+STI_ContainerNameEmpty=Stitching Container name is empty!
+STI_ContainerWasModified=Stitching Container was modified. Save?
+STI_ItemLockError=No se puede obtener el bloqueo del ítem.
+STI_ItemInUseLockError=Error al intentar bloquear: ítem está en uso!
+STI_IncorrectPatternSyntaxError=Name contains unsupported symbols. Please specify another container name.
+STI_GetContainersError=Error while retrieving stitching containers by name.
+STI_GetItemStructuresError=Error al recuperar las estructuras de ítems.
+STI_ErrorRetrievingItems=Error recuperando el ítem con nombre {0}, ID {1}
+STI_ErrorRetrievingItemTextAttributes=Error retrieving text attributes for item type
+STI_ErrorRetrievingItemsOfType=Error rrecuperando ítem(s) de tipo: {0}
+STI_SelectParentStructure =No hay ítems de este tipo: {0}.
+STI_ContainerUpdateFailed = Container {0} update failed
+STI_ContainerLoadFailed = Container {0} load failed
+STI_ContainerCreateFailed = Container {0} create failed
+STI_ContainerIsDamaged = Source or target of container {0} is invalid. Please delete container.
+STI_ContainerFromOrToMissing = Source or target of container {0} are invalid or missing. Defined stitches are invalid.  Please delete container.
+STI_ContainerFromOrToAndStitchesMissing = Source or target of container {0} is missing. Please delete container.
+STI_SelectBothStitchSides =Seleccione ambas costuras: origen y el destino
+STI_CantExecuteStitchingContainer = Error executing Stitching Container {0}
+STI_CantGetContextProvider=No se puede recuperar proveedor de contexto del área de trabajo para:
+STI_StitchingContainerExecuted = Stitching Container {0} executed
+STI_StitchesCreated =\n Resultado de la costura
+STI_StitchesCreatedManual =: {0} Costuras manuales
+STI_StitchesCreatedAuto =,{0} costuras avanzadas
+STI_NoStitchesCreated =\n Resultado de la costura: 0 costuras manuales, 0 costuras avanzadas
+STI_StitchesOmmitedSourceDeleted =\n {0} costuras omitidas (item origen borrado)
+STI_StitchesOmmitedTargetDeleted =\n {0} costuras omitidas (item destino borrado)
+STI_StitchesOmmitedBothDeleted =\n {0} costuras omitidas (origen y destino borrados)
+STI_NoStitchesMatchedByRule =No hay costuras que coincidan por regla
+STI_NoTemplatesAssignedToContainer =No hay plantillas de costura asignado, por favor agregue al menos una
+STI_ErrorRetrievingContextForItem =Falló al recuperar el contexto para el ítem: {0}
+STI_EditorTabManagerInitFailed =Error al inicializar EditorTabmanager. No se puede cambiar a la pestaña costuras
+
+STIItemHasNoChildrenSOURCE=El ítem de origen {0} no tiene hijos
+STIItemHasNoChildrenTARGET=El ítem de destino {0} no tiene hijos
+
+# Delete item window
+STI_RemoveStitchingContainer.DeleteTitle=Delete Stitching Container?
+STI_RemoveStitchingContainer.DeleteMessage=You are about to delete stitching container {0}. Proceed?
+STI_StitchingContainerDeletionError=Can''t delete Stitching Container!
+STI_RemoveStitches.DeleteTitle=Eliminar Costuras?
+STI_RemoveStitches.DeleteMessage=Estás a punto de eliminar la costura(s) {0}. ¿Desea continuar?
+STI_RemoveStitches.NoStitchesToDelete=No hay costuras seleccionadas!
+STI_ErrorMessageboxTitle=Error
+STI_MessageboxCantRetrieveItem=No se puede recuperar el ítem.
+STI_MessageboxCantRetrieveItemWithName=No se puede recuperar el ítem {0}.
+STI_MessageboxCantRetrieveUser=No se puede recuperar el nombre de usuario actual del espacio de trabajo.
+STI_MessageboxCantExport=Error al exportar las definiciones de costuras
+
+STI_CreateStitchingContainer.CreateTitle=New Container: Stitching Container
+
+# Zul labels
+detailsTab.StiContainer=Stitching container:
+detailsTab.Status=Estado:
+detailsTab.modifier=Modifier:
+detailsTab.modificationTime=Modification time:
+detailsTab.executor=Executor:
+detailsTab.executionTime=Execution time:
+generalTab.Context=Contexto
+generalTab.Element=Elemento
+generalTab.Definition=Definición:
+generalTab.StitchSource=Costura Origen:
+generalTab.StitchTarget=Costura Destino:
+generalTab.Type=Tipo
+stitchTab.Source=Origen
+stitchTab.Target=Destino
+stitchTab.NoData=Sin datos
+stitchTab.Rule=Instrucción
+stitchTab.Add=Agregar
+stitchTab.Remove=Eliminar
+stitchTab.DefStitches=Costuras definidas
+stitchTab.NoStitches=No hay costuras
+stitchTab.C=C
+stitchTab.SourceStruct=Source Structure
+stitchTab.SourceElement=Source Element
+stitchTab.TargetStruct=Target Structure
+stitchTab.TargetElement=Target Element
+rulesTab.previewStitches=Vista previa de Costuras
+rulesTab.preview=Vista previa
+rulesTab.NoStitches=No hay costuras
+rulesTab.add=Agregar
+rulesTab.add.tip=Add Stitching Template
+rulesTab.edit.tip=Editar
+rulesTab.delete.tip=Eliminar
+rulesTab.stitchingTemplates=Plantillas de Costura Aplicadas
+rulesTab.NoTemplates=No hay plantillas de Costuras Asignadas
+rulesTab.stitchingTemplateTitle =Plantilla de costura
+rulesTab.stitchingTemplateDescription =Descripción
+realStitchesTab.stitches=Stored stitches
+realStitchesTab.NoStitches=No hay costuras
+realStitchesTab.isManual=Manual Stitch
+
+containerSearch.Name=Nombre
+stitchPopup.Delete=Borrar
+
+wizard.Ok=Aceptar
+wizard.Cancel=Cancelar
+
+STI_Source=Origen
+STI_Target=Destino
+
+STI_ErrorRetrievingItemById=Error recuperando ítem {0}
+STI_StitchingTemplates =Plantillas de costura
+STI_AdjustParametersWindowTitle=Adjust Parameters of Stitching Rule to Apply to Container
+
+#Rule Based Stitching
+STI_ErrorGeneratingStitchesPreview = Error generating stitches preview for container {0}
+STI_ErrorGettingTextAttributes = Error getting text attributes for source/target of the container {0}
+STI_ErrorParsingTemplate =Error de análisis en la Plantilla de Costura {0}, las instrucciones están malformadas
+STI_ErrorParsingTemplateEmptyInstructions =Error de análisis en la Plantilla de Costura {0}, el campo de instrucciones está vacío
+STI_ErrorUpdatingTemplate =Error actualizanco plantilla de costura {0}
+STI_ErrorGettingStitchingTemplatesList =Error recuperando la lista de plantillas costura
+
+STI_ErrorGettingStitchingContainersList = Error getting stitching containers list
+
+#Templates
+STI_TemplateAdvancedTabValidateButton =Validar
+
+#Import
+STI_InvalidImportFile =Archivo JSON de importación no es un válido
+
+#Combo
+sti.combo.tooltip=The number of items shown in combo is configured by preferences "Query limit" setting, which is currently equal to {0}
+
+#List
+sti.list.tooltip.empty=Item no longer exists
+
+sti.delimIn=in
+sti.delimNavigateTo=navigate to

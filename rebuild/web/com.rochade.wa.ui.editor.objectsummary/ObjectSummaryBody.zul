@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="Object Body" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<!-- 
+	@author ST 2018-12-12, created
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+<div id="contentToPDf" sclass="asg-itemview-borderlayout" vflex="1">
+	<div sclass="asg-itemview-north">
+		<div id="divheader"/>
+		<div id="divobjinfo" width="100%" style="min-height: 15px;"/>
+		<div id="editorMenu" sclass="asg-menubar-right-aligned"/>
+		<div style="clear:both" /> 					
+	</div>
+	<div style="background: transparent; border: 0px; padding: 5px 5px 5px 5px; clear:both; overflow:auto;" vflex="1">
+		<div
+			use="com.rochade.wa.ui.editor.objectsummary.ObjectSummaryBodyComposer"
+			style="min-width: 850px; background: #FFFFFF; min-height: 100%;">
+			<div id="divmain" align="center" style="background: #FFFFFF; padding: 5px;">
+				<div id="divbody" sclass="asg-page-shadow" align="left"/>
+			</div>
+		</div>
+	</div>
+</div>

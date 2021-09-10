@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page id="itemmenudwr" title="DWR Item Menu" contentType="text/html;charset=UTF-8"?>
+<!-- 
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 	
+-->
+<selviewmenu>
+	<div hflex="1">
+		<div sclass="asg-menubar-right-aligned">
+			<special actionId="DWR_UpfrontMask" visibleCondition="$CAPABILITIES='view.isDWRDiagram OR view.isBLorALDiagram'"/>
+			<menubar style="background:none; border:none">
+				<menu actionId="WTB_Switch2View" visibleCondition="$CAPABILITIES='view.isNotTable AND view.noSpecialRender'">
+					<menupopup>
+						<menuitem actionId="WTB_Switch2Tree"    visibleCondition="WTB_Switch2Tree.visible" enableCondition="WTB_Switch2Tree.enabled"/>
+						<menuitem actionId="WTB_Switch2Diagram" visibleCondition="WTB_Switch2Diagram.visible" enableCondition="WTB_Switch2Diagram.enabled"/>
+						<menuitem actionId="DWR_Switch2Diagram" visibleCondition="DWR_Switch2Diagram.visible" enableCondition="DWR_Switch2Diagram.enabled"/>
+						<menuitem actionId="DWR_Switch2DQADiagram" visibleCondition="DWR_Switch2DQADiagram.visible" enableCondition="DWR_Switch2DQADiagram.enabled"/>
+						<menuitem actionId="DWR_Switch2GDPDiagram" visibleCondition="DWR_Switch2GDPDiagram.visible" enableCondition="DWR_Switch2GDPDiagram.enabled"/>
+						<menuitem actionId="DWR_Switch2ICODiagram" visibleCondition="DWR_Switch2ICODiagram.visible" enableCondition="DWR_Switch2ICODiagram.enabled"/>
+						<menuitem actionId="DWR_Switch2Compare" visibleCondition="DWR_Switch2Compare.visible" enableCondition="DWR_Switch2Compare.enabled"/>
+					</menupopup>
+				</menu>
+                
+                <menu actionId="DWR_Diagram_Options" visibleCondition="">
+                    <menupopup>
+                        <menuitem actionId="DWR_ShowHighlightedOption" use="com.rochade.dwr.diagram.ShowHighlightedOption" visibleCondition="DWR_ShowHighlightedOption.visible" enableCondition="DWR_ShowHighlightedOption.enabled"/>
+                        <menuitem actionId="DWR_ShowRoutesOption" use="com.rochade.dwr.diagram.ShowRoutesOption" visibleCondition="DWR_ShowRoutesOption.visible" enableCondition="DWR_ShowRoutesOption.enabled"/>
+                        <menuseparator />
+                        <menuitem actionId="DWR_ShowLookupsBGOption"   use="com.rochade.dwr.diagram.ShowLookupsOption" mode="bg" visibleCondition="DWR_ShowLookupsBGOption.visible" enableCondition="DWR_ShowLookupsBGOption.enabled"/>
+                        <menuitem actionId="DWR_ShowLookupsFGOption"   use="com.rochade.dwr.diagram.ShowLookupsOption" mode="fg" visibleCondition="DWR_ShowLookupsFGOption.visible" enableCondition="DWR_ShowLookupsFGOption.enabled"/>
+                        <menuseparator />
+                        <menuitem actionId="DWR_ShowMapDetailsMapsOption"  use="com.rochade.dwr.diagram.ShowMapDetailsOption" value="maps" visibleCondition="${wtb:check('DWR_ShowMapDetailsMapsOption.visible')}" />
+                        <menuseparator />
+                        <menuitem actionId="DWR_ShowMapDetailsTfmOption"  use="com.rochade.dwr.diagram.ShowMapDetailsOption" value="tfm"  visibleCondition="${wtb:check('DWR_ShowMapDetailsTfmOption.visible')}" />
+                        <menuitem actionId="DWR_ShowMapDetailsTfmiOption" use="com.rochade.dwr.diagram.ShowMapDetailsOption" value="tfmi" visibleCondition="${wtb:check('DWR_ShowMapDetailsTfmiOption.visible')}" />
+                        <menuseparator />
+                        <menuitem actionId="DWR_ShowMapDetailsStiOption"  use="com.rochade.dwr.diagram.ShowMapDetailsOption" value="sti" visibleCondition="${wtb:check('DWR_ShowMapDetailsStiOption.visible')}" />
+                    </menupopup>
+                </menu>
+
+				<menu actionId="WTB_Editor_Context" visibleCondition="$CAPABILITIES='view.isTable OR view.isTree'">
+					<menupopup>
+						<menu actionId="DWR_BApplDependency">
+								<menupopup>
+									<menuitem actionId="DWR_APPLICATION_ITEMS-Diagram" enableCondition="selection.single" />
+									<menuitem actionId="DWR_LF_APPLICATION-Diagram" enableCondition="selection.single" />
+									<menuitem actionId="DWR_LB_APPLICATION-Diagram" enableCondition="selection.single" />
+									<menuitem actionId="DWR_LE_APPLICATION-Diagram" enableCondition="selection.single" />
+								</menupopup>
+						</menu>
+						<menu actionId="DWR_EnvironmentReports">
+							<menupopup>
+								<menuitem actionId="DWR_EnvRef" enableCondition="selection.single.multi" />
+								<menuitem actionId="DWR_EnvRefAndUsages" enableCondition="selection.single.multi" />
+								<menuitem actionId="DWR_EnvUsages" enableCondition="selection.single.multi" />
+							</menupopup>
+						</menu>
+					</menupopup>
+				</menu>
+
+				<menu actionId="DWR_Organize">
+					<menupopup>
+						<menuitem actionId="WTB_TreeExpand" visibleCondition="view.isTree"/>
+						<menuitem actionId="WTB_TreeCollapse" visibleCondition="view.isTree"/>
+						<menuitem actionId="WTB_SelectAll"/>
+						<menuitem actionId="WTB_DeselectAll"/>
+						<menuseparator />
+						<menuitem actionId="WTB_OpenItem" enableCondition="$CAPABILITIES='selection.single AND isNotPlaceHolderItem'" />
+						<menuitem actionId="WTB_NewItem" enableCondition="selection.none" visibleCondition="createEditableRootTypeInTable"/>
+						<menuitem actionId="WTB_DeleteItem" enableCondition="$CAPABILITIES='selection.single AND isNotPlaceHolderItem'" />
+					</menupopup>
+				</menu>
+				<menuitem actionId="WTB_ShowColumns" xmlns:w="client" w:onClick="getColumnWidths(this)" visibleCondition="view.isNotDiagram"/>
+				<menuitem actionId="WTB_RefreshNow"/>
+				<menu actionId="WTB_Editor_Share" visibleCondition="Editor.isPublishButtonEnabled">
+					<menupopup>
+						<menuitem actionId="WTB_SendUrl"/>
+						<menuitem actionId="WTB_AddFavorites" visibleCondition="WTB_AddFavorites.visible"/>
+						<menuitem actionId="WTB_CommonExport" visibleCondition="view.isTable"/>							
+					<!-- 	<menuitem actionId="WTB_FormatPDF" visibleCondition="Export.FormatPDF"/>			
+						<menuitem actionId="WTB_FormatHTM" visibleCondition="Export.FormatHTM"/>
+						<menuitem actionId="WTB_FormatXLS" visibleCondition="Export.FormatXLS"/>
+						<menuitem actionId="WTB_ExportXLSX" visibleCondition="Export.ExportXLSX"/> -->
+						<menuitem actionId="WTB_FormatPDFSummary" visibleCondition="Export.FormatPDFSummary"/>			
+						<menuitem actionId="WTB_Diagram_Export" visibleCondition="Export.Diagram"/>
+						<menuitem actionId="WTB_ResultSet_Export_XLS" visibleCondition="$CAPABILITIES='Export.ResultSetXLS AND view.isNotBLorALDiagram'"/>
+						<menuitem actionId="WTB_ChartDynamic" visibleCondition="$CAPABILITIES='Export.Chart AND view.isNotBLorALDiagram'"/>
+					</menupopup>
+				</menu>
+			</menubar>
+		</div>
+		
+		<div sclass="asg-menubar-left-aligned">
+			    <special actionId="WTB_SelectByName" visibleCondition="view.isDiagram"/>
+				<special actionId="WTB_Filter"       visibleCondition="view.isTable"/>
+				<special actionId="WTB_Zoom"         visibleCondition="WTB_Zoom.visible"/>
+		</div>
+		<div sclass="clearfix" />
+		
+		<separator height="3px"/>
+		<div id="secondLine" sclass="asg-viewmenu-secondline" visible="${wtb:check('viewmenu.secondline')}">
+			<div id="secondLineEntries" sclass="asg-menubar-left-aligned">
+	    		<special actionId="WTB_SwitchTLLevel" />
+	    		<special actionId="WTB_SwitchTLTfmLevel" visibleCondition="tlProvider.isActive"/>
+<!-- 	    		<special actionId="WTB_SwitchContextGroup" /> -->
+				<special actionId="WTB_MPathMask" visibleCondition="tlProvider.isNotActive" />
+				<special actionId="DWR_TransformationSystemDepth" />
+				<special actionId="WTB_MPathDepth" visibleCondition="Diagram.showDepth" />
+<!-- 				<special actionId="DWR_TransformationLevel" visibleCondition="view.isDiagram"/> -->
+<!-- 	    		<special actionId="DWR_ShowSelected" visibleCondition="DWR_ShowSelected.visible"/> -->
+	    		<special actionId="DWR_SelectByQuery" visibleCondition="DWR_SelectByQuery.visible"/>
+				<special actionId="DWR_Endpoint" visibleCondition="view.isDWRDiagram"/>
+			</div>
+			<div sclass="clearfix" />
+		</div>
+	</div>
+</selviewmenu>

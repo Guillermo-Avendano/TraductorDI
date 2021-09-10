@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="MG View" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<!--
+	@author  HC 12/11/2011, created
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+-->
+<div use="com.rochade.mg.ui.view.HistoryObjectView"
+	sclass="asg-tab-content-div">
+	<grid 
+		style="border: 0px; padding: 10px; background: #FFFFFF;" >
+	<columns style="background: transparent">
+		<column width="100%" />
+	</columns>
+	<rows style="background: transparent; ">
+		<row valign="top" align="left"
+			style="background: transparent; border: 0px; padding: 5px 5px 20px 5px">
+			<grid style="padding: 0px;" >
+				<columns>
+					<column hflex="1" />
+					<column hflex="4" />
+				</columns>
+				<rows id="topGrid" style="background: transparent; ">
+					<row valign="middle" style="padding: 5px">
+						<label
+							value="${wtb:l('rim.attr.RBG/CHANGE-COMMENT')}:"
+							sclass="asg-attribute-label-bold" />
+						<div
+							use="com.rochade.mg.ui.view.HistoryCommentTextPropertyView"
+							attributeNames="RBG/CHANGE-COMMENT" id="RBG_CHANGE_COMMENT" />
+					</row>
+
+					<row valign="middle" style="padding: 5px">
+						<label
+							value="${wtb:l('rim.attr.RBG/MODIFIER')}:"
+							sclass="asg-attribute-label-bold" />
+						<div
+							use="com.rochade.mg.ui.view.HistoryUserTextPropertyView"
+							attributeNames="RBG/MODIFIER" id="RBG_MODIFIER" />
+					</row>
+
+					<row valign="middle" style="padding: 5px">
+						<label
+							value="${wtb:l('rim.attr.RBG/MODIFICATION-DATE')}:"
+							sclass="asg-attribute-label-bold" />
+						<div
+							use="com.rochade.wa.ui.view.TextPropertyView"
+							attributeNames="RBG/MODIFICATION-DATE" id="RBG_MODIFICATION_DATE"
+							format="date" />
+					</row>
+
+					
+				</rows>
+			</grid>
+			</row>
+			<row valign="top" align="left"
+						style="border: 0px; background: transparent; padding-top: 5px; padding-bottom: 0px">
+						<label
+							value="${wtb:l('DialogHistoryRecord.attributes')}"
+							sclass="asg-attribute-label-bold" />
+			</row>
+			<row>
+			<separator width="100%" height="1px"
+					sclass="asg-itemview-north-separator" />
+			</row>		
+			<row valign="top" align="left"
+				style="border: 0px; background: transparent;">			
+						<div
+							use="com.rochade.mg.ui.view.HistoryAttributeChangePropertyView"
+							id="HistoryAttributeChangePropertyView" />
+					</row>
+			</rows>
+		</grid>
+</div>

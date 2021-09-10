@@ -1,0 +1,74 @@
+﻿# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#------------------------------ Report Definition (MG) ------------------------------
+### Icons: all images should be inside of dir /com.rochade.mg.report/ + img/, see plugin.xml
+
+#### ------------------- ONLY report menus and reports ---------------
+InventoryBG.subtitle=Gobierno de Datos
+InventoryBG.lbl=Inventory (Data Governance)
+InventoryBG.tip=Inventory report for Data Governance
+
+DG_RBG.lbl=Glosario
+DG_RBG.tip=Reportes del Glosario
+
+DG_RBG_RoleSum.lbl=Resumen del Rol
+DG_RBG_RoleSum.tip=Reporte resumen del Rol
+
+DG_RBG_TermPhysicSum.lbl=Resumen del Uso Físico del Término
+DG_RBG_TermPhysicSum.tip=Reporte del resumen del Uso Físico del Término
+
+DG_RBG_TermSummary.lbl=Resumen de Términos
+DG_RBG_TermSummary.tip=Reporte del resumen de Términos
+
+DG_RBG_TermDuplComp.lbl=Comparación de Términos Duplicados
+DG_RBG_TermDuplComp.tip=Reporte de Comparación de Términos Duplicados
+
+DG_RBG_TermSummaryDetail.lbl=Detalle del Resumen de Términos
+DG_RBG_TermSummaryDetail.tip=Reporte del detalle del Resumen de Términos
+
+DG_RBG_TermAudit.lbl=Auditar Término
+DG_RBG_TermAudit.tip=Reporte de Auditoria de Términos
+
+mgTUS.lbl=Utilización del equipo de Gobierno del Glosario
+mgTUS.tip=Reporte resumido de utilización del equipo de Gobierno del Glosario
+
+ImpactAnalysisOverviewBG.lbl=Análsis de Impacto - Global (Glosario)
+ImpactAnalysisOverviewBG.tip=Análsis de Impacto - Global - Reporte para Glosario de Negocios
+
+mgDG_Utilization.lbl=Utilización del Glosario
+mgDG_Utilization.tip=Reporte de utilización del Glosario
+
+mgDG_TermsWithLikes.lbl=Resumen "Me Gusta" de Glosarios
+mgDG_TermsWithLikes.tip=Reporte Resumen de "Me Gusta" de Glosarios
+
+mgDG_TermsWithLikes.lblTitle=Resumen "Me Gusta" de Glosarios
+mgDG_TermsWithLikes.lblGlossary=Glosario
+mgDG_TermsWithLikes.lblContext=Gobernado por
+mgDG_TermsWithLikes.lblType=Likes for
+mgDG_TermsWithLikes.lblName=Nombre
+mgDG_TermsWithLikes.lblCount=Número de "Me Gusta"
+mgDG_TermsWithLikes.lblTotalLikes=Número de "Me Gusta"
+mgDG_TermsWithLikes.lblTotalItems=Number of Business Items
+mgDG_TermsWithLikes.lblSum=Sum of Likes
+
+Report.noSeedInWs=Seed item does not exist in Production.
+
+#### ------------------- displays ---------------
+displmgDG_RoleSum_Title=Resumen del Rol
+displmgDG_TermPhysicSum_Title=Resumen del Uso Físico del Término
+displmgDG_TermSum_Glo_Title=Resumen de Términos por Glosario
+displmgDG_TermAudit_Title=Auditar Término
+displmgDG_TermSummaryDetail_Title=Detalle del Resumen de Términos
+displmgDGUtilizationTitle=Resumen de Utilización del Glosario
+displModifier=Modificador
+displModificationCount=Número de Modificaciones
+displModificationCountTotal=Número total de modificaciones
+displModificationComment=Razones de la Modificación
+
+mgDG_role.Author=Autor
+mgDG_role.Approver=Aprobador

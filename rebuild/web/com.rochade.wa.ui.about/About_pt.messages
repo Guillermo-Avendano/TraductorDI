@@ -1,0 +1,20 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+About.copyright=Copyright © 1983-$year ASG GmbH & Co. KG, subsidiária integral da ASG Technologies Group, Inc. \ nTodos os direitos reservados. Este programa está protegido pelos EUA e leis internacionais de direitos autorais.
+About.enter=Fecha janela (<Enter>, <Esc>
+About.releaseinfo=Informações de Versão
+About.version=Número da Versão
+About.value=Valor
+About.versionnotfound=[Não é possível obter o número da versão]
+About.wabuilddate=Data de Construção
+
+# no translation of library names
+
+About.close=Fechar
+About.download=Baixar Sobre

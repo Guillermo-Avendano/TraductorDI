@@ -1,0 +1,95 @@
+﻿#-------------------------------------------------------
+# Rochade Stitching - Message file
+# This is an UTF-8 endcoded file!
+#
+#  Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+STI_OpenContainer.lbl=Open
+STI_OpenContainer.tip=Opens Stitching Container
+STI_OpenContainer.img=/com.rochade.wa.action.ui/img/OA01-open.gif
+STI_Listings.lbl=Listings
+STI_Listings.tip=Listings
+STI_Listings.img=
+STI_Templates.lbl=Stitching Templates
+STI_Templates.tip=Stitching Templates
+STI_Templates.img=
+#
+STI_Containers.lbl=Stitching Containers
+STI_Containers.tip=Stitching Containers
+STI_Containers.img=
+#
+STI_DeleteContainer.lbl=Delete
+STI_DeleteContainer.tip=Deletes Stitching Container
+STI_DeleteContainer.img=/com.rochade.wa.action.ui/img/OA06-delete.gif
+STI_SubmitContainerMenu.lbl=Execute
+STI_SubmitContainerMenu.tip=Submits Stitching Container for processing
+STI_SubmitContainerMenu.img=/com.rochade.wa.action.ui/img/Actions-go-next-icon.png
+STI_SubmitContainerSidebar.lbl=Execute
+STI_SubmitContainerSidebar.tip=Submits Stitching Container for processing
+STI_SubmitContainerSidebar.img=/com.rochade.wa.action.ui/img/Actions-go-next-icon.png
+STI_NewStitchingContainerSidebar.lbl=New Container
+STI_NewStitchingContainerSidebar.tip=Create New Stitching Container in Root
+STI_NewStitchingContainerSidebar.img=/com.rochade.wa.action.ui/img/OA05-new.gif
+STI_CreateStitchingContainer.lbl=Create
+STI_CreateStitchingContainer.tip=Create New Container
+STI_CreateStitchingContainer.img=/com.rochade.wa.action.ui/img/OA05-new.gif
+STI_EditContainer.lbl=Edit
+STI_EditContainer.tip=Edit Stitching Container
+STI_EditContainer.img=/com.rochade.wa.action.ui/img/02_16x16_edit.png
+STI_Refresh.lbl=Refresh
+STI_Refresh.tip=Refresh Stitching Container
+STI_Refresh.img=/com.rochade.wa.action.ui/img/WTB_Refresh.png
+STI_SaveContainer.lbl=Save & Exit
+STI_SaveContainer.tip=Save Stitching Container
+STI_SaveContainer.img=/com.rochade.wa.action.ui/img/16x16_save.png
+STI_EditContainer_Exit.lbl=Exit
+STI_EditContainer_Exit.tip=Exit
+STI_EditContainer_Exit.img=/com.rochade.wa.action.ui/img/exit.gif
+STI_ExportJSON.lbl=Export Stitches to JSON
+STI_ExportJSON.tip=Export stitches and\or template instances to JSON
+STI_ExportJSON.img=
+STI_ImportJSON.lbl=Import Stitches from JSON
+STI_ImportJSON.tip=Import stitches and\or template instances from JSON
+STI_GetRedundantStitchesReport.img=
+STI_GetRedundantStitchesReport.lbl=Redundant Stitches Report
+STI_GetRedundantStitchesReport.tip=Redundant Stitches Report
+STI_ImportJSON.img=
+STI_ImportJSON.dialog.text=Please upload JSON file
+STI_ImportJSON.dialog.title=Stitches Import
+
+STI_EditTemplate.lbl=Edit
+STI_EditTemplate.tip=Edit Stitching Template
+STI_EditTemplate.img=/com.rochade.wa.action.ui/img/02_16x16_edit.png
+STI_SaveTemplate.lbl=Save & Exit
+STI_SaveTemplate.tip=Save Stitching Template
+STI_SaveTemplate.img=/com.rochade.wa.action.ui/img/16x16_save.png
+STI_EditTemplate_Exit.lbl=Exit
+STI_EditTemplate_Exit.tip=Exit
+STI_EditTemplate_Exit.img=/com.rochade.wa.action.ui/img/exit.gif
+
+#Context for targets and sources
+STI_Stitching.lbl=Stitching
+STI_Stitching.tip=Stitching
+STI_AddAsSource.lbl=Forward
+STI_AddAsSource.tip=Forward
+STI_AddAsTarget.lbl=Backward
+STI_AddAsTarget.tip=Backward
+
+# Labels for Stitching context action
+STI_ContextStitching.lbl=Stitching
+STI_ContextStitching.tip=Stitching
+STI_ContextStitching.img=~./com.rochade.wa.action.ui/img/OA11_1-itemEnv_select.gif
+STI_Forward.lbl=Forward
+STI_Forward.tip=Forward
+STI_Forward.img=~./com.rochade.wa.action.ui/img/OA11_3-itemEnv_ref.gif
+STI_Backward.lbl=Backward
+STI_Backward.tip=Backward
+STI_Backward.img=~./com.rochade.wa.action.ui/img/OA11_5-itemEnv_usage.gif
+STI_ResultSet_Export_CONTAINERS_XLS.tip=Export Container Data to Excel
+STI_ResultSet_Export_CONTAINERS_XLS.lbl=Export Container Data to Excel
+STI_ResultSet_Export_CONTAINERS_XLS.img=
+STI_ResultSet_Export_TEMPLATES_XLS.tip=Export Template Data to Excel
+STI_ResultSet_Export_TEMPLATES_XLS.lbl=Export Template Data to Excel
+STI_ResultSet_Export_TEMPLATES_XLS.img=
+

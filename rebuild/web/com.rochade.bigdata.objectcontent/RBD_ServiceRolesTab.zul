@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="DWR View" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<!-- 
+	@author  GC 10/10/2011, created
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+<div use="com.rochade.wa.ui.view.BaseObjectView" sclass="asg-tab-content-div">
+	<grid style="border: 0px; padding: 10px; background: #FFFFFF;">
+		<rows id="topGrid" style="background: transparent; ">
+			<row id="lRBD_HAS_ROLES" valign="top" align="left" style="border: 0px; background: transparent; padding-top: 10px">
+				<cell colspan="2">
+					<label value="${wtb:l('rim.attr.RBD_HAS-ROLES')}:" sclass="asg-attribute-label-bold" />
+				</cell>
+			</row>
+			<row valign="top" align="left" style="border: 0px; background: transparent; padding: 10px">
+				<cell colspan="2">
+					<div use="com.rochade.wa.ui.view.TableLinkPropertyView" attributeNames="RBD_HAS-ROLES"
+						id="RBD_HAS_ROLES" sclass="asg-linklist" viewMenu="DWR_FilterViewMenu"
+						relatedId="lRBD_HAS_ROLES" footerVisible="false"  tableShape="RBD_ServiceRolesView"/>
+				</cell>
+			</row>	
+		</rows>
+	</grid>
+</div>

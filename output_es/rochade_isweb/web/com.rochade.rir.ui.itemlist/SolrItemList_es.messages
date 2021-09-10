@@ -1,0 +1,36 @@
+﻿# Rochade Platform - Message file
+# This is an UTF-8 (with BOM) encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+# Language: English
+#-------------------------------------------------------
+
+#
+# package: com.rochade.rir.ui.itemlist
+#
+
+### Icons: all images should be inside of dir /com.rochade.rir.ui.itemlist/ + img/, see plugin.xml
+
+### END Icons
+
+SolrItemList.title=Lista de objetos
+SolrItemList.scope={0} en
+SolrItemList.footer=Ítems encontrados: {0}
+SolrItemList.noModelQuery=No puede mostrar el resultado, porque no hay ninguna consulta o modelo disponibles.
+SolrItemList.rowsNotDef=Error en el parámetro de filas búsqueda [{0}] o no está definido. Se utilizará uno predeterminado - [{1}]
+SolrItemList.limited=Number of items in this view is limited to {0}. Result is incomplete.
+
+# messages related to error/info
+
+SolrItemList.removeaction=Eliminar acción
+SolrItemList.idlocked=ítem está bloqueado en esta Subject Area.
+SolrItemList.locked=Todos los ítems seleccionados ya están bloqueados.
+SolrItemList.dellocked=La operación de eliminación se cancelará.
+SolrItemList.nsmovelocked=El ítem(s) no se puede mover a otro espacio de nombres.
+SolrItemList.somelocked=Algunos de los ítems seleccionados ya están bloqueados.
+SolrItemList.somelocked1=¿Le gustaría omitir estos ítems y continuar?
+SolrItemList.nscopyerr=Error al copiar el ítem al espacio de nombres {0}
+SolrItemList.nsmoveerr=Error al mover el ítem al espacio de nombres {0}
+SolrItemList.nonstargets=El ítem(s) seleccionado no puede moverse o copiarse a un espacio de nombres diferente.
+SolrItemList.execution.error=Se produjo un error durante la ejecución de consulta de búsqueda

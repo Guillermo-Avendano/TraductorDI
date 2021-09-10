@@ -1,0 +1,60 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+gdpChartPI.title=Personal Information
+gdpChartPI.glossary=Glossary:
+gdpChartPI.chart=Chart by:
+gdpChartPI.chartCategory=Category
+gdpChartPI.chartClassification=Classification
+gdpChartPI.chartClosureRule=Closure Rule
+gdpChartPI.NoCategeory=Without category
+gdpChartPI.NoClassification=Without classification
+gdpChartPI.NoClosureRule=Without closure rule
+gdpChartPI.PIbyCategeory=Personal Information with Category {0}
+gdpChartPI.PIbyCategeoryNo=Personal Information without Category
+gdpChartPI.PIbyClassification=Personal Information with Classification {0}
+gdpChartPI.PIbyClassificationNo=Personal Information without Classification
+gdpChartPI.PIbyClosureRule=Personal Information with Closure Rule {0}
+gdpChartPI.PIbyClosureRuleNo=Personal Information without Closure Rule
+gdpChartPI.foundIn=Found in:
+gdpChartPI.allSourceTypes=No Source Type Filter
+gdpChartPI.allSources=No Source Filter
+gdpChartPI.allGlossaries=All Glossaries
+gdpChartPI.locationLabelAllGlossaries=All Glossaries
+gdpChartPI.locationLabelGlossary=Glossary {0}
+gdpChartPI.locationLabelAllSourceTypes=all Source Types
+gdpChartPI.locationLabelAllSourcesOfType=all Sources of Type {0}
+gdpChartPI.locationLabelSourceTypeName={0} {1}
+gdpChartPI.drillDownLabel={0} for {1} found in {2}
+
+gdpChartInventory.title=Inventory Personal Information
+gdpChartInventory.glossary=Glossary:
+gdpChartInventory.allGlossaries=All glossaries
+gdpChartInventory.InventoryByGlossary={0} Inventory for Glossary {1}
+gdpChartInventory.InventoryAllGlossary={0} Inventory for All Glossaries
+
+#gdpChartAppStatus.title=Application Status
+#gdpChartAppStatus.filterBy=Filter by:
+#gdpChartAppStatus.filter=Filter:
+#gdpChartAppStatus.NoFilter=No filter
+
+gdpChartPIA.groupedBy.-NIL-=[Empty]
+gdpChartPIA.groupedBy.SendingDataOutsideEU.title=Privacy Impact Assessments by Sending Data Outside EU
+gdpChartPIA.groupedBy.SendingDataOutsideEU.scoped=Privacy Impact Assessments by Sending Data Outside EU for Glossary {0}
+gdpChartPIA.groupedBy.SendingDataOutsideEU.unscoped=Privacy Impact Assessments by Sending Data Outside EU for All Glossaries
+gdpChartPIA.groupedBy.UsingSensiblePI.title=Privacy Impact Assessments by Using Sensible PI
+gdpChartPIA.groupedBy.UsingSensiblePI.scoped=Privacy Impact Assessments by Using Sensible PI for Glossary {0}
+gdpChartPIA.groupedBy.UsingSensiblePI.unscoped=Privacy Impact Assessments by Using Sensible PI for All Glossaries
+gdpChartPIA.groupedBy.RiskSeverity.title=Privacy Impact Assessments by Risk Severity
+gdpChartPIA.groupedBy.RiskSeverity.scoped=Privacy Impact Assessments by Risk Severity for Glossary {0}
+gdpChartPIA.groupedBy.RiskSeverity.unscoped=Privacy Impact Assessments by Risk Severity for All Glossaries
+gdpChartPIA.WithIssue.title=Privacy Impact Assessments with Issue
+gdpChartPIA.WithIssue.scoped=Privacy Impact Assessments with Issue for Glossary {0}
+gdpChartPIA.WithIssue.unscoped=Privacy Impact Assessments with Issue for All Glossaries
+
+gdpChartMostCommonPI.title=Most Common Personal Data
+gdpChartMostCommonPI.noContentLabel=-

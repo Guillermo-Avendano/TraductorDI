@@ -1,0 +1,202 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 (with BOM) encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+# Error messages
+RIR.workspaceReq=Workspace is not specified.
+
+# for main Preferences tab
+PrefIndexSearch.title=Search 
+
+# for Index Search applications titles/ Solr cores
+search_rdb.title=Relational Databases
+search_mg.title=Business Glossary
+search_rbd.title=Big Data
+search_rm.title=Models
+search_rds.title=Data Structure
+search_rdi.title=Transformation
+search_rbi.title=Business Intelligence
+search_rs.title=Stewardship
+search_ref.title=Reference Data
+search_rdq.title=Data Quality Management
+search_bpa.title=Business Package
+search_sti.title=Stitching
+#
+# from package: com.rochade.rir.admin
+#
+general.title=General
+IndexSearchAdmin.error.prefLoad=Default index preferences are not found in file: {0}
+IndexSearchAdmin.error.appContextLoad=Application context is not defined or loaded for search component: 
+IndexSearchAdmin.error.appPropLoad=Index application property key {0} is not found in {1}
+IndexSearchAdmin.error.noIndexApplications=There is no application to index. Please check the field ''index.applications'' in configuration file ''applications_is.properties''.
+IndexSearchAdmin.error.noContextForIndexApplications=Among applications to index, no one has a valid context. Please check the definition of application contexts in configuration file ''applications_is.properties''.
+IndexSearchLoaderImpl.solrFieldIsNotFound=Index field with name: {0} for application code [{1}] is not found.
+IndexSearchLoaderImpl.error.loadFields=An error occurred while retrieving the index search field names defined for metaApp: {0}
+IndexSearchLoaderImpl.error.loadFieldsM=An error occurred while retrieving the index search field names defined for metaApps: {0}
+IndexSearchLoaderImpl.error.server.load=Index search engine was not started or not correctly configured for metaApp: 
+IndexSearchLoaderImpl.error.server.loadM=Index search engine was not started or not correctly configured for metaApps:
+IndexSearchLoaderImpl.error.workspace.load=An error occurred while loading the workspace
+error.unreachableSolrServer=Solr server cannot be reached: {0}
+error.invalidSolrServer=Invalid Solr server URL: {0}
+#
+# from class: InitialRIR
+#
+error.cannotLoadISMetaData=Cannot load metadata for Integrated Search
+#
+# from package: com.rochade.rir.actions
+#
+SwitchSearchLayoutAction.action.undef=Switch action is not defined with action ID: {0} for application code [{1}].
+#
+# from package: com.rochade.rir.preferences
+#
+IndexPreferences.defaultsLoaded=Reading preference.properties.
+IndexPreferences.globalLoaded=Search preferences for all users loaded.
+IndexPreferences.userLoaded=Search preferences loaded for user [{0}].
+IndexPreferences.basePrefsNotLoaded=Default search preferences ({0}) cannot be found.
+IndexPreferences.prefNotLoaded=Search preferences of {0} application were not loaded for user [{1}].
+IndexPreferences.prefNotFound={0} search preferences of {1} application were not found for user [{2}].
+IndexPreferences.emptyCommonPreferences=Common search preferences are empty (what should not be!).
+IndexPreferences.emptyLocalPreferences=Local search preferences for metaApp {0} are empty (what should not be!).
+IndexPreferences.prefEmptyOrNotDefined=Search preference {0} is empty or not defined.
+IndexPreferences.noOnePreferenceFound=Not one search preference found for metaApp {0}.
+IndexPreferences.userSaved=Search preferences {0} saved for user {1}.
+IndexPreferences.globalPrefSaved=Global search preferences saved for context [{0}].
+IndexPreferences.opening=Reading {0}.
+IndexPreferences.notfound=Resource {0} not found.
+IndexPreferences.ioerr=Error while reading {0}.
+IndexPreferences.error.readingPrefOrSetting=Error while reading the preference or setting named ''{0}''.
+IndexPreferenceStore.ioexload=IO Exception while loading search preferences.
+IndexPreferenceStore.appNotFound=Search application is not found
+IndexPreferenceStore.srapexsave=SRAP exception while saving search preferences.
+IndexPreferenceStore.noctrlarea=Search preferences cannot be loaded from Rochade because the control subject area is not available.
+IndexPreferenceStore.commonPreferencesNotFound=Some common search preference items cannot be found: {0}
+IndexPreferenceStore.userPreferencesNotFound=Some user search preference items cannot be found for user {0}: {1}
+
+#
+# from package: com.rochade.rir.srap.lang
+#
+ApplicationLanguage.defLangUndef=Default language is not defined in database {0}.
+ApplicationLanguage.ambiguousDefLang=There is more than one default language defined in database {0}.
+
+#
+# from package: com.rochade.rir.srap
+#
+SolrVisDataObjectFactory.workspace.error=Exception while getting item workspace for context {0}.
+Facet.mapping.notfound=Facet mapping name not found for field value {0}.
+SolrQuery.executionError=Index query execution failed {0}. Please check your search server connection and query parameters.
+SolrQuery.fieldParsingError=Cannot parse all the mandatory fields for the indexed document with the following field values: {0}
+SolrQuery.queryIsUndef=Index query is not defined in advanced mode
+SolrQuery.getFromError="From" details were not found for index search query: {0}
+SolrQuery.error.noColumnNameAmongSolrResults=The results coming from Solr do not have the ''name'' column:\n{0}
+SolrQuery.error.missingNameAmongSolrResults=Some results coming from Solr have no ''name'' (check how they are indexed in Solr): {0}
+SolrQuery.error.notExistingItemAmongSolrResults=Some results coming from Solr do not exist anymore (check how they are indexed in Solr): {0}
+SolrQuery.warning.removedResults=Some results have been removed because they were corrupted.
+SolrQuery.error.addingNonIndexedRochadeAttributesToDisplay=Cannot add non-indexed Rochade attributes to display on the main result page
+MultiSolrQuery.err.divergentsWorkspaces=Workspaces for given queries are divergent (not the same unique one)
+MultiSolrQuery.err.noMeaning=No meaning method
+error.retrievingCoreName=Error while retrieving Solr core name for query: {0}
+error.collectingData=Error while collecting data from Solr
+facets.error.collectingData=Error while collecting facet data from Solr
+MultiSolrQuery.error.collectingAttributesToDisplayOnMainResultPage=Error while collecting attributes to display on main result page
+info.buildingQueriesForMetaapps=building {0} queries for meta apps: {1}
+label.ID=ID
+label.regular=regular
+info.partialResult=partial result coming from query:\n{0}
+info.intermediateResultTime=intermediate execution time for range [{0},{1}]: {2}
+info.retrievingResultsInRange=retrieving items in range [{0},{1}]
+info.totalSolrExecutionTime=total Solr execution time: {0}
+error.disposingQuery=error while disposing query
+
+#
+# from package: com.rochade.rir.suggest
+#
+suggestions.warning.noHandlerDefined=There is no query suggestion handlers defined for Solr core {0}
+suggestions.info.noSuggestionFound=No suggestion can be found for Solr core {0} about query pattern {1}
+suggestions.warning.deactivatedDueToInvalidSearchPattern=Suggestions have been aborted due to invalid query pattern: {0}\nCause is: {1}
+suggestions.warning.deactivatedDueToInvalidSearchPattern.forMetaApp=Suggestions for Solr core {0} have been aborted due to invalid query pattern: {1}\nCause is: {2}
+suggestions.error.determiningWhichComponent=Cannot determine which Solr component to use for suggestions
+suggestions.error.readingExtraParamsForSuggester=Error while reading extra parameters for the suggester component
+suggestions.error.creatingQueryChain=Error while creating the query chain of suggestions for Solr core {0}
+error.terminalSuggestion=Terminal suggestion query. Another chained suggestion query can not be added. 
+
+#
+# from package: com.rochade.rir.search.query
+#
+SolrSearchQuery.serverNotFound=Search server name was not found in preferences.
+SolrSearchQuery.multipleServers=There is more than one search server defined in preferences.
+SolrSearchQuery.requestHandlerNotFound=Solr request handler preference cannot be found
+SolrSearchQuery.multipleRequstHandlers=There is more than one Solr request handler defined in preferences.
+SolrPingQuery.pingFailed=Search server is not started or could not be reached
+SolrQueryUtils.mappingNotFound=Mapping for the key {0} was not found
+SolrQueryUtils.paramUpdateWithLang=The parameter names list has not the same size as the parameter values list after updating the language suffix.
+SolrQueryUtils.error.convertingSolrFieldToRochadeAttribute=Error while converting Solr field name ''{0}'' to the corresponding Rochade item attribute name
+SolrQueryUtils.error.gettingAttributesMimtType=Error while getting the mime type of attributes
+SolrQueryMethods.defaultRowsNumberIsUsed=Default number of rows to be fetched by the search query: {0}
+warning.cannotManagePatternWithWildcards=Cannot manage properly a search pattern containing wildcard(s)
+warning.cannotManageSorting=Cannot manage properly the sorting instructions
+info.queryForArgs=query for attributes: {0}\n{1}
+label.resultFounds=results found
+querying.warning.preventedDueToInvalidSearchPattern=Query has been aborted due to invalid query pattern: {0}\nCause is: {1}
+
+#
+# from package: com.rochade.rir.search.util
+#
+SearchUtils.workspace.load.error=The workspace for {0} could not be found
+SearchUtils.defaultLanguage.label=(Default)
+SearchUtils.errorRunningQuery=Error running Solr query for core {0}
+SearchUtils.errorBuildingQuery=Error building Solr query for core {0}
+SearchUtils.errorBuildingMultiQuery=Error building Solr queries
+error.emptyQueries=Empty queries
+info.executingPollingQueries=executing {0} queries (only to retrieve 'numFound' - each query is limited to 0 result)
+info.docsFound={0} docs found for query: {1}
+info.timeExecutingPollingQueries=total time for executing {0} polling queries: {1}
+
+#
+# from package: com.rochade.rir.search.macros
+#
+AdvancedSearch.error.openingPane=Error while opening pane for advanced search {0}
+#
+# from package: com.rochade.rir.config
+#
+SearchParamManager.noLanguageDefined=Language not defined
+SearchParamManager.searchServerUnDefined=Please enter correct search server address
+SearchParamManager.componentTypeUnDefined=Undefined type of component
+SearchParamManager.qfFieldInvalid=The ''query field (QF)'' preference cannot be empty, cannot contain empty fields and must, at least, contain either the ''NAME'' or the ''DEFINITION'' field
+error.readingPreference=Error while reading preference ''{0}''
+validation.outOfRange=Out of range ({0}, {1})
+validation.aboveGlobalLimit=Must be lower than global limit value ({0})
+validation.belowPerQueryLimit=Must be bigger than the step limit value ({0})
+
+# SolrModel
+error.solrQueries.divergentLegacyMode=Some Solr queries have divergent state for the legacyMode flag. The legacyMode is supposed to be the same among all the current Solr queries.
+
+# SolrItemListHtmlComposer
+absPath.invalidFormat=The absPath stored in Solr for item ''{0}'' is invalid. It is probably using the old format. Please index again all data. 
+
+# IndexSearchBaseMode
+error.gettingCurrentUserName=Cannot get the name of the current user
+error.buildingSearchQueries=Cannot build search queries
+
+# IndexSearchSuggestTextField
+error.cannotLoadSetting=Cannot load setting ''{0}''
+
+# Everywhere
+error.legacyMode.cannotDetermine=Cannot determine if using legacy mode
+error.getting.searchPattern=Cannot get the search pattern
+error.getting.searchMode=Cannot get the search mode
+error.getting.isFitAllTags=Cannot get the flag about how to search for tags
+error.getting.searchTags=Cannot get the tags to search for
+error.unimplemented=Unimplemented method
+
+# FacetComposer
+info.compositingTime=compositing time: {0}
+info.facettingTime=facetting update time: {0}
+
+# IndexSearcComposer
+error.autoSuggesting=Error while computing suggestions for pattern: {0}
+info.listLayoutSelected=list layout selected, so using simple search mode
+info.tableLayoutSelected=table layout selected, so using advanced search mode
+info.unknowLayoutSelected=layout not defined or unknown, so using simple search mode

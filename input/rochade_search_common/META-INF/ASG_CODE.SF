@@ -1,0 +1,774 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: RujbwRFrSj733eBih/4mCpaVUWHRq
+ LtbRiQKm4yP4Ak=
+SHA-256-Digest-Manifest: r6044MYNB47TpufSN/yEvlNbKaCq8XCMrlx1wcLz5Q0=
+Created-By: 1.7.0_65 (Oracle Corporation)
+
+Name: com/rochade/index/common/xml/util/XMLUtils.class
+SHA-256-Digest: 1sphNW5P7UZuL4mJGBtPIU2MX5w1oRRPGJd7aPfTVRo=
+
+Name: com/rochade/wa/common/preferences/SearchPreferencesHelper$1.clas
+ s
+SHA-256-Digest: lbSd3u7mWT3TgIbnRJ7DNZx+7wJK5Z+okcgqjDhFY3k=
+
+Name: com/rochade/wa/common/rochade/util/RochadeConnectionUtils$Rochad
+ eConnectionSetup.class
+SHA-256-Digest: Mf9/+fSCt2VWxSgjoNefMli4wwAQ3guNZa0FKUXWPu8=
+
+Name: com/rochade/wa/common/net/template_error.html
+SHA-256-Digest: /8OVbL3FLsyHDoOhTg9OTADmyDl8p07ipnGIUPsKL+s=
+
+Name: com/rochade/wa/common/collections/Pair$2.class
+SHA-256-Digest: wTwHcRwghQK0QhBKUTztioaORlhPL4GwOBB9Y8GBEaM=
+
+Name: com/rochade/wa/common/util/stream/TriConsumer.class
+SHA-256-Digest: CQZDjusjo+L3D/Y7fi6UC+6TM68ObbcEJEXkcbdYIXg=
+
+Name: com/rochade/wa/api/roc/IApplicationHandle.class
+SHA-256-Digest: 8AsJ9ENIT5CIBJz5FzbHeJq48ycCP7CS4/V4n4A/2Ik=
+
+Name: com/rochade/wa/common/solr/util/SolrExecuterWithRetries.class
+SHA-256-Digest: i3ZXvKy9d464wbX0xf5UmEYV4HgxERGakp/fHEXjNgI=
+
+Name: com/rochade/wa/common/rochade/tagging/MPath_TagMapping_from_TagP
+ ointers.xml
+SHA-256-Digest: mVi4Ox5VQWXNL9wmz81cyA3e8bPinfN1MCEYlphtOAQ=
+
+Name: com/rochade/wa/common/util/LocaleHelper.class
+SHA-256-Digest: rqotMup7+HqJMqBAeWPoc0M3imanrK6bDmi4tpKVprM=
+
+Name: com/rochade/wa/common/rochade/env/selector/SelectorResourceBundl
+ eHelper$1.class
+SHA-256-Digest: HRO99+CsXGKHiNpzFTWxvuCpdergkTOUpyjcADpXUjI=
+
+Name: com/rochade/wa/common/io/file/FileUtils$2.class
+SHA-256-Digest: n1CyoGFBIJmcUvc9Yhb6ic/KX8PqG1FleeYiMqDtS6M=
+
+Name: com/rochade/wa/common/preferences/SearchPreferencesHelper$Invali
+ dityCode.class
+SHA-256-Digest: dYjbLXvg+Qw8KwHME97Nq1DXoipjLoaNql6Kuy8b3qM=
+
+Name: com/rochade/wa/common/collections/Grid.class
+SHA-256-Digest: VzpYVRuuhm9uySRqYh/M6HtyAMCia6DrDZqBx4VH5aA=
+
+Name: com/rochade/wa/common/lang/LinkedPropertiesWithRestrainedSeparat
+ or$LineReader.class
+SHA-256-Digest: jpMN9iWX5i+H4Zd5Jnl45l+iq5fQ+9DFl71ObyzsdUU=
+
+Name: com/rochade/wa/common/io/file/FileUtils$1.class
+SHA-256-Digest: ASGsJOk/rUoqfHA1fkKBb0Ca7Vii8/HeQpDk4YULkeo=
+
+Name: com/rochade/wa/common/util/WildcardHelper.class
+SHA-256-Digest: fMFlA+qNvnSfc+yurBpfbL7+Q9qwyw3IzI+EeckUKRE=
+
+Name: com/rochade/wa/common/solr/util/SearchSolrHelper$IndexingMode.cl
+ ass
+SHA-256-Digest: /moLGoI5xGui4btf2EZ+iOv+0OGgInNhamuMqapoSLM=
+
+Name: com/rochade/wa/common/lang/LinkedProperties.class
+SHA-256-Digest: hT6VupE1jcqyKsOgVLCN5nqNmv4PJ+0B0w1Mg+aHcZs=
+
+Name: com/rochade/wa/common/io/streams/LineStream$LazyLineStream.class
+SHA-256-Digest: 6BmiPhegvXSGa4rjyj0CR/jysUXA1C4Yb7XRoaIMZQA=
+
+Name: com/rochade/wa/common/concurrent/locks/LockByResource.class
+SHA-256-Digest: JNrSwStB1u4nLYXlblVu0fGrDDRAxW1k/31IKSCCbgU=
+
+Name: com/rochade/wa/common/rochade/util/RochadeConnectionUtils$Rochad
+ eCallerId.class
+SHA-256-Digest: uBdFjONODesDG9UPblmDNFl4vD4YuxcYXerQFiE74TI=
+
+Name: com/rochade/wa/common/collections/DynamicStorageCollector$1.clas
+ s
+SHA-256-Digest: Rn8gHBYeh+sQ0UDGUS9O+qNdTAUalCVcHlFD5ryabQI=
+
+Name: com/rochade/wa/api/roc/DataConnectionUtils$IResourceContext.clas
+ s
+SHA-256-Digest: bcsxLuVwAzR20ENbWAtNYf3IbFHzCLHjTRXvYy7C7WU=
+
+Name: com/rochade/wa/common/util/SortingHelper$1.class
+SHA-256-Digest: sL7cjHphgRA3lZI65NXto2iyjwu1UCS37T1rGagsLUY=
+
+Name: com/rochade/wa/common/rochade/util/AuditLogKey.class
+SHA-256-Digest: UHbAx7YAytM74Yj4a8jBE+MSJNQ3cEptqLPi7gPyWH0=
+
+Name: com/rochade/wa/common/solr/util/SolrExecuterWithRetries$SolrClie
+ ntProvider.class
+SHA-256-Digest: 8KOn7jLyvLnugYG/arXBDH8POFbR8jraZkUFI6yEQSA=
+
+Name: com/rochade/wa/common/preferences/SearchPreferencesHelper$NLStru
+ ct.class
+SHA-256-Digest: BSO5sJFIktELeGiG1OgcQEX2nR/Ozq8hfh705JOLaHs=
+
+Name: com/rochade/wa/common/solr/util/SolrHelper$SolrRetrieveMode.clas
+ s
+SHA-256-Digest: /spiHAUgF7//G6QoE0MJ1zC9A21NE/nWcLDquwYWFec=
+
+Name: com/rochade/wa/common/solr/util/SolrHelper$SearchComponentNode.c
+ lass
+SHA-256-Digest: G8YaWdKQOTaKzUQ/LKDyxOrj70guH54gfaZjTx+siaI=
+
+Name: com/rochade/wa/common/lang/Mapper$1.class
+SHA-256-Digest: T6pioCwixMyDgLMDQFJ2m1eu8JAyGBVeqp05X/FBDEg=
+
+Name: com/rochade/wa/common/solr/util/SolrInsertUtils.class
+SHA-256-Digest: xCu29fJafcjZW+GVsS2pe6DZGLOv5wCkO89vEwUmc5M=
+
+Name: com/rochade/wa/common/solr/suggestions/SuggestionSolrHelper.clas
+ s
+SHA-256-Digest: pExuDDlEkGmUwgJu8ACxrNDk8lHGGXMdwHHPfUYee8E=
+
+Name: com/rochade/wa/common/net/WebHelper$HTTPOptions.class
+SHA-256-Digest: Ly7zhDQP2voMp+hpQ1d2nnvT+eqLpstQ0Z2gZB5M2n0=
+
+Name: com/rochade/wa/common/preferences/SearchPreferencesHelper$Langua
+ geMappingStruct.class
+SHA-256-Digest: aGjdHa1ERzvr2Lff5nmjuvK19Rv5PFx7yfppK7YAs/U=
+
+Name: com/rochade/wa/common/rochade/util/RochadeHelper$RochadeDateForm
+ at.class
+SHA-256-Digest: Om9CDibt+1bOEbWr99H2mpLjs+GhRuft2I1buLXko8U=
+
+Name: com/rochade/wa/common/rochade/util/PooledApplicationHelper.class
+SHA-256-Digest: AtPIwG459Whqpu4i2lI/uHcOV3PUMdM1j/HWX/bugqw=
+
+Name: com/rochade/wa/common/solr/util/SearchSolrHelper$LangFieldKey.cl
+ ass
+SHA-256-Digest: wnxBrxX6Erop0Lh38RwfrdLgB5/iaQGNyzWoXeGoxe4=
+
+Name: com/rochade/wa/common/solr/util/HighlightingQueryMethods.class
+SHA-256-Digest: +Ia3BhorzuNm/ujl8O6MVBuuA2TM65XfgiFb4rrZQfg=
+
+Name: com/rochade/wa/common/lang/PointerLikeReference.class
+SHA-256-Digest: lSF5bPxKYY0rTtq2aou3kgfSkRLqjr2cx6BgxVIHz3c=
+
+Name: com/rochade/wa/common/collections/Pair$6.class
+SHA-256-Digest: LMIg4s6jXZceFih+pxHmPP2+ov7y60aEkaxJuIPLn/0=
+
+Name: com/rochade/wa/common/rochade/tagging/MPath_TagPointers_from_Tag
+ gedItems.xml
+SHA-256-Digest: 5PYpifZ5W1beP8g9+c0dBiSTTtM+01RRqieJTmKl9vg=
+
+Name: com/rochade/wa/common/solr/patterns/SolrSearchPattern.class
+SHA-256-Digest: Cnml4BEXUl5OW+wPJdQKHd5LoiYS5h7uUVDy1RW8TTI=
+
+Name: com/rochade/wa/common/solr/SolrField.class
+SHA-256-Digest: gq0CTv2jKgUqSLvrQEVP7dlXhcTutgCqntglqrheSKU=
+
+Name: com/rochade/wa/common/lang/strings/StringLengthUtil.class
+SHA-256-Digest: 2IrugH9RDELN3XnaO/RJgzRMWCq/oxvtkPI1+TjpZKE=
+
+Name: com/rochade/wa/common/lang/Mapper$3.class
+SHA-256-Digest: M2l9p4lv+uh+uptzTPbKu1Gq48StxT4NekQFoZ7nS+o=
+
+Name: com/rochade/wa/common/util/MultiSourcePaging$Source.class
+SHA-256-Digest: eopwsTIJXRl+AT0OyWO3NqIoOAk6K63Kybg+SyAraqs=
+
+Name: com/rochade/wa/common/lang/Mapper$2.class
+SHA-256-Digest: 1Q7K/lsUONiy5/iPk1Dq4b16nzAAkXreIIFnytwTxjA=
+
+Name: com/rochade/wa/common/solr/util/SolrHelper$ISolrDocumentsProcess
+ or.class
+SHA-256-Digest: w+ebC8ohNQPxjSNVwYEp9zBSxcLm8bf3GkV21YlCZI8=
+
+Name: com/rochade/wa/common/preferences/SearchPreferencesHelper$Search
+ PreferencesPruner.class
+SHA-256-Digest: lgHf0lrPgeAoZ5F99mXKVRmDdXBiNYSTgL6DhXgYjWE=
+
+Name: com/rochade/wa/common/logging/Log4J2Helper.class
+SHA-256-Digest: YkQG5E2AP0pW8KC3Jz+VdfITewyObX3NLqHcFdBp8c0=
+
+Name: com/rochade/wa/common/rochade/util/PooledApplicationHandle.class
+SHA-256-Digest: KNVTv1f4tlv17dxDW6LCUt/LXf34uFNeUXPXQMVUPFA=
+
+Name: com/rochade/wa/common/io/file/FileUtils$DirectoryFilter.class
+SHA-256-Digest: u0EnpuSV0iBRajGCm+4ZKEzDZb4Ku5uRSAohUxs3umQ=
+
+Name: com/rochade/wa/common/logging/Telemetry.class
+SHA-256-Digest: hnR9gfJRtcJl1jSag+gIaJYI/XkbT83wFtT7NN+T4UY=
+
+Name: com/rochade/wa/common/nio/file/FileWatchServiceHelper.class
+SHA-256-Digest: bsTY6HHlLtOKyP/j5Ej1+HQfkdZhsgzqC7a9kYKSXAY=
+
+Name: com/rochade/wa/common/lang/timedates/TimeUtils.class
+SHA-256-Digest: EEnRQB9+9HtVEZchJxsV2FnocyRPvFbqJs6uPyWrMeU=
+
+Name: com/rochade/wa/common/env/CachingSettingContainer.class
+SHA-256-Digest: 6O6SxIcpS5xiN1j2rr1BnTEuG2Ihw6qAvij3Cva6nVA=
+
+Name: com/rochade/wa/api/roc/IRPropertiesProvider.class
+SHA-256-Digest: NQeOLvME3CD92A8fjJqotCA7mH96MOQo6XzCDYc4BsE=
+
+Name: com/rochade/index/common/xml/util/XMLUtils$XMLVersion.class
+SHA-256-Digest: VWdoqB5OZZlvQhxeuBpmA0/WcDnsmxCsZ0HG2JN3C5o=
+
+Name: com/rochade/wa/common/collections/DynamicStorageCollector.class
+SHA-256-Digest: oWuclrCudSSoEpR4JK7z3b1lpbrfZoRuH8XA6opT52M=
+
+Name: com/rochade/wa/common/io/B64.class
+SHA-256-Digest: VRF9v/Sa5SfP58wdv0dwqOReRAW+4c1+Jcs34PasxKI=
+
+Name: com/rochade/wa/common/solr/util/SolrHelper$5.class
+SHA-256-Digest: bxOgQbQFfkLow7H2317c54Yz6qUFdP9giuzYqdREgO0=
+
+Name: com/rochade/wa/common/lang/AssertionHelper.class
+SHA-256-Digest: bLnksl+QKGjvfo1oKGenWT58ZbwgsbKi5mRYkI+Phm0=
+
+Name: com/rochade/wa/common/util/RegexHelper$RegexTokenData.class
+SHA-256-Digest: Z0FasUJ+pLTRNppW0hManSY0zkdCqKVofqYZuYA0Jdw=
+
+Name: com/rochade/wa/common/rochade/tagging/TaggingHelper$TagMappingSt
+ ruct.class
+SHA-256-Digest: FFmvPd6Kqj8VijFmWxrzLM2j3z1etYZm9C+JwlhgFv0=
+
+Name: com/rochade/wa/common/solr/util/SolrHelper.class
+SHA-256-Digest: usrjkuQufvkf6OztXw7Lhfj7pyVLyPeoUnQYpd6MVXk=
+
+Name: com/rochade/wa/api/roc/IDatabaseHandle.class
+SHA-256-Digest: Xv17aJioEltV0xcXngSKNuPkClCAa+w8Fgu1QLzRn1E=
+
+Name: com/rochade/wa/common/collections/Pair$3.class
+SHA-256-Digest: EEL2Sckw4E90nqlhPrCyD3Rn3jK7TZwpFycpeXTGHg0=
+
+Name: com/rochade/wa/common/collections/StringCollectionSerializer.cla
+ ss
+SHA-256-Digest: syAoB070u/24CNwwZLsiMwVPDo9x/LRDfWA/2sI8e6o=
+
+Name: com/rochade/wa/common/collections/MapDBHelper$1.class
+SHA-256-Digest: 2IxQn/eRfGmitTmpIgcDJkHaZmfr05OHBBIrNiUZY9s=
+
+Name: com/rochade/wa/common/solr/util/SearchMode.class
+SHA-256-Digest: xPR93ulL4bqrX2xr5Kx1xSZuRjm7Wb3txAcvkVvuYl8=
+
+Name: com/rochade/wa/common/collections/DynamicStorageCollector$2.clas
+ s
+SHA-256-Digest: AkfpWd12l2ZpqT0p5GET5YYRcGQe8RxLJMVSOa9fYhY=
+
+Name: com/rochade/wa/common/concurrent/ConnectedWorkerStruct.class
+SHA-256-Digest: FtNwWXDpdAlFNAzXulD3En4rGtOoILZl9UmSJpsRMTU=
+
+Name: com/rochade/wa/common/rochade/util/PooledApplicationHelper$1.cla
+ ss
+SHA-256-Digest: coGVqMmCctm0cahQvIYFwDX4uiMQykT2uQ2AZWDQwhw=
+
+Name: com/rochade/wa/common/rochade/util/RocServicePropertyProviderImp
+ l.class
+SHA-256-Digest: 2qLT5ByCVLcKAv1UOc1sTjhUrJS0I148c8JZPAGdrFQ=
+
+Name: com/rochade/wa/common/lang/strings/StringConverter.class
+SHA-256-Digest: yertK2MZBVeKz2v/j7AyVsqlbPAC6G/y24UxaIZWT2M=
+
+Name: com/rochade/wa/common/rochade/util/TypeInheritanceHelper$RuleRep
+ orter.class
+SHA-256-Digest: YpuQQ7OKhB5gxaOnZmoaGM7nUYBgQ869rvtiFE9qrqc=
+
+Name: com/rochade/wa/common/solr/util/ISearchConstants.class
+SHA-256-Digest: amokj4Rtmvy1VVGj03M+yq/eGLCqPXlHjHlj5Yo/b6g=
+
+Name: com/rochade/wa/common/collections/ObjectCounter.class
+SHA-256-Digest: sOPFOSaqpo2WOwwtmo/76WGIKaw20vTc+RSBfzVmFkU=
+
+Name: com/rochade/wa/common/solr/suggestions/SolrSuggestersUpdateHelpe
+ r.class
+SHA-256-Digest: U0xsqJFOFIMq3Ye7FSVGTQ/9qfNQmy5sZbvp2fWXnd8=
+
+Name: com/rochade/wa/common/collections/Pair.class
+SHA-256-Digest: S17ZR5OeLPgXMLON1FxO7r9mkJs6l518OkYpg+xPK+s=
+
+Name: com/rochade/wa/common/L10n/SearchBundle.class
+SHA-256-Digest: 9Qjmf9N/QnROPT8CcQSJQv72wm8gci8JFUPeVBeIScM=
+
+Name: com/rochade/wa/common/solr/util/SearchSolrHelper.class
+SHA-256-Digest: AjJulekklvO+EuRvMRvDdaKXeL+mDeJxQEEkTeoHkJY=
+
+Name: com/rochade/wa/common/net/WebHelper$Protocol.class
+SHA-256-Digest: xvNRJOzfVC6WKn56oDgb5ZO7aUZSYjOpPOWShST5nxw=
+
+Name: com/rochade/wa/common/rochade/ApplicationStruct.class
+SHA-256-Digest: S5AqDffcbVm1MQQ6udqZy7GkkBGXqByC6AJcAzQIENI=
+
+Name: com/rochade/wa/common/rochade/util/NonPooledApplicationHelper.cl
+ ass
+SHA-256-Digest: VF7z8UXV7pGlt30uWV+A87D1pAH01vUXnu5HQwi7OJQ=
+
+Name: com/rochade/wa/common/solr/util/PropertiesSettingsContainer.clas
+ s
+SHA-256-Digest: oUwBJ+WC8CdwkepATMvluYwRzvWXnumCmU0ganwAkeY=
+
+Name: com/rochade/wa/common/solr/patterns/SolrSearchCombination$Combin
+ ationKind.class
+SHA-256-Digest: dFDwgep0XfJP6fBpq+JTYV00qrh2hxVUM45NdJ7OOJw=
+
+Name: com/rochade/wa/common/solr/patterns/SolrSearchCombination.class
+SHA-256-Digest: mjgrqZfeW/9lTbXu6kh34nKpf0DCKWDSKsDj7yskods=
+
+Name: com/rochade/wa/common/rochade/util/PooledApplicationHelper$AppMa
+ nagerKind.class
+SHA-256-Digest: TpKNYk5aMIpbhv2EwTDzs2kVY0XPGY/t59Z5/w4s9P4=
+
+Name: com/rochade/wa/common/collections/Pair$1.class
+SHA-256-Digest: CQ5iQBY/CGCQaGhETu7xI14rqqrvZYL0UrIsVyYeYZc=
+
+Name: com/rochade/wa/common/lang/Filter.class
+SHA-256-Digest: eC6SHub0qtg+EtZdlHzqnGXCKAvdZWZ0D4g4LMJnJ+0=
+
+Name: com/rochade/wa/common/rochade/util/RochadeCacheKey.class
+SHA-256-Digest: 8QtRcWACH8KH3DLsVY2KixE1/Gwc40fBKf1uI1Aeju4=
+
+Name: com/rochade/wa/common/rochade/util/RochadeConnectionUtils$1.clas
+ s
+SHA-256-Digest: ELhdF+BO9Re5gwbFswezGA3tUDeq0om9D4H79lG+ygM=
+
+Name: com/rochade/wa/common/rochade/util/RochadeHelper$MultiKey.class
+SHA-256-Digest: oSyBKGUJRhVLcMTqJYPUwqhGwWlXSeZv6AK+jix8Mgg=
+
+Name: com/rochade/wa/common/net/HostnameHelper.class
+SHA-256-Digest: E1PlZeg3R5iWn6A4co2p0omDCW5exreRexbyLStBklw=
+
+Name: com/rochade/wa/api/roc/IConnectionManager.class
+SHA-256-Digest: 5U4BNEQTEKT7jWbp6SwJB6aw4TQ0flL3HP9MksLKjQ0=
+
+Name: com/rochade/wa/common/preferences/SearchPreferencesHelper$Featur
+ eToDisplayStruct.class
+SHA-256-Digest: iYDCkbVJ8/2rh0/+/9v7ET+d7XQNU8xIapHtkP166sc=
+
+Name: com/rochade/wa/common/net/template_error_no_stacktrace.html
+SHA-256-Digest: WL2FDu8Cs3GOsIo3PLl+Y5Its0KW/jTwTOz8RCgpDZ0=
+
+Name: com/rochade/wa/common/io/ConsoleScannerBar.class
+SHA-256-Digest: 84VW1WuNajH6Q84Od8aclVqCBmU4RMEX1iYGWYeDs1k=
+
+Name: com/rochade/wa/common/util/Equalizer.class
+SHA-256-Digest: cl8HNZ775F6nv+fUbOqwdkSggWIgtbyf/bgWREhTdLY=
+
+Name: com/rochade/wa/common/solr/patterns/SolrSearchClause.class
+SHA-256-Digest: DnUFZqHtCiMUd7eEp05ArPi9TPOAVgJUixhBj6wihbI=
+
+Name: com/rochade/wa/common/io/file/RelativePath.class
+SHA-256-Digest: 9fWOoRwIbMOy/mRVbLS2H5Xfht21NXGHkdqzQiWxQb8=
+
+Name: com/rochade/wa/common/rochade/tagging/TaggingHelper.class
+SHA-256-Digest: bL+nQ9ic7LF1VVQkCDZfs33C3b/6LHGr/xsZMNXHs/Y=
+
+Name: com/rochade/wa/common/util/SortingHelper$DefaultSortingKeyConver
+ ter.class
+SHA-256-Digest: /DaS4kXVOBZl2tUc0wNDCO/shPhLOhzid0pCJqQDpzI=
+
+Name: com/rochade/wa/common/lang/Mapper.class
+SHA-256-Digest: zKlOWH0VmvKxnE66FW53XlhifJ7bh14SYm1lA28MEr0=
+
+Name: com/rochade/wa/common/lang/NumberHelper.class
+SHA-256-Digest: Pm7wdQNw01ZDIIyZ85H7UR5eTdKLGKN3zeYKnIFOm6s=
+
+Name: com/rochade/wa/common/rochade/util/RochadeHelper$LangAttribute.c
+ lass
+SHA-256-Digest: ak1302xDw07rIBVPPHNBq4/9seb6479329pLfrAB570=
+
+Name: com/rochade/wa/common/util/ResourceHelper.class
+SHA-256-Digest: KBEVF4iF+bzS7xy2b8TN8xxzMnMjLEwQ+Aw642S0fqo=
+
+Name: com/rochade/wa/common/exceptions/MalformedDataException.class
+SHA-256-Digest: +j+0R74KTiYoHuh5rIiJw1soxBZ6VMZk1vLXzAxUZHM=
+
+Name: com/rochade/wa/common/preferences/SearchPreferencesHelper$Indexi
+ ngMappingStruct.class
+SHA-256-Digest: gtxwhf+OBZdN2Ior7z+nASYzsPv2UOBtBgAUNJM14zo=
+
+Name: com/rochade/wa/common/rochade/util/AccountUtilityHelper.class
+SHA-256-Digest: Dsf3pHLbNoMx2ewoVcFs86Bl0sI5qIpYZGliDsbG2Fc=
+
+Name: com/rochade/wa/common/L10n/messages.properties
+SHA-256-Digest: QStuDd8HoaPs6cQnY4qeh98R4NyHj2Ud6YylSOpUNcI=
+
+Name: com/rochade/wa/common/util/stream/StreamHelper.class
+SHA-256-Digest: 1L2q+NXy8HFU2ni6FjxzJwzi79waqSVB4y8f/BNa7bU=
+
+Name: com/rochade/wa/common/exceptions/ErrorInfoStruct.class
+SHA-256-Digest: YrnN6lv3ZnsWcGKHsYKQRc8U3r1EfEPaisPMFKbF60k=
+
+Name: com/rochade/wa/common/rochade/util/ModelUtils.class
+SHA-256-Digest: xMMYlkL6eFsoczJC9hSTh+tzOnIaLtxAcU+xv7pKOo0=
+
+Name: com/rochade/wa/common/solr/util/SolrHelper$1.class
+SHA-256-Digest: JD6jdxM7wXI/nkMV9ZnOG5YQQxF3ICmb9oazBqnrn6w=
+
+Name: com/rochade/wa/common/rochade/visibilityFilter/VisibilityFilterH
+ elper.class
+SHA-256-Digest: lIWymbanj7QK8XSAQ9g63aQ8Ky8ocLde2SPrLxcuUmg=
+
+Name: com/rochade/wa/common/collections/MapDBHelper.class
+SHA-256-Digest: KT0vMyZFSLcTFD37bddS+V4pmex60NqrObKad+1pjn8=
+
+Name: com/rochade/wa/common/rochade/roles/RolesHelper.class
+SHA-256-Digest: DAdUr/gje+DF9aJxqy9xFfmir/EHhO+JPzzJ5v4nbAs=
+
+Name: com/rochade/wa/common/logging/LoggingHelper$CounterHandler.class
+SHA-256-Digest: szQu0MC2KdKDfrb7zwggyT5UlAp8jaqkH/pvvI9MMHQ=
+
+Name: com/rochade/wa/common/collections/Pair$5.class
+SHA-256-Digest: tHNvLKGZOcF2IEj59ng3RHxxH197K3xuk8iPTh57Hy4=
+
+Name: com/rochade/wa/common/util/HeapDumper.class
+SHA-256-Digest: I94nx5IjbMpLMn9hpznk8sSpD+DfNUw0xSVxWE/1aJo=
+
+Name: com/rochade/wa/common/lang/LinkedPropertiesWithRestrainedSeparat
+ or.class
+SHA-256-Digest: MKWyhzBMeFW2DN6eYaOd1kM4RL+M3nAdt9U2gxjtEjQ=
+
+Name: com/rochade/wa/common/concurrent/WorkerStruct.class
+SHA-256-Digest: MnjE/4hlUiWrG45Ehj1KIZhlN9puTkjrpHOV3XcFokw=
+
+Name: com/rochade/wa/common/logging/LoggingHelper$ConsoleHandlerOption
+ s.class
+SHA-256-Digest: 0jxNYy/l2DmlVUnu0IuKoZ0mq8ykgYFlik+jo95WJcI=
+
+Name: com/rochade/wa/common/solr/patterns/SolrSearchIdiom.class
+SHA-256-Digest: vEDPL7+A59ReWmHnfCyNdvDL1iN19w96kZ7kALj916o=
+
+Name: com/rochade/wa/common/net/WebHelper$HTTPResponse.class
+SHA-256-Digest: rxDRterRJMOSJKcYMCvNbHltJ87t/y9YBbZMMZWs3ns=
+
+Name: com/rochade/wa/common/solr/util/SolrSettingsHelper.class
+SHA-256-Digest: kwEIx9vKasKMS7ym96Y0DiSXHON6dcbP/iOe0enZUGM=
+
+Name: com/rochade/wa/common/util/RegexHelper$RegexTokenKind.class
+SHA-256-Digest: z4jY1P7sYyBym0BubagOucq3/p9n7VJghwLsRX6+rmA=
+
+Name: com/rochade/wa/common/collections/Either.class
+SHA-256-Digest: gILzjPaXMf9CX7RmQuYdE04+Xj+EWtQjwKJvk+QICpM=
+
+Name: com/rochade/wa/common/rochade/util/RochadeHelper$QueryModifiedIt
+ emState.class
+SHA-256-Digest: g+fptkiXhWmLgOKxCSTF18HhQY8DVI0eu96jEkVzoZg=
+
+Name: com/rochade/wa/common/io/grid/GridDump$EscapedLineReader.class
+SHA-256-Digest: oC/0FK/MFbmgc3MR22vYlxMannr5CVp09VB5CT+b/QU=
+
+Name: com/rochade/wa/api/roc/DataConnectionUtils$DefinitionKind.class
+SHA-256-Digest: HM4jaVKriC3yhIKY24WaRajzTM7iWFm/CQpvHYkScnY=
+
+Name: com/rochade/wa/common/solr/util/SearchSolrHelper$2.class
+SHA-256-Digest: KaHuJXGSJ2HtBL99mq00K39XAikTVx1/Ve5+DeK8mrc=
+
+Name: com/rochade/wa/common/exceptions/ExceptionHelper.class
+SHA-256-Digest: VYn9RUJcfENaZKDyZ1+gHlF1TCXEvf4t8YwyYqTT6v8=
+
+Name: com/rochade/wa/common/lang/LinkedProperties$1.class
+SHA-256-Digest: Dk5BBl+nsHTVYTTeZRP83L7Jn7qIbx/Ru0vkHz58ZME=
+
+Name: com/rochade/wa/common/env/Environment.class
+SHA-256-Digest: ddxUtsoZM7Kd++7nWm0aBufV22AO0zy4cf9V9HZASm4=
+
+Name: com/rochade/wa/common/rochade/roles/RolesHelper$ItemRoleStruct.c
+ lass
+SHA-256-Digest: goqXquCCZXzjlhtftOKNz6VB3IptjnMobOq7JiLmKBc=
+
+Name: com/rochade/wa/common/solr/util/ISolrQueryConstants.class
+SHA-256-Digest: y0wyoe0aZztGbcaBMxToMBZtHpJ42MZXEfvmwp03zw0=
+
+Name: com/rochade/wa/common/logging/Log4J2Helper$CounterAppender.class
+SHA-256-Digest: dVRMlwviQVdRoojDvWOx96HucONhFVEQ/ps7U/r9sWo=
+
+Name: com/rochade/wa/common/solr/util/SolrHelper$3.class
+SHA-256-Digest: 3IvDPxM18z96tvqpAMcdIiNBxXoW2PVN+nALlcZwkR4=
+
+Name: com/rochade/wa/common/io/grid/GridDump$GridParseErrorType.class
+SHA-256-Digest: Ts49qM/PrnxcQOkCLBcZEC5phvvsLmjln5tTakqMwo0=
+
+Name: com/rochade/wa/common/solr/suggestions/SuggestionSolrHelper$Sugg
+ estionComponents.class
+SHA-256-Digest: 5pU9zRTFPTH9D+HRRdr5fQbh5thPPbSrhwBA7H1RaZY=
+
+Name: com/rochade/wa/common/solr/util/SearchParamUtils.class
+SHA-256-Digest: aDl5ebenk5/rRXxmyBa787Bp2w5LNq0O5hEo9JcyhDw=
+
+Name: com/rochade/wa/common/logging/LoggingHelper.class
+SHA-256-Digest: JjeH5uuc5LVrlAkmsuZNjCZGJGuxiZzt2OOMoMfz1tY=
+
+Name: com/rochade/wa/common/env/ISettingsContainer.class
+SHA-256-Digest: rc9atqLu2nGQd5od4qe8NSr77XgFHyKsn9ZQK2j/IUY=
+
+Name: com/rochade/wa/common/util/SortingHelper$SortingKeyConverter.cla
+ ss
+SHA-256-Digest: Ki2kLRDP0NqH/9FLngdmnWFuc3EksYac+uZZW7xRIlc=
+
+Name: com/rochade/wa/common/util/stream/StoppableCheckedConsumer.class
+SHA-256-Digest: tIgSJGXAbcR48WdtGn/j+E8lUu5PVy3v8jyfEbSoB7g=
+
+Name: com/rochade/wa/common/net/WebHelper$HttpMethod.class
+SHA-256-Digest: 4My2rR3C5aYY3FoDQr30wF2Fpd9DNEXhR5aXygs3k5E=
+
+Name: com/rochade/wa/common/util/RandomHelper.class
+SHA-256-Digest: 2tE2h1U3u9ctTO1ijT4XORQIiRSJN+CgqW8+blYqdVE=
+
+Name: com/rochade/wa/common/rochade/util/RochadeConnectionUtils$AuthTy
+ pe.class
+SHA-256-Digest: 7TgtOGUJvSH+eU4a4cwNXcWofJ8dLSgmgxx0AnqY9PA=
+
+Name: com/rochade/wa/common/env/SettingsHelper.class
+SHA-256-Digest: mlQ/r/dySiVM5wtyu1JzEtVuV7vT69LAaA3iVow/ZJE=
+
+Name: com/rochade/wa/common/net/WebHelper.class
+SHA-256-Digest: CwEu5EjcJVKdZtotWiM4/zism/sngCm3ComXYh+MJfY=
+
+Name: com/rochade/wa/common/collections/CollectionUtils.class
+SHA-256-Digest: +upn+YFWv8laklU04NwsVfoqTP+AJq9cmXU4NGjYTgc=
+
+Name: com/rochade/wa/common/util/SortingHelper.class
+SHA-256-Digest: jwCccDbsH6na+0hHRqUqksELFZLPCZi3PPyIbek02T0=
+
+Name: com/rochade/wa/common/logging/DelayedLogger.class
+SHA-256-Digest: lk9Nhve/2O3V/N9Iihc3dLEKL7dqdSUMQZqZtDa53DQ=
+
+Name: com/rochade/wa/common/util/IUtilConstants.class
+SHA-256-Digest: i/jZlMdz3kUOKrj0S2NIRmla2L39MOJ0J5nHg2Jwxr4=
+
+Name: com/rochade/wa/common/logging/Log4J2Helper$ConsoleAppenderOption
+ s.class
+SHA-256-Digest: hwCQ0kItl08YOb2noIUbreeB9w+oLBkduO5O5scHhTw=
+
+Name: com/rochade/wa/common/solr/util/SolrHelper$2.class
+SHA-256-Digest: 4xxJvGKXAdvpirZrTA/VFQdymrKkxw8stZTs+mNSYiY=
+
+Name: com/rochade/wa/common/util/RegexHelper$RegexTokenizationResult.c
+ lass
+SHA-256-Digest: dvxcc6V1mdFy7tf1OlZRBVT0OlRYSN9iholsXWib4E0=
+
+Name: com/rochade/wa/common/rochade/tagging/MPath_TagMapping_from_Tagg
+ edItems.xml
+SHA-256-Digest: vx3ppw6b6uCMjKYn7X4cIqhG0XrrDBqOeI1WplCR9wg=
+
+Name: com/rochade/wa/common/solr/util/SearchSolrHelper$VirtualRochadeA
+ ttributes.class
+SHA-256-Digest: 7RarPNr+X34ILhN4Z+1jxR80CcNDCB1L2+t0WveRXKI=
+
+Name: com/rochade/wa/common/solr/util/SolrHelper$SearchComponentInfo.c
+ lass
+SHA-256-Digest: 9Pz08a5REFg3/LVyShRSOm3nFCIfgYD8JOG5GvCSXxA=
+
+Name: com/rochade/wa/common/rochade/util/ApplicationUtils.class
+SHA-256-Digest: 6G9a14QnLaMoIg9nP68NHG01To6uqr/MA0EHy7Hgu1c=
+
+Name: com/rochade/wa/common/solr/suggestions/SolrSuggestersUpdateHelpe
+ r$SuggesterCoreInfo.class
+SHA-256-Digest: 7pHCy5MrGcpH/kgFRwxA5qXrgavxRn4TxoyLk28S58A=
+
+Name: com/rochade/wa/common/rochade/util/RochadeHelper$PathSegment.cla
+ ss
+SHA-256-Digest: pH8UgISfpf2D/fdmPD9ivxwTttMNraKKxGxb6LQ5RbM=
+
+Name: com/rochade/wa/common/rochade/queries/MPathHelper.class
+SHA-256-Digest: ehTXNWz1mr3XeI5A4voquexNydHYXoWrnQd3FcalEFg=
+
+Name: com/rochade/wa/common/util/stream/StreamHelper$1.class
+SHA-256-Digest: TvQnc2/n0+BrK1SzKDfDPbTZYhlulkn4iIhHOsvhqHk=
+
+Name: com/rochade/wa/common/solr/SolrField$SolrFieldKind.class
+SHA-256-Digest: cUOcAEhOAxy/AttI2DBEeSkIKJLzysf1j5/+Bu+f9r8=
+
+Name: com/rochade/index/common/xml/util/XMLUtils$1.class
+SHA-256-Digest: X7vZhxkj07wj83FpwEX+XhP2UBJxA8DVb/CUve7qvxE=
+
+Name: com/rochade/wa/common/nio/file/FileWatchServiceHelper$FileWatchL
+ istener.class
+SHA-256-Digest: 4j75yIPYDlYqzSOr0lfWY/7LXI2w4DKj/HXHHtZ79cM=
+
+Name: com/rochade/wa/common/util/MultiSourcePaging$PagingStruct.class
+SHA-256-Digest: 1/5nxuL/I/Z9VQYQPvGSWDa6U66XoZZJAoWeW2Wm3b4=
+
+Name: com/rochade/wa/common/preferences/SearchPreferencesHelper.class
+SHA-256-Digest: bEwhUCMLQ+xDtlxgvo/WhqgJOlGFf8uEcm5ridx1D8Y=
+
+Name: com/rochade/wa/common/collections/Either$3.class
+SHA-256-Digest: 64Wx5LC2B0pI0FFdRLZ160mH61ZZluzCugF0jO99SRY=
+
+Name: com/rochade/wa/common/solr/util/SearchSolrHelper$SolrQueryArgume
+ nts.class
+SHA-256-Digest: 3b1ETJmdmt5H/87XZhwDzB9TWZ7IO8z0l21QvYUX5tQ=
+
+Name: com/rochade/wa/common/collections/ObjectCounter$1.class
+SHA-256-Digest: X5Qe0DATQ7rucRwagycaKRgau9xZP0QL607/3KmYgME=
+
+Name: com/rochade/wa/common/collections/Either$4.class
+SHA-256-Digest: DxiHPtJUvE2YSHZg4rjIHskrvQwzhvePqOLshWrwDAc=
+
+Name: com/rochade/wa/common/util/CollectionHelper.class
+SHA-256-Digest: 1fAdqsw023NE/WDTx8ElLY7OWbvMDIib4lbObYlOOKM=
+
+Name: com/rochade/wa/common/solr/util/SolrHelper$4.class
+SHA-256-Digest: 7hx1QCCwtRl8+xiXMzgBr45EpvfCL7fuTbfvZtNwwAM=
+
+Name: com/rochade/wa/common/rochade/util/TypeInheritanceHelper.class
+SHA-256-Digest: WjCKZ+i86+2TAGYk8RU0PPhT349flWqtt6jIC4EFnuM=
+
+Name: com/rochade/wa/common/rochade/tagging/MPath_TagMapping_from_Tags
+ .xml
+SHA-256-Digest: ETyAxIOwzOB+QK81IT6C2zJYKq5V5d7xclzVtdQcuLw=
+
+Name: com/rochade/wa/common/io/grid/GridDump.class
+SHA-256-Digest: NqXwHWR1woqOy7E4k8tmPkCoLekOOa7nfivRMC5dvfY=
+
+Name: com/rochade/wa/common/io/ConsoleEraseableCounter.class
+SHA-256-Digest: H+YKllU8ZsvqVSnLYXITWSW7+tZ6juK/P4Una3DS7e8=
+
+Name: com/rochade/wa/api/roc/DataConnectionUtils.class
+SHA-256-Digest: LpCmkdWHYv/y9F8zSb2onu03AAYvVjSbcBgjkKAXX3U=
+
+Name: com/rochade/wa/common/util/JSONHelper.class
+SHA-256-Digest: ajqqcDI58wt9WiTxRj7MCiuQl+I3oXbCtJLwLZCvMGo=
+
+Name: com/rochade/wa/common/collections/Either$1.class
+SHA-256-Digest: ZNBz5KJ1/1O3jJv38M8jmkh+IDH1UgYJS/YPWNAzNzc=
+
+Name: com/rochade/wa/common/util/RegexHelper.class
+SHA-256-Digest: dAEEP93PpH1sSaeu5tugvQA+cYATfxK7+cKWrwwF+/Y=
+
+Name: com/rochade/wa/common/rochade/util/RochadeHelper$1.class
+SHA-256-Digest: rFhVdtb15Re/kk6i0cQ61ZdT/98DjK4ARTyH/5c5IYo=
+
+Name: com/rochade/wa/common/net/WebHelper$HttpHeader.class
+SHA-256-Digest: /NHhInWr28nlm6iQkUXDHaM7HOFI1J8GPCBY9QRp2Cc=
+
+Name: com/rochade/wa/common/io/streams/LineStream$Line.class
+SHA-256-Digest: ija8AbcHNFznYE9wUlv9eKtvFZJeaV/G92nEylNYANE=
+
+Name: com/rochade/wa/common/preferences/SearchPreferencesHelper$Featur
+ eDisplayModeEnum.class
+SHA-256-Digest: 8rPlEsaOJJqupRKxD9p6wCcyJSqCzG2NxKFobm8RimI=
+
+Name: com/rochade/wa/api/roc/DataConnectionUtils$LocalResourceContext.
+ class
+SHA-256-Digest: d1to2dNGOOLV5RnC8Fsarys9sxrRYQITcYgu1D49HYw=
+
+Name: com/rochade/wa/common/rochade/tagging/TaggingHelper$1.class
+SHA-256-Digest: brVF4XuVT9MptWHTTT+F98bLoEzC/MxBJtH3VJFQ43s=
+
+Name: com/rochade/wa/common/rochade/util/DatabaseHelper.class
+SHA-256-Digest: 3h42CFAaAhwAbiqyr657F/BD9L28XgIWVu484WGu47k=
+
+Name: com/rochade/wa/common/collections/Pair$4.class
+SHA-256-Digest: vC3wMcAFG+/myhA2815OevWZartbyM3+eVkGjS0mPxw=
+
+Name: com/rochade/wa/common/rochade/util/AuthenticationHelper.class
+SHA-256-Digest: blpx3TVQpjA8CiO1WuAax7g1VpivLac0xSgU+7R0atQ=
+
+Name: com/rochade/wa/common/preferences/ISearchContext.class
+SHA-256-Digest: 4/nF3wQfgBJpblVJphbB6wkkX25c8xbB8/BaxncOhpg=
+
+Name: com/rochade/wa/common/rochade/util/RochadeHelper$ItemRestriction
+ .class
+SHA-256-Digest: peITCPN8qP48PQNntWqT0NsR6aRf9Qde/9vV/oJXg3M=
+
+Name: com/rochade/wa/common/solr/util/SearchAppId.class
+SHA-256-Digest: 96hOWU/wLWb2wrkNqmdr3FIlk7LpspiVv5mAZH1rTww=
+
+Name: com/rochade/wa/common/rochade/util/RochadeHelper.class
+SHA-256-Digest: jZbApK6qlw9wGq/ner4hr7UGYXfOKkEYfCM2oU9Uq10=
+
+Name: com/rochade/wa/common/util/EncodingHelper.class
+SHA-256-Digest: jYG8+K/sjv7E7sk+fEpTHKs+TqUW2mSr9hc9t/18OI4=
+
+Name: com/rochade/wa/common/collections/Either$2.class
+SHA-256-Digest: IbJRp1jYERhamlfF7ApOMH43jHBCisbhmi5kgcsMkwU=
+
+Name: com/rochade/wa/common/solr/patterns/SolrSearchTerm.class
+SHA-256-Digest: YEMV9CKfWaWzlcbaKQp173Er4ZAx1yV2odPJlVcF+e0=
+
+Name: com/rochade/wa/common/lang/strings/ColumnExclusion.class
+SHA-256-Digest: GBHeTp0Qx+aO2JIP+OdcAWcovuh/iEnvTGX/yWrZ3EQ=
+
+Name: com/rochade/wa/common/solr/util/SolrHelper$IndexedDataOptions.cl
+ ass
+SHA-256-Digest: Wuy3eeRAvI2EcBlDsg/m1rL2sQvEGk7D7aKqS95rsyc=
+
+Name: com/rochade/wa/common/rochade/util/RochadeHelper$BaseAttributeMe
+ taInfoStruct.class
+SHA-256-Digest: ZssGgNusfSMiEIdBqcXiV5zFDIX+R+1k+ILR6lefyx4=
+
+Name: com/rochade/wa/common/rochade/util/RochadeHelper$ControlAppHandl
+ e.class
+SHA-256-Digest: 39d0zP+/dOhPPL7O0P/xcqJy2DsXpL7Dmma7X/J8TOk=
+
+Name: com/rochade/wa/common/util/RegexHelper$1.class
+SHA-256-Digest: FxWBf0ATRdXUgwer2aIuAu9vZqx+6oSfaQIS71PdDoo=
+
+Name: com/rochade/wa/common/rochade/util/RocServicePropertyProviderImp
+ l$PropertyType.class
+SHA-256-Digest: PrVM6P6uHY7lWNaEu0qeKb1jz3OxsI7CfHOA4WmZj/4=
+
+Name: com/rochade/wa/common/rochade/util/PooledApplicationHelper$Appli
+ cationPoolManagerKey.class
+SHA-256-Digest: 3mfNOhOjiPkc1YvVb4O1Th8SD6hYjg1+ZaFBF4SuTwE=
+
+Name: com/rochade/wa/common/lang/MapHelper.class
+SHA-256-Digest: KtQOND7D+avRSFUHgIMCIKw0GyGff92FzvVymHmNbzw=
+
+Name: com/rochade/wa/common/net/HttpErrorResponse.class
+SHA-256-Digest: 625ZuuLF80C8qaL1j+evJvai3wQ9UCFQdj5F+4heLEg=
+
+Name: com/rochade/wa/common/io/grid/GridDump$GridParseError.class
+SHA-256-Digest: YrV3aTOA6jgP7/8i0za346gs18qgoJcxboCJFZWjYfg=
+
+Name: com/rochade/wa/common/solr/util/SearchSolrHelper$SpecialSolrFiel
+ ds.class
+SHA-256-Digest: X7DqF2c/LZGpyVyT7b9uEPFe0aYR9qDnlsfO+91AFpE=
+
+Name: com/rochade/wa/common/solr/util/SolrExecuterWithRetries$SolrOper
+ ation.class
+SHA-256-Digest: cA5N6PgvX9yoF6fad1+8uMDBUTJGAj2EpQc3xKLaaD8=
+
+Name: com/rochade/wa/common/preferences/SearchPreferencesHelper$2.clas
+ s
+SHA-256-Digest: kQsVRG4MMqOwspLz/pwODDbDzA7KXAfhsSLH0dRHstU=
+
+Name: com/rochade/wa/common/io/file/FileUtils.class
+SHA-256-Digest: 4crRbrmsTawTyUu9cjiY/36YXYHTIafA1VKgjIEawyE=
+
+Name: com/rochade/wa/common/concurrent/ConcurrentHelper.class
+SHA-256-Digest: dolbY+BMiPdSC/Sq2IrUFYUQqCn+ZQnv4Dazs0LoVj0=
+
+Name: com/rochade/wa/common/util/MultiSourcePaging.class
+SHA-256-Digest: 3+VQib0QZQ2NBo+UJxoz3TNo3j8Tm/Nj1WBFknHW9eY=
+
+Name: com/rochade/wa/common/solr/util/SolrHelper$RequestHandlerInfo.cl
+ ass
+SHA-256-Digest: opFG3f2sGpYIZws3JJTRWJDoqCESnKclOm7igbHYYeQ=
+
+Name: com/rochade/wa/common/solr/SearchExclusionProvider.class
+SHA-256-Digest: rykuHwA8ZSf+4yQL0YeQrtJaGoNCmknHmkQtWPebdFs=
+
+Name: com/rochade/wa/common/rochade/util/WrappingApplicationHandle.cla
+ ss
+SHA-256-Digest: dEyN3pf5x1rPabCIm9g4LxTmvwX2AHlI3oZK64C+WM0=
+
+Name: com/rochade/wa/common/solr/util/SearchSolrHelper$1.class
+SHA-256-Digest: 92iyEIwgywjCufR8TdNUac+IRa96xrWawCYrak74R9I=
+
+Name: com/rochade/wa/common/rochade/util/RochadeConnectionUtils$AppTyp
+ e.class
+SHA-256-Digest: NtEymCi3G7pEJH5TDC/0gzGSZbBxEftE7qb7m40xMhY=
+
+Name: com/rochade/wa/common/io/streams/LineStream.class
+SHA-256-Digest: vx1LGGLWwyh/JiomyAWfbolXkgSSahthwgQoK6GyVvI=
+
+Name: com/rochade/wa/common/rochade/util/RochadeConnectionUtils.class
+SHA-256-Digest: FkFiAD6GpjlKwKCtUzuL0kClij/b4tEMWzyAcm07HHU=
+
+Name: com/rochade/wa/common/rochade/util/RocServicePropertyProviderImp
+ l$1.class
+SHA-256-Digest: zCqL8ibEPc98CSJe3tiklzxuiyeCvj53izt8RX6bMiI=
+
+Name: com/rochade/wa/common/rochade/env/selector/SelectorResourceBundl
+ eHelper.class
+SHA-256-Digest: QKwLBpwO2SmXV9x1L85JE7PudkbP0QAm1ni3heamszI=
+
+Name: com/rochade/wa/common/io/grid/GridDump$ParseOptions.class
+SHA-256-Digest: G7SU7wxYUmiBx7aBww0cZ6Uq6UakG/LYxkMfnNCmLIw=
+
+Name: com/rochade/wa/common/preferences/SearchPreferencesHelper$Inexis
+ tentBehavior.class
+SHA-256-Digest: 0RN8w582rDw2WhSUOPDUve8FU2SvYsaC4El78FXKmgA=
+
+Name: com/rochade/wa/common/lang/RunnableWithReturn.class
+SHA-256-Digest: x0rFNCyzSEIhpvDAXqTxcABYkCTfAMc2yosAsVT919o=
+

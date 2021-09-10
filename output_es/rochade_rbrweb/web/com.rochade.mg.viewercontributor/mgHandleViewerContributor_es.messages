@@ -1,0 +1,33 @@
+﻿# metaGlossary - Message file
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+ContextActionGroup.addContributorCtx=Agregar contexto colaborador
+ContextActionGroup.addContributorCtx.permission.failed=Agregar un colaborador al contexto no es posible - Falla de permisos
+ContextActionGroup.addContributorCtx.dialog.title=Agregar contexto colaborador
+ContextActionGroup.addContributorCtx.dialog.msg.noAppr=Agregar un colaborador al contexto. Esta operación no requiere aprobación pero requiere derechos de Administración en el contexto destino.
+ContextActionGroup.addContributorCtx.dialog.msg.appr=Agregar un colaborador al contexto. Esta operación requiere aprobación.
+ContextActionGroup.removeContributorCtx=Eliminar Contexto Colaborador
+ContextActionGroup.removeContributorCtx.permission.failed=No es posible eliminar el Contexto Colaborador - Falla en Permisos
+ContextActionGroup.removeContributorCtx.dialog.title=Eliminar Contexto Colaborador
+ContextActionGroup.removeContributorCtx.dialog.msg.noAppr=Eliminar contexto colaborador. Esta operación no requiere aprobación.
+ContextActionGroup.removeContributorCtx.dialog.msg.appr=Eliminar contexto colaborador. Esta operación requiere aprobación.
+ContextActionGroup.contributorAction.disabled.forDevItem=Cambiar el colaborador de contextos no es posible por términos en proceso.
+ContextActionGroup.contributorAction.disabled.itemInDevExists=Cambiar el colaborador de contextos no es posible porque el término tiene una versión en proceso.
+ContextActionGroup.addViewerCtx=Agregar veedor de contexto
+ContextActionGroup.addViewerCtx.permission.failed=Agregar veedor de contexto no es posible - falla de permisos
+ContextActionGroup.addViewerCtx.dialog.title=Agregar veedor de contexto
+ContextActionGroup.addViewerCtx.dialog.msg=The business item will be added to the view of the selected context (requires Administration rights on target context).
+ContextActionGroup.removeViewerCtx=Eliminar Veedor de Contexto
+ContextActionGroup.removeViewerCtx.permission.failed=No es posible eliminar Veedor de Contexto - Falla en Permisos.
+ContextActionGroup.removeViewerCtx.dialog.title=Eliminar Veedor de Contexto
+ContextActionGroup.removeViewerCtx.dialog.msg=The business item will be removed from the selected context.
+
+ContextActionGroup.req.submitted=Su solicitud fue enviada a control.
+ContextActionGroup.addgovernedTerms=Agregar Términos colaborativo
+ContextActionGroup.removegovernedTerms=Eliminar Términos Colaborados
+
+ContextActionGroup.noContext=No hay contextos para seleccionar.

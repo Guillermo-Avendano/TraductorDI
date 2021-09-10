@@ -1,0 +1,100 @@
+﻿# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+### Icons: all images should be inside of dir /com.rochade.wa.ui.base/ + img/, see plugin.xml
+
+#extra icons
+
+### END Icons
+
+IndexComposer.missingload=Falta <load name={0}> en plugin.xml para el componente del índice.
+IndexComposer.confirmclose=Es muy recomendable guardar su trabajo, hacer clic en "Salir" antes de cerrar la ventana del navegador.
+IndexComposer.loggingoff=Cerrar la sesión
+IndexComposer.loggedoff=Se le ha cerrado la sesión. Pulse [Aceptar] para iniciar sesión nuevamente.
+IndexComposer.autotosmall=El el valor del parámetro de configuración: session.autocloseTimeout es demasiado pequeño. Se ha establecido en {0} ms.
+IndexComposer.autotobig=El el valor del parámetro de configuración: session.autocloseTimeout es demasiado grande. Se ha establecido en {0} ms.
+IndexComposer.warntosmall=El el valor del parámetro de configuración: session.warningTimeout es demasiado pequeño. Se ha establecido en {0} ms.
+IndexComposer.illegallang=Idioma ilegal solicitado por el parámetro URL "Lang": {0}
+IndexComposer.bookmarkerr=Marcador no puede ser abierto por falta de información.
+IndexComposer.nodirectws=No se permite especificar un área de trabajo en la URL. La sintaxis $workspace debe ser utilizado en su lugar.
+IndexComposer.compatmode=Usted está ejecutando Internet Explorer en Vista de compatibilidad. Esto causará que varios problemas. Por favor, cambie a modo estándar.
+IndexComposer.invalidbookmark=No se pudo abrir la vista. El marcador al objeto que ya no existe.
+IndexComposer.logincompleted=Inicio de sesión completado.
+IndexComposer.startupcompleted=Inicio terminado. Comienza la carga de componentes.
+#IndexComposer.noupdatelicense=Sus roles implican responsabilidades para el uso de la actualización, pero se supera el número de licencias de actualización. Por favor, espere hasta que una licencia de actualización esté disponible o contacte al administrador.
+IndexComposer.noupdatelicense=Rochade detecta que usted es un usuario de actualización. Actualmente no hay licencias de actualización disponibles. Espere a que una licencia de actualización esté disponible o contacte al administrador Rochade.
+IndexComposer.enterReviewWIPMode=Hay trabajo en curso a su disposición para su revisión! \n Inicia la revisión?
+IndexComposer.enterReviewWIPModeTitle=Revisión del Borrador
+IndexComposer.activelicense=La licencia activa para esta sesión es {0}.
+IndexComposer.alreadyInWip=Otra sesión ya está trabajando en modo Borrador. No es posible tener múltiples sesiones en este modo. Por favor, cierre la pestaña del navegador.
+IndexComposer.warbrNoaccess=El área de trabajo de Rochade Browser {0} no es accesible.
+ 
+
+Menu.home=Tablero
+Menu.report=Reportes
+Menu.file=Archivo
+Menu.item=Item
+Menu.query=Consulta
+Menu.tools=Herramientas
+Menu.connectionmanager=Administrador de Conexiones
+Menu.preferences=Preferencias
+Menu.configure=Configurar
+Menu.confNav=Configurar Pathways
+Menu.confPort=Configurar Portlets
+Menu.confFav=Configurar Favoritos
+Menu.debug=Depurar
+Menu.statistics=Estadísticas
+Menu.trace=Rastreo
+Menu.memory=Memoria
+Menu.uipermissions=Permisos de la interfaz de usuario
+Menu.debugpref=Preferencias
+Menu.debugcapa=Capacidades
+Menu.debugaction=Acciones
+Menu.debugcomp=Componentes
+Menu.debugquery=Consultas
+Menu.debugtableshape=Formas de la Tabla
+Menu.debugsetting=Configuraciones
+Menu.debugworkspaces=Áreas de trabajo
+Menu.debugwfengine=Workflow Engine
+Menu.debugextensions=Extensiones
+Menu.debugconflicts=Verifica si hay conflictos
+Menu.debugdeployment=Deployment Details
+Menu.onlinehelp=Online Help
+Tab.onlinehelp.title=Online Help
+Menu.about=Acerca de
+Menu.logger=Registro(Log) de sesión
+Menu.user=Usuario {0}
+Menu.login=Iniciar sesión
+Menu.logoff=Salir
+Menu.loggedoff=Se le ha cerrado la sesión. Pulse [Aceptar] para iniciar sesión nuevamente.
+Menu.reload=Ha solicitado salir de la sesión, pero la sesión permanece activa porque hay varias pestañas del navegador están abiertas. Cierre las pestañas del navegador, o  pulse [Aceptar] para volver a cargar.
+Menu.nav=Navegación
+Menu.tab=Contenido
+Menu.apptab=Tipos de Aplicaciones
+Menu.confirmlogoff=Recomendamos guardar los cambios antes de cerrar la sesión.
+Menu.confirm=¿Seguro que desea cerrar la sesión?
+Menu.multitab=Tiene varias pestañas abiertas del navegador. Por favor, cerrar las otras pestañas del navegador antes de cambiar el ID de usuario.
+Menu.confirmmulti=Tiene varias pestañas abiertas del navegador. Pulse [Cancelar] y cerrar esta pestaña del navegador si desea mantener la sesión activa para otras pestañas. Pulsando [Aceptar] se va a invalidar la sesión a todas las pestañas.
+Menu.environment=Ambiente:
+Menu.item.production=Producción
+Menu.item.reviewWIP=Revisión del Borrador
+Menu.item.browseWIP=Ver Borrador
+Menu.item.wip=Trabajo en progreso
+#Menu.tabdirty=Hay pestañas abiertas, que se encuentran actualmente en el modo de edición. Por favor, cierre estas pestañas antes de cambiar.
+Menu.tabdirty=Hay pestañas del navegador que contienen cambios no guardados. Por favor, guardar los cambios antes de otros cambios.
+Menu.enterWIP.multipleSessions=Falló el ingreso a Borrador porque hay varias pestañas del explorador abiertas. Por favor, cierre otras pestañas del navegador.
+
+Tab.menuitem.close=Cerrar
+Tab.menuitem.closeall=Cerrar todo
+Tab.menuitem.closeothers=Cerrar Otros
+
+Query.incomplete.limited=Number of items in this view is limited to {0}. Result is incomplete.
+Query.incomplete.interrupted=La consulta fue interrumpida. El resultado es incompleto.
+Query.incomplete.repeat.interruptible=Pulse aquí para ejecutar la consulta.
+Query.incomplete.repeat.nonInterruptible=Pulse aquí para ejecutar la consulta de nuevo sin límite (no puede ser interrumpido).
+Query.running.background=La consulta se ejecuta en segundo plano. \n Por favor, espere.
+Query.cannotExecute=Error al ejecutar la consulta.

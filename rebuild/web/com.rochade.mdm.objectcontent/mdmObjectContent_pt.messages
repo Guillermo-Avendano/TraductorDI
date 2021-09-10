@@ -1,0 +1,155 @@
+﻿#-------------------------------------------------------
+# metaRDM messages
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.mdm.objectcontent
+#
+Attributes.MDM_RDM_VALUE_COLUMN=Coluna de valor
+Attributes.MDM_RDM_DEF_COLUMN=Coluna de definição
+Attributes.MDM_RDM_REF_COLUMN=Coluna de referência relacionada
+Attributes.MDM_RDM_FIRST_SCAN=Primeira varredura
+Attributes.MDM_RDM_LAST_SCAN=Última varredura
+Attributes.MDM_RDM_FILTER_EXPR=Filtro
+Attributes.MDM_RDM_FILTER_TYPE=Tipo de filtro
+Attributes.MDM_RDM_FILTER_EXPR=Filtro
+Attributes.MDM_RDM_FILTER_TYPE=Tipo de filtro
+Attributes.MDM_RDM_QUERY_EXPR=Consulta
+Attributes.MDM_RDM_QUERY_TYPE=Tipo de consulta
+
+Attributes.MDM_RDM_VDC=Coluna de valor conduzido
+
+Attributes.MDM_RDM_USED_VALUE=Valor Utilizado
+Attributes.MDM_RMD_PERMISSIBLE_VALUE=Valor Permitido
+Attributes.MDM_RDM_DEFINED_VALUE=Valor Definido
+Attributes.VALUE_TYPE=Tipo de Valor
+Attributes.BELONGSTO=Pertence a
+Attributes.MDM_HAS_CONTEXT=Possui Contexto
+Attributes.RELATIONSHIP_TYPE=Tipo de relacionamento
+Attributes.MDM_RMD_PARENT_DOMAIN=Domínio pai
+Attributes.MDM_RMD_RELATED_DOMAINS=Domínios relacionados
+Attributes.MDM_RMD_CDRELATIONSHIP=Relacionamento Domínio Conceitual
+Attributes.MDM_RMD_VDRELATIONSHIP=Relacionamento de Domínio de Valor
+Attributes.CONTAINED_TERMS=Itens contidos
+Attributes.DATA_CONCEPTS=Conceitos de Dados
+Attributes.BUSINESS_TERM_TYPE=Tipo de Termo de Negócio
+Attributes.TYPE_CONTEXT=Contexto
+Attributes.ASSOCIATED_TERMS=Termos associados
+Attributes.DWR_RDB_HAS_DATABASE=Bancos de Dados
+Attributes.DWR_DAT_HASPACKAGE=Sub pacotes
+Attributes.DWR_DAT_DATATYPE=Tipo de Dados
+Attributes.DWR_DAT_LENGTH=Comprimento
+Attributes.DWR_DAT_SCALE=Escala
+Attributes.DWR_DAT_MINIMUM_LENGTH=Comprimento mínimo
+Attributes.DWR_DAT_DEFAULT_VALUE=Valor Padrão
+Attributes.VALUE_COLLECTION_DATA_CONTEXT=Contexto de Dados
+Attributes.VALUE_COLLECTION_VALUE_DOMAIN=Valor do Domínio
+############ text used in table item view ################
+
+############### text used in item view ###################
+ProvDefFor=Fornecer definição para
+
+RDM.ValidityPeriod=Período de validade:
+RDM.ValidFrom=Válido de
+
+ReferenceData=Dados de Referência
+ImplementsDetails=Detalhes da Implementação
+
+DC.RecursiveHierarchy=Conceito de dados de hierarquia recursiva
+DC.ParentHierarchy=Conceito de dados de hierarquia pais
+DC.ChildrenHierarchy=Conceito de dados de hierarquia filhos
+DC.RecursiveHierarchyDetailed=Conceito detalhado de dados de hierarquia recursiva
+DC.ParentHierarchyDetailed=Conceito detalhado de dados de hierarquia pais
+DC.ChildrenHierarchyDetailed=Conceito detalhado de dados de hierarquia filhos
+CDHierarchy=Hierarquia de domínio conceitual
+VDHierarchy=Hierarquia de domínio de valor
+RC.Values=Valores
+RC.Hierarchy=Hierarquia
+RC.HierarchyRecursive=Hierarquia de árvores
+RC.HierarchyForward=Hierarquia de pais
+RC.HierarchyBackward=Hierarquia de filhos
+DC.hierarchy.selectValueDomains=Selecionar Domínios de Valor
+
+############### text for item View in com.rochade.mdm.cellrenderer/HistoricalValue.java
+HistoricalValue.ValueCollection=mais antigo que VallueCollection
+PermissibleValue.MissingValue=Falta valor
+PermissibleValue.DuplicateValue=Duplicar valor
+
+#################### Tabs header #######################################
+Tab.ReferenceData=Dados de Referência
+Tab.History=Histórico
+RDM_Tab.Details=Detalhes
+Tab.HierarchyManagement=Gestão de Hierarquia
+
+################### MDM Item View Messages #######################
+Message.MissedData=Não é possível obter dados
+###################################################################
+##################     MDM Box Messages     #######################
+Message.ErrorToDelete=Você não pode excluir {0}: {1}\nRazão: {2}
+Message.ReasonExistUsedValues=existem valores utilizados
+Message.ReasonExistDefinedValues=existem valores definidos
+Message.ReasonExistValueDomain=existe link para Domínio de Valor
+Title.ErrorToDelete=Erro!
+###################################################################
+####################  Column Item View   ##########################
+Label.ImplBTerm=Implementa Termos de Negócio
+Label.ForKey=Chave Estrangeira
+Label.IsVDColumn=Valor Conduzido
+Label.ListUsedValues=Listar valores utilizados
+Label.Values=Valores
+###################################################################
+####################   Table Item View   ##########################
+Label.IsRTable=É a Tabela de Referência
+label.ImplEntity=Implementa Entidade
+label.ImplTable=Implementa Tabela
+Label.ListDefValues=Listar valores definidos
+###################################################################
+#################### Data Context Item View #######################
+Label.CUAL_DOMAINS=Domínios Conceituais
+Label.VALUE_DOMAINS=Domínios de valor
+Label.VALUE_COLLECTIONS=Coleções de Valor
+Label.REF_COLLECTIONS=Coleções de Referência
+###################################################################
+#################### Data Concept Item View #######################
+Label.ValidPeriod=Válido
+Label.ValidFrom=De
+Label.ValidTo=Para
+History.StartDate=Data de início de
+History.EndDate=Data final de
+History.isDeleted=Excluído
+RDMDataConceptItemView.DetailsTab.DataContext=Contexto de dados:
+RDMDataConceptItemView.DetailsTab.status=Estado:
+RDMDataConceptItemView.DetailsTab.InProcessBy=Em Processo por:
+RDMDataConceptItemView.DetailsTab.LastApprover=Último Aprovador:
+RDMDataConceptItemView.DetailsTab.LastApprovalDate=Última data de aprovação:
+RDMDataConceptItemView.DetailsTab.ApprovalGroupField=Grupo aprovador:
+###################################################################
+################## Value Collection Item View #####################
+Button.SELECT_VALUE_COLLECTION_DATA_CONTEXT=Selecionar Contexto de Dados
+Button.Tooltip.SELECT_VALUE_COLLECTION_DATA_CONTEXT=Clique para Selecionar Contexto de Dados
+Button.SELECT_VALUE_COLLECTION_VALUE_DOMAIN=Selecionar Domínio de Valor
+Button.Tooltip.SELECT_VALUE_COLLECTION_VALUE_DOMAIN=Clique para Selecionar Domínio de Valor
+Button.CLEAN_VALUE_COLLECTION_USED_VALUES=Limpar
+Button.Tooltip.CLEAN_VALUE_COLLECTION_USED_VALUES=Limpar valores usados
+###################################################################
+################## Reference Collection Detail View ###############
+MDM_RDM_ReferenceCollection_GeneralTab.generatedQuery=Consulta SQL gerada:
+Label.SQLDialect=Especificar um Dialeto SQL
+###################################################################
+
+DataConceptUtils.cannotGetDataConcepts=Não pode obter conceitos de dados relacionados
+
+###################################################################
+RDMHistoryAttribute.Deleted=Excluído
+RDMHistoryAttribute.Type=Tipo
+DialogHistoryRecord.oldQualifier=Período de validade antigo
+DialogHistoryRecord.newQualifier=Período de validade novo
+DialogHistoryRecord.relatedChanges=Mudanças relacionadas
+RDMHistoryAttribute.notDefined=Não definido
+RDMHistoryAttribute.from=De
+RDMHistoryAttribute.to=Para
+RDMHistoryAttribute.till=Até

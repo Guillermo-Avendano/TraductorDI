@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page id="SaveRoute" title="WTB" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<!-- 
+    Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+<window apply="com.rochade.wa.ui.itemdiagram.SelectRouteComposer" title="${wtb:l('SelectRoute.title')}"
+        border="normal" width="800px" sizable="true" sclass="asg-add-favorites">
+<!--             <hbox width="100%"  sclass="field0" style="background-color: ${wtb:l('asg-atlantic-light-gray')}; padding:5px" > -->
+<!--                     <label id="headerLabel" value="${wtb:l('SelectRoute.subtitle')}" style="font-style: normal;   font-size: 14px!important"/> -->
+<!--             </hbox> -->
+            <div style="padding:5px; background-color: ${wtb:l('asg-atlantic-light-gray')};">
+                <label value="${wtb:l('SelectRoute.selectRoutes')}"   />
+                <div style="clear:both; height:1em"/>
+                <div id="divRoutes" />
+            </div>
+            <hbox width="100%" widths="80%,10%,10%" style="padding:5px" pack="end">
+                <button width="100px" id="btnOk"     label="${wtb:l('SaveRoute.btnOk')}" tooltiptext="${wtb:l('SaveRoute.enter')}"/>
+            </hbox>
+</window>

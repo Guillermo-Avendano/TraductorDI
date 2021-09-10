@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="MG View" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+
+<div use="com.rochade.wa.ui.view.BaseObjectView"
+	sclass="asg-tab-content-div asg-reference-data-details-tab">
+	<grid id="DataConceptItemViewDetailsGrid"
+		style="border: 0px; padding: 10px; background: #FFFFFF;">
+		<columns style="background: transparent">
+			<column width="100%" />
+		</columns>
+		<rows style="background: transparent; ">
+			<row valign="top" align="left"
+				style="background: transparent; border: 0px; padding: 5px 5px 20px 5px">
+				<grid id="DataConceptItemViewSystemDetailsGrid"
+					style="padding: 0px;">
+					<columns>
+						<column hflex="2" />
+						<column hflex="5" />
+					</columns>
+					<rows>
+						<row valign="middle" style="padding: 5px">
+							<label
+								value="${wtb:l('RDMDataConceptItemView.DetailsTab.DataContext')}"
+								sclass="asg-attribute-label-bold" />
+							<div
+								use="com.rochade.mg.ui.view.GlossaryTextPropertyView"
+								attributeNames="AbsName" width="99%" readOnly="true"
+								id="RdmDcDetailTabGlossary" />
+						</row>
+						<row valign="top" style="padding: 5px">
+							<label
+								value="${wtb:l('RDMDataConceptItemView.DetailsTab.status')}"
+								sclass="asg-attribute-label-bold" />
+							<div
+								use="com.rochade.mg.ui.view.StatusTextPropertyView"
+								attributeNames="RBG/STATUS" width="99%" readOnly="true"
+								id="RdmDcDetailTabStatus" />
+						</row>
+						<row valign="top" style="padding: 5px">
+							<label
+								value="${wtb:l('RDMDataConceptItemView.DetailsTab.InProcessBy')}"
+								sclass="asg-attribute-label-bold" />
+							<div
+								use="com.rochade.wa.ui.view.TextPropertyView"
+								attributeNames="RBG/LOCKED-BY" width="99%" readOnly="true"
+								id="RdmDcDetailTabLockedBy" />
+						</row>
+						<row valign="top" style="padding: 5px">
+							<label
+								value="${wtb:l('RDMDataConceptItemView.DetailsTab.LastApprover')}"
+								sclass="asg-attribute-label-bold" />
+							<div
+								use="com.rochade.mdm.ui.view.RDMLastApproverTextPropertyView"
+								attributeNames="" width="99%" readOnly="true"
+								id="RdmDcDetailTabLastApprover" />
+						</row>
+						<row valign="top" style="padding: 5px">
+							<label
+								value="${wtb:l('RDMDataConceptItemView.DetailsTab.LastApprovalDate')}"
+								sclass="asg-attribute-label-bold" />
+							<div
+								use="com.rochade.mdm.ui.view.RDMLastApprovalDateTextPropertyView"
+								attributeNames="" format="date" width="99%" readOnly="true"
+								id="RdmDcDetailTabLastApprovalDate" />
+						</row>
+						<row valign="top" style="padding: 5px">
+							<hbox id="approvalGroup" align="center"
+								sclass="asg-attribute-label-bold">
+								<label
+									value="${c:l('RDMDataConceptItemView.DetailsTab.ApprovalGroupField')}"
+									sclass="asg-attribute-label-bold" />
+								<div
+									use="com.rochade.mg.ui.view.ApprovalGroupField"
+									attributeNames="" width="90%" readOnly="true"
+									id="RdmDcDetailTabApprovalGroup" relatedId="approvalGroup" />
+							</hbox>
+						</row>
+					</rows>
+				</grid>
+			</row>
+		</rows>
+	</grid>
+</div>

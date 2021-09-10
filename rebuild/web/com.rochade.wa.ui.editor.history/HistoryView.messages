@@ -1,0 +1,20 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+HistoryTimelineView.eventAsBuble=Check, if you want to open the event description in a new tab
+HistoryTimelineView.filterLabel=Show only the following events: 
+HistoryTimelineView.attributes=Attributes:
+HistoryTimelineView.date=Date: 
+HistoryTimelineView.comment=Comment: 
+HistoryTimelineView.user=User: 
+HistoryTimelineView.zoom=Zoom: 
+HistoryTimelineView.Filter.Others=Others
+
+HistoryShowView.asTimeline=Show as timeline
+HistoryShowView.asList=Show as list
+

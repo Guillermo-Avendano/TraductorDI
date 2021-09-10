@@ -1,0 +1,5 @@
+<editormenu sclass="rochade-mdm-editor-editormenu-create-dc-menu">
+	<menubar style="background:none; border:none;">
+		<menuitem actionId="MDM_Editor_CreateDC" enableCondition="Editor.isEmpty" />
+	</menubar>
+</editormenu>

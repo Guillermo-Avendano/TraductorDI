@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="Snapshots" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<!-- 
+	@author Steffens 2016-01-22, created
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+<zk>
+	<window id="dgSnapNav"
+		apply="com.rochade.dg.snapshot.DGSnapshotNavigatorComposer">
+<!-- 		<vbox width="100%"> -->
+			<listbox>
+				<listitem>
+					<listcell label="${wtb:l('Subentry.SnapShots')}" style="font-weight:bold" />
+				</listitem>
+			</listbox>
+<!-- 			<vlayout> -->
+<!-- 				<hbox width="100%" align="center" pack="right" -->
+<!-- 					sclass="asg-navmenubar-hbox"> -->
+					<menubar
+						id="dgSnapShotMenubar"
+						sclass="asg-navmenubar-hor asg-mainmenubar-hor asg-menubar-right-aligned"
+						visible="${wtb:check('appModeDefault')}">
+						<menuitem
+							label="${wtb:l('dg.snapnav.new_config.msg')}"
+							forward="onClick=dgSnapNav.onCreateNewConfig"
+							image="${wtb:l('dg.snapnav.new_config.img')}">
+						</menuitem>
+						<menuitem
+							label="${wtb:l('WTB_NavRefresh.lbl')}"
+							forward="onClick=dgSnapNav.onRefreshList"
+							image="${wtb:l('WTB_NavRefresh.img')}">
+						</menuitem>
+					</menubar>
+<!-- 				</hbox> -->
+				<tree id="dgSnapshotConfigurations" sclass="asg-navtree" style="clear:both">
+					<custom-attributes org.zkoss.zul.client.rod="false"/>
+				</tree>
+<!-- 			</vlayout> -->
+<!-- 		</vbox> -->
+	</window>
+</zk>

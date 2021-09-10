@@ -1,0 +1,133 @@
+﻿# metaRDM - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+ReferenceCollectionAdhoc.title=Desmarcar Tabla de Referencia
+ReferenceCollectionAdhoc.message=La tabla de referencia seleccionada ya contiene valores colectados. \nHaga clic en Aceptar para borrar los valores y desmarcar la tabla de referencia.
+EmptyReferenceCollectionAdhoc.message=¿Está seguro que desea borrar la colección de referencia?
+EmptyReferenceCollectionAdhoc.title=Eliminar Colección de Referencia
+EmptyValueCollectionAdhoc.message=¿Está seguro de eliminar la colección de valores?
+EmptyValueCollectionAdhoc.title=Eliminar Colección de Valores
+
+#Logging messages
+MDM_CDTabBTermDialogCapability.errorRunningQuery=Se produjo un error durante la ejecución de consulta: {0}
+MDM_DataConceptImplementationDetailsHasContent.errorGettingValues=Algunos datos del Concepto de Datos no fueron recuperados. La información que se muestra puede ser incompleta.
+MDM_HasBTReadPermissionCapabilty.errorRunningQuery=Se produjo un error durante la ejecución de consulta {0}
+MDM_IsReferenceColumnCapability.itemIsNull=Se recibió un ítem nulo en capacidad, lo cual no está permitido. Valor predeterminado devuelto [falso].
+MDM_IsReferenceTableCapability.itemIsNull=Se recibió un ítem nulo en capacidad, lo cual no está permitido. Valor predeterminado devuelto [falso].
+MDM_RDMUserRoleCapability.errorRetrivingRoles=Se ha producido un error al recuperar roles del contexto de datos
+MDM_RDMItemOperationCapability.errorRetrivingUserAdm=Se ha producido un error al recuperar la configuración de administración de usuarios
+MDM_ErrorDuringRetrievingCapability=Se ha producido un error al recuperar la capacidad
+MDM_ErrorExecutingQuery=Se produjo un error durante la ejecución de consulta: {0}
+MDM_AssociatedTypeNotFound={0}: No se encontraron tipos asociados
+MDM_ErrorRetrievingValueFromResultset=Se ha producido un error al obtener el valor conjunto de resultados (Valor: {0})
+MDM_ErrorLoadingItemProperties=Se produjo un error durante la carga de las propiedades del ítem
+MDM_HyperlinkOnlySingleItemAllowed=La celda de la tabla contiene uno o más ítems que no se puedan procesar como hipervínculos
+MDM_ZKRVLGridModel.unsupportedOperation=Operación no soportada:. {0} {1}
+ZKRVLGridView.errorGeneratingTableShape=Se ha producido un error al generar table shape
+MDM_WAGridRowRenderer.rowRenderer=Columna: {0} clase renderizadora: {1}
+MDM_WAGridRowRenderer.rowRendererNull=Columna: {0} renderizador nulo
+MDM_WAGridRowRenderer.initializationRowRenderer=Se ha producido un error al inicializar RowRenderer
+
+
+DatabaseAdhock.CantGetList=No se puede obtener la lista de colecciones de referencia para el ítem de base de datos
+
+CollectionItemDecorator.Table=Tabla
+CollectionItemDecorator.Column=Columna
+CollectionItemDecorator.TypeUndefined=
+CollectionItemDecorator.NoRelatedTableOrColumn=
+SqlDialectSpecifiedRenderer.Yes=Si
+SqlDialectSpecifiedRenderer.No=
+
+MDM_RefCollectionRelationshipBuilder.errorRetrievingRCParents=Se ha producido un error al recuperar los padres RC
+MDM_RefCollectionRelationshipBuilder.errorRetrievingRCRealatedLUT=Se ha producido un error al recuperar RC relacionado a LUT
+MDM_RefCollectionRelationshipBuilder.errorRetrievingRCValueColumn=Se ha producido un error al recuperar RC del valor de la columna
+RefCollectionRelationshipWriter.errorCreatingRcrBean=Se ha producido un error al crear un bean RCR
+RefCollectionRelationshipWriter.errorUpdatingRcrBean=Se ha producido un error al actualizar bean RCR
+RefCollectionRelationshipWriter.rcrBeanCreated=Bean RCR actualizado correctamente
+RefCollectionRelationshipWriterFacade.noItemsToBesaved=No hay ítems para ser guardados
+RefCollectionRelationshipWriterFacade.beanWasNotModified=Bean no se modificó
+RefCollectionRelationshipWriter.errorDeletingDV=Se ha producido un error al suprimir los DV relacionados
+RefCollectionRelationshipWriter.errorGettingDV=Se ha producido un error al obtener DVs de los hijos RC
+
+CollectionItem.errorGenerationQuery=Se ha producido un error al generar la consulta.
+CollectionItem.errorInitializingSQLTemplate=Se ha producido un error al inicializar la plantilla de SQL.
+CollectionItem.errorCreatingFacilitator=Se ha producido un error al crear facilitador.
+DwrColumn.errorShovingListOfCollection=Se ha producido un error al recuperar datos para mostrar la lista de colecciones. Causado por:
+CollectionItem.cannotFindSchema=No se puede encontrar el esquema de la tabla. No se puede encontrar el ítem con ID = {0}
+CollectionItem.cannotFindTable=No se puede encontrar la tabla de la columna. No se puede encontrar el ítem con ID = {0}
+
+MarkAdhoc.messageItemCouldNotDelete=No se pudo eliminar el ítem seleccionado. \nEl ítem o identificadores que lo referencian están bloqueados o protegidos.
+MarkAdhoc.errorRemovingRelatedCollection=Se ha producido un error al suprimir la colección relacionada.
+MarkAdhoc.occurredDuringOperation=Se ha producido un error interno durante la operación.
+MarkAdhoc.couldNotUnmarkSpecifiedColumn=No se pudo eliminar la columna especificada. El ítem está bloqueado.
+MarkAdhoc.questionForRemove=¿Seguro quiere eliminar todas las colecciones relacionadas?
+MarkAdhoc.questionForRemoveTitle=Alerta
+MarkAdhoc.errorCreatingRelatedCollection=Se ha producido un error al crear la colección relacionada.
+MarkAdhoc.errorGetItemVersionInProd=Se ha producido un error al obtener la versión del ítem en producción.
+MarkAdhockUtils.nullItemIsImpossibleToAdd=No se puede agregar un ítem nulo como un origen de datos de referencia.
+MarkAdhockUtils.itemOfTypeIsImpossibleToAdd=Un ítem de este tipo no se puede agregar como un origen de datos de referencia: {0}
+SQLDialectAdhoc.sqlDialectWasNotSet=No se ha especificado el dialecto SQL para la base de datos: {0}.
+ValueCollectionAdhoc.deleteTheseValues=La columna de referencia seleccionada ya contiene valores colectados. \nHaga Click en Aceptar para borrar los valores y desmarcar la columna de referencia.
+ValueCollectionAdhoc.deleteFromreferenceColumnTitle=Desmarcar Columna de Referencia
+
+OpenDCInsteadOfPermVal.cantOpenDC=No se puede encontrar el Concepto de Datos
+MDM_DatePeriodIsInvalid=El intervalo de fechas no es válido
+MDM_DatePeriodIsInvalidRejectChanges=El período la fecha no es válido.\n Este cambio no será guardado
+MDM_ErrorMessageNotDefined=Mensaje de error no está definido - se utilizará uno predeterminado
+
+ValidationException.MultipleValidAssosiations=Múltiples asociaciones actualmente vigentes para el valor admisible
+ValidityPeriod.DoesNotContainBeginAndEndDate=El calificador actual no contiene fechas de inicio y de fin.
+BaseHistoryRecordProviderImpl.ErrorRemovingItemFromSet=Se ha producido un error al eliminar el ítem del conjunto
+
+ComboboxPropertyView.ErrorDuringLinkCreation=Se ha producido un error al crear el link
+ComboboxPropertyView.ErrorDuringRemovingPreviousLink=Se ha producido un error al eliminar los enlaces anteriores
+ComboboxPropertyView.Cancel=Cancelar: {0}: {1}
+ComboboxPropertyView.SetDirty="setDirty: {0}:{1}:{2}
+ComboboxPropertyView.Save=Guardar: {0}: {1}
+ComboboxPropertyView.Edit=editar: {0}: {1}
+ComboboxPropertyView.Reset=Restablecer: {0}: {1}
+ComboboxPropertyView.SetViewMode=setViewMode:{0}:{1}
+ComboboxPropertyView.SetEditMode=setEditMode:{0}:{1}
+ComboboxPropertyView.LinkSaved=Vínculo guardado: {0}: {1}
+ComboboxPropertyViewHelper.ErrorFetchingDataFromDB=Se ha producido un error al recuperar datos de la base de datos. QueryName/QueryMask: {0} / {1}
+ComboboxPropertyViewHelper.ErrorGettingRefItem=Se produjo un error al obtener el ítem referenciado
+ComboboxPropertyViewHelper.UnableToRemoveLink=No se puede eliminar el link [{0}] desde el ítem [{1}] al ítem [{2}]
+ComboboxPropertyViewHelper.UnableToAddLink=No se puede agregar link [{0}] del ítem [{1}] al ítem [{2}]
+
+ComboGroupView.SavingComboboxContent=Guardando del contenido de cuadro combinado(combobox) de forma explícita
+GridView.GridNotLoadedSrapExc=componente de la red no se carga debido SrapException
+GridView.GridNotLoadedRvlExc=componente de la red no se carga debido a excepción RVL
+GridView.ErrorLoadingRefView=Se ha producido un error al cargar la vista de referencia
+RDMLastApprovalTextPropertyView.ErrorRetrievingHistoryRecord=Se ha producido un error al recuperar los registros de historia
+SearchComboboxPropertyView.EmptySearchResults=Los resultados de búsqueda están vacíos
+
+ValidityPeriodPropertyView.UnableParseDate=No se puede analizar la fecha: {0}
+DefTextViewHelper.PropertyFileNotLoaded=El archivo "{0} .properties" no fue cargado.
+
+UIMessage.ErrorShowingMessagebox=Excepción mientras se muestra cuadro de mensaje
+
+EmbQueryDrillDownBuilder.EntryQueryNotFound=Consulta de inicio {0} no encontrada.
+RDMHistoryDataProvider.ErrorRetrievingWS=Se ha producido un error al recuperar el área de trabajo.
+RDMHistoryDataProvider.ErrorRetrievingHistoryItem=Se ha producido un error al recuperar los ítems del historial.
+
+RDMHistoryView.CanNotInitializeWorkspace=No se puede inicializar el área de trabajo para recuperar el historial.
+
+AddCollectionWizard.UnableMarkItemAsReference=El ítem no está marcado como referencia, y puede ser bloqueado.
+BaseSearchSelectDwrWizard.UnableMarkItemAsReference=El ítem no está marcado como referencia, y puede ser bloqueado.
+
+ConfigureReferenceColumnSingleVCWizard.SingleRelatedVCExpected=Se espera sólo una colección de valor relacionado
+ConfigureReferenceTableSingleRCWizard.SingleRelatedRCExpected=Sólo una colección de referencia relacionado aquí
+ConfigureReferenceTableWithHierarchycalMultipleRCWizard.StepComponentIsNull=El componente no fue añadido al paso 3. El componente es nulo.
+ConfigureReferenceTableWithHierarchycalRCWizard.StepComponentIsNull=El componente no fue añadido al paso 3. El componente es nulo.
+
+SearchReferenceDataWizard.EntryQueryNotFound=Consulta de inicio {0} no encontrada.
+
+SpecifySQLDialectAction.ErrorTitle=Error
+SpecifySQLDialectAction.NoItem=El ítem de entrada no está definido. Contacte al administrador Rochade.
+SpecifySQLDialectAction.NoDBSystem=No se encuentra el sistema de la base de datos o base de datos relacionada. Póngase en contacto con el administrador Rochade.
+
+RefGridColumnTableNameCellRenderer.errorDuringRetrievingTables=Error during retrieving tables
+HierarchyParentCellRenderer.errorDuringRetrievingHierarchyParents=Error during retrieving hierarchy parents

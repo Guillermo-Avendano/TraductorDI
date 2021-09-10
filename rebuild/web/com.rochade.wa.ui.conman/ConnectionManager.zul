@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="Item View" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<!-- 
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+<window width="500px" height="350px" border="normal" apply="com.rochade.wa.ui.conman.ConnectionManagerComposer" >
+	<borderlayout>
+		<north>
+			<hbox width="100%" widths="80%,20%" sclass="field0" >
+				<vbox style="padding:5px">
+					<label sclass="asg-title-label" value="${wtb:l('ConnectionManager.title')}"/>
+					<label value="${wtb:l('ConnectionManager.select')}"/>
+				</vbox>
+				<vbox width="100%" align="end">
+					<image id="imgWizard" src="${wtb:getImg('ConnectionManager.img.configwiz')}"  height="${wtb:l('img.height.wizard')}"/>
+				</vbox>
+			</hbox>
+		</north>
+		<west size="70%" sclass="field1" border="none" >
+			<div style="padding:5px">
+				<label tooltiptext="${wtb:l('ConnectionManager.altN')}" value="${wtb:l('ConnectionManager.available')}" />
+				<listbox rows="4" id="lbConnections">
+					<listhead sizable="true">
+						<listheader width="45%" label="${wtb:l('ConnectionManager.name')}" />
+						<listheader id="lhAutoConnect" width="20%" label="${wtb:l('ConnectionManager.autoconnect')}" />
+						<listheader width="35%" id="lhState"  label="${wtb:l('ConnectionManager.state')}" />
+					</listhead> 
+				</listbox> 
+				<checkbox id="cbDisplaystate" tooltiptext="${wtb:l('ConnectionManager.altS')}" label="${wtb:l('ConnectionManager.displaystate')}" checked="true" />
+			</div>
+		</west>
+		<center sclass="field1" border="none">
+			<div style="padding:5px">
+			    <div width="100%" height="15px"/>
+			    <button width="100%" id="btnConnect"    tooltiptext="${wtb:l('ConnectionManager.altC')}" label="${wtb:l('ConnectionManager.connect')}" disabled="true" />
+			    <button width="100%" id="btnDisconnect" tooltiptext="${wtb:l('ConnectionManager.altD')}" label="${wtb:l('ConnectionManager.disconnect')}" disabled="true" />
+			    <button width="100%" id="btnEdit"       tooltiptext="${wtb:l('ConnectionManager.altE')}" label="${wtb:l('ConnectionManager.edit')}" disabled="true" />
+			    <button width="100%" id="btnRestore"    tooltiptext="${wtb:l('ConnectionManager.altR')}" label="${wtb:l('ConnectionManager.restore')}"/>
+			</div>
+		</center>
+		<south size="35px" sclass="field1">
+			<div align="right" style="padding:5px">
+				<button width="80px" id="btnClose" tooltiptext="${wtb:l('ConnectionManager.esc')}" label="${wtb:l('ConnectionManager.close')}"/>
+			</div>
+		</south>
+	</borderlayout>
+</window>

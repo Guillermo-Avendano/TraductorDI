@@ -1,0 +1,11 @@
+﻿#-------------------------------------------------------
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+AddIcon.lbl.icon=Imagem
+AddIcon.lbl.key=Chave
+AddIcon.lbl.name=Nome
+AddIcon.btn.upload=Carregar...
+AddIcon.btn.save=Gravar

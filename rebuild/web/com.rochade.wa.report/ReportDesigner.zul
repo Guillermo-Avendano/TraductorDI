@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page id="start" title="WTB" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="/WEB-INF/tld/web/wtb.dsp.tld" prefix="wtb" ?>
+<!-- 
+	Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+-->
+<window apply="com.rochade.wa.report.ReportDesignerComposer" contentStyle="overflow:auto;" border="normal" width="830px"  sclass="asg-query-param">
+	<hbox width="100%" widths="80%,20%" sclass="field0" >
+		<vbox style="padding:5px">
+			<div   id="headerTitle" width="100%"/> 
+			<label value="${wtb:l('ReportDesigner.select')}"/>
+		</vbox>
+		<vbox width="100%" align="end">
+			<image id="imgWizard" src="${wtb:getImg('ReportDesigner.img.wizard')}"  height="${wtb:l('img.height.wizard')}"/>
+		</vbox>
+	</hbox>
+	<div sclass="field1">
+       	<listbox id="lbRunsettings" seltype="single" rows="5"> 
+			<listhead sizable="true">
+				<listheader width="24%" />
+				<listheader width="53%" />
+				<listheader width="22%" />
+			</listhead>
+			<listitem>
+				<listcell>
+					<label value="${wtb:l('ReportDesigner.propId')}"/>
+				</listcell>
+				<listcell style="padding-right: 5px;">
+					<textbox id="txtId" width="100%" constraint="no empty,/^[a-zA-Z0-9]*$/"/>
+				</listcell>
+				<listcell>
+					<label value="${wtb:l('ReportDesigner.propId.desc')}"/>
+				</listcell>
+			</listitem>
+			<listitem>
+				<listcell>
+					<label value="${wtb:l('ReportDesigner.propName')}"/>
+				</listcell>
+				<listcell style="padding-right: 5px;">
+					<textbox id="txtName" width="100%" height="48px" multiline="true" onChanging="saveButton.setDisabled(false)" style="line-height: normal"/>
+				</listcell>
+				<listcell>
+					<label value="${wtb:l('ReportDesigner.propName.desc')}" multiline="true"/>
+				</listcell>
+			</listitem>
+			<listitem>
+				<listcell>
+					<label value="${wtb:l('ReportDesigner.propMessages')}"/>
+				</listcell>
+				<listcell style="padding-right: 5px;">
+					<textbox id="txtMessages" width="100%" height="96px" multiline="true" onChanging="saveButton.setDisabled(false)" style="line-height: normal"/>
+				</listcell>
+				<listcell>
+					<label value="${wtb:l('ReportDesigner.propMessages.desc')}" multiline="true"/>
+				</listcell>
+			</listitem>
+			<listitem>
+				<listcell>
+					<label value="${wtb:l('ReportDesigner.propVisible')}"/>
+				</listcell>
+				<listcell style="padding-right: 5px;">
+					<checkbox id="chkVisible" label="${wtb:l('ReportDesigner.propVisible.desc')}" onClick="saveButton.setDisabled(false)"/>
+				</listcell>
+				<listcell/>
+			</listitem>
+			<listitem>
+				<listcell>
+					<label value="${wtb:l('ReportDesigner.propQuery')}"/>
+				</listcell>
+				<listcell style="padding-right: 5px;">
+					<combobox id="cmbQueries" width="100%" constraint="no empty" popupWidth="100%"/>
+				</listcell>
+				<listcell/>
+			</listitem>
+		</listbox>
+		<hbox width="100%" widths="85%,5%,5%,5%" >
+	        <button width="120px" id="runButton" label="${wtb:l('ReportDesigner.runButton')}" tooltiptext="${wtb:l('ReportDesigner.enter')}"/>
+			<button width="120px" id="saveButton" label="${wtb:l('ReportDesigner.saveButton')}" tooltiptext="${wtb:l('ReportDesigner.saveButton')}"/>
+	        <button width="120px" id="newButton" label="${wtb:l('ReportDesigner.newButton')}" tooltiptext="${wtb:l('ReportDesigner.newButton')}" disabled="true"/>
+	        <button width="120px" id="editButton" label="${wtb:l('ReportDesigner.editButton')}" tooltiptext="${wtb:l('ReportDesigner.editButton')}"/>
+			<button width="120px" id="cancelButton" label="${wtb:l('ReportDesigner.cancelButton')}" tooltiptext="${wtb:l('ReportDesigner.esc')}"/>
+		</hbox>	
+	</div>	
+</window>

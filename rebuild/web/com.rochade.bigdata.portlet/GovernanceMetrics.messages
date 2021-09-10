@@ -1,0 +1,18 @@
+﻿#-------------------------------------------------------
+# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+rbd_governmetrics.icon=/com.rochade.bigdata.portlet/img/16x16_metrics.png
+rbd_governmetrics.govDirs.icon=/com.rochade.bigdata.navigator/img/bigdata-16.png
+rbd_governmetrics.govTables.icon=/com.rochade.bigdata.navigator/img/hive-16.png
+
+rbd_governmetrics.title=Big Data Governance Metrics
+rbd_governmetrics.titlechart=Chart: Big Data Governance Metrics
+rbd_governmetrics.selectContext=Select cluster:
+rbd_governmetrics.govDirs=Governed directories
+rbd_governmetrics.govTables=Governed Hive tables
+rbd_governmetrics.defTables=Defective Hive tables

@@ -1,0 +1,22 @@
+﻿# metaRDM - Message file
+# This is an UTF-8 encoded file!
+#
+#  Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#-------------------------------------------------------
+
+#------------------------------ Report Definition ------------------------------ 
+### Icons: all images should be inside of dir /com.rochade.mdm.report/ + img/, see plugin.xml
+
+#### ------------------- ONLY reportmenus and reports ---------------
+InventoryRDM.subtitle=Gestión de Datos de Referencia
+InventoryRDM.lbl=Inventory (Reference Data Management)
+InventoryRDM.tip=Inventory for Reference Data Management
+
+DG_RDM_TermSum.lbl=Resumen de Términos
+DG_RDM_TermSum.tip=Reporte del resumen de Términos
+
+rdmTUS.lbl=Utilización del equipo de Gobierno de Datos de Referencia
+rdmTUS.tip=Reporte del resumen utilización del equipo de Gobierno de Datos de Referencia
+
+displHideTerms=Hide Terms
+displHideConcepts=Ocultar Conceptos

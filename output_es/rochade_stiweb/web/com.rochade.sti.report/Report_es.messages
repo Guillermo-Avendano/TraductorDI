@@ -1,0 +1,68 @@
+﻿# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#------------------------------ Report Definition (RoBrowser) ------------------------------ 
+### Icons: all images should be inside of dir /com.rochade.sti.report/ + img/, see plugin.xml
+
+RedundantStitches.lbl=Costuras redundantes
+RedundantStitches.tip=Reporte de Costuras Redundantes
+
+displRedundantStitchesTitle=Costuras redundantes
+displContainer=Stitching container
+displSrcContext=Source context
+displTgtContext=Target context
+displLastExecution=Last execution
+displStatus=Estado
+displNumberOfStitchesR=Number of stitches with redundancies
+displStitchNumber=Stitch number
+displFromStructure=Source structure
+displFromElement=Source element
+displToStructure=Target structure
+displToElement=Target element
+displManual=Manual stitch
+displNotManual=No manual stitch
+displPartialRedundant=Is only partial redundant
+displNotPartialRedundant=Is completely redundant
+displRedundancies=Redundancies
+displInstructions=Instrucciones
+
+stitchFromToItem=From {0} to {1}
+stitchViaItem=via {0}
+stitchAndItem=and {0}
+stitchDirectly=directly connected
+
+#### ------------------- ONLY for old redundant stitches reprot ---------------
+RedundantStitchesOld.lbl=Old Redundant Stitches
+RedundantStitchesOld.tip=Old redundant stitches report
+displNumberOfStitches=Número de costuras
+sourceOfStitch=Costura(s) Origen
+targetOfStitch=Costura(s) Destino
+STI_report.StitchingContainerDetails=Stitching Container Details
+STI_report.StitchingContainer=Stitching Container: 
+STI_report.SourceContext=Contexto Origen:
+STI_report.TargetContext=Contexto Destino:
+STI_report.LastExecutedOn=Última ejecución en:
+STI_report.NumberOfStitches=Número de costuras:
+STI_report.NumberOfRedundantStitches=Número de costuras redundantes:
+STI_report.RedundantStitchesList=Lista de Costuras Redundantes
+STI_report.CorrespondingTransformationsList=Correspondiente a Mapas de Datos
+STI_report.RedundantStitchesDetails=Detalles de Costuras Redundantes
+STI_report.Number=NO
+STI_report.Source=Origen {0}
+STI_report.Target=Destino {0}
+STI_report.Instruction=Instrucción
+STI_report.lblQualifiedPathName=Nombre de Ruta Calificado
+STI_report.lblMapName=Nombre del mapa
+STI_report.lblMapType=Tipo de mapa
+STI_report.Container=Stitch Container
+STI_report.Structure=Estructura de la Costura
+STI_report.Field=Elemento de la costura
+STI_CantGetReportForContainer=Unable to create report for stitching container {0}
+STI_SElectSingleReport=Please select single stitching container to get report for
+STI_ContainerHasNoRedundantStitches.title=Reporte de Costuras Redundantes
+STI_ContainerHasNoRedundantStitches.message=Stitching container {0} contains no redundant stitches
+STI_ContainerWasModifiedAfterExecution=Stitching container {0} was modified after the last execution. Please re-execute it to make sure the report is valid

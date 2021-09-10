@@ -1,0 +1,64 @@
+﻿#-------------------------------------------------------
+# Rochade Stitching - Message file
+# This is an UTF-8 endcoded file!
+#
+#  Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+STI_OpenContainer.lbl=Abrir
+STI_OpenContainer.tip=Abrindo Conexão Manual
+STI_Listings.lbl=Listagens
+STI_Listings.tip=Listagens
+STI_Templates.lbl=Modelos de Conexão Manual
+STI_Templates.tip=Modelos de Conexão Manual
+STI_DeleteContainer.lbl=Apagar
+STI_DeleteContainer.tip=Exclua Conexão Manual
+STI_SubmitContainerMenu.lbl=Executar
+STI_SubmitContainerMenu.tip=Submeta Conexão Manual para processamento
+STI_SubmitContainerSidebar.lbl=Executar
+STI_SubmitContainerSidebar.tip=Submete Conexão Manual para processamento
+STI_NewStitchingContainerSidebar.lbl=Nova Conexão
+STI_NewStitchingContainerSidebar.tip=Criar Nova Conexão Manual na Raiz
+STI_CreateStitchingContainer.lbl=Criar
+STI_CreateStitchingContainer.tip=Crie Nova Conexão Manual
+STI_EditContainer.lbl=Editar
+STI_EditContainer.tip=Editar Conexão Manual
+STI_Refresh.lbl=Atualizar
+STI_Refresh.tip=Atualizar Conexão Manual
+STI_SaveContainer.lbl=Gravar & Sair
+STI_SaveContainer.tip=Gravar Conexão Manual
+STI_EditContainer_Exit.lbl=Sair
+STI_EditContainer_Exit.tip=Sair
+STI_ExportJSON.lbl=Exportar Conexão Manual em formato JSON
+STI_ExportJSON.tip=Exportar conexões manuais e/ou modelos de instâncias em formato JSON
+STI_ImportJSON.lbl=Importar Conexão Manual no padrão JSON
+STI_ImportJSON.tip=Importar Conexões Manuais e/ou modelos de instâncias no padrão JSON
+STI_GetRedundantStitchesReport.lbl=Relatório de Conexões Manuais Redundantes
+STI_GetRedundantStitchesReport.tip=Relatório de Conexões Manuais Redundantes
+STI_ImportJSON.dialog.text=Por favor, envie o arquivo no formato JSON
+STI_ImportJSON.dialog.title=Importar Conexão Manual
+
+STI_EditTemplate.lbl=Editar
+STI_EditTemplate.tip=Editar Modelo de Conexão Manual
+STI_SaveTemplate.lbl=Gravar & Sair
+STI_SaveTemplate.tip=Gravar Modelo de Conexão Manual
+STI_EditTemplate_Exit.lbl=Sair
+STI_EditTemplate_Exit.tip=Sair
+
+#Context for targets and sources
+STI_Stitching.lbl=Conexão Manual
+STI_Stitching.tip=Conexão Manual
+STI_AddAsSource.lbl=Avançar
+STI_AddAsSource.tip=Avançar
+STI_AddAsTarget.lbl=Retornar
+STI_AddAsTarget.tip=Retornar
+
+# Labels for Stitching context action
+STI_ContextStitching.lbl=Conexão Manual
+STI_ContextStitching.tip=Conexão Manual
+STI_Forward.lbl=Avançar
+STI_Forward.tip=Avançar
+STI_Backward.lbl=Retornar
+STI_Backward.tip=Retornar
+STI_ResultSet_Export_XLS.tip=Exportar Dados para o Excel
+STI_ResultSet_Export_XLS.lbl=Exportar Dados para o Excel

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<?taglib uri="http://www.zkoss.org/dsp/web/core" prefix="c" ?>
+<!-- 
+		DocumentUploader.zul
+		@author  RC 26/04/2012, created (copied and fix from MG 2.20 
+		http://gechemsvn1.asg.com/Glossary/trunk/BusinessGlossary/WebContent/compare/CompareAttributeLine.zul )
+		Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved. 
+
+-->
+<zk>
+	<zscript><![CDATA[
+		import com.rochade.mg.core.IMgComponentConstants;
+		String attrName = Executions.getCurrent().getArg().get(IMgComponentConstants.PROP_COMPARE_ATT_NAME).toString();
+		String value1 = Executions.getCurrent().getArg().get(IMgComponentConstants.PROP_COMPARE_VALUE_1).toString();
+		String value2 = Executions.getCurrent().getArg().get(IMgComponentConstants.PROP_COMPARE_VALUE_2).toString();
+		String img = Executions.getCurrent().getArg().get(IMgComponentConstants.PROP_COMPARE_IMG).toString();
+	]]></zscript>
+ 	<grid apply="com.rochade.mg.compareattributeline.CompareAttributeLineComposer"
+ 	style="border: 0px; padding: 1px; background: transparent;"
+		sclass="asg-grid" >
+		<columns style="background: transparent">
+			<column width="47%" />
+			<column width="6%" />
+			<column width="47%" />
+		</columns>
+		<rows style="background: transparent; border: 0px">  
+			<row 
+				style="border: 0px; background: transparent; padding: 10px 5px">
+				<cell style="background: #FFFFFF; border: 1px solid ${wtb:l('asg-atlantic-light-gray')};"
+					valign="top">
+					<grid
+						style="border: 0px solid ${wtb:l('asg-atlantic-light-gray')}; padding: 0; background: #FFFFFF;">
+						<columns style="background: transparent">
+							<column width="23%" align="right" />
+							<column width="77%" />
+						</columns>
+						<rows style="background: transparent; ">
+							<row valign="top"
+								style="border: 0px; background: transparent;">
+								<label value="${attrName}:"
+									 style="font-weight: bold" />
+								<html content="${value1}" />
+							</row>
+						</rows>
+					</grid>
+				</cell>
+				<cell align="center" valign="center">
+					<image src="${img}" />
+				</cell>
+				<cell style="background: #FFFFFF; border: 1px solid ${wtb:l('asg-atlantic-light-gray')};"
+					valign="top">
+					<grid
+						style="border: 0px solid ${wtb:l('asg-atlantic-light-gray')}; padding: 0; background: #FFFFFF;">
+						<columns style="background: transparent">
+							<column width="23%" align="right" />
+							<column width="77%" />
+						</columns>
+						<rows 
+							style="background: transparent; ">
+							<row valign="top"
+								style="border: 0px; background: transparent; ">
+								<label value="${attrName}:"
+									 style="font-weight: bold" />
+								<html content="${value2}" />
+							</row>
+						</rows>
+					</grid>
+				</cell>
+			</row>
+ 		</rows>
+	</grid>
+</zk>

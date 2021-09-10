@@ -1,0 +1,33 @@
+﻿# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+#
+# package: com.rochade.wa.ui.QueryParam
+#
+
+HadoopFSQuery.dirLabel=Directorios en Clúster Hadoop:
+HadoopFSQuery.filesLabel=Archivos en clúster Hadoop:
+HadoopFSQuery.select=Especificar parámetros para obtener directorios y archivos Hadoop
+HadoopFSQuery.cluster=Clúster Hadoop
+HadoopFSQuery.directory=Directorio
+HadoopFSQuery.file=Archivo
+HadoopFSQuery.queryparam=Parámetros de la consulta
+HadoopFSQuery.dataType=Tipo de Dato
+HadoopFSQuery.filterPolicy=Filtro
+HadoopFSQuery.filterPolicy.listAllDirs=Lista de Directorios
+HadoopFSQuery.filterPolicy.listAllDirs.tip=Todos los directorios
+HadoopFSQuery.filterPolicy.listAllDirsContainingFiles=Lista de directorios conteniendo archivos
+HadoopFSQuery.filterPolicy.listAllDirsContainingFiles.tip=Directorios para los cuales se importaron archivos
+HadoopFSQuery.filterPolicy.listAllDirsWithoutFiles=Lista de directorios sin archivos
+HadoopFSQuery.filterPolicy.listAllDirsWithoutFiles.tip=Directorios para los cuales no se importaron archivos
+HadoopFSQuery.filterPolicy.listAllDirsLinkedAsStorage=Lista de directorios vinculados como almacenamiento
+HadoopFSQuery.filterPolicy.listAllDirsLinkedAsStorage.tip=Directorios que son referenciados como almacenamiento
+HadoopFSQuery.filterPolicy.listAllFiles=Lista de Archivos
+HadoopFSQuery.filterPolicy.listAllFiles.tip=Todos los archivos
+HadoopFSQuery.filterPolicy.listAllNonEmptyFiles=Lista de archivos no vacíos
+HadoopFSQuery.filterPolicy.listAllNonEmptyFiles.tip=Todos los archivos no vacíos
+

@@ -1,0 +1,33 @@
+﻿#-------------------------------------------------------
+# metaGlossary - Message file
+# This is an UTF-8 endcoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+
+### Icons: all images should be inside of dir /com.rochade.mg.renamedialog/ + img/, see plugin.xml
+
+#extra icons
+RenameItemDialog.img.rename=/com.rochade.wa.ui.item.rename/img/rename16.png
+### END Icons
+
+RenameItemDialog.ok=Rename
+RenameItemDialog.cancel=Cancel
+#mg_renameItem.okSubmit=Rename & Submit
+#mg_renameItem.noSubmit=Term content and/or term name already modified. You can rename the term. The submit for approval is possible only in the Business Term dialog.
+
+RenameItemDialog.msg=Enter a new name:
+RenameItemDialog.title=Rename
+
+RenameItemDialog.alreadyexists=Item already exists.
+RenameItemDialog.language.exception=Applying this name for language {0} not possible:  {1}.
+RenameItemDialog.emptyName=Name cannot be empty.
+RenameItemDialog.longName=Name cannot contain more than {0} characters.
+RenameItemDialog.alreadyExist={0} with the name {1} already exist.
+
+RenameItemDialog.Info=Information
+#RenameItemDialog.noPerm=You have no permission for rename.
+RenameItemDialog.errLock=Rename not possible. Item is already locked in this session.
+RenameItemDialog.errPerm=Error getting the permission
+RenameItemDialog.errWs=Rename not possible. Item is in higher workspace of the target workspace. 

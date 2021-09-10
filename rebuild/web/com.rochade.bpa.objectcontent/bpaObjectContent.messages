@@ -1,0 +1,104 @@
+﻿#-------------------------------------------------------
+# Rochade Business Package - Message file
+# This is an UTF-8 endcoded file!
+#
+#  Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+#
+#-------------------------------------------------------
+#
+# package: com.rochade.bpa.objectcontent
+#
+
+Tab.BP.History=History
+Tab.BP.Details=Details
+BI.DetailsTab.Context=Context
+
+CDE.Tab.Lineage.Comparison=Lineage Comparison
+CDE.Tab.Profile=Profile
+
+#Lineage Comparison tab
+BPK_Level = Level:
+BPK_detailed = Detailed
+BPK_highlevel = Highlevel
+BPK_NoComparisonResults = No Comparison Results
+BPK_DataElements = Data Elements
+BPK_DataStructures = Data Structures
+BPK_Transformations = Transformations
+BPK_DateTime = Date
+BPK_Compare = Compare
+BPK_Direction = Lineage
+BPK_Forward = Forward
+BPK_Backward = Backward
+BPK_Compare_WP = WIP with Prod
+BPK_Compare_SP = Snapshot with Prod
+BPK_Compare_SS = Snapshot with Snapshot
+BPK_WIP_Total = WIP \nTotal
+BPK_PROD_Total = PROD \nTotal
+BPK_Added = Added
+BPK_Removed = Removed
+BPK_NotChanged = Not \nChanged
+
+# Profile tab
+BPK_HasProfile = Has profile
+
+# Exceptions
+BPK_Err_FailedParseDate = Failed to parse date. Wrong format
+BPK_Err_GetPropValue = Cannot get value of {0} for item ID: 
+BPK_Err_LoadById = Cannot load item(s) by ID: 
+BPK_Err_SkippedComparisonItem=Skipped wrong named comparison results item: {0}
+BPK_Err_Query = Error getting comparison results for item {0}
+
+CDEProfileResults.Ok=OK
+CDEProfileResults.OK=OK
+CDEProfileResults.undefined=undefined
+CDEProfileResults.ambiguous=ambiguous
+CDEProfileResults.inconsistent=inconsistent
+CDEProfileResults.false=false
+CDEProfileResults.true=true
+CDEProfileResults.source=source
+CDEProfileResults.target=target
+CDEProfileResults.lookup=lookup
+CDEProfileResults.isolated=isolated
+
+CombinedCreation.config.notFound=Control item not found or empty
+CombinedCreation.config.exception=Exception while reading control item
+CombinedCreation.Tab=Related Business Items
+CombinedCreationBrowse.hdr=Related Business Items
+CombinedCreationEdit.hdr=Create or Link Related Business Items
+CombinedCreationAdditional.lbl=Define further business items or links
+CombinedCreationAdditional.btn=Add
+CombinedCreation.section=Create or Link {0}
+CombinedCreation.name=Name:
+CombinedCreation.nameML=Name [{0}]:
+CombinedCreation.selectNameBtn=Search
+CombinedCreation.gls=Glossary:
+CombinedCreation.ctx=Context:
+CombinedCreation.selgls=Select other Glossary
+CombinedCreation.selctx=Select other Glossary/Context
+CombinedCreation.copy=Copy {0}:
+CombinedCreation.copyML=Copy {0} [{1}]:
+CombinedCreation.typeinfo_warn1=Available in other glossaries or contexts
+CombinedCreation.typeinfo_warn2=Available in parent glossary and other glossaries or contexts
+CombinedCreation.warningKey=Section {0}: {1}
+CombinedCreation.typeNotPermitted=Type not permitted for selected glossary/context.
+CombinedCreation.duplicateInDialog=Name{1} already entered for other {0} item to be created.
+CombinedCreation.language=[Language: {0}]
+CombinedCreation.errorExists=Business item {0} already exists in the selected context{1}.
+CombinedCreation.errorExistsRejected=Business item {0} already exists with state Rejected in the selected context{1}.
+CombinedCreation.warningExists=Business item {0} already exists{1}. An alternative would be created.
+CombinedCreation.warningExistsML=Business item {0} already exists{1}. Value will be ignored.
+CombinedCreation.warningExistsRejected=Business item {0} already exists with state Rejected{1}. An alternative would be created.
+CombinedCreation.warningExistsRejectedML=Business item {0} already exists with state Rejected{1}. Value will be ignored.
+CombinedCreation.status=State: {0}
+CombinedCreation.lockedBy=In process by: {0}
+CombinedCreation.isLimited=Information: Number of items in this drop-down list is limited. Result is incomplete.
+CombinedCreation.checkSave.duplicateNames=Names for new items of the same item type within the same glossary/context must be unique.
+CombinedCreation.statusMsg={0}
+CombinedCreation.statusErrorName=Name is invalid.
+CombinedCreation.noCreatePermitted=You have no permission to create business items in the selected glossary/context.
+CombinedCreation.noLinkPermitted=You have no permission to modify the business item.
+CombinedCreation.itemLockedSession=Business item is already locked in this session. 
+CombinedCreation.itemLocked=Business item lock could not be acquired.
+CombinedCreation.itemWfStatus=Business item is in process by another user or by a workflow process, or the status could not be determined. (Process engine initialized?)
+
+EditorWarnings.type.EWT_COMBINED_CREATION=Related Business Items Warnings
