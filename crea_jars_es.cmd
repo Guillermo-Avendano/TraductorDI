@@ -42,4 +42,7 @@ set ROC_FILE=rochade_wtbweb
 cd %ROOT_DIR_OUT%\%ROC_FILE%
 jar -cvf %ROOT_DIR%\jars\%ROC_FILE%_%LANG%.jar *.messages *.properties web
 
+xcopy /S /Y /I %ROOT_DIR_OUT%\GlobalSearch %ROOT_DIR%\jars\GlobalSearch
+xcopy /S /Y /I %ROOT_DIR_OUT%\Info_Retrieval %ROOT_DIR%\jars\Info_Retrieval
+
 cd %ROOT_DIR%

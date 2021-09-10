@@ -1,7 +1,0 @@
-C:\ASG\git2021\TraductorDI\.\input\rochade_mdmweb\web\ref.messages#@#ComboboxPropertyView.ErrorDuringRemovingPreviousLink=#@#An error occurred while removing the previous links#@#Se ha producido un error al eliminar los enlaces anteriores
-C:\ASG\git2021\TraductorDI\.\input\rochade_mdmweb\web\ref.messages#@#ComboboxPropertyView.Cancel=#@#cancel: {0}:{1}#@#Cancelar: {0}: {1}
-C:\ASG\git2021\TraductorDI\.\input\rochade_mdmweb\web\ref.messages#@#ComboboxPropertyView.SetDirty=#@#"setDirty: {0}:{1}:{2}#@#"setDirty: {0}:{1}:{2}
-C:\ASG\git2021\TraductorDI\.\input\rochade_mdmweb\web\ref.messages#@#ComboboxPropertyView.Save=#@#save:{0}:{1}#@#Guardar: {0}: {1}
-C:\ASG\git2021\TraductorDI\.\input\rochade_mdmweb\web\ref.messages#@#ComboboxPropertyView.Edit=#@#edit:{0}:{1}#@#editar: {0}: {1}
-C:\ASG\git2021\TraductorDI\.\input\rochade_mdmweb\web\ref.messages#@#ComboboxPropertyView.Reset=#@#reset:{0}:{1}#@#Restablecer: {0}: {1}
-C:\ASG\git2021\TraductorDI\.\input\rochade_mdmweb\web\ref.messages#@#ComboboxPropertyView.SetViewMode=#@#setViewMode:{0}:{1}#@#setViewMode:{0}:{1}

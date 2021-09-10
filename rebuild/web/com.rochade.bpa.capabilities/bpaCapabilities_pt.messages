@@ -1,8 +1,0 @@
-﻿#-------------------------------------------------------
-# Rochade Business Package - Message file
-# This is an UTF-8 encoded file!
-#
-# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
-#
-#-------------------------------------------------------
-BP_Error_CannotReloadItem=Não é possível recarregar o item

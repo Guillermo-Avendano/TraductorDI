@@ -1,9 +1,0 @@
-<window id="advancedSearchWindow" title="${wtb:l('is_AdvancedSearchOptions.title')}" border="normal" closable="true">
-<!--
-	<vbox>
-		<label value="This is the child window"/>
-		<button label="Close child window" onClick="advancedSearchWindow.detach()"/>
-	</vbox>
--->
-	<wtbInclude componentName="AdvancedIndexSearchPane" implementsName="AdvancedIndexSearch"/>
-</window>

@@ -1,7 +1,0 @@
-<zk>
-	<menupopup id="stitchPopup">
-		<menuitem
-			label="${wtb:l('stitchPopup.Delete')}" />
-		<menuseparator />
-	</menupopup>
-</zk>

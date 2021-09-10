@@ -1,8 +1,0 @@
-<div id="WizardNorthArea">
-	<label id="errorLabel" style="padding:10px " value="${c:l('addLinks.errorlabel')}!" visible="false" />
-	<label id="busyMsg" visible="false" value="${c:l('addLinks.msg.search.busy')}" />
-	<hbox align="center" id="scopePanel" spacing="0" style="padding:10px 0px 10px 10px">
-		<label value="${c:l('addLinks.scope')}" />
-		<button id="root" label="${c:l('addLinks.root')}" forward="onClick=onSetScope" sclass="asg-button" />
-	</hbox>
-</div>
