@@ -1,9 +1,0 @@
-﻿# Rochade Business Package - Message file
-# This is an UTF-8 endcoded file!
-#
-# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
-#-------------------------------------------------------
-GDPPIAndPIStructureBaseQuery.errorRunningQuery=Error running query
-Qualifying_Implementing=Implementing
-Qualifying_Detected=Detected
-Qualifying_Cascaded=Cascaded

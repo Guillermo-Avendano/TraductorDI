@@ -83,6 +83,7 @@ public class Traductor {
 		
 	  Properties propiedades = new Properties();
 	  
+	  
 	  String archProp = new java.io.File( "." ).getCanonicalPath() + "/bin/traductor" + trExtension + ".properties" ;
 		   
 	  if (!(new java.io.File(archProp)).exists()) 
@@ -107,8 +108,8 @@ public class Traductor {
 		  dbPass = "";
 	  
 	  trMsgTr = propiedades.getProperty("tr.msg.tr");
-	  
-      if (trExtension == null)
+
+      if (trExtension == null) 
     	  trExtension = propiedades.getProperty("tr.extension");
 	  
 	  String escape = propiedades.getProperty("tr.escape");
@@ -288,21 +289,26 @@ public class Traductor {
 			String linea= reader.readLine();
 			    	
 			Boolean incluyeEnSalida;
+			int langMsg = 1;
 	    	
 			while(linea != null) {
 
 				incluyeEnSalida = Boolean.FALSE;
 				
-				if ( linea.trim().startsWith("#") &&
-					 linea.contains("Version") )  {
-					
+				if (langMsg == 0) {
 					DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
 					Date date = new Date();
 					
-				     linea = linea + " | Language: " + trMsgTr + " - Updated: " + dateFormat.format(date);
-				} else
-					 if (linea.replaceAll(" ","").indexOf("#LastUpdate") >= 0)
-					     linea = "#";
+				     linea = linea + " Language: " + trMsgTr + " - Updated: " + dateFormat.format(date);
+				     langMsg = langMsg - 1;
+				}
+				
+				
+				if ( linea.trim().startsWith("#") && linea.contains("Copyright") )
+					// La primera vez se convertira en 0, 
+					// Si encuentra otro 'Copyright' en el archivo sera menor que 0 y nunca entrara en el IF previo
+					langMsg = langMsg - 1;
+				
 				
 				if (linea.indexOf("=") >=0 && !linea.endsWith(".png") && !linea.endsWith(".gif") && !linea.endsWith(".css")  ) {
 					
@@ -312,7 +318,7 @@ public class Traductor {
 					if (txIngles.length()== 0) {
 
 						incluyeEnSalida = Boolean.TRUE;
-				    	cambios.write(dirOrigen + "#@#" + linea + "#@# #@#");
+				    	cambios.write(dirOrigen + separador + linea + separador + " " + separador);
 				    	cambios.newLine();
 					}
 					else {
@@ -326,7 +332,7 @@ public class Traductor {
 					    	linea=linea.substring(0,linea.indexOf("=") + 1).concat(txtTraducido);
 					    	incluyeEnSalida = Boolean.TRUE;
 					    	
-					    	cambios.write(dirOrigen + "#@#" + linea.substring(0,linea.indexOf("=") + 1) + "#@#" + txInglesOri + "#@#" + txtTraducido);
+					    	cambios.write(dirOrigen + separador + linea.substring(0,linea.indexOf("=") + 1) + separador + txInglesOri + separador + txtTraducido);
 					    	cambios.newLine();
 					    	
 						    traduccion.write(txInglesOri + separador + txtTraducido);
@@ -335,7 +341,7 @@ public class Traductor {
 					    } else {
 					    	if(txIngles.trim().length()>0) {
 					    		incluyeEnSalida = Boolean.TRUE;
-					    		cambios.write(dirOrigen + "#@#" + linea.substring(0,linea.indexOf("=") + 1) + "#@#" + txInglesOri + "#@#" + txInglesOri);
+					    		cambios.write(dirOrigen + separador + linea.substring(0,linea.indexOf("=") + 1) + separador + txInglesOri + separador + txInglesOri);
 					    		cambios.newLine();
 					    		sinTraducir.write(txIngles);
 						    	sinTraducir.newLine();
@@ -908,7 +914,7 @@ public class Traductor {
 					 System.out.println("Error - Language NULL, or it has more than 5 characters.");
 				     System.exit(0);
 				 }
-				 trExtension = "_".concat(lenguaje.toLowerCase());
+				 trExtension = "_".concat(lenguaje);
 			 }
 		 }
 		 

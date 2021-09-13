@@ -1,8 +1,0 @@
-﻿# Rochade Stitching - Message file
-# This is an UTF-8 endcoded file!
-#
-#  Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
-#
-#-------------------------------------------------------
-STIWarningMessage=Alerta
-STINoItemsOfType=There are no contexts of type {0} for current element. Please select other type.

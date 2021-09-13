@@ -1,0 +1,81 @@
+CDE Profile Overview
+Select Business Context:
+All
+Total CDE analyzed
+No Business Linkage
+No LDM Linkage
+No PDM Linkage
+No Operational Linkage
+Type inconsistency
+Optional/Null inconsistency
+Isolated
+With Issues
+Without Issues
+Overview
+Distribution of issues across categories
+Critical Data Elements for Category: {0} (Context: {1})
+Business Rule
+Business Context
+Critical Data Element
+Policy
+Process
+Standard
+Comparison Result
+Profiling Result
+Business Item
+Custom Business Item
+Custom Timed Business Item
+Result of compare
+Compare operation
+Compare date
+Profiling date
+Description (legacy)
+Has Business Rule
+Has CDE
+Has Custom Business Item
+Has Policy
+Has Process
+Has Standard
+Measurement
+Historical data requirements
+Other information
+Review frequency
+Background
+Applies to
+Implemented by
+Business Rule type
+Business Term type
+Relates to Business Rule
+Relates to Business Term
+Relates to Critical Data Element
+Defined by
+Implemented in
+Modeled as
+External documents
+CDE type
+End date
+Is active
+Is confidential
+Other type
+Applies to
+Implemented in
+Policy type
+Relates to business application
+Relates to Business Term
+Relates to Critical Data Element
+Preferred source
+Process type
+Purpose
+Rationale
+Regulatory guidelines
+Requirements
+Profile result data
+Standard type
+Start date
+Related to Policy
+Relates to Process
+Tier
+Refers to other Business Types
+Update frequency / Timeliness
+Usage guidelines
+Profiled version

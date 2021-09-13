@@ -1,0 +1,27 @@
+﻿# Rochade Platform - Message file
+# This is an UTF-8 encoded file!
+#
+# Copyright (c) 1983-2021 ASG GmbH & Co. KG, a wholly owned subsidiary of ASG Technologies Group, Inc. All rights reserved.
+# Language: Portugués Brazil - Updated: 2021/09/13 09:13:13
+#-------------------------------------------------------
+# Categories
+bp_cdeprofilesmetrics.name=CDE Profile Overview
+bp_cdeprofilesmetrics.select=Select Business Context:
+bp_cdeprofilesmetrics.profiles.all=All
+bp_cdeprofilesmetrics.profiles.used.cdes=Total CDE analyzed
+bp_cdeprofilesmetrics.profiles.linkage.business=No Business Linkage
+bp_cdeprofilesmetrics.profiles.linkage.ldm=No LDM Linkage
+bp_cdeprofilesmetrics.profiles.linkage.pdm=No PDM Linkage
+bp_cdeprofilesmetrics.profiles.linkage.op=No Operational Linkage
+bp_cdeprofilesmetrics.profiles.linkage.data=Type inconsistency
+bp_cdeprofilesmetrics.profiles.optionality=Optional/Null inconsistency
+bp_cdeprofilesmetrics.profiles.lineage=Isolated
+bp_cdeprofilesmetrics.profiles.with.issues=With Issues
+bp_cdeprofilesmetrics.profiles.without.issues=Without Issues
+
+# Labels
+bp_cdeprofilesmetrics.lbl.mode.general=Overview
+bp_cdeprofilesmetrics.lbl.mode.detailed=Distribution of issues across categories
+
+#Titles
+bp_cdeprofilesmetrics.title.listview=Critical Data Elements for Category: {0} (Context: {1})
